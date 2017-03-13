@@ -1,0 +1,1 @@
+alert(window.document.body.div.id="htmlcss")
