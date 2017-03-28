@@ -2,14 +2,13 @@
     НАВИГАЦИЯ
 \*------------------------------------*/
 .nav{
-    font-size: 18px;
     float:left;
-    width:90%;
+    width:80%;
     list-style:none;
     font-weight:bold;
     margin-top: 0px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-bottom:10px;
 }
 .nav li{

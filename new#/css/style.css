@@ -1,7 +1,9 @@
 body{
 	background:#ccccff;
+	background-size: cover;
 	padding: 3px;
 	margin: 3px;
+	font-family: 'Indie Flower', cursive, serif;
 }
 
 h1, h2,
@@ -31,7 +33,6 @@ h1{
 	margin-left: 10px;
 	margin-bottom: 2px;
 	float: left;
-	font-family: 'Indie Flower', cursive, serif;
 }
 
 
@@ -66,5 +67,4 @@ h1{
 	margin-top: 5px;
 	margin-left: 10px;
 	margin-bottom: 2px;
-	font-family: 'Indie Flower', cursive, serif;
 }
