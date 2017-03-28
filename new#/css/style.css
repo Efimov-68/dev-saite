@@ -1,0 +1,70 @@
+body{
+	background:#ccccff;
+	padding: 3px;
+	margin: 3px;
+}
+
+h1, h2,
+h3, h4,
+h5, h6{
+	
+	
+}
+
+.history{
+	border-width:1px;
+	border-style: ridge;
+	border-radius: 10px;
+	box-shadow: 0px 0px 3px black;
+	padding: 10px;
+	margin: 10px;
+	line-height: 1.3em;
+	width: 20%;
+	float: left; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+}
+
+h1{
+	font-size: 3em;
+	background-image: url(./images/banner-1.png);
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-bottom: 2px;
+	float: left;
+	font-family: 'Indie Flower', cursive, serif;
+}
+
+
+.i-1{
+	text-shadow: 5px -3px 6px black;
+	color: #ffff00;
+}
+.i-2{
+	text-shadow: 5px -3px 6px black;
+	color:#ff0080; 
+}
+.i-3{
+	text-shadow: 5px -3px 6px black;
+	color:#ff8000;
+}
+.i-4{
+	text-shadow: 5px -3px 6px black;
+	color:#00ff00;
+}
+
+.tr{
+	border-bottom: 1px solid black; 
+	border-left: 1px solid black; 
+	border-right: 1px solid black;
+}
+.portfolio{
+	font-size: 1.3em;
+	text-align: center;
+	color: #00ff00;
+	text-shadow: 3px -1px 3px black;
+	background-image: url(./images/banner-1.png);
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-bottom: 2px;
+	font-family: 'Indie Flower', cursive, serif;
+}
