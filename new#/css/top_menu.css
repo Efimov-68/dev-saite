@@ -2,14 +2,12 @@
     НАВИГАЦИЯ
 \*------------------------------------*/
 .nav{
-    font-size:;
-    float:left;
+    float:center;
     width:50%;
     list-style:none;
     font-weight:bold;
-    margin-top: 0px;
-    margin-left: 25%;
-    margin-right: 25%;
+    /*margin-left: 25%;
+    margin-right: 25%;*/
     margin-bottom:10px;
 }
 .nav li{
@@ -21,7 +19,7 @@
 .nav li a{
     display:block;
     padding:5px;
-    color:#ff8000;
+    color:#000000;
     background:#ccccff rgba(0, 0, 0, 0.50);
     text-decoration:none;
     text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
@@ -44,7 +42,7 @@
     -webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
 }
 .nav ul li{
-    padding-top:1px; /* Вводим отступ между li чтобы создать иллюзию разделенных пунктов меню */
+    padding-top:5px; /* Вводим отступ между li чтобы создать иллюзию разделенных пунктов меню */
     float:none;
     background:url(dot.gif);
 }
@@ -53,22 +51,22 @@
     display:block;
 }
 .nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
-    left:-50%; /* Приносим его обратно на экран, когда нужно */
+    left:-30%; /* Приносим его обратно на экран, когда нужно */
     opacity:1; /* Делаем непрозрачным */
 }
 .nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
     background:#00004d;
-    background:rgba(0, 0, 0, 0.50); /* Выглядит полупрозрачным */
-    text-decoration:underline;
+    background:rgba(255, 0, 0, 0.70); /* Выглядит полупрозрачным */
+    text-decoration:none;
+    border-radius: 25px;
 }
 .nav li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
     text-decoration:none;
     -webkit-transition:-webkit-transform 0.075s linear;
 }
 .nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
-    background:rgba(0, 0, 0, 0.50);
-    background:rgba(0, 0, 0, 0.50);/*rgba(0, 128, 255, 0.75)*/; /* Будет полупрозрачным */
+    background:rgba(0, 0, 0, 0.60);/* Будет полупрозрачным */
     text-decoration:underline;
-    -moz-transform:scale(1.05);
-    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.18);
+    -webkit-transform:scale(1.18);
 }
