@@ -1,16 +1,11 @@
 body{
-	background:#ccccff;
+	background: #5c5c8a;
 	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	padding: 3px;
 	margin: 3px;
-	font-family: 'Indie Flower', cursive, serif;
-}
-
-h1, h2,
-h3, h4,
-h5, h6{
-	
-	
+	font-family: Arial, serif;
 }
 
 .history{
@@ -27,30 +22,35 @@ h5, h6{
 }
 
 h1{
-	font-size: 3em;
-	background-image: url(./images/banner-1.png);
+	font-size: 2em;
+	text-align: left;
 	margin-top: 5px;
 	margin-left: 10px;
 	margin-bottom: 2px;
-	float: left;
+	font-family: 'Press Start 2P', cursive;
 }
 
-
-.i-1{
-	text-shadow: 5px -3px 6px black;
-	color: #ffff00;
-}
-.i-2{
-	text-shadow: 5px -3px 6px black;
-	color:#ff0080; 
-}
-.i-3{
-	text-shadow: 5px -3px 6px black;
+li{
+	line-height: 1.5em;
 	color:#ff8000;
+
 }
-.i-4{
-	text-shadow: 5px -3px 6px black;
+
+.yellow{
+	color: #ffff00;
+	text-shadow: 1px -1px 3px black;
+}
+.pink{
+	color:#ff0080; 
+	text-shadow: 1px -1px 3px black;
+}
+.orange{
+	color:#ff8000;
+	text-shadow: 2px -1px 3px black;
+}
+.lightgreen{
 	color:#00ff00;
+	text-shadow: 2px -1px 3px black;
 }
 
 .tr{
@@ -63,8 +63,45 @@ h1{
 	text-align: center;
 	color: #00ff00;
 	text-shadow: 3px -1px 3px black;
-	background-image: url(./images/banner-1.png);
 	margin-top: 5px;
 	margin-left: 10px;
 	margin-bottom: 2px;
+}
+
+.faq{
+	background: #5c5c8a;
+	border:1px ridge white;
+	box-shadow: 0 0 3px black;
+	margin: 5%;
+	padding: 5%;
+}
+
+h2, h3{
+	text-align: center;
+}
+
+footer{
+	text-align: right;
+	margin:10px;
+	padding: 10px;
+}
+
+.fon{
+	border:1px ridge black;
+	box-shadow: 0 0 10px white;
+	padding: 5%;
+	margin: 5%;
+	color:#ff8000;
+	text-shadow: 1px -2px 1px black;
+}
+
+.block{
+	border: 1px solid black;
+	margin: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	float: left;
+	width: 45%;
+	box-shadow: 0 0 10px cyan;
 }

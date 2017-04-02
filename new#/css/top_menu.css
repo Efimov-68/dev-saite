@@ -2,13 +2,14 @@
     НАВИГАЦИЯ
 \*------------------------------------*/
 .nav{
+    font-size:;
     float:left;
-    width:80%;
+    width:50%;
     list-style:none;
     font-weight:bold;
     margin-top: 0px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom:10px;
 }
 .nav li{
@@ -52,12 +53,12 @@
     display:block;
 }
 .nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
-    left:0; /* Приносим его обратно на экран, когда нужно */
+    left:-50%; /* Приносим его обратно на экран, когда нужно */
     opacity:1; /* Делаем непрозрачным */
 }
 .nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
     background:#00004d;
-    background:rgba(0, 0, 77, 0.75); /* Выглядит полупрозрачным */
+    background:rgba(0, 0, 0, 0.50); /* Выглядит полупрозрачным */
     text-decoration:underline;
 }
 .nav li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
@@ -65,8 +66,8 @@
     -webkit-transition:-webkit-transform 0.075s linear;
 }
 .nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
-    background:#0080ff;
-    background:rgba(0, 128, 255, 0.75); /* Будет полупрозрачным */
+    background:rgba(0, 0, 0, 0.50);
+    background:rgba(0, 0, 0, 0.50);/*rgba(0, 128, 255, 0.75)*/; /* Будет полупрозрачным */
     text-decoration:underline;
     -moz-transform:scale(1.05);
     -webkit-transform:scale(1.05);
