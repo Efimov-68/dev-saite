@@ -2,7 +2,7 @@
     НАВИГАЦИЯ
 \*------------------------------------*/
 .nav{
-    float:center;
+    float:left;
     width:50%;
     list-style:none;
     font-weight:bold;
@@ -19,8 +19,8 @@
 .nav li a{
     display:block;
     padding:5px;
-    color:#000000;
-    background:#ccccff rgba(0, 0, 0, 0.50);
+    color:#ff8000;
+    background:#ccccff rgba(0, 0, 0, 0.70);
     text-decoration:none;
     text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
     -moz-border-radius:2px;
@@ -28,7 +28,7 @@
     border-radius:2px;
 }
 .nav li a:hover{
-    color:#fff;
+    color:white;
     background:#b3d9ff;
     background:rgba(107,12,54,0.75); /* Выглядит полупрозрачным */
     text-decoration:underline;
@@ -56,7 +56,7 @@
 }
 .nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
     background:#00004d;
-    background:rgba(255, 0, 0, 0.70); /* Выглядит полупрозрачным */
+    background:rgba(0, 0, 0, 0.70); /* Выглядит полупрозрачным */
     text-decoration:none;
     border-radius: 25px;
 }
@@ -65,8 +65,8 @@
     -webkit-transition:-webkit-transform 0.075s linear;
 }
 .nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
-    background:rgba(0, 0, 0, 0.60);/* Будет полупрозрачным */
+    background:rgba(0, 0, 0, 0.50);/* Будет полупрозрачным */
     text-decoration:underline;
-    -moz-transform:scale(1.18);
-    -webkit-transform:scale(1.18);
+    -moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }

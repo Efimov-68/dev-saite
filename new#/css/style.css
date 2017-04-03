@@ -1,5 +1,5 @@
 body{
-	background: #5c5c8a;
+	background: #ffffcc;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -32,8 +32,6 @@ h1{
 
 li{
 	line-height: 1.5em;
-	color:#ff8000;
-
 }
 
 .yellow{
@@ -103,5 +101,5 @@ footer{
 	padding: 5px;
 	float: left;
 	width: 45%;
-	box-shadow: 0 0 10px cyan;
+	box-shadow: 0 0 10px black;
 }
