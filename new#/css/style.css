@@ -3,26 +3,14 @@ body{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	padding: 3px;
-	margin: 3px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	font-family: Arial, serif;
-}
-
-.history{
-	border-width:1px;
-	border-style: ridge;
-	border-radius: 10px;
-	box-shadow: 0px 0px 3px black;
-	padding: 10px;
-	margin: 10px;
-	line-height: 1.3em;
-	width: 20%;
-	float: left; /* Выравнивание по правому краю  */ 
-    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+	font-size: 14px;
 }
 
 h1{
-	font-size: 3em;
+	font-size: 3.5em;
 	text-align: left;
 	margin-top: 5px;
 	margin-left: 10px;
@@ -34,48 +22,11 @@ li{
 	line-height: 1.5em;
 }
 
-.yellow{
-	color: #ffff00;
-	text-shadow: 1px -1px 3px black;
-}
-.pink{
-	color:#ff0080; 
-	text-shadow: 1px -1px 3px black;
-}
-.orange{
-	color:#ff8000;
-	text-shadow: 2px -1px 3px black;
-}
-.lightgreen{
-	color:#00ff00;
-	text-shadow: 2px -1px 3px black;
-}
-
-.tr{
-	border-bottom: 1px solid black; 
-	border-left: 1px solid black; 
-	border-right: 1px solid black;
-}
-.portfolio{
-	font-size: 1.3em;
-	text-align: center;
-	color: #00ff00;
-	text-shadow: 3px -1px 3px black;
-	margin-top: 5px;
-	margin-left: 10px;
-	margin-bottom: 2px;
-}
-
-.faq{
-	background: #5c5c8a;
-	border:1px ridge white;
-	box-shadow: 0 0 3px black;
-	margin: 5%;
-	padding: 5%;
-}
 
 h2, h3{
+	color: #ff8000;
 	text-align: center;
+	text-shadow: 1px 1px 1px black;
 }
 
 footer{
@@ -84,22 +35,26 @@ footer{
 	padding: 10px;
 }
 
-.fon{
-	border:1px ridge black;
-	box-shadow: 0 0 10px white;
-	padding: 5%;
-	margin: 5%;
-	color:#ff8000;
-	text-shadow: 1px -1px 1px black;
+p{
+	line-height: 1.3em;
+	padding: 15px;
 }
 
-.block{
-	border: 1px solid black;
-	margin: 5px;
-	margin-left: 10px;
-	margin-right: 10px;
-	padding: 5px;
-	float: left;
-	width: 45%;
-	box-shadow: 0 0 10px black;
+label, input, button{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+label{
+	color: #ff8000;
+	text-shadow: 1px 1px 1px black;
+	font-size: 16px;
+}
+
+button{
+	box-shadow: 0 0 10px blue;
+	border-radius: 10px;
+	height: 30px;
+	font-size: 16px;
 }
