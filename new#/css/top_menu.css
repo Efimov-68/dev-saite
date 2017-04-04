@@ -2,7 +2,7 @@
     НАВИГАЦИЯ
 \*------------------------------------*/
 .nav{
-    font-size: 14px;
+    font-size: 15px;
     float:left;
     text-align: center;
     list-style:none;
@@ -59,7 +59,7 @@
 }
 .nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
     /*background:#00004d;*/
-    background:rgba(0, 0, 0, 0.50); /* Выглядит полупрозрачным */
+    background:rgba(0, 0, 0, 0.70); /* Выглядит полупрозрачным */
     text-decoration:none;
     border-radius: 20px;
     box-shadow: 0px 0px 5px cyan;
@@ -70,7 +70,7 @@
     -webkit-transition:-webkit-transform 0.075s linear;
 }
 .nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
-    background:rgba(0, 0, 0, 0.50);/* Будет полупрозрачным */
+    background:rgba(0, 0, 0, 0.40);/* Будет полупрозрачным */
     text-decoration:underline;
     -moz-transform:scale(1.10);
     -webkit-transform:scale(1.10);
