@@ -5,7 +5,12 @@ body{
 	font-family: Arial, serif;
 }
 
-h1, h2{
+header h1{
+	color: white;
+	text-shadow: 2px 0px 1px white;
+}
+
+h2{
 	text-shadow: 1px 1px 1px white;
 }
 
@@ -90,3 +95,8 @@ button{
 	border-radius: 10px;
 	box-shadow: 0 0 20px cyan;
 }
+
+a:hover{
+	text-shadow: 0 0 10px cyan;
+}
+

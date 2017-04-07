@@ -12,11 +12,12 @@ body{
 h1{
 	font-size: 3.5em;
 	text-align: left;
-	padding: 20px;
+	padding: 10px;
 	margin-top: 5px;
-	margin-left: 10px;
+	margin-left: 5px;
 	margin-bottom: 2px;
 	font-family: 'Press Start 2P', cursive;
+	text-shadow: 1px 1px 1px black;
 }
 
 li{
@@ -31,6 +32,9 @@ h2, h3{
 }
 
 footer{
+	border: 1px solid black;
+	box-shadow: 0 0 10px black;
+	height: 50px;
 	text-align: right;
 	margin:10px;
 	padding: 10px;
