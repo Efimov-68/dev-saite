@@ -1,7 +1,7 @@
 body{
 	background: black;
 	color: white;
-		text-shadow: 1px 1px 1px white;
+	text-shadow: 1px 1px 1px white;
 	font-family: Arial, serif;
 }
 
@@ -100,3 +100,11 @@ a:hover{
 	text-shadow: 0 0 10px cyan;
 }
 
+#contacts{
+	float: left;
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+	padding: 20px;
+	line-height: 1.5em;
+}

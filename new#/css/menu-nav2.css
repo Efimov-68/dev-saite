@@ -9,26 +9,27 @@
     font-weight:bold;
     line-height: 1.3em;
     margin-right: 2px;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-left: 6px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     padding: 10px;
 }
 .nav li{
     float:left;
-    margin-right:10px;
+    margin-right:5px;
     position:relative;
     display:block;
 }
 .nav li a{
     display:block;
-    color:#000000;
-    background:white/*rgba(255, 0, 0, 0.70)*/;
+    color:white;
+    background:black;
     text-decoration:none;
-    text-shadow:1px 1px 1px rgba(0,0,0,0.50); /* Тень текста, чтобы приподнять его на немного */
+    /*text-shadow:1px 1px 1px rgba(0,0,0,0.50); /* Тень текста, чтобы приподнять его на немного */
     -moz-border-radius:2px;
     -webkit-border-radius:2px;
     border-radius:10px;
+    border-color: white;
     border-style: outset;
     padding: 0.10em;
 }

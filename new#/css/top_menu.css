@@ -22,9 +22,9 @@
 .nav li a{
     display:block;
     color:#ff8000;
-    background:white/*rgba(255, 0, 0, 0.70)*/;
+    background:#ffffcc/*rgba(255, 0, 0, 0.70)*/;
     text-decoration:none;
-    text-shadow:1px 1px 1px rgba(0,0,0,0.50); /* Тень текста, чтобы приподнять его на немного */
+    text-shadow:1px 1px 1px black;/*rgba(0,0,0,0.50); /* Тень текста, чтобы приподнять его на немного */
     -moz-border-radius:2px;
     -webkit-border-radius:2px;
     border-radius:10px;
@@ -60,7 +60,7 @@
     opacity:1; /* Делаем непрозрачным */
 }
 .nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
-    background:rgba(0, 0, 0, 0.70); /* Выглядит полупрозрачным */
+    background:#ffffcc;/*rgba(0, 0, 0, 0.70); /* Выглядит полупрозрачным */
     text-decoration:none;
     border-radius: 10px;
     box-shadow: 0px 0px 5px cyan;

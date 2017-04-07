@@ -7,19 +7,18 @@
 	<title>Главная Программистик</title>
 </head>
 <body link="" alink="" vlink="">
-	<header>
+	<header id="top">
 		<h1>Программистик</h1>
-		<ul style="float: left;background-color: grey; border: 1px solid white; padding: 20px; line-height: 1.5em; box-shadow: 0 0 10px white; position: fixed;">
-			<li><a href="">Вверх</a></li>
-			<li><a href="">Выбор языка</a></li>
-			<li><a href="">Портфолио</a></li>
+		<ul style="float: left;background-color: grey; border: 1px solid white; padding: 20px; line-height: 1.5em; box-shadow: 0 0 10px white; position: fixed;margin-left: 10px;">
+			<li><a href="#top">В начало</a></li>
 			<li><a href="">Наша команда</a></li>
 			<li><a href="">Расписание</a></li>
 			<li><a href="">Вопросы и ответы</a></li>
 			<li><a href="">Бонус</a></li>
-			<li><a href="">Контакты</a></li>
+			<li><a href="#portfolio">Портфолио</a></li>
+			<li><a href="#contacts">Контакты</a></li>
 		</ul>
-		<div style="background-color: grey; float: right; width: 10%; position: fixed; right: 0px; bottom: 22%; top: 73px;">
+		<div style="background-color: grey; float: right; width: 10%; position: fixed; right: 0px; bottom: 26%; top: 73px;">
 			<ul class="nav">
 				<li><a href="#Scratch">Scratch</a></li>
 				<li><a href="#Python">Python</a></li>
@@ -209,19 +208,27 @@
 			<br/>
 			<label for="number">Телефон:</label>
 			<br/>
-			<input class="input" type="phone" name="number" tabindex="2" pattern="2-[0-9]{3}-[0-9]{3}" placeholder=" +7(xxx)xxx-xx-xx">
+			<input class="input" type="phone" name="number" tabindex="2" pattern="2-[0-9]{3}-[0-9]{3}" placeholder=" +7(9xx)xxx-xx-xx">
 			<br/>
 			<label for="e-mail address">E-mail:</label>
 			<br/>
-			<input class="input" type="text" name="e-mail address" tabindex="3" required autocomplete="on" placeholder=" support@gmail.com" size="30%"/>
+			<input class="input" type="text" name="e-mail address" tabindex="3" required autocomplete="on" placeholder=" office@gmail.com" size="30%"/>
 			<br/>
 			<button>Отправить</button>
 		</form>
 	</div>
-	<div align="center">
-		<img src="IMG_20170308_210314.jpg" class="images" alt="1">
-		<img src="IMG_20170308_210314.jpg" class="images" alt="2">
+	<div align="center" id="portfolio">
+		<img src="web.jpg" class="images" alt="1">
+		<img src="web1.jpg" class="images" alt="2">
 		<img src="IMG_20170308_210314.jpg" class="images" alt="3">
+	</div>
+	<div id="contacts">
+		<h3 align="center">Контакты</h3>
+		<ul>
+			<li>Адрес: г. Москва, ул. дом № стр. № офис № ;</li>
+			<li>Телефон: +7(49х)ххх-хх-хх; +7(9xx)xxx-xx-xx;</li>
+			<li>E-mail:office@pochta.ru</li>
+		</ul>
 	</div>
 	<footer>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
