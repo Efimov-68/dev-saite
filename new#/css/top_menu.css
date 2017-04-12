@@ -8,8 +8,8 @@
     list-style:none;
     font-weight:bold;
     padding: 15px;
-    margin-left: 25%;
-    margin-right: 15%;
+    margin-left: 27%;
+    margin-right: 10%;
     margin-bottom:30px;
     top: 2px;
 }
@@ -24,7 +24,7 @@
     color:#ff8000;
     background:#ffffcc/*rgba(255, 0, 0, 0.70)*/;
     text-decoration:none;
-    text-shadow:1px 1px 1px black;/*rgba(0,0,0,0.50); /* Тень текста, чтобы приподнять его на немного */
+    text-shadow:0px 0px 1px white;/*rgba(0,0,0,0.50); /* Тень текста, чтобы приподнять его на немного */
     -moz-border-radius:2px;
     -webkit-border-radius:2px;
     border-radius:10px;
@@ -33,7 +33,7 @@
     padding: 0.10em;
 }
 .nav li a:hover{
-    color:white;
+    color:black;
     background:#b3d9ff;
     background:rgba(107,12,54,0.75); /* Выглядит полупрозрачным */
     text-decoration:underline;
@@ -56,7 +56,7 @@
     display:block;
 }
 .nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
-    left: -5%;/* Приносим его обратно на экран, когда нужно */
+    left: 0%;/* Приносим его обратно на экран, когда нужно */
     opacity:1; /* Делаем непрозрачным */
 }
 .nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
