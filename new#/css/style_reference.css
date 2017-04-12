@@ -1,0 +1,103 @@
+body{
+	background: black;
+	color: white;
+	text-shadow: 1px 1px 1px white;
+	font-family: Arial, serif;
+}
+
+header h1{
+	color: white;
+	text-shadow: 2px 0px 1px white;
+}
+
+h2{
+	text-shadow: 1px 1px 1px white;
+}
+
+p{
+	text-shadow: 1px 1px 1px white;
+}
+
+li{
+	list-style-type: none;
+}
+
+div{
+	float: left; 
+	border: 1px solid white; 
+	width: 63%; 
+	padding: 20px; 
+	margin: 20px;
+	margin-left: 17%; 
+	box-shadow: 0 0 10px white;
+	line-height: 1.3em;
+}
+
+footer{
+	border: 1px solid white;
+	float: left;
+	box-shadow: 0 0 10px white;
+	margin: 10px;
+	padding: 10px;
+	line-height: 1.5em;
+	bottom: 0px;
+	width: auto;
+	height: auto;
+}
+
+.regform{
+	text-align: center;
+	line-height: 1.5em;
+	border:1px solid white;
+	width: 30%;
+	box-shadow: 0 0 10px white;
+	padding: 20px;
+	margin:20px;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.input{
+	box-shadow: 0 0 5px white;
+	border-radius: 20px;
+	height: 24px;
+	font-size: 16px;
+}
+
+label{
+	color: white;
+	text-shadow: 1px 1px 1px white;
+	font-size: 16px;
+}
+
+button{
+	background-color: blue;
+	box-shadow: 0 0 10px blue;
+	border-radius: 30px;
+	margin: 10px;
+	height: 30px;
+	font-size: 16px;
+	color: white;
+	text-shadow: 1px 1px 1px white;
+}
+
+.images{
+	width: 170px;
+	height: 200px;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px cyan;
+}
+
+a:hover{
+	text-shadow: 0 0 10px cyan;
+}
+
+#contacts{
+	float: left;
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+	padding: 20px;
+	line-height: 1.5em;
+}
