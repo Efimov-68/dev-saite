@@ -71,7 +71,7 @@
     -webkit-transition:-webkit-transform 0.075s linear;
 }
 .nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
-    background:rgba(0, 0, 0, 0.40);/* Будет полупрозрачным */
+    background:rgba(255, 255, 204, 0.70);/* Будет полупрозрачным */
     text-decoration:underline;
     -moz-transform:scale(1.10);
     -webkit-transform:scale(1.10);
