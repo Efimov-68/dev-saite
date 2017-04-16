@@ -1,31 +1,31 @@
 body{
-	background: ;
+	background: white;
 }
 
 header{
-	background: lightblue;
-	background-size: 200px;
+	background: lightblue url(./images/ios-8-apple-iphone-kosmos.jpg);
+	background-repeat: no-repeat;
 	height: 100px;
+	width: 910px;
 }
 
 h1{
+	color: white;
 	text-align: center;
-	padding-top: 30px;
+	text-shadow: 1px 1px 1px black;
+	padding-top: 10px;
 }
 
 table{
-	padding: 5px;
-	width: 950px;
+	width: 910px;
 }
 
 td{
 	background: yellow;
 	border: 1px outset white;
 	box-shadow: 1px 1px 1px black;
-	padding: 5px;
 	text-align: center;
+	padding: 5px;
 }
 
-#top-nav{
 
-}
