@@ -1,31 +1,104 @@
 body{
-	background: white;
+	background: url(../images/img1.jpg) no-repeat white;
+	background-size: 1500px 1200px;
+	line-height: 1.3em;
 }
 
 header{
-	background: lightblue url(./images/ios-8-apple-iphone-kosmos.jpg);
-	background-repeat: no-repeat;
-	height: 100px;
-	width: 910px;
+	
 }
 
 h1{
+	background-color: lightblue;
+	background-size: 3000px 300px;
 	color: white;
-	text-align: center;
+	text-align: left;
 	text-shadow: 1px 1px 1px black;
-	padding-top: 10px;
+	padding: 10px;
+	margin: 5px;
 }
 
-table{
-	width: 910px;
-}
-
-td{
-	background: yellow;
-	border: 1px outset white;
-	box-shadow: 1px 1px 1px black;
+h2, h3{
 	text-align: center;
-	padding: 5px;
 }
 
+h4{
+	text-align: left;
+}
 
+p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.block{
+	border: 1px solid black;
+	margin: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+footer{
+	border:1px solid black;
+	padding: 5px;
+	bottom: 0px;
+	font-size: 12px;
+}
+
+/*------------------------------------*\
+    НАВИГАЦИЯ
+\*------------------------------------*/
+.nav{
+    font-size: 12px;
+    float:left;
+    text-align: center;
+    list-style:none;
+    font-weight:bold;
+    padding: 0px;
+    margin: -40px;
+    margin-left: 22%;
+    margin-right: 13%;
+    position: fixed;
+}
+.nav li{
+    float:left;
+    margin-right:10px;
+    position:relative;
+    display:block;
+}
+.nav li a{
+    display:block;
+    color:black;
+    background:lightblue/*rgba(255, 0, 0, 0.70)*/;
+    text-decoration:none;
+    text-shadow:0px 0px 1px lightblue;/*rgba(0,0,0,0.50); /* Тень текста, чтобы приподнять его на немного */
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-color: ;
+    border-style: solid;
+    padding: 0.10em;
+}
+.nav li a:hover{
+    color:white;
+    background:#b3d9ff;
+    background:rgba(107,12,54,0.75); /* Выглядит полупрозрачным */
+    text-decoration:underline;
+}
+.nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
+    background:blue;/*rgba(0, 0, 0, 0.70); /* Выглядит полупрозрачным */
+    text-decoration:none;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px cyan;
+    border-color: white;
+    border-style: solid;
+}
+.nav li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
+    text-decoration:none;
+    -webkit-transition:-webkit-transform 0.075s linear;
+}
+.nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
+    background:rgba(255, 255, 204, 0.70);/* Будет полупрозрачным */
+    text-decoration:underline;
+    -moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
+}
