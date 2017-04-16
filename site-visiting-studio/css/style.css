@@ -2,17 +2,30 @@ body{
 	background: ;
 }
 
+header{
+	background: lightblue;
+	background-size: 200px;
+	height: 100px;
+}
+
 h1{
 	text-align: center;
+	padding-top: 30px;
 }
 
 table{
-	border: 1px solid black;
 	padding: 5px;
 	width: 950px;
 }
 
 td{
-	border: 1px solid black;
+	background: yellow;
+	border: 1px outset white;
+	box-shadow: 1px 1px 1px black;
 	padding: 5px;
+	text-align: center;
+}
+
+#top-nav{
+
 }
