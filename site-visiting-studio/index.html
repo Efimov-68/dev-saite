@@ -101,12 +101,12 @@
 	</div>
 	<div class="block" style="background: lightblue; height: 200px;">
 		<h2>Оставьте заявку и мы Вам перезвоним.</h2>
-		<form id="feedback" action="" type="GET">
-			<label for="name">Контактное лицо:</label>
-			<input type="text" name="Ф.И.О." title="Ф.И.О." tabindex="0" placeholder=" Ф.И.О.">
+		<form id="feedback" action="./form/post.php" type="POST">
+			<label for="fio">Контактное лицо:</label>
+			<input type="text" name="fio" title="Ф.И.О." tabindex="0" placeholder=" Ф.И.О." required>
 			<label for="number">Телефон:</label>
-			<input type="phone" name="Телефон" tabindex="1" pattern="2-[0-9]{3}-[0-9]{3}" placeholder=" +7(xxx)xxx-xx-xx" title="Телефон"><br>
-			<button>Отправить</button>
+			<input type="phone" name="number" tabindex="1" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" placeholder="xxxxxxxxxx" title="Телефон" required><br><br>
+			<input type="submit" value="Отправить">
 		</form>
 	</div>
 	<footer>
