@@ -1,16 +1,15 @@
 body{
-	background: url(../images/img1.jpg) no-repeat white;
-	background-size: 1500px 1200px;
+	font-family: Arial;
 	line-height: 1.3em;
 }
 
 header{
-	
+	background: url(../images/logo.png) no-repeat white;
+	background-color:lightblue;
+	height: 115px; 
 }
 
 h1{
-	background-color: lightblue;
-	background-size: 3000px 300px;
 	color: white;
 	text-align: left;
 	text-shadow: 1px 1px 1px black;
@@ -32,17 +31,65 @@ p{
 }
 
 .block{
-	border: 1px solid black;
+	background: lightyellow;
+	border: 1px outset black;
+	margin: 5px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.portfolio{
+	height: 300px;
+	padding: 30px;
 	margin: 20px;
-	margin-left: 20%;
-	margin-right: 20%;
+}
+
+#feedback{
+	padding: 10px;
+	margin: 5px;
+	margin-top: 5%;
+	font-size: 24px;
+	text-align: center;
+}
+
+label{
+	font-size: 23px;
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 1px black;
+}
+
+input{
+	height: 28px;
+	width: 200px;
+	font-size: 16px;
+	color: black;
+	background: white;
+	border-width: 0;
+	border-style: ridge;
+	border-color: lightblue;
+	box-shadow: 0 0 1px black;
+}
+
+button{
+	margin-top: 15px;
+	width: 150px;
+	height: 30px;
+	font-size: 16px;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	background: blue;
+	border-color: blue;
+	box-shadow: 1px 1px 1px black;
 }
 
 footer{
-	border:1px solid black;
-	padding: 5px;
+	height: 100px;
+	padding: 10px;
+	margin: 2px;
 	bottom: 0px;
 	font-size: 12px;
+	line-height: 1.1em;
 }
 
 /*------------------------------------*\
@@ -54,10 +101,10 @@ footer{
     text-align: center;
     list-style:none;
     font-weight:bold;
-    padding: 0px;
-    margin: -40px;
-    margin-left: 22%;
-    margin-right: 13%;
+    padding: 3px;
+    margin: -30px;
+    margin-left: 19%;
+    margin-right: 5%;
     position: fixed;
 }
 .nav li{
@@ -74,14 +121,13 @@ footer{
     text-shadow:0px 0px 1px lightblue;/*rgba(0,0,0,0.50); /* Тень текста, чтобы приподнять его на немного */
     -moz-border-radius:2px;
     -webkit-border-radius:2px;
-    border-color: ;
     border-style: solid;
+    border-width: 0;
+    box-shadow: 0 0 3px black;
     padding: 0.10em;
 }
 .nav li a:hover{
     color:white;
-    background:#b3d9ff;
-    background:rgba(107,12,54,0.75); /* Выглядит полупрозрачным */
     text-decoration:underline;
 }
 .nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */

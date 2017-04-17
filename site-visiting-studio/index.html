@@ -9,15 +9,21 @@
 <body>
 	<header>
 		<h1>Roman-group</h1>
+		<ul style="float: right;list-style-type: none; margin: 2px; margin-right: 10px; font-size: 13px; font-family: cursive;">
+			<li>Адрес: г.Москва ул.Салтыковская д.15 корп.2</li>
+			<li>Телефон: <b style=" font-size: 16px;"> +7(499)ххх-хх-хх </b></li>
+			<li>e-mail:<b style=" font-size: 16px;"> office@roman-group.ru</b></li>
+		</ul>
 		<ul class="nav">
-			<li><a href="#">О нас</a></li>
-			<li><a href="#">Разработка сайта</a></li>
-			<li><a href="#">Дизайн сайта</a></li>
-			<li><a href="#">Портфолио</a></li>
-			<li><a href="#">Продвижение сайта</a></li>
-			<li><a href="#">SMM</a></li>
-			<li><a href="#">Доп. услуги</a></li>
-			<li><a href="#">Контакты</a></li>
+			<li><a href="#" style="width: 50px;">О нас</a></li>
+			<li><a href="#" style="width: 130px;">Разработка сайта</a></li>
+			<li><a href="#" style="width: 110px;">Дизайн сайта</a></li>
+			<li><a href="#" style="width: 90px;">Портфолио</a></li>
+			<li><a href="#regform" style="border-color: lightgreen; box-shadow: 0 0 3px green;width: 130px; font-size: 14px; background: lightgreen">Заказать сайт</a></li>
+			<li><a href="#" style="width: 150px;">Продвижение сайта</a></li>
+			<li><a href="#" style="width: 45px;">SMM</a></li>
+			<li><a href="#" style="width: 95px;">Доп. услуги</a></li>
+			<li><a href="#" style="width: 80px;">Контакты</a></li>
 		</ul>
 	</header>
 	<div class="block">
@@ -32,11 +38,12 @@
 		<p>Техники и технологии не стоят на месте, стремительно развиваясь, тем самым предоставляя возможность нам не стоять на месте и воспользоваться всеми решениями ведения собственного Бизнеса. Сайт является одним из таких инструментов для привлечения новых или поддержания спроса со стороны уже действующих клиентов.</p>
 
 		<p>Дизайн сайта говорит многое о самой компании, поэтому в нашей команде собрались именно те люди, которые являются фанатами своего дела, привыкли выполнять свою работу добросовестно и качественно, без срывов обговоренных сроков сдачи проекта, полностью придерживаться Технического задания согласованного с клиентом и стремлением вывести Ваш бизнес на новый уровень прибыльности.</p>
+		<img src="./images/PSD-to-HTML5-Conversion.png" style="width: 500px; margin-left: 20%;">
 
 		<p>С помощью сайта все большее количество...</p>
 	</div>
 	<div class="block">
-		<h2>Разработка</h2>
+		<h2>Разработка сайта</h2>
 		<p>Наша веб-студия осуществляет широкий спектр услуг по разработке сайтов как:</p>
 		<ul style="list-style-type: none;">
 			<li><a href="">Сайт-визитка</a></li>
@@ -45,6 +52,8 @@
 			<li><a href="">Корпоративный сайт</a></li>
 			<li><a href="">Сайт-галерея</a></li>
 			<li><a href="">Сайт-витрина</a></li>
+		</ul>
+		<img src="./images/website-design-with-html-5-by--technource.png" style="margin-left: 60%; margin-top: -150px; width: 270px;">
 	</div>
 	<div class="block">
 		<h2>Дизайн сайта</h2>
@@ -53,9 +62,22 @@
 			<p>редизайн сайта:</p>
 			<li>частичный </li>
 			<li>полноценный </li>
+		</ul>
 	</div>
 	<div class="block">
-		<h2>Продвижение</h2>
+		<h2>Портфолио</h2>
+		<table>
+			<tr>
+				<td><a href=""><Пред.</a></td>
+				<td><a href=""><img class="portfolio" src="./images/portfolio/web.jpg"></a></td>
+				<td><a href=""><img class="portfolio" src="./images/portfolio/web1.jpg"></a></td>
+				<td><a href=""><img class="portfolio" src=""></a></td>
+				<td><a href="">След.></a></td>
+			</tr>
+		</table>
+	</div>
+	<div class="block">
+		<h2>Продвижение сайта</h2>
 		<p>SEO-оптимизация сайта</p>
 	</div>
 	<div class="block">
@@ -77,19 +99,28 @@
 			<li>Проектирование дополнительных опций для сайта</li>
 		</ul>
 	</div>
+	<div class="block" style="background: lightblue; height: 200px;">
+		<h2>Оставьте заявку и мы Вам перезвоним.</h2>
+		<form id="feedback" action="" type="GET">
+			<label for="name">Контактное лицо:</label>
+			<input type="text" name="Ф.И.О." title="Ф.И.О." tabindex="0" placeholder=" Ф.И.О.">
+			<label for="number">Телефон:</label>
+			<input type="phone" name="Телефон" tabindex="1" pattern="2-[0-9]{3}-[0-9]{3}" placeholder=" +7(xxx)xxx-xx-xx" title="Телефон"><br>
+			<button>Отправить</button>
+		</form>
+	</div>
 	<footer>
 		<div>
 			<h4>Контакты</h4>
-			<ul style="list-style-type: none;">
-				<li>ИП Ефимов Роман Сергеевич</li>
-				<li>Адрес:</li>
-				<li>Телефон:</li>
-				<li>E-mail:</li>
+			<ul align="right" style="list-style-type: none; margin-top: ;">
+				<li><a href="">Соглашение о предоставлении услуги "Создание сайта"</a></li>			
+				<li><a href="">Порядок оформления заказа</a></li>
+				<li><a href="">Об условиях и способах оплаты услуг</a></li>
+				<li><a href="">Документы регламентирующие отношения сторон</a></li>
+				<li><a href="">Основные пункты которые находят отражение в ТЗ</a></li>
 			</ul>
-			<div align="right">
-				<p><i>О защите прав пользователя</i></p>
-			</div>
 		</div>
+		<i>О защите прав пользователя</i>
 	</footer>
 
 </body>
