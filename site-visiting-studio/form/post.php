@@ -1,7 +1,7 @@
 <? 
 // ----------------------------конфигурация-------------------------- // 
  
-$adminemail="../";  // e-mail админа 
+$adminemail="r.efimov@list.ru";  // e-mail админа 
  
  
 $date=date("d.m.y"); // число.месяц.год 
@@ -79,15 +79,15 @@ fclose($f);
  
 // Выводим сообщение пользователю 
  
-print "<script language='Javascript'><!-- 
-function reload() {location = \"$backurl\"}; setTimeout('reload()', 6000); 
+//print "<script language='Javascript'><!-- 
+//function reload() {location = \"$backurl\"}; setTimeout('reload()', 6000); 
 //--></script> 
  
-$msg 
+//$msg 
  
-<p>Сообщение отправлено! Подождите, сейчас вы будете перенаправлены на главную страницу...</p>";  
-exit; 
+//<p>Сообщение отправлено! Подождите, сейчас вы будете перенаправлены на главную страницу...</p>";  
+//exit; 
  
- } 
+// } 
  
 ?>
