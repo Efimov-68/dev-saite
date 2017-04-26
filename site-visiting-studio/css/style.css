@@ -1,3 +1,9 @@
+@font-face{
+	font-family: Pangolin-Regular;
+	src: url(./fonts/Pangolin-Regular.ttf);
+	src: url(./fonts/Neucha.ttf);
+}
+
 body{
 	font-family: Arial;
 	line-height: 1.3em;
@@ -6,7 +12,21 @@ body{
 header{
 	background: url(../images/logo.png) no-repeat white;
 	background-color:lightblue;
-	height: 115px; 
+	height: 120px; 
+	box-shadow: 0 -1px 3px black;
+}
+
+ul#contacts{
+	float: right;
+	list-style-type: none;
+	margin: 10px; 
+	margin-right: 10px; 
+	font-size: 13px; 
+	font-family: cursive;
+}
+
+li b{
+	font-size: 16px
 }
 
 h1{
@@ -19,6 +39,8 @@ h1{
 
 h2, h3{
 	text-align: center;
+	color: black;
+	text-shadow: 1px 1px 1px white;
 }
 
 h4{
@@ -44,43 +66,171 @@ li{
 
 .block{
 	background: ;
-	border: 1px outset;
-	margin: 2px;
+	border: none;
+	padding: 5px;
+	margin: 9px;
 	margin-left: 15%;
 	margin-right: 15%;
-	box-shadow: 0 0 1px black;
 }
 
-.block1{
-	float: left;
-	background: ;
-	border: 1px outset black;
-	width: 350px;
-	padding: 5px;
-	margin: 15px;
-	margin-top: 15px;
+#vissite{
+	background-color: green; 
+	height: 400px;
+	width: 400px;
+	border: none;
+	margin: 0 50% 0 10%;
+	padding: 10px;
+	box-shadow: 2px 3px 3px black;
 }
 
-.block2{
+.visimg{
+	height: 150px;
+	width: 300px;
 	float: right;
-	background: ;
-	border: 1px outset black;
-	width: 350px;
+	margin-right: 46%;
+	margin-top: -250px;
+}
+
+.vistext{
+	text-align: right;
+	margin: -330px 35% 21% 40%;
+	padding: 0;
+	font-family: Neucha;
+	font-style: cursive;
+}
+
+.vistext p{
+	text-align: center;
+}
+
+#promoSite{
+	background-color: yellow; 
+	height: 400px;
+	width: 400px;
+	border: none;
+	margin: -15% 10% 0 60%;
+	padding: 10px;
+	box-shadow: 2px 3px 3px black;
+}
+
+.promoImg{
+	height: 150px;
+	width: 270px;
+	float: left;
+	margin-left: 45%;
+	margin-top: -350px;
+}
+
+.promoText{
+	text-align: left;
+	margin: -220px 35% 8% 29%;
+	padding: 0;
+	font-family: Neucha;
+	font-style: cursive;
+}
+
+.promoText p{
+	text-align: center;
+}
+
+#gallery{
+	background-color: pink; 
+	height: 400px;
+	width: 400px;
+	border: none;
+	margin: 0% 30% 0 10%;
+	padding: 10px;
+	box-shadow: 2px 3px 3px black;
+}
+
+#intmag{
+	background-color: aqua; 
+	height: 400px;
+	width: 400px;
+	border: none;
+	margin: -14% 10% 0 60%;
+	padding: 10px;
+	box-shadow: 2px 3px 3px black;
+}
+
+#adaptiv{
+	height: 300px;
+	width: 800px;
+	border: none;
+	margin: 7% 5% 0 5%;
 	padding: 5px;
-	margin: 15px;
+}
+
+#adaptiv img{
+	height: 300px;
+	margin: -10% 20% 0 20%;
+	padding: 5px;
+}
+
+.strelkacos{
+	height: 100px;
+	margin-left: 13%;
+	margin-right: 13%;
+}
+
+#design{
+	border: none;
+	padding: 5px;
+	margin: 5% 15% 0 15%;
+}
+#design div{
+	background-color: lightgreen;
+	height: 500px;
+	width: 800px;
+	text-align: left;
+	padding: 5px;
+	border: none;
+	box-shadow: 2px 3px 3px black;
+}
+
+.block table{
+	width: 900px;
+	height: 500px;
+}
+
+.riglef{
+	height: 40px;
 }
 
 .portfolio{
-	height: 300px;
+	height: 200px;
 	padding: 30px;
 	margin: 20px;
+}
+
+#seo{
+	background-color: orange;
+	height: 500px;
+	margin: 5px;
+	padding: 5px;
+	border: none;
+	box-shadow: 1px 2px 3px black;
+}
+
+#seo p{
+	float: left;
+	background-color: yellow;
+	padding: 5px;
+	margin: 15px;
+	border: 1px solid black;
+	box-shadow: 1px 1px 1px black;
+	height: 230px;
+	width: 250px;
+}
+
+#regform{
+	box-shadow: 0 2px 3px black;
 }
 
 #feedback{
 	padding: 0px;
 	margin: 0px;
-	margin-top: 7%;
-	font-size: 24px;
+	margin-top: 3%;
 	text-align: center;
 }
 
@@ -91,7 +241,7 @@ label{
 	text-shadow: 1px 1px 1px black;
 }
 
-input{
+.forminput{
 	height: 28px;
 	width: 200px;
 	font-size: 16px;
@@ -101,18 +251,6 @@ input{
 	border-style: ridge;
 	border-color: lightblue;
 	box-shadow: 0 0 1px black;
-}
-
-button{
-	margin-top: 15px;
-	width: 150px;
-	height: 30px;
-	font-size: 16px;
-	color: white;
-	text-shadow: 1px 1px 1px black;
-	background: blue;
-	border-color: blue;
-	box-shadow: 1px 1px 1px black;
 }
 
 footer{
@@ -128,7 +266,7 @@ footer{
     НАВИГАЦИЯ
 \*------------------------------------*/
 .nav{
-    font-size: 12px;
+    font-size: 14px;
     float:left;
     text-align: center;
     list-style:none;
@@ -156,7 +294,7 @@ footer{
     border-style: solid;
     border-width: 0;
     box-shadow: 0 0 3px black;
-    padding: 0.10em;
+    padding: 0.40em;
 }
 .nav li a:hover{
     color:white;
