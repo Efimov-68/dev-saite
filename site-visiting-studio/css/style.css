@@ -5,6 +5,7 @@
 }
 
 body{
+	background: rgba(255, 255, 204, 0.75);
 	font-family: Arial;
 	line-height: 1.3em;
 }
@@ -40,7 +41,7 @@ h1{
 h2, h3{
 	text-align: center;
 	color: black;
-	text-shadow: 1px 1px 1px white;
+	text-shadow: 1px 1px 1px grey;
 }
 
 h4{
@@ -74,26 +75,37 @@ li{
 }
 
 #vissite{
-	background-color: green; 
+	/*background-color: rgba(0, 128, 0, 0.3);*/
 	height: 400px;
 	width: 400px;
 	border: none;
 	margin: 0 50% 0 10%;
 	padding: 10px;
-	box-shadow: 2px 3px 3px black;
+	/*box-shadow: 2px 3px 3px black;*/
+}
+
+#vissite:hover{
+	background-color: lightgreen;
+	height: 400px;
+	width: 400px;
+	border: none;
+	margin: 0 50% 0 10%;
+	padding: 10px;
+	border-color: lightgreen;
+	box-shadow: 0 0 10px lightgreen;
 }
 
 .visimg{
-	height: 150px;
-	width: 300px;
+	height: 100px;
+	width: 200px;
 	float: right;
 	margin-right: 46%;
-	margin-top: -250px;
+	margin-top: -400px;
 }
 
 .vistext{
 	text-align: right;
-	margin: -330px 35% 21% 40%;
+	margin: -310px 35% 21% 40%;
 	padding: 0;
 	font-family: Neucha;
 	font-style: cursive;
@@ -103,30 +115,54 @@ li{
 	text-align: center;
 }
 
+#vissite img{
+	height: 250px;
+	padding: 0px;
+	margin-top: 30%;
+	float: left;
+}
+
 #promoSite{
-	background-color: yellow; 
+	background-color: ; 
 	height: 400px;
 	width: 400px;
 	border: none;
 	margin: -15% 10% 0 60%;
 	padding: 10px;
-	box-shadow: 2px 3px 3px black;
+	/*box-shadow: 2px 3px 3px black;*/
+}
+
+#promoSite:hover{
+	background-color: rgba(204, 204, 0, 0.75); 
+	height: 400px;
+	width: 400px;
+	border: none;
+	margin: -15% 10% 0 60%;
+	padding: 10px;
+	box-shadow: 0 0 10px rgba(204, 204, 0, 0.75);
 }
 
 .promoImg{
-	height: 150px;
-	width: 270px;
+	height: 80px;
+	width: 230px;
 	float: left;
 	margin-left: 45%;
-	margin-top: -350px;
+	margin-top: -100px;
 }
 
 .promoText{
 	text-align: left;
-	margin: -220px 35% 8% 29%;
+	margin: -200px 35% 8% 29%;
 	padding: 0;
 	font-family: Neucha;
 	font-style: cursive;
+}
+
+#promoSite img{
+	height: 280px;
+	margin: 5px;
+	margin-top: 10%;
+	padding: 5px;
 }
 
 .promoText p{
@@ -134,23 +170,54 @@ li{
 }
 
 #gallery{
-	background-color: pink; 
 	height: 400px;
 	width: 400px;
 	border: none;
 	margin: 0% 30% 0 10%;
 	padding: 10px;
-	box-shadow: 2px 3px 3px black;
+}
+
+#gallery:hover{
+	background-color: rgba(255, 192, 203, 0.55); 
+	height: 400px;
+	width: 400px;
+	border: none;
+	margin: 0% 30% 0 10%;
+	padding: 10px;
+	border-color: pink;
+	box-shadow: 0px 0px 10px rgba(255, 192, 203, 0.55);
+}
+
+#gallery img{
+	height: 280px;
+	float: left;
+	padding: 5px;
+	margin-top: 20%;
 }
 
 #intmag{
-	background-color: aqua; 
 	height: 400px;
 	width: 400px;
 	border: none;
 	margin: -14% 10% 0 60%;
 	padding: 10px;
-	box-shadow: 2px 3px 3px black;
+}
+
+#intmag:hover{
+	background-color: rgba(0, 255, 255, 0.2); 
+	height: 400px;
+	width: 400px;
+	border: none;
+	margin: -14% 10% 0 60%;
+	padding: 10px;
+	border-color: red;
+	box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.2);
+}
+
+#intmag img{
+	height: 200px;
+	padding: 5px;
+	margin: 25% 0 0 15%;
 }
 
 #adaptiv{
@@ -204,7 +271,7 @@ li{
 }
 
 #seo{
-	background-color: orange;
+	background-color: rgba(255, 165, 0, 0.75);
 	height: 500px;
 	margin: 5px;
 	padding: 5px;
@@ -214,7 +281,29 @@ li{
 
 #seo p{
 	float: left;
-	background-color: yellow;
+	background-color: rgb(255, 255, 0);
+	padding: 5px;
+	margin: 15px;
+	border: 1px solid black;
+	box-shadow: 1px 1px 1px black;
+	height: 230px;
+	width: 250px;
+}
+
+#seo p i{
+	float: left;
+	background-color: rgb(255, 255, 0);
+	padding: 5px;
+	margin: 15px;
+	border: 1px solid black;
+	box-shadow: 1px 1px 1px black;
+	height: 230px;
+	width: 250px;
+}
+
+#seo p i:hover{
+	float: left;
+	background-color: red;
 	padding: 5px;
 	margin: 15px;
 	border: 1px solid black;
@@ -224,7 +313,7 @@ li{
 }
 
 #uslugi{
-	background-color: aquamarine;
+	background-color: rgba(127, 255, 212, 0.75);
 	height: 400px;
 	margin: 5px;
 	padding: 5px;
@@ -310,10 +399,10 @@ footer{
     text-decoration:underline;
 }
 .nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
-    background:blue;/*rgba(0, 0, 0, 0.70); /* Выглядит полупрозрачным */
+    background:#000066;/*rgba(0, 0, 0, 0.70); /* Выглядит полупрозрачным */
     text-decoration:none;
     border-radius: 0px;
-    box-shadow: 0px 0px 5px cyan;
+    box-shadow: 0px 0px 5px aqua;
     border-color: white;
     border-style: solid;
 }
