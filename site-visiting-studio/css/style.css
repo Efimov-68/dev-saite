@@ -84,7 +84,7 @@ li{
 	/*box-shadow: 2px 3px 3px black;*/
 }
 
-#vissite:hover{
+/*#vissite:hover{
 	background-color: lightgreen;
 	height: 400px;
 	width: 400px;
@@ -93,7 +93,7 @@ li{
 	padding: 10px;
 	border-color: lightgreen;
 	box-shadow: 0 0 10px lightgreen;
-}
+}*/
 
 .visimg{
 	height: 100px;
@@ -105,7 +105,7 @@ li{
 
 .vistext{
 	text-align: right;
-	margin: -310px 35% 21% 40%;
+	margin: -310px 35% 21% 45%;
 	padding: 0;
 	font-family: Neucha;
 	font-style: cursive;
@@ -117,6 +117,14 @@ li{
 
 #vissite img{
 	height: 250px;
+	padding: 0px;
+	margin-top: 30%;
+	margin-right: 5%;
+	float: left;
+}
+
+#vissite img:hover{
+	height: 270px;
 	padding: 0px;
 	margin-top: 30%;
 	float: left;
@@ -132,7 +140,7 @@ li{
 	/*box-shadow: 2px 3px 3px black;*/
 }
 
-#promoSite:hover{
+/*#promoSite:hover{
 	background-color: rgba(204, 204, 0, 0.75); 
 	height: 400px;
 	width: 400px;
@@ -140,7 +148,7 @@ li{
 	margin: -15% 10% 0 60%;
 	padding: 10px;
 	box-shadow: 0 0 10px rgba(204, 204, 0, 0.75);
-}
+}*/
 
 .promoImg{
 	height: 80px;
@@ -165,6 +173,13 @@ li{
 	padding: 5px;
 }
 
+#promoSite img:hover{
+	height: 320px;
+	margin: 5px;
+	margin-top: 10%;
+	padding: 5px;
+}
+
 .promoText p{
 	text-align: center;
 }
@@ -177,22 +192,18 @@ li{
 	padding: 10px;
 }
 
-#gallery:hover{
-	background-color: rgba(255, 192, 203, 0.55); 
-	height: 400px;
-	width: 400px;
-	border: none;
-	margin: 0% 30% 0 10%;
-	padding: 10px;
-	border-color: pink;
-	box-shadow: 0px 0px 10px rgba(255, 192, 203, 0.55);
-}
-
 #gallery img{
 	height: 280px;
 	float: left;
 	padding: 5px;
 	margin-top: 20%;
+}
+
+#gallery img:hover{
+	height: 300px;
+	float: left;
+	padding: 5px;
+	margin-top: 20%
 }
 
 #intmag{
@@ -203,19 +214,14 @@ li{
 	padding: 10px;
 }
 
-#intmag:hover{
-	background-color: rgba(0, 255, 255, 0.2); 
-	height: 400px;
-	width: 400px;
-	border: none;
-	margin: -14% 10% 0 60%;
-	padding: 10px;
-	border-color: red;
-	box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.2);
-}
-
 #intmag img{
 	height: 200px;
+	padding: 5px;
+	margin: 25% 0 0 15%;
+}
+
+#intmag img:hover{
+	height: 230px;
 	padding: 5px;
 	margin: 25% 0 0 15%;
 }
@@ -282,28 +288,6 @@ li{
 #seo p{
 	float: left;
 	background-color: rgb(255, 255, 0);
-	padding: 5px;
-	margin: 15px;
-	border: 1px solid black;
-	box-shadow: 1px 1px 1px black;
-	height: 230px;
-	width: 250px;
-}
-
-#seo p i{
-	float: left;
-	background-color: rgb(255, 255, 0);
-	padding: 5px;
-	margin: 15px;
-	border: 1px solid black;
-	box-shadow: 1px 1px 1px black;
-	height: 230px;
-	width: 250px;
-}
-
-#seo p i:hover{
-	float: left;
-	background-color: red;
 	padding: 5px;
 	margin: 15px;
 	border: 1px solid black;
