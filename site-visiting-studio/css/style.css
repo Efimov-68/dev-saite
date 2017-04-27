@@ -5,26 +5,29 @@
 }
 
 body{
-	background: rgba(255, 255, 204, 0.75);
+	background: white url(../images/fon.png);
+	height: auto;
+	width: 2560px;
 	font-family: Arial;
 	line-height: 1.3em;
+	margin-left: auto;
+	margin-right: auto;
+	text-shadow: 1px 1px 1px black;
 }
 
 header{
-	background: url(../images/logo.png) no-repeat white;
-	background-color:lightblue;
+	background: url(../images/logo.png) no-repeat;
 	height: 120px;
-	width: auto;
-	box-shadow: 0 -1px 3px black;
 }
 
 ul#contacts{
 	float: right;
 	list-style-type: none;
 	margin: 10px; 
-	margin-right: 10px; 
+	margin-right: 5%; 
 	font-size: 13px; 
 	font-family: cursive;
+	color: white;
 }
 
 li b{
@@ -41,7 +44,7 @@ h1{
 
 h2, h3{
 	text-align: center;
-	color: black;
+	color: white;
 	text-shadow: 1px 1px 1px grey;
 }
 
@@ -59,265 +62,267 @@ li{
 }
 
 #allcontent{
-	width: auto;
-	height: auto;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.block{
-	background: ;
+#basic{
 	border: none;
 	padding: 5px;
-	margin: 9px;
-	margin-left: 15%;
-	margin-right: 15%;
 }
 
-#vissite{
-	/*background-color: rgba(0, 128, 0, 0.3);*/
-	height: 400px;
-	width: 400px;
-	border: none;
-	margin: 0 50% 0 10%;
+#basic div{
+	background-color: rgba(82, 122, 122, 0.70);
+	text-shadow: 1px 1px 1px grey;
 	padding: 10px;
-	/*box-shadow: 2px 3px 3px black;*/
-}
-
-/*#vissite:hover{
-	background-color: lightgreen;
-	height: 400px;
-	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
 	border: none;
-	margin: 0 50% 0 10%;
-	padding: 10px;
-	border-color: lightgreen;
-	box-shadow: 0 0 10px lightgreen;
-}*/
-
-.visimg{
-	height: 100px;
-	width: 200px;
-	float: right;
-	margin-right: 46%;
-	margin-top: -400px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px grey;
+	height: 750px;
+	width: 1900px;
 }
 
-.vistext{
-	text-align: right;
-	margin: -310px 35% 21% 45%;
-	padding: 0;
-	font-family: Neucha;
-	font-style: cursive;
+#basic h3, p{
+	color: white;
+	text-shadow: 1px 1px 1px black;
 }
 
-.vistext p{
+#workingOut{
+	border: none;
+	margin: 10% auto 0% auto;
+	padding: 20px;
+	width: 2520px;
+	height: 810px;
+	color: black;
+
+}
+
+#workingOut h2{
 	text-align: center;
+	color: black;
+	text-shadow: 1px 1px 1px grey;
 }
 
-#vissite img{
-	height: 250px;
-	padding: 0px;
-	margin-top: 30%;
-	margin-right: 5%;
-	float: left;
-}
-
-#vissite img:hover{
-	height: 270px;
-	padding: 0px;
-	margin-top: 30%;
-	float: left;
-}
-
-#promoSite{
-	background-color: ; 
-	height: 400px;
-	width: 400px;
-	border: none;
-	margin: -15% 10% 0 60%;
-	padding: 10px;
-	/*box-shadow: 2px 3px 3px black;*/
-}
-
-/*#promoSite:hover{
-	background-color: rgba(204, 204, 0, 0.75); 
-	height: 400px;
-	width: 400px;
-	border: none;
-	margin: -15% 10% 0 60%;
-	padding: 10px;
-	box-shadow: 0 0 10px rgba(204, 204, 0, 0.75);
-}*/
-
-.promoImg{
-	height: 80px;
-	width: 230px;
-	float: left;
-	margin-left: 45%;
-	margin-top: -100px;
-}
-
-.promoText{
-	text-align: left;
-	margin: -200px 35% 8% 29%;
-	padding: 0;
-	font-family: Neucha;
-	font-style: cursive;
-}
-
-#promoSite img{
-	height: 280px;
-	margin: 5px;
-	margin-top: 10%;
-	padding: 5px;
-}
-
-#promoSite img:hover{
-	height: 320px;
-	margin: 5px;
-	margin-top: 10%;
-	padding: 5px;
-}
-
-.promoText p{
+#workingOut h3{
 	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 3px black;
 }
 
-#gallery{
+#visiting{
+	background: rgba(82, 122, 122, 0.70);
+	border: none;
 	height: 400px;
 	width: 400px;
+	float: left;
+	margin: 10px 1% 0 3%;
+	box-shadow: 1px 1px 3px black;
+	border-radius: 10px;
+}
+
+#visiting:hover{
+	background: rgba(133, 173, 173, 0.70);
 	border: none;
-	margin: 0% 30% 0 10%;
-	padding: 10px;
-}
-
-#gallery img{
-	height: 280px;
-	float: left;
-	padding: 5px;
-	margin-top: 20%;
-}
-
-#gallery img:hover{
-	height: 300px;
-	float: left;
-	padding: 5px;
-	margin-top: 20%
-}
-
-#intmag{
 	height: 400px;
 	width: 400px;
+	float: left;
+	margin: 10px 1% 0 3%;
+	box-shadow: 0 0 10px blue;
+	border-radius: 10px;
+}
+
+#landing{
+	background: rgba(82, 122, 122, 0.70);
 	border: none;
-	margin: -14% 10% 0 60%;
-	padding: 10px;
+	height: 400px;
+	width: 400px;
+	float: left;
+	margin: 10px 1% 0 1%;
+	box-shadow: 1px 1px 3px black;
+	border-radius: 10px;
 }
 
-#intmag img{
-	height: 200px;
-	padding: 5px;
-	margin: 25% 0 0 15%;
+#landing:hover{
+	background: rgba(133, 173, 173, 0.70);
+	border: none;
+	height: 400px;
+	width: 400px;
+	float: left;
+	margin: 10px 1% 0 1%;
+	box-shadow: 0 0 10px blue;
+	border-radius: 10px;
 }
 
-#intmag img:hover{
-	height: 230px;
-	padding: 5px;
-	margin: 25% 0 0 15%;
+#company{
+	background: rgba(82, 122, 122, 0.70);
+	border: none;
+	height: 400px;
+	width: 400px;
+	float: left;
+	margin: 10px 1% 0 1%;
+	box-shadow: 1px 1px 3px black;
+	border-radius: 10px;
+}
+
+#company:hover{
+	background: rgba(133, 173, 173, 0.70);
+	border: none;
+	height: 400px;
+	width: 400px;
+	float: left;
+	margin: 10px 1% 0 1%;
+	box-shadow: 0 0 10px blue;
+	border-radius: 10px;
+}
+
+#magazyn{
+	background: rgba(82, 122, 122, 0.70);
+	border: none;
+	height: 400px;
+	width: 400px;
+	float: left;
+	margin: 10px 2% 0 1%;
+	box-shadow: 1px 1px 3px black;
+	border-radius: 10px;
+}
+
+#magazyn:hover{
+	background: rgba(133, 173, 173, 0.70);
+	border: none;
+	height: 400px;
+	width: 400px;
+	float: left;
+	margin: 10px 2% 0 1%;
+	box-shadow: 0 0 10px blue;
+	border-radius: 10px;
 }
 
 #adaptiv{
-	height: 300px;
-	width: 800px;
+	float: left;
+	background: rgba(82, 122, 122, 0.70);
 	border: none;
-	margin: 7% 5% 0 5%;
+	margin: 5% 5% 0 5%;
 	padding: 5px;
+	box-shadow: 2px 1px 3px black;
+	border-radius: 10px;
 }
 
-#adaptiv img{
-	height: 300px;
-	margin: -10% 20% 0 20%;
-	padding: 5px;
+#adaptiv h2{
+	color:white;
+	text-shadow: 1px 1px 3px black;
 }
 
-.strelkacos{
-	height: 100px;
-	margin-left: 13%;
-	margin-right: 13%;
+#others{
+	border: none;
+	margin-top: 0%;
+	margin-bottom: 7%;
 }
 
 #design{
+	padding: 0px;
 	border: none;
-	padding: 5px;
-	margin: 5% 15% 0 15%;
 }
+
+#design h2{
+	text-align: center;
+	border: none;
+}
+
+#design p, li{
+	color: white;
+	text-shadow: 1px 1px 3px black;
+}
+
 #design div{
-	background-color: lightgreen;
-	height: 500px;
-	width: 800px;
-	text-align: left;
-	padding: 5px;
+	background-color: rgba(82, 122, 122, 0.70);
+	color: black;
+	text-shadow: 1px 1px 1px grey;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
 	border: none;
-	box-shadow: 2px 3px 3px black;
-}
-
-.block table{
-	width: 900px;
-	height: 500px;
-}
-
-.riglef{
-	height: 40px;
-}
-
-.portfolio{
-	height: 200px;
-	padding: 30px;
-	margin: 20px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px grey;
+	height: 230px;
+	width: 500px;
 }
 
 #seo{
-	background-color: rgba(255, 165, 0, 0.75);
 	height: 500px;
-	margin: 5px;
+	margin-left: 13%;
 	padding: 5px;
 	border: none;
-	box-shadow: 1px 2px 3px black;
 }
 
-#seo p{
+#seo h2{
+	margin-left: -13%;
+}
+
+#seo div{
+	margin-left: 1%;
 	float: left;
-	background-color: rgb(255, 255, 0);
-	padding: 5px;
-	margin: 15px;
-	border: 1px solid black;
-	box-shadow: 1px 1px 1px black;
-	height: 230px;
+	background-color: rgba(82, 122, 122, 0.70);
+	padding: 10px;
+	margin-right: 1%;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px grey;
+	height: 430px;
 	width: 250px;
 }
 
-#uslugi{
-	background-color: rgba(127, 255, 212, 0.75);
-	height: 400px;
-	margin: 5px;
+#seo h3{
+	color: white;
+	text-shadow: 1px 1px 3px black;
+}
+
+#seo p{
+	
+	color: white;
+	text-shadow: 1px 1px 3px black;
+	
+}
+
+#services{
+	margin-top: 0% auto 0 auto;
 	padding: 5px;
 	border: none;
-	box-shadow: 1px 2px 3px black;
+}
+
+#services h2{
+	color: black;
+}
+
+#services div{
+	background-color: rgba(82, 122, 122, 0.70);
+	color: black;
+	text-shadow: 1px 1px 1px grey;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px grey;
+	height: 400px;
+	width: 800px;
 }
 
 #regform{
 	width: 800px;
 	height: 200px;
-	box-shadow: 1px 2px 3px black;
+	box-shadow: 1px 1px 10px grey;
 	background: lightblue;
-	margin: 0 auto 0 auto;
+	padding: 5px;
+	margin: 1% auto 0 auto;
 }
 
 #regform h2{
-	color: orange; 
-	text-shadow: 1px 1px 1px black;
+	color: black; 
+	text-shadow: 1px 1px 1px white;
 }
 
 #feedback{
@@ -334,6 +339,11 @@ li{
 	text-shadow: 1px 1px 1px black;
 }
 
+#feedback p{
+	color: black;
+	text-shadow: 1px 1px 1px white;
+}
+
 .forminput{
 	height: 28px;
 	width: 200px;
@@ -347,12 +357,18 @@ li{
 }
 
 footer{
-	background: ;
-	height: 120px;
 	padding: 0px;
 	margin: 2px;
 	font-size: 12px;
 	line-height: 1.1em;
+}
+
+footer li{
+	text-shadow: 1px 1px 1px grey;
+}
+
+footer p{
+	color: black;
 }
 
 /*------------------------------------*\
@@ -379,7 +395,7 @@ footer{
 .nav li a{
     display:block;
     color:black;
-    background:lightblue/*rgba(255, 0, 0, 0.70)*/;
+    background:rgba(82, 122, 122, 0.70);
     text-decoration:none;
     text-shadow:0px 0px 1px lightblue;/*rgba(0,0,0,0.50); /* Тень текста, чтобы приподнять его на немного */
     -moz-border-radius:2px;
@@ -394,7 +410,7 @@ footer{
     text-decoration:underline;
 }
 .nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
-    background:#000066;/*rgba(0, 0, 0, 0.70); /* Выглядит полупрозрачным */
+    background:rgba(133, 173, 173, 0.70); /* Выглядит полупрозрачным */
     text-decoration:none;
     border-radius: 0px;
     box-shadow: 0px 0px 5px aqua;
