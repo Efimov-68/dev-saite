@@ -13,7 +13,8 @@ body{
 header{
 	background: url(../images/logo.png) no-repeat white;
 	background-color:lightblue;
-	height: 120px; 
+	height: 120px;
+	width: auto;
 	box-shadow: 0 -1px 3px black;
 }
 
@@ -58,7 +59,8 @@ li{
 }
 
 #allcontent{
-	width: 1300px;
+	width: auto;
+	height: auto;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	margin-left: auto;
@@ -306,18 +308,27 @@ li{
 }
 
 #regform{
+	width: 800px;
+	height: 200px;
 	box-shadow: 1px 2px 3px black;
+	background: lightblue;
+	margin: 0 auto 0 auto;
+}
+
+#regform h2{
+	color: orange; 
+	text-shadow: 1px 1px 1px black;
 }
 
 #feedback{
 	padding: 0px;
 	margin: 0px;
-	margin-top: 3%;
+	margin-top: 2%;
 	text-align: center;
 }
 
-label{
-	font-size: 23px;
+#feedback label{
+	font-size: 24px;
 	color: white;
 	text-align: center;
 	text-shadow: 1px 1px 1px black;
