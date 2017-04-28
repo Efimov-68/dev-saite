@@ -4,8 +4,10 @@
 	src: url(./fonts/Neucha.ttf);
 }
 
-body{
+html, body{
 	background: white url(../images/fon.png);
+	background-repeat: no-repeat;
+	background-position: ;
 	height: auto;
 	width: 2560px;
 	font-family: Arial;
@@ -115,19 +117,24 @@ li{
 
 #visiting{
 	background: rgba(82, 122, 122, 0.70);
+	text-align: ;
 	border: none;
-	height: 400px;
+	height: 150px;
 	width: 400px;
 	float: left;
 	margin: 10px 1% 0 3%;
 	box-shadow: 1px 1px 3px black;
 	border-radius: 10px;
+}
+
+#visiting div{
+	display: none;
 }
 
 #visiting:hover{
 	background: rgba(133, 173, 173, 0.70);
 	border: none;
-	height: 400px;
+	height: 150px;
 	width: 400px;
 	float: left;
 	margin: 10px 1% 0 3%;
@@ -135,43 +142,85 @@ li{
 	border-radius: 10px;
 }
 
+#visiting:hover div{
+	background: rgba(133, 173, 173, 0.70);
+	text-align: left;
+	display: block;
+	border: none;
+	height: 500px;
+	width: 500px;
+	float: left;
+	margin: 0px 1% 0 1%;
+	box-shadow: 0 0 10px blue;
+	border-radius: 10px;
+}
+
+#visiting:hover div b{
+	font-size: 1.3em;
+}
+
 #landing{
 	background: rgba(82, 122, 122, 0.70);
 	border: none;
-	height: 400px;
+	height: 150px;
 	width: 400px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	box-shadow: 1px 1px 3px black;
 	border-radius: 10px;
+}
+
+#landing div{
+	display: none;
 }
 
 #landing:hover{
 	background: rgba(133, 173, 173, 0.70);
 	border: none;
-	height: 400px;
+	height: 150px;
 	width: 400px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+}
+
+#landing:hover div{
+	background: rgba(133, 173, 173, 0.70);
+	text-align: left;
+	display: block;
+	border: none;
+	height: 500px;
+	width: 500px;
+	float: left;
+	margin: 10px 1% 0 1%;
+	box-shadow: 0 0 10px blue;
+	border-radius: 10px;
+}
+
+#landing:hover div b{
+	font-size: 1.3em;
 }
 
 #company{
 	background: rgba(82, 122, 122, 0.70);
 	border: none;
-	height: 400px;
+	height: 150px;
 	width: 400px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	box-shadow: 1px 1px 3px black;
 	border-radius: 10px;
+}
+
+#company div{
+	display: none;
 }
 
 #company:hover{
 	background: rgba(133, 173, 173, 0.70);
 	border: none;
-	height: 400px;
+	height: 150px;
 	width: 400px;
 	float: left;
 	margin: 10px 1% 0 1%;
@@ -179,10 +228,27 @@ li{
 	border-radius: 10px;
 }
 
+#company:hover div{
+	background: rgba(133, 173, 173, 0.70);
+	text-align: left;
+	display: block;
+	border: none;
+	height: 500px;
+	width: 500px;
+	float: right;
+	margin: 10px 1% 0 1%;
+	box-shadow: 0 0 10px blue;
+	border-radius: 10px;
+}
+
+#company:hover div b{
+	font-size: 1.3em;
+}
+
 #magazyn{
 	background: rgba(82, 122, 122, 0.70);
 	border: none;
-	height: 400px;
+	height: 150px;
 	width: 400px;
 	float: left;
 	margin: 10px 2% 0 1%;
@@ -190,15 +256,36 @@ li{
 	border-radius: 10px;
 }
 
+#magazyn div{
+	display: none;
+}
+
 #magazyn:hover{
 	background: rgba(133, 173, 173, 0.70);
 	border: none;
-	height: 400px;
+	height: 150px;
 	width: 400px;
 	float: left;
 	margin: 10px 2% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+}
+
+#magazyn:hover div{
+	background: rgba(133, 173, 173, 0.70);
+	text-align: left;
+	display: block;
+	border: none;
+	height: 500px;
+	width: 500px;
+	float: right;
+	margin: 10px 2% 0 1%;
+	box-shadow: 0 0 10px blue;
+	border-radius: 10px;
+}
+
+#magazyn:hover div b{
+	font-size: 1.3em;
 }
 
 #adaptiv{
