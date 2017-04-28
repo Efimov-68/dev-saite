@@ -5,7 +5,7 @@
 }
 
 html, body{
-	background: white url(../images/fon.png);
+	background: white url(../images/fon2560x5000.png);
 	background-repeat: no-repeat;
 	background-position: ;
 	height: auto;
@@ -103,13 +103,13 @@ li{
 
 }
 
-#workingOut h2{
+#workingOut h1{
 	text-align: center;
 	color: black;
 	text-shadow: 1px 1px 1px grey;
 }
 
-#workingOut h3{
+#workingOut h2{
 	text-align: center;
 	color: white;
 	text-shadow: 1px 1px 3px black;
