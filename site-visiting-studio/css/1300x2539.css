@@ -333,7 +333,7 @@ li{
 
 #others{
 	border: none;
-	margin-top: 25%;
+	margin-top: -35%;
 	margin-bottom: 0%;
 }
 
@@ -505,7 +505,7 @@ footer p{
     font-weight:bold;
     padding: 3px;
     margin: -30px;
-    margin-left: 10%;
+    margin-left: 20%;
     margin-right: 1%;
     position: fixed;
 }
