@@ -7,7 +7,6 @@
 html, body{
 	background: white url(../images/fon2560x5000.png);
 	background-repeat: no-repeat;
-	background-position: ;
 	height: auto;
 	width: 2560px;
 	font-family: Arial;
@@ -153,6 +152,8 @@ li{
 	margin: 0px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #visiting:hover div b{
@@ -196,6 +197,8 @@ li{
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #landing:hover div b{
@@ -239,6 +242,8 @@ li{
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #company:hover div b{
@@ -282,6 +287,8 @@ li{
 	margin: 10px 2% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #magazyn:hover div b{

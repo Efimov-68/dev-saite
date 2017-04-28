@@ -9,9 +9,9 @@ html, body{
 	background-repeat: no-repeat;
 	background-position: ;
 	height: auto;
-	width: 2560px;
+	width: 1900px;
 	font-family: Arial;
-	line-height: 1.3em;
+	line-height: 1.2em;
 	margin-left: auto;
 	margin-right: auto;
 	text-shadow: 1px 1px 1px black;
@@ -84,8 +84,8 @@ li{
 	border: none;
 	border-radius: 10px;
 	box-shadow: 1px 1px 10px grey;
-	height: 750px;
-	width: 1900px;
+	height: 600px;
+	width: 1200px;
 }
 
 #basic h3, p{
@@ -95,32 +95,34 @@ li{
 
 #workingOut{
 	border: none;
-	margin: 10% auto 0% auto;
+	margin: 10% auto 21% auto;
 	padding: 20px;
-	width: 2520px;
-	height: 810px;
+	width: 1900px;
+	height: auto;
 	color: black;
 
 }
 
 #workingOut h1{
 	text-align: center;
+	font-size: 1.3em;
 	color: black;
 	text-shadow: 1px 1px 1px grey;
 }
 
 #workingOut h2{
 	text-align: center;
+	font-size: 1.0em;
 	color: white;
 	text-shadow: 1px 1px 3px black;
 }
 
 #visiting{
 	background: rgba(82, 122, 122, 0.70);
-	text-align: ;
+	line-height: 1.0em;
 	border: none;
-	height: 150px;
-	width: 400px;
+	height: 100px;
+	width: 300px;
 	float: left;
 	margin: 10px 1% 0 3%;
 	box-shadow: 1px 1px 3px black;
@@ -134,8 +136,9 @@ li{
 #visiting:hover{
 	background: rgba(133, 173, 173, 0.70);
 	border: none;
-	height: 150px;
-	width: 400px;
+	line-height: 1.0em;
+	height: 100px;
+	width: 300px;
 	float: left;
 	margin: 10px 1% 0 3%;
 	box-shadow: 0 0 10px blue;
@@ -143,16 +146,20 @@ li{
 }
 
 #visiting:hover div{
-	background: rgba(133, 173, 173, 0.70);
+	background: rgb(133, 173, 173);
 	text-align: left;
+	font-size: 12px;
+	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 500px;
+	height: 200px;
 	width: 500px;
 	float: left;
 	margin: 0px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #visiting:hover div b{
@@ -162,8 +169,8 @@ li{
 #landing{
 	background: rgba(82, 122, 122, 0.70);
 	border: none;
-	height: 150px;
-	width: 400px;
+	height: 100px;
+	width: 300px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	box-shadow: 1px 1px 3px black;
@@ -177,8 +184,8 @@ li{
 #landing:hover{
 	background: rgba(133, 173, 173, 0.70);
 	border: none;
-	height: 150px;
-	width: 400px;
+	height: 100px;
+	width: 300px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
@@ -186,16 +193,20 @@ li{
 }
 
 #landing:hover div{
-	background: rgba(133, 173, 173, 0.70);
+	background: rgb(133, 173, 173);
 	text-align: left;
+	font-size: 12px;
+	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 500px;
+	height: 300px;
 	width: 500px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #landing:hover div b{
@@ -205,8 +216,8 @@ li{
 #company{
 	background: rgba(82, 122, 122, 0.70);
 	border: none;
-	height: 150px;
-	width: 400px;
+	height: 100px;
+	width: 300px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	box-shadow: 1px 1px 3px black;
@@ -220,8 +231,8 @@ li{
 #company:hover{
 	background: rgba(133, 173, 173, 0.70);
 	border: none;
-	height: 150px;
-	width: 400px;
+	height: 100px;
+	width: 300px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
@@ -229,16 +240,20 @@ li{
 }
 
 #company:hover div{
-	background: rgba(133, 173, 173, 0.70);
+	background: rgb(133, 173, 173);
 	text-align: left;
+	font-size: 12px;
+	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 500px;
+	height: 200px;
 	width: 500px;
 	float: right;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #company:hover div b{
@@ -248,8 +263,8 @@ li{
 #magazyn{
 	background: rgba(82, 122, 122, 0.70);
 	border: none;
-	height: 150px;
-	width: 400px;
+	height: 100px;
+	width: 300px;
 	float: left;
 	margin: 10px 2% 0 1%;
 	box-shadow: 1px 1px 3px black;
@@ -263,8 +278,8 @@ li{
 #magazyn:hover{
 	background: rgba(133, 173, 173, 0.70);
 	border: none;
-	height: 150px;
-	width: 400px;
+	height: 100px;
+	width: 300px;
 	float: left;
 	margin: 10px 2% 0 1%;
 	box-shadow: 0 0 10px blue;
@@ -272,16 +287,20 @@ li{
 }
 
 #magazyn:hover div{
-	background: rgba(133, 173, 173, 0.70);
+	background: rgb(133, 173, 173);
 	text-align: left;
+	font-size: 12px;
+	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 500px;
+	height: 200px;
 	width: 500px;
 	float: right;
 	margin: 10px 2% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #magazyn:hover div b{
@@ -300,13 +319,14 @@ li{
 
 #adaptiv h2{
 	color:white;
+	font-size: 1.0em;
 	text-shadow: 1px 1px 3px black;
 }
 
 #others{
 	border: none;
 	margin-top: 0%;
-	margin-bottom: 7%;
+	margin-bottom: 0%;
 }
 
 #design{
@@ -316,6 +336,7 @@ li{
 
 #design h2{
 	text-align: center;
+	font-size: 1.2em;
 	border: none;
 }
 
@@ -340,47 +361,50 @@ li{
 
 #seo{
 	height: 500px;
-	margin-left: 13%;
+	margin-left: 10%;
+	margin-right: 10%;
 	padding: 5px;
 	border: none;
 }
 
 #seo h2{
-	margin-left: -13%;
+	margin-left: 0%;
+	font-size: 1.1em;
 }
 
 #seo div{
-	margin-left: 1%;
+	margin-left: 10px;
 	float: left;
 	background-color: rgba(82, 122, 122, 0.70);
 	padding: 10px;
-	margin-right: 1%;
 	border: none;
 	border-radius: 10px;
 	box-shadow: 1px 1px 10px grey;
-	height: 430px;
-	width: 250px;
+	height: 400px;
+	width: 200px;
 }
 
 #seo h3{
 	color: white;
+	font-size: 1.0em;
 	text-shadow: 1px 1px 3px black;
 }
 
 #seo p{
-	
+	line-height: 1.0em;
 	color: white;
 	text-shadow: 1px 1px 3px black;
 	
 }
 
 #services{
-	margin-top: 0% auto 0 auto;
+	margin: 0% auto 0 auto;
 	padding: 5px;
 	border: none;
 }
 
 #services h2{
+	font-size: 1.1em;
 	color: black;
 }
 
@@ -404,11 +428,12 @@ li{
 	box-shadow: 1px 1px 10px grey;
 	background: lightblue;
 	padding: 5px;
-	margin: 1% auto 0 auto;
+	margin: 10px auto 0 auto;
 }
 
 #regform h2{
-	color: black; 
+	color: black;
+	font-size: 1.1em;
 	text-shadow: 1px 1px 1px white;
 }
 
@@ -462,7 +487,7 @@ footer p{
     НАВИГАЦИЯ
 \*------------------------------------*/
 .nav{
-    font-size: 14px;
+    font-size: 12px;
     float:left;
     text-align: center;
     list-style:none;

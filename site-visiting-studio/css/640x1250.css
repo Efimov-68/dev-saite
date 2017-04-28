@@ -7,7 +7,6 @@
 html, body{
 	background: white url(../images/fon640x1250.png);
 	background-repeat: no-repeat;
-	background-position: ;
 	height: auto;
 	width: 2560px;
 	font-family: Arial;
@@ -478,6 +477,7 @@ footer p{
     margin-right:10px;
     position:relative;
     display:block;
+    height: 12px;
 }
 .nav li a{
     display:block;

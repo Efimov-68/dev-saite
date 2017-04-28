@@ -9,8 +9,9 @@ html, body{
 	background-repeat: no-repeat;
 	background-position: ;
 	height: auto;
-	width: 2560px;
+	width: 1300px;
 	font-family: Arial;
+	font-size: 14px;
 	line-height: 1.3em;
 	margin-left: auto;
 	margin-right: auto;
@@ -57,6 +58,7 @@ h4{
 p{
 	padding-left: 20px;
 	padding-right: 20px;
+	color: white;
 }
 
 li{
@@ -64,8 +66,9 @@ li{
 }
 
 #allcontent{
+	font-size: 14px;
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -84,33 +87,42 @@ li{
 	border: none;
 	border-radius: 10px;
 	box-shadow: 1px 1px 10px grey;
-	height: 750px;
-	width: 1900px;
+	height: 350px;
+	width: 1000px;
 }
 
-#basic h3, p{
+#basic h3{
 	color: white;
+	font-size: 1.1em;
+	line-height: 1.1em;
+	text-shadow: 1px 1px 1px black;
+}
+
+#basic p{
+	color: white;
+	line-height: 1.1em;
 	text-shadow: 1px 1px 1px black;
 }
 
 #workingOut{
 	border: none;
-	margin: 10% auto 0% auto;
-	padding: 20px;
-	width: 2520px;
-	height: 810px;
-	color: black;
+	margin: 7% 5% 0 5%;
+	padding: 10px;
+	width: 1300px;
 
 }
 
 #workingOut h1{
 	text-align: center;
+	font-size: 1.2em;
+	margin-left: -12%;
 	color: black;
 	text-shadow: 1px 1px 1px grey;
 }
 
 #workingOut h2{
 	text-align: center;
+	font-size: 14px;
 	color: white;
 	text-shadow: 1px 1px 3px black;
 }
@@ -120,9 +132,9 @@ li{
 	text-align: ;
 	border: none;
 	height: 150px;
-	width: 400px;
+	width: 200px;
 	float: left;
-	margin: 10px 1% 0 3%;
+	margin: 10px 1% 0 1%;
 	box-shadow: 1px 1px 3px black;
 	border-radius: 10px;
 }
@@ -135,24 +147,28 @@ li{
 	background: rgba(133, 173, 173, 0.70);
 	border: none;
 	height: 150px;
-	width: 400px;
+	width: 200px;
 	float: left;
-	margin: 10px 1% 0 3%;
+	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
 }
 
 #visiting:hover div{
-	background: rgba(133, 173, 173, 0.70);
+	background: rgb(133, 173, 173);
 	text-align: left;
+	font-size: 12px;
+	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 500px;
+	height: 300px;
 	width: 500px;
 	float: left;
 	margin: 0px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #visiting:hover div b{
@@ -163,7 +179,7 @@ li{
 	background: rgba(82, 122, 122, 0.70);
 	border: none;
 	height: 150px;
-	width: 400px;
+	width: 200px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	box-shadow: 1px 1px 3px black;
@@ -178,7 +194,7 @@ li{
 	background: rgba(133, 173, 173, 0.70);
 	border: none;
 	height: 150px;
-	width: 400px;
+	width: 200px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
@@ -186,16 +202,20 @@ li{
 }
 
 #landing:hover div{
-	background: rgba(133, 173, 173, 0.70);
+	background: rgb(133, 173, 173);
 	text-align: left;
+	font-size: 12px;
+	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 500px;
+	height: 300px;
 	width: 500px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #landing:hover div b{
@@ -206,7 +226,7 @@ li{
 	background: rgba(82, 122, 122, 0.70);
 	border: none;
 	height: 150px;
-	width: 400px;
+	width: 200px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	box-shadow: 1px 1px 3px black;
@@ -221,7 +241,7 @@ li{
 	background: rgba(133, 173, 173, 0.70);
 	border: none;
 	height: 150px;
-	width: 400px;
+	width: 200px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
@@ -229,16 +249,20 @@ li{
 }
 
 #company:hover div{
-	background: rgba(133, 173, 173, 0.70);
+	background: rgb(133, 173, 173);
 	text-align: left;
+	font-size: 12px;
+	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 500px;
+	height: 300px;
 	width: 500px;
 	float: right;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #company:hover div b{
@@ -249,7 +273,7 @@ li{
 	background: rgba(82, 122, 122, 0.70);
 	border: none;
 	height: 150px;
-	width: 400px;
+	width: 200px;
 	float: left;
 	margin: 10px 2% 0 1%;
 	box-shadow: 1px 1px 3px black;
@@ -264,7 +288,7 @@ li{
 	background: rgba(133, 173, 173, 0.70);
 	border: none;
 	height: 150px;
-	width: 400px;
+	width: 200px;
 	float: left;
 	margin: 10px 2% 0 1%;
 	box-shadow: 0 0 10px blue;
@@ -272,16 +296,20 @@ li{
 }
 
 #magazyn:hover div{
-	background: rgba(133, 173, 173, 0.70);
+	background: rgb(133, 173, 173);
 	text-align: left;
+	font-size: 12px;
+	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 500px;
+	height: 300px;
 	width: 500px;
 	float: right;
 	margin: 10px 2% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #magazyn:hover div b{
@@ -292,7 +320,7 @@ li{
 	float: left;
 	background: rgba(82, 122, 122, 0.70);
 	border: none;
-	margin: 5% 5% 0 5%;
+	margin: 1% 1% 0 1%;
 	padding: 5px;
 	box-shadow: 2px 1px 3px black;
 	border-radius: 10px;
@@ -305,8 +333,8 @@ li{
 
 #others{
 	border: none;
-	margin-top: 0%;
-	margin-bottom: 7%;
+	margin-top: 25%;
+	margin-bottom: 0%;
 }
 
 #design{
@@ -316,11 +344,13 @@ li{
 
 #design h2{
 	text-align: center;
+	font-size: 1.2em;
 	border: none;
 }
 
 #design p, li{
 	color: white;
+	font-size: 12px;
 	text-shadow: 1px 1px 3px black;
 }
 
@@ -334,19 +364,20 @@ li{
 	border: none;
 	border-radius: 10px;
 	box-shadow: 1px 1px 10px grey;
-	height: 230px;
+	height: 150px;
 	width: 500px;
 }
 
 #seo{
-	height: 500px;
-	margin-left: 13%;
+	height: 300px;
+	margin-left: 5%;
 	padding: 5px;
 	border: none;
 }
 
 #seo h2{
-	margin-left: -13%;
+	margin-left: -5%;
+	font-size: 1.2em;
 }
 
 #seo div{
@@ -358,35 +389,40 @@ li{
 	border: none;
 	border-radius: 10px;
 	box-shadow: 1px 1px 10px grey;
-	height: 430px;
-	width: 250px;
+	height: 200px;
+	width: 150px;
 }
 
 #seo h3{
 	color: white;
+	font-size: 1.0em;
 	text-shadow: 1px 1px 3px black;
 }
 
 #seo p{
-	
+	font-size: 12px;
+	line-height: 1.2em;
 	color: white;
 	text-shadow: 1px 1px 3px black;
 	
 }
 
 #services{
-	margin-top: 0% auto 0 auto;
+	margin: 1% auto 0 auto;
 	padding: 5px;
 	border: none;
 }
 
 #services h2{
+	font-size: 1.2em;
 	color: black;
 }
 
 #services div{
 	background-color: rgba(82, 122, 122, 0.70);
 	color: black;
+	font-size: 12px;
+	line-height: 1.2em;
 	text-shadow: 1px 1px 1px grey;
 	padding: 10px;
 	margin-left: auto;
@@ -462,14 +498,14 @@ footer p{
     НАВИГАЦИЯ
 \*------------------------------------*/
 .nav{
-    font-size: 14px;
+    font-size: 12px;
     float:left;
     text-align: center;
     list-style:none;
     font-weight:bold;
     padding: 3px;
     margin: -30px;
-    margin-left: 19%;
+    margin-left: 10%;
     margin-right: 1%;
     position: fixed;
 }
