@@ -551,7 +551,7 @@ footer p{
     background:rgba(133, 173, 173, 0.70); /* Выглядит полупрозрачным */
     text-decoration:none;
     border-radius: 2px;
-    box-shadow: 0px 0px 10px aqua;
+    box-shadow: 0px 0px 3px aqua;
     border-color: white;
     border-style: solid;
 }
