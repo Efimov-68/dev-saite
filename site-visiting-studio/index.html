@@ -3,10 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<!--meta http-equiv="refresh" content="5; url=file:///home/romka68rus/dev-saite/site-visiting-studio/index.html"-->
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen and (max-device-width: 2500px)">
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen and (min-device-width: 2500px)">
 	<link rel="stylesheet" type="text/css" href="css/640x1250.css" media="screen and (min-device-width: 640px)">
 	<link rel="stylesheet" type="text/css" href="css/1300x2539.css" media="screen and (min-device-width: 1300px)">
-	<link rel="stylesheet" type="text/css" href="css/1900x3711.css" media="screen and (min-device-width: 1900px)">
+	<link rel="stylesheet" type="text/css" href="css/1900x3711.css" media="screen and (min-device-width: 1900px)"-->
 	<title>Roman-group</title>
 </head>
 <body vlink="black">
@@ -135,15 +135,15 @@
 		<div id="regform" class="block">
 			<h2 style="">Оставьте заявку и мы Вам перезвоним.</h2>
 			<form id="feedback" action="./form/post.php" type="POST">
-				<label for="fio">Контактное лицо:</label>
+				<label for="fio">Контактное лицо: </label>
 				<input class="forminput" type="text" name="fio" title="Ф.И.О." tabindex="0" placeholder=" Ф.И.О." required="required">
-				<label for="number">Телефон:</label>
+				<label for="number">Телефон: </label>
 				<input class="forminput" type="phone" name="number" tabindex="1" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" placeholder="xxxxxxxxxx" title="9xxxxxxxxx" required="required"><br>
 				<p><input type="checkbox" name="order1" checked="checked">Создание сайта
 				<input type="checkbox" name="order2">Редизайн сайта
 				<input type="checkbox" name="order3" checked="checked">Продвижение сайта
 				<input type="checkbox" name="order4">Доп. услуги<br></p>
-				<input class="forminput" type="submit" value="Отправить" style="text-shadow: 1px 1px 1px black;">
+				<input class="submit" type="submit" value="Отправить" style="text-shadow: 1px 1px 1px black;">
 			</form>
 		</div>
 	</div>

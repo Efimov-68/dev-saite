@@ -24,11 +24,10 @@ header{
 ul#contacts{
 	float: right;
 	list-style-type: none;
-	margin: 10px; 
-	margin-right: 5%; 
 	font-size: 13px; 
 	font-family: cursive;
 	color: white;
+	margin-right: 20px;
 }
 
 li b{
@@ -65,8 +64,6 @@ li{
 #allcontent{
 	padding-top: 5px;
 	padding-bottom: 5px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 #basic{
@@ -94,7 +91,7 @@ li{
 
 #workingOut{
 	border: none;
-	margin: 10% auto 0% auto;
+	margin: 17% 0 0 0;
 	padding: 20px;
 	width: 2520px;
 	height: 810px;
@@ -105,6 +102,7 @@ li{
 #workingOut h1{
 	text-align: center;
 	color: black;
+	margin-top: -5%;
 	text-shadow: 1px 1px 1px grey;
 }
 
@@ -116,12 +114,11 @@ li{
 
 #visiting{
 	background: rgba(82, 122, 122, 0.70);
-	text-align: ;
 	border: none;
 	height: 150px;
 	width: 400px;
 	float: left;
-	margin: 10px 1% 0 3%;
+	margin: 10px 1% 0 2%;
 	box-shadow: 1px 1px 3px black;
 	border-radius: 10px;
 }
@@ -136,17 +133,18 @@ li{
 	height: 150px;
 	width: 400px;
 	float: left;
-	margin: 10px 1% 0 3%;
+	margin: 10px 1% 0 2%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
 }
 
 #visiting:hover div{
-	background: rgba(133, 173, 173, 0.70);
+	background: rgb(133, 173, 173);
+	font-size: 14px;
 	text-align: left;
 	display: block;
 	border: none;
-	height: 500px;
+	height: 300px;
 	width: 500px;
 	float: left;
 	margin: 0px 1% 0 1%;
@@ -187,12 +185,13 @@ li{
 }
 
 #landing:hover div{
-	background: rgba(133, 173, 173, 0.70);
+	background: rgb(133, 173, 173);
 	text-align: left;
+	font-size: 14px;
 	display: block;
 	border: none;
-	height: 500px;
-	width: 500px;
+	height: 400px;
+	width: 600px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
@@ -232,11 +231,12 @@ li{
 }
 
 #company:hover div{
-	background: rgba(133, 173, 173, 0.70);
+	background: rgb(133, 173, 173);
 	text-align: left;
+	font-size: 14px;
 	display: block;
 	border: none;
-	height: 500px;
+	height: 300px;
 	width: 500px;
 	float: right;
 	margin: 10px 1% 0 1%;
@@ -277,11 +277,12 @@ li{
 }
 
 #magazyn:hover div{
-	background: rgba(133, 173, 173, 0.70);
+	background: rgb(133, 173, 173);
 	text-align: left;
+	font-size: 14px;
 	display: block;
 	border: none;
-	height: 500px;
+	height: 300px;
 	width: 500px;
 	float: right;
 	margin: 10px 2% 0 1%;
@@ -299,7 +300,7 @@ li{
 	float: left;
 	background: rgba(82, 122, 122, 0.70);
 	border: none;
-	margin: 5% 5% 0 5%;
+	margin: 2% 5% 0 5%;
 	padding: 5px;
 	box-shadow: 2px 1px 3px black;
 	border-radius: 10px;
@@ -312,8 +313,8 @@ li{
 
 #others{
 	border: none;
-	margin-top: 0%;
-	margin-bottom: 7%;
+	margin-top: -10%;
+	margin-bottom: 10%;
 }
 
 #design{
@@ -382,7 +383,7 @@ li{
 }
 
 #services{
-	margin-top: 0% auto 0 auto;
+	margin: 0% auto 0 auto;
 	padding: 5px;
 	border: none;
 }
@@ -409,7 +410,8 @@ li{
 	width: 800px;
 	height: 200px;
 	box-shadow: 1px 1px 10px grey;
-	background: lightblue;
+	border-radius: 10px;
+	background: rgb(82, 122, 122);
 	padding: 5px;
 	margin: 1% auto 0 auto;
 }
@@ -427,7 +429,7 @@ li{
 }
 
 #feedback label{
-	font-size: 24px;
+	font-size: 20px;
 	color: white;
 	text-align: center;
 	text-shadow: 1px 1px 1px black;
@@ -448,6 +450,17 @@ li{
 	border-style: ridge;
 	border-color: lightblue;
 	box-shadow: 0 0 1px black;
+}
+
+.submit{
+	height: 28px;
+	width: 200px;
+	font-size: 16px;
+	color: black;
+	background: lightblue;
+	border: none;
+	border-style: solid;
+	border-radius: 5px;
 }
 
 footer{
@@ -476,7 +489,7 @@ footer p{
     font-weight:bold;
     padding: 3px;
     margin: -30px;
-    margin-left: 19%;
+    margin-left: 30%;
     margin-right: 1%;
     position: fixed;
 }

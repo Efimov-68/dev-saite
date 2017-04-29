@@ -5,16 +5,14 @@
 }
 
 html, body{
-	background: white url(../images/fon1300x2539.png);
+	background: rgba(82, 122, 122, 0.70) url(../images/fon1300x2539.png);
 	background-repeat: no-repeat;
-	background-position: ;
-	height: auto;
 	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
 	font-family: Arial;
 	font-size: 14px;
 	line-height: 1.3em;
-	margin-left: auto;
-	margin-right: auto;
 	text-shadow: 1px 1px 1px black;
 }
 
@@ -25,9 +23,7 @@ header{
 
 ul#contacts{
 	float: right;
-	list-style-type: none;
-	margin: 10px; 
-	margin-right: 5%; 
+	list-style-type: none; 
 	font-size: 13px; 
 	font-family: cursive;
 	color: white;
@@ -42,7 +38,6 @@ h1{
 	text-align: left;
 	text-shadow: 1px 1px 1px black;
 	padding: 10px;
-	margin: 5px;
 }
 
 h2, h3{
@@ -69,8 +64,6 @@ li{
 	font-size: 14px;
 	padding-top: 5px;
 	padding-bottom: 0px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 #basic{
@@ -106,7 +99,7 @@ li{
 
 #workingOut{
 	border: none;
-	margin: 7% 5% 0 5%;
+	margin: 7% 0 0 0;
 	padding: 10px;
 	width: 1300px;
 
@@ -134,7 +127,7 @@ li{
 	height: 150px;
 	width: 200px;
 	float: left;
-	margin: 10px 1% 0 1%;
+	margin: 10px 1% 0 5%;
 	box-shadow: 1px 1px 3px black;
 	border-radius: 10px;
 }
@@ -149,7 +142,7 @@ li{
 	height: 150px;
 	width: 200px;
 	float: left;
-	margin: 10px 1% 0 1%;
+	margin: 10px 1% 0 5%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
 }
@@ -164,7 +157,7 @@ li{
 	height: 300px;
 	width: 500px;
 	float: left;
-	margin: 0px 1% 0 1%;
+	margin: 0 1% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
 	-moz-transform:scale(1.10);
@@ -275,7 +268,7 @@ li{
 	height: 150px;
 	width: 200px;
 	float: left;
-	margin: 10px 2% 0 1%;
+	margin: 10px 5% 0 1%;
 	box-shadow: 1px 1px 3px black;
 	border-radius: 10px;
 }
@@ -290,7 +283,7 @@ li{
 	height: 150px;
 	width: 200px;
 	float: left;
-	margin: 10px 2% 0 1%;
+	margin: 10px 5% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
 }
@@ -438,13 +431,15 @@ li{
 	width: 800px;
 	height: 200px;
 	box-shadow: 1px 1px 10px grey;
-	background: lightblue;
+	border-radius: 10px;
+	background: rgb(82, 122, 122);
 	padding: 5px;
 	margin: 1% auto 0 auto;
 }
 
 #regform h2{
-	color: black; 
+	color: black;
+	font-size: 1.4em;
 	text-shadow: 1px 1px 1px white;
 }
 
@@ -456,7 +451,7 @@ li{
 }
 
 #feedback label{
-	font-size: 24px;
+	font-size: 18px;
 	color: white;
 	text-align: center;
 	text-shadow: 1px 1px 1px black;
@@ -473,10 +468,19 @@ li{
 	font-size: 16px;
 	color: black;
 	background: white;
-	border-width: 0;
-	border-style: ridge;
-	border-color: lightblue;
-	box-shadow: 0 0 1px black;
+	border: none;
+	box-shadow: 0 0 3px black;
+}
+
+.submit{
+	height: 28px;
+	width: 200px;
+	font-size: 16px;
+	color: black;
+	background: lightblue;
+	border: none;
+	border-style: solid;
+	border-radius: 5px;
 }
 
 footer{
