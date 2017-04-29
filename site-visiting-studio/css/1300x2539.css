@@ -531,10 +531,10 @@ footer p{
 }
 .nav li a{
     display:block;
-    color:black;
+    color:lightgrey;
     background:rgba(82, 122, 122, 0.70);
     text-decoration:none;
-    text-shadow:0px 0px 1px lightblue;/*rgba(0,0,0,0.50); /* Тень текста, чтобы приподнять его на немного */
+    text-shadow:0px 0px 1px black;/*rgba(0,0,0,0.50); /* Тень текста, чтобы приподнять его на немного */
     -moz-border-radius:2px;
     -webkit-border-radius:2px;
     border-style: solid;
