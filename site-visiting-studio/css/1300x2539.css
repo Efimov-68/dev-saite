@@ -487,6 +487,7 @@ li{
 	width: 200px;
 	font-size: 16px;
 	color: black;
+	text-shadow: 1px 1px 1px black;
 	background: orange;
 	border: 3px ridge darkorange;
 	border-radius: 15px;
