@@ -1,5 +1,5 @@
 html, body{
-	background: rgba(82, 122, 122, 0.70) url(../images/fon640x1250.png);
+	background: rgba(82, 122, 122, 0.70) url(../images/fon2560x5000.png);
 	background-repeat: no-repeat;
 	height: auto;
 	width: 2560px;
@@ -13,8 +13,6 @@ html, body{
 #allcontent{
 	padding-top: 5px;
 	padding-bottom: 5px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 #basic{
@@ -42,7 +40,7 @@ html, body{
 
 #workingOut{
 	border: none;
-	margin: 10% auto 0% auto;
+	margin: 17% 0 0 0;
 	padding: 20px;
 	width: 2520px;
 	height: 810px;
@@ -53,6 +51,7 @@ html, body{
 #workingOut h1{
 	text-align: center;
 	color: black;
+	margin-top: -5%;
 	text-shadow: 1px 1px 1px grey;
 }
 
@@ -64,12 +63,11 @@ html, body{
 
 #visiting{
 	background: rgba(82, 122, 122, 0.70);
-	text-align: ;
 	border: none;
 	height: 150px;
 	width: 400px;
 	float: left;
-	margin: 10px 1% 0 3%;
+	margin: 10px 1% 0 2%;
 	box-shadow: 1px 1px 3px black;
 	border-radius: 10px;
 }
@@ -84,22 +82,25 @@ html, body{
 	height: 150px;
 	width: 400px;
 	float: left;
-	margin: 10px 1% 0 3%;
+	margin: 10px 1% 0 2%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
 }
 
 #visiting:hover div{
-	background: rgba(133, 173, 173, 0.70);
+	background: rgb(133, 173, 173);
+	font-size: 14px;
 	text-align: left;
 	display: block;
 	border: none;
-	height: 500px;
+	height: 300px;
 	width: 500px;
 	float: left;
 	margin: 0px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #visiting:hover div b{
@@ -133,16 +134,19 @@ html, body{
 }
 
 #landing:hover div{
-	background: rgba(133, 173, 173, 0.70);
+	background: rgb(133, 173, 173);
 	text-align: left;
+	font-size: 14px;
 	display: block;
 	border: none;
-	height: 500px;
-	width: 500px;
+	height: 400px;
+	width: 600px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #landing:hover div b{
@@ -176,16 +180,19 @@ html, body{
 }
 
 #company:hover div{
-	background: rgba(133, 173, 173, 0.70);
+	background: rgb(133, 173, 173);
 	text-align: left;
+	font-size: 14px;
 	display: block;
 	border: none;
-	height: 500px;
+	height: 300px;
 	width: 500px;
 	float: right;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #company:hover div b{
@@ -219,16 +226,19 @@ html, body{
 }
 
 #magazyn:hover div{
-	background: rgba(133, 173, 173, 0.70);
+	background: rgb(133, 173, 173);
 	text-align: left;
+	font-size: 14px;
 	display: block;
 	border: none;
-	height: 500px;
+	height: 300px;
 	width: 500px;
 	float: right;
 	margin: 10px 2% 0 1%;
 	box-shadow: 0 0 10px blue;
 	border-radius: 10px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #magazyn:hover div b{
@@ -239,7 +249,7 @@ html, body{
 	float: left;
 	background: rgba(82, 122, 122, 0.70);
 	border: none;
-	margin: 5% 5% 0 5%;
+	margin: 2% 5% 0 5%;
 	padding: 5px;
 	box-shadow: 2px 1px 3px black;
 	border-radius: 10px;
@@ -252,8 +262,8 @@ html, body{
 
 #others{
 	border: none;
-	margin-top: 0%;
-	margin-bottom: 7%;
+	margin-top: -10%;
+	margin-bottom: 10%;
 }
 
 #design{
@@ -322,7 +332,7 @@ html, body{
 }
 
 #services{
-	margin-top: 0% auto 0 auto;
+	margin: 0% auto 0 auto;
 	padding: 5px;
 	border: none;
 }
@@ -349,7 +359,8 @@ html, body{
 	width: 800px;
 	height: 200px;
 	box-shadow: 1px 1px 10px grey;
-	background: lightblue;
+	border-radius: 10px;
+	background: rgb(82, 122, 122);
 	padding: 5px;
 	margin: 1% auto 0 auto;
 }
@@ -367,7 +378,7 @@ html, body{
 }
 
 #feedback label{
-	font-size: 24px;
+	font-size: 20px;
 	color: white;
 	text-align: center;
 	text-shadow: 1px 1px 1px black;
