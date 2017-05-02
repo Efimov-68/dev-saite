@@ -366,8 +366,51 @@ li{
 	border: none;
 	border-radius: 10px;
 	box-shadow: 1px 1px 10px grey;
-	height: 430px;
+	height: 100px;
 	width: 250px;
+}
+
+#seo div:hover{
+	margin-left: 1%;
+	float: left;
+	background-color: rgba(82, 122, 122, 0.70);
+	padding: 10px;
+	margin-right: 1%;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px aqua;
+	height: 100px;
+	width: 250px;
+}
+
+.seoblocklef, .seoblockrig{
+	display: none;
+}
+
+#seo div:hover div.seoblocklef{
+	display: block;
+	float: left;
+	background-color: rgb(82, 122, 122);
+	height: 200px;
+	width: 400px;
+	box-shadow: 0 0 10px aqua;
+	color: white;
+	text-shadow: 1px 1px 1px grey;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
+}
+
+#seo div:hover div.seoblockrig{
+	display: block;
+	float: right;
+	background-color: rgb(82, 122, 122);
+	height: 200px;
+	width: 400px;
+	box-shadow: 0 0 10px aqua;
+	color: white;
+	text-shadow: 1px 1px 1px grey;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #seo h3{
