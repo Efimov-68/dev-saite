@@ -594,14 +594,15 @@ footer{
 	line-height: 1.1em;
 }
 
-footer li{
+footer a{
 	color: black;
 	text-shadow: 1px 1px 1px lightgrey;
 }
 
 footer p{
-	color: lightgrey;
+	color: black;
 	padding: 5px;
+	text-shadow: 0 0 1px white;
 }
 
 /*------------------------------------*\
