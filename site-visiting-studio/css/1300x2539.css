@@ -483,8 +483,8 @@ li{
 }
 
 #regform{
-	width: 600px;
-	height: 390px;
+	width: 650px;
+	height: 410px;
 	box-shadow: 1px 1px 10px grey;
 	border-radius: 10px;
 	background: rgba(82, 122, 122, 0.85);
@@ -557,7 +557,7 @@ li{
 	height: 28px;
 	width: 300px;
 	padding: 5px;
-	margin: 10px 30px 0 94px;
+	margin: 10px 30px 0 106px;
 	font-size: 16px;
 	color: black;
 	background: white;
