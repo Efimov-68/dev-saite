@@ -5,7 +5,7 @@
 }
 
 html, body{
-	background: rgba(82, 122, 122, 0.70) url(../images/fon1300x2539.png);
+	background: white;
 	background-repeat: no-repeat;
 	width: 1300px;
 	margin-left: auto;
@@ -14,6 +14,11 @@ html, body{
 	font-size: 14px;
 	line-height: 1.3em;
 	text-shadow: 1px 1px 1px black;
+}
+
+body{
+	background: url(../images/1300x2600.png);
+	box-shadow: 0 0 10px black;
 }
 
 header{
@@ -81,7 +86,7 @@ li{
 	border-radius: 10px;
 	box-shadow: 1px 1px 10px grey;
 	height: 350px;
-	width: 1000px;
+	width: 1120px;
 }
 
 #basic h3{
@@ -107,10 +112,10 @@ li{
 
 #workingOut h1{
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	margin-left: -4%;
 	color: black;
-	text-shadow: 1px 1px 1px grey;
+	text-shadow: 0px 0px 3px white;
 }
 
 #workingOut h2{
@@ -337,7 +342,9 @@ li{
 
 #design h2{
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1.4em;
+	color: black;
+	text-shadow: 0 0 3px white;
 	border: none;
 }
 
@@ -370,7 +377,9 @@ li{
 
 #seo h2{
 	margin-left: -5%;
-	font-size: 1.2em;
+	font-size: 1.4em;
+	text-shadow: 0 0 3px white;
+	color: black;
 }
 
 #seo div{
@@ -397,6 +406,8 @@ li{
 	box-shadow: 0px 0px 10px blue;
 	height: 200px;
 	width: 150px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 .seoblocklef, .seoblockrig{
@@ -444,13 +455,14 @@ li{
 }
 
 #services{
-	margin: 0 auto 0 auto;
-	padding: 5px;
+	margin: 7.5% auto 0 auto;
+	padding: 0px;
 	border: none;
 }
 
 #services h2{
-	font-size: 1.2em;
+	font-size: 1.4em;
+	text-shadow: 0 0 3px white;
 	color: black;
 }
 
@@ -466,16 +478,16 @@ li{
 	border: none;
 	border-radius: 10px;
 	box-shadow: 1px 1px 10px grey;
-	height: 400px;
-	width: 800px;
+	height: 280px;
+	width: 1120px;
 }
 
 #regform{
 	width: 800px;
-	height: 200px;
+	height: 390px;
 	box-shadow: 1px 1px 10px grey;
 	border-radius: 10px;
-	background: rgb(82, 122, 122);
+	background: rgba(82, 122, 122, 0.85);
 	padding: 5px;
 	margin: 1% auto 0 auto;
 }
@@ -483,7 +495,7 @@ li{
 #regform h2{
 	color: black;
 	font-size: 1.4em;
-	text-shadow: 1px 1px 1px white;
+	text-shadow: 0px 0px 3px white;
 }
 
 #feedback{
@@ -502,12 +514,50 @@ li{
 
 #feedback p{
 	color: black;
-	text-shadow: 1px 1px 1px white;
+	text-shadow: 0px 0px 3px white;
 }
 
-.forminput{
+.fio{
 	height: 28px;
-	width: 200px;
+	width: 300px;
+	padding: 5px;
+	margin: 10px 30px 0 5px;
+	font-size: 16px;
+	color: black;
+	background: white;
+	border: none;
+	box-shadow: 0 0 3px black;
+}
+
+.phone{
+	height: 28px;
+	width: 300px;
+	padding: 5px;
+	margin: 10px 30px 0 70px;
+	font-size: 16px;
+	color: black;
+	background: white;
+	border: none;
+	box-shadow: 0 0 3px black;
+}
+
+.email{
+	height: 28px;
+	width: 300px;
+	padding: 5px;
+	margin: 10px 30px 0 93px;
+	font-size: 16px;
+	color: black;
+	background: white;
+	border: none;
+	box-shadow: 0 0 3px black;
+}
+
+.city{
+	height: 28px;
+	width: 300px;
+	padding: 5px;
+	margin: 10px 30px 0 94px;
 	font-size: 16px;
 	color: black;
 	background: white;
@@ -545,11 +595,13 @@ footer{
 }
 
 footer li{
-	text-shadow: 1px 1px 1px grey;
+	color: black;
+	text-shadow: 1px 1px 1px lightgrey;
 }
 
 footer p{
-	color: black;
+	color: lightgrey;
+	padding: 5px;
 }
 
 /*------------------------------------*\
@@ -609,3 +661,4 @@ footer p{
     -moz-transform:scale(1.10);
     -webkit-transform:scale(1.10);
 }
+/*Конец верхнего меню*/
