@@ -7,10 +7,11 @@ $fio = urldecode($fio);
 $number = urldecode($number);
 $fio = trim($fio);
 $number = trim($number);
+$to = "r.efimov@list.ru";
 //echo $fio;
 //echo "<br>";
 //echo $fio;
-if (mail("r.efimov@list.ru", "Заявка с сайта", "ФИО:".$fio.". Телефон: ".$number")){
+if (mail($to, "Заявка с сайта", "ФИО: $fio" . "Телефон: $number")){
 	echo "форма успешно отправлено";
 }else{
 	echo "при отправке формы возникли проблемы";
