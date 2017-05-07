@@ -31,9 +31,11 @@ ul#contacts{
 	list-style-type: none; 
 	font-size: 11px; 
 	font-family: cursive;
+	margin-right: 1%;
 }
 
 #contacts li{
+	padding: 5px;
 	color: lightgrey;
 	text-shadow: 1px 1px 1px black;
 }
@@ -151,7 +153,7 @@ li{
 }
 
 #visiting:hover{
-	background: lightgrey/*rgba(133, 173, 173, 0.70)*/;
+	background: rgba(214, 214, 194, 0.30)/*rgba(133, 173, 173, 0.70)*/;
 	border: none;
 	height: 110px;
 	width: 200px;
@@ -164,7 +166,7 @@ li{
 }
 
 #visiting:hover div{
-	background: lightgrey/*rgb(133, 173, 173)*/;
+	background: rgba(214, 214, 194, 0.95)/*rgb(133, 173, 173)*/;
 	text-align: left;
 	font-size: 12px;
 	line-height: 1.2em;
@@ -204,7 +206,7 @@ li{
 }
 
 #landing:hover{
-	background: lightgrey/*rgba(133, 173, 173, 0.70)*/;
+	background: rgba(214, 214, 194, 0.30)/*rgba(133, 173, 173, 0.70)*/;
 	border: none;
 	height: 110px;
 	width: 200px;
@@ -217,7 +219,7 @@ li{
 }
 
 #landing:hover div{
-	background: lightgrey/*rgb(133, 173, 173)*/;
+	background: rgba(214, 214, 194, 0.95)/*rgb(133, 173, 173)*/;
 	text-align: left;
 	font-size: 12px;
 	line-height: 1.2em;
@@ -264,7 +266,7 @@ li{
 }
 
 #company:hover{
-	background: lightgrey/*rgba(133, 173, 173, 0.70)*/;
+	background: rgba(214, 214, 194, 0.30)/*rgba(133, 173, 173, 0.70)*/;
 	border: none;
 	height: 110px;
 	width: 200px;
@@ -277,7 +279,7 @@ li{
 }
 
 #company:hover div{
-	background: lightgrey/*rgb(133, 173, 173)*/;
+	background: rgba(214, 214, 194, 0.95)/*rgb(133, 173, 173)*/;
 	text-align: left;
 	font-size: 12px;
 	line-height: 1.2em;
@@ -318,7 +320,7 @@ li{
 }
 
 #magazyn:hover{
-	background: lightgrey/*rgba(133, 173, 173, 0.70)*/;
+	background: rgba(214, 214, 194, 0.30)/*rgba(133, 173, 173, 0.70)*/;
 	border: none;
 	height: 110px;
 	width: 200px;
@@ -331,7 +333,7 @@ li{
 }
 
 #magazyn:hover div{
-	background: lightgrey/*rgb(133, 173, 173)*/;
+	background: rgba(214, 214, 194, 0.95)/*rgb(133, 173, 173)*/;
 	text-align: left;
 	font-size: 12px;
 	line-height: 1.2em;
@@ -455,7 +457,7 @@ li{
 #seo div:hover div.seoblocklef{
 	display: block;
 	float: left;
-	background-color: rgba(82, 122, 122, 0.50);
+	background-color: rgba(214, 214, 194, 0.90);
 	height: 200px;
 	width: 400px;
 	box-shadow: 0 0 10px black;
@@ -468,7 +470,7 @@ li{
 #seo div:hover div.seoblockrig{
 	display: block;
 	float: right;
-	background-color: rgba(82, 122, 122, 0.50);
+	background-color: rgba(214, 214, 194, 0.90);
 	height: 200px;
 	width: 400px;
 	box-shadow: 0 0 10px black;
@@ -487,8 +489,8 @@ li{
 #seo p{
 	font-size: 12px;
 	line-height: 1.2em;
-	color: white;
-	text-shadow: 1px 1px 3px black;
+	color: black;
+	text-shadow: 1px 1px 3px grey;
 	
 }
 
