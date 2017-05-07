@@ -17,25 +17,28 @@
 		$services_2 = $_GET['order2'];
 		$services_3 = $_GET['order3'];
 		$services_4 = $_GET['order4'];
-	
-		$to = 'baki68rus@gmail.com';
-		$subject = 'Сообщение о похищении НЛО';
-		$msg = "$name был похищен $when_it_happened и отсутствовали в течение $how_long\n".
-		"Сколько их было? ' . $how_many\n".
-		"Опишите их: $alien_description\n".
-		"Дополнительная информация $other";
-		mail($to, $subject, $msg, 'From:' . $email);
 
-		echo 'Спасибо за заполнение формы.<br/>';
-		echo 'Контактное лицо: ' .$name . '<br/>';
-		echo 'Сколько их было? ' . $how_many . '<br/>';
-		echo 'Вы были похищены' . $when_it_happened;
-		echo ' и отсутствовали в течение ' . $how_long . '<br/>';
-		echo 'Опишите их: ' . $alien_description . '<br/>';
-		echo 'Что они делали? ' . $what_they_did;
-		echo 'Видели ли вы мою собаку Фенга? ' . $fang_spotted . '<br/>';
-		echo 'Ваш адрес электронной почты: ' . $email . 'br/';
-		echo 'Дополнительная информация ' . $other;
+		$to = 'r.efimov@list.ru';
+		$subject = 'Сообщение с сайта';
+		$msg = "Ф.И.О.: $name\n".
+			"Телефон: $phone\n".
+			"E-mail: $email\n".
+			"Город: $city\n".
+			"Создать сайт: $services_1\n".
+			"(Re:)Дизайн: $services_2\n".
+			"Продвижение: $services_3\n".
+			"Доп. услуги: $services_4";
+		mail($to, $subject, $msg, 'From: ' . $email);
+
+		echo 'Спасибо за заполнение формы. <br/>';
+		echo 'Контактное лицо: '.$name.'<br/>';
+		echo 'Номер телефона: '.$phone.'<br/>';
+		echo 'Электронная почта: '.$email.'<br/>';
+		echo 'Город: '.$city.'<br/>';
+		echo 'Создать сайт: ' . $services_1 . '<br/>';
+		echo '(Re:)Дизайн: ' . $services_2 . '<br/>';
+		echo 'Продвижение: ' . $services_3 . '<br/>';
+		echo 'Доп. услуги: ' . $services_4;
 	?>
 </body>
 </html>
