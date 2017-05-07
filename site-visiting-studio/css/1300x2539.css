@@ -484,7 +484,7 @@ li{
 
 #regform{
 	width: 650px;
-	height: 410px;
+	height: 380px;
 	box-shadow: 1px 1px 10px grey;
 	border-radius: 10px;
 	background: rgba(82, 122, 122, 0.85);
@@ -521,7 +521,7 @@ li{
 	height: 28px;
 	width: 300px;
 	padding: 5px;
-	margin: 10px 30px 0 5px;
+	margin: 10px 30px 0 0;
 	font-size: 16px;
 	color: black;
 	background: white;
@@ -533,7 +533,7 @@ li{
 	height: 28px;
 	width: 300px;
 	padding: 5px;
-	margin: 10px 30px 0 70px;
+	margin: 10px 30px 0 65px;
 	font-size: 16px;
 	color: black;
 	background: white;
@@ -545,7 +545,7 @@ li{
 	height: 28px;
 	width: 300px;
 	padding: 5px;
-	margin: 10px 30px 0 93px;
+	margin: 10px 30px 0 89px;
 	font-size: 16px;
 	color: black;
 	background: white;
@@ -557,7 +557,7 @@ li{
 	height: 28px;
 	width: 300px;
 	padding: 5px;
-	margin: 10px 30px 0 106px;
+	margin: 10px 30px 0 90px;
 	font-size: 16px;
 	color: black;
 	background: white;
@@ -603,6 +603,20 @@ footer p{
 	color: black;
 	padding: 5px;
 	text-shadow: 0 0 1px white;
+}
+
+#comments textarea{
+	float: right;
+	padding: 5px;
+	margin: -80px 180px 0 0;
+	border-style: solid;
+	box-shadow: 0 0 10px black;
+}
+
+#comments p{
+	float: right;
+	padding: 5px;
+	margin: -49px -650px 0 0px;
 }
 
 /*------------------------------------*\
