@@ -426,28 +426,26 @@ li{
 	margin-left: 5%;
 	float: left;
 	background-color: rgba(0,0,0,0.0)/*(82, 122, 122, 0.70)*/;
-	padding: 10px;
+	padding: 5px;
 	margin-right: 5%;
 	border: none;
-	/*border-radius: 10px;
-	box-shadow: 1px 1px 10px grey;*/
+	/*border-radius: 10px;*/
+	box-shadow: 0 0 3px black;
 	height: 60px;
-	width: 150px;
+	width: 160px;
 }
 
 #seo div:hover{
 	margin-left: 5%;
 	float: left;
 	background-color: rgba(0, 0, 0, 0.0);
-	padding: 10px;
+	padding: 5px;
 	margin-right: 5%;
 	border: none;
-	/*border-radius: 0px;
-	box-shadow: 0px 0px 10px black;*/
-	height: 200px;
-	width: 150px;
-	-moz-transform:scale(1.10);
-    -webkit-transform:scale(1.10);
+	/*border-radius: 0px;*/
+	box-shadow: 0px 0px 5px white;
+	height: 60px;
+	width: 160px;
 }
 
 .seoblocklef, .seoblockrig{
