@@ -31,6 +31,7 @@ table{
 }
 td{
 	padding-right: 7px;
+	font-size: 0.9em;
 }
 
 ul#contacts{
@@ -179,8 +180,8 @@ li{
 	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 300px;
-	width: 500px;
+	height: 250px;
+	width: 400px;
 	float: left;
 	margin: 0 1% 0 1%;
 	box-shadow: 0 0 10px black;
@@ -292,8 +293,8 @@ li{
 	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 330px;
-	width: 500px;
+	height: 320px;
+	width: 450px;
 	float: right;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px black;
