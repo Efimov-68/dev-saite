@@ -1,7 +1,10 @@
 @font-face{
 	font-family: Pangolin-Regular;
-	src: url(./fonts/Pangolin-Regular.ttf);
-	src: url(./fonts/Neucha.ttf);
+	font-family: Neucha;
+	font-family: Comfortaa-Regular;
+	src: url(../fonts/Pangolin-Regular.ttf);
+	src: url(../fonts/Neucha.ttf);
+	src: url(../fonts/Comfortaa-Regular.ttf);
 }
 
 html, body{
@@ -11,7 +14,7 @@ html, body{
 	margin-left: auto;
 	margin-right: auto;
 	font-family: Arial;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 1.3em;
 	text-shadow: 0px 0px 1px white;
 }
@@ -19,11 +22,13 @@ html, body{
 body{
 	background: url(../images/1300x2600.png);
 	box-shadow: 0 0 10px black;
+	font-family: Neucha;
 }
 
 header{
 	background: url(../images/logo.png) no-repeat;
-	height: 120px;
+	height: 130px;
+	width: 1300px;
 }
 
 table{
@@ -34,12 +39,13 @@ td{
 	font-size: 0.9em;
 }
 
-ul#contacts{
+#contacts{
 	float: right;
 	list-style-type: none; 
 	font-size: 11px; 
 	font-family: cursive;
 	margin-right: 1%;
+	margin-top: -4%;
 }
 
 #contacts li{
@@ -86,6 +92,7 @@ li{
 }
 
 #basic{
+	margin-top: -5px;
 	border: none;
 	padding: 5px;
 }
@@ -99,8 +106,12 @@ li{
 	border: none;
 	/*border-radius: 10px;
 	box-shadow: 1px 1px 10px grey;*/
-	height: 350px;
+	height: 390px;
 	width: 1120px;
+}
+
+#basic h2{
+	font-size: 1.6em;
 }
 
 #basic h3{
@@ -112,13 +123,16 @@ li{
 
 #basic p{
 	color: white;
-	line-height: 1.1em;
-	text-shadow: 1px 1px 1px black;
+	line-height: 1.3em;
+	text-shadow: 1px 1px 2px black;
+}
+
+header, #basic{
+	background-color: rgba(82, 122, 122,0.40);
 }
 
 #workingOut{
 	border: none;
-	margin: 5% 0 0 0;
 	padding: 10px;
 	width: 1300px;
 
@@ -126,8 +140,8 @@ li{
 
 #workingOut h1{
 	text-align: center;
-	font-size: 1.4em;
-	margin-left: -4%;
+	font-size: 1.6em;
+	margin-left: 0%;
 	color: black;
 	text-shadow: 0px 0px 3px white;
 }
@@ -143,7 +157,7 @@ li{
 	background: rgba(0, 0, 0, 0.0)/*(82, 122, 122, 0.70)*/;
 	text-align: ;
 	border: none;
-	height: 110px;
+	height: 120px;
 	width: 200px;
 	float: left;
 	margin: 10px 1% 0 5%;
@@ -163,7 +177,7 @@ li{
 #visiting:hover{
 	background: rgba(214, 214, 194, 0.30)/*rgba(133, 173, 173, 0.70)*/;
 	border: none;
-	height: 110px;
+	height: 120px;
 	width: 200px;
 	float: left;
 	margin: 10px 1% 0 5%;
@@ -174,14 +188,14 @@ li{
 }
 
 #visiting:hover div{
-	background: rgba(214, 214, 194, 0.95)/*rgb(133, 173, 173)*/;
+	background: rgba(242, 242, 242, 0.90)/*rgb(133, 173, 173)*/;
 	text-align: left;
 	font-size: 12px;
 	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 250px;
-	width: 400px;
+	height: 300px;
+	width: 430px;
 	float: left;
 	margin: 0 1% 0 1%;
 	box-shadow: 0 0 10px black;
@@ -197,7 +211,7 @@ li{
 #landing{
 	background: rgba(0, 0, 0, 0.0)/*(82, 122, 122, 0.70)*/;
 	border: none;
-	height: 110px;
+	height: 120px;
 	width: 200px;
 	float: left;
 	margin: 10px 1% 0 1%;
@@ -216,7 +230,7 @@ li{
 #landing:hover{
 	background: rgba(214, 214, 194, 0.30)/*rgba(133, 173, 173, 0.70)*/;
 	border: none;
-	height: 110px;
+	height: 120px;
 	width: 200px;
 	float: left;
 	margin: 10px 1% 0 1%;
@@ -227,7 +241,7 @@ li{
 }
 
 #landing:hover div{
-	background: rgba(214, 214, 194, 0.95)/*rgb(133, 173, 173)*/;
+	background: rgba(242, 242, 242, 0.90)/*rgb(133, 173, 173)*/;
 	text-align: left;
 	font-size: 12px;
 	line-height: 1.2em;
@@ -256,7 +270,7 @@ li{
 #company{
 	background: rgba(0, 0, 0, 0.0)/*(82, 122, 122, 0.70)*/;
 	border: none;
-	height: 110px;
+	height: 120px;
 	width: 200px;
 	float: left;
 	margin: 10px 1% 0 1%;
@@ -276,7 +290,7 @@ li{
 #company:hover{
 	background: rgba(214, 214, 194, 0.30)/*rgba(133, 173, 173, 0.70)*/;
 	border: none;
-	height: 110px;
+	height: 120px;
 	width: 200px;
 	float: left;
 	margin: 10px 1% 0 1%;
@@ -287,14 +301,14 @@ li{
 }
 
 #company:hover div{
-	background: rgba(214, 214, 194, 0.95)/*rgb(133, 173, 173)*/;
+	background: rgba(242, 242, 242, 0.90)/*rgb(133, 173, 173)*/;
 	text-align: left;
 	font-size: 12px;
 	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 320px;
-	width: 450px;
+	height: 360px;
+	width: 470px;
 	float: right;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px black;
@@ -310,7 +324,7 @@ li{
 #magazyn{
 	background: rgba(0, 0, 0, 0.0)/*(82, 122, 122, 0.70)*/;
 	border: none;
-	height: 110px;
+	height: 120px;
 	width: 200px;
 	float: left;
 	margin: 10px 5% 0 1%;
@@ -330,7 +344,7 @@ li{
 #magazyn:hover{
 	background: rgba(214, 214, 194, 0.30)/*rgba(133, 173, 173, 0.70)*/;
 	border: none;
-	height: 110px;
+	height: 120px;
 	width: 200px;
 	float: left;
 	margin: 10px 5% 0 1%;
@@ -341,7 +355,7 @@ li{
 }
 
 #magazyn:hover div{
-	background: rgba(214, 214, 194, 0.95)/*rgb(133, 173, 173)*/;
+	background: rgba(242, 242, 242, 0.90)/*rgb(133, 173, 173)*/;
 	text-align: left;
 	font-size: 12px;
 	line-height: 1.2em;
@@ -377,28 +391,26 @@ li{
 }
 
 #others{
+	background-color: rgba(82, 122, 122,0.50);
+	height: 832px;
 	border: none;
-	margin-top: 19%;
+	margin-top: 18.30%;
 	margin-bottom: 0%;
 }
 
-#design{
-	padding: 0px;
-	border: none;
-}
-
-#design h2{
+#design h1{
 	text-align: center;
-	font-size: 1.4em;
-	color: black;
-	text-shadow: 0 0 3px white;
+	font-size: 1.6em;
+	color: white;
+	padding: 20px;
+	text-shadow: 1px 1px 3px black;
 	border: none;
 }
 
 #design p, a{
 	color: white;
 	font-size: 14px;
-	text-shadow: 1px 1px 3px black;
+	text-shadow: 1px 1px 2px black;
 }
 
 #design div{
@@ -411,47 +423,39 @@ li{
 	border: none;
 	/*border-radius: 10px;
 	box-shadow: 1px 1px 10px grey;*/
-	height: 300px;
+	height: 450px;
 	width: 1120px;
 }
 
-#seo{
-	height: 300px;
-	margin-top: 5%;
-	margin-left: 5%;
-	padding: 5px;
-	border: none;
-}
-
-#seo h2{
-	margin-left: -5%;
-	font-size: 1.4em;
-	text-shadow: 0 0 3px white;
-	color: black;
+#seo h1{
+	text-align: center;
+	padding: 10px;
+	font-size: 1.6em;
+	text-shadow: 1px 1px 3px black;
+	color: white;
 }
 
 #seo div{
-	margin-left: 5%;
+	margin-left: 9%;
 	float: left;
 	background-color: rgba(0,0,0,0.0)/*(82, 122, 122, 0.70)*/;
 	padding: 5px;
-	margin-right: 5%;
-	border: none;
+	margin-right: auto;
+	border:1px solid black;
 	/*border-radius: 10px;*/
-	box-shadow: 0 0 3px black;
 	height: 60px;
 	width: 160px;
 }
 
 #seo div:hover{
-	margin-left: 5%;
+	margin-left: 9%;
 	float: left;
-	background-color: rgba(0, 0, 0, 0.0);
-	padding: 5px;
-	margin-right: 5%;
-	border: none;
+	background-color: rgba(0, 0, 0, 0.50);
+	padding: 6px;
+	margin-right: auto;
+	border:0px solid black;
 	/*border-radius: 0px;*/
-	box-shadow: 0px 0px 5px white;
+	box-shadow: 0px 0px 5px black;
 	height: 60px;
 	width: 160px;
 }
@@ -460,30 +464,34 @@ li{
 	display: none;
 }
 
-#seo div:hover div.seoblocklef{
+#seo div:hover .seoblocklef{
 	display: block;
 	float: left;
-	background-color: rgba(214, 214, 194, 0.90);
-	height: 200px;
-	width: 400px;
-	box-shadow: 0 0 10px black;
+	background-color: rgba(242, 242, 242, 0.90);
+	height: 350px;
+	width: 500px;
+	padding: 5px;
+	border: none;
+	box-shadow: 0 0 10px grey;
 	color: white;
 	text-shadow: 1px 1px 1px grey;
-	-moz-transform:scale(1.10);
-    -webkit-transform:scale(1.10);
+	-moz-transform:scale(1.03);
+    -webkit-transform:scale(1.03);
 }
 
-#seo div:hover div.seoblockrig{
+#seo div:hover .seoblockrig{
 	display: block;
 	float: right;
-	background-color: rgba(214, 214, 194, 0.90);
-	height: 200px;
-	width: 400px;
-	box-shadow: 0 0 10px black;
+	background-color: rgba(242, 242, 242, 0.90);
+	height: 350px;
+	width: 500px;
+	padding: 5px;
+	border: none;
+	box-shadow: 0 0 10px grey;
 	color: white;
 	text-shadow: 1px 1px 1px grey;
-	-moz-transform:scale(1.10);
-    -webkit-transform:scale(1.10);
+	-moz-transform:scale(0.98);
+    -webkit-transform:scale(0.98);
 }
 
 #seo h3{
@@ -501,13 +509,13 @@ li{
 }
 
 #services{
-	margin: 8% auto 0 auto;
+	margin: 0% auto 0 auto;
 	padding: 0px;
 	border: none;
 }
 
 #services h2{
-	font-size: 1.4em;
+	font-size: 1.6em;
 	text-shadow: 0 0 3px white;
 	color: black;
 }
@@ -536,19 +544,19 @@ li{
 }
 
 #regform{
-	width: 650px;
-	height: 380px;
-	box-shadow: 1px 1px 10px grey;
+	width: 700px;
+	height: 370px;
+	box-shadow: 0 0 10px grey;
 	border-radius: 10px;
-	background: rgba(82, 122, 122, 0.85);
+	background: rgba(82, 122, 122, 0.5);
 	padding: 5px;
-	margin: 0 auto 0 auto;
+	margin: 10px auto 0 auto;
 }
 
 #regform h2{
-	color: black;
+	color: orange;
 	font-size: 1.4em;
-	text-shadow: 0px 0px 3px white;
+	text-shadow: 1px 1px 1px black;
 }
 
 #feedback{
@@ -570,11 +578,11 @@ li{
 	text-shadow: 0px 0px 3px white;
 }
 
-.fio{
+#fio{
 	height: 28px;
 	width: 300px;
 	padding: 5px;
-	margin: 10px 30px 0 0;
+	margin: 10px 30px 0 83px;
 	font-size: 16px;
 	color: black;
 	background: white;
@@ -582,7 +590,7 @@ li{
 	box-shadow: 0 0 3px black;
 }
 
-.phone{
+#phone{
 	height: 28px;
 	width: 300px;
 	padding: 5px;
@@ -594,11 +602,11 @@ li{
 	box-shadow: 0 0 3px black;
 }
 
-.email{
+#email{
 	height: 28px;
 	width: 300px;
 	padding: 5px;
-	margin: 10px 30px 0 89px;
+	margin: 10px 30px 0 88px;
 	font-size: 16px;
 	color: black;
 	background: white;
@@ -606,7 +614,7 @@ li{
 	box-shadow: 0 0 3px black;
 }
 
-.city{
+#city{
 	height: 28px;
 	width: 300px;
 	padding: 5px;
@@ -624,7 +632,7 @@ li{
 	font-size: 16px;
 	color: black;
 	background: darkorange;
-	border: 3px solid orange;
+	border: 3px outset orange;
 	border-radius: 15px;
 }
 
@@ -650,6 +658,8 @@ footer{
 footer a{
 	color: black;
 	text-shadow: 1px 1px 1px lightgrey;
+	font-size: 12px;
+	font-style: bold;
 }
 
 footer p{
@@ -682,10 +692,9 @@ footer p{
     list-style:none;
     font-weight:bold;
     padding: 3px;
-    margin-top: -100px;
-    margin-left: 20%;
+    margin-top: 0px;
+    margin-left: 15%;
     margin-right: 1%;
-    /*position: fixed;*/
 }
 .nav li{
     float:left;
