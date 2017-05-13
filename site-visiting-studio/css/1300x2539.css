@@ -26,7 +26,9 @@ body{
 }
 
 header{
-	background: url(../images/logo.png) no-repeat;
+	background-image: url(../images/logo1.png);
+	background-repeat: no-repeat;
+	background-size: 150px 90px;
 	height: 130px;
 	width: 1300px;
 }
@@ -54,6 +56,11 @@ td{
 	text-shadow: 1px 1px 1px black;
 }
 
+#contacts li img{
+	height: 25px;
+	width: 25px;
+}
+
 li b{
 	font-size: 16px
 }
@@ -62,7 +69,7 @@ h1{
 	color: black;
 	text-align: left;
 	text-shadow: 1px 1px 1px lightgrey;
-	padding: 10px;
+	padding: 30px 0 0 10px;
 }
 
 h2, h3{
@@ -78,7 +85,7 @@ h4{
 p{
 	padding-left: 20px;
 	padding-right: 20px;
-	color: white;
+	color: black;
 }
 
 li{
@@ -112,23 +119,24 @@ li{
 
 #basic h2{
 	font-size: 1.6em;
+	margin-top: 30px;
 }
 
 #basic h3{
 	color: white;
 	font-size: 1.1em;
 	line-height: 1.1em;
-	text-shadow: 1px 1px 1px black;
+	text-shadow: 1px 1px 1px grey;
 }
 
 #basic p{
 	color: white;
 	line-height: 1.3em;
-	text-shadow: 1px 1px 2px black;
+	text-shadow: 1px 1px 1px grey;
 }
 
 header, #basic{
-	background-color: rgba(82, 122, 122,0.40);
+	background-color: rgba(0, 0, 0,0.65);
 }
 
 #workingOut{
@@ -208,6 +216,11 @@ header, #basic{
 	font-size: 1.3em;
 }
 
+#visiting:hover div a{
+	color: orange;
+	text-shadow: 1px 1px 1px grey;
+}
+
 #landing{
 	background: rgba(0, 0, 0, 0.0)/*(82, 122, 122, 0.70)*/;
 	border: none;
@@ -257,14 +270,24 @@ header, #basic{
     -webkit-transform:scale(1.10);
 }
 
+#landing:hover div p{
+	color: black;
+	text-shadow: 1px 1px 3px white;
+}
+
 #landing:hover div li{
 	color: black;
-	text-shadow: 0 0 0 white;
+	text-shadow: 0 0 0 grey;
 	font-size: 1.0em;
 }
 
 #landing:hover div b{
 	font-size: 1.3em;
+}
+
+#landing:hover div a{
+	color: orange;
+	text-shadow: 1px 1px 1px grey;
 }
 
 #company{
@@ -321,6 +344,11 @@ header, #basic{
 	font-size: 1.3em;
 }
 
+#company:hover div a{
+	color: orange;
+	text-shadow: 1px 1px 1px grey;
+}
+
 #magazyn{
 	background: rgba(0, 0, 0, 0.0)/*(82, 122, 122, 0.70)*/;
 	border: none;
@@ -375,6 +403,11 @@ header, #basic{
 	font-size: 1.3em;
 }
 
+#magazyn:hover div a{
+	color: orange;
+	text-shadow: 1px 1px 1px grey;
+}
+
 #adaptiv{
 	float: left;
 	background: rgba(255, 255, 255, 0.70);
@@ -391,10 +424,10 @@ header, #basic{
 }
 
 #others{
-	background-color: rgba(82, 122, 122,0.50);
+	background-color: rgba(0, 0, 0,0.65);
 	height: 832px;
 	border: none;
-	margin-top: 18.30%;
+	margin-top: 17.30%;
 	margin-bottom: 0%;
 }
 
@@ -403,14 +436,20 @@ header, #basic{
 	font-size: 1.6em;
 	color: white;
 	padding: 20px;
-	text-shadow: 1px 1px 3px black;
+	text-shadow: 1px 1px 1px grey;
 	border: none;
 }
 
-#design p, a{
+#design p{
 	color: white;
 	font-size: 14px;
-	text-shadow: 1px 1px 2px black;
+	text-shadow: 1px 1px 1px grey;
+}
+
+#design a{
+	color: orange;
+	font-size: 14px;
+	text-shadow: 1px 1px 1px grey;
 }
 
 #design div{
@@ -423,7 +462,7 @@ header, #basic{
 	border: none;
 	/*border-radius: 10px;
 	box-shadow: 1px 1px 10px grey;*/
-	height: 450px;
+	height: 350px;
 	width: 1120px;
 }
 
@@ -431,17 +470,17 @@ header, #basic{
 	text-align: center;
 	padding: 10px;
 	font-size: 1.6em;
-	text-shadow: 1px 1px 3px black;
+	text-shadow: 1px 1px 1px grey;
 	color: white;
 }
 
 #seo div{
 	margin-left: 9%;
 	float: left;
-	background-color: rgba(0,0,0,0.0)/*(82, 122, 122, 0.70)*/;
+	background-color: rgba(242,242,242,0.00);
 	padding: 5px;
 	margin-right: auto;
-	border:1px solid black;
+	border: none;
 	/*border-radius: 10px;*/
 	height: 60px;
 	width: 160px;
@@ -450,14 +489,19 @@ header, #basic{
 #seo div:hover{
 	margin-left: 9%;
 	float: left;
-	background-color: rgba(0, 0, 0, 0.50);
-	padding: 6px;
+	background-color: rgba(0, 0, 0, 0.00);
+	padding: 5px;
 	margin-right: auto;
-	border:0px solid black;
-	/*border-radius: 0px;*/
-	box-shadow: 0px 0px 5px black;
+	border:none;
+	/*border-radius: 0px;
+	box-shadow: 0px 0px 5px black;*/
 	height: 60px;
 	width: 160px;
+}
+
+#seo div:hover h3{
+	color: black;
+	text-shadow: 1px 1px 1px grey;
 }
 
 .seoblocklef, .seoblockrig{
@@ -468,7 +512,7 @@ header, #basic{
 	display: block;
 	float: left;
 	background-color: rgba(242, 242, 242, 0.90);
-	height: 350px;
+	height: 250px;
 	width: 500px;
 	padding: 5px;
 	border: none;
@@ -483,7 +527,7 @@ header, #basic{
 	display: block;
 	float: right;
 	background-color: rgba(242, 242, 242, 0.90);
-	height: 350px;
+	height: 250px;
 	width: 500px;
 	padding: 5px;
 	border: none;
@@ -497,7 +541,7 @@ header, #basic{
 #seo h3{
 	color: white;
 	font-size: 1.0em;
-	text-shadow: 1px 1px 3px black;
+	text-shadow: 0px 0px 10px grey;
 }
 
 #seo p{
@@ -526,7 +570,7 @@ header, #basic{
 	font-size: 12px;
 	line-height: 1.2em;
 	text-shadow: 1px 1px 1px grey;
-	padding: 10px;
+	padding: 8px;
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
@@ -534,6 +578,13 @@ header, #basic{
 	box-shadow: 1px 1px 10px grey;*/
 	height: 280px;
 	width: 1120px;
+}
+
+#services div{
+	background-image: url(../images/services-web-design.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 280px 280px;
 }
 
 #services p, li{
@@ -544,25 +595,23 @@ header, #basic{
 }
 
 #regform{
-	width: 700px;
-	height: 370px;
-	box-shadow: 0 0 10px grey;
-	border-radius: 10px;
-	background: rgba(82, 122, 122, 0.5);
-	padding: 5px;
-	margin: 10px auto 0 auto;
+	width: 1300px;
+	/*height: 370px;*/
+	/*background: rgba(82, 122, 122, 0.5);*/
+	padding-top: 5px;
+	margin: 0 auto 0 auto;
 }
 
 #regform h2{
 	color: orange;
 	font-size: 1.4em;
-	text-shadow: 1px 1px 1px black;
+	text-shadow: 1px 1px 1px grey;
 }
 
 #feedback{
 	padding: 0px;
 	margin: 0px;
-	margin-top: 4%;
+	margin-top: 0%;
 	text-align: center;
 }
 
@@ -574,8 +623,8 @@ header, #basic{
 }
 
 #feedback p{
-	color: black;
-	text-shadow: 0px 0px 3px white;
+	color: white;
+	text-shadow: 1px 1px 1px grey;
 }
 
 #fio{
@@ -632,8 +681,9 @@ header, #basic{
 	font-size: 16px;
 	color: black;
 	background: darkorange;
-	border: 3px outset orange;
-	border-radius: 15px;
+	border: 1px solid orange;
+	box-shadow: 1px 1px 1px black;
+	/*border-radius: 15px;*/
 }
 
 .submit:hover{
@@ -641,31 +691,43 @@ header, #basic{
 	width: 200px;
 	font-size: 16px;
 	color: black;
-	text-shadow: 1px 1px 1px black;
+	text-shadow: 1px 1px 0px grey;
 	background: orange;
-	border: 3px ridge darkorange;
-	border-radius: 15px;
-	box-shadow: 0 0 10px aqua;
+	border: 1px inset darkorange;
+	/*border-radius: 15px;*/
+	box-shadow: 0 0 10px white;
 }
 
 footer{
 	padding: 0px;
-	margin: 2px;
+	margin: -12px auto 0 auto;
 	font-size: 12px;
 	line-height: 1.1em;
 }
 
-footer a{
-	color: black;
-	text-shadow: 1px 1px 1px lightgrey;
+footer p{
+	color: white;
+	margin-top: 10px;
+	padding: 5px;
+	text-shadow: 1px 1px 1px grey;
+}
+
+#bottom{
+	list-style-type: none;
+	padding-top: 120px;
+}
+
+#bottom a{
+	color: white;
+	text-shadow: 1px 1px 1px grey;
 	font-size: 12px;
 	font-style: bold;
 }
 
-footer p{
-	color: black;
-	padding: 5px;
-	text-shadow: 0 0 1px white;
+#regform, footer{
+	background-color: rgba(0, 0, 0, 0.65);
+	width: 1300px;
+	height: 250px;
 }
 
 #comments textarea{
@@ -692,7 +754,7 @@ footer p{
     list-style:none;
     font-weight:bold;
     padding: 3px;
-    margin-top: 0px;
+    margin-top: -30px;
     margin-left: 15%;
     margin-right: 1%;
 }
