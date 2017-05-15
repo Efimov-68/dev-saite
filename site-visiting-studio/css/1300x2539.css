@@ -427,7 +427,7 @@ header, #basic{
 	background-color: rgba(0, 0, 0,0.65);
 	height: 832px;
 	border: none;
-	margin-top: 17.30%;
+	margin-top: 17.50%;
 	margin-bottom: 0%;
 }
 
@@ -466,7 +466,18 @@ header, #basic{
 	width: 1120px;
 }
 
-#seo h1{
+#seo-basic p{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 1100px;
+	font-size: 14px;
+	line-height: 1.2em;
+	color: white;
+	text-shadow: 1px 1px 3px grey;
+}
+
+#seo-basic h1{
 	text-align: center;
 	padding: 10px;
 	font-size: 1.6em;
@@ -549,7 +560,13 @@ header, #basic{
 	line-height: 1.2em;
 	color: black;
 	text-shadow: 1px 1px 3px grey;
-	
+}
+
+#seo li{
+	font-size: 12px;
+	line-height: 1.2em;
+	color: black;
+	text-shadow: 1px 1px 3px grey;
 }
 
 #services{

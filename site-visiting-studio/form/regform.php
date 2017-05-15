@@ -18,7 +18,7 @@
 		$services_3 = $_GET['order3'];
 		$services_4 = $_GET['order4'];
 
-		$to = 'r.efimov@list.ru';
+		$to = 'office@rabbitweb.ru';
 		$subject = 'Сообщение с сайта';
 		$msg = "Ф.И.О.: $name\n".
 			"Телефон: $phone\n".
