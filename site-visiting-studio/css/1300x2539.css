@@ -9,6 +9,12 @@
 
 html, body{
 	background: white;
+}
+
+body{
+	background: url(../images/1300x2600.png);
+	box-shadow: 0 0 10px black;
+	font-family: Neucha;
 	background-repeat: no-repeat;
 	width: 1300px;
 	margin-left: auto;
@@ -17,12 +23,6 @@ html, body{
 	font-size: 13px;
 	line-height: 1.3em;
 	text-shadow: 0px 0px 1px white;
-}
-
-body{
-	background: url(../images/1300x2600.png);
-	box-shadow: 0 0 10px black;
-	font-family: Neucha;
 }
 
 header{
