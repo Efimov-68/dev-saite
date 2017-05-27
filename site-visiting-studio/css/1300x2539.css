@@ -3,9 +3,11 @@
 	font-family: Pangolin-Regular;
 	font-family: Neucha;
 	font-family: Comfortaa-Regular;
+	font-family: KellySlab-Regular;
 	src: url(../fonts/Pangolin-Regular.ttf);
 	src: url(../fonts/Neucha.ttf);
 	src: url(../fonts/Comfortaa-Regular.ttf);
+	src: url(../fonts/KellySlab-Regular.ttf);
 }
 
 html, body{
@@ -15,7 +17,7 @@ html, body{
 body{
 	background: url(../images/1300x2600.png);
 	box-shadow: 0 0 10px black;
-	font-family: Neucha;
+	font-family: KellySlab-Regular;
 	background-repeat: no-repeat;
 	width: 1300px;
 	margin-left: auto;
@@ -130,20 +132,40 @@ li{
 #basic div{
 	background-color: rgba(0, 0, 0, 0.0);
 	text-shadow: 1px 1px 1px grey;
-	padding: 10px;
+	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
 	/*border-radius: 10px;
 	box-shadow: 1px 1px 10px grey;*/
-	height: 390px;
+	height: 370px;
 	width: 920px;
 }
 
+#basic h1{
+	text-align: center;
+	font-size: 3.0em;
+	color: #99ceff;
+	text-shadow: 1px 1px 1px white;
+	margin-top: 40px;
+	padding: 5px;
+}
+
+#basic h1 span{
+	color: #ffad33;
+}
+
 #basic h2{
-	font-size: 1.6em;
+	font-size: 1.3em;
+	color: #ccffff;
+	text-shadow: 1px 1px 1px grey;
+	line-height: 1.1em;
 	margin-top: 30px;
 	padding: 5px;
+}
+
+#basic h2 span{
+	color: #ffcc80;
 }
 
 #basic h3{

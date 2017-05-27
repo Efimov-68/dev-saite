@@ -140,9 +140,30 @@ li{
 	width: 1300px;
 }
 
-#basic h2{
-	font-size: 1.6em;
+#basic h1{
+	text-align: center;
+	font-size: 3.0em;
+	color: #99ceff;
+	text-shadow: 1px 1px 1px white;
 	margin-top: 30px;
+	padding: 5px;
+}
+
+#basic h1 span{
+	color: #ffad33;
+}
+
+#basic h2{
+	font-size: 1.3em;
+	color: #ccffff;
+	text-shadow: 1px 1px 1px grey;
+	line-height: 1.1em;
+	margin-top: 30px;
+	padding: 5px;
+}
+
+#basic h2 span{
+	color: #ffcc80;
 }
 
 #basic h3{
