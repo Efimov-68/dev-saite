@@ -250,7 +250,7 @@ header, #basic{
 	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 300px;
+	height: 330px;
 	width: 430px;
 	float: left;
 	margin: 0 0 0 1%;
@@ -266,6 +266,22 @@ header, #basic{
 
 #visiting:hover div a{
 	color: lightblue;
+	text-shadow: 1px 1px 1px black;
+}
+
+#visiting table{
+	padding: 5px;
+	margin: 0 auto 0 auto;
+}
+
+#visiting td{
+	padding: 3px;
+	text-shadow: 1px 1px 1px lightgrey;
+	border-collapse: collapse;
+}
+
+#visiting b{
+	color: orange;
 	text-shadow: 1px 1px 1px black;
 }
 
@@ -497,7 +513,7 @@ header, #basic{
 
 #design a{
 	color: lightblue;
-	font-size: 14px;
+	font-size: 21px;
 	text-shadow: 1px 1px 1px grey;
 }
 
@@ -516,7 +532,111 @@ header, #basic{
 	margin-right: auto;
 	border: none;
 	height: 350px;
-	width: 920px;
+	width: 1250px;
+}
+
+#design .basic-table{
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	padding: 5px;
+	margin: 0 auto 0 auto;
+	border-collapse: collapse;
+}
+
+#design .basic-table tr{
+	border: 1px solid white;
+}
+
+#design .basic-table td{
+	border: 1px solid white;
+	padding: 5px;
+}
+
+#design .basic-table h3{
+	color: lightblue;
+}
+
+#design .basic-table b{
+	color: orange;
+	font-size: 16px;
+}
+
+#design .others-table{
+	color: lightgrey;
+	text-shadow: 1px 1px 1px white;
+	padding: 5px;
+	margin: 0 auto 0 auto;
+	border-collapse: collapse;
+}
+
+#design .others-table tr{
+	border: 1px solid white;
+}
+
+#design .others-table td{
+	border: 1px solid white;
+	padding: 5px;
+}
+
+#design .others-table h3{
+	color: lightblue;
+}
+
+#design .others-table b{
+	color: orange;
+	font-size: 16px;
+}
+
+#design .magazyn-table{
+	color: lightgrey;
+	text-shadow: 1px 1px 1px white;
+	padding: 5px;
+	margin: 0 auto 0 auto;
+	border-collapse: collapse;
+}
+
+#design .magazyn-table tr{
+	border: 1px solid white;
+}
+
+#design .magazyn-table td{
+	border: 1px solid white;
+	padding: 5px;
+}
+
+#design .magazyn-table h3{
+	color: lightblue;
+}
+
+#design .magazyn-table b{
+	color: orange;
+	font-size: 16px;
+}
+
+#design .landing-table{
+	color: lightgrey;
+	text-shadow: 1px 1px 1px white;
+	padding: 5px;
+	margin: 0 auto 0 auto;
+	border-collapse: collapse;
+}
+
+#design .landing-table tr{
+	border: 1px solid white;
+}
+
+#design .landing-table td{
+	border: 1px solid white;
+	padding: 5px;
+}
+
+#design .landing-table h3{
+	color: lightblue;
+}
+
+#design .landing-table b{
+	color: orange;
+	font-size: 18px;
 }
 
 #seo-basic p{
