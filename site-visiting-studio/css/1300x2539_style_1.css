@@ -119,7 +119,7 @@ p{
 li{
 	list-style-type: none;
 }
-
+/*
 #allcontent{
 	font-size: 14px;
 	padding-top: 5px;
@@ -250,8 +250,8 @@ header, #basic{
 	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 330px;
-	width: 430px;
+	height: 370px;
+	width: 500px;
 	float: left;
 	margin: 0 0 0 1%;
 	box-shadow: 0 0 10px black;
@@ -324,7 +324,7 @@ header, #basic{
 	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 350px;
+	height: 370px;
 	width: 500px;
 	float: left;
 	margin: 10px 1% 0 1%;
@@ -351,6 +351,22 @@ header, #basic{
 
 #landing:hover div a{
 	color: lightblue;
+	text-shadow: 1px 1px 1px black;
+}
+
+#landing table{
+	padding: 5px;
+	margin: 0 auto 0 auto;
+}
+
+#landing td{
+	padding: 3px;
+	text-shadow: 1px 1px 1px lightgrey;
+	border-collapse: collapse;
+}
+
+#landing b{
+	color: orange;
 	text-shadow: 1px 1px 1px black;
 }
 
@@ -394,8 +410,8 @@ header, #basic{
 	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 360px;
-	width: 470px;
+	height: 370px;
+	width: 500px;
 	float: right;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px black;
@@ -410,6 +426,22 @@ header, #basic{
 
 #company:hover div a{
 	color: lightblue;
+	text-shadow: 1px 1px 1px black;
+}
+
+#company table{
+	padding: 5px;
+	margin: 0 auto 0 auto;
+}
+
+#company td{
+	padding: 3px;
+	text-shadow: 1px 1px 1px lightgrey;
+	border-collapse: collapse;
+}
+
+#company b{
+	color: orange;
 	text-shadow: 1px 1px 1px black;
 }
 
@@ -453,7 +485,7 @@ header, #basic{
 	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 300px;
+	height: 370px;
 	width: 500px;
 	float: right;
 	margin: 10px 2% 0 0;
@@ -472,6 +504,22 @@ header, #basic{
 	text-shadow: 1px 1px 1px black;
 }
 
+#magazyn table{
+	padding: 5px;
+	margin: 0 auto 0 auto;
+}
+
+#magazyn td{
+	padding: 3px;
+	text-shadow: 1px 1px 1px lightgrey;
+	border-collapse: collapse;
+}
+
+#magazyn b{
+	color: orange;
+	text-shadow: 1px 1px 1px black;
+}
+
 #adaptiv{
 	float: left;
 	background: rgba(255, 255, 255, 0.70);
@@ -486,6 +534,13 @@ header, #basic{
 	color:black;
 	text-shadow: 1px 1px 3px white;
 }
+*/
+#back{
+	position: fixed;
+	float: left;
+	margin:0 5px 0 auto;
+	border: 1px solid black;
+}
 
 #others{
 	background-color: rgba(0, 0, 0,0.75);
@@ -495,7 +550,7 @@ header, #basic{
 	margin-bottom: 0%;
 }
 
-#design h1{
+#module h1{
 	text-align: center;
 	font-size: 1.6em;
 	color: white;
@@ -504,26 +559,26 @@ header, #basic{
 	border: none;
 }
 
-#design p{
+#module p{
 	text-align: center;
 	color: white;
 	font-size: 14px;
 	text-shadow: 1px 1px 1px grey;
 }
 
-#design a{
+#module a{
 	color: lightblue;
 	font-size: 21px;
 	text-shadow: 1px 1px 1px grey;
 }
 
-#design li{
+#module li{
 	color: white;
 	text-shadow: 1px 1px 1px grey;
 	font-size: 14px;
 }
 
-#design div{
+#module div{
 	background-color: rgba(0, 0, 0, 0.0);
 	color: black;
 	text-shadow: 1px 1px 1px grey;
@@ -535,7 +590,7 @@ header, #basic{
 	width: 1250px;
 }
 
-#design .basic-table{
+#module .basic-table{
 	color: white;
 	text-shadow: 1px 1px 1px black;
 	padding: 5px;
@@ -543,103 +598,103 @@ header, #basic{
 	border-collapse: collapse;
 }
 
-#design .basic-table tr{
+#module .basic-table tr{
 	border: 1px solid white;
 }
 
-#design .basic-table td{
+#module .basic-table td{
 	border: 1px solid white;
 	padding: 5px;
 }
 
-#design .basic-table h3{
+#module .basic-table h3{
 	color: lightblue;
 }
 
-#design .basic-table b{
+#module .basic-table b{
 	color: orange;
 	font-size: 16px;
 }
 
-#design .others-table{
-	color: lightgrey;
-	text-shadow: 1px 1px 1px white;
+#module .others-table{
+	color: white;
+	text-shadow: 1px 1px 1px black;
 	padding: 5px;
 	margin: 0 auto 0 auto;
 	border-collapse: collapse;
 }
 
-#design .others-table tr{
+#module .others-table tr{
 	border: 1px solid white;
 }
 
-#design .others-table td{
+#module .others-table td{
 	border: 1px solid white;
 	padding: 5px;
 }
 
-#design .others-table h3{
+#module .others-table h3{
 	color: lightblue;
 }
 
-#design .others-table b{
+#module .others-table b{
 	color: orange;
 	font-size: 16px;
 }
 
-#design .magazyn-table{
-	color: lightgrey;
-	text-shadow: 1px 1px 1px white;
+#module .magazyn-table{
+	color: white;
+	text-shadow: 1px 1px 1px black;
 	padding: 5px;
 	margin: 0 auto 0 auto;
 	border-collapse: collapse;
 }
 
-#design .magazyn-table tr{
+#module .magazyn-table tr{
 	border: 1px solid white;
 }
 
-#design .magazyn-table td{
+#module .magazyn-table td{
 	border: 1px solid white;
 	padding: 5px;
 }
 
-#design .magazyn-table h3{
+#module .magazyn-table h3{
 	color: lightblue;
 }
 
-#design .magazyn-table b{
+#module .magazyn-table b{
 	color: orange;
 	font-size: 16px;
 }
 
-#design .landing-table{
-	color: lightgrey;
-	text-shadow: 1px 1px 1px white;
+#module .landing-table{
+	color: white;
+	text-shadow: 1px 1px 1px black;
 	padding: 5px;
 	margin: 0 auto 0 auto;
 	border-collapse: collapse;
 }
 
-#design .landing-table tr{
+#module .landing-table tr{
 	border: 1px solid white;
 }
 
-#design .landing-table td{
+#module .landing-table td{
 	border: 1px solid white;
 	padding: 5px;
 }
 
-#design .landing-table h3{
+#module .landing-table h3{
 	color: lightblue;
 }
 
-#design .landing-table b{
+#module .landing-table b{
 	color: orange;
 	font-size: 18px;
 }
 
-#seo-basic p{
+/*#seo-basic p{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0px;
@@ -768,21 +823,25 @@ header, #basic{
 	line-height: 1.2em;
 	color: black;
 	text-shadow: 1px 1px 3px grey;
-}
+}*/
 
-#services{
+#admin{
 	margin: 0% auto 0 auto;
 	padding: 0px;
 	border: none;
 }
 
-#services h2{
+#admin h2{
 	font-size: 1.6em;
 	text-shadow: 0 0 3px white;
 	color: black;
 }
 
-#services div{
+#admin div{
+	background-image: url(../images/services-web-design.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 280px 280px;
 	background-color: rgba(0, 0, 0, 0.0);
 	color: black;
 	font-size: 12px;
@@ -796,14 +855,7 @@ header, #basic{
 	width: 920px;
 }
 
-#services div{
-	background-image: url(../images/services-web-design.png);
-	background-repeat: no-repeat;
-	background-position: right;
-	background-size: 280px 280px;
-}
-
-#services p, li{
+#admin p, li{
 	color: black;
 	text-shadow: 0 0 1px white;
 	font-size: 1.2em; 
@@ -977,7 +1029,6 @@ footer p{
     margin-top: -30px;
     margin-left: 15%;
     margin-right: 1%;
-    position: ;
 }
 
 .nav li{

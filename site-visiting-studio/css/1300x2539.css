@@ -250,8 +250,8 @@ header, #basic{
 	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 300px;
-	width: 430px;
+	height: 350px;
+	width: 500px;
 	float: left;
 	margin: 0 0 0 1%;
 	box-shadow: 0 0 10px black;
@@ -266,6 +266,22 @@ header, #basic{
 
 #visiting:hover div a{
 	color: lightblue;
+	text-shadow: 1px 1px 1px black;
+}
+
+#visiting table{
+	padding: 5px;
+	margin: 0 auto 0 auto;
+}
+
+#visiting td{
+	padding: 3px;
+	text-shadow: 1px 1px 1px lightgrey;
+	border-collapse: collapse;
+}
+
+#visiting b{
+	color: orange;
 	text-shadow: 1px 1px 1px black;
 }
 
@@ -338,6 +354,22 @@ header, #basic{
 	text-shadow: 1px 1px 1px black;
 }
 
+#landing table{
+	padding: 5px;
+	margin: 0 auto 0 auto;
+}
+
+#landing td{
+	padding: 3px;
+	text-shadow: 1px 1px 1px lightgrey;
+	border-collapse: collapse;
+}
+
+#landing b{
+	color: orange;
+	text-shadow: 1px 1px 1px black;
+}
+
 #company{
 	background: rgba(0, 0, 0, 0.0);
 	border: none;
@@ -378,8 +410,8 @@ header, #basic{
 	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 360px;
-	width: 470px;
+	height: 400px;
+	width: 500px;
 	float: right;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px black;
@@ -394,6 +426,22 @@ header, #basic{
 
 #company:hover div a{
 	color: lightblue;
+	text-shadow: 1px 1px 1px black;
+}
+
+#company table{
+	padding: 5px;
+	margin: 0 auto 0 auto;
+}
+
+#company td{
+	padding: 3px;
+	text-shadow: 1px 1px 1px lightgrey;
+	border-collapse: collapse;
+}
+
+#company b{
+	color: orange;
 	text-shadow: 1px 1px 1px black;
 }
 
@@ -437,7 +485,7 @@ header, #basic{
 	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 300px;
+	height: 400px;
 	width: 500px;
 	float: right;
 	margin: 10px 2% 0 0;
@@ -453,6 +501,22 @@ header, #basic{
 
 #magazyn:hover div a{
 	color: lightblue;
+	text-shadow: 1px 1px 1px black;
+}
+
+#magazyn table{
+	padding: 5px;
+	margin: 0 auto 0 auto;
+}
+
+#magazyn td{
+	padding: 3px;
+	text-shadow: 1px 1px 1px lightgrey;
+	border-collapse: collapse;
+}
+
+#magazyn b{
+	color: orange;
 	text-shadow: 1px 1px 1px black;
 }
 
@@ -497,7 +561,7 @@ header, #basic{
 
 #design a{
 	color: lightblue;
-	font-size: 14px;
+	font-size: 18px;
 	text-shadow: 1px 1px 1px grey;
 }
 
@@ -533,39 +597,31 @@ header, #basic{
 
 #seo-basic h1{
 	text-align: center;
-	padding: 100px 10px 0 10px;
+	padding: 20px 10px 0 10px;
 	font-size: 1.6em;
 	text-shadow: 1px 1px 1px grey;
 	color: white;
 }
 
-#seo-basic ul{
-	display: none;
-}
-
-#seo-basic div:hover ul{
-	display: block;
-	background: rgba(242,242,242,0.95);
+#seo-basic div ul{
 	padding: 10px;
-	margin-left: 20%;
-	margin-right: 20%;
-	width: 700px;
-	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	width: 820px;
 	line-height: 1.3em;
 }
 
 #seo-basic li{
-	color: black;
+	color: white;
 	margin-left: 0%;
 	margin-right: 0%;
-	text-shadow: 1px 1px 1px grey;
+	text-shadow: 1px 1px 1px black;
 	font-size: 13px;
 }
 
-#seo-basic h3{
-	color: orange;
-	margin-right: auto;
-	margin-left: auto;
+#seo-basic a{
+	color: lightblue;
+	font-size: 18px;
 	text-shadow: 1px 1px 1px grey;
 }
 
