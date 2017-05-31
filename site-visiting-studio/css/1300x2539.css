@@ -603,6 +603,12 @@ header, #basic{
 	width: 920px;
 }
 
+#design img{
+	width: 40px;
+}
+/*END DESIGN*/
+
+/*SEO*/
 #seo-basic p{
 	margin-left: auto;
 	margin-right: auto;
@@ -615,9 +621,6 @@ header, #basic{
 	text-shadow: 1px 1px 3px grey;
 }
 
-#design img{
-	width: 40px;
-}
 
 #seo-basic h1{
 	text-align: center;

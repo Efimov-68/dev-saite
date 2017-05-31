@@ -1,0 +1,375 @@
+/*
+	RabbitWeb.ru for Efimov RS
+								*/
+/*
+			BACK-UP
+							*/
+#back .left img{
+	position: fixed;
+	float: left;
+	margin:0 auto 0 auto;
+	left: 0;
+	bottom: 40px;
+	width: 50px;
+	margin: 10px;
+}
+
+#back .left:hover img{ 
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
+}
+
+#back .right img{
+	position: fixed;
+	float: right;
+	margin:0 auto 0 auto;
+	right: 0;
+	bottom: 40px;
+	width: 50px;
+	margin: 10px;
+}
+
+#back .right:hover img{ 
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
+}
+/*end back-up*/
+
+/*
+		Services-TABLE
+							*/
+
+#module h1{
+	text-align: center;
+	font-size: 1.6em;
+	color: white;
+	padding: 140px 10px 0 10px;
+	text-shadow: 1px 1px 1px grey;
+	border: none;
+}
+
+#module p{
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	text-shadow: 1px 1px 1px grey;
+}
+
+#module a{
+	color: lightblue;
+	font-size: 21px;
+	text-shadow: 1px 1px 1px grey;
+}
+
+#module li{
+	color: white;
+	text-shadow: 1px 1px 1px grey;
+	font-size: 14px;
+}
+
+#module div{
+	background-color: rgba(0, 0, 0, 0.0);
+	color: black;
+	text-shadow: 1px 1px 1px grey;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	height: 350px;
+	width: 1250px;
+}
+
+#module .basic-table{
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	padding: 5px;
+	margin: 0 auto 0 auto;
+	border-collapse: collapse;
+	box-shadow: 0 0 3px white;
+}
+
+#module .basic-table tr{
+	border: 1px solid white;
+}
+
+#module .basic-table td{
+	border: 1px solid white;
+	padding: 5px;
+}
+
+#module .basic-table h3{
+	color: lightblue;
+}
+
+#module .basic-table b{
+	color: orange;
+	font-size: 16px;
+}
+
+#module .others-table{
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	padding: 5px;
+	margin: 0 auto 0 auto;
+	border-collapse: collapse;
+	box-shadow: 0 0 3px white;
+}
+
+#module .others-table tr{
+	border: 1px solid white;
+}
+
+#module .others-table td{
+	border: 1px solid white;
+	padding: 5px;
+}
+
+#module .others-table h3{
+	color: lightblue;
+}
+
+#module .others-table b{
+	color: orange;
+	font-size: 16px;
+}
+
+#module .magazyn-table{
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	padding: 5px;
+	margin: 0 auto 0 auto;
+	border-collapse: collapse;
+	box-shadow: 0 0 3px white;
+}
+
+#module .magazyn-table tr{
+	border: 1px solid white;
+}
+
+#module .magazyn-table td{
+	border: 1px solid white;
+	padding: 5px;
+}
+
+#module .magazyn-table h3{
+	color: lightblue;
+}
+
+#module .magazyn-table b{
+	color: orange;
+	font-size: 16px;
+}
+
+#module .landing-table{
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	padding: 5px;
+	margin: 0 auto 0 auto;
+	border-collapse: collapse;
+	box-shadow: 0 0 3px white;
+}
+
+#module .landing-table tr{
+	border: 1px solid white;
+}
+
+#module .landing-table td{
+	border: 1px solid white;
+	padding: 5px;
+}
+
+#module .landing-table h3{
+	color: lightblue;
+}
+
+#module .landing-table b{
+	color: orange;
+	font-size: 18px;
+}
+
+#module img{
+	width: 40px;
+}
+
+#admin{
+	margin: 0% auto 0 auto;
+	padding: 0px;
+	border: none;
+}
+
+#admin h2{
+	padding: 40px;
+	font-size: 1.6em;
+	text-shadow: 0 0 3px white;
+	color: black;
+}
+
+#admin div{
+	background-image: url(../images/services-web-design.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 280px 280px;
+	background-color: rgba(0, 0, 0, 0.0);
+	color: black;
+	font-size: 12px;
+	line-height: 1.2em;
+	text-shadow: 1px 1px 1px grey;
+	padding: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	height: 365px;
+	width: 920px;
+}
+
+#admin p, li{
+	color: black;
+	text-shadow: 1px 1px 1px grey;
+	font-size: 1.2em; 
+	line-height: 1.2em;
+}
+/*end Services*/
+
+/*
+	Design portfolio
+						*/
+#portfolio-design{
+	margin: 4% auto 0 auto;
+	padding: 0px;
+	border: none;
+}
+
+#portfolio-design h2{
+	font-size: 1.6em;
+	text-shadow: 0 0 3px white;
+	color: black;
+}
+
+#portfolio-design div{
+	background-color: rgba(0, 0, 0, 0.0);
+	color: black;
+	font-size: 12px;
+	line-height: 1.2em;
+	text-shadow: 1px 1px 1px grey;
+	padding: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	height: 430px;
+	width: 700px;
+}
+
+#portfolio-design p, li{
+	color: black;
+	text-shadow: 1px 1px 1px grey;
+	font-size: 1.2em; 
+	line-height: 1.2em;
+}
+
+#portfolio-design li img{
+	float: left;
+	width: 280px;
+	padding: 10px;
+}
+
+#portfolio li:hover a img{
+	float: left;
+	width: 280px;
+	padding: 10px;
+	-webkit-transform:scale(1.1);
+	-moz-transform:scale(1.1);
+}
+/*End Design*/
+
+/*
+		SEO-TABLE
+						*/
+#seo-table h1{
+	text-align: center;
+	font-size: 1.6em;
+	color: black;
+	text-shadow: 1px 1px 1px grey;
+	border: none;
+}
+
+#seo-table p{
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	text-shadow: 1px 1px 1px grey;
+}
+
+#seo-table a{
+	color: lightblue;
+	font-size: 21px;
+	text-shadow: 1px 1px 1px grey;
+}
+
+#seo-table li{
+	color: white;
+	text-shadow: 1px 1px 1px grey;
+	font-size: 18px;
+	line-height: 1.3em;
+}
+
+#seo-table div{
+	background-color: rgba(0, 0, 0, 0.0);
+	color: black;
+	text-shadow: 1px 1px 1px grey;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	height: 430px;
+	width: 1250px;
+}
+
+#seo-table .seo-table{
+	color: black;
+	text-shadow: 1px 1px 1px grey;
+	padding: 5px;
+	margin: 0 auto 0 auto;
+	border-collapse: collapse;
+	box-shadow: 0 0 3px black;
+}
+
+#seo-table .seo-table tr{
+	border: 1px solid white;
+}
+
+#seo-table .seo-table td{
+	border: 1px solid black;
+	padding: 5px;
+}
+
+#seo-table .seo-table h3{
+	color: lightblue;
+}
+
+#seo-table .seo-table b{
+	color: orange;
+	font-size: 16px;
+	text-shadow: 1px 1px 1px black;
+}
+
+/*
+		SEO fadeBack
+							*/
+#seo-basic h2{
+	background: url(../_images/open.png) no-repeat 0 11px;
+	padding: 10px 0 0 25px;
+	cursor: pointer;
+	color: lightblue;
+}
+
+#seo-basic img{
+	width: 40px;
+}
+
+#seo-basic h2.close {
+	background-image: url(../_images/close.png);
+}
+.answer {
+	margin-left: 25px;	
+}
+/*CLOSE fadeBack SEO*/

@@ -3,13 +3,21 @@
 	font-family: Pangolin-Regular;
 	font-family: Neucha;
 	font-family: Comfortaa-Regular;
+	font-family: KellySlab-Regular;
 	src: url(./fonts/Pangolin-Regular.ttf);
 	src: url(./fonts/Neucha.ttf);
 	src: url(../fonts/Comfortaa-Regular.ttf);
+	src: url(../fonts/KellySlab-Regular.ttf);
 }
 
 html, body{
 	background: white;
+}
+
+body{
+	background: url(../images/1900x3859.png);
+	box-shadow: 0 0 10px black;
+	font-family: Neucha;
 	background-repeat: no-repeat;
 	height: auto;
 	width: 1900px;
@@ -20,18 +28,16 @@ html, body{
 	text-shadow: 0px 0px 1px black;
 }
 
-body{
-	background: url(../images/1900x3859.png);
-	box-shadow: 0 0 10px black;
-	font-family: Neucha;
-}
-
 header{
 	background-image: url(../images/logo1.png);
 	background-repeat: no-repeat;
 	background-size: 150px 90px;
 	height: 130px;
 	width: 1900px;
+}
+
+header h1{
+	margin-left: 6px; 
 }
 
 table{
@@ -134,8 +140,6 @@ li{
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
-	/*border-radius: 10px;
-	box-shadow: 1px 1px 10px grey;*/
 	height: 642px;
 	width: 1300px;
 }
@@ -145,7 +149,7 @@ li{
 	font-size: 3.0em;
 	color: #99ceff;
 	text-shadow: 1px 1px 1px white;
-	margin-top: 30px;
+	margin-top: 150px;
 	padding: 5px;
 }
 
@@ -157,7 +161,7 @@ li{
 	font-size: 1.3em;
 	color: #ccffff;
 	text-shadow: 1px 1px 1px grey;
-	line-height: 1.1em;
+	line-height: 1.2em;
 	margin-top: 30px;
 	padding: 5px;
 }
@@ -174,6 +178,7 @@ li{
 }
 
 #basic p{
+	text-align: center;
 	color: white;
 	line-height: 1.3em;
 	text-shadow: 1px 1px 1px grey;
@@ -206,7 +211,6 @@ header, #basic{
 
 #visiting{
 	background: rgba(0, 0, 0, 0.0);
-	text-align: ;
 	border: none;
 	height: 130px;
 	width: 200px;
@@ -242,15 +246,14 @@ header, #basic{
 	background: rgba(242, 242, 242, 0.90);
 	text-align: left;
 	font-size: 12px;
-	line-height: 1.2em;
+	line-height: 1.3em;
 	display: block;
 	border: none;
-	height: 300px;
-	width: 430px;
+	height: auto;
+	width: 500px;
 	float: left;
 	margin: 0 1% 0 1%;
 	box-shadow: 0 0 10px black;
-	border-radius: 0px;
 	-moz-transform:scale(1.10);
     -webkit-transform:scale(1.10);
 }
@@ -260,8 +263,28 @@ header, #basic{
 }
 
 #visiting:hover div a{
+	color: lightblue;
+	text-shadow: 1px 1px 1px black;
+}
+
+#visiting table{
+	padding: 5px;
+	margin: 0 auto 0 auto;
+}
+
+#visiting td{
+	padding: 0px;
+	text-shadow: 1px 1px 1px lightgrey;
+	border-collapse: collapse;
+}
+
+#visiting img{
+	width: 10px;
+}
+
+#visiting b{
 	color: orange;
-	text-shadow: 1px 1px 1px grey;
+	text-shadow: 1px 1px 1px black;
 }
 
 #landing{
@@ -272,7 +295,6 @@ header, #basic{
 	float: left;
 	margin: 10px 1% 0 5%;
 	box-shadow: 0px 0px 1px black;
-	border-radius: 0px;
 }
 
 #landing p{
@@ -291,7 +313,6 @@ header, #basic{
 	float: left;
 	margin: 10px 1% 0 5%;
 	box-shadow: 0 0 10px black;
-	border-radius: 0px;
 	-moz-transform:scale(1.10);
     -webkit-transform:scale(1.10);
 }
@@ -303,12 +324,11 @@ header, #basic{
 	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 350px;
+	height: auto;
 	width: 500px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px black;
-	border-radius: 0px;
 	-moz-transform:scale(1.10);
     -webkit-transform:scale(1.10);
 }
@@ -329,8 +349,28 @@ header, #basic{
 }
 
 #landing:hover div a{
+	color: lightblue;
+	text-shadow: 1px 1px 1px black;
+}
+
+#landing table{
+	padding: 5px;
+	margin: 0 auto 0 auto;
+}
+
+#landing td{
+	padding: 0px;
+	text-shadow: 1px 1px 1px lightgrey;
+	border-collapse: collapse;
+}
+
+#landing img{
+	width: 10px;
+}
+
+#landing b{
 	color: orange;
-	text-shadow: 1px 1px 1px grey;
+	text-shadow: 1px 1px 1px black;
 }
 
 #company{
@@ -361,7 +401,6 @@ header, #basic{
 	float: left;
 	margin: 10px 1% 0 5%;
 	box-shadow: 0 0 10px black;
-	border-radius: 0px;
 	-moz-transform:scale(1.10);
     -webkit-transform:scale(1.10);
 }
@@ -370,15 +409,14 @@ header, #basic{
 	background: rgba(242, 242, 242, 0.90)/*rgb(133, 173, 173)*/;
 	text-align: left;
 	font-size: 12px;
-	line-height: 1.2em;
+	line-height: 1.3em;
 	display: block;
 	border: none;
-	height: 360px;
+	height: auto;
 	width: 470px;
 	float: right;
 	margin: 10px 1% 0 1%;
 	box-shadow: 0 0 10px black;
-	border-radius: 0px;
 	-moz-transform:scale(1.10);
     -webkit-transform:scale(1.10);
 }
@@ -388,12 +426,34 @@ header, #basic{
 }
 
 #company:hover div a{
-	color: orange;
-	text-shadow: 1px 1px 1px grey;
+	color: lightblue;
+	text-shadow: 1px 1px 1px black;
 }
 
+#company table{
+	padding: 5px;
+	margin: 0 auto 0 auto;
+}
+
+#company td{
+	padding: 0px;
+	text-shadow: 1px 1px 1px lightgrey;
+	border-collapse: collapse;
+}
+
+#company img{
+	width: 10px;
+}
+
+#company b{
+	color: orange;
+	text-shadow: 1px 1px 1px black;
+}
+/*END COMPANY*/
+
+/*MAGAZYN START*/
 #magazyn{
-	background: rgba(0, 0, 0, 0.0)/*(82, 122, 122, 0.70)*/;
+	background: rgba(0, 0, 0, 0.0);
 	border: none;
 	height: 130px;
 	width: 200px;
@@ -413,7 +473,7 @@ header, #basic{
 }
 
 #magazyn:hover{
-	background: rgba(214, 214, 194, 0.30)/*rgba(133, 173, 173, 0.70)*/;
+	background: rgba(214, 214, 194, 0.30);
 	border: none;
 	height: 130px;
 	width: 200px;
@@ -426,18 +486,17 @@ header, #basic{
 }
 
 #magazyn:hover div{
-	background: rgba(242, 242, 242, 0.90)/*rgb(133, 173, 173)*/;
+	background: rgba(242, 242, 242, 0.90);
 	text-align: left;
 	font-size: 12px;
 	line-height: 1.2em;
 	display: block;
 	border: none;
-	height: 300px;
+	height: auto;
 	width: 500px;
 	float: right;
 	margin: 10px 2% 0 1%;
 	box-shadow: 0 0 10px black;
-	border-radius: 0px;
 	-moz-transform:scale(1.10);
     -webkit-transform:scale(1.10);
 }
@@ -447,10 +506,32 @@ header, #basic{
 }
 
 #magazyn:hover div a{
-	color: orange;
-	text-shadow: 1px 1px 1px grey;
+	color: lightblue;
+	text-shadow: 1px 1px 1px black;
 }
 
+#magazyn table{
+	padding: 5px;
+	margin: 0 auto 0 auto;
+}
+
+#magazyn td{
+	padding: 0px;
+	text-shadow: 1px 1px 1px lightgrey;
+	border-collapse: collapse;
+}
+
+#magazyn img{
+	width: 10px;
+}
+
+#magazyn b{
+	color: orange;
+	text-shadow: 1px 1px 1px black;
+}
+/*END MAGAZYN*/
+
+/*START ADAPTIV*/
 #adaptiv{
 	float: left;
 	background: rgba(255, 255, 255, 0.70);
@@ -467,7 +548,7 @@ header, #basic{
 }
 
 #others{
-	background-color: rgba(0, 0, 0,0.65);
+	background-color: rgba(0, 0, 0,0.75);
 	height: 1213px;
 	border: none;
 	margin-top: 14.8%;
@@ -478,42 +559,51 @@ header, #basic{
 	text-align: center;
 	font-size: 1.6em;
 	color: white;
-	margin-top: 14%;
-	padding: 20px;
+	padding: 70px 10px 0 10px;
 	text-shadow: 1px 1px 1px grey;
 	border: none;
 }
 
 #design p{
+	text-align: center;
 	color: white;
 	font-size: 14px;
 	text-shadow: 1px 1px 1px grey;
 }
 
 #design a{
-	color: orange;
-	font-size: 14px;
+	color: lightblue;
+	font-size: 18px;
 	text-shadow: 1px 1px 1px grey;
 }
 
+#design li{
+	color: white;
+	text-shadow: 1px 1px 1px grey;
+	font-size: 14px;
+}
+
 #design div{
-	background-color: rgba(0, 0, 0, 0.0)/*(82, 122, 122, 0.85)*/;
+	background-color: rgba(0, 0, 0, 0.0);
 	color: black;
 	text-shadow: 1px 1px 1px grey;
 	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
-	/*border-radius: 10px;
-	box-shadow: 1px 1px 10px grey;*/
 	height: 350px;
 	width: 1200px;
 }
 
+#design img{
+	width: 40px;
+}
+/*END DESIGN*/
+
+/*SEO*/
 #seo-basic h1{
 	text-align: center;
-	margin-top: 15%;
-	padding: 10px;
+	padding: 10% 10px 0 10px;
 	font-size: 1.6em;
 	text-shadow: 1px 1px 1px grey;
 	color: white;
@@ -522,12 +612,42 @@ header, #basic{
 #seo-basic p{
 	margin-left: auto;
 	margin-right: auto;
-	padding: 10px;
+	padding: 0px;
 	width: 1200px;
 	font-size: 14px;
 	line-height: 1.2em;
 	color: white;
+	text-align: center;
 	text-shadow: 1px 1px 3px grey;
+}
+
+#seo-basic h4{
+	text-align: center;
+	padding: 5px 10px 0 10px;
+	text-shadow: 1px 1px 1px grey;
+	color: white;
+}
+
+#seo-basic ul{
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 850px;
+	line-height: 1.3em;
+}
+
+#seo-basic li{
+	color: white;
+	margin-left: 0%;
+	margin-right: 0%;
+	text-shadow: 1px 1px 1px black;
+	font-size: 13px;
+}
+
+#seo-basic a{
+	color: lightblue;
+	font-size: 18px;
+	text-shadow: 1px 1px 1px grey;
 }
 
 #seo div{
@@ -537,7 +657,6 @@ header, #basic{
 	padding: 5px;
 	margin-right: auto;
 	border: none;
-	/*border-radius: 10px;*/
 	height: 60px;
 	width: 160px;
 }
@@ -549,15 +668,13 @@ header, #basic{
 	padding: 5px;
 	margin-right: auto;
 	border:none;
-	/*border-radius: 0px;
-	box-shadow: 0px 0px 5px black;*/
 	height: 60px;
 	width: 160px;
 }
 
 #seo div:hover h3{
-	color: black;
-	text-shadow: 1px 1px 1px grey;
+	color: grey;
+	text-shadow: 1px 1px 1px black;
 }
 
 .seoblocklef, .seoblockrig{
@@ -614,6 +731,21 @@ header, #basic{
 	border: none;
 }
 
+#seo li{
+	font-size: 12px;
+	line-height: 1.2em;
+	color: black;
+	text-shadow: 1px 1px 3px grey;
+}
+/*END SEO*/
+
+/*SERVICES*/
+#services{
+	margin: 0% auto 0 auto;
+	padding: 0px;
+	border: none;
+}
+
 #services h2{
 	font-size: 1.6em;
 	text-shadow: 0 0 3px white;
@@ -621,7 +753,7 @@ header, #basic{
 }
 
 #services div{
-	background-color: rgba(0, 0, 0, 0.0)/*(82, 122, 122, 0.85)*/;
+	background-color: rgba(0, 0, 0, 0.0);
 	color: black;
 	font-size: 12px;
 	line-height: 1.2em;
@@ -630,8 +762,6 @@ header, #basic{
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
-	/*border-radius: 10px;
-	box-shadow: 1px 1px 10px grey;*/
 	height: 443px;
 	width: 1200px;
 }
@@ -649,11 +779,11 @@ header, #basic{
 	font-size: 1.2em; 
 	line-height: 1.2em;
 }
+/*END SERVICES*/
 
+/*REGFORM*/
 #regform{
 	width: 1900px;
-	/*height: 370px;*/
-	/*background: rgba(82, 122, 122, 0.5);*/
 	padding-top: 5px;
 	margin: 0 auto 0 auto;
 }
@@ -672,10 +802,11 @@ header, #basic{
 }
 
 #feedback label{
+	margin-right: 30px;
 	font-size: 18px;
 	color: white;
 	text-align: center;
-	text-shadow: 1px 1px 1px black;
+	text-shadow: 1px 1px 1px grey;
 }
 
 #feedback p{
@@ -693,6 +824,8 @@ header, #basic{
 	background: white;
 	border: none;
 	box-shadow: 0 0 3px black;
+	-moz-transform:scale(1);
+    -webkit-transform:scale(1);
 }
 
 #phone{
@@ -705,6 +838,8 @@ header, #basic{
 	background: white;
 	border: none;
 	box-shadow: 0 0 3px black;
+	-moz-transform:scale(1);
+    -webkit-transform:scale(1);
 }
 
 #email{
@@ -717,6 +852,8 @@ header, #basic{
 	background: white;
 	border: none;
 	box-shadow: 0 0 3px black;
+	-moz-transform:scale(1);
+    -webkit-transform:scale(1);
 }
 
 #city{
@@ -729,6 +866,8 @@ header, #basic{
 	background: white;
 	border: none;
 	box-shadow: 0 0 3px black;
+	-moz-transform:scale(1);
+    -webkit-transform:scale(1);
 }
 
 .submit{
@@ -739,7 +878,6 @@ header, #basic{
 	background: darkorange;
 	border: 1px solid orange;
 	box-shadow: 1px 1px 1px black;
-	/*border-radius: 15px;*/
 }
 
 .submit:hover{
@@ -750,7 +888,6 @@ header, #basic{
 	text-shadow: 1px 1px 0px grey;
 	background: orange;
 	border: 1px inset darkorange;
-	/*border-radius: 15px;*/
 	box-shadow: 0 0 10px white;
 }
 
@@ -763,7 +900,7 @@ footer{
 
 footer p{
 	color: white;
-	margin-top: 0px;
+	margin-top: 10px;
 	padding: 5px;
 	text-shadow: 1px 1px 1px grey;
 }
@@ -804,58 +941,89 @@ footer p{
     НАВИГАЦИЯ
 \*------------------------------------*/
 .nav{
-    font-size: 12px;
     float:left;
     text-align: center;
     list-style:none;
     font-weight:bold;
     padding: 3px;
     margin-top: -30px;
-    margin-left: 25%;
-    margin-right: 1%;
+    margin-left: 28%;
+    margin-right: auto;
 }
+
 .nav li{
     float:left;
     margin-right:10px;
     position:relative;
     display:block;
 }
+
 .nav li a{
+	font-size: 14px;
     display:block;
     color:white;
-    background:rgba(0, 0, 0, 0.0)/*(82, 122, 122, 0.70)*/;
+    background:rgba(0, 0, 0, 0.0);
     text-decoration:none;
-    text-shadow:0px 0px 1px black;/*rgba(0,0,0,0.50); /* Тень текста, чтобы приподнять его на немного */
+    text-shadow:0px 0px 1px black; /* Тень текста, чтобы приподнять его на немного */
     -moz-border-radius:2px;
     -webkit-border-radius:2px;
     border-style: solid;
     border-width: 0;
-    border-radius: 5px;
-    /*box-shadow: 0 0 3px black;*/
-    padding: 0.40em;
+    border-radius: 0;
+    padding: 5px;
 }
+
 .nav li a:hover{
-    color:orange;
+    color:#99ceff;
     text-decoration:underline;
 }
+
 .nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
-    background:rgba(0, 0, 0, 0.0)/*(133, 173, 173, 0.70)*/; /* Выглядит полупрозрачным */
+    background:rgba(0, 0, 0, 0.0); /* Выглядит полупрозрачным */
     text-decoration:none;
-    border-radius: 5px;
-    /*box-shadow: 0px 0px 3px aqua;*/
-    border-color: white;
+    border-radius: 0px;
+    border-color: none;
     border-style: solid;
-    -moz-transform:scale(1.10);
-    -webkit-transform:scale(1.10);
+    -moz-transform:scale(.9);
+    -webkit-transform:scale(.9);
+}
+/*Выпадающий список*/
+.nav ul{
+	list-style:none;
+    position:absolute;
+    left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
+    opacity:0; /* Устанавливаем начальное состояние прозрачности */
+    -webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
+}
+.nav ul li{
+    padding-top: 0px; /* Вводим отступ между li чтобы создать иллюзию разделенных пунктов меню */
+    float:none;
+    background:url(dot.gif);
+}
+.nav ul a{
+    white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
+    display:block;
+}
+.nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+    left:0; /* Приносим его обратно на экран, когда нужно */
+    opacity:1; /* Делаем непрозрачным */
+}
+.nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
+	font-size: 14px;
+	text-decoration:none;
+    background:#99ceff;
+    background:rgba(0, 0, 0, 0.7); /* Выглядит полупрозрачным */
+    
 }
 .nav li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
     text-decoration:none;
     -webkit-transition:-webkit-transform 0.075s linear;
 }
 .nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
-    background:rgba(255, 255, 204, 0.70);/* Будет полупрозрачным */
+    background:#99ceff;
+    background:rgba(0, 0, 0, 0.75); /* Будет полупрозрачным */
     text-decoration:underline;
-    -moz-transform:scale(1.10);
-    -webkit-transform:scale(1.10);
+    -moz-transform:scale(1);
+    -webkit-transform:scale(1);
 }
 /*Конец верхнего меню*/
