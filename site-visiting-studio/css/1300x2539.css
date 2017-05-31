@@ -247,13 +247,14 @@ header, #basic{
 	background: rgba(242, 242, 242, 0.90);
 	text-align: left;
 	font-size: 12px;
-	line-height: 1.2em;
+	line-height: 1.3em;
 	display: block;
 	border: none;
-	height: 350px;
+	height: auto;
 	width: 500px;
 	float: left;
 	margin: 0 0 0 1%;
+	padding: 0 0 0 10px;
 	box-shadow: 0 0 10px black;
 	border-radius: 0px;
 	-moz-transform:scale(1.10);
@@ -275,9 +276,13 @@ header, #basic{
 }
 
 #visiting td{
-	padding: 3px;
+	padding: 0px;
 	text-shadow: 1px 1px 1px lightgrey;
 	border-collapse: collapse;
+}
+
+#visiting img{
+	width: 10px;
 }
 
 #visiting b{
@@ -321,13 +326,14 @@ header, #basic{
 	background: rgba(242, 242, 242, 0.90);
 	text-align: left;
 	font-size: 12px;
-	line-height: 1.2em;
+	line-height: 1.3em;
 	display: block;
 	border: none;
-	height: 350px;
+	height: auto;
 	width: 500px;
 	float: left;
 	margin: 10px 1% 0 1%;
+	padding: 0 0 0 10px;
 	box-shadow: 0 0 10px black;
 	border-radius: 0px;
 	-moz-transform:scale(1.10);
@@ -360,9 +366,13 @@ header, #basic{
 }
 
 #landing td{
-	padding: 3px;
+	padding: 0px;
 	text-shadow: 1px 1px 1px lightgrey;
 	border-collapse: collapse;
+}
+
+#landing img{
+	width: 10px;
 }
 
 #landing b{
@@ -407,13 +417,14 @@ header, #basic{
 	background: rgba(242, 242, 242, 0.90);
 	text-align: left;
 	font-size: 12px;
-	line-height: 1.2em;
+	line-height: 1.3em;
 	display: block;
 	border: none;
-	height: 400px;
+	height: auto;
 	width: 500px;
 	float: right;
 	margin: 10px 1% 0 1%;
+	padding: 0 0 0 10px;
 	box-shadow: 0 0 10px black;
 	border-radius: 0px;
 	-moz-transform:scale(1.10);
@@ -435,9 +446,13 @@ header, #basic{
 }
 
 #company td{
-	padding: 3px;
+	padding: 0px;
 	text-shadow: 1px 1px 1px lightgrey;
 	border-collapse: collapse;
+}
+
+#company img{
+	width: 10px;
 }
 
 #company b{
@@ -482,13 +497,14 @@ header, #basic{
 	background: rgba(242, 242, 242, 0.90);
 	text-align: left;
 	font-size: 12px;
-	line-height: 1.2em;
+	line-height: 1.3em;
 	display: block;
 	border: none;
-	height: 400px;
+	height: auto;
 	width: 500px;
 	float: right;
 	margin: 10px 2% 0 0;
+	padding: 0 0 0 10px;
 	box-shadow: 0 0 10px black;
 	border-radius: 0px;
 	-moz-transform:scale(1.10);
@@ -510,9 +526,13 @@ header, #basic{
 }
 
 #magazyn td{
-	padding: 3px;
+	padding: 0px;
 	text-shadow: 1px 1px 1px lightgrey;
 	border-collapse: collapse;
+}
+
+#magazyn img{
+	width: 10px;
 }
 
 #magazyn b{
@@ -547,7 +567,7 @@ header, #basic{
 	text-align: center;
 	font-size: 1.6em;
 	color: white;
-	padding: 20px 10px 0 10px;
+	padding: 70px 10px 0 10px;
 	text-shadow: 1px 1px 1px grey;
 	border: none;
 }
@@ -575,7 +595,7 @@ header, #basic{
 	background-color: rgba(0, 0, 0, 0.0);
 	color: black;
 	text-shadow: 1px 1px 1px grey;
-	padding: 0px;
+	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
@@ -595,19 +615,30 @@ header, #basic{
 	text-shadow: 1px 1px 3px grey;
 }
 
+#design img{
+	width: 40px;
+}
+
 #seo-basic h1{
 	text-align: center;
-	padding: 20px 10px 0 10px;
+	padding: 5% 10px 0 10px;
 	font-size: 1.6em;
 	text-shadow: 1px 1px 1px grey;
 	color: white;
 }
 
-#seo-basic div ul{
-	padding: 10px;
+#seo-basic h4{
+	text-align: center;
+	padding: 5px 10px 0 10px;
+	text-shadow: 1px 1px 1px grey;
+	color: white;
+}
+
+#seo-basic ul{
+	padding: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 820px;
+	width: 850px;
 	line-height: 1.3em;
 }
 
@@ -728,7 +759,7 @@ header, #basic{
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
-	height: 281px;
+	height: 280px;
 	width: 920px;
 }
 
