@@ -280,9 +280,60 @@
 }
 /*End Design*/
 
+/*SEO*/
+#seo-basic p{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	width: 920px;
+	font-size: 14px;
+	line-height: 1.2em;
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 3px grey;
+}
+
+
+#seo-basic h1{
+	text-align: center;
+	padding: 5% 10px 0 10px;
+	font-size: 1.6em;
+	text-shadow: 1px 1px 1px grey;
+	color: white;
+}
+
+#seo-basic h4{
+	text-align: center;
+	padding: 5px 10px 0 10px;
+	text-shadow: 1px 1px 1px grey;
+	color: white;
+}
+
+#seo-basic ul{
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 850px;
+	line-height: 1.3em;
+}
+
+#seo-basic li{
+	color: white;
+	margin-left: 0%;
+	margin-right: 0%;
+	text-shadow: 1px 1px 1px black;
+	font-size: 13px;
+}
+
+#seo-basic h2{
+	color: lightblue;
+	font-size: 18px;
+	text-shadow: 1px 1px 1px grey;
+}
 /*
 		SEO-TABLE
 						*/
+
 #seo-table h1{
 	text-align: center;
 	font-size: 1.6em;

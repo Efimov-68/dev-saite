@@ -609,7 +609,7 @@ header, #basic{
 /*END DESIGN*/
 
 /*SEO*/
-#seo-basic p{
+#dev-basic p{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0px;
@@ -622,22 +622,22 @@ header, #basic{
 }
 
 
-#seo-basic h1{
+#dev-basic{
 	text-align: center;
-	padding: 5% 10px 0 10px;
-	font-size: 1.6em;
+	padding: 1% 10px 0 10px;
+	font-size: 1.1em;
 	text-shadow: 1px 1px 1px grey;
 	color: white;
 }
 
-#seo-basic h4{
+#dev-basic h4{
 	text-align: center;
 	padding: 5px 10px 0 10px;
 	text-shadow: 1px 1px 1px grey;
 	color: white;
 }
 
-#seo-basic ul{
+#dev-basic ul{
 	padding: 0px;
 	margin-left: auto;
 	margin-right: auto;
@@ -645,7 +645,7 @@ header, #basic{
 	line-height: 1.3em;
 }
 
-#seo-basic li{
+#dev-basic li{
 	color: white;
 	margin-left: 0%;
 	margin-right: 0%;
@@ -653,10 +653,41 @@ header, #basic{
 	font-size: 13px;
 }
 
-#seo-basic a{
+#dev-basic h2{
 	color: lightblue;
 	font-size: 18px;
 	text-shadow: 1px 1px 1px grey;
+}
+
+#dev-basic img.htmlCss{
+	width: 150px;
+	padding: 5px 5px 5px 10px;
+	margin-left: auto;
+}
+#dev-basic img.javaScript{
+	width: 90px;
+	padding: 5px;
+}
+#dev-basic img.pHp{
+	width: 120px;
+	padding: 5px;
+}
+#dev-basic img.jQuery{
+	width: 80px;
+	padding: 5px;
+}
+#dev-basic img.Ajax{
+	width: 150px;
+	padding: 5px;
+}
+#dev-basic img.Bootstrap{
+	width:90px;
+	padding: 5px;
+}
+#dev-basic img.Photoshop{
+	width: 70px;
+	padding: 5px 10px 5px 5px;
+	margin-right: auto;
 }
 
 #seo div{
