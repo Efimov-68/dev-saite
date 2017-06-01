@@ -567,7 +567,7 @@ header, #basic{
 	text-align: center;
 	font-size: 1.6em;
 	color: white;
-	padding: 70px 10px 0 10px;
+	padding: 7% 10px 0 10px;
 	text-shadow: 1px 1px 1px grey;
 	border: none;
 }
@@ -624,7 +624,7 @@ header, #basic{
 
 #dev-basic{
 	text-align: center;
-	padding: 1% 10px 0 10px;
+	padding: 10% 10px 0 10px;
 	font-size: 1.1em;
 	text-shadow: 1px 1px 1px grey;
 	color: white;
