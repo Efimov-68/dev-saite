@@ -30,15 +30,15 @@
 			"Доп. услуги: $services_4";
 		mail($to, $subject, $msg, 'From: ' . $email);
 
-		echo 'Спасибо за заполнение формы. <br/>';
-		echo 'Контактное лицо: '.$name.'<br/>';
-		echo 'Номер телефона: '.$phone.'<br/>';
-		echo 'Электронная почта: '.$email.'<br/>';
-		echo 'Город: '.$city.'<br/>';
-		echo 'Создать сайт: ' . $services_1 . '<br/>';
-		echo '(Re:)Дизайн: ' . $services_2 . '<br/>';
-		echo 'Продвижение: ' . $services_3 . '<br/>';
-		echo 'Доп. услуги: ' . $services_4;
+		echo '<h1>Спасибо за заполнение формы.</h1> <br/>';
+		echo '<p>Контактное лицо: </p>'.$name.'<br/>';
+		echo '<p>Номер телефона: </p>'.$phone.'<br/>';
+		echo '<p>Электронная почта: </p>'.$email.'<br/>';
+		echo '<p>Город: </p>'.$city.'<br/>';
+		echo '<p>Создать сайт: </p>' . $services_1 . '<br/>';
+		echo '<p>(Re:)Дизайн: </p>' . $services_2 . '<br/>';
+		echo '<p>Продвижение: </p>' . $services_3 . '<br/>';
+		echo '<p>Доп. услуги: </p>' . $services_4;
 	?>
 </body>
 </html>
