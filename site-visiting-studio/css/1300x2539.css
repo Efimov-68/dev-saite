@@ -608,7 +608,170 @@ header, #basic{
 }
 /*END DESIGN*/
 
-/*SEO*/
+/*Блок центр*/
+#common{
+	background-color: rgba(0, 0, 0,0.55);
+	height: 832px;
+	border: none;
+	margin-top: 16.8%;
+	margin-bottom: 0%;
+}
+/*Конец Блок центр*/
+
+/*INFO Главная*/
+#info-basic{
+	background-color: rgba(0, 0, 0, 0.0);
+	color: black;
+	text-shadow: 1px 1px 1px grey;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	height: 450px;
+	width: 800px;
+}
+
+#info-basic h1{
+	text-align: center;
+	font-size: 1.6em;
+	color: white;
+	padding: 7% 10px 0 10px;
+	text-shadow: 1px 1px 1px grey;
+	border: none;
+}
+
+#info img.joomla{
+	width: 120px;
+	margin: 0% auto 0 27%;
+}
+
+#info img.wp{
+	width: 120px;
+	margin: 0% auto 0 28%;
+}
+
+#info img.drupal{
+	width: 120px;
+	margin: 3% auto 0 5%;
+}
+
+#info img.umi{
+	width: 120px;
+	margin: 0% auto 0 25%;
+}
+
+#info img.cross{
+	width: 120px;
+	margin: 3% auto 0 5%;
+}
+
+#info img.brow{
+	width: 120px;
+	margin: 3% auto 0 5%;
+}
+
+#info img.converted{
+	width: 138px;
+	margin: 0 auto 0 27%;
+}
+
+#info img.servsupp{
+	width: 120px;
+	margin: 3% auto 0 30%;
+}
+
+#info div{
+	float: left;
+	background-color: rgba(230,230,230,0.30);
+	padding: 5px;
+	margin: 3% 3% 0 6%;
+	border: 0px solid white;
+	box-shadow: 1px 1px 3px black;
+	height: 200px;
+	width: 300px;
+}
+
+#info div:hover{
+	float: left;
+	background-color: rgba(214, 214, 194, 0.70);
+	padding: 5px;
+	margin: 3% 3% 0 6%;
+	border: 0px solid white;
+	box-shadow: 0 0 2px white;
+	height: 200px;
+	width: 300px;
+}
+
+#info div:hover h3{
+	color: black;
+	text-shadow: 1px 1px 1px white;
+}
+
+div.blockLeft, div.blockRight{
+	display: none;
+}
+
+div.blockLeft ul.check li img{
+	width: 15px;
+}
+
+div.blockRight ul.check li img{
+	width: 15px;
+}
+
+#info div:hover div.blockLeft{
+	display: block;
+	float: left;
+	background-color: rgba(242, 242, 242, 0.95);
+	height: 260px;
+	width: 500px;
+	padding: 10px;
+	border: none;
+	box-shadow: 0 0 10px grey;
+	color: white;
+	text-shadow: 1px 1px 1px grey;
+	-moz-transform:scale(1.03);
+    -webkit-transform:scale(1.03);
+}
+
+#info div:hover div.blockRight{
+	display: block;
+	float: right;
+	background-color: rgba(242, 242, 242, 0.95);
+	height: 260px;
+	width: 500px;
+	padding: 10px;
+	border: none;
+	box-shadow: 0 0 10px grey;
+	color: white;
+	text-shadow: 1px 1px 1px grey;
+	-moz-transform:scale(0.98);
+    -webkit-transform:scale(0.98);
+}
+
+#info h3{
+	color: white;
+	font-size: 1.25em;
+	text-shadow: 0px 0px 10px lightgrey;
+	line-height: 1.2em;
+}
+
+#info p{
+	font-size: 14px;
+	line-height: 1.2em;
+	color: black;
+	text-shadow: 1px 1px 3px grey;
+}
+
+#info li{
+	font-size: 12px;
+	line-height: 1.5em;
+	color: black;
+	text-shadow: 1px 1px 3px grey;
+}
+/*EDN INFO*/
+
+/*DEV-BASIC*/
 #dev-basic p{
 	margin-left: auto;
 	margin-right: auto;
@@ -624,7 +787,7 @@ header, #basic{
 
 #dev-basic{
 	text-align: center;
-	padding: 10% 10px 0 10px;
+	padding: 14% 10px 0 10px;
 	font-size: 1.1em;
 	text-shadow: 1px 1px 1px grey;
 	color: white;
@@ -689,7 +852,9 @@ header, #basic{
 	padding: 5px 10px 5px 5px;
 	margin-right: auto;
 }
+/*END DEV-BASIC*/
 
+/*Блок SEO*/
 #seo div{
 	margin-left: 9%;
 	float: left;
@@ -772,7 +937,7 @@ header, #basic{
 }
 
 #services{
-	margin: 0% auto 0 auto;
+	margin: 3% auto 0 auto;
 	padding: 0px;
 	border: none;
 }
@@ -785,6 +950,10 @@ header, #basic{
 
 #services div{
 	background-color: rgba(0, 0, 0, 0.0);
+	/*background-image: url(../images/services-web-design.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 280px 280px;*/
 	color: black;
 	font-size: 12px;
 	line-height: 1.2em;
@@ -793,15 +962,8 @@ header, #basic{
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
-	height: 280px;
+	height: 259px;
 	width: 920px;
-}
-
-#services div{
-	background-image: url(../images/services-web-design.png);
-	background-repeat: no-repeat;
-	background-position: right;
-	background-size: 280px 280px;
 }
 
 #services p, li{
@@ -813,8 +975,8 @@ header, #basic{
 
 #regform{
 	width: 1300px;
-	padding-top: 5px;
-	margin: 0 auto 0 auto;
+	padding-top: 10px;
+	margin: 0.2% auto 0 auto;
 }
 
 #regform h2{
@@ -936,7 +1098,7 @@ footer p{
 
 #bottom{
 	list-style-type: none;
-	padding-top: 120px;
+	padding-top: 170px;
 }
 
 #bottom a{
