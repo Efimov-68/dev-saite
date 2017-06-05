@@ -16,6 +16,12 @@
 			$('#basic').show(function(){
 				$('#basic h1,#basic h2').slideDown(2000);
 			});
+			$('.callBack').hide();
+  			$('#contacts a').click(function(evt){
+   				evt.preventDefault();
+   				$('.callBack').fadeToggle(300);
+   				$(this).toggleClass('close');
+  			});
 		});
 	</script>
 	<title>Студия разработки, дизайна и продвижения сайта</title>
@@ -38,16 +44,28 @@
 			<li><a href="pages/page_2.html#seo-basic" style="width: 150px;">Продвижение</a></li>
 			<li><a href="#regform" style="width: 110px; font-size: 14px; background: orange; color: black; text-shadow: 1px 1px 1px white; box-shadow: 1px  1px 1px black;"><b>Заказать</b></a></li>
 			<li><a href="pages/page_3.html#module" style="width: 95px;">Услуги</a></li>
-			<li><a href="./documents/brief_razrabotka_sayta.doc" style="width: 110px; color: rgb(0, 255, 0);">Бриф-форма</a></li>
+			<li><a href="#" style="width: 110px;">Портфолио</a></li>
 		</ul>
-		<ul id="contacts">
-			<li><b>499 394-6887</b><br></li>
-			<li>
-				<a href="">Перезвоните мне</a>
-			</li>			
-		</ul>
+		<div id="contacts">
+			<div>
+				<p><b>499 394-6887</b></p>
+				<p><a href="#">Мы перезвоним</a></p>			
+			</div>
+		</div>
 	</header>
 	<div id="allcontent">
+		<div class="callBack">
+			<div>
+				<h2>Мы вам перезвоним в течении 15 минут</h2>
+				<form action="form/regform.php" type="GET">
+					<ul>
+						<li>Ваше имя:<br><input type="name" name="fio" title="Ваше имя" tabindex="0" placeholder=" Имя Отчество" required="required"></li><br>
+						<li>Номер телефона:<br><input type="phone" name="number" tabindex="1" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" placeholder=" 9299563812" title="Номер телефона" required="required"></li>
+					</ul>
+					<p align="center"><input type="submit" value="Отправить"></p>
+				</form>
+			</div>
+		</div>
 		<div id="basic">
 			<div>
 				<h1>Rabbit<span>Web</span></h1>
