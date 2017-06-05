@@ -15,7 +15,7 @@ html, body{
 }
 
 body{
-	background: url(../images/1300x2600.png);
+	background: url(../images/test-fon.png);
 	box-shadow: 0 0 10px black;
 	background-repeat: no-repeat;
 	width: 1300px;
@@ -28,15 +28,15 @@ body{
 }
 
 header{
-	background-image: url(../images/logo1.png);
-	background-repeat: no-repeat;
-	background-size: 150px 90px;
 	height: 130px;
 	width: 1300px;
 }
 
-header h1{
-	margin-left: 6px; 
+header img{
+	margin-left: 6px;
+	width: 150px;
+	height: 90px;
+	float: left;
 }
 
 table{
@@ -50,21 +50,35 @@ td{
 #contacts{
 	float: right;
 	list-style-type: none; 
-	font-size: 11px; 
-	font-style: italic;
 	margin-right: 1%;
-	margin-top: -4%;
+	margin-top: 2%;
 }
 
 #contacts li{
+	list-style-type: none;
 	padding: 5px;
 	color: lightgrey;
+	font-size: 14px;;
+	text-align: center;
 	text-shadow: 1px 1px 1px black;
 }
 
 #contacts li img{
 	height: 15px;
 	width: auto;
+}
+
+#contacts b{
+	font-size: 24px;
+}
+
+#contacts a{
+	background-color: grey;
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	font-size: 14px;
+	padding: 5px;
 }
 
 #social{
@@ -87,10 +101,6 @@ td{
 #social li img{
 	height: 25px;
 	width: 25px;
-}
-
-li b{
-	font-size: 14px
 }
 
 h1{
@@ -116,10 +126,6 @@ p{
 	color: black;
 }
 
-li{
-	list-style-type: none;
-}
-
 #allcontent{
 	font-size: 14px;
 	padding-top: 5px;
@@ -139,16 +145,16 @@ li{
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
-	height: 370px;
+	height: 655px;
 	width: 920px;
 }
 
 #basic h1{
 	text-align: center;
-	font-size: 3.0em;
+	font-size: 4.0em;
 	color: #99ceff;
 	text-shadow: 1px 1px 1px white;
-	margin-top: 40px;
+	margin-top: 90px;
 	padding: 5px;
 }
 
@@ -191,12 +197,14 @@ header, #basic{
 	border: none;
 	padding: 10px;
 	width: 1300px;
+	height: 500px;
 
 }
 
 #workingOut h1{
 	text-align: center;
 	font-size: 1.6em;
+	margin-top: 15%;
 	margin-left: 0%;
 	color: black;
 	text-shadow: 0px 0px 3px white;
@@ -610,7 +618,7 @@ header, #basic{
 
 /*Блок центр*/
 #common{
-	background-color: rgba(0, 0, 0,0.55);
+	background-color: rgba(0, 0, 0,0.15);
 	height: 832px;
 	border: none;
 	margin-top: 16.8%;
@@ -973,6 +981,19 @@ div.blockRight ul.check li img{
 	line-height: 1.2em;
 }
 
+footer{
+	background: url(../images/div-footer.png);
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px auto 0 auto;
+	font-size: 12px;
+	line-height: 1.1em;
+}
+
+footer div{
+	background-color: rgba(0,0,0, 0.65);
+}
+
 #regform{
 	width: 1300px;
 	padding-top: 10px;
@@ -981,7 +1002,7 @@ div.blockRight ul.check li img{
 
 #regform h2{
 	color: orange;
-	font-size: 1.4em;
+	font-size: 26px;
 	text-shadow: 1px 1px 1px grey;
 }
 
@@ -1009,7 +1030,7 @@ div.blockRight ul.check li img{
 	height: 28px;
 	width: 300px;
 	padding: 5px;
-	margin: 10px 0 0 22px;
+	margin: 10px 0 0 18px;
 	font-size: 16px;
 	color: black;
 	background: white;
@@ -1082,13 +1103,6 @@ div.blockRight ul.check li img{
 	box-shadow: 0 0 10px white;
 }
 
-footer{
-	padding: 0px;
-	margin: -12px auto 0 auto;
-	font-size: 12px;
-	line-height: 1.1em;
-}
-
 footer p{
 	color: white;
 	margin-top: 10px;
@@ -1098,34 +1112,14 @@ footer p{
 
 #bottom{
 	list-style-type: none;
-	padding-top: 170px;
+	margin: 0 auto 0 auto;
 }
 
-#bottom a{
+#bottom li, #bottom a{
 	color: white;
 	text-shadow: 1px 1px 1px grey;
 	font-size: 12px;
 	font-style: bold;
-}
-
-#regform, footer{
-	background-color: rgba(0, 0, 0, 0.65);
-	width: 1300px;
-	height: 250px;
-}
-
-#comments textarea{
-	float: right;
-	padding: 5px;
-	margin: -80px 180px 0 0;
-	border-style: solid;
-	box-shadow: 0 0 10px black;
-}
-
-#comments p{
-	float: right;
-	padding: 5px;
-	margin: -49px -650px 0 0px;
 }
 
 /*------------------------------------*\
@@ -1137,8 +1131,8 @@ footer p{
     list-style:none;
     font-weight:bold;
     padding: 3px;
-    margin-top: -30px;
-    margin-left: 15%;
+    margin-top: 30px;
+    margin-left: 5%;
     margin-right: 1%;
 }
 
