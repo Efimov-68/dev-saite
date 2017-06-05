@@ -42,7 +42,7 @@
 #module h1{
 	text-align: center;
 	font-size: 1.6em;
-	color: white;
+	color: black;
 	padding: 10px 10px 0 10px;
 	text-shadow: 1px 1px 1px grey;
 	border: none;
@@ -50,7 +50,7 @@
 
 #module p{
 	text-align: center;
-	color: white;
+	color: black;
 	font-size: 14px;
 	text-shadow: 1px 1px 1px grey;
 }
@@ -58,11 +58,11 @@
 #module a{
 	color: lightblue;
 	font-size: 21px;
-	text-shadow: 1px 1px 1px grey;
+	text-shadow: 1px 1px 1px black;
 }
 
 #module li{
-	color: white;
+	color: black;
 	text-shadow: 1px 1px 1px grey;
 	font-size: 14px;
 }
@@ -80,8 +80,8 @@
 }
 
 #module .basic-table{
-	color: white;
-	text-shadow: 1px 1px 1px black;
+	color: black;
+	text-shadow: 1px 1px 1px grey;
 	padding: 5px;
 	margin: 0 auto 0 auto;
 	border-collapse: collapse;
@@ -107,8 +107,8 @@
 }
 
 #module .others-table{
-	color: white;
-	text-shadow: 1px 1px 1px black;
+	color: black;
+	text-shadow: 1px 1px 1px grey;
 	padding: 5px;
 	margin: 0 auto 0 auto;
 	border-collapse: collapse;
@@ -134,8 +134,8 @@
 }
 
 #module .magazyn-table{
-	color: white;
-	text-shadow: 1px 1px 1px black;
+	color: black;
+	text-shadow: 1px 1px 1px grey;
 	padding: 5px;
 	margin: 0 auto 0 auto;
 	border-collapse: collapse;
@@ -161,8 +161,8 @@
 }
 
 #module .landing-table{
-	color: white;
-	text-shadow: 1px 1px 1px black;
+	color: black;
+	text-shadow: 1px 1px 1px grey;
 	padding: 5px;
 	margin: 0 auto 0 auto;
 	border-collapse: collapse;
@@ -192,7 +192,7 @@
 }
 
 #admin{
-	margin: 0% auto 0 auto;
+	margin: 5% auto 0 auto;
 	padding: 0px;
 	border: none;
 }
@@ -217,7 +217,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
-	height: 281px;
+	height: 400px;
 	width: 920px;
 }
 
@@ -254,11 +254,12 @@
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
-	height: 281px;
+	height: 400px;
 	width: 700px;
 }
 
 #portfolio-design p, li{
+    list-style-type:none;
 	color: black;
 	text-shadow: 1px 1px 1px grey;
 	font-size: 1.2em; 
@@ -288,7 +289,7 @@
 	width: 920px;
 	font-size: 14px;
 	line-height: 1.2em;
-	color: white;
+	color: black;
 	text-align: center;
 	text-shadow: 1px 1px 3px grey;
 }
@@ -299,14 +300,14 @@
 	padding: 5% 10px 0 10px;
 	font-size: 1.6em;
 	text-shadow: 1px 1px 1px grey;
-	color: white;
+	color: black;
 }
 
 #seo-basic h4{
 	text-align: center;
 	padding: 5px 10px 0 10px;
 	text-shadow: 1px 1px 1px grey;
-	color: white;
+	color: black;
 }
 
 #seo-basic ul{
@@ -318,18 +319,24 @@
 }
 
 #seo-basic li{
-	color: white;
+    list-style-type:none;
+	color: black;
 	margin-left: 0%;
 	margin-right: 0%;
-	text-shadow: 1px 1px 1px black;
+	text-shadow: 1px 1px 1px grey;
 	font-size: 13px;
 }
 
 #seo-basic h2{
-	color: lightblue;
+	color: orange;
 	font-size: 18px;
 	text-shadow: 1px 1px 1px grey;
 }
+
+/*
+        END SEO
+                        */
+                        
 /*
 		SEO-TABLE
 						*/
