@@ -794,9 +794,11 @@ header, #basic{
 	padding: 5px;
 	margin: 3% 3% 0 6%;
 	border: 0px solid white;
-	box-shadow: 0 0 2px white;
+	box-shadow: 0 0 10px black;
 	height: 200px;
 	width: 300px;
+	-moz-transform:scale(1.03);
+    -webkit-transform:scale(1.03);
 }
 
 #info div:hover h3{
