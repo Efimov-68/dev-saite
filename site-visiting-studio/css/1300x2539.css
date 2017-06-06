@@ -39,6 +39,12 @@ header img{
 	float: left;
 }
 
+.header{
+	background-color: rgba(0,0,0,0.15);
+	height: 130px;
+	width: 1300px;
+}
+
 table{
 	padding: 10px;
 }
@@ -49,26 +55,26 @@ td{
 
 #contacts div{
 	background-color: rgba(255,255,255,0.15);
-	border-radius: 10px;
+	border-radius: 10px 0 0 10px;
 	float: right;
 	list-style-type: none;
-	width: 220px;
-	margin-right: 1%;
+	width: 80px;
+	margin-right: 0;
 	margin-top: 10px;
 }
 
 #contacts div:hover{
 	background-color: rgba(255,255,255,0.75);
-	border-radius: 10px;
+	border-radius: 10px 0 0 10px;
 	float: right;
 	list-style-type: none;
-	width: 220px;
-	margin-right: 1%;
+	width: 80px;
+	margin-right: 0;
 	margin-top: 10px;
 }
 
 #contacts p{
-	padding: 10px;
+	padding: 5px;
 	color: black;
 	font-size: 14px;;
 	text-align: center;
@@ -79,26 +85,24 @@ td{
 	font-size: 21px;
 }
 
-#contacts p a{
-	background-color: rgba(179, 0, 0,0.70);
+#contacts p img{
 	text-decoration: none;
 	color: lightgrey;
 	font-size: 14px;
-	border: 0 solid white;
-	border-radius:10px;
-	box-shadow:0 0 3px white;
-	padding: 5px;
+	border: none;
+	width: 50px;
+	height: auto;
+	padding: 0 5px 5px 5px;
 }
 
-#contacts p a:hover{
-	background-color: rgba(179, 0, 0,0.70);
+#contacts p img:hover{
 	text-decoration: none;
 	color: white;
 	font-size: 14px;
-	border: 1px solid red;
-	border-radius:10px;
-	box-shadow:0 0 3px red;
-	padding: 5px;
+	border: none;	
+	padding: 0 5px 5px 5px;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 #social{
@@ -162,7 +166,7 @@ p{
 	display: none;
 	position: absolute;
 	background: rgba(242, 242, 242, 0.97);
-	margin: 5% 10% 10% 20%;
+	margin: 5% auto 10% 37%;
 	padding: 0;
 	width: 300px;
 	height: auto;
@@ -173,6 +177,7 @@ p{
 	color: orange;
 	text-shadow: 1px 1px 1px black;
 	line-height: 1.2em;
+	padding: 5px;
 }
 
 .callBack ul{
@@ -210,6 +215,12 @@ p{
 	box-shadow: 0 0 3px red;
 	color: white;
 	text-shadow: 1px 1px 1px black;
+}
+
+.callBack img{
+	width: 21px;
+	height: auto;
+	margin: -17px 0 0 0;
 }
 
 /*END CALLBACK*/
@@ -1227,6 +1238,7 @@ footer p{
     margin-top: 30px;
     margin-left: 5%;
     margin-right: 1%;
+    /*position: fixed;*/
 }
 
 .nav li{

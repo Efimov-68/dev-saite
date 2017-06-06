@@ -20,9 +20,19 @@
 			$('.callBack').hide();
   			$('#contacts a').click(function(evt){
    				evt.preventDefault();
-   				$('.callBack').fadeToggle(300);
-   				$(this).toggleClass('close');
+   				$('.callBack').fadeIn(300);
   			});
+  			$('.callBack img').click(function(evt){
+  				evt.preventDefault;
+  				$('.callBack').fadeOut(300);
+  			});
+  			/*$('.nav li').scroll(function(){
+  				if (true) {
+  					$(this).addClass('header');
+  				}else{
+  					$(this).removeClass('header');
+  				}
+  			});*/
 		});
 	</script>
 	<title>Студия разработки, дизайна и продвижения сайта</title>
@@ -49,15 +59,16 @@
 		</ul>
 		<div id="contacts">
 			<div>
-				<p><b>499 394-6887</b></p>
-				<p><a href="#">Мы перезвоним</a></p>			
+				<p><b>4</b><br><b>9</b><br><b>9</b><br><br><b>3</b><br><b>9</b><br><b>4</b><br><br><b>6</b><br><b>8</b><br><b>8</b><br><b>7</b></p>
+				<p align="center"><a href="#"><img src="./images/call.png"></a></p>			
 			</div>
 		</div>
 	</header>
 	<div id="allcontent">
 		<div class="callBack">
 			<div>
-				<h2>Мы вам перезвоним в течении 15 минут</h2>
+				<a href="#"><img src="./images/close_red.png" align="right"></a>
+				<h2>Мы вам перезвоним в течении 60 секунд</h2>
 				<form action="form/regform.php" type="GET">
 					<ul>
 						<li>Ваше имя:<br><input type="name" name="fio" title="Ваше имя" tabindex="0" placeholder=" Имя Отчество" required="required"></li><br>

@@ -83,22 +83,23 @@
 	color: black;
 	text-shadow: 1px 1px 1px grey;
 	padding: 5px;
-	margin: 0 auto 0 auto;
+	margin: 0 auto 10px auto;
 	border-collapse: collapse;
-	box-shadow: 0 0 3px white;
+	box-shadow: 0 0 3px black;
 }
 
 #module .basic-table tr{
-	border: 1px solid white;
+	border: 1px solid black;
 }
 
 #module .basic-table td{
-	border: 1px solid white;
+	border: 1px solid black;
 	padding: 5px;
 }
 
 #module .basic-table h3{
 	color: lightblue;
+	text-shadow: 1px 1px 1px black;
 }
 
 #module .basic-table b{
@@ -110,22 +111,23 @@
 	color: black;
 	text-shadow: 1px 1px 1px grey;
 	padding: 5px;
-	margin: 0 auto 0 auto;
+	margin: 0 auto 10px auto;
 	border-collapse: collapse;
-	box-shadow: 0 0 3px white;
+	box-shadow: 0 0 3px black;
 }
 
 #module .others-table tr{
-	border: 1px solid white;
+	border: 1px solid black;
 }
 
 #module .others-table td{
-	border: 1px solid white;
+	border: 1px solid black;
 	padding: 5px;
 }
 
 #module .others-table h3{
 	color: lightblue;
+	text-shadow: 1px 1px 1px black;
 }
 
 #module .others-table b{
@@ -137,22 +139,23 @@
 	color: black;
 	text-shadow: 1px 1px 1px grey;
 	padding: 5px;
-	margin: 0 auto 0 auto;
+	margin: 0 auto 10px auto;
 	border-collapse: collapse;
-	box-shadow: 0 0 3px white;
+	box-shadow: 0 0 3px black;
 }
 
 #module .magazyn-table tr{
-	border: 1px solid white;
+	border: 1px solid black;
 }
 
 #module .magazyn-table td{
-	border: 1px solid white;
+	border: 1px solid black;
 	padding: 5px;
 }
 
 #module .magazyn-table h3{
 	color: lightblue;
+	text-shadow: 1px 1px 1px black;
 }
 
 #module .magazyn-table b{
@@ -164,22 +167,23 @@
 	color: black;
 	text-shadow: 1px 1px 1px grey;
 	padding: 5px;
-	margin: 0 auto 0 auto;
+	margin: 0 auto 10px auto;
 	border-collapse: collapse;
-	box-shadow: 0 0 3px white;
+	box-shadow: 0 0 3px black;
 }
 
 #module .landing-table tr{
-	border: 1px solid white;
+	border: 1px solid black;
 }
 
 #module .landing-table td{
-	border: 1px solid white;
+	border: 1px solid black;
 	padding: 5px;
 }
 
 #module .landing-table h3{
 	color: lightblue;
+	text-shadow: 1px 1px 1px black;
 }
 
 #module .landing-table b{
