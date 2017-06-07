@@ -47,25 +47,28 @@ td{
 	font-size: 0.9em;
 }
 
+.phone p{
+    text-align:right;
+    font-size:21px;
+    padding:10px;
+    color:white;
+}
+
 #contacts div{
-	background-color: rgba(255,255,255,0.25);
-	border-radius: 0 10px 10px 0;
+	background-color: rgba(0,0,0,0.0);
+	border-radius:10px;
 	position:fixed;
-	list-style-type: none;
-	width: 50px;
-	margin-right: 0;
-	margin-top: 9%;
+	margin-left: 20px;
+	margin-top: 25%;
 }
 
 #contacts div:hover{
-	background-color: rgba(255,255,255,0.35);
-	border-radius: 0 10px 20px 0;
-	box-shadow:2px 0 10px #00ff00;
+	background-color: rgba(0,0,0,0.0);
+	border-radius: 10px;
+	/*box-shadow:2px 0 10px #00ff00;*/
 	position:fixed;
-	list-style-type: none;
-	width: 50px;
-	margin-right: 0;
-	margin-top: 9%;
+	margin-left: 20px;
+	margin-top: 25%;
 }
 
 #contacts p{
@@ -73,15 +76,15 @@ td{
 	color: white;
 	font-size: 14px;;
 	text-align: center;
-	text-shadow: 1px 1px 1px grey;
+	text-shadow: 1px 1px 1px black;
 }
 
 #contacts div:hover p{
 	padding: 5px;
-	color: black;
+	color: white;
 	font-size: 14px;;
 	text-align: center;
-	text-shadow: 1px 1px 1px grey;
+	text-shadow: 1px 1px 1px black;
 }
 
 #contacts p b{
@@ -90,14 +93,14 @@ td{
 
 #contacts p img{
 	border: none;
-	width: 30px;
+	width: 40px;
 	height: auto;
-	padding: 0 5px 5px 5px;
+	padding: 0 0 10px 0;
 }
 
 #contacts p img:hover{
 	border: none;	
-	padding: 0 5px 5px 5px;
+	padding:0 0 10px 0;
 	-moz-transform:scale(1.30);
     -webkit-transform:scale(1.30);
 }
