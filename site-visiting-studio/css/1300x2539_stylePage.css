@@ -57,7 +57,7 @@
 
 #module a{
 	color: lightblue;
-	font-size: 21px;
+	font-size: 16px;
 	text-shadow: 1px 1px 1px black;
 }
 
@@ -93,7 +93,7 @@
 }
 
 #module .basic-table td{
-	border: 1px solid black;
+	border: 0px solid black;
 	padding: 5px;
 }
 
@@ -121,7 +121,7 @@
 }
 
 #module .others-table td{
-	border: 1px solid black;
+	border: 0px solid black;
 	padding: 5px;
 }
 
@@ -149,7 +149,7 @@
 }
 
 #module .magazyn-table td{
-	border: 1px solid black;
+	border: 0px solid black;
 	padding: 5px;
 }
 
@@ -177,7 +177,7 @@
 }
 
 #module .landing-table td{
-	border: 1px solid black;
+	border: 0px solid black;
 	padding: 5px;
 }
 

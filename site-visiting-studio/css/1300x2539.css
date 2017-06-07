@@ -39,12 +39,6 @@ header img{
 	float: left;
 }
 
-.header{
-	background-color: rgba(0,0,0,0.15);
-	height: 130px;
-	width: 1300px;
-}
-
 table{
 	padding: 10px;
 }
@@ -54,26 +48,35 @@ td{
 }
 
 #contacts div{
-	background-color: rgba(255,255,255,0.15);
-	border-radius: 10px 0 0 10px;
-	float: right;
+	background-color: rgba(255,255,255,0.25);
+	border-radius: 0 10px 10px 0;
+	position:fixed;
 	list-style-type: none;
-	width: 80px;
+	width: 50px;
 	margin-right: 0;
-	margin-top: 10px;
+	margin-top: 9%;
 }
 
 #contacts div:hover{
-	background-color: rgba(255,255,255,0.75);
-	border-radius: 10px 0 0 10px;
-	float: right;
+	background-color: rgba(255,255,255,0.35);
+	border-radius: 0 10px 20px 0;
+	box-shadow:2px 0 10px #00ff00;
+	position:fixed;
 	list-style-type: none;
-	width: 80px;
+	width: 50px;
 	margin-right: 0;
-	margin-top: 10px;
+	margin-top: 9%;
 }
 
 #contacts p{
+	padding: 5px;
+	color: white;
+	font-size: 14px;;
+	text-align: center;
+	text-shadow: 1px 1px 1px grey;
+}
+
+#contacts div:hover p{
 	padding: 5px;
 	color: black;
 	font-size: 14px;;
@@ -86,23 +89,17 @@ td{
 }
 
 #contacts p img{
-	text-decoration: none;
-	color: lightgrey;
-	font-size: 14px;
 	border: none;
-	width: 50px;
+	width: 30px;
 	height: auto;
 	padding: 0 5px 5px 5px;
 }
 
 #contacts p img:hover{
-	text-decoration: none;
-	color: white;
-	font-size: 14px;
 	border: none;	
 	padding: 0 5px 5px 5px;
-	-moz-transform:scale(1.10);
-    -webkit-transform:scale(1.10);
+	-moz-transform:scale(1.30);
+    -webkit-transform:scale(1.30);
 }
 
 #social{
@@ -164,20 +161,22 @@ p{
 
 .callBack{
 	display: none;
-	position: absolute;
+	position: fixed;
 	background: rgba(242, 242, 242, 0.97);
-	margin: 5% auto 10% 37%;
+	margin: 5% auto 10% 20%;
 	padding: 0;
 	width: 300px;
 	height: auto;
-	border-radius: 10px;
+	border-radius: 5px 10px 5px 5px;
+	-moz-transform:scale(1.0);
+    -webkit-transform:scale(1.0);
 }
 
 .callBack h2{
-	color: orange;
-	text-shadow: 1px 1px 1px black;
+	color: black;
+	text-shadow: 1px 1px 1px grey;
 	line-height: 1.2em;
-	padding: 5px;
+	padding:5px;
 }
 
 .callBack ul{
@@ -221,6 +220,14 @@ p{
 	width: 21px;
 	height: auto;
 	margin: -17px 0 0 0;
+}
+
+.callBack img:hover{
+	width: 21px;
+	height: auto;
+	margin: -17px 0 0 0;
+	-moz-transform:scale(1.10);
+    -webkit-transform:scale(1.10);
 }
 
 /*END CALLBACK*/
@@ -1238,7 +1245,6 @@ footer p{
     margin-top: 30px;
     margin-left: 5%;
     margin-right: 1%;
-    /*position: fixed;*/
 }
 
 .nav li{
