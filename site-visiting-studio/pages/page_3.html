@@ -10,24 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="../css/1300x2539.css" media="screen and (min-device-width: 240px)">
 	<link rel="stylesheet" type="text/css" href="../css/1300x2539_stylePage.css" media="screen and (min-device-width: 240px)">
 	<script src="../js/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$('#basic h1').hide();
-			$('#basic h2').hide();
-			$('#basic').show(function(){
-				$('#basic h1,#basic h2').slideDown(2000);
-			});
-			$('.callBack').hide();
-  			$('#contacts a').click(function(evt){
-   				evt.preventDefault();
-   				$('.callBack').fadeIn(300);
-  			});
-  			$('.callBack img').click(function(evt){
-  				evt.preventDefault;
-  				$('.callBack').fadeOut(300);
-  			});
-		});
-	</script>
+	<script src="../js/jquery-ui.min.js"></script>
+	<script src="../js/script_1.js"></script>
 	<title>Дополнительные услуги, Администрирование</title>
 </head>
 <body>
@@ -84,7 +68,6 @@
 			<br><br>
 			<div id="visiting">
 				<h2>Сайт-визитка</h2>
-				<p><i>...способ представить компанию по новому...</i></p>
 				<div>
 					<table>
 						<tr>
@@ -128,7 +111,6 @@
 			</div>
 			<div id="landing">
 				<h2>Landing page</h2>
-				<p><i>...способ показать новый продукт или услугу в ярком свете...</i></p>
 				<div>
 					<table>
 						<tr>
@@ -171,11 +153,10 @@
 				</div>
 			</div>
 			<div id="adaptiv">
-				<h2>Адаптивная верстка сайтов</h2>
+				<h2>Индивидуальная разработка</h2>
 			</div>
 			<div id="company">
 				<h2>Сайт компании</h2>
-				<p><i>...способ объединить все в своей компании, в одно единое целое...</i></p>
 				<div>
 					<table>
 						<tr>
@@ -228,7 +209,6 @@
 			</div>
 			<div id="magazyn">
 				<h2>Интернет-магазин</h2>
-				<p><i>...способ вывода Бизнеса на новый уровень...</i></p>
 				<div>
 					<table>
 						<tr>

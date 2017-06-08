@@ -230,8 +230,8 @@ p{
 	width: 21px;
 	height: auto;
 	margin: -17px 0 0 0;
-	-moz-transform:scale(1.10);
-    -webkit-transform:scale(1.10);
+	-moz-transform:scale(1.15);
+    -webkit-transform:scale(1.15);
 }
 
 /*END CALLBACK*/
@@ -334,6 +334,12 @@ header, #basic{
 	border-radius: 0px;
 }
 
+#visiting h2{
+	padding: 30px 0 0 0;
+	font-size: 1.4em;
+	text-shadow: 2px 4px 8px black;
+}
+
 #visiting div{
 	display: none;
 }
@@ -422,6 +428,12 @@ header, #basic{
 	display: none;
 }
 
+#landing h2{
+	padding: 30px 0 0 0;
+	font-size: 1.4em;
+	text-shadow: 2px 4px 8px black;
+}
+
 #landing:hover{
 	background: rgba(214, 214, 194, 0.30);
 	border: none;
@@ -504,6 +516,12 @@ header, #basic{
 	border-radius: 0px;
 }
 
+#company h2{
+	padding: 30px 0 0 0;
+	font-size: 1.4em;
+	text-shadow: 2px 4px 8px black;
+}
+
 #company div{
 	display: none;
 }
@@ -582,6 +600,12 @@ header, #basic{
 	margin: 10px 2% 0 0;
 	box-shadow: 0px 0px 1px black;
 	border-radius: 0px;
+}
+
+#magazyn h2{
+	padding: 30px 0 0 0;
+	font-size: 1.2em;
+	text-shadow: 2px 4px 8px black;
 }
 
 #magazyn div{
