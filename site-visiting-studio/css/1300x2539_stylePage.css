@@ -75,7 +75,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
-	height: 350px;
+	height: auto;
 	width: 1250px;
 }
 
@@ -238,11 +238,18 @@
 						*/
 #portfolio-design{
 	margin: 4% auto 0 auto;
-	padding: 0px;
+	padding: 3%;
 	border: none;
 }
 
-#portfolio-design h2{
+#portfolio-design h1{
+	text-align: center;
+	text-shadow: 0 0 3px white;
+	color: black;
+}
+
+#portfolio-design h3{
+	text-align: left;
 	font-size: 1.6em;
 	text-shadow: 0 0 3px white;
 	color: black;
@@ -258,8 +265,8 @@
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
-	height: 400px;
-	width: 700px;
+	height: 200px;
+	width: 1100px;
 }
 
 #portfolio-design p, li{
@@ -270,10 +277,9 @@
 	line-height: 1.2em;
 }
 
-#portfolio-design li img{
+#portfolio-design img{
 	float: left;
-	width: 280px;
-	padding: 10px;
+	width: 300px;
 }
 
 #portfolio li:hover a img{
