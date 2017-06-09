@@ -23,7 +23,6 @@ body{
 	width: 1300px;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 13px;
 	line-height: 1.3em;
 	text-shadow: 0px 0px 1px white;
 	font-family: Comfortaa-Regular;
@@ -46,7 +45,6 @@ table{
 }
 td{
 	padding-right: 7px;
-	font-size: 0.9em;
 }
 
 .phone p{
@@ -129,10 +127,6 @@ td{
 	width: 25px;
 }
 
-li b{
-	font-size: 14px
-}
-
 h1{
 	color: black;
 	text-align: left;
@@ -157,7 +151,6 @@ p{
 }
 
 #allcontent{
-	font-size: 14px;
 	padding-top: 5px;
 	padding-bottom: 0px;
 }
@@ -305,22 +298,19 @@ header, #basic{
 	border: none;
 	padding: 10px;
 	width: 1300px;
-	height: 500px;
+	height: auto;
 
 }
 
 #workingOut h1{
 	text-align: center;
-	font-size: 1.6em;
-	margin-top: 10%;
-	margin-left: 0%;
+	margin-top: 5%;
 	color: black;
 	text-shadow: 0px 0px 3px white;
 }
 
 #workingOut h2{
 	text-align: center;
-	font-size: 14px;
 	color: black;
 	text-shadow: 0px 0px 3px white;
 }
@@ -331,14 +321,14 @@ header, #basic{
 	height: 120px;
 	width: 200px;
 	float: left;
-	margin: 10px 0 0 5%;
+	margin: 10px 0 0 11%;
 	box-shadow: 0px 0px 1px black;
 	border-radius: 0px;
 }
 
 #visiting h2{
 	padding: 30px 0 0 0;
-	font-size: 1.4em;
+	font-size: 1.1em;
 	text-shadow: 2px 4px 8px black;
 }
 
@@ -357,7 +347,7 @@ header, #basic{
 	height: 120px;
 	width: 200px;
 	float: left;
-	margin: 10px 0 0 5%;
+	margin: 10px 0 0 11%;
 	box-shadow: 0 0 10px black;
 	border-radius: 0px;
 	-moz-transform:scale(1.10);
@@ -417,7 +407,7 @@ header, #basic{
 	height: 120px;
 	width: 200px;
 	float: left;
-	margin: 10px 1% 0 1%;
+	margin: 10px 1% 0 4%;
 	box-shadow: 0px 0px 1px black;
 	border-radius: 0px;
 }
@@ -432,7 +422,7 @@ header, #basic{
 
 #landing h2{
 	padding: 30px 0 0 0;
-	font-size: 1.4em;
+	font-size: 1.1em;
 	text-shadow: 2px 4px 8px black;
 }
 
@@ -442,7 +432,7 @@ header, #basic{
 	height: 120px;
 	width: 200px;
 	float: left;
-	margin: 10px 1% 0 1%;
+	margin: 10px 1% 0 4%;
 	box-shadow: 0 0 10px black;
 	border-radius: 0px;
 	-moz-transform:scale(1.10);
@@ -513,14 +503,14 @@ header, #basic{
 	height: 120px;
 	width: 200px;
 	float: left;
-	margin: 10px 1% 0 1%;
+	margin: 10px 1% 0 4%;
 	box-shadow: 0px 0px 1px black;
 	border-radius: 0px;
 }
 
 #company h2{
 	padding: 30px 0 0 0;
-	font-size: 1.4em;
+	font-size: 1.1em;
 	text-shadow: 2px 4px 8px black;
 }
 
@@ -539,7 +529,7 @@ header, #basic{
 	height: 120px;
 	width: 200px;
 	float: left;
-	margin: 10px 1% 0 1%;
+	margin: 10px 1% 0 4%;
 	box-shadow: 0 0 10px black;
 	border-radius: 0px;
 	-moz-transform:scale(1.10);
@@ -599,14 +589,14 @@ header, #basic{
 	height: 120px;
 	width: 200px;
 	float: left;
-	margin: 10px 2% 0 0;
+	margin: 10px 0 0 4%;
 	box-shadow: 0px 0px 1px black;
 	border-radius: 0px;
 }
 
 #magazyn h2{
 	padding: 30px 0 0 0;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	text-shadow: 2px 4px 8px black;
 }
 
@@ -625,7 +615,7 @@ header, #basic{
 	height: 120px;
 	width: 200px;
 	float: left;
-	margin: 10px 2% 0 0;
+	margin: 10px 0 0 4%;
 	box-shadow: 0 0 10px black;
 	border-radius: 0px;
 	-moz-transform:scale(1.10);
@@ -697,7 +687,7 @@ header, #basic{
 #others{
 	height: auto;
 	border: none;
-	margin-top: -10%;
+	margin-top: 0;
 	margin-bottom: 0;
 }
 
@@ -737,8 +727,9 @@ header, #basic{
 }
 
 #des-info_1 div{
-	background-color: red;
+	background-color: #990000;
 	box-shadow: 4px 5px 3px black;
+	margin-top: 5%;
 }
 
 #des-info_1 h1{
@@ -748,11 +739,13 @@ header, #basic{
 #des-info_1 p{
 	text-align: left;
 	font-style: italic;
+	color: #e6e6e6;
 }
 
 #des-info_1 li{
 	text-align: left;
 	line-height: 1.6em;
+	color: #e6e6e6;
 }
 
 #des-info_1 img{
@@ -772,9 +765,9 @@ header, #basic{
 /*Блок центр*/
 #common{
 	background-color: rgba(0, 0, 0,0.0);
-	height: 832px;
+	height: auto;
 	border: none;
-	margin-top: 13%;
+	margin-top: 20%;
 	margin-bottom: 0%;
 }
 
@@ -787,6 +780,7 @@ header, #basic{
 #info-basic{
 	background-color: rgba(0, 0, 0, 0.0);
 	padding: 10px;
+	margin-top: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
@@ -798,7 +792,7 @@ header, #basic{
 	text-align: center;
 	font-size: 1.6em;
 	color: black;
-	padding: 15% 10px 0 10px;
+	padding: 5% 10px 0 10px;
 	text-shadow: 1px 1px 1px grey;
 	border: none;
 }
@@ -894,6 +888,7 @@ div.blockRight ul.check li img{
 	background-color: rgba(242, 242, 242, 0.95);
 	height: auto;
 	width: 500px;
+	margin-top: -30px;
 	padding: 10px;
 	border: none;
 	box-shadow: 0 0 10px grey;
@@ -909,6 +904,7 @@ div.blockRight ul.check li img{
 	background-color: rgba(242, 242, 242, 0.95);
 	height: auto;
 	width: 500px;
+	margin-top: -30px;
 	padding: 10px;
 	border: none;
 	box-shadow: 0 0 10px grey;
@@ -933,6 +929,7 @@ div.blockRight ul.check li img{
 }
 
 #info li{
+	list-style: none;
 	font-size: 12px;
 	line-height: 1.5em;
 	color: black;
@@ -956,7 +953,7 @@ div.blockRight ul.check li img{
 
 #dev-basic{
 	text-align: center;
-	padding: 16% 10px 0 10px;
+	padding: 10% 10px 0 10px;
 	font-size: 1.1em;
 	text-shadow: 1px 1px 1px grey;
 	color: white;
@@ -1087,19 +1084,16 @@ div.blockRight ul.check li img{
 
 #seo h3{
 	color: white;
-	font-size: 1.0em;
 	text-shadow: 0px 0px 10px grey;
 }
 
 #seo p{
-	font-size: 12px;
 	line-height: 1.2em;
 	color: black;
 	text-shadow: 1px 1px 3px grey;
 }
 
 #seo li{
-	font-size: 12px;
 	line-height: 1.2em;
 	color: black;
 	text-shadow: 1px 1px 3px grey;
@@ -1112,7 +1106,6 @@ div.blockRight ul.check li img{
 }
 
 #services h2{
-	font-size: 1.6em;
 	text-shadow: 0 0 3px white;
 	color: black;
 }
@@ -1120,7 +1113,6 @@ div.blockRight ul.check li img{
 #services div{
 	background-color: rgba(0, 0, 0, 0.0);
 	color: black;
-	font-size: 12px;
 	line-height: 1.2em;
 	text-shadow: 1px 1px 1px grey;
 	padding: 8px;
@@ -1135,25 +1127,34 @@ div.blockRight ul.check li img{
 	text-align: left;
 	color: black;
 	text-shadow: 0 0 1px white;
-	font-size: 1.2em; 
 	line-height: 1.2em;
 }
 
 #serv-info_1 div{
 	float: left;
 	width: 300px;
-	margin: 5% auto 0 7%;
+	margin:3% 5% 0 5%;
 	border-radius: 10px;
 	box-shadow: 3px 3px 5px black;
 }
 
+#serv-info_1 h2{
+	font-size: 1.1em;
+}
+
+#serv-info_1 p{
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+}
+
 #serv-info_2 div{
-	margin: 5% auto 0 auto;
+	margin: 0 auto 0 auto;
 	height: 700px;
 }
 
 #serv-info_2 ul{
-	margin: 7% 0 0 0;
+	margin: 3% 0 0 0;
 }
 
 #serv-info_2 li{
@@ -1192,9 +1193,9 @@ footer div{
 	margin: 0.2% auto 0 auto;
 }
 
-#regform h2{
+#regform h1{
+	text-align: center;
 	color: orange;
-	font-size: 1.4em;
 	text-shadow: 1px 1px 1px grey;
 }
 
