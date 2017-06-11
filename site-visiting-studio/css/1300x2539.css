@@ -20,7 +20,8 @@ body{
 	background-image: url(../images/android-develop-meseen-studio.png);
 	box-shadow: 0 0 10px black;
 	background-repeat: no-repeat;
-	width: 1300px;
+	width: auto;
+	max-width: 1300px;
 	margin-left: auto;
 	margin-right: auto;
 	line-height: 1.3em;
@@ -30,7 +31,7 @@ body{
 
 header{
 	height: 130px;
-	width: 1300px;
+	width: auto;
 }
 
 header img{
@@ -74,7 +75,7 @@ td{
 #contacts p{
 	padding: 5px;
 	color: white;
-	font-size: 14px;;
+	font-size: 14px;
 	text-align: center;
 	text-shadow: 1px 1px 1px black;
 }
@@ -82,7 +83,7 @@ td{
 #contacts div:hover p{
 	padding: 5px;
 	color: white;
-	font-size: 14px;;
+	font-size: 14px;
 	text-align: center;
 	text-shadow: 1px 1px 1px black;
 }
@@ -117,7 +118,7 @@ td{
 
 #social li{
 	float: right;
-	padding: 0 5px 0 0;;
+	padding: 0 5px 0 0;
 	color: lightgrey;
 	text-shadow: 1px 1px 1px black;
 }
@@ -190,7 +191,7 @@ p{
 
 .callBack li input{
 	border: 1px ridge lightgrey;
-	width: 200px;
+	width: auto;
 	height: 28px;
 	box-shadow: 0px 0px 0px black;
 }
@@ -198,7 +199,7 @@ p{
 .callBack p input{
 	background-color: rgba(179, 0, 0,0.70);
 	height: 30px;
-	width: 110px;
+	width: auto;
 	border: none;
 	border-radius: 10px;
 	color: lightgrey;
@@ -207,7 +208,7 @@ p{
 .callBack p input:hover{
 	background-color: rgba(179, 0, 0,0.70);
 	height: 30px;
-	width: 110px;
+	width: auto;
 	border: 1px solid red;
 	border-radius: 10px;
 	box-shadow: 0 0 3px red;
@@ -247,7 +248,8 @@ p{
 	margin-right: auto;
 	border: none;
 	height: 635px;
-	width: 920px;
+	width: auto;
+	max-width: 920px;
 }
 
 #basic h1{
@@ -297,7 +299,8 @@ header, #basic{
 #workingOut{
 	border: none;
 	padding: 10px;
-	width: 1300px;
+	width: auto;
+	max-width: 1300px;
 	height: auto;
 
 }
@@ -362,7 +365,8 @@ header, #basic{
 	display: block;
 	border: none;
 	height: auto;
-	width: 500px;
+	width: auto;
+	max-width: 500px;
 	float: left;
 	margin: 0 0 0 1%;
 	padding: 0 0 0 10px;
@@ -393,7 +397,7 @@ header, #basic{
 }
 
 #visiting img{
-	width: 10px;
+	width: 15px;
 }
 
 #visiting b{
@@ -447,7 +451,8 @@ header, #basic{
 	display: block;
 	border: none;
 	height: auto;
-	width: 500px;
+	width: auto;
+	max-width: 500px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	padding: 0 0 0 10px;
@@ -489,7 +494,7 @@ header, #basic{
 }
 
 #landing img{
-	width: 10px;
+	width: 15px;
 }
 
 #landing b{
@@ -544,7 +549,8 @@ header, #basic{
 	display: block;
 	border: none;
 	height: auto;
-	width: 500px;
+	width: auto;
+	max-width: 500px;
 	float: right;
 	margin: 10px 1% 0 1%;
 	padding: 0 0 0 10px;
@@ -575,7 +581,7 @@ header, #basic{
 }
 
 #company img{
-	width: 10px;
+	width: 15px;
 }
 
 #company b{
@@ -630,7 +636,8 @@ header, #basic{
 	display: block;
 	border: none;
 	height: auto;
-	width: 500px;
+	width: auto;
+	max-width: 500px;
 	float: right;
 	margin: 10px 2% 0 0;
 	padding: 0 0 0 10px;
@@ -661,7 +668,7 @@ header, #basic{
 }
 
 #magazyn img{
-	width: 10px;
+	width: 15px;
 }
 
 #magazyn b{
@@ -695,6 +702,7 @@ header, #basic{
 	text-align: center;
 	color: black;
 	text-shadow: 1px 1px 1px grey;
+	line-height: 1.2em;
 	border: none;
 }
 
@@ -723,7 +731,8 @@ header, #basic{
 	margin-right: auto;
 	border: none;
 	height: auto;
-	width: 1100px;
+	width: auto;
+	max-width: 1100px;
 }
 
 #des-info_1 div{
@@ -784,8 +793,8 @@ header, #basic{
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
-	height: 450px;
-	width: 800px;
+	width: auto;
+	max-width: 800px;
 }
 
 #info-basic h1{
@@ -798,42 +807,50 @@ header, #basic{
 }
 
 #info img.joomla{
-	width: 120px;
+	width: auto;
+	max-width: 120px;
 	margin: 0% auto 0 27%;
 }
 
 #info img.wp{
-	width: 120px;
+	width: auto;
+	max-width: 120px;
 	margin: 0% auto 0 28%;
 }
 
 #info img.drupal{
-	width: 120px;
+	width: auto;
+	max-width: 120px;
 	margin: 3% auto 0 5%;
 }
 
 #info img.umi{
-	width: 120px;
+	width: auto;
+	max-width: 120px;
 	margin: 0% auto 0 25%;
 }
 
 #info img.cross{
-	width: 120px;
+	width: auto;
+	max-width: 120px;
 	margin: 3% auto 0 5%;
 }
 
 #info img.brow{
-	width: 120px;
+	width: auto;
+	max-width: 120px;
 	margin: 3% auto 0 5%;
 }
 
 #info img.converted{
-	width: 138px;
+	width: auto;
+	max-width: 138px;
 	margin: 0 auto 0 27%;
 }
 
 #info img.servsupp{
-	width: 120px;
+	width: auto;
+	max-width: 120px;
 	margin: 3% auto 0 30%;
 }
 
@@ -875,11 +892,13 @@ div.blockLeft, div.blockRight{
 }
 
 div.blockLeft ul.check li img{
-	width: 15px;
+	width: auto;
+	max-width: 15px;
 }
 
 div.blockRight ul.check li img{
-	width: 15px;
+	width: auto;
+	max-width: 15px;
 }
 
 #info div:hover div.blockLeft{
@@ -887,7 +906,8 @@ div.blockRight ul.check li img{
 	float: left;
 	background-color: rgba(242, 242, 242, 0.95);
 	height: auto;
-	width: 500px;
+	width: auto;
+	max-width: 500px;
 	margin-top: -30px;
 	padding: 10px;
 	border: none;
@@ -903,7 +923,8 @@ div.blockRight ul.check li img{
 	float: right;
 	background-color: rgba(242, 242, 242, 0.95);
 	height: auto;
-	width: 500px;
+	width: auto;
+	max-width: 500px;
 	margin-top: -30px;
 	padding: 10px;
 	border: none;
@@ -942,7 +963,8 @@ div.blockRight ul.check li img{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0px;
-	width: 920px;
+	width: auto;
+	max-width: 920px;
 	font-size: 14px;
 	line-height: 1.2em;
 	color: white;
@@ -951,7 +973,7 @@ div.blockRight ul.check li img{
 }
 
 
-#dev-basic{
+#dev-basic div{
 	text-align: center;
 	padding: 10% 10px 0 10px;
 	font-size: 1.1em;
@@ -970,7 +992,8 @@ div.blockRight ul.check li img{
 	padding: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 850px;
+	width: auto;
+	max-width: 850px;
 	line-height: 1.3em;
 }
 
@@ -989,7 +1012,8 @@ div.blockRight ul.check li img{
 }
 
 #dev-basic img.htmlCss{
-	width: 150px;
+	width: auto;
+	max-width: 150px;
 	padding: 5px 5px 5px 10px;
 	margin-left: auto;
 }
@@ -998,23 +1022,28 @@ div.blockRight ul.check li img{
 	padding: 5px;
 }
 #dev-basic img.pHp{
-	width: 120px;
+	width: auto;
+	max-width: 120px;
 	padding: 5px;
 }
 #dev-basic img.jQuery{
-	width: 80px;
+	width: auto;
+	max-width: 80px;
 	padding: 5px;
 }
 #dev-basic img.Ajax{
-	width: 150px;
+	width: auto;
+	max-width: 150px;
 	padding: 5px;
 }
 #dev-basic img.Bootstrap{
-	width:90px;
+	width: auto;
+	max-width:90px;
 	padding: 5px;
 }
 #dev-basic img.Photoshop{
-	width: 70px;
+	width: auto;
+	max-width: 70px;
 	padding: 5px 10px 5px 5px;
 	margin-right: auto;
 }
@@ -1028,8 +1057,10 @@ div.blockRight ul.check li img{
 	padding: 5px;
 	margin-right: auto;
 	border: none;
-	height: 50px;
-	width: 160px;
+	height: auto;
+	max-height: 50px;
+	width: auto;
+	max-width: 160px;
 }
 
 #seo div:hover{
@@ -1039,8 +1070,10 @@ div.blockRight ul.check li img{
 	padding: 5px;
 	margin-right: auto;
 	border: none;
-	height: 50px;
-	width: 160px;
+	height: auto;
+	max-height: 50px;
+	width: auto;
+	max-width: 160px;
 }
 
 #seo div:hover h3{
@@ -1056,8 +1089,10 @@ div.blockRight ul.check li img{
 	display: block;
 	float: left;
 	background-color: rgba(242, 242, 242, 0.90);
-	height: 250px;
-	width: 500px;
+	height: auto;
+	max-height: 250px;
+	width: auto;
+	max-width: 500px;
 	padding: 5px;
 	border: none;
 	box-shadow: 0 0 10px grey;
@@ -1071,8 +1106,10 @@ div.blockRight ul.check li img{
 	display: block;
 	float: right;
 	background-color: rgba(242, 242, 242, 0.90);
-	height: 250px;
-	width: 500px;
+	height: auto;
+	max-height: 250px;
+	width: auto;
+	max-width: 500px;
 	padding: 5px;
 	border: none;
 	box-shadow: 0 0 10px grey;
@@ -1120,7 +1157,8 @@ div.blockRight ul.check li img{
 	margin-right: auto;
 	border: none;
 	height:auto;
-	width: 1100px;
+	width: auto;
+	max-width: 1100px;
 }
 
 #services p{
@@ -1132,7 +1170,8 @@ div.blockRight ul.check li img{
 
 #serv-info_1 div{
 	float: left;
-	width: 300px;
+	width: auto;
+	max-width: 300px;
 	margin:3% 5% 0 5%;
 	border-radius: 10px;
 	box-shadow: 3px 3px 5px black;
@@ -1150,7 +1189,7 @@ div.blockRight ul.check li img{
 
 #serv-info_2 div{
 	margin: 0 auto 0 auto;
-	height: 700px;
+	height: auto;
 }
 
 #serv-info_2 ul{
@@ -1171,7 +1210,8 @@ div.blockRight ul.check li img{
 }
 
 #serv-info_2 ul.check img{
-	width: 20px;
+	width: auto;
+	max-width: 20px;
 }
 
 footer{
@@ -1188,7 +1228,8 @@ footer div{
 }
 
 #regform{
-	width: 1300px;
+	width: auto;
+	max-width: 1300px;
 	padding-top: 10px;
 	margin: 0.2% auto 0 auto;
 }
@@ -1221,8 +1262,10 @@ footer div{
 }
 
 #fio{
-	height: 28px;
-	width: 300px;
+	height: auto;
+	max-height: 28px;
+	width: auto;
+	max-width: 300px;
 	padding: 5px;
 	margin: 10px 0 0 0;
 	font-size: 16px;
@@ -1233,8 +1276,10 @@ footer div{
 }
 
 #phone{
-	height: 28px;
-	width: 300px;
+	height: auto;
+	max-height: 28px;
+	width: auto;
+	max-width: 300px;
 	padding: 5px;
 	margin: 10px 0 0 0;
 	font-size: 16px;
@@ -1245,8 +1290,10 @@ footer div{
 }
 
 #email{
-	height: 28px;
-	width: 300px;
+	height: auto;
+	max-height: 28px;
+	width: auto;
+	max-width: 300px;
 	padding: 5px;
 	margin: 10px 0 0 26px;
 	font-size: 16px;
@@ -1259,8 +1306,10 @@ footer div{
 }
 
 #city{
-	height: 28px;
-	width: 300px;
+	height: auto;
+	max-height: 28px;
+	width: auto;
+	max-width: 300px;
 	padding: 5px;
 	margin: 10px 0 0 28px;
 	font-size: 16px;

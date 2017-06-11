@@ -41,5 +41,20 @@ $(document).ready(function(){
   $('#magazyn').click(function(){
   	$('#magazyn div').fadeToggle(300);
   });//END effect information menu Developer to services
-  
+  $('#CMS div.blockLeft').hide();
+  $('#browser div.blockRight').hide();
+  $('#seo-find div.blockLeft').hide();
+  $('#servTech div.blockRight').hide();
+  $('#CMS').click(function(){
+    $('#CMS div').fadeToggle(300);
+  });
+  $('#browser').click(function(){
+    $('#browser div').fadeToggle(300);
+  });
+  $('#seo-find').click(function(){
+    $('#seo-find div').fadeToggle(300);
+  });
+  $('#servTech').click(function(){
+    $('#servTech div').fadeToggle(300);
+  });
 });//END READY
