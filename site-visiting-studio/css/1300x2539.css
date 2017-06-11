@@ -191,7 +191,7 @@ p{
 
 .callBack li input{
 	border: 1px ridge lightgrey;
-	width: auto;
+	width: 220px;
 	height: 28px;
 	box-shadow: 0px 0px 0px black;
 }
