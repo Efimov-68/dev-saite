@@ -75,8 +75,7 @@
 	color: black;
 	text-shadow: 1px 1px 1px grey;
 	padding: 0px;
-	margin-left: auto;
-	margin-right: auto;
+	margin:0 auto 5% auto;
 	border: none;
 	height: auto;
 	width: auto;
@@ -197,45 +196,6 @@
 #module img{
 	width: auto;
 	max-width: 40px;
-}
-
-#admin{
-	margin: 5% auto 0 auto;
-	padding: 0px;
-	border: none;
-}
-
-#admin h2{
-	font-size: 1.6em;
-	text-shadow: 0 0 3px white;
-	color: black;
-}
-
-#admin div{
-	background-color: rgba(0, 0, 0, 0.0);
-	color: black;
-	font-size: 12px;
-	line-height: 1.2em;
-	text-shadow: 1px 1px 1px grey;
-	padding: 8px;
-	margin-left: auto;
-	margin-right: auto;
-	border: none;
-	height: auto;
-	max-height: 400px;
-	width: auto;
-	max-width: 1100px;
-}
-
-#admin p, li{
-	color: black;
-	text-shadow: 1px 1px 1px grey;
-	font-size: 1.2em; 
-	line-height: 1.2em;
-}
-
-#admin img{
-	float: left;
 }
 /*end Services*/
 

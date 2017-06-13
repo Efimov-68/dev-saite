@@ -17,7 +17,8 @@ html{
 
 body{
 	background: white;
-	background-image: url(../images/android-develop-meseen-studio.png);
+	background-image: url(../images/nastroenie-devushka-zaychik.png);
+	background-size: auto;
 	box-shadow: 0 0 10px black;
 	background-repeat: no-repeat;
 	width: auto;
@@ -247,7 +248,7 @@ p{
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
-	height: 635px;
+	height: 690px;
 	width: auto;
 	max-width: 920px;
 }
@@ -257,7 +258,7 @@ p{
 	font-size: 4.0em;
 	color: #99ceff;
 	text-shadow: 1px 1px 1px white;
-	margin-top: 90px;
+	margin-top: 20%;
 	padding: 5px;
 }
 
@@ -299,37 +300,36 @@ header, #basic{
 #workingOut{
 	border: none;
 	padding: 10px;
+	margin-top: 5%;
 	width: auto;
 	max-width: 1300px;
 	height: auto;
 
 }
 
-#workingOut h1{
-	text-align: center;
-	margin-top: 5%;
-	color: black;
-	text-shadow: 0px 0px 3px white;
-}
-
 #workingOut h2{
 	text-align: center;
 	color: black;
-	text-shadow: 0px 0px 3px white;
 }
 
 #visiting{
 	background: rgba(0, 0, 0, 0.0);
-	border: none;
+	border: 3px solid black;
 	height: 120px;
 	width: 200px;
 	float: left;
 	margin: 10px 0 0 11%;
-	box-shadow: 0px 0px 1px black;
-	border-radius: 0px;
+	border-radius: 40px;
 }
 
 #visiting h2{
+	padding: 30px 0 0 0;
+	font-size: 1.1em;
+	text-shadow: none;
+}
+
+#visiting:hover h2{
+	color: grey;
 	padding: 30px 0 0 0;
 	font-size: 1.1em;
 	text-shadow: 2px 4px 8px black;
@@ -341,32 +341,29 @@ header, #basic{
 
 #visiting p{
 	color: black;
-	text-shadow: 0 0 3px white;
 }
 
 #visiting:hover{
 	background: rgba(214, 214, 194, 0.30);
-	border: none;
+	border: 3px solid grey;
 	height: 120px;
 	width: 200px;
 	float: left;
 	margin: 10px 0 0 11%;
-	box-shadow: 0 0 10px black;
-	border-radius: 0px;
-	-moz-transform:scale(1.10);
-    -webkit-transform:scale(1.10);
+	border-radius: 40px;
+	-moz-transform:scale(.97);
+    -webkit-transform:scale(.97);
 }
 
 #visiting:hover div{
-	background: rgba(242, 242, 242, 0.90);
+	background: rgba(242, 242, 242, 0.97);
 	text-align: left;
 	font-size: 12px;
 	line-height: 1.3em;
 	display: block;
 	border: none;
 	height: auto;
-	width: auto;
-	max-width: 500px;
+	width: 500px;
 	float: left;
 	margin: 0 0 0 1%;
 	padding: 0 0 0 10px;
@@ -376,13 +373,26 @@ header, #basic{
     -webkit-transform:scale(1.10);
 }
 
-#visiting:hover div b{
-	font-size: 1.3em;
+#visiting:hover div a{
+	color: grey;
 }
 
-#visiting:hover div a{
-	color: lightblue;
-	text-shadow: 1px 1px 1px black;
+#visiting div p input{
+	background-color: rgba(242, 242, 242, 0.90);
+	color: black;
+	border: 2px solid black;
+	border-radius: 12px;
+	padding: 3px;
+}
+
+#visiting div p input:hover{
+	background-color: rgba(242, 242, 242, 0.90);
+	color: grey;
+	border: 2px solid grey;
+	border-radius: 12px;
+	padding: 3px;
+	-moz-transform:scale(.97);
+    -webkit-transform:scale(.97);
 }
 
 #visiting table{
@@ -392,7 +402,6 @@ header, #basic{
 
 #visiting td{
 	padding: 0px;
-	text-shadow: 1px 1px 1px lightgrey;
 	border-collapse: collapse;
 }
 
@@ -402,23 +411,18 @@ header, #basic{
 
 #visiting b{
 	color: orange;
-	text-shadow: 1px 1px 1px black;
+	font-size: 1.3em;
+	text-shadow: none;
 }
 
 #landing{
 	background: rgba(0, 0, 0, 0.0);
-	border: none;
+	border: 3px solid black;
 	height: 120px;
 	width: 200px;
 	float: left;
 	margin: 10px 1% 0 4%;
-	box-shadow: 0px 0px 1px black;
-	border-radius: 0px;
-}
-
-#landing p{
-	color: black;
-	text-shadow: 0 0 1px white;
+	border-radius: 40px;
 }
 #landing div{
 	display: none;
@@ -427,32 +431,37 @@ header, #basic{
 #landing h2{
 	padding: 30px 0 0 0;
 	font-size: 1.1em;
+	text-shadow: none;
+}
+
+#landing:hover h2{
+	color: grey;
+	padding: 30px 0 0 0;
+	font-size: 1.1em;
 	text-shadow: 2px 4px 8px black;
 }
 
 #landing:hover{
 	background: rgba(214, 214, 194, 0.30);
-	border: none;
+	border: 3px solid grey;
 	height: 120px;
 	width: 200px;
 	float: left;
 	margin: 10px 1% 0 4%;
-	box-shadow: 0 0 10px black;
-	border-radius: 0px;
-	-moz-transform:scale(1.10);
-    -webkit-transform:scale(1.10);
+	border-radius: 40px;
+	-moz-transform:scale(.97);
+    -webkit-transform:scale(.97);
 }
 
 #landing:hover div{
-	background: rgba(242, 242, 242, 0.90);
+	background: rgba(242, 242, 242, 0.97);
 	text-align: left;
 	font-size: 12px;
 	line-height: 1.3em;
 	display: block;
 	border: none;
 	height: auto;
-	width: auto;
-	max-width: 500px;
+	width: 500px;
 	float: left;
 	margin: 10px 1% 0 1%;
 	padding: 0 0 0 10px;
@@ -462,24 +471,38 @@ header, #basic{
     -webkit-transform:scale(1.10);
 }
 
+#landing:hover div h3{
+	text-shadow: none;
+}
+
 #landing:hover div p{
 	color: black;
-	text-shadow: 1px 1px 3px white;
 }
 
 #landing:hover div li{
 	color: black;
-	text-shadow: 0 0 0 grey;
-	font-size: 1.0em;
-}
-
-#landing:hover div b{
-	font-size: 1.3em;
 }
 
 #landing:hover div a{
-	color: lightblue;
-	text-shadow: 1px 1px 1px black;
+	color: grey;
+}
+
+#landing div p input{
+	background-color: rgba(242, 242, 242, 0.90);
+	color: black;
+	border: 2px solid black;
+	border-radius: 12px;
+	padding: 3px;
+}
+
+#landing div p input:hover{
+	background-color: rgba(242, 242, 242, 0.90);
+	color: grey;
+	border: 2px solid grey;
+	border-radius: 12px;
+	padding: 3px;
+	-moz-transform:scale(.97);
+    -webkit-transform:scale(.97);
 }
 
 #landing table{
@@ -489,7 +512,6 @@ header, #basic{
 
 #landing td{
 	padding: 0px;
-	text-shadow: 1px 1px 1px lightgrey;
 	border-collapse: collapse;
 }
 
@@ -499,21 +521,28 @@ header, #basic{
 
 #landing b{
 	color: orange;
-	text-shadow: 1px 1px 1px black;
+	font-size: 1.3em;
+	text-shadow: none;
 }
 
 #company{
 	background: rgba(0, 0, 0, 0.0);
-	border: none;
+	border: 3px solid black;
 	height: 120px;
 	width: 200px;
 	float: left;
 	margin: 10px 1% 0 4%;
-	box-shadow: 0px 0px 1px black;
-	border-radius: 0px;
+	border-radius: 40px;
 }
 
 #company h2{
+	padding: 30px 0 0 0;
+	font-size: 1.1em;
+	text-shadow: none;
+}
+
+#company:hover h2{
+	color: grey;
 	padding: 30px 0 0 0;
 	font-size: 1.1em;
 	text-shadow: 2px 4px 8px black;
@@ -525,48 +554,62 @@ header, #basic{
 
 #company p{
 	color: black;
-	text-shadow: 0 0 1px white;
 }
 
 #company:hover{
 	background: rgba(214, 214, 194, 0.30);
-	border: none;
+	border: 3px solid grey;
 	height: 120px;
 	width: 200px;
 	float: left;
 	margin: 10px 1% 0 4%;
-	box-shadow: 0 0 10px black;
-	border-radius: 0px;
-	-moz-transform:scale(1.10);
-    -webkit-transform:scale(1.10);
+	border-radius: 40px;
+	-moz-transform:scale(.97);
+    -webkit-transform:scale(.97);
 }
 
 #company:hover div{
-	background: rgba(242, 242, 242, 0.90);
+	background: rgba(242, 242, 242, 0.97);
 	text-align: left;
 	font-size: 12px;
 	line-height: 1.3em;
 	display: block;
 	border: none;
 	height: auto;
-	width: auto;
-	max-width: 500px;
+	width: 500px;
 	float: right;
 	margin: 10px 1% 0 1%;
 	padding: 0 0 0 10px;
 	box-shadow: 0 0 10px black;
 	border-radius: 0px;
-	-moz-transform:scale(1.10);
+	-moz-transform:scale(1..9710);
     -webkit-transform:scale(1.10);
 }
 
-#company:hover div b{
-	font-size: 1.3em;
+#company:hover div h3{
+	text-shadow: none;
 }
 
 #company:hover div a{
-	color: lightblue;
-	text-shadow: 1px 1px 1px black;
+	color: grey;
+}
+
+#company div p input{
+	background-color: rgba(242, 242, 242, 0.90);
+	color: black;
+	border: 2px solid black;
+	border-radius: 12px;
+	padding: 3px;
+}
+
+#company div p input:hover{
+	background-color: rgba(242, 242, 242, 0.90);
+	color: grey;
+	border: 2px solid grey;
+	border-radius: 12px;
+	padding: 3px;
+	-moz-transform:scale(.97);
+    -webkit-transform:scale(.97);
 }
 
 #company table{
@@ -576,7 +619,6 @@ header, #basic{
 
 #company td{
 	padding: 0px;
-	text-shadow: 1px 1px 1px lightgrey;
 	border-collapse: collapse;
 }
 
@@ -586,21 +628,28 @@ header, #basic{
 
 #company b{
 	color: orange;
-	text-shadow: 1px 1px 1px black;
+	font-size: 1.3em;
+	text-shadow: none;
 }
 
 #magazyn{
 	background: rgba(0, 0, 0, 0.0);
-	border: none;
+	border: 3px solid black;
 	height: 120px;
 	width: 200px;
 	float: left;
 	margin: 10px 0 0 4%;
-	box-shadow: 0px 0px 1px black;
-	border-radius: 0px;
+	border-radius: 40px;
 }
 
 #magazyn h2{
+	padding: 30px 0 0 0;
+	font-size: 1.1em;
+	text-shadow: none;
+}
+
+#magazyn:hover h2{
+	color:grey;
 	padding: 30px 0 0 0;
 	font-size: 1.1em;
 	text-shadow: 2px 4px 8px black;
@@ -612,32 +661,29 @@ header, #basic{
 
 #magazyn p{
 	color: black;
-	text-shadow: 0 0 1px white;
 }
 
 #magazyn:hover{
 	background: rgba(214, 214, 194, 0.30);
-	border: none;
+	border: 3px solid grey;
 	height: 120px;
 	width: 200px;
 	float: left;
 	margin: 10px 0 0 4%;
-	box-shadow: 0 0 10px black;
-	border-radius: 0px;
-	-moz-transform:scale(1.10);
-    -webkit-transform:scale(1.10);
+	border-radius: 40px;
+	-moz-transform:scale(.97);
+    -webkit-transform:scale(.97);
 }
 
 #magazyn:hover div{
-	background: rgba(242, 242, 242, 0.90);
+	background: rgba(242, 242, 242, 0.97);
 	text-align: left;
 	font-size: 12px;
 	line-height: 1.3em;
 	display: block;
 	border: none;
 	height: auto;
-	width: auto;
-	max-width: 500px;
+	width: 500px;
 	float: right;
 	margin: 10px 2% 0 0;
 	padding: 0 0 0 10px;
@@ -647,13 +693,30 @@ header, #basic{
     -webkit-transform:scale(1.10);
 }
 
-#magazyn:hover div b{
-	font-size: 1.3em;
+#magazyn:hover div h3{
+	text-shadow: none;
 }
 
 #magazyn:hover div a{
-	color: lightblue;
-	text-shadow: 1px 1px 1px black;
+	color: grey;
+}
+
+#magazyn div p input{
+	background-color: rgba(242, 242, 242, 0.90);
+	color: black;
+	border: 2px solid black;
+	border-radius: 12px;
+	padding: 3px;
+}
+
+#magazyn div p input:hover{
+	background-color: rgba(242, 242, 242, 0.90);
+	color: grey;
+	border: 2px solid grey;
+	border-radius: 12px;
+	padding: 3px;
+	-moz-transform:scale(.97);
+    -webkit-transform:scale(.97);
 }
 
 #magazyn table{
@@ -663,7 +726,6 @@ header, #basic{
 
 #magazyn td{
 	padding: 0px;
-	text-shadow: 1px 1px 1px lightgrey;
 	border-collapse: collapse;
 }
 
@@ -673,22 +735,8 @@ header, #basic{
 
 #magazyn b{
 	color: orange;
-	text-shadow: 1px 1px 1px black;
-}
-
-#adaptiv{
-	float: left;
-	background: rgba(255, 255, 255, 0.70);
-	border: none;
-	margin: 3% 4% 0 4%;
-	padding: 5px;
-	box-shadow: 0px 0px 5px black;
-	border-radius: 20px;
-}
-
-#adaptiv h2{
-	color:black;
-	text-shadow: 1px 1px 3px white;
+	font-size: 1.3em;
+	text-shadow: none;
 }
 
 #others{
@@ -776,8 +824,7 @@ header, #basic{
 	background-color: rgba(0, 0, 0,0.0);
 	height: auto;
 	border: none;
-	margin-top: 20%;
-	margin-bottom: 0%;
+	margin-top: auto;
 }
 
 #common li{
@@ -786,24 +833,14 @@ header, #basic{
 /*Конец Блок центр*/
 
 /*INFO Главная*/
-#info-basic{
-	background-color: rgba(0, 0, 0, 0.0);
+#info{
 	padding: 10px;
-	margin-top: 50%;
+	margin-top: 0%;
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
 	width: auto;
 	max-width: 800px;
-}
-
-#info-basic h1{
-	text-align: center;
-	font-size: 1.6em;
-	color: black;
-	padding: 5% 10px 0 10px;
-	text-shadow: 1px 1px 1px grey;
-	border: none;
 }
 
 #info img.joomla{
@@ -856,11 +893,11 @@ header, #basic{
 
 #info div{
 	float: left;
-	background-color: rgba(230,230,230,0.30);
+	background-color: rgba(0,0,0, .0);
 	padding: 5px;
 	margin: 3% 3% 0 6%;
-	border: 0px solid white;
-	box-shadow: 1px 1px 3px black;
+	border: 3px solid black;
+	border-radius: 40px;
 	height: 200px;
 	width: 300px;
 }
@@ -874,17 +911,10 @@ header, #basic{
 	background-color: rgba(214, 214, 194, 0.70);
 	padding: 5px;
 	margin: 3% 3% 0 6%;
-	border: 0px solid white;
-	box-shadow: 0 0 10px black;
+	border: 3px solid grey;
+	border-radius: 40px;
 	height: 200px;
 	width: 300px;
-	-moz-transform:scale(1.03);
-    -webkit-transform:scale(1.03);
-}
-
-#info div:hover h3{
-	color: black;
-	text-shadow: 1px 1px 1px white;
 }
 
 div.blockLeft, div.blockRight{
@@ -913,7 +943,6 @@ div.blockRight ul.check li img{
 	border: none;
 	box-shadow: 0 0 10px grey;
 	color: white;
-	text-shadow: 1px 1px 1px grey;
 	-moz-transform:scale(1.03);
     -webkit-transform:scale(1.03);
 }
@@ -930,23 +959,21 @@ div.blockRight ul.check li img{
 	border: none;
 	box-shadow: 0 0 10px grey;
 	color: white;
-	text-shadow: 1px 1px 1px grey;
 	-moz-transform:scale(0.98);
     -webkit-transform:scale(0.98);
 }
 
 #info h3{
-	color: white;
+	color: black;
 	font-size: 1.25em;
-	text-shadow: 0px 0px 10px lightgrey;
 	line-height: 1.2em;
+	text-shadow: none;
 }
 
 #info p{
 	font-size: 14px;
 	line-height: 1.2em;
 	color: black;
-	text-shadow: 1px 1px 3px grey;
 }
 
 #info li{
@@ -954,100 +981,8 @@ div.blockRight ul.check li img{
 	font-size: 12px;
 	line-height: 1.5em;
 	color: black;
-	text-shadow: 1px 1px 3px grey;
 }
 /*EDN INFO*/
-
-/*DEV-BASIC*/
-#dev-basic p{
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0px;
-	width: auto;
-	max-width: 920px;
-	font-size: 14px;
-	line-height: 1.2em;
-	color: white;
-	text-align: center;
-	text-shadow: 1px 1px 3px grey;
-}
-
-
-#dev-basic div{
-	text-align: center;
-	padding: 10% 10px 0 10px;
-	font-size: 1.1em;
-	text-shadow: 1px 1px 1px grey;
-	color: white;
-}
-
-#dev-basic h4{
-	text-align: center;
-	padding: 5px 10px 0 10px;
-	text-shadow: 1px 1px 1px grey;
-	color: white;
-}
-
-#dev-basic ul{
-	padding: 0px;
-	margin-left: auto;
-	margin-right: auto;
-	width: auto;
-	max-width: 850px;
-	line-height: 1.3em;
-}
-
-#dev-basic li{
-	color: white;
-	margin-left: 0%;
-	margin-right: 0%;
-	text-shadow: 1px 1px 1px black;
-	font-size: 13px;
-}
-
-#dev-basic h2{
-	color: lightblue;
-	font-size: 18px;
-	text-shadow: 1px 1px 1px grey;
-}
-
-#dev-basic img.htmlCss{
-	width: auto;
-	max-width: 150px;
-	padding: 5px 5px 5px 10px;
-	margin-left: auto;
-}
-#dev-basic img.javaScript{
-	width: 90px;
-	padding: 5px;
-}
-#dev-basic img.pHp{
-	width: auto;
-	max-width: 120px;
-	padding: 5px;
-}
-#dev-basic img.jQuery{
-	width: auto;
-	max-width: 80px;
-	padding: 5px;
-}
-#dev-basic img.Ajax{
-	width: auto;
-	max-width: 150px;
-	padding: 5px;
-}
-#dev-basic img.Bootstrap{
-	width: auto;
-	max-width:90px;
-	padding: 5px;
-}
-#dev-basic img.Photoshop{
-	width: auto;
-	max-width: 70px;
-	padding: 5px 10px 5px 5px;
-	margin-right: auto;
-}
-/*END DEV-BASIC*/
 
 /*Блок SEO*/
 #seo div{
@@ -1136,23 +1071,13 @@ div.blockRight ul.check li img{
 	text-shadow: 1px 1px 3px grey;
 }
 
-#services{
-	margin: 3% auto 0 auto;
-	padding: 0px;
-	border: none;
-}
-
-#services h2{
-	text-shadow: 0 0 3px white;
-	color: black;
-}
-
 #services div{
 	background-color: rgba(0, 0, 0, 0.0);
 	color: black;
 	line-height: 1.2em;
 	text-shadow: 1px 1px 1px grey;
-	padding: 8px;
+	padding: 10px;
+	margin-top: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
@@ -1172,23 +1097,24 @@ div.blockRight ul.check li img{
 	float: left;
 	width: auto;
 	max-width: 300px;
-	margin:3% 5% 0 5%;
-	border-radius: 10px;
-	box-shadow: 3px 3px 5px black;
+	margin:5% 2% 2% 7%;
+	border-radius: 40px;
 }
 
 #serv-info_1 h2{
 	font-size: 1.1em;
+	text-shadow: none;
 }
 
 #serv-info_1 p{
 	font-size: 14px;
 	font-style: italic;
 	text-align: center;
+	text-shadow: none;
 }
 
 #serv-info_2 div{
-	margin: 0 auto 0 auto;
+	margin: 0% auto 0 auto;
 	height: auto;
 }
 
@@ -1205,8 +1131,13 @@ div.blockRight ul.check li img{
 	margin: 2% 5% 0 5%;
 }
 
+#serv-info_2 h2{
+	text-shadow: none;
+}
+
 #serv-info_2 h3{
 	text-align: left;
+	text-shadow: none;
 }
 
 #serv-info_2 ul.check img{
@@ -1214,8 +1145,45 @@ div.blockRight ul.check li img{
 	max-width: 20px;
 }
 
+#admin{
+	margin: 5% auto 5% auto;
+	padding: 0px;
+	border: none;
+	width: auto;
+	max-width: 1100px;
+}
+
+#admin h2{
+	font-size: 1.6em;
+	color: black;
+	text-shadow: none;
+}
+
+#admin div{
+	background-color: rgba(0, 0, 0, 0.0);
+	color: black;
+	font-size: 12px;
+	line-height: 1.2em;
+	padding: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	border: none;
+}
+
+#admin p, li{
+	list-style: none;
+	color: black;
+	font-size: 1.2em; 
+	line-height: 1.2em;
+}
+
+#admin img{
+	float: left;
+}
+
 footer{
-	background-image: url(../images/android-develop-meseen-studio.png);
+	background-image: url(../images/nastroenie-devushka-zaychik.png);
 	background-repeat: no-repeat;
 	padding: 0px;
 	margin: 0px auto 0 auto;
@@ -1373,7 +1341,7 @@ footer p{
     font-weight:bold;
     padding: 3px;
     margin-top: 30px;
-    margin-left: 5%;
+    margin-left: 12%;
     margin-right: 1%;
 }
 
@@ -1405,9 +1373,8 @@ footer p{
 }
 
 .nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
-    background:rgba(0, 0, 0, 0.0); /* Выглядит полупрозрачным */
+    background:rgba(0,0,0, 0.0); /* Выглядит полупрозрачным */
     text-decoration:none;
-    border-radius: 0px;
     border-color: none;
     border-style: solid;
     -moz-transform:scale(.9);
@@ -1438,7 +1405,7 @@ footer p{
 	font-size: 14px;
 	text-decoration:none;
     background:#99ceff;
-    background:rgba(0, 0, 0, 0.7); /* Выглядит полупрозрачным */
+    background:rgba(0, 0, 0, 0.0); /* Выглядит полупрозрачным */
     
 }
 .nav li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
@@ -1447,7 +1414,7 @@ footer p{
 }
 .nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
     background:#99ceff;
-    background:rgba(0, 0, 0, 0.75); /* Будет полупрозрачным */
+    background:rgba(0, 0, 0, 0.0); /* Будет полупрозрачным */
     text-decoration:underline;
     -moz-transform:scale(1);
     -webkit-transform:scale(1);

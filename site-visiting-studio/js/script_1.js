@@ -16,6 +16,7 @@ $(document).ready(function(){
       $(this).removeClass('.close');
     }
   });//END SEO effect hide information
+
 	$('.callBack').hide();
   $('#contacts a').click(function(evt){
    	evt.preventDefault();
@@ -25,22 +26,28 @@ $(document).ready(function(){
   	evt.preventDefault;
   	$('.callBack').fadeOut(300);
   });//END callBack effect
+
   $('#visiting div').hide(); 
   $('#landing div').hide();
   $('#company div').hide();
   $('#magazyn div').hide();
-  $('#visiting').click(function(){
-  	$('#visiting div').fadeToggle(300);
+  $('#visiting').click(function(evt){
+    evt.preventDefault;
+    $('#visiting div').slideDown(300);
   });
-  $('#landing').click(function(){
-  	$('#landing div').fadeToggle(300);
+  $('#landing').click(function(evt){
+    evt.preventDefault;
+  	$('#landing div').slideDown(300);
   });
-  $('#company').click(function(){
-  	$('#company div').fadeToggle(300);
+  $('#company').click(function(evt){
+    evt.preventDefault;
+  	$('#company div').slideDown(300);
   });
-  $('#magazyn').click(function(){
-  	$('#magazyn div').fadeToggle(300);
+  $('#magazyn').click(function(evt){
+    evt.preventDefault;
+  	$('#magazyn div').slideDown(300);
   });//END effect information menu Developer to services
+
   $('#CMS div.blockLeft').hide();
   $('#browser div.blockRight').hide();
   $('#seo-find div.blockLeft').hide();
@@ -56,5 +63,7 @@ $(document).ready(function(){
   });
   $('#servTech').click(function(){
     $('#servTech div').fadeToggle(300);
-  });
+  });//END info-basic CMS, browser, seo, tech
+
+
 });//END READY
