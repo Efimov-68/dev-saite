@@ -17,12 +17,12 @@ html{
 
 body{
 	background: white;
-	background-image: url(../images/nastroenie-devushka-zaychik.png);
+	background-image: url(../images/fon-rabbitweb.png);
 	background-size: auto;
 	box-shadow: 0 0 10px black;
 	background-repeat: no-repeat;
 	width: auto;
-	max-width: 1300px;
+	max-width: 1600px;
 	margin-left: auto;
 	margin-right: auto;
 	line-height: 1.3em;
@@ -109,12 +109,12 @@ td{
 
 #social{
 	float: right;
-	list-style-type: none; 
-	font-size: 11px; 
+	list-style-type: none;
 	font-family: cursive;
 	padding: 0;
 	margin-right: 1%;
 	margin-top: -1%;
+	bottom: 0;
 }
 
 #social li{
@@ -125,8 +125,8 @@ td{
 }
 
 #social li img{
-	height: 25px;
-	width: 25px;
+	height: auto;
+	width: 30px;
 }
 
 h1{
@@ -248,7 +248,7 @@ p{
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
-	height: 690px;
+	height: 620px;
 	width: auto;
 	max-width: 920px;
 }
@@ -299,38 +299,32 @@ header, #basic{
 
 #workingOut{
 	border: none;
-	padding: 10px;
-	margin-top: 5%;
+	margin: auto;
 	width: auto;
-	max-width: 1300px;
-	height: auto;
 
-}
-
-#workingOut h2{
-	text-align: center;
-	color: black;
 }
 
 #visiting{
 	background: rgba(0, 0, 0, 0.0);
 	border: 3px solid black;
-	height: 120px;
-	width: 200px;
+	height: auto;
+	max-height: 120px;
+	width: auto;
+	max-width: 200px;
 	float: left;
-	margin: 10px 0 0 11%;
+	margin: auto;
 	border-radius: 40px;
 }
 
 #visiting h2{
-	padding: 30px 0 0 0;
+	padding: 0;
 	font-size: 1.1em;
 	text-shadow: none;
 }
 
 #visiting:hover h2{
 	color: grey;
-	padding: 30px 0 0 0;
+	padding: 0;
 	font-size: 1.1em;
 	text-shadow: 2px 4px 8px black;
 }
@@ -346,10 +340,12 @@ header, #basic{
 #visiting:hover{
 	background: rgba(214, 214, 194, 0.30);
 	border: 3px solid grey;
-	height: 120px;
-	width: 200px;
+	height: auto;
+	max-height: 120px;
+	width: auto;
+	max-width: 200px;
 	float: left;
-	margin: 10px 0 0 11%;
+	margin: auto;
 	border-radius: 40px;
 	-moz-transform:scale(.97);
     -webkit-transform:scale(.97);
@@ -418,10 +414,12 @@ header, #basic{
 #landing{
 	background: rgba(0, 0, 0, 0.0);
 	border: 3px solid black;
-	height: 120px;
-	width: 200px;
+	height: auto;
+	max-height: 120px;
+	width: auto;
+	max-width: 200px;
 	float: left;
-	margin: 10px 1% 0 4%;
+	margin: auto;
 	border-radius: 40px;
 }
 #landing div{
@@ -429,14 +427,14 @@ header, #basic{
 }
 
 #landing h2{
-	padding: 30px 0 0 0;
+	padding: 0;
 	font-size: 1.1em;
 	text-shadow: none;
 }
 
 #landing:hover h2{
 	color: grey;
-	padding: 30px 0 0 0;
+	padding: 0;
 	font-size: 1.1em;
 	text-shadow: 2px 4px 8px black;
 }
@@ -444,10 +442,12 @@ header, #basic{
 #landing:hover{
 	background: rgba(214, 214, 194, 0.30);
 	border: 3px solid grey;
-	height: 120px;
-	width: 200px;
+	height: auto;
+	max-height: 120px;
+	width: auto;
+	max-width: 200px;
 	float: left;
-	margin: 10px 1% 0 4%;
+	margin: auto;
 	border-radius: 40px;
 	-moz-transform:scale(.97);
     -webkit-transform:scale(.97);
@@ -528,22 +528,24 @@ header, #basic{
 #company{
 	background: rgba(0, 0, 0, 0.0);
 	border: 3px solid black;
-	height: 120px;
-	width: 200px;
+	height: auto;
+	max-height: 120px;
+	width: auto;
+	max-width: 200px;
 	float: left;
-	margin: 10px 1% 0 4%;
+	margin: auto;
 	border-radius: 40px;
 }
 
 #company h2{
-	padding: 30px 0 0 0;
+	padding: 0;
 	font-size: 1.1em;
 	text-shadow: none;
 }
 
 #company:hover h2{
 	color: grey;
-	padding: 30px 0 0 0;
+	padding: 0;
 	font-size: 1.1em;
 	text-shadow: 2px 4px 8px black;
 }
@@ -559,10 +561,12 @@ header, #basic{
 #company:hover{
 	background: rgba(214, 214, 194, 0.30);
 	border: 3px solid grey;
-	height: 120px;
-	width: 200px;
+	height: auto;
+	max-height: 120px;
+	width: auto;
+	max-width: 200px;
 	float: left;
-	margin: 10px 1% 0 4%;
+	margin: auto;
 	border-radius: 40px;
 	-moz-transform:scale(.97);
     -webkit-transform:scale(.97);
@@ -635,22 +639,24 @@ header, #basic{
 #magazyn{
 	background: rgba(0, 0, 0, 0.0);
 	border: 3px solid black;
-	height: 120px;
-	width: 200px;
+	height: auto;
+	max-height: 120px;
+	width: auto;
+	max-width: 200px;
 	float: left;
-	margin: 10px 0 0 4%;
+	margin: auto;
 	border-radius: 40px;
 }
 
 #magazyn h2{
-	padding: 30px 0 0 0;
+	padding: 0;
 	font-size: 1.1em;
 	text-shadow: none;
 }
 
 #magazyn:hover h2{
 	color:grey;
-	padding: 30px 0 0 0;
+	padding: 0;
 	font-size: 1.1em;
 	text-shadow: 2px 4px 8px black;
 }
@@ -666,10 +672,12 @@ header, #basic{
 #magazyn:hover{
 	background: rgba(214, 214, 194, 0.30);
 	border: 3px solid grey;
-	height: 120px;
-	width: 200px;
+	height: auto;
+	max-height: 120px;
+	width: auto;
+	max-width: 200px;
 	float: left;
-	margin: 10px 0 0 4%;
+	margin: auto;
 	border-radius: 40px;
 	-moz-transform:scale(.97);
     -webkit-transform:scale(.97);
@@ -840,55 +848,13 @@ header, #basic{
 	margin-right: auto;
 	border: none;
 	width: auto;
-	max-width: 800px;
+	max-width: 1100px;
 }
 
 #info img.joomla{
 	width: auto;
 	max-width: 120px;
 	margin: 0% auto 0 27%;
-}
-
-#info img.wp{
-	width: auto;
-	max-width: 120px;
-	margin: 0% auto 0 28%;
-}
-
-#info img.drupal{
-	width: auto;
-	max-width: 120px;
-	margin: 3% auto 0 5%;
-}
-
-#info img.umi{
-	width: auto;
-	max-width: 120px;
-	margin: 0% auto 0 25%;
-}
-
-#info img.cross{
-	width: auto;
-	max-width: 120px;
-	margin: 3% auto 0 5%;
-}
-
-#info img.brow{
-	width: auto;
-	max-width: 120px;
-	margin: 3% auto 0 5%;
-}
-
-#info img.converted{
-	width: auto;
-	max-width: 138px;
-	margin: 0 auto 0 27%;
-}
-
-#info img.servsupp{
-	width: auto;
-	max-width: 120px;
-	margin: 3% auto 0 30%;
 }
 
 #info div{
@@ -898,8 +864,10 @@ header, #basic{
 	margin: 3% 3% 0 6%;
 	border: 3px solid black;
 	border-radius: 40px;
-	height: 200px;
-	width: 300px;
+	height: auto;
+	max-height: 90px;
+	width: auto;
+	max-width: 300px;
 }
 
 #info div h3{
@@ -918,8 +886,10 @@ header, #basic{
 	margin: 3% 3% 0 6%;
 	border: 3px solid grey;
 	border-radius: 40px;
-	height: 200px;
-	width: 300px;
+	height: auto;
+	max-height: 90px;
+	width: auto;
+	max-width: 300px;
 }
 
 div.blockLeft, div.blockRight{
@@ -1082,13 +1052,11 @@ div.blockRight ul.check li img{
 	line-height: 1.2em;
 	text-shadow: 1px 1px 1px grey;
 	padding: 10px;
-	margin-top: 100%;
+	margin-top: 10%;
 	margin-left: auto;
 	margin-right: auto;
 	border: none;
-	height:auto;
 	width: auto;
-	max-width: 1100px;
 }
 
 #services p{
@@ -1098,11 +1066,19 @@ div.blockRight ul.check li img{
 	line-height: 1.2em;
 }
 
+#serv-info_1{
+	width: auto;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+}
+
 #serv-info_1 div{
 	float: left;
 	width: auto;
 	max-width: 300px;
-	margin:5% 2% 2% 7%;
+	margin:1% 1% 10% 1%;
 	border-radius: 40px;
 }
 
@@ -1118,8 +1094,15 @@ div.blockRight ul.check li img{
 	text-shadow: none;
 }
 
+#serv-info_2{
+	width: auto;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #serv-info_2 div{
-	margin: 0% auto 0 auto;
+	margin: 100% auto 0 auto;
 	height: auto;
 }
 
@@ -1188,7 +1171,7 @@ div.blockRight ul.check li img{
 }
 
 footer{
-	background-image: url(../images/nastroenie-devushka-zaychik.png);
+	background-image: url(../images/fon-rabbitweb.png);
 	background-repeat: no-repeat;
 	padding: 0px;
 	margin: 0px auto 0 auto;
@@ -1200,9 +1183,16 @@ footer div{
 	background-color: rgba(0,0,0, 0.65);
 }
 
+footer p{
+	color: white;
+	margin-top: 10px;
+	padding: 5px;
+	text-shadow: 1px 1px 1px grey;
+}
+
 #regform{
 	width: auto;
-	max-width: 1300px;
+	max-width: 1600px;
 	padding-top: 10px;
 	margin: 0.2% auto 0 auto;
 }
@@ -1316,13 +1306,6 @@ footer div{
 	border-radius: 12px;
 }
 
-footer p{
-	color: white;
-	margin-top: 10px;
-	padding: 5px;
-	text-shadow: 1px 1px 1px grey;
-}
-
 #bottom{
 	list-style-type: none;
 	padding-top: 0px;
@@ -1347,7 +1330,7 @@ footer p{
     font-weight:bold;
     padding: 3px;
     margin-top: 30px;
-    margin-left: 15%;
+    margin-left: 22%;
     margin-right: 1%;
 }
 
