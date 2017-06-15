@@ -27,55 +27,18 @@ $(document).ready(function(){
   	$('.callBack').fadeOut(300);
   });//END callBack effect
 
-  //$('#visiting div').hide(); 
-  //$('#landing div').hide();
-  //$('#company div').hide();
-  //$('#magazyn div').hide();
-  //$('#visiting').click(function(evt){
-  //  evt.preventDefault;
-  //  $('#visiting div').slideDown(300);
-  //});
-  //$('#landing').click(function(evt){
-  //  evt.preventDefault;
-  //	$('#landing div').slideDown(300);
-  //});
-  //$('#company').click(function(evt){
-  //  evt.preventDefault;
-  //	$('#company div').slideDown(300);
-  //});
-  //$('#magazyn').click(function(evt){
-  //  evt.preventDefault;
-  //	$('#magazyn div').slideDown(300);
-  //});//END effect information menu Developer to services
-
-  //$('#CMS div.blockLeft').hide();
-  //$('#browser div.blockRight').hide();
-  //$('#seo-find div.blockLeft').hide();
-  //$('#servTech div.blockRight').hide();
-  //$('#CMS').click(function(){
-  //  $('#CMS div').fadeToggle(300);
-  //});
-  //$('#browser').click(function(){
-  //  $('#browser div').fadeToggle(300);
-  //});
-  //$('#seo-find').click(function(){
-  //  $('#seo-find div').fadeToggle(300);
-  //});
-  //$('#servTech').click(function(){
-  //  $('#servTech div').fadeToggle(300);
-  //});//END info-basic CMS, browser, seo, tech
-
-  $('#serv-info_1 p').hide();
+  /*$('#serv-info_1 p').hide();
   $('#serv-info_1 h2').click(function() {
     var $servinfo_1p = $(this).next('#serv-info_1 p');
       if ($servinfo_1p.is(':hidden')) {
-        $servinfo_1p.slideDown();
+        $servinfo_1p.slideDown(300);
         $(this).addClass('close');
       }else{
-        $servinfo_1p.fadeOut();
+        $servinfo_1p.fadeOut(300);
         $(this).removeClass('close');
       }
-    }); // END ЭТАПЫ РАБОТЫ
+    }); // END ЭТАПЫ РАБОТЫ*/
+  
   $('#visiting div').hide();
   $('#landing div').hide();
   $('#company div').hide();
