@@ -84,6 +84,8 @@ $(document).ready(function(){
   $('#browser div').hide();
   $('#seo-find div').hide();
   $('#servTech div').hide();
+  $('#serv-info_2 div').hide();
+  $('#designSite div').hide();
   $('#visiting h2').click(function(){
     var $visiting = $(this).next('#visiting div');
     if ($visiting.is(':hidden')) {
@@ -161,6 +163,26 @@ $(document).ready(function(){
       $(this).addClass('close');
     }else{
       $servTech.fadeOut(300);
+      $(this).removeClass('close');
+    }
+  });
+  $('#serv-info_2 h2').click(function(){
+   var $servinfo_2 = $(this).next('#serv-info_2 div');
+    if ($servinfo_2.is(':hidden')) {
+      $servinfo_2.fadeIn(300);
+      $(this).addClass('close');
+    }else{
+      $servinfo_2.fadeOut(300);
+      $(this).removeClass('close');
+    }
+  });
+  $('#designSite h2').click(function(){
+   var $designSite = $(this).next('#designSite div');
+    if ($designSite.is(':hidden')) {
+      $designSite.fadeIn(300);
+      $(this).addClass('close');
+    }else{
+      $designSite.fadeOut(300);
       $(this).removeClass('close');
     }
   });
