@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$('#basic h1').hide();
 	$('#basic h2').hide();
 	$('#basic').show(function(){
-		$('#basic h1,#basic h2').slideDown(2000);
+		$('#basic h1,#basic h2').fadeIn(2000);
 	});//END title effect RabbitWeb
   $('.answer').hide();
   $('#seo-basic h2').click(function(){
@@ -38,8 +38,10 @@ $(document).ready(function(){
         $(this).removeClass('close');
       }
     }); // END ЭТАПЫ РАБОТЫ*/
-  
+
   $('#visiting div').hide();
+  $('#promo div').hide();
+  $('#catalog div').hide();
   $('#landing div').hide();
   $('#company div').hide();
   $('#magazyn div').hide();
@@ -52,100 +54,120 @@ $(document).ready(function(){
   $('#visiting h2').click(function(){
     var $visiting = $(this).next('#visiting div');
     if ($visiting.is(':hidden')) {
-      $visiting.fadeIn(300);
+      $visiting.slideDown(300);
       $(this).addClass('close');
     }else{
-      $visiting.fadeOut(300);
+      $visiting.slideUp(300);
       $(this).removeClass('close');
     }
   });
   $('#landing h2').click(function(){
     var $landing = $(this).next('#landing div');
     if ($landing.is(':hidden')) {
-      $landing.fadeIn(300);
+      $landing.slideDown(300);
       $(this).addClass('close');
     }else{
-      $landing.fadeOut(300);
+      $landing.slideUp(300);
       $(this).removeClass('close');
     }
   });
   $('#company h2').click(function(){
     var $company = $(this).next('#company div');
     if ($company.is(':hidden')) {
-      $company.fadeIn(300);
+      $company.slideDown(300);
       $(this).addClass('close');
     }else{
-      $company.fadeOut(300);
+      $company.slideUp(300);
       $(this).removeClass('close');
     }
   });
   $('#magazyn h2').click(function(){
    var $magazyn = $(this).next('#magazyn div');
     if ($magazyn.is(':hidden')) {
-      $magazyn.fadeIn(300);
+      $magazyn.slideDown(300);
       $(this).addClass('close');
     }else{
-      $magazyn.fadeOut(300);
+      $magazyn.slideUp(300);
       $(this).removeClass('close');
     }
   });
   $('#CMS h3').click(function(){
     var $CMS = $(this).next('#CMS div');
     if ($CMS.is(':hidden')) {
-      $CMS.fadeIn(300);
+      $CMS.slideDown(300);
       $(this).addClass('close');
     }else{
-      $CMS.fadeOut(300);
+      $CMS.slideUp(300);
       $(this).removeClass('close');
     }
   });
   $('#browser h3').click(function(){
     var $browser = $(this).next('#browser div');
     if ($browser.is(':hidden')) {
-      $browser.fadeIn(300);
+      $browser.slideDown(300);
       $(this).addClass('close');
     }else{
-      $browser.fadeOut(300);
+      $browser.slideUp(300);
       $(this).removeClass('close');
     }
   });
   $('#seo-find h3').click(function(){
     var $seofind = $(this).next('#seo-find div');
     if ($seofind.is(':hidden')) {
-      $seofind.fadeIn(300);
+      $seofind.slideDown(300);
       $(this).addClass('close');
     }else{
-      $seofind.fadeOut(300);
+      $seofind.slideUp(300);
       $(this).removeClass('close');
     }
   });
   $('#servTech h3').click(function(){
    var $servTech = $(this).next('#servTech div');
     if ($servTech.is(':hidden')) {
-      $servTech.fadeIn(300);
+      $servTech.slideDown(300);
       $(this).addClass('close');
     }else{
-      $servTech.fadeOut(300);
+      $servTech.slideUp(300);
       $(this).removeClass('close');
     }
   });
   $('#serv-info_2 h2').click(function(){
    var $servinfo_2 = $(this).next('#serv-info_2 div');
     if ($servinfo_2.is(':hidden')) {
-      $servinfo_2.fadeIn(300);
+      $servinfo_2.slideDown(300);
       $(this).addClass('close');
     }else{
-      $servinfo_2.fadeOut(300);
+      $servinfo_2.slideUp(300);
       $(this).removeClass('close');
     }
   });
   $('#designSite h2').click(function(){
    var $designSite = $(this).next('#designSite div');
     if ($designSite.is(':hidden')) {
-      $designSite.fadeIn(300);
+      $designSite.slideDown(300);
       $(this).addClass('close');
     }else{
-      $designSite.fadeOut(300);
+      $designSite.slideUp(300);
+      $(this).removeClass('close');
+    }
+  });
+  $('#promo h2').click(function(){
+   var $promo = $(this).next('#promo div');
+    if ($promo.is(':hidden')) {
+      $promo.slideDown(300);
+      $(this).addClass('close');
+    }else{
+      $promo.slideUp(300);
+      $(this).removeClass('close');
+    }
+  });
+  $('#catalog h2').click(function(){
+   var $catalog = $(this).next('#catalog div');
+    if ($catalog.is(':hidden')) {
+      $catalog.slideDown(300);
+      $(this).addClass('close');
+    }else{
+      $catalog.slideUp(300);
       $(this).removeClass('close');
     }
   });
