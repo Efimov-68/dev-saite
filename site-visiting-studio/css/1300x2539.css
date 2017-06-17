@@ -191,14 +191,12 @@ td{
 h1{
 	color: black;
 	text-align: left;
-	text-shadow: 1px 1px 1px lightgrey;
 	padding: 30px;
 }
 
 h2, h3{
 	text-align: center;
 	color: black;
-	text-shadow: 1px 1px 1px grey;
 }
 
 h4{
@@ -295,19 +293,28 @@ p{
 /*workingOut Главная*/
 
 #workingOut{
-	background-color: lightgrey;
+	background: url(../images/Hand-Holding-Tablet-PNG-Image1.png) no-repeat;
+	background-position: left;
+	background-color: white;
+	background-size: 500px;
 	border: none;
-	padding: 10px;
-	margin: 5% auto 5% auto;
-	height: auto;
-	width: auto;
-	max-width: 1600px;
+	padding: 10px 10px 10px 10px;
+	margin: 5% auto 0 auto;
+	height: 90%;
+	width: 90%;
+	max-width: 1200px;
 
+}
+
+#workingOut div{
+	background: #f2f2f2;
+	width: auto;
+	max-width: 490px;
 }
 
 #workingOut h1{
 	margin-top: 0%;
-	text-align: center;
+	text-align: left;
 	text-shadow: none;
 }
 
@@ -316,38 +323,35 @@ p{
 #catalog,
 #landing,
 #company,
-#magazyn{
-	background: rgba(0, 0, 0, 0.0);
+#magazyn,
+#CMS,
+#browser,
+#seo-find,
+#servTech,
+#serv-info_2,
+#designSite{
 	border: none;
+	box-shadow: 5px 3px 8px black;
 	height: auto;
 	width: auto;
 	padding: 5px;
-	margin: auto;
 }
-/*
-#visiting:hover,
-#landing:hover,
-#company:hover,
-#magazyn:hover{
-	background: lightyellow;
-	border: 2px solid grey;
-	height: auto;
-	width: auto;
-	float: left;
-	padding: 5px;
-	margin: 5px;
-	border-radius: 40px;
-}*/
 
 #visiting h2,
 #promo h2,
 #catalog h2,
 #landing h2,
 #company h2,
-#magazyn h2{
+#magazyn h2,
+#CMS h3,
+#browser h3,
+#seo-find h3,
+#servTech h3,
+#serv-info_2 h2,
+#designSite h2{
 	background: url(../images/open.png) no-repeat;
-	width: 200px;
-	padding: 0 5px 0 25px;
+	width: auto;
+	padding: 0 5px -10px 25px;
 	font-size: .77em;
 	text-shadow: none;
 	cursor: pointer;
@@ -358,7 +362,13 @@ p{
 #catalog div,
 #landing div,
 #company div,
-#magazyn div{
+#magazyn div,
+#CMS div,
+#browser div,
+#seo-find div,
+#servTech div,
+#serv-info_2 div,
+#designSite div{
 	display: none;
 }
 
@@ -376,17 +386,25 @@ p{
 #catalog div,
 #landing div,
 #company div,
-#magazyn div{
+#magazyn div,
+#CMS div,
+#browser div,
+#seo-find div,
+#servTech div,
+#serv-info_2 div,
+#designSite div{
+	background-color: white;
 	text-align: left;
 	font-size: 12px;
 	line-height: 1.3em;
 	display: block;
-	border: none;
+	border: 2px solid lightblue;
+	border-radius: 15px;
 	height: auto;
 	width: auto;
-	max-width: 800px;
-	margin: auto;
-	padding: 0 0 0 10px;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #visiting:hover div h3,
@@ -475,84 +493,22 @@ p{
 	text-shadow: none;
 }
 
-#CMS,
-#browser,
-#seo-find,
-#servTech,
-#serv-info_2,
-#designSite{
-	background-color: rgba(0,0,0, .0);
-	padding: 0;
-	margin: auto;
-	border: none;
-	height: auto;
-	width: auto;
-}
-/*
-#CMS:hover,
-#browser:hover,
-#seo-find:hover,
-#servTech:hover,
-#serv-info_2:hover,
-#designSite:hover{
-	float: left;
-	background-color: lightyellow;
-	padding: 0;
-	margin: 5px;
-	border: 2px solid grey;
-	border-radius: 40px;
-	height: auto;
-	width: auto;
-}
-*/
-
-#CMS h3,
-#browser h3,
-#seo-find h3,
-#servTech h3,
-#serv-info_2 h2,
-#designSite h2{
-	background: url(../images/open.png) no-repeat;
-    color:black;
-	font-size: .77em;
-	text-shadow: none;
-	width: 200px;
-	padding: 0 5px 0 25px;
-	cursor: pointer;
-}
-
+#CMS p,
+#browser p,
+#seo-find p,
+#servTech p,
+#serv-info_2 p,
 #designSite p{
 	text-align: left;
-}
-
-#CMS div,
-#browser div,
-#seo-find div,
-#servTech div,
-#serv-info_2 div,
-#designSite div{
-	display: none;
+	font-size: 14px;
+	line-height: 1.2em;
+	color: black;
 }
 
 .blockLeft ul.check li img,
 .blockRight ul.check li img{
 	width: auto;
 	max-width: 15px;
-}
-
-#CMS div,
-#browser div,
-#seo-find div,
-#servTech div,
-#serv-info_2 div,
-#designSite div{
-	display: block;
-	height: auto;
-	width: auto;
-	max-width: 800px;
-	padding: 0;
-	border: none;
-	color: white;
 }
 
 #CMS li,
@@ -565,17 +521,6 @@ p{
 	text-align: left;
 	font-size: 14px;
 	line-height: 1.5em;
-	color: black;
-}
-
-#CMS p,
-#browser p,
-#seo-find p,
-#servTech p,
-#serv-info_2 p,
-#designSite p{
-	font-size: 14px;
-	line-height: 1.2em;
 	color: black;
 }
 
@@ -594,6 +539,80 @@ p{
 	background-image: url(../images/close.png);
 }
 /*EDN workingOut*/
+
+/*
+
+////////////////////
+
+*/
+
+#portfolio{
+	background-size: auto;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	border: none;
+	width: auto;
+	max-width: 1300px;
+}
+
+#portfolio h1{
+	color: black;
+	text-shadow: none;
+}
+
+#portfolio .laptop-portfolio{
+	background: url(../images/mac-laptop-png-13.png) no-repeat;
+	background-position: center;
+	color: black;
+	font-size: 12px;
+	line-height: 1.2em;
+	padding: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 800px;
+	width: auto;
+	border: none;
+}
+
+.laptop-portfolio div{
+	width: 1000px;
+	position: relative;
+	margin-top: 8%;
+	margin-left: 16%;
+	margin-right: auto;
+}
+
+#portfolio p,
+#portfolio li{
+	list-style: none;
+	color: black;
+	font-size: 1.2em; 
+	line-height: 1.2em;
+}
+
+#portfolio img{
+	float: left;
+	border-radius: 20px;
+	height:auto;
+	width: auto;
+	max-width: 270px;
+	padding: 10px;
+}
+
+#portfolio img:hover{
+	float: left;
+	height:auto;
+	width: auto;
+	max-width: 270px;
+	padding: 10px;
+	-moz-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+}
+
+/*//////////////////////////////*/
 
 /*Блок центр*/
 #common{
@@ -622,11 +641,8 @@ p{
 }
 
 #serv-info_1 h2{
-	/*background: url(../images/open.png) no-repeat;
-	padding: 0 0 0 15px;*/
 	font-size: .9em;
 	text-shadow: none;
-	/*cursor: pointer;*/
 }
 
 #serv-info_1 p{
@@ -635,11 +651,32 @@ p{
 	text-align: center;
 	text-shadow: none;
 }
-
-#serv-info_1 h2.close{
-	background-image: url(../images/close.png);
-}
 /*Конец Блок центр*/
+
+/*ADMIN start*/
+
+#admin{
+	width: auto;
+	margin-top: 40%;
+}
+
+#admin li{
+	list-style: none;
+}
+
+#admin div{
+	width:;
+}
+
+#admin img{
+	float: left;
+	height: auto;
+	max-height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*END Admin*/
 
 #others{
 	height: auto;
@@ -833,68 +870,6 @@ p{
 	line-height: 1.2em;
 }
 
-/*
-
-////////////////////
-
-*/
-
-#portfolio{
-	margin: 20% auto 10% auto;
-	padding: 0px;
-	border: none;
-	height: auto;
-	width: auto;
-	max-width: 1100px;
-}
-
-#portfolio h2{
-	font-size: 1.6em;
-	color: black;
-	text-shadow: none;
-}
-
-#portfolio div{
-	background-color: rgba(0, 0, 0, 0.0);
-	color: black;
-	font-size: 12px;
-	line-height: 1.2em;
-	padding: 8px;
-	margin-left: auto;
-	margin-right: auto;
-	width: auto;
-	border: none;
-}
-
-#portfolio p,
-#portfolio li{
-	list-style: none;
-	color: black;
-	font-size: 1.2em; 
-	line-height: 1.2em;
-}
-
-#portfolio img{
-	float: left;
-	border-radius: 20px;
-	height:auto;
-	width: auto;
-	max-width: 300px;
-	padding: 10px;
-}
-
-#portfolio img:hover{
-	float: left;
-	height:auto;
-	width: auto;
-	max-width: 300px;
-	padding: 10px;
-	-moz-transform:scale(1.3);
-    -webkit-transform:scale(1.3);
-}
-
-/*//////////////////////////////*/
-
 footer{
 	background-image: url(../images/fon-rabbitweb2.png);
 	background-repeat: no-repeat;
@@ -920,7 +895,7 @@ footer p{
 	width: auto;
 	max-width: 1600px;
 	padding-top: 10px;
-	margin: 60% auto 0 auto;
+	margin: 0% auto 0 auto;
 }
 
 #regform h1{
