@@ -17,14 +17,14 @@ $(document).ready(function(){
     }
   });//END SEO effect hide information
 
-	$('.callBack').hide();
+	$('.callBack div').hide();
   $('#contacts a').click(function(evt){
    	evt.preventDefault();
-   	$('.callBack').fadeIn(300);
+   	$('.callBack div').fadeIn(300);
   });
   $('.callBack img').click(function(evt){
   	evt.preventDefault;
-  	$('.callBack').fadeOut(300);
+  	$('.callBack div').fadeOut(300);
   });//END callBack effect
 
   /*$('#serv-info_1 p').hide();

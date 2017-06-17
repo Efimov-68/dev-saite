@@ -216,18 +216,16 @@ p{
 
 /*START CALLBACK*/
 
-.callBack{
+.callBack div{
 	display: none;
 	position: fixed;
+	top: 35%;
 	background: rgba(242, 242, 242, 0.97);
-	margin: 5% auto 10% 20%;
 	padding: 0;
 	width: 300px;
 	height: auto;
 	border-radius: 5px 10px 5px 5px;
 	box-shadow: 0 0 5px black;
-	-moz-transform:scale(1.0);
-    -webkit-transform:scale(1.0);
 }
 
 .callBack h2{
@@ -277,13 +275,13 @@ p{
 .callBack img{
 	width: 21px;
 	height: auto;
-	margin: -17px 0 0 0;
+	margin: -1px 0 0 0;
 }
 
 .callBack img:hover{
 	width: 21px;
 	height: auto;
-	margin: -17px 0 0 0;
+	margin: -1px 0 0 0;
 	-moz-transform:scale(1.15);
     -webkit-transform:scale(1.15);
 }
