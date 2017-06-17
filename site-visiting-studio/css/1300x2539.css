@@ -11,7 +11,7 @@
 }
 
 html{
-	background: white;
+	background: black;
 
 }
 
@@ -28,7 +28,6 @@ body{
 }
 
 /*Start BASIC*/
-
 #basic{
 	background-image: url(../images/fon-rabbitweb2.png);
 	background-size: auto;
@@ -126,7 +125,6 @@ td{
 #contacts div:hover{
 	background-color: rgba(0,0,0,0.0);
 	border-radius: 10px;
-	/*box-shadow:2px 0 10px #00ff00;*/
 	position:fixed;
 	margin-left: 20px;
 	margin-top: 30%;
@@ -189,33 +187,31 @@ td{
 }
 
 h1{
-	color: black;
+	color: white;
 	text-align: left;
+	text-shadow: none;
 	padding: 30px;
 }
 
-h2, h3{
+h2, h3, h4, h5, h6{
 	text-align: center;
-	color: black;
-}
-
-h4{
-	text-align: left;
+	color: white;
 }
 
 p{
 	padding-left: 20px;
 	padding-right: 20px;
-	color: black;
+	color: white;
+	text-shadow: none;
 }
 
 #allcontent{
+	background-color: #262626;
 	padding-top: 5px;
 	padding-bottom: 0px;
 }
 
 /*START CALLBACK*/
-
 .callBack div{
 	display: none;
 	position: fixed;
@@ -285,16 +281,15 @@ p{
 	-moz-transform:scale(1.15);
     -webkit-transform:scale(1.15);
 }
-
 /*END CALLBACK*/
 
 /*workingOut Главная*/
-
 #workingOut{
 	background: url(../images/Hand-Holding-Tablet-PNG-Image1.png) no-repeat;
 	background-position: left;
 	background-color: white;
 	background-size: 500px;
+	background-color: #262626;
 	border: none;
 	padding: 10px 10px 10px 10px;
 	margin: 5% auto 0 auto;
@@ -308,12 +303,12 @@ p{
 	background: #f2f2f2;
 	width: auto;
 	max-width: 490px;
+	border-radius: 10px;
 }
 
 #workingOut h1{
 	margin-top: 0%;
 	text-align: left;
-	text-shadow: none;
 }
 
 #visiting,
@@ -329,10 +324,31 @@ p{
 #serv-info_2,
 #designSite{
 	border: none;
-	box-shadow: 5px 3px 8px black;
+	box-shadow: 0 0 5px black;
 	height: auto;
 	width: auto;
-	padding: 5px;
+	padding: 10px;
+}
+
+#visiting:hover,
+#promo:hover,
+#catalog:hover,
+#landing:hover,
+#company:hover,
+#magazyn:hover,
+#CMS:hover,
+#browser:hover,
+#seo-find:hover,
+#servTech:hover,
+#serv-info_2:hover,
+#designSite:hover{
+	border: none;
+	box-shadow: 0 0 5px black;
+	height: auto;
+	width: auto;
+	padding: 10px;
+	-moz-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
 }
 
 #visiting h2,
@@ -350,9 +366,10 @@ p{
 	background: url(../images/open.png) no-repeat;
 	width: auto;
 	padding: 0 5px -10px 25px;
-	font-size: .77em;
+	font-size: 1em;
 	text-shadow: none;
 	cursor: pointer;
+	color: black;
 }
 
 #visiting div,
@@ -538,12 +555,7 @@ p{
 }
 /*EDN workingOut*/
 
-/*
-
-////////////////////
-
-*/
-
+/*////////////////////*/
 #portfolio{
 	background-size: auto;
 	margin-top: 5%;
@@ -554,11 +566,6 @@ p{
 	border: none;
 	width: auto;
 	max-width: 1300px;
-}
-
-#portfolio h1{
-	color: black;
-	text-shadow: none;
 }
 
 #portfolio .laptop-portfolio{
@@ -609,7 +616,6 @@ p{
 	-moz-transform:scale(1.2);
     -webkit-transform:scale(1.2);
 }
-
 /*//////////////////////////////*/
 
 /*Блок центр*/
@@ -652,13 +658,16 @@ p{
 /*Конец Блок центр*/
 
 /*ADMIN start*/
-
 #admin{
 	width: auto;
+	max-width: 1300px;
 	margin-top: 40%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #admin li{
+	color: white;
 	list-style: none;
 }
 
@@ -674,54 +683,7 @@ p{
 	margin-right: auto;
 }
 
-/*END Admin*/
-
-#others{
-	height: auto;
-	border: none;
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-#design h1{
-	text-align: center;
-	color: black;
-	text-shadow: 1px 1px 1px grey;
-	line-height: 1.2em;
-	border: none;
-}
-
-#design p{
-	text-align: center;
-	color: black;
-	text-shadow: 1px 1px 1px grey;
-}
-
-#design a{
-	color: orange;
-	text-shadow: 1px 1px 1px grey;
-}
-
-#design li{
-	color: black;
-	text-shadow: 1px 1px 1px grey;
-}
-
-#design div{
-	background-color: rgba(0, 0, 0, 0.0);
-	color: black;
-	text-shadow: 1px 1px 1px grey;
-	padding: 10px;
-	margin-left: auto;
-	margin-right: auto;
-	border: none;
-	height: auto;
-	width: auto;
-	max-width: 1100px;
-}
-
 /*//////////////////////////*/
-
 #des-info_1 div{
 	background-color: #990000;
 	box-shadow: 4px 5px 3px black;
@@ -758,122 +720,14 @@ p{
 }
 /*END DESIGN*/
 
-
-/*Блок SEO*/
-#seo div{
-	margin-left: 9%;
-	float: left;
-	background-color: rgba(242,242,242,0.0);
-	padding: 5px;
-	margin-right: auto;
-	border: none;
-	height: auto;
-	max-height: 50px;
-	width: auto;
-	max-width: 160px;
-}
-
-#seo div:hover{
-	margin-left: 9%;
-	float: left;
-	background-color: rgba(0, 0, 0, 0.0);
-	padding: 5px;
-	margin-right: auto;
-	border: none;
-	height: auto;
-	max-height: 50px;
-	width: auto;
-	max-width: 160px;
-}
-
-#seo div:hover h3{
-	color: grey;
-	text-shadow: 1px 1px 1px black;
-}
-
-.seoblocklef, .seoblockrig{
-	display: none;
-}
-
-#seo div:hover .seoblocklef{
-	display: block;
-	float: left;
-	background-color: rgba(242, 242, 242, 0.90);
-	height: auto;
-	max-height: 250px;
-	width: auto;
-	max-width: 500px;
-	padding: 5px;
-	border: none;
-	box-shadow: 0 0 10px grey;
-	color: white;
-	text-shadow: 1px 1px 1px grey;
-	-moz-transform:scale(1.03);
-    -webkit-transform:scale(1.03);
-}
-
-#seo div:hover .seoblockrig{
-	display: block;
-	float: right;
-	background-color: rgba(242, 242, 242, 0.90);
-	height: auto;
-	max-height: 250px;
-	width: auto;
-	max-width: 500px;
-	padding: 5px;
-	border: none;
-	box-shadow: 0 0 10px grey;
-	color: white;
-	text-shadow: 1px 1px 1px grey;
-	-moz-transform:scale(0.98);
-    -webkit-transform:scale(0.98);
-}
-
-#seo h3{
-	color: white;
-	text-shadow: 0px 0px 10px grey;
-}
-
-#seo p{
-	line-height: 1.2em;
-	color: black;
-	text-shadow: 1px 1px 3px grey;
-}
-
-#seo li{
-	line-height: 1.2em;
-	color: black;
-	text-shadow: 1px 1px 3px grey;
-}
-
-/*////////////////////*/
-
-#services div{
-	background-color: rgba(0, 0, 0, 0.0);
-	color: black;
-	line-height: 1.2em;
-	text-shadow: 1px 1px 1px grey;
-	padding: 10px;
-	margin-top: 10%;
-	margin-left: auto;
-	margin-right: auto;
-	border: none;
-	width: auto;
-}
-
-#services p{
-	text-align: left;
-	color: black;
-	text-shadow: 0 0 1px white;
-	line-height: 1.2em;
-}
-
 footer{
 	background-image: url(../images/fon-rabbitweb2.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	padding: 0px;
-	margin: 0px auto 0 auto;
+	background-color: #262626;
+	padding: 0;
+	margin: 0 auto 0 auto;
+	height: auto;
 	font-size: 12px;
 	line-height: 1.1em;
 }
@@ -884,9 +738,7 @@ footer div{
 
 footer p{
 	color: white;
-	margin-top: 10px;
 	padding: 5px;
-	text-shadow: 1px 1px 1px grey;
 }
 
 #regform{
@@ -904,8 +756,6 @@ footer p{
 
 #feedback{
 	padding: 0px;
-	margin: 0px;
-	margin-top: 0;
 	text-align: center;
 }
 
@@ -915,12 +765,10 @@ footer p{
 	font-size: 20px;
 	color: white;
 	text-align: center;
-	text-shadow: 1px 1px 1px grey;
 }
 
 #feedback p{
 	color: white;
-	text-shadow: 1px 1px 1px grey;
 }
 
 #fio{
