@@ -1,5 +1,5 @@
 /*RabbitWeb.ru for Efimov RS*/
-@media(min-width: 1025px){
+@media all and (min-width: 1025px){
 	@font-face{
 		font-family: Pangolin-Regular;
 		font-family: Neucha;
@@ -34,21 +34,18 @@
 		background-size: auto;
 		background-repeat: no-repeat;
 		background-position: center;
-		margin-top: -5px;
 		border: none;
-		padding: 5px;
+		height: 800px;
 	}
 	
 	#basic div{
-		background-color: rgba(0, 0, 0, 0.0);
+		background-color: rgba(0, 0, 0, 0.67);
 		text-shadow: 1px 1px 1px grey;
+		height: 800px;
 		padding: 20px;
 		margin-left: auto;
 		margin-right: auto;
 		border: none;
-		height: 620px;
-		width: auto;
-		max-width: 920px;
 	}
 	
 	#basic h1{
@@ -105,36 +102,14 @@
 		background-color: rgba(0,0,0,0.0);
 		border-radius:10px;
 		position:fixed;
-		margin-left: 20px;
-		margin-top: 30%;
+		top: 50%;
 	}
 	
 	#contacts div:hover{
 		background-color: rgba(0,0,0,0.0);
 		border-radius: 10px;
 		position:fixed;
-		margin-left: 20px;
-		margin-top: 30%;
-	}
-	
-	#contacts p{
-		padding: 5px;
-		color: white;
-		font-size: 14px;
-		text-align: center;
-		text-shadow: 1px 1px 1px black;
-	}
-	
-	#contacts div:hover p{
-		padding: 5px;
-		color: white;
-		font-size: 14px;
-		text-align: center;
-		text-shadow: 1px 1px 1px black;
-	}
-	
-	#contacts p b{
-		font-size: 21px;
+		top: 50%;
 	}
 	
 	#contacts p img{
@@ -147,8 +122,8 @@
 	#contacts p img:hover{
 		border: none;	
 		padding:0 0 10px 0;
-		-moz-transform:scale(1.30);
-	    -webkit-transform:scale(1.30);
+		-moz-transform:scale(1.2);
+	    -webkit-transform:scale(1.2);
 	}
 	
 	#social{
@@ -202,10 +177,11 @@
 	.callBack div{
 		display: none;
 		position: fixed;
-		top: 35%;
-		background: rgba(242, 242, 242, 0.97);
+		top: 49.5%;
+		left: 0%;
+		background: rgba(242, 242, 242, 0.2);
 		padding: 0;
-		width: 300px;
+		width: 310px;
 		height: auto;
 		border-radius: 5px 10px 5px 5px;
 		box-shadow: 0 0 5px black;
@@ -230,23 +206,24 @@
 	
 	.callBack li input{
 		border: 1px ridge lightgrey;
-		width: 220px;
+		width: 180px;
 		height: 28px;
+		margin-left: 50px;
 		box-shadow: 0px 0px 0px black;
 	}
 	
-	.callBack p input{
+	.callBack input.submit{
 		background-color: rgba(179, 0, 0,0.70);
-		height: 30px;
+		height: 28px;
 		width: auto;
 		border: none;
 		border-radius: 10px;
 		color: lightgrey;
 	}
 	
-	.callBack p input:hover{
+	.callBack input.submit:hover{
 		background-color: rgba(179, 0, 0,0.70);
-		height: 30px;
+		height: 28px;
 		width: auto;
 		border: 1px solid red;
 		border-radius: 10px;
@@ -269,6 +246,20 @@
 	    -webkit-transform:scale(1.15);
 	}
 	/*END CALLBACK*/
+
+	/*CallMessage Start*/
+
+	.callMessange li{
+		margin-top: 10px;
+		color: white;
+		text-shadow: none;
+	}
+
+	.callMessange input{
+		margin-top: 10px;
+	}
+
+	/*END callMessage*/
 	
 	/*workingOut Главная*/
 	#workingOut{
@@ -312,8 +303,6 @@
 	#designSite{
 		border: none;
 		box-shadow: 0 0 5px black;
-		height: auto;
-		width: auto;
 		padding: 10px;
 	}
 	
@@ -331,8 +320,6 @@
 	#designSite:hover{
 		border: none;
 		box-shadow: 0 0 5px black;
-		height: auto;
-		width: auto;
 		padding: 10px;
 		-moz-transform:scale(1.05);
 	    -webkit-transform:scale(1.05);
@@ -353,7 +340,7 @@
 		background: url(../images/open.png) no-repeat;
 		width: auto;
 		padding: 0 5px -10px 25px;
-		font-size: .7em;
+		font-size: .8em;
 		text-shadow: none;
 		cursor: pointer;
 		color: black;
@@ -381,6 +368,7 @@
 	#company p,
 	#magazyn p{
 		color: black;
+		font-size: 12px;
 	}
 	
 	#visiting div,
@@ -473,6 +461,7 @@
 	#magazyn td{
 		padding: 0px;
 		border-collapse: collapse;
+		font-size: 12px;
 	}
 	
 	#visiting img,
@@ -502,15 +491,14 @@
 	#serv-info_2 p,
 	#designSite p{
 		text-align: left;
-		font-size: 14px;
+		font-size: 12px;
 		line-height: 1.2em;
 		color: black;
 	}
 	
 	.blockLeft ul.check li img,
 	.blockRight ul.check li img{
-		width: auto;
-		max-width: 15px;
+		width: 12px;
 	}
 	
 	#CMS li,
@@ -521,7 +509,7 @@
 	#designSite li{
 		list-style: none;
 		text-align: left;
-		font-size: 14px;
+		font-size: 12px;
 		line-height: 1.5em;
 		color: black;
 	}
@@ -582,7 +570,7 @@
 	#portfolio li{
 		list-style: none;
 		color: black;
-		font-size: 1.2em; 
+		font-size: 12px; 
 		line-height: 1.2em;
 	}
 	
@@ -662,11 +650,13 @@
 	
 	#admin li{
 		color: white;
+		font-size: 14px;
+		text-shadow: none;
 		list-style: none;
 	}
 	
-	#admin div{
-		width:;
+	#admin p{
+		font-size: 14px;
 	}
 	
 	#admin img{

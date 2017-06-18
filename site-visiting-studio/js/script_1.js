@@ -18,13 +18,21 @@ $(document).ready(function(){
   });//END SEO effect hide information
 
 	$('.callBack div').hide();
-  $('#contacts a').click(function(evt){
+  $('#contacts .tel').click(function(evt){
    	evt.preventDefault();
-   	$('.callBack div').fadeIn(300);
+    $('.callBack .callPhone').slideDown(500);
   });
   $('.callBack img').click(function(evt){
   	evt.preventDefault;
-  	$('.callBack div').fadeOut(300);
+    $('.callBack .callPhone').fadeOut(500);
+  });
+  $('#contacts .mail').click(function(evt){
+    evt.preventDefault();
+    $('.callBack .callMessange').slideDown(500);
+  });
+  $('.callBack img').click(function(evt){
+    evt.preventDefault;
+    $('.callBack .callMessange').slideUp(500);
   });//END callBack effect
 
   /*$('#serv-info_1 p').hide();

@@ -1,5 +1,5 @@
 /*RabbitWeb.ru for Efimov RS*/
-@media(max-width: 480px){
+@media all and (max-width: 480px){
 	@font-face{
 		font-family: Pangolin-Regular;
 		font-family: Neucha;
