@@ -372,6 +372,21 @@ p{
 	color: black;
 }
 
+#visiting img,
+#promo img,
+#catalog img,
+#landing img,
+#company img,
+#magazyn img,
+#CMS img,
+#browser img,
+#seo-find img,
+#servTech img,
+#serv-info_2 img,
+#designSite img{
+	width: 40px;
+}
+
 #visiting div,
 #promo div,
 #catalog div,
@@ -620,40 +635,46 @@ p{
 
 /*Блок центр*/
 #common{
-	background-color: rgba(0, 0, 0,0.0);
+	background-image: url(../images/website-order-icon.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 700px;
 	border: none;
 	height: auto;
 	width: auto;
-	max-width: 1100px;
-	margin: auto;
+	max-width: 1200px;
 }
 
 #common li{
     list-style-type:none;
 }
 
-#serv-info_1 h1{
-	text-align: center;
-	text-shadow: none;
-}
-
 #serv-info_1 div{
-	float: left;
+	position: relative;
+	left: 20%;
 	width: 300px;
-	margin: 5% 2% 5% auto;
+	margin-top: 2%;
 	border-radius: 20px;
 }
 
 #serv-info_1 h2{
 	font-size: .9em;
+	text-align: left;
 	text-shadow: none;
 }
 
 #serv-info_1 p{
 	font-size: 14px;
 	font-style: italic;
-	text-align: center;
+	text-align: left;
 	text-shadow: none;
+}
+
+#serv-info_1 img{
+	float: left;
+	width: 80px;
+	margin-top: 17%;
+	padding: 5px;
 }
 /*Конец Блок центр*/
 
@@ -661,7 +682,7 @@ p{
 #admin{
 	width: auto;
 	max-width: 1300px;
-	margin-top: 40%;
+	margin-top: 10%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -679,6 +700,7 @@ p{
 	float: left;
 	height: auto;
 	max-height: 250px;
+	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
 }
