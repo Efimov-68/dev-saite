@@ -1,5 +1,5 @@
 /*RabbitWeb.ru for Efimov RS*/
-@media(min-width: 1025px){
+@media(max-width: 480px){
 	@font-face{
 		font-family: Pangolin-Regular;
 		font-family: Neucha;
@@ -19,8 +19,8 @@
 	body{
 		background: white;
 		box-shadow: 0 0 10px black;
+		width: auto;
 		max-width: 1600px;
-		min-width: 1025px;
 		margin-left: auto;
 		margin-right: auto;
 		line-height: 1.3em;
@@ -72,9 +72,23 @@
 		margin-top: 30px;
 		padding: 5px;
 	}
-
+	
 	#basic h2 span{
 		color: #ffcc80;
+	}
+	
+	#basic h3{
+		color: white;
+		font-size: 1.1em;
+		line-height: 1.1em;
+		text-shadow: 1px 1px 1px grey;
+	}
+	
+	#basic p{
+		text-align: center;
+		color: white;
+		line-height: 1.3em;
+		text-shadow: 1px 1px 1px grey;
 	}
 	
 	header img{
@@ -275,21 +289,21 @@
 		background: url(../images/Hand-Holding-Tablet-PNG-Image1.png) no-repeat;
 		background-position: left;
 		background-color: white;
-		background-size: 950px;
+		background-size: 920px;
 		background-color: #262626;
 		border: none;
 		padding: 0px;
 		margin: 5% auto 0 auto;
 		height: 90%;
 		width: 90%;
-		max-width: 1600px;
+		max-width: 1330px;
 	
 	}
 	
 	#workingOut div{
 		background: #f2f2f2;
 		width: auto;
-		max-width: 500px;
+		max-width: 360px;
 		border-radius: 10px;
 	}
 	
@@ -400,8 +414,8 @@
 		font-size: 12px;
 		line-height: 1.3em;
 		display: block;
-		border: 1px outset lightblue;
-		border-radius: 10px;
+		border: 2px solid lightblue;
+		border-radius: 15px;
 		height: auto;
 		width: auto;
 		max-width: 500px;
@@ -551,14 +565,13 @@
 		margin-right: auto;
 		padding: 0px;
 		border: none;
-		max-width: 1600px;
-		min-width: 1025px;
+		width: auto;
+		max-width: 1300px;
 	}
 	
 	#portfolio .laptop-portfolio{
 		background: url(../images/mac-laptop-png-13.png) no-repeat;
 		background-position: center;
-		background-size: auto;
 		color: black;
 		font-size: 12px;
 		line-height: 1.2em;
@@ -571,10 +584,10 @@
 	}
 	
 	.laptop-portfolio div{
-		width: 900px;
+		width: 1000px;
 		position: relative;
-		margin-top: 7%;
-		margin-left: auto;
+		margin-top: 8%;
+		margin-left: 16%;
 		margin-right: auto;
 	}
 	
@@ -615,7 +628,7 @@
 		border: none;
 		height: auto;
 		width: auto;
-		max-width: 1600px;
+		max-width: 1200px;
 	}
 	
 	#common li{
@@ -945,5 +958,5 @@
 	    -webkit-transform:scale(1);
 	}
 	/*Конец верхнего меню*/
-
+	
 }
