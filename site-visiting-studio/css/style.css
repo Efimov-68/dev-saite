@@ -288,21 +288,21 @@ p{
 	background: url(../images/Hand-Holding-Tablet-PNG-Image1.png) no-repeat;
 	background-position: left;
 	background-color: white;
-	background-size: 500px;
+	background-size: 920px;
 	background-color: #262626;
 	border: none;
-	padding: 10px 10px 10px 10px;
+	padding: 0px;
 	margin: 5% auto 0 auto;
 	height: 90%;
 	width: 90%;
-	max-width: 1200px;
+	max-width: 1330px;
 
 }
 
 #workingOut div{
 	background: #f2f2f2;
 	width: auto;
-	max-width: 490px;
+	max-width: 360px;
 	border-radius: 10px;
 }
 
@@ -347,8 +347,8 @@ p{
 	height: auto;
 	width: auto;
 	padding: 10px;
-	-moz-transform:scale(1.1);
-    -webkit-transform:scale(1.1);
+	-moz-transform:scale(1.05);
+    -webkit-transform:scale(1.05);
 }
 
 #visiting h2,
@@ -366,25 +366,10 @@ p{
 	background: url(../images/open.png) no-repeat;
 	width: auto;
 	padding: 0 5px -10px 25px;
-	font-size: 1em;
+	font-size: .7em;
 	text-shadow: none;
 	cursor: pointer;
 	color: black;
-}
-
-#visiting img,
-#promo img,
-#catalog img,
-#landing img,
-#company img,
-#magazyn img,
-#CMS img,
-#browser img,
-#seo-find img,
-#servTech img,
-#serv-info_2 img,
-#designSite img{
-	width: 40px;
 }
 
 #visiting div,
