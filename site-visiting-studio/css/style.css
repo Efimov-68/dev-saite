@@ -103,6 +103,7 @@
 		border-radius:10px;
 		position:fixed;
 		top: 50%;
+		left: 0;
 	}
 	
 	#contacts div:hover{
@@ -246,9 +247,6 @@
 	    -webkit-transform:scale(1.15);
 	}
 	/*END CALLBACK*/
-
-	/*CallMessage Start*/
-
 	.callMessange li{
 		margin-top: 10px;
 		color: white;
@@ -258,7 +256,6 @@
 	.callMessange input{
 		margin-top: 10px;
 	}
-
 	/*END callMessage*/
 	
 	/*workingOut Главная*/

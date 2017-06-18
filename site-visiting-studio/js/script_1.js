@@ -35,18 +35,6 @@ $(document).ready(function(){
     $('.callBack .callMessange').slideUp(500);
   });//END callBack effect
 
-  /*$('#serv-info_1 p').hide();
-  $('#serv-info_1 h2').click(function() {
-    var $servinfo_1p = $(this).next('#serv-info_1 p');
-      if ($servinfo_1p.is(':hidden')) {
-        $servinfo_1p.slideDown(300);
-        $(this).addClass('close');
-      }else{
-        $servinfo_1p.fadeOut(300);
-        $(this).removeClass('close');
-      }
-    }); // END ЭТАПЫ РАБОТЫ*/
-
   $('#visiting div').hide();
   $('#promo div').hide();
   $('#catalog div').hide();
