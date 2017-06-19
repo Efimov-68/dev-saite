@@ -199,10 +199,11 @@
 		list-style-type:none;	
 	}
 	
-	.callBack li{
-		color: black;
-		line-height: 2em;
-		text-shadow: 1px 1px 1px black;
+	.callPhone li,
+	.callMessange li{
+		margin-top: 10px;
+		color: white;
+		text-shadow: none;
 	}
 	
 	.callBack li input{
@@ -211,6 +212,10 @@
 		height: 28px;
 		margin-left: 50px;
 		box-shadow: 0px 0px 0px black;
+	}
+
+	.callMessange input{
+		margin-top: 10px;
 	}
 	
 	.callBack input.submit{
@@ -246,25 +251,15 @@
 		-moz-transform:scale(1.15);
 	    -webkit-transform:scale(1.15);
 	}
-	/*END CALLBACK*/
-	.callMessange li{
-		margin-top: 10px;
-		color: white;
-		text-shadow: none;
-	}
-
-	.callMessange input{
-		margin-top: 10px;
-	}
-	/*END callMessage*/
+	/*END CallBack*/
 	
 	/*workingOut Главная*/
 	#workingOut{
 		background: url(../images/Hand-Holding-Tablet-PNG-Image1.png) no-repeat;
 		background-position: left;
 		background-color: white;
-		background-size: 950px;
-		background-color: #262626;
+		background-size: 450px;
+		background-color: rgba(242, 242, 242, .0);
 		border: none;
 		padding: 0px;
 		margin: 5% auto 0 auto;
@@ -275,10 +270,10 @@
 	}
 	
 	#workingOut div{
-		background: #f2f2f2;
+		background: rgba(242, 242, 242, .67);
 		width: auto;
 		max-width: 500px;
-		border-radius: 10px;
+		border-radius: 0px;
 	}
 	
 	#workingOut h1{
@@ -299,7 +294,6 @@
 	#serv-info_2,
 	#designSite{
 		border: none;
-		box-shadow: 0 0 5px black;
 		padding: 10px;
 	}
 	
@@ -318,8 +312,8 @@
 		border: none;
 		box-shadow: 0 0 5px black;
 		padding: 10px;
-		-moz-transform:scale(1.05);
-	    -webkit-transform:scale(1.05);
+		-moz-transform:scale(1.03);
+	    -webkit-transform:scale(1.03);
 	}
 	
 	#visiting h2,
@@ -341,6 +335,22 @@
 		text-shadow: none;
 		cursor: pointer;
 		color: black;
+	}
+
+	#visiting img.icon,
+	#promo img.icon,
+	#catalog img.icon,
+	#landing img.icon,
+	#company img.icon,
+	#magazyn img.icon,
+	#CMS img.icon,
+	#browser img.icon,
+	#seo-find img.icon,
+	#servTech img.icon,
+	#serv-info_2 img.icon,
+	#designSite img.icon{
+		width: auto;
+		max-width: 58px;
 	}
 	
 	#visiting div,
@@ -366,6 +376,7 @@
 	#magazyn p{
 		color: black;
 		font-size: 12px;
+		text-align: left;
 	}
 	
 	#visiting div,
@@ -385,7 +396,7 @@
 		font-size: 12px;
 		line-height: 1.3em;
 		display: block;
-		border: 1px outset lightblue;
+		border: 1px ridge lightblue;
 		border-radius: 10px;
 		height: auto;
 		width: auto;
@@ -551,14 +562,13 @@
 		margin-left: auto;
 		margin-right: auto;
 		height: 800px;
-		width: auto;
 		border: none;
 	}
 	
 	.laptop-portfolio div{
 		width: 900px;
 		position: relative;
-		margin-top: 7%;
+		margin-top: 8%;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -577,7 +587,7 @@
 		height:auto;
 		width: auto;
 		max-width: 270px;
-		padding: 10px;
+		padding: 15px;
 	}
 	
 	#portfolio img:hover{
@@ -585,9 +595,9 @@
 		height:auto;
 		width: auto;
 		max-width: 270px;
-		padding: 10px;
-		-moz-transform:scale(1.2);
-	    -webkit-transform:scale(1.2);
+		padding: 15px;
+		-moz-transform:scale(1.05);
+	    -webkit-transform:scale(1.05);
 	}
 	/*//////////////////////////////*/
 	
@@ -607,11 +617,23 @@
 	    list-style-type:none;
 	}
 	
-	#serv-info_1 div{
-		position: relative;
+	#serv-info_1 div.serv_1_float_1,
+	#serv-info_1 div.serv_1_float_2,
+	#serv-info_1 div.serv_1_float_3{
+		left: 20%;
+		height: 200px;
+		width: auto;
+		margin-top: 2%;
+	}
+
+	#serv-info_1 div.serv_1_float_1 div,
+	#serv-info_1 div.serv_1_float_2 div,
+	#serv-info_1 div.serv_1_float_3 div{
+		background-color: rgba(0,0,0, 0.3);
+		float: left;
 		left: 20%;
 		width: 300px;
-		margin-top: 2%;
+		margin: 2% 2.5% 0 5%;
 		border-radius: 20px;
 	}
 	

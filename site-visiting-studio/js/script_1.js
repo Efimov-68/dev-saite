@@ -2,9 +2,25 @@
 $(document).ready(function(){
 	$('#basic h1').hide();
 	$('#basic h2').hide();
+  $('.callBack div').hide();
+  $('#visiting div').hide();
+  $('#promo div').hide();
+  $('#catalog div').hide();
+  $('#landing div').hide();
+  $('#company div').hide();
+  $('#magazyn div').hide();
+  $('#CMS div').hide();
+  $('#browser div').hide();
+  $('#seo-find div').hide();
+  $('#servTech div').hide();
+  $('#serv-info_2 div').hide();
+  $('#designSite div').hide();
+  //END all.hide()
+
 	$('#basic').show(function(){
 		$('#basic h1,#basic h2').fadeIn(2000);
 	});//END title effect RabbitWeb
+
   $('.answer').hide();
   $('#seo-basic h2').click(function(){
     var $answer = $(this).next('.answer');
@@ -17,7 +33,6 @@ $(document).ready(function(){
     }
   });//END SEO effect hide information
 
-	$('.callBack div').hide();
   $('#contacts .tel').click(function(evt){
    	evt.preventDefault();
     $('.callBack .callPhone').slideDown(500);
@@ -35,18 +50,6 @@ $(document).ready(function(){
     $('.callBack .callMessange').slideUp(500);
   });//END callBack effect
 
-  $('#visiting div').hide();
-  $('#promo div').hide();
-  $('#catalog div').hide();
-  $('#landing div').hide();
-  $('#company div').hide();
-  $('#magazyn div').hide();
-  $('#CMS div').hide();
-  $('#browser div').hide();
-  $('#seo-find div').hide();
-  $('#servTech div').hide();
-  $('#serv-info_2 div').hide();
-  $('#designSite div').hide();
   $('#visiting h2').click(function(){
     var $visiting = $(this).next('#visiting div');
     if ($visiting.is(':hidden')) {
@@ -166,6 +169,6 @@ $(document).ready(function(){
       $catalog.slideUp(300);
       $(this).removeClass('close');
     }
-  });
+  });//END Catalog site
 
 });//END READY
