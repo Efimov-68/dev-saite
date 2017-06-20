@@ -7,8 +7,8 @@
 	<meta name="description" content="Давно уже не секрет, что сайт это мощный инструмент продвижения продукта/услуг и привлечения клиентов в Малом, Среднем и Крупном сегментах Бизнеса">
 	<meta name="keywords" content="создание сайта, веб студия, сайт разработка, сайт продвижение, сайт визитка, landing page, создание продвижение, контекстная реклама, seo продвижение, веб дизайн, создание сайта +веб, сайт разработка +веб дизайн, дизайн сайта +разработка">
 	<!--meta http-equiv="refresh" content="10; url=file:///home/romka68rus/dev-saite/site-visiting-studio/index.html"-->
-	<link rel="stylesheet" type="text/css" href="../css/1300x2539.css" media="screen and (min-device-width: 240px)">
-	<link rel="stylesheet" type="text/css" href="../css/1300x2539_stylePage.css" media="screen and (min-device-width: 240px)">
+	<link rel="stylesheet" type="text/css" href="../css/import_style.css" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="../css/stylePage.css" content="width=device-width">
 	<style type="text/css">
 		#design h1{
 			padding: 17% 10px 0 10px;
@@ -21,35 +21,58 @@
 </head>
 <body>
 	<header>
-		<a href="http://rabbitweb.ru"><img src="../images/logo-rabbitweb.png" alt="RabbitWeb"></a>
+		<a href=""><img src="./images/logo-rabbitweb.png" alt="RabbitWeb"></a>
 		<ul class="nav">
-			<li class="phone"><p><b>(499)394-6887</b></p></li>
-			<li><a href="../index.html">Главная</a></li>
-			<li><a href="#visiting">Разработка</a></li>
-			<li><a href="#design" style="color: orange;">>>(Re:)Дизайн<<</a></li>
-			<li><a href="page_2.html#seo-basic">Продвижение</a></li>
-			<li><a href="module.html#module">Услуги</a></li>
+			<li><a href="#">Каталог услуг</a>
+				<ul>
+					<li><a href="#workingOut">Разработка сайта</a></li>
+					<li><a href="#">Дизайн сайта</a></li>
+					<li><a href="#">Продвижение сайта</a></li>
+					<li><a href="#">Поддержка сайта</a></li>
+					<li><a href="#">О нас</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</li>
+			<li><a href="#portfolio">Портфолио</a></li>
 			<li><a href="#regform" style="width: auto; color: orange;"><b>Заказать сайт</b></a></li>
+			<li class="phone"><p><img src="../images/tlgm.png" title="Telegram: 929 956-3812"><img src="../images/whap.png" title="Whats app: 929 956-3812"> <b> +7(499)394-6887</b></p></li>
 		</ul>
 		<div id="contacts">
 			<div>
-				<p align="center"><a href="#"><img src="../images/email_14410.png"></a></p>
-				<p align="center"><a href="#"><img src="../images/call.png"></a></p>			
+				<p align="center"><a href="#" class="mail"><img src="../images/email_14410.png"></a></p>	
+				<p align="center"><a href="#" class="tel"><img src="../images/call.png"></a></p>
 			</div>
-		</div>
-	</header>
-	<div id="allcontent">
-	    <div class="callBack">
-			<div>
-			    <a href="#"><img src="../images/close_red.png" align="right"></a>
-				<h2>Мы вам перезвоним в течении 60 секунд</h2>
-				<form action="../form/regform.php" type="GET">
-					<ul>
-						<li>Ваше имя:<br><input type="name" name="fio" title="Ваше имя" tabindex="0" placeholder=" Имя Отчество" required="required"></li><br>
-						<li>Номер телефона:<br><input type="phone" name="number" tabindex="1" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" placeholder=" 9299563812" title="Номер телефона" required="required"></li>
-					</ul>
-					<p align="center"><input type="submit" value="Отправить"></p>
-				</form>
+	    	<div class="callBack">
+				<div class="callPhone">
+				    <a href="#"><img src="../images/close_red.png"></a>
+					<form action="../form/regform.php" type="GET">
+						<ul>
+							<li>
+								<input type="name" name="fio" title="Ваше имя" tabindex="0" placeholder=" Ваше имя" required="required">
+							</li>
+							<li>
+								<input type="phone" name="number" tabindex="1" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" placeholder=" 9299563812" title="9299563812" required="required">
+							</li>
+							<li>
+								<input class="submit" type="submit" value="Отправить">
+							</li>
+						</ul>
+					</form>
+				</div>
+				<div class="callMessange">
+				    <a href="#"><img src="../images/close_red.png"></a>
+					<form action="../form/regform.php" type="GET">
+						<ul>
+							<li>
+								<input type="name" name="fio" title="Ваше имя" tabindex="0" placeholder=" Ваше имя" required="required"><br>
+								<input type="phone" name="number" tabindex="1" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" placeholder=" 9299563812" title="9299563812" required="required">
+							</li>
+							<li>Ваш комментарий:</li>
+							<li><textarea name="comment" cols="31" rows="4" tabindex="2"></textarea></li>
+						</ul>
+						<p align="center"><input class="submit" type="submit" value="Отправить"></p>
+					</form>
+				</div>
 			</div>
 		</div>
 		<div id="basic">
@@ -58,6 +81,8 @@
 				<h2>Создание. Разработка. Продвижение.<br><span>Дизайн. (Re:)Дизайн.<br>сайта</span></h2>
 			</div>
 		</div>
+	</header>
+	<div id="allcontent">
 		<div id="workingOut" align="center">
 			<h1>Возможности нашей компании</h1>
 			<div id="visiting">
@@ -393,22 +418,30 @@
 		<div id="vk_allow_messages_from_community"></div>
 		<div>
 			<ul id="bottom">
-				<li><a href="documents/Brif-na-razrabotku-Internet-sajta.doc">Бриф-форма для "Создания сайта"</a></li>
-				<li>office@rabbitweb.ru</li>
-			</ul>
-			<ul id="social">
-				<li><a href="https://www.facebook.com/rabbitweb/"><img src="../images/fb.png" title="Facebook"></a></li>
-				<li><a href="https://vk.com/public147688210"><img src="../images/vk.png" title="Vkontakte"></a></li>
-				<li><a href="http://instagram.com/rabbitweb/"><img src="../images/insta.png" title="Instagram"></a></li>
-				<!--li><a href="#"><img src="../images/goog.png" title="Google+"></a></li-->
-				<li>
-					<img src="../images/skype.png" title="Skype: 929 956-3812">
-					<img src="../images/viber.png" title="Viber: 929 956-3812"> 
-					<img src="../images/tlgm.png" title="Telegram: 929 956-3812"> 
-					<img src="../images/whap.png" title="Whats app: 929 956-3812">
+				<li><a href="#workingOut">Каталог услуг</a>
+					<ul>
+						<li><a href="#workingOut">Разработка сайта</a></li>
+						<li><a href="#">Дизайн сайта</a></li>
+						<li><a href="#">Продвижение сайта</a></li>
+						<li><a href="#">Поддержка сайта</a></li>
+						<li><a href="#">О нас</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
 				</li>
+				<li><a href="#portfolio">Портфолио</a></li>
+				<li><b>+7(499)394-6887</b></li>
+				<li><b>+7(929)956-3812</b></li>
+				<li><b>office@rabbitweb.ru</b></li>
+				<li class=""><img src="../images/flag_russia1.png" alt="ru-RU"> <b>Россия, г. Москва</b></li>
+			   	<li class="social"><a href="http://instagram.com/rabbitweb/"><img src="../images/insta.png" title="Мы в Instagram"></a></li>
+				<li class="social"><a href="https://www.facebook.com/rabbitweb/"><img src="../images/fb.png" title="Мы в Facebook"></a></li>
+				<li class="social"><a href="https://vk.com/public147688210"><img src="../images/vk.png" title="Мы в Вконтакте"></a></li>
+				<li class="social"><a href="#"><img src="../images/goog.png" title="Google+"></a></li>
+				<li class="social"><img src="../images/skype.png" title="Skype: 929 956-3812"></li>
+				<li class="social"><img src="../images/whap.png" title="Whats app: 929 956-3812"></li>
+				<li class="social"><img src="../images/tlgm.png" title="Telegram: 929 956-3812"></li>
 			</ul>
-			<p><i>Права защищены</i></p>
+			<p class="copyright"><i>Права защищены</i></p>
 		</div>
 	</footer>
 	<script>

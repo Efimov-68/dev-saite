@@ -13,7 +13,6 @@
 	
 	html{
 		background: black;
-	
 	}
 	
 	body{
@@ -28,7 +27,7 @@
 		font-family: Comfortaa-Regular;
 	}
 	
-	/*Start BASIC*/
+	/*Start BASIC + header*/
 	#basic{
 		background-image: url(../images/fon-rabbitweb2.png);
 		background-size: auto;
