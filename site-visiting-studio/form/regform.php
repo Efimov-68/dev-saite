@@ -20,14 +20,14 @@
 
 		$to = 'office@rabbitweb.ru';
 		$subject = 'Сообщение с сайта';
-		$msg = "<p>Ф.И.О.: $name\n".
+		$msg = "Ф.И.О.: $name\n".
 			"Телефон: $phone\n".
 			"E-mail: $email\n".
 			"Город: $city\n".
 			"Создать сайт: $services_1\n".
 			"(Re:)Дизайн: $services_2\n".
 			"Продвижение: $services_3\n".
-			"Доп. услуги: $services_4</p>";
+			"Доп. услуги: $services_4";
 		mail($to, $subject, $msg, 'From: ' . $email);
 
 		echo '<div id="seo-basic"> <h1>Спасибо за заполнение формы.</h1>';

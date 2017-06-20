@@ -28,6 +28,95 @@
 	}
 	
 	/*Start BASIC + header*/
+
+	/*------------------------------------*\
+	    НАВИГАЦИЯ
+	\*------------------------------------*/
+	.nav{
+	    float:right;
+	    text-align: left;
+	    list-style:none;
+	    font-weight:bold;
+	    padding: 3px;
+	    margin: 0% auto 0 auto;
+	}
+	
+	.nav li{
+		float: left;
+	    margin-right:10px;
+	    position:relative;
+	    display:block;
+	}
+	
+	.nav li a{
+		font-size: 14px;
+	    display:block;
+	    color:white;
+	    background:rgba(0, 0, 0, 0.0);
+	    text-decoration:none;
+	    text-shadow:0px 0px 1px black; /* Тень текста, чтобы приподнять его на немного */
+	    -moz-border-radius:2px;
+	    -webkit-border-radius:2px;
+	    border-style: solid;
+	    border-width: 0;
+	    border-radius: 0;
+	    padding: 5px;
+	}
+	
+	.nav li a:hover{
+	    color:#99ceff;
+	    text-decoration:underline;
+	}
+	
+	.nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
+	    background:rgba(0,0,0, 0.0); /* Выглядит полупрозрачным */
+	    text-decoration:none;
+	    border-color: none;
+	    border-style: solid;
+	    -moz-transform:scale(.9);
+	    -webkit-transform:scale(.9);
+	}
+	/*Выпадающий список*/
+	.nav ul{
+		list-style:none;
+	    position:absolute;
+	    left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
+	    opacity:0; /* Устанавливаем начальное состояние прозрачности */
+	    -webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
+	}
+	.nav ul li{
+	    padding-top: 0px; /* Вводим отступ между li чтобы создать иллюзию разделенных пунктов меню */
+	    float:none;
+	    background:url(dot.gif);
+	}
+	.nav ul a{
+	    white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
+	    display:block;
+	}
+	.nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+	    left:0; /* Приносим его обратно на экран, когда нужно */
+	    opacity:1; /* Делаем непрозрачным */
+	}
+	.nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
+		font-size: 14px;
+		text-decoration:none;
+	    background:#99ceff;
+	    background:rgba(0, 0, 0, 0.0); /* Выглядит полупрозрачным */
+	    
+	}
+	.nav li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
+	    text-decoration:none;
+	    -webkit-transition:-webkit-transform 0.075s linear;
+	}
+	.nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
+	    background:#99ceff;
+	    background:rgba(0, 0, 0, 0.0); /* Будет полупрозрачным */
+	    text-decoration:underline;
+	    -moz-transform:scale(1);
+	    -webkit-transform:scale(1);
+	}
+	/*Конец верхнего меню*/
+
 	#basic{
 		background-image: url(../images/fon-rabbitweb2.png);
 		background-size: auto;
@@ -271,7 +360,6 @@
 	}
 	
 	#workingOut div{
-		background: rgba(242, 242, 242, .67);
 		width: auto;
 		max-width: 500px;
 		border-radius: 0px;
@@ -315,6 +403,43 @@
 		padding: 10px;
 		-moz-transform:scale(1.03);
 	    -webkit-transform:scale(1.03);
+	}
+
+	#visiting{
+		background-color: #e6f7ff;
+	}
+	#promo{
+		background-color: #ccefff;
+	}
+	#catalog{
+		background-color: #b3e7ff;
+	}
+	#landing{
+		background-color: #99dfff;
+	}
+	#company{
+		background-color: #80d7ff;
+	}
+	#magazyn{
+		background-color: #66cfff;
+	}
+	#CMS{
+		background-color: #4dc6ff;
+	}
+	#designSite{
+		background-color: #33beff;
+	}
+	#browser{
+		background-color: #1ab6ff;
+	}
+	#seo-find{
+		background-color: #00aeff;
+	}
+	#servTech{
+		background-color: #009de6;
+	}
+	#serv-info_2{
+		background-color: #008bcc;
 	}
 	
 	#visiting h2,
@@ -539,7 +664,8 @@
 	}
 	/*EDN workingOut*/
 	
-	/*////////////////////*/
+	/*	Portfolio	*/
+
 	#portfolio{
 		background-size: auto;
 		margin-top: 5%;
@@ -690,8 +816,8 @@
 	/*END admin*/
 
 	/*
-			Design
-						*/
+			Design - page_1
+								*/
 
 	#design{
 		width: auto;
@@ -791,6 +917,288 @@
 		/*
 			END DESIGN
 	        	    	*/
+	/*
+			SEO - page_2
+							*/
+					
+	#seo-basic p{
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		width: auto;
+		max-width: 920px;
+		line-height: 1.2em;
+		color: white;
+		text-align: center;
+	}
+	
+	
+	#seo-basic h1{
+		text-align: center;
+		margin-top: 0;
+		padding: 5% 10px 0 10px;
+		color: white;
+	}
+	
+	#seo-basic h4{
+		text-align: center;
+		padding: 5px 10px 0 10px;
+		color: white;
+	}
+	
+	#seo-basic ul{
+		padding: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+		max-width: 850px;
+		line-height: 1.3em;
+	}
+	
+	#seo-basic li{
+	    list-style-type:none;
+		color: white;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+	
+	#seo-basic h2{
+		color: orange;
+	}
+	
+	#seo-basic .seo-dev{
+		width: auto;
+		margin-left: 2%;
+	}
+	
+	#seo-basic .grafic{
+		width: auto;
+		margin-left: 15%;
+		margin-right: auto;
+	}
+
+	/*	SEO-TABLE	*/
+	
+	#seo-table h1{
+		text-align: center;
+		color: white;
+		padding: 20px 10px 0 10px;
+		border: none;
+	}
+	
+	#seo-table p{
+		text-align: center;
+		color: white;
+		font-size: 14px;
+	}
+	
+	#seo-table a{
+		color: lightblue;
+		font-size: 21px;
+	}
+	
+	#seo-table li{
+		color: white;
+		font-size: 14px;
+	}
+	
+	#seo-table div{
+		background-color: rgba(0, 0, 0, 0.1);
+		color: white;
+		padding: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		border: none;
+		height: auto;
+		width: auto;
+	}
+	
+	.field{
+		margin: 10px;
+	}
+	
+	#seo-table .seo-table{
+		color: white;
+		padding: 5px;
+		margin: 0 auto 0 auto;
+		border-collapse: collapse;
+		box-shadow: 0 0 3px black;
+	}
+	
+	#seo-table .seo-table tr{
+		border: 1px solid white;
+	}
+	
+	#seo-table .seo-table td{
+		border: 1px solid black;
+		padding: 5px;
+	}
+	
+	#seo-table .seo-table h3{
+		color: lightblue;
+	}
+	
+	#seo-table .seo-table b{
+		color: orange;
+		font-size: 16px;
+	}
+	
+	/*
+			SEO fadeBack
+								*/
+	#seo-basic h2{
+		background: url(../_images/open.png) no-repeat 0 11px;
+		padding: 10px 0 0 25px;
+		cursor: pointer;
+		color: lightblue;
+	}
+	
+	#seo-basic img{
+		width: 40px;
+	}
+	
+	#seo-basic h2.close {
+		background-image: url(../_images/close.png);
+	}
+	.answer {
+		margin-left: 25px;
+		font-size: 14px;
+	}
+	/*CLOSE fadeBack SEO*/
+	
+	/*
+	        END SEO
+	                    */
+
+	/*
+			MODULE - page_3
+								*/
+	
+	#module h1{
+		text-align: center;
+		font-size: 1.6em;
+		color: white;
+		margin-top: 10%;
+		padding: 10px 10px 0 10px;
+		text-shadow: 1px 1px 1px grey;
+		border: none;
+	}
+	
+	#module p{
+		text-align: center;
+		color: white;
+		font-size: 14px;
+		text-shadow: none;
+	}
+	
+	#module a{
+		color: lightblue;
+		font-size: 16px;
+		text-shadow: none;
+	}
+	
+	#module li{
+		color: white;
+		text-shadow: 1px 1px 1px grey;
+		font-size: 14px;
+	}
+	
+	#module div{
+		background-color: rgba(0, 0, 0, 0.15);
+		color: white;
+		text-shadow: none;
+		padding: 0px;
+		margin:0 auto 0 auto;
+		border: none;
+		height: auto;
+		width: auto;
+	}
+	
+	#module .basic-table,
+	#module .others-table,
+	#module .magazyn-table,
+	#module .landing-table{
+		color: white;
+		text-shadow: none;
+		padding: 5px;
+		margin: 0 auto 10px auto;
+		border-collapse: collapse;
+		box-shadow: 0 0 3px black;
+	}
+	
+	#module .basic-table tr,
+	#module .others-table tr,
+	#module .magazyn-table tr,
+	#module .landing-table tr{
+		border: 1px solid black;
+	}
+	
+	#module .basic-table td,
+	#module .others-table td,
+	#module .magazyn-table td,
+	#module .landing-table td{
+		border: 1px solid black;
+		padding: 5px;
+	}
+	
+	#module .basic-table h3,
+	#module .others-table h3,
+	#module .magazyn-table h3,
+	#module .landing-table h3{
+		color: lightblue;
+		text-shadow: none;
+	}
+	
+	#module .basic-table b,
+	#module .others-table b,
+	#module .magazyn-table b,
+	#module .landing-table b{
+		color: orange;
+		font-size: 16px;
+	}
+	
+	#module img{
+		width: auto;
+		max-width: 40px;
+	}
+	/*	
+		END MODULE
+					*/
+	/*
+			BACK-UP
+						*/
+	#back .left img{
+		position: fixed;
+		float: left;
+		margin:0 auto 0 auto;
+		left: 0;
+		bottom: 40px;
+		width: auto;
+		max-width: 50px;
+		margin: 10px;
+	}
+	
+	#back .left:hover img{ 
+		-moz-transform:scale(1.10);
+	    -webkit-transform:scale(1.10);
+	}
+	
+	#back .right img{
+		position: fixed;
+		float: right;
+		margin:0 auto 0 auto;
+		right: 0;
+		bottom: 40px;
+		width: auto;
+		max-width: 50px;
+		margin: 10px;
+	}
+	
+	#back .right:hover img{ 
+		-moz-transform:scale(1.10);
+	    -webkit-transform:scale(1.10);
+	}
+	/* END Back-up */
 	
 	footer{
 		background-image: url(../images/fon-rabbitweb2.png);
@@ -938,93 +1346,5 @@
 		border-radius: 12px;
 	}
 	/*END regform*/
-	
-	/*------------------------------------*\
-	    НАВИГАЦИЯ
-	\*------------------------------------*/
-	.nav{
-	    float:right;
-	    text-align: left;
-	    list-style:none;
-	    font-weight:bold;
-	    padding: 3px;
-	    margin: 0% auto 0 auto;
-	}
-	
-	.nav li{
-		float: left;
-	    margin-right:10px;
-	    position:relative;
-	    display:block;
-	}
-	
-	.nav li a{
-		font-size: 14px;
-	    display:block;
-	    color:white;
-	    background:rgba(0, 0, 0, 0.0);
-	    text-decoration:none;
-	    text-shadow:0px 0px 1px black; /* Тень текста, чтобы приподнять его на немного */
-	    -moz-border-radius:2px;
-	    -webkit-border-radius:2px;
-	    border-style: solid;
-	    border-width: 0;
-	    border-radius: 0;
-	    padding: 5px;
-	}
-	
-	.nav li a:hover{
-	    color:#99ceff;
-	    text-decoration:underline;
-	}
-	
-	.nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
-	    background:rgba(0,0,0, 0.0); /* Выглядит полупрозрачным */
-	    text-decoration:none;
-	    border-color: none;
-	    border-style: solid;
-	    -moz-transform:scale(.9);
-	    -webkit-transform:scale(.9);
-	}
-	/*Выпадающий список*/
-	.nav ul{
-		list-style:none;
-	    position:absolute;
-	    left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
-	    opacity:0; /* Устанавливаем начальное состояние прозрачности */
-	    -webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
-	}
-	.nav ul li{
-	    padding-top: 0px; /* Вводим отступ между li чтобы создать иллюзию разделенных пунктов меню */
-	    float:none;
-	    background:url(dot.gif);
-	}
-	.nav ul a{
-	    white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
-	    display:block;
-	}
-	.nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
-	    left:0; /* Приносим его обратно на экран, когда нужно */
-	    opacity:1; /* Делаем непрозрачным */
-	}
-	.nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
-		font-size: 14px;
-		text-decoration:none;
-	    background:#99ceff;
-	    background:rgba(0, 0, 0, 0.0); /* Выглядит полупрозрачным */
-	    
-	}
-	.nav li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
-	    text-decoration:none;
-	    -webkit-transition:-webkit-transform 0.075s linear;
-	}
-	.nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
-	    background:#99ceff;
-	    background:rgba(0, 0, 0, 0.0); /* Будет полупрозрачным */
-	    text-decoration:underline;
-	    -moz-transform:scale(1);
-	    -webkit-transform:scale(1);
-	}
-	/*Конец верхнего меню*/
 
 }
