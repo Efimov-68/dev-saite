@@ -687,43 +687,110 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	
-	/*//////////////////////////*/
-	#des-info_1 div{
+	/*END admin*/
+
+	/*
+			Design
+						*/
+
+	#design{
+		width: auto;
+		max-width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#design-info-block p{
+		font-style: italic;
+	}
+
+	#design-info-block div#design-block-tuning{
 		background-color: #990000;
 		box-shadow: 4px 5px 3px black;
-		margin-top: 5%;
+		padding: 20px;
+	}
+
+	#design-block-tuning h1{
+		text-align: left;
+		margin-top: -16%;
 	}
 	
-	#des-info_1 h1{
-		margin-top: -15%
-	}
-	
-	#des-info_1 p{
+	#design-block-tuning p{
 		text-align: left;
 		font-style: italic;
 		color: #e6e6e6;
 	}
 	
-	#des-info_1 li{
+	#design-block-tuning li{
 		text-align: left;
 		line-height: 1.6em;
 		color: #e6e6e6;
 	}
 	
-	#des-info_1 img{
+	#design-block-tuning img{
 		float: left;
 	}
 	
-	#des-info_1 ul.check img{
-		width: 20px;
+	#design-block-tuning ul.check img{
+		width: 15px;
 		padding-right: 5px; 
 	}
+
+	#design-block-tuning a{
+		text-decoration: none;
+		color: orange;
+	}
 	
-	#des-info_1 li.strelka img{
+	#design-block-tuning li.strelka img{
 		width: 50px;
 	}
-	/*END DESIGN*/
+
+	/*
+		Design-List-Services
+							*/
+	#design-list-services{
+		margin: 0 auto 0 auto;
+		border: none;
+	}
+	
+	#design-list-services h3{
+		text-align: left;
+		font-size: 1.6em;
+		color: white;
+	}
+	
+	#design-list-services div{
+		background-color: rgba(0, 0, 0, 0.0);
+		color: white;
+		font-size: 12px;
+		line-height: 1.2em;
+		width: auto;
+		max-width: 900px;
+		padding: 10px;
+		margin-top: 0%;
+		margin-left: auto;
+		margin-right: auto;
+		border: none;
+	}
+	
+	#design-list-services p,
+	#design-list-services li{
+	    list-style-type:none;
+		color: white;
+		font-size: 1.2em; 
+		line-height: 1.2em;
+	}
+	
+	#design-list-services img{
+		float: left;
+		width: auto;
+		max-width: 300px;
+		padding: 20px;
+	}
+	/*End Design-list-services*/
+		/*
+			END DESIGN
+	        	    	*/
 	
 	footer{
 		background-image: url(../images/fon-rabbitweb2.png);
