@@ -91,7 +91,7 @@
 		padding-right: 7px;
 	}
 	
-	.phone p{
+	.phone{
 	    text-align:right;
 	    font-size:21px;
 	    padding:10px;
@@ -127,7 +127,7 @@
 	    -webkit-transform:scale(1.2);
 	}
 	
-	#social{
+	.social{
 		float: right;
 		list-style-type: none;
 		font-family: cursive;
@@ -137,14 +137,14 @@
 		bottom: 0;
 	}
 	
-	#social li{
+	li.social{
 		float: right;
 		padding: 0 5px 0 0;
 		color: lightgrey;
 		text-shadow: 1px 1px 1px black;
 	}
 	
-	#social li img{
+	li.social img{
 		height: auto;
 		width: 30px;
 	}
@@ -175,17 +175,17 @@
 	}
 	
 	/*START CALLBACK*/
-	.callBack div{
+	.callBack div.callPhone,
+	.callBack div.callMessange{
 		display: none;
 		position: fixed;
 		top: 49.5%;
 		left: 0%;
-		background: rgba(242, 242, 242, 0.2);
+		background: rgba(242, 242, 242, 0.67);
 		padding: 0;
 		width: 310px;
 		height: auto;
 		border-radius: 5px 10px 5px 5px;
-		box-shadow: 0 0 5px black;
 	}
 	
 	.callBack h2{
@@ -211,7 +211,6 @@
 		width: 180px;
 		height: 28px;
 		margin-left: 50px;
-		box-shadow: 0px 0px 0px black;
 	}
 
 	.callMessange input{
@@ -238,13 +237,16 @@
 		text-shadow: 1px 1px 1px black;
 	}
 	
-	.callBack img{
+	.callPhone img,
+	.callMessange img{
+		float: right;
 		width: 21px;
 		height: auto;
 		margin: -1px 0 0 0;
 	}
 	
-	.callBack img:hover{
+	.callPhone img:hover,
+	.callMessange img:hover{
 		width: 21px;
 		height: auto;
 		margin: -1px 0 0 0;
@@ -740,11 +742,27 @@
 		background-color: rgba(0,0,0, 0.65);
 	}
 	
-	footer p{
+	footer p.copyright{
 		color: white;
 		padding: 5px;
+		bottom: 0;
 	}
 	
+	#bottom{
+		list-style-type: none;
+		padding-top: 0px;
+		margin: 0 auto 0 auto;
+	}
+	
+	#bottom li,
+	#bottom a{
+		color: white;
+		font-size: 12px;
+		line-height:2.0em;
+		text-shadow: none;
+	}
+	
+	/*REGFORM*/
 	#regform{
 		width: auto;
 		max-width: 1600px;
@@ -852,20 +870,7 @@
 		border: none;
 		border-radius: 12px;
 	}
-	
-	#bottom{
-		list-style-type: none;
-		padding-top: 0px;
-		margin: 0 auto 0 auto;
-	}
-	
-	#bottom li, #bottom a{
-		color: white;
-		text-shadow: 1px 1px 1px grey;
-		font-size: 12px;
-		font-style: bold;
-		line-height:2.0em;
-	}
+	/*END regform*/
 	
 	/*------------------------------------*\
 	    НАВИГАЦИЯ
