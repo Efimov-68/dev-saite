@@ -644,7 +644,7 @@
 	#portfolio{
 		background-size: auto;
 		margin-top: 5%;
-		margin-bottom: 10%;
+		margin-bottom: 0;
 		margin-left: auto;
 		margin-right: auto;
 		padding: 0px;
@@ -805,6 +805,15 @@
 		font-style: italic;
 	}
 
+	#design-info-block li{
+		list-style: none;
+	}
+
+	#design-info-block ul.check img{
+		width: auto;
+		max-width: 15px;
+	}
+
 	#design-info-block div#design-block-tuning{
 		background-color: #990000;
 		box-shadow: 4px 5px 3px black;
@@ -837,30 +846,29 @@
 		padding-right: 5px; 
 	}
 
-	#design-block-tuning a{
-		text-decoration: none;
+	#design-block-tuning p.strelka{
 		color: orange;
 	}
 	
-	#design-block-tuning li.strelka img{
-		width: 50px;
+	#design-block-tuning p.strelka img{
+		width: 35px;
 	}
 
 	/*
 		Design-List-Services
 							*/
-	#design-list-services{
+	#design-list-tuning{
 		margin: 0 auto 0 auto;
 		border: none;
 	}
 	
-	#design-list-services h3{
+	#design-list-tuning h3{
 		text-align: left;
 		font-size: 1.6em;
 		color: white;
 	}
 	
-	#design-list-services div{
+	#design-list-tuning div{
 		background-color: rgba(0, 0, 0, 0.0);
 		color: white;
 		font-size: 12px;
@@ -874,21 +882,32 @@
 		border: none;
 	}
 	
-	#design-list-services p,
-	#design-list-services li{
+	#design-list-tuning p,
+	#design-list-tuning li{
 	    list-style-type:none;
 		color: white;
 		font-size: 1.2em; 
 		line-height: 1.2em;
 	}
 	
-	#design-list-services img{
+	#design-list-tuning img{
 		float: left;
 		width: auto;
 		max-width: 300px;
 		padding: 20px;
 	}
 	/*End Design-list-services*/
+
+	#design-block-all h2{
+		text-align: left;
+	}
+
+	#design-block-all li{
+		list-style: none;
+		text-decoration: none;
+		text-shadow: none;
+		color: white;
+	}
 		/*
 			END DESIGN
 	        	    	*/

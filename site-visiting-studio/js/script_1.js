@@ -15,6 +15,7 @@ $(document).ready(function(){
   $('#servTech div').hide();
   $('#serv-info_2 div').hide();
   $('#designSite div').hide();
+  $('#design-list-tuning').hide();
   //END all.hide()
 
 	$('#basic').show(function(){
@@ -170,5 +171,13 @@ $(document).ready(function(){
       $(this).removeClass('close');
     }
   });//END Catalog site
+  $('#design-block-tuning p.strelka').click(function(){
+   var $designListTuning = $(this).next('#design-list-tuning');
+    if ($designListTuning.is(':hidden')) {
+      $designListTuning.slideDown(300);
+    }else{
+      $designListTuning.slideUp(300);
+    }
+  });//END DESIGN
 
 });//END READY
