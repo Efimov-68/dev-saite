@@ -115,6 +115,11 @@
 	    -moz-transform:scale(1);
 	    -webkit-transform:scale(1);
 	}
+	
+	/* IMG */
+	.nav img{
+		width: 25px;
+	}
 	/*Конец верхнего меню*/
 
 	#basic{
@@ -166,11 +171,7 @@
 		margin-left: 6px;
 		width: 120px;
 		float: left;
-	}
-	
-	.nav img{
-		width: 25px;
-	}
+	}	
 	
 	table{
 		padding: 10px;
@@ -179,6 +180,7 @@
 		padding-right: 7px;
 	}
 	
+	/*	CONTACTS */
 	.phone{
 	    text-align:right;
 	    font-size:21px;
@@ -236,7 +238,8 @@
 		height: auto;
 		width: 30px;
 	}
-	
+	/*	END CONTACTS */
+
 	h1{
 		color: white;
 		text-align: left;
@@ -637,10 +640,10 @@
 	#designSite h2.close{
 		background-image: url(../images/close.png);
 	}
-	/*EDN workingOut*/
+
+	/*	EDN workingOut */
 	
 	/*	Portfolio	*/
-
 	#portfolio{
 		background-size: auto;
 		margin-top: 5%;
@@ -701,9 +704,11 @@
 		-moz-transform:scale(1.05);
 	    -webkit-transform:scale(1.05);
 	}
-	/*//////////////////////////////*/
+
+	/*	END Portfolio */
 	
-	/*Блок центр*/
+	/*	COMMON
+		SERVICES	*/
 	#common{
 		background-image: url(../images/website-order-icon.png);
 		background-repeat: no-repeat;
@@ -758,9 +763,12 @@
 		margin-top: 17%;
 		padding: 5px;
 	}
-	/*Конец Блок центр*/
+
+	/*	END Services */
 	
-	/*ADMIN start*/
+	/*start ADMINISTRATION*/
+
+	/*	ADMIN start */
 	#admin{
 		width: auto;
 		max-width: 1300px;
@@ -790,10 +798,11 @@
 	}
 	/*END admin*/
 
-	/*
-			Design - page_1
-								*/
+	/*	END ADMINISTRATION	*/
 
+	/*	start DESIGN	*/
+
+	/*	Design - page_1 */
 	#design{
 		width: auto;
 		max-width: 1200px;
@@ -854,9 +863,7 @@
 		width: 35px;
 	}
 
-	/*
-		Design-List-Services
-							*/
+	/*	Design-List-Services */
 	#design-list-tuning{
 		margin: 0 auto 0 auto;
 		border: none;
@@ -896,7 +903,8 @@
 		max-width: 300px;
 		padding: 20px;
 	}
-	/*End Design-list-services*/
+
+	/*	End Design-list-services */
 
 	#design-block-all h2{
 		text-align: left;
@@ -908,13 +916,10 @@
 		text-shadow: none;
 		color: white;
 	}
-		/*
-			END DESIGN
-	        	    	*/
-	/*
-			SEO - page_2
-							*/
 
+	/*	END DESIGN	*/
+
+	/*	SEO - page_2	*/
 	#seo{
 		width: auto;
 		max-width: 1100px;
@@ -982,7 +987,6 @@
 	}
 
 	/*	SEO-TABLE	*/
-	
 	#seo-table h1{
 		text-align: center;
 		color: white;
@@ -1047,9 +1051,7 @@
 		font-size: 16px;
 	}
 	
-	/*
-			SEO fadeBack
-								*/
+	/*	SEO fadeBack	*/
 	#seo-basic h2{
 		background: url(../_images/open.png) no-repeat 0 11px;
 		padding: 10px 0 0 25px;
@@ -1070,14 +1072,9 @@
 	}
 	/*CLOSE fadeBack SEO*/
 	
-	/*
-	        END SEO
-	                    */
+	/*	END SEO */
 
-	/*
-			MODULE - page_3
-								*/
-	
+	/*	MODULE - page_3 */
 	#module h1{
 		text-align: center;
 		font-size: 1.6em;
@@ -1165,12 +1162,10 @@
 		width: auto;
 		max-width: 40px;
 	}
-	/*	
-		END MODULE
-					*/
-	/*
-			BACK-UP
-						*/
+
+	/*	END MODULE */
+
+	/*	BACK-UP */
 	#back .left img{
 		position: fixed;
 		float: left;
@@ -1241,7 +1236,7 @@
 		text-decoration: none;
 	}
 	
-	/*REGFORM*/
+	/*	REGFORM */
 	#regform{
 		width: auto;
 		max-width: 1600px;
@@ -1349,6 +1344,7 @@
 		border: none;
 		border-radius: 12px;
 	}
-	/*END regform*/
+
+	/*	END regform */
 
 }
