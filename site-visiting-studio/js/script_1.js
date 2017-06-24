@@ -172,23 +172,23 @@ $(document).ready(function(){
       $(this).removeClass('close');
     }
   });
-  $('#design-tuning-small h2').click(function(){
-    var $designTuningSmall = $(this).next('#design-tuning-small div');
-    if ($designTuningSmall.is(':hidden')) {
-      $designTuningSmall.slideDown(300);
-      $(this).addClass('close');
-    }else{
-      $designTuningSmall.slideUp(300);
-      $(this).removeClass('close');
-    }
-  });//END Catalog site
-  $('#design-block-tuning p.strelka').click(function(){
-   var $designListTuning = $(this).next('#design-list-tuning');
-    if ($designListTuning.is(':hidden')) {
-      $designListTuning.slideDown(300);
-    }else{
-      $designListTuning.slideUp(300);
-    }
-  });//END DESIGN
+//  $('#design-tuning-small h2').click(function(){
+//    var $designTuningSmall = $(this).next('#design-tuning-small div');
+//    if ($designTuningSmall.is(':hidden')) {
+//      $designTuningSmall.slideDown(300);
+//      $(this).addClass('close');
+//    }else{
+//      $designTuningSmall.slideUp(300);
+//      $(this).removeClass('close');
+//    }
+//  });//END Catalog site
+//  $('#design-block-tuning p.strelka').click(function(){
+//   var $designListTuning = $(this).next('#design-list-tuning');
+//    if ($designListTuning.is(':hidden')) {
+//      $designListTuning.slideDown(300);
+//    }else{
+//      $designListTuning.slideUp(300);
+//    }
+//  });//END DESIGN TUNING
 
 });//END READY
