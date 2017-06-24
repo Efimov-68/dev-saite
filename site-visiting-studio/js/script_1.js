@@ -15,6 +15,7 @@ $(document).ready(function(){
   $('#servTech div').hide();
   $('#serv-info_2 div').hide();
   $('#designSite div').hide();
+  $('#design-tuning-small div').hide();
   $('#design-list-tuning').hide();
   //END all.hide()
 
@@ -168,6 +169,16 @@ $(document).ready(function(){
       $(this).addClass('close');
     }else{
       $catalog.slideUp(300);
+      $(this).removeClass('close');
+    }
+  });
+  $('#design-tuning-small h2').click(function(){
+    var $designTuningSmall = $(this).next('#design-tuning-small div');
+    if ($designTuningSmall.is(':hidden')) {
+      $designTuningSmall.slideDown(300);
+      $(this).addClass('close');
+    }else{
+      $designTuningSmall.slideUp(300);
       $(this).removeClass('close');
     }
   });//END Catalog site

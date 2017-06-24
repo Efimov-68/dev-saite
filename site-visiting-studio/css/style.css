@@ -384,7 +384,8 @@
 	#seo-find,
 	#servTech,
 	#serv-info_2,
-	#designSite{
+	#designSite,
+	#design-tuning-small{
 		border: none;
 		padding: 10px;
 	}
@@ -400,7 +401,8 @@
 	#seo-find:hover,
 	#servTech:hover,
 	#serv-info_2:hover,
-	#designSite:hover{
+	#designSite:hover,
+	#design-tuning-small:hover{
 		border: none;
 		box-shadow: 0 0 5px black;
 		padding: 10px;
@@ -420,6 +422,7 @@
 	#seo-find{background-color: #00aeff;}
 	#servTech{background-color: #009de6;}
 	#serv-info_2{background-color: #008bcc;}
+	#design-tuning-small{background-color: #990000;}
 	
 	#visiting h2,
 	#promo h2,
@@ -432,7 +435,8 @@
 	#seo-find h3,
 	#servTech h3,
 	#serv-info_2 h2,
-	#designSite h2{
+	#designSite h2,
+	#design-tuning-small h2{
 		background: url(../images/open.png) no-repeat;
 		width: auto;
 		padding: 0 5px -10px 25px;
@@ -469,7 +473,8 @@
 	#seo-find div,
 	#servTech div,
 	#serv-info_2 div,
-	#designSite div{
+	#designSite div,
+	#design-tuning-small div{
 		display: none;
 	}
 	
@@ -478,9 +483,17 @@
 	#catalog p,
 	#landing p,
 	#company p,
-	#magazyn p{
+	#magazyn p,
+	#CMS p,
+	#browser p,
+	#seo-find p,
+	#servTech p,
+	#serv-info_2 p,
+	#designSite p,
+	#design-tuning-small p{
 		color: black;
 		font-size: 12px;
+		line-height: 1.2em;
 		text-align: left;
 	}
 	
@@ -495,7 +508,8 @@
 	#seo-find div,
 	#servTech div,
 	#serv-info_2 div,
-	#designSite div{
+	#designSite div,
+	#design-tuning-small div{
 		background-color: white;
 		text-align: left;
 		font-size: 12px;
@@ -523,7 +537,8 @@
 	#catalog div a,
 	#landing div a,
 	#company div a,
-	#magazyn div a{
+	#magazyn div a,
+	#design-tuning-small div a{
 		color: grey;
 	}
 	
@@ -581,7 +596,8 @@
 	#catalog img,
 	#landing img,
 	#company img,
-	#magazyn img{
+	#magazyn img,
+	#design-tuning-small img{
 		width: 15px;
 	}
 	
@@ -596,18 +612,6 @@
 		text-shadow: none;
 	}
 	
-	#CMS p,
-	#browser p,
-	#seo-find p,
-	#servTech p,
-	#serv-info_2 p,
-	#designSite p{
-		text-align: left;
-		font-size: 12px;
-		line-height: 1.2em;
-		color: black;
-	}
-	
 	.blockLeft ul.check li img,
 	.blockRight ul.check li img{
 		width: 12px;
@@ -618,7 +622,8 @@
 	#seo-find li,
 	#servTech li,
 	#serv-info_2 li,
-	#designSite li{
+	#designSite li,
+	#design-tuning-small li{
 		list-style: none;
 		text-align: left;
 		font-size: 12px;
@@ -637,7 +642,8 @@
 	#seo-find h3.close,
 	#servTech h3.close,
 	#serv-info_2 h2.close,
-	#designSite h2.close{
+	#designSite h2.close,
+	#design-tuning-small h2.close{
 		background-image: url(../images/close.png);
 	}
 
