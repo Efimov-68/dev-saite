@@ -385,7 +385,8 @@
 	#servTech,
 	#serv-info_2,
 	#designSite,
-	#design-tuning-small{
+	#design-upgrade-small,
+	#logoSiteInfo{
 		border: none;
 		padding: 10px;
 	}
@@ -402,7 +403,8 @@
 	#servTech:hover,
 	#serv-info_2:hover,
 	#designSite:hover,
-	#design-tuning-small:hover{
+	#design-upgrade-small:hover,
+	#logoSiteInfo:hover{
 		border: none;
 		box-shadow: 0 0 5px black;
 		padding: 10px;
@@ -419,11 +421,12 @@
 	#CMS{background-color: #4dc6ff;}
 	#designSite{background-color: #33beff;}
 	#browser{background-color: #1ab6ff;}
-	#seo-find{background-color: #00aeff;}
-	#servTech{background-color: #009de6;}
-	#serv-info_2{background-color: #008bcc;}
-	#design-tuning-small{background-color: #990000;}
-	
+	#design-upgrade-small{background-color: #990000;}
+	#logoSiteInfo{background-color: #00aeff;}
+	#seo-find{background-color: #009de6;}
+	#servTech{background-color: #008bcc;}
+	#serv-info_2{background-color: #007ab3;}
+
 	#visiting h2,
 	#promo h2,
 	#catalog h2,
@@ -436,7 +439,8 @@
 	#servTech h3,
 	#serv-info_2 h2,
 	#designSite h2,
-	#design-tuning-small h2{
+	#design-upgrade-small h2,
+	#logoSiteInfo h3{
 		background: url(../images/open.png) no-repeat;
 		width: auto;
 		padding: 0 5px -10px 25px;
@@ -474,7 +478,8 @@
 	#servTech div,
 	#serv-info_2 div,
 	#designSite div,
-	#design-tuning-small div{
+	#design-upgrade-small div,
+	#logoSiteInfo div{
 		display: none;
 	}
 	
@@ -490,7 +495,8 @@
 	#servTech p,
 	#serv-info_2 p,
 	#designSite p,
-	#design-tuning-small p{
+	#design-upgrade-small p,
+	#logoSiteInfo p{
 		color: black;
 		font-size: 12px;
 		line-height: 1.2em;
@@ -509,7 +515,8 @@
 	#servTech div,
 	#serv-info_2 div,
 	#designSite div,
-	#design-tuning-small div{
+	#design-upgrade-small div,
+	#logoSiteInfo div{
 		background-color: white;
 		text-align: left;
 		font-size: 12px;
@@ -538,7 +545,8 @@
 	#landing div a,
 	#company div a,
 	#magazyn div a,
-	#design-tuning-small div a{
+	#design-upgrade-small div a,
+	#logoSiteInfo div a{
 		color: grey;
 	}
 	
@@ -552,7 +560,7 @@
 		color: black;
 		border: 2px solid black;
 		border-radius: 12px;
-		padding: 3px;
+		padding: 5px;
 	}
 	
 	#visiting div p input:hover,
@@ -565,7 +573,7 @@
 		color: grey;
 		border: 2px solid grey;
 		border-radius: 12px;
-		padding: 3px;
+		padding: 5px;
 		-moz-transform:scale(.97);
 	    -webkit-transform:scale(.97);
 	}
@@ -597,8 +605,9 @@
 	#landing img,
 	#company img,
 	#magazyn img,
-	#design-tuning-small img{
-		width: 15px;
+	#design-upgrade-small img,
+	#logoSiteInfo img{
+		width: 12px;
 	}
 	
 	#visiting b,
@@ -623,7 +632,7 @@
 	#servTech li,
 	#serv-info_2 li,
 	#designSite li,
-	#design-tuning-small li{
+	#design-upgrade-small li{
 		list-style: none;
 		text-align: left;
 		font-size: 12px;
@@ -643,7 +652,8 @@
 	#servTech h3.close,
 	#serv-info_2 h2.close,
 	#designSite h2.close,
-	#design-tuning-small h2.close{
+	#design-upgrade-small h2.close,
+	#logoSiteInfo h3.close{
 		background-image: url(../images/close.png);
 	}
 
@@ -824,59 +834,59 @@
 		max-width: 15px;
 	}
 
-	#design-info-block div#design-block-tuning{
+	#design-info-block div#design-block-upgrade{
 		background-color: #990000;
 		box-shadow: 4px 5px 3px black;
 		padding: 20px;
 	}
 
-	#design-block-tuning h1{
+	#design-block-upgrade h1{
 		text-align: left;
 		margin-top: -16%;
 	}
 	
-	#design-block-tuning p{
+	#design-block-upgrade p{
 		text-align: left;
 		font-style: italic;
 		color: #e6e6e6;
 	}
 	
-	#design-block-tuning li{
+	#design-block-upgrade li{
 		text-align: left;
 		line-height: 1.6em;
 		color: #e6e6e6;
 	}
 	
-	#design-block-tuning img{
+	#design-block-upgrade img{
 		float: left;
 	}
 	
-	#design-block-tuning ul.check img{
+	#design-block-upgrade ul.check img{
 		width: 15px;
 		padding-right: 5px; 
 	}
 
-	#design-block-tuning p.strelka{
+	#design-block-upgrade p.strelka{
 		color: orange;
 	}
 	
-	#design-block-tuning p.strelka img{
+	#design-block-upgrade p.strelka img{
 		width: 35px;
 	}
 
 	/*	Design-List-Services */
-	#design-list-tuning{
+	#design-list-upgrade{
 		margin: 0 auto 0 auto;
 		border: none;
 	}
 	
-	#design-list-tuning h3{
+	#design-list-upgrade h3{
 		text-align: left;
 		font-size: 1.6em;
 		color: white;
 	}
 	
-	#design-list-tuning div{
+	#design-list-upgrade div{
 		background-color: rgba(0, 0, 0, 0.0);
 		color: white;
 		font-size: 12px;
@@ -890,15 +900,15 @@
 		border: none;
 	}
 	
-	#design-list-tuning p,
-	#design-list-tuning li{
+	#design-list-upgrade p,
+	#design-list-upgrade li{
 	    list-style-type:none;
 		color: white;
 		font-size: 1.2em; 
 		line-height: 1.2em;
 	}
 	
-	#design-list-tuning img{
+	#design-list-upgrade img{
 		float: left;
 		width: auto;
 		max-width: 300px;
@@ -920,11 +930,9 @@
 
 	#model,
 	#individual,
-	#upgrade-re_design,
-	#dev_logo,
-	#flash-element{
-
-	}
+	#upgradeRedesign,
+	#dev_logo{}
+	#flash-element{display: none;}
 
 	#individual table{
 		background-color: #262626;
@@ -941,7 +949,8 @@
 		padding: 5px;
 	}
 
-	#milestones{
+	#individual-milestones,
+	#dev_logo-milestones{
 		background-color: #262626;
 		height: auto;
 		width: 900px;

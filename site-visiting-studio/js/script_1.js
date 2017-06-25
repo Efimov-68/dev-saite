@@ -15,8 +15,9 @@ $(document).ready(function(){
   $('#servTech div').hide();
   $('#serv-info_2 div').hide();
   $('#designSite div').hide();
-  $('#design-tuning-small div').hide();
-  $('#design-list-tuning').hide();
+  $('#design-upgrade-small div').hide();
+  $('#logoSiteInfo div').hide();
+  $('#design-list-upgrade').hide();
   //END all.hide()
 
 	$('#basic').show(function(){
@@ -172,23 +173,33 @@ $(document).ready(function(){
       $(this).removeClass('close');
     }
   });
-//  $('#design-tuning-small h2').click(function(){
-//    var $designTuningSmall = $(this).next('#design-tuning-small div');
-//    if ($designTuningSmall.is(':hidden')) {
-//      $designTuningSmall.slideDown(300);
-//      $(this).addClass('close');
-//    }else{
-//      $designTuningSmall.slideUp(300);
-//      $(this).removeClass('close');
-//    }
-//  });//END Catalog site
-//  $('#design-block-tuning p.strelka').click(function(){
-//   var $designListTuning = $(this).next('#design-list-tuning');
-//    if ($designListTuning.is(':hidden')) {
-//      $designListTuning.slideDown(300);
-//    }else{
-//      $designListTuning.slideUp(300);
-//    }
-//  });//END DESIGN TUNING
+  $('#design-upgrade-small h2').click(function(){
+    var $designUpgradeSmall = $(this).next('#design-upgrade-small div');
+    if ($designUpgradeSmall.is(':hidden')) {
+      $designUpgradeSmall.slideDown(300);
+      $(this).addClass('close');
+    }else{
+      $designUpgradeSmall.slideUp(300);
+      $(this).removeClass('close');
+    }
+  });
+  $('#logoSiteInfo h3').click(function(){
+   var $logoSiteInfo = $(this).next('#logoSiteInfo div');
+    if ($logoSiteInfo.is(':hidden')) {
+      $logoSiteInfo.slideDown(300);
+      $(this).addClass('close');
+    }else{
+      $logoSiteInfo.slideUp(300);
+      $(this).removeClass('close');
+    }
+  });//END Catalog site
+  $('#design-block-upgrade p.strelka').click(function(){
+   var $designListUpgrade = $(this).next('#design-list-upgrade');
+    if ($designListUpgrade.is(':hidden')) {
+      $designListUpgrade.slideDown(300);
+    }else{
+      $designListUpgrade.slideUp(300);
+    }
+  });//END DESIGN TUNING
 
 });//END READY
