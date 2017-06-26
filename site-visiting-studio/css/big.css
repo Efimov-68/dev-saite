@@ -837,10 +837,6 @@
 		margin-right: auto;
 	}
 
-	#design-info-block p{
-		font-style: italic;
-	}
-
 	#design-info-block li{
 		list-style: none;
 	}
@@ -879,10 +875,20 @@
 	
 	#design-info-block img.designImageStyle,
 	#design-block-all img.designImageStyle,
-	#individual img.designImageStyle{
+	#individual img.designImageStyle,
+	#upgradeRedesign img.designImageStyle{
 		float: left;
 		width: auto;
 		max-width: 180px;
+		padding: 10px;
+	}
+
+	#individual-milestones img.designImageStyle{
+		height: auto;
+		width: auto;
+		max-width: 550px;
+		margin: 0 auto 0 auto;
+		padding: 10px;
 	}
 	
 	#design-block-upgrade ul.check img{
