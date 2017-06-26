@@ -785,6 +785,7 @@
 	/*start ADMINISTRATION*/
 
 	/*	ADMIN start */
+	#administration,
 	#admin{
 		width: auto;
 		max-width: 1300px;
@@ -793,6 +794,7 @@
 		margin-right: auto;
 	}
 	
+	#administration li,
 	#admin li{
 		color: white;
 		font-size: 14px;
@@ -800,10 +802,12 @@
 		list-style: none;
 	}
 	
+	#administration p,
 	#admin p{
 		font-size: 14px;
 	}
 	
+	#administration img,
 	#admin img{
 		float: left;
 		height: auto;
@@ -1319,7 +1323,6 @@
 	
 	#regform h1{
 		text-align: center;
-		color: orange;
 		text-shadow: none;
 	}
 	
@@ -1417,7 +1420,6 @@
 		border: none;
 		border-radius: 12px;
 	}
-
 	/*	END regform */
 
 }
