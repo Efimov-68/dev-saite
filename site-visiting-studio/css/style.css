@@ -1214,6 +1214,22 @@
 	/*	END MODULE */
 
 	/*	BACK-UP */
+	p.topButton img{
+		position: fixed;
+		margin:0 auto 0 auto;
+		top: 0;
+		right: 0;
+		bottom: 40px;
+		width: auto;
+		max-width: 25px;
+		margin: 10px;
+	}
+
+	p.topButton:hover img{ 
+		-moz-transform:scale(2);
+	    -webkit-transform:scale(2);
+	}
+
 	#back .left img{
 		position: fixed;
 		float: left;
