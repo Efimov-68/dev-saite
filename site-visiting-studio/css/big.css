@@ -820,6 +820,8 @@
 	}
 	
 	#administration img,
+	#admin-block img.imageStyle,
+	#admin-block-techservice img.imageStyle,
 	#admin img{
 		float: left;
 		height: auto;
@@ -828,7 +830,26 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	/*END admin*/
+
+	#admin-block-techservice{
+		box-shadow: 9px 8px 5px black;
+		width: auto;
+		max-width: 950px;
+		padding: 10px;
+	}
+
+	#copyrighting-reratingh{
+		box-shadow: -9px 8px 5px black;
+		width: auto;
+		max-width: 950px;
+		padding: 10px;
+	}
+
+	#copyrighting-reratingh img.imageStyle{
+		height: auto;
+		max-height: 150px;
+		padding: 10px;
+	}
 
 	/*	END ADMINISTRATION	*/
 
@@ -877,17 +898,17 @@
 		float: left;
 	}
 	
-	#design-info-block img.designImageStyle,
-	#design-block-all img.designImageStyle,
-	#individual img.designImageStyle,
-	#upgradeRedesign img.designImageStyle{
+	#design-info-block img.imageStyle,
+	#design-block-all img.imageStyle,
+	#individual img.imageStyle,
+	#upgradeRedesign img.imageStyle{
 		float: left;
 		width: auto;
 		max-width: 180px;
 		padding: 10px;
 	}
 
-	#individual-milestones img.designImageStyle{
+	#individual-milestones img.imageStyle{
 		height: auto;
 		width: auto;
 		max-width: 550px;
