@@ -844,7 +844,7 @@
 		text-align: left;
 		margin-top: -16%;
 	}
-	
+
 	#design-block-upgrade p{
 		text-align: left;
 		font-style: italic;
@@ -856,9 +856,17 @@
 		line-height: 1.6em;
 		color: #e6e6e6;
 	}
-	
+
 	#design-block-upgrade img{
 		float: left;
+	}
+	
+	#design-info-block img.designImageStyle,
+	#design-block-all img.designImageStyle,
+	#individual img.designImageStyle{
+		float: left;
+		width: auto;
+		max-width: 180px;
 	}
 	
 	#design-block-upgrade ul.check img{
