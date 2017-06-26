@@ -968,22 +968,13 @@
 	}
 
 	#individual-milestones,
+	.outline,
 	#dev_logo-milestones{
 		background-color: #262626;
 		height: auto;
 		width: auto;
-		max-width: 900px;
+		max-width: 1150px;
 		padding: 10px;
-		margin: 0 0 0 auto;
-		box-shadow: -9px 10px 5px black;
-	}
-
-	.outline{
-		background-color: #262626;
-		height: auto;
-		width: auto;
-		max-width: 900px;
-		padding: 20px;
 		margin: 0 0 0 auto;
 		box-shadow: -9px 10px 5px black;
 	}

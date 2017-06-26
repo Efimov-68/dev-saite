@@ -951,12 +951,6 @@
 		text-shadow: none;
 		color: white;
 	}
-		/*
-			END DESIGN
-	        	    	*/
-	/*
-			SEO - page_2
-							*/
 
 	#model,
 	#individual,
@@ -967,6 +961,7 @@
 	#individual-table{
 		background-color: #262626;
 		margin: 0 auto 0 0;
+		padding: 10px;
 		box-shadow: 8px 7px 5px black;
 	}
 
@@ -979,22 +974,13 @@
 	}
 
 	#individual-milestones,
+	.outline,
 	#dev_logo-milestones{
 		background-color: #262626;
 		height: auto;
 		width: auto;
-		max-width: 500px;
+		max-width: 1150px;
 		padding: 10px;
-		margin: 0 0 0 auto;
-		box-shadow: -9px 10px 5px black;
-	}
-
-	.outline{
-		background-color: #262626;
-		height: auto;
-		width: auto;
-		max-width: 900px;
-		padding: 20px;
 		margin: 0 0 0 auto;
 		box-shadow: -9px 10px 5px black;
 	}
