@@ -1014,10 +1014,17 @@
 		margin-right: auto;
 	}
 
-	#seo img.seoImage{
+	#seo p img.seoImage{
 		float: left;
 		width: auto;
+		max-width: 450px;
 		padding: 20px;
+	}
+
+	#seo li{
+		list-style: none;
+		color: white;
+		text-shadow: none;
 	}
 					
 	#seo-basic p{
@@ -1026,8 +1033,7 @@
 		padding: 0px;
 		line-height: 1.2em;
 		color: white;
-	}
-	
+	}	
 	
 	#seo-basic h1{
 		text-align: center;

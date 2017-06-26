@@ -1029,7 +1029,14 @@
 	#seo img.seoImage{
 		float: left;
 		width: auto;
+		max-width: 450px;
 		padding: 20px;
+	}
+
+	#seo li{
+		list-style: none;
+		color: white;
+		text-shadow: none;
 	}
 					
 	#seo-basic p{
