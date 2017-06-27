@@ -1080,7 +1080,7 @@
 	}
 
 	/*	SEO-TABLE	*/
-	#seo-table h1{
+	#seo-table h2{
 		text-align: center;
 		color: white;
 		padding: 20px 10px 0 10px;
@@ -1088,14 +1088,13 @@
 	}
 	
 	#seo-table p{
-		text-align: center;
 		color: white;
 		font-size: 14px;
 	}
 	
 	#seo-table a{
-		color: lightblue;
-		font-size: 21px;
+		color: orange;
+		text-shadow: none;
 	}
 	
 	#seo-table li{
@@ -1140,6 +1139,7 @@
 	}
 	
 	#seo-table .seo-table b{
+		text-align: right;
 		color: orange;
 		font-size: 16px;
 	}
