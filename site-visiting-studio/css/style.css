@@ -575,7 +575,7 @@
 		border-radius: 12px;
 		padding: 5px;
 		-moz-transform:scale(.97);
-	    -webkit-transform:scale(.97);
+		-webkit-transform:scale(.97);
 	}
 	
 	#visiting table,
@@ -1345,7 +1345,7 @@
 		width: auto;
 		max-width: 1600px;
 		padding-top: 10px;
-		margin: 0% auto 0 auto;
+		margin: 0 auto 0 auto;
 	}
 	
 	#regform h1{
