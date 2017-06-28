@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
 	<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
 	<meta http-equiv="refresh" content="5; url=http://rabbitweb.ru">
-	<link rel="stylesheet" type="text/css" href="../css/1300x2539_stylePage.css" media="screen and (min-device-width: 240px)">
 	<title>Отправка формы запроса</title>
 </head>
 <body>
