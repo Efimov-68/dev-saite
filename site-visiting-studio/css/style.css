@@ -412,20 +412,20 @@
 	    -webkit-transform:scale(1.03);
 	}
 
-	#visiting{background-color: rgba(230, 247, 255, 0.0);}
-	#promo{background-color: rgba(204, 239, 255, 0.0);}
-	#catalog{background-color: rgba(179, 231, 255, 0.0);}
-	#landing{background-color: rgba(153, 223, 255, 0.0);}
-	#company{background-color: rgba(128, 215, 255, 0.0);}
-	#magazyn{background-color: rgba(102, 207, 255, 0.0);}
-	#CMS{background-color: rgba(77, 198, 255, 0.0);}
-	#designSite{background-color: rgba(51, 190, 255, 0.0);}
-	#browser{background-color: rgba(26, 182, 255, 0.0);}
-	#design-upgrade-small{background-color: rgba(153, 0, 0, 0.0);}
-	#logoSiteInfo{background-color: rgba(0, 174, 255, 0.0);}
-	#seo-find{background-color: rgba(0, 157, 230, 0.0);}
-	#servTech{background-color: rgba(0, 139, 204, 0.0);}
-	#serv-info_2{background-color: rgba(0, 122, 179, 0.0);}
+	#visiting{background-color: rgba(230, 247, 255, 0.1);}
+	#promo{background-color: rgba(204, 239, 255, 0.1);}
+	#catalog{background-color: rgba(179, 231, 255, 0.1);}
+	#landing{background-color: rgba(153, 223, 255, 0.1);}
+	#company{background-color: rgba(128, 215, 255, 0.1);}
+	#magazyn{background-color: rgba(102, 207, 255, 0.1);}
+	#CMS{background-color: rgba(77, 198, 255, 0.1);}
+	#designSite{background-color: rgba(51, 190, 255, 0.1);}
+	#browser{background-color: rgba(26, 182, 255, 0.1);}
+	#design-upgrade-small{background-color: rgba(153, 0, 0, 0.1);}
+	#logoSiteInfo{background-color: rgba(0, 174, 255, 0.1);}
+	#seo-find{background-color: rgba(0, 157, 230, 0.1);}
+	#servTech{background-color: rgba(0, 139, 204, 0.1);}
+	#serv-info_2{background-color: rgba(0, 122, 179, 0.1);}
 
 	#visiting:hover{background-color: rgba(230, 247, 255, 1);}
 	#promo:hover{background-color: rgba(204, 239, 255, 1);}
