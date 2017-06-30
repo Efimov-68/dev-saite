@@ -420,20 +420,35 @@
 	    -webkit-transform:scale(1.03);
 	}
 
-	#visiting{background-color: #e6f7ff;}
-	#promo{background-color: #ccefff;}
-	#catalog{background-color: #b3e7ff;}
-	#landing{background-color: #99dfff;}
-	#company{background-color: #80d7ff;}
-	#magazyn{background-color: #66cfff;}
-	#CMS{background-color: #4dc6ff;}
-	#designSite{background-color: #33beff;}
-	#browser{background-color: #1ab6ff;}
-	#design-upgrade-small{background-color: #990000;}
-	#logoSiteInfo{background-color: #00aeff;}
-	#seo-find{background-color: #009de6;}
-	#servTech{background-color: #008bcc;}
-	#serv-info_2{background-color: #007ab3;}
+	#visiting{background-color: rgba(230, 247, 255, 0.0);}
+	#promo{background-color: rgba(204, 239, 255, 0.0);}
+	#catalog{background-color: rgba(179, 231, 255, 0.0);}
+	#landing{background-color: rgba(153, 223, 255, 0.0);}
+	#company{background-color: rgba(128, 215, 255, 0.0);}
+	#magazyn{background-color: rgba(102, 207, 255, 0.0);}
+	#CMS{background-color: rgba(77, 198, 255, 0.0);}
+	#designSite{background-color: rgba(51, 190, 255, 0.0);}
+	#browser{background-color: rgba(26, 182, 255, 0.0);}
+	#design-upgrade-small{background-color: rgba(153, 0, 0, 0.0);}
+	#logoSiteInfo{background-color: rgba(0, 174, 255, 0.0);}
+	#seo-find{background-color: rgba(0, 157, 230, 0.0);}
+	#servTech{background-color: rgba(0, 139, 204, 0.0);}
+	#serv-info_2{background-color: rgba(0, 122, 179, 0.0);}
+
+	#visiting:hover{background-color: rgba(230, 247, 255, 1);}
+	#promo:hover{background-color: rgba(204, 239, 255, 1);}
+	#catalog:hover{background-color: rgba(179, 231, 255, 1);}
+	#landing:hover{background-color: rgba(153, 223, 255, 1);}
+	#company:hover{background-color: rgba(128, 215, 255, 1);}
+	#magazyn:hover{background-color: rgba(102, 207, 255, 1);}
+	#CMS:hover{background-color: rgba(77, 198, 255, 1);}
+	#designSite:hover{background-color: rgba(51, 190, 255, 1);}
+	#browser:hover{background-color: rgba(26, 182, 255, 1);}
+	#design-upgrade-small:hover{background-color: rgba(153, 0, 0, 1);}
+	#logoSiteInfo:hover{background-color: rgba(0, 174, 255, 1);}
+	#seo-find:hover{background-color: rgba(0, 157, 230, 1);}
+	#servTech:hover{background-color: rgba(0, 139, 204, 1);}
+	#serv-info_2:hover{background-color: rgba(0, 122, 179, 1);}
 
 	#visiting h2,
 	#promo h2,
@@ -451,10 +466,30 @@
 	#logoSiteInfo h3{
 		background: url(../images/open.png) no-repeat;
 		width: auto;
-		padding: 0 5px -10px 25px;
-		font-size: .8em;
+		max-width: 220px;
+		margin: auto;
+		padding: auto;
+		font-size: 0.8em;
+		text-align: center;
 		text-shadow: none;
 		cursor: pointer;
+		color: white;
+	}
+
+	#visiting:hover h2,
+	#promo:hover h2,
+	#catalog:hover h2,
+	#landing:hover h2,
+	#company:hover h2,
+	#magazyn:hover h2,
+	#CMS:hover h3,
+	#browser:hover h3,
+	#seo-find:hover h3,
+	#servTech:hover h3,
+	#serv-info_2:hover h2,
+	#designSite:hover h2,
+	#design-upgrade-small:hover h2,
+	#logoSiteInfo:hover h3{
 		color: black;
 	}
 
