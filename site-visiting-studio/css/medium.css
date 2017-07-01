@@ -393,11 +393,29 @@
 	#design-upgrade-small,
 	#logoSiteInfo{
 		border: none;
-		box-shadow: 0 0 5px black;
 		height: auto;
 		width: auto;
 		padding: 10px;
 		margin-top: 10px;
+	}
+
+	#visiting:hover,
+	#promo:hover,
+	#catalog:hover,
+	#landing:hover,
+	#company:hover,
+	#magazyn:hover,
+	#CMS:hover,
+	#browser:hover,
+	#seo-find:hover,
+	#servTech:hover,
+	#serv-info_2:hover,
+	#designSite:hover,
+	#design-upgrade-small:hover,
+	#logoSiteInfo:hover{
+		box-shadow: 6px 7px 5px black;
+		margin-left: -20px;
+		margin-right: 20px;
 	}
 
 	#visiting{background-color: rgba(230, 247, 255, 0.1);}
