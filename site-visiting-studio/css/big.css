@@ -392,32 +392,11 @@
 	#design-upgrade-small,
 	#logoSiteInfo{
 		border: none;
-		height: auto;
-		width: auto;
-		padding: 10px;
-	}
-
-	#visiting:hover,
-	#promo:hover,
-	#catalog:hover,
-	#landing:hover,
-	#company:hover,
-	#magazyn:hover,
-	#CMS:hover,
-	#browser:hover,
-	#seo-find:hover,
-	#servTech:hover,
-	#serv-info_2:hover,
-	#designSite:hover,
-	#design-upgrade-small:hover,
-	#logoSiteInfo:hover{
-		border: none;
 		box-shadow: 0 0 5px black;
 		height: auto;
 		width: auto;
 		padding: 10px;
-		-moz-transform:scale(1.03);
-	    -webkit-transform:scale(1.03);
+		margin-top: 10px;
 	}
 
 	#visiting{background-color: rgba(230, 247, 255, 0.1);}
@@ -434,21 +413,6 @@
 	#seo-find{background-color: rgba(0, 157, 230, 0.1);}
 	#servTech{background-color: rgba(0, 139, 204, 0.1);}
 	#serv-info_2{background-color: rgba(0, 122, 179, 0.1);}
-
-	#visiting:hover{background-color: rgba(230, 247, 255, 1);}
-	#promo:hover{background-color: rgba(204, 239, 255, 1);}
-	#catalog:hover{background-color: rgba(179, 231, 255, 1);}
-	#landing:hover{background-color: rgba(153, 223, 255, 1);}
-	#company:hover{background-color: rgba(128, 215, 255, 1);}
-	#magazyn:hover{background-color: rgba(102, 207, 255, 1);}
-	#CMS:hover{background-color: rgba(77, 198, 255, 1);}
-	#designSite:hover{background-color: rgba(51, 190, 255, 1);}
-	#browser:hover{background-color: rgba(26, 182, 255, 1);}
-	#design-upgrade-small:hover{background-color: rgba(153, 0, 0, 1);}
-	#logoSiteInfo:hover{background-color: rgba(0, 174, 255, 1);}
-	#seo-find:hover{background-color: rgba(0, 157, 230, 1);}
-	#servTech:hover{background-color: rgba(0, 139, 204, 1);}
-	#serv-info_2:hover{background-color: rgba(0, 122, 179, 1);}
 
 	#visiting h2,
 	#promo h2,
@@ -476,23 +440,6 @@
 		color: white;
 	}
 
-	#visiting:hover h2,
-	#promo:hover h2,
-	#catalog:hover h2,
-	#landing:hover h2,
-	#company:hover h2,
-	#magazyn:hover h2,
-	#CMS:hover h3,
-	#browser:hover h3,
-	#seo-find:hover h3,
-	#servTech:hover h3,
-	#serv-info_2:hover h2,
-	#designSite:hover h2,
-	#design-upgrade-small:hover h2,
-	#logoSiteInfo:hover h3{
-		color: black;
-	}
-
 	#visiting img.icon,
 	#promo img.icon,
 	#catalog img.icon,
@@ -508,24 +455,7 @@
 		width: auto;
 		max-width: 58px;
 	}
-
-	#visiting div,
-	#promo div,
-	#catalog div,
-	#landing div,
-	#company div,
-	#magazyn div,
-	#CMS div,
-	#browser div,
-	#seo-find div,
-	#servTech div,
-	#serv-info_2 div,
-	#designSite div,
-	#design-upgrade-small div,
-	#logoSiteInfo div{
-		display: none;
-	}
-
+	
 	#visiting p,
 	#promo p,
 	#catalog p,
