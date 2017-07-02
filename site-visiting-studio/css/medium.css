@@ -1106,6 +1106,11 @@
 		height: auto;
 		width: auto;
 	}
+
+	.package div{
+		width: auto;
+		max-width: 500px;
+	}
 	
 	.field{
 		margin: 10px;

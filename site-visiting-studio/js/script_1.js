@@ -18,6 +18,7 @@ $(document).ready(function(){
   $('#design-upgrade-small div').hide();
   $('#logoSiteInfo div').hide();
   $('#design-list-upgrade').hide();
+  $('.package div').hide();
   //END all.hide()
 
 	$('#basic').show(function(){
@@ -267,5 +268,15 @@ $(document).ready(function(){
       $designListUpgrade.slideUp(300);
     }
   });//END DESIGN TUNING
+
+  //SEO Package
+  $('.package a').click(function(){
+   var $package = $(this).next('.package div');
+    if ($package.is(':hidden')) {
+      $package.slideDown(300);
+    }else{
+      $package.slideUp(300);
+    }
+  });//END SEO Package
 
 });//END READY
