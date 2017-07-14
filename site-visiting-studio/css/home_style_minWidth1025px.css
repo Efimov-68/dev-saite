@@ -1,0 +1,14 @@
+/*RabbitWeb.ru for the Efimov RS*/
+@media all and(min-width: 1025px){
+	@font-face{
+		font-family: Pangolin-Regular;
+		font-family: Neucha;
+		font-family: Comfortaa-Regular;
+		font-family: KellySlab-Regular;
+		src: url(../fonts/Pangolin-Regular.ttf);
+		src: url(../fonts/Neucha.ttf);
+		src: url(../fonts/Comfortaa-Regular.ttf);
+		src: url(../fonts/KellySlab-Regular.ttf);
+	}
+	
+} 
