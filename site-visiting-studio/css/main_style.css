@@ -1,7 +1,7 @@
 /************************************
 RabbitWeb.ru (main) for the Efimov RS
 ************************************/
-@media all and(min-width: 1025px){
+/*@media all and(min-width: 1025px){*/
 	@font-face{
 		font-family: Pangolin-Regular;
 		font-family: Neucha;
@@ -12,9 +12,87 @@ RabbitWeb.ru (main) for the Efimov RS
 		src: url(../fonts/Comfortaa-Regular.ttf);
 		src: url(../fonts/KellySlab-Regular.ttf);
 	}
-	#block_1,
-	#block_2,
-	#block_3{
-		position: absolute;
+
+	html{
+		background-color: lightgrey;
 	}
+
+	/*HEADER open*/
+	#header{
+		margin: 20px;
+	}
+	#header h2{
+		color: darkcyan;
+	}
+
+	#header h2 span{
+		color: orange;
+	}
+	#header ul{
+		float: right;
+		list-style: none;
+		margin: 0;
+	}
+	#header ul li{
+		float: left;
+		padding: 0 10px 0 10px;
+	}
+	#header li a{
+		text-decoration: none;
+
+	}
+	/*HEADER end*/
+
+	/*AllContent open*/
+	#allcontent{
+		margin: 0 10% 0 10%;
+	}
+	/*AllContent end*/
+
+	/*newSite open*/
+	#newInfo img{
+		width: 200px;
+		float: left;
+	}
+
+	#newCourses img{
+		width: 200px;
+		float: left;
+	}
+	/*newSite end*/
+
+	/*Block open*/
+	#block img{
+		background-color: grey;
+		border: 1px solid black;
+		width: 200px;
+		height: auto;
+	}
+	/*Block end*/
+	
+	/*FOOTER open*/
+	#footer{
+		margin: 20px;
+	}
+	#footer h2{
+		color: darkcyan;
+	}
+
+	#footer h2 span{
+		color: orange;
+	}
+	#footer ul{
+		float: right;
+		list-style: none;
+		margin: 0;
+	}
+	#footer ul li{
+		float: left;
+		padding: 0 10px 0 10px;
+	}
+	#footer li a{
+		text-decoration: none;
+
+	}
+	/*FOOTER end*/
 } 
