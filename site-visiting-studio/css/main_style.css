@@ -1,4 +1,6 @@
-/*RabbitWeb.ru for the Efimov RS*/
+/************************************
+RabbitWeb.ru (main) for the Efimov RS
+************************************/
 @media all and(min-width: 1025px){
 	@font-face{
 		font-family: Pangolin-Regular;
@@ -13,6 +15,6 @@
 	#block_1,
 	#block_2,
 	#block_3{
-
+		position: absolute;
 	}
 } 
