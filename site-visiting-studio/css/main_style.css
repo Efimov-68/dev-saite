@@ -16,49 +16,64 @@ RabbitWeb.ru (main) for the Efimov RS
 	html{
 		background-color: lightgrey;
 	}
-
-	/*HEADER open*/
+	/***HEADER open***/
 	#header{
-		margin: 20px;
+		margin: 10px;
+		height: 100px;
 	}
-	#header h2{
+	#header h2 a{
 		color: darkcyan;
+		text-decoration: none;
 	}
-
 	#header h2 span{
 		color: orange;
 	}
 	#header ul{
 		float: right;
 		list-style: none;
-		margin: 0;
+		width: auto;
 	}
 	#header ul li{
-		float: left;
-		padding: 0 10px 0 10px;
+		float: right;
+		padding-left: 10px;
 	}
 	#header li a{
 		text-decoration: none;
 
 	}
-	/*HEADER end*/
+	#header a img{
+		width: 40px;
+	}
+	/***HEADER end***/
+	/*******MENU********/
+	#menu ul{
+		background-color: darkgrey;
+		position: fixed;
+		list-style: none;
+		width: 100px;
+	}
+	#menu ul li{
+		padding: 20px 20px 20px 0;
+	}
+	#menu li a{
+		text-decoration: none;
 
-	/*AllContent open*/
+	}
+	#menu a img{
+		width: 50px;
+	}
+	/*****end MENU*****/
+	/***AllContent open***/
 	#allcontent{
-		margin: 0 10% 0 10%;
+		margin: 0 auto 0 15%;
 	}
-	/*AllContent end*/
-
 	/*newSite open*/
-	#newInfo img{
-		width: 200px;
-		float: left;
-	}
-
+	#newInfo img,
 	#newCourses img{
 		width: 200px;
 		float: left;
 	}
+
 	/*newSite end*/
 
 	/*Block open*/
@@ -70,29 +85,17 @@ RabbitWeb.ru (main) for the Efimov RS
 	}
 	/*Block end*/
 	
+	/*AllContent end*/
 	/*FOOTER open*/
 	#footer{
-		margin: 20px;
+		margin: 10px;
 	}
-	#footer h2{
+	#footer h2 a{
 		color: darkcyan;
+		text-decoration: none;
 	}
-
 	#footer h2 span{
 		color: orange;
-	}
-	#footer ul{
-		float: right;
-		list-style: none;
-		margin: 0;
-	}
-	#footer ul li{
-		float: left;
-		padding: 0 10px 0 10px;
-	}
-	#footer li a{
-		text-decoration: none;
-
 	}
 	/*FOOTER end*/
 } 
