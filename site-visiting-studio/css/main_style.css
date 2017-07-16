@@ -12,7 +12,6 @@ RabbitWeb.ru (main) for the Efimov RS
 		src: url(../fonts/Comfortaa-Regular.ttf);
 		src: url(../fonts/KellySlab-Regular.ttf);
 	}
-
 	html{
 		background-color: lightgrey;
 	}
@@ -40,7 +39,6 @@ RabbitWeb.ru (main) for the Efimov RS
 	}
 	#header li a{
 		text-decoration: none;
-
 	}
 	#header a img{
 		width: 40px;
@@ -51,18 +49,27 @@ RabbitWeb.ru (main) for the Efimov RS
 		background-color: darkgrey;
 		position: fixed;
 		list-style: none;
-		border-radius: 10px;
-		width: 90px;
-		height: 720px;
+		border-radius: 0 10px 10px 0;
+		width: 100px;
+		padding: 10px;
 	}
-	#menu ul li{
-		padding: 15px 0 15px 0;
+	#menu li{
+		color: lightgrey;
+		text-align: center;
+		text-shadow: 1px 1px 1px grey;
+		margin: 0 10px 0 10px;
+	}
+	#menu li:hover{
+		color: black;
+		text-shadow: 1px 1px 1px lightgrey;
 	}
 	#menu li a{
 		text-decoration: none;
 	}
 	#menu a img{
-		width: 50px;
+		padding: 10px;
+		width: auto;
+		max-width: 30px;
 	}
 	/*****end MENU*****/
 	/***AllContent open***/
