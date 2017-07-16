@@ -34,7 +34,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		width: auto;
 	}
 	#header ul li{
-		float: right;
+		float: left;
 		padding-left: 10px;
 	}
 	#header li a{
@@ -46,10 +46,10 @@ RabbitWeb.ru (main) for the Efimov RS
 	/***HEADER end***/
 	/*******MENU********/
 	#menu ul{
-		background-color: darkgrey;
+		background-color: rgba(255,255,255,0.3);
 		position: fixed;
 		list-style: none;
-		border-radius: 0 10px 10px 0;
+		border-radius: 0 5px 5px 0;
 		width: 100px;
 		padding: 10px;
 	}
@@ -76,17 +76,51 @@ RabbitWeb.ru (main) for the Efimov RS
 	#allcontent{
 		margin: 0 auto 0 15%;
 	}
+	/***Courses open***/
+	.Courses table{
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10%;
+	}
+	.Courses td{
+		text-align: center;
+		background-color: white;
+		border-radius: 10px;
+		height: 40px;
+	}
+	.Courses td h5,
+	.Courses td h4{
+		color: black;
+	}
+	.Courses td a{
+		text-decoration: none;
+	}
+	.Courses td:hover{
+		text-align: center;
+		background-color: lightblue;
+		box-shadow: 3px 3px 3px black;
+	}
+	/***end Courses***/
 	/*newSite open*/
-	#newInfo img,
-	#newCourses img{
+	.newInfo,
+	.newCourses{
+		margin: 10% 0 10% 0;
+	}
+	.newInfo img,
+	.newCourses img{
 		width: 200px;
 		float: left;
+		padding: 10px;
 	}
 
 	/*newSite end*/
 
 	/*Block open*/
-	#block img{
+	.block{
+		margin-top: 10%;
+	}
+	.block img{
 		background-color: grey;
 		border: 1px solid black;
 		width: 200px;
