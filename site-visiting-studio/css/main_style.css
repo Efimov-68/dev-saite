@@ -19,7 +19,8 @@ RabbitWeb.ru (main) for the Efimov RS
 	/***HEADER open***/
 	#header{
 		margin: 10px;
-		height: 100px;
+		height: 70px;
+		border-bottom: 1px solid black;
 	}
 	#header h2 a{
 		color: darkcyan;
@@ -50,14 +51,15 @@ RabbitWeb.ru (main) for the Efimov RS
 		background-color: darkgrey;
 		position: fixed;
 		list-style: none;
-		width: 100px;
+		border-radius: 10px;
+		width: 90px;
+		height: 720px;
 	}
 	#menu ul li{
-		padding: 20px 20px 20px 0;
+		padding: 15px 0 15px 0;
 	}
 	#menu li a{
 		text-decoration: none;
-
 	}
 	#menu a img{
 		width: 50px;
@@ -89,6 +91,8 @@ RabbitWeb.ru (main) for the Efimov RS
 	/*FOOTER open*/
 	#footer{
 		margin: 10px;
+		height: 70px;
+		border-top: 1px solid black;
 	}
 	#footer h2 a{
 		color: darkcyan;
@@ -96,6 +100,21 @@ RabbitWeb.ru (main) for the Efimov RS
 	}
 	#footer h2 span{
 		color: orange;
+	}
+	#footer ul{
+		float: right;
+		list-style: none;
+		width: auto;
+	}
+	#footer ul li{
+		float: right;
+		padding-left: 10px;
+	}
+	#footer li a{
+		text-decoration: none;
+	}
+	#footer a img{
+		width: 30px;
 	}
 	/*FOOTER end*/
 } 
