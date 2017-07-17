@@ -119,8 +119,7 @@ RabbitWeb.ru (main) for the Efimov RS
 	.Courses td:hover,
 	.Learn td:hover{
 		text-align: center;
-		background-color: lightblue;
-		box-shadow: 0px 0px 3px cyan;
+		box-shadow: 0px 0px 3px black;
 		-moz-transform:scale(1.1);
 		-webkit-transform:scale(1.1);
 	}
@@ -128,7 +127,14 @@ RabbitWeb.ru (main) for the Efimov RS
 	/*newSite open*/
 	.newInfo,
 	.newCourses{
-		margin: 0% 0 10% 0;
+		width: auto;
+		max-width: 1000px;
+		margin-bottom: 10%;
+	}
+	.newInfo div,
+	.newCourses div{
+		float: left;
+		padding: 10px;
 	}
 	.newInfo img,
 	.newCourses img{
@@ -141,7 +147,9 @@ RabbitWeb.ru (main) for the Efimov RS
 
 	/*Block open*/
 	.block{
-		margin-top: 10%;
+		float: left;
+		margin-top: 15%;
+		padding: 10px;
 	}
 	.block img{
 		background-color: grey;
@@ -169,13 +177,47 @@ RabbitWeb.ru (main) for the Efimov RS
 	}
 	/***end NEXTPAGEPREV***/
 	/***POSTS open***/
-	#posts img{
+	.posts_new{
+		margin: 0 auto 10% auto;
+		height: auto;
+	}
+	.posts_new div,
+	.posts_old div{
+		float: left;
+		padding: 10px;
+	}
+	.posts_old div{
+		margin-top: 5%;
+	}
+	.posts_new a,
+	.posts_old a{
+		color: black;
+		text-decoration:none;
+	}
+	.posts_new img,
+	.posts_old img{
 		width: auto;
 		max-width: 250px;
 	}
-	#posts a{
-		color: black;
-		text-decoration:none;
+	#submitPosts{
+		background-color: grey;
+		width: 250px;
+		height: 380px;
+	}
+	#submitPosts p{
+		text-align: center;
+		padding-top: 130px;
+	}
+	#submitPosts input{
+		border: 2px solid lightgreen;
+		border-radius: 10px;
+		height: 30px;
+	}
+	#submitPosts input:hover{
+		background-color: lightgreen;
+		border: 2px solid green;
+		border-radius: 10px;
+		height: 30px;
 	}
 	/***end POSTS***/
 	/*AllContent end*/
