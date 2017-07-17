@@ -222,7 +222,10 @@ RabbitWeb.ru (main) for the Efimov RS
 	/***end POSTS***/
 	#web_developer_info h1,
 	#web_developer_info h2,
-	#web_developer_info h3{
+	#web_developer_info h3,
+	#python_programmer_info h1,
+	#python_programmer_info h2,
+	#python_programmer_info h3{
 		text-align: center;
 	}
 	#web_developer_info img{
