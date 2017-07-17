@@ -220,6 +220,15 @@ RabbitWeb.ru (main) for the Efimov RS
 		height: 30px;
 	}
 	/***end POSTS***/
+	#web_developer_info h1,
+	#web_developer_info h2,
+	#web_developer_info h3{
+		text-align: center;
+	}
+	#web_developer_info img{
+		margin-left: auto;
+		margin-right: auto;
+	}
 	/*AllContent end*/
 
 	/***REGFORM open***/
