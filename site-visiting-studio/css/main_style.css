@@ -41,7 +41,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		text-decoration: none;
 	}
 	#header a img{
-		width: 40px;
+		width: 30px;
 	}
 	/***HEADER end***/
 	/*******MENU********/
@@ -83,20 +83,29 @@ RabbitWeb.ru (main) for the Efimov RS
 		margin-right: auto;
 		margin-bottom: 10%;
 	}
-	.Courses td{
+	.Learn table{
+		width: 300px;
+		margin-bottom: 10%;
+	}
+	.Courses td,
+	.Learn td{
 		text-align: center;
 		background-color: white;
 		border-radius: 10px;
 		height: 40px;
 	}
 	.Courses td h5,
-	.Courses td h4{
+	.Courses td h4,
+	.Learn td h5,
+	.Learn td h4Learn{
 		color: black;
 	}
-	.Courses td a{
+	.Courses td a,
+	.Learn td a{
 		text-decoration: none;
 	}
-	.Courses td:hover{
+	.Courses td:hover,
+	.Learn td:hover{
 		text-align: center;
 		background-color: lightblue;
 		box-shadow: 3px 3px 3px black;
@@ -105,7 +114,7 @@ RabbitWeb.ru (main) for the Efimov RS
 	/*newSite open*/
 	.newInfo,
 	.newCourses{
-		margin: 10% 0 10% 0;
+		margin: 0% 0 10% 0;
 	}
 	.newInfo img,
 	.newCourses img{
