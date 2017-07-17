@@ -204,7 +204,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		width: auto;
 	}
 	#footer ul li{
-		float: right;
+		float: left;
 		padding-left: 10px;
 	}
 	#footer li a{
