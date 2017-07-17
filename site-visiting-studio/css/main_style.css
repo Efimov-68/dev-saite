@@ -168,6 +168,16 @@ RabbitWeb.ru (main) for the Efimov RS
 		background-color: grey;
 	}
 	/***end NEXTPAGEPREV***/
+	/***POSTS open***/
+	#posts img{
+		width: auto;
+		max-width: 250px;
+	}
+	#posts a{
+		color: black;
+		text-decoration:none;
+	}
+	/***end POSTS***/
 	/*AllContent end*/
 
 	/***REGFORM open***/
