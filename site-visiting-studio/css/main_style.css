@@ -74,9 +74,21 @@ RabbitWeb.ru (main) for the Efimov RS
 	/*****end MENU*****/
 	/***AllContent open***/
 	#allcontent{
-		margin: 0 auto 0 15%;
+		width: auto;
+		max-width: 1300px;
+		margin: 0 auto 20% 15%;
 	}
 	/***Courses open***/
+	.Courses{
+		width: auto;
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.Courses div{
+		float: left;
+		margin: 10px;
+	}
 	.Courses table{
 		width: 1000px;
 		margin-left: auto;
@@ -91,24 +103,26 @@ RabbitWeb.ru (main) for the Efimov RS
 	.Learn td{
 		text-align: center;
 		background-color: white;
-		border-radius: 10px;
 		height: 40px;
 	}
 	.Courses td h5,
 	.Courses td h4,
 	.Learn td h5,
-	.Learn td h4Learn{
+	.Learn td h4{
 		color: black;
 	}
 	.Courses td a,
 	.Learn td a{
+		color: black;
 		text-decoration: none;
 	}
 	.Courses td:hover,
 	.Learn td:hover{
 		text-align: center;
 		background-color: lightblue;
-		box-shadow: 3px 3px 3px black;
+		box-shadow: 0px 0px 3px cyan;
+		-moz-transform:scale(1.1);
+		-webkit-transform:scale(1.1);
 	}
 	/***end Courses***/
 	/*newSite open*/
@@ -136,8 +150,41 @@ RabbitWeb.ru (main) for the Efimov RS
 		height: auto;
 	}
 	/*Block end*/
-	
+	/***NEXTPAGEPREV open***/
+	#nextPagePrev{
+		width: auto;
+		max-width: 1000px;
+	}
+	#nextPagePrev p{
+		margin: 0% auto 0 30%;
+	}
+	#nextPagePrev p a{
+		color: grey;
+		padding: 5px;
+		text-decoration: none;
+	}
+	#nextPagePrev p a:hover{
+		color: black;
+		background-color: grey;
+	}
+	/***end NEXTPAGEPREV***/
 	/*AllContent end*/
+
+	/***REGFORM open***/
+	#regForm{
+		margin: 0 auto 0 auto;
+	}
+	#regForm form{
+		width: auto;
+		max-width: 1000px;
+	}
+	#regForm input{
+		border: 0px solid black;
+		height: 30px;
+		margin: 10px;
+	}
+	/***end REGFORM***/
+
 	/*FOOTER open*/
 	#footer{
 		margin: 10px;
