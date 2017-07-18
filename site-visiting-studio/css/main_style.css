@@ -142,7 +142,11 @@ RabbitWeb.ru (main) for the Efimov RS
 		float: left;
 		padding: 10px;
 	}
-
+	.newCourses a{
+		color: black;
+		text-decoration: none;
+		line-height: 1,1em;
+	}
 	/*newSite end*/
 
 	/*Block open*/
