@@ -266,6 +266,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		height: 28px;
 		border: 0 ridge black;
 		border-radius: 5px;
+		margin: 5px;
 	}
 	#scratch .submit,
 	#python .submit{
