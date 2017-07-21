@@ -230,12 +230,38 @@ RabbitWeb.ru (main) for the Efimov RS
 	#web_developer_info h3,
 	#python_programmer_info h1,
 	#python_programmer_info h2,
-	#python_programmer_info h3{
+	#python_programmer_info h3,
+	#scratch_info h1,
+	#scratch_info h2,
+	#scratch_info h3{
 		text-align: center;
 	}
 	#web_developer_info img{
 		margin-left: auto;
 		margin-right: auto;
+	}
+	#scratch form{
+		text-align: center;
+		width: auto;
+		max-width: 650px;
+		border: 3px solid white;
+		box-shadow: 0 0 5px black;
+		padding: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#scratch input{
+		height: 28px;
+		border: 0 ridge black;
+		border-radius: 5px;
+	}
+	#scratch .submit{
+		background-color: white;
+		border: 2px solid orange;
+		border-radius: 10px;
+	}
+	#scratch .submit:hover{
+		background-color: darkorange;
 	}
 	/*AllContent end*/
 
