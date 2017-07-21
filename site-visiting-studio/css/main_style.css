@@ -118,6 +118,7 @@ RabbitWeb.ru (main) for the Efimov RS
 	}
 	.Courses td:hover,
 	.Learn td:hover{
+		background-color: lightblue;
 		text-align: center;
 		box-shadow: 0px 0px 3px black;
 		-moz-transform:scale(1.1);
