@@ -241,13 +241,15 @@ RabbitWeb.ru (main) for the Efimov RS
 	#python_programmer_info img{
 		width: auto;
 		max-width: 1000px;
-		margin-left: auto;
+		margin-left: 5%;
 		margin-right: auto;
 		padding: 10px;
 	}
 	#scratch img,
 	#python img{
 		width: 50px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	#scratch form,
 	#python form{
@@ -277,6 +279,13 @@ RabbitWeb.ru (main) for the Efimov RS
 	#scratch .submit:hover,
 	#python .submit:hover{
 		background-color: darkorange;
+	}
+	#sprites{
+		width: 700px;
+		margin: 0 auto 0 auto;
+	}
+	#sprites img{
+		width: 100px;
 	}
 	/*AllContent end*/
 
