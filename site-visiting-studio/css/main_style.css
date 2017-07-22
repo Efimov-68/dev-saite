@@ -13,7 +13,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		src: url(../fonts/KellySlab-Regular.ttf);
 	}
 	html{
-		background-color: lightgrey;
+		background-color: #009999;
 	}
 	/***HEADER open***/
 	#header{
@@ -22,11 +22,14 @@ RabbitWeb.ru (main) for the Efimov RS
 		border-bottom: 1px solid black;
 	}
 	#header h2 a{
-		color: darkcyan;
+		color: lightblue;
 		text-decoration: none;
+		text-shadow: -1px 1px 1px lightblue;
+		padding-left: 10%;
 	}
 	#header h2 span{
 		color: orange;
+		text-shadow: -1px 1px 1px orange;
 	}
 	#header ul{
 		float: right;
@@ -46,22 +49,24 @@ RabbitWeb.ru (main) for the Efimov RS
 	/***HEADER end***/
 	/*******MENU********/
 	#menu ul{
-		background-color: rgba(255,255,255,0.3);
+		background-color: rgba(255,255,255,0.5);
 		position: fixed;
+		top: 0;
+		height: auto;
 		list-style: none;
-		border-radius: 0 5px 5px 0;
+		box-shadow: -1px 1px 1px black;
 		width: 100px;
 		padding: 10px;
 	}
 	#menu li{
-		color: lightgrey;
+		color: black;
 		text-align: center;
-		text-shadow: 1px 1px 1px grey;
+		text-shadow: 0px 0px 1px grey;
 		margin: 0 10px 0 10px;
 	}
 	#menu li:hover{
 		color: black;
-		text-shadow: 1px 1px 1px lightgrey;
+		text-shadow: 0px 0px 1px white;
 	}
 	#menu li a{
 		text-decoration: none;
@@ -76,7 +81,7 @@ RabbitWeb.ru (main) for the Efimov RS
 	#allcontent{
 		width: auto;
 		max-width: 1200px;
-		margin: 0 auto 20% auto;
+		margin: 0 auto 20% 10%;
 	}
 	/***Courses open***/
 	.Courses{
@@ -266,8 +271,8 @@ RabbitWeb.ru (main) for the Efimov RS
 	#scratch input,
 	#python input{
 		height: 28px;
-		border: 0 ridge black;
-		border-radius: 5px;
+		border: 0px solid orange;
+		border-radius: 3px 10px 10px 0;
 		margin: 5px;
 	}
 	#scratch .submit,
@@ -311,11 +316,13 @@ RabbitWeb.ru (main) for the Efimov RS
 		border-top: 1px solid black;
 	}
 	#footer h2 a{
-		color: darkcyan;
+		color: lightblue;
 		text-decoration: none;
+		text-shadow: -1px 1px 1px lightblue;
 	}
 	#footer h2 span{
 		color: orange;
+		text-shadow: -1px 1px 1px orange;
 	}
 	#footer ul{
 		float: right;
