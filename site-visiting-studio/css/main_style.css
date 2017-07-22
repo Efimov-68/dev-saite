@@ -271,7 +271,15 @@ RabbitWeb.ru (main) for the Efimov RS
 	#scratch input,
 	#python input{
 		height: 28px;
-		border: 0px solid orange;
+		border: 2px solid blue;
+		border-radius: 3px 10px 10px 0;
+		margin: 5px;
+		box-shadow: 1px 1px 1px black;
+	}
+	#scratch input:hover,
+	#python input:hover{
+		height: 28px;
+		border: 2px solid orange;
 		border-radius: 3px 10px 10px 0;
 		margin: 5px;
 	}
@@ -280,10 +288,14 @@ RabbitWeb.ru (main) for the Efimov RS
 		background-color: white;
 		border: 2px solid orange;
 		border-radius: 10px;
+		box-shadow: 1px 1px 1px black;
 	}
 	#scratch .submit:hover,
 	#python .submit:hover{
-		background-color: darkorange;
+		background-color: orange;
+		border-radius: 10px;
+		text-shadow: 1px 1px 0.5px black;
+		box-shadow: 1px 1px 1px black;
 	}
 	#sprites{
 		width: 700px;
@@ -291,6 +303,13 @@ RabbitWeb.ru (main) for the Efimov RS
 	}
 	#sprites img{
 		width: 100px;
+	}
+	#reviews{
+		width: 950px;
+		margin: 0 auto 0 0;
+	}
+	#reviews ul{
+		list-style-type: none; 
 	}
 	/*AllContent end*/
 
