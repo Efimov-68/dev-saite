@@ -13,7 +13,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		src: url(../fonts/KellySlab-Regular.ttf);
 	}
 	html{
-		background-color: #009999;
+		background-color: white;
 	}
 	/***HEADER open***/
 	#header{
@@ -251,17 +251,20 @@ RabbitWeb.ru (main) for the Efimov RS
 		margin-right: auto;
 		padding: 10px;
 	}
-	#scratch h4,
+	#scratch_info ul{
+		list-style-type: none;
+	}
+	#scratchForm h4,
 	#python h4{
 		text-shadow: 1px 1px 1px white;
 	}
-	#scratch img,
+	#scratchForm img,
 	#python img{
 		width: 50px;
 		margin-left: auto;
 		margin-right: auto;
 	}
-	#scratch form,
+	#scratchForm form,
 	#python form{
 		text-align: center;
 		width: auto;
@@ -273,7 +276,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		margin-left: auto;
 		margin-right: auto;
 	}
-	#scratch input,
+	#scratchForm input,
 	#python input{
 		height: 28px;
 		border: 2px solid blue;
@@ -281,21 +284,21 @@ RabbitWeb.ru (main) for the Efimov RS
 		margin: 5px;
 		box-shadow: 1px 1px 1px black;
 	}
-	#scratch input:hover,
+	#scratchForm input:hover,
 	#python input:hover{
 		height: 28px;
 		border: 2px solid orange;
 		border-radius: 3px 10px 10px 0;
 		margin: 5px;
 	}
-	#scratch .submit,
+	#scratchForm .submit,
 	#python .submit{
 		background-color: white;
 		border: 2px solid orange;
 		border-radius: 10px;
 		box-shadow: 1px 1px 1px black;
 	}
-	#scratch .submit:hover,
+	#scratchForm .submit:hover,
 	#python .submit:hover{
 		background-color: orange;
 		border-radius: 10px;
@@ -303,7 +306,8 @@ RabbitWeb.ru (main) for the Efimov RS
 		box-shadow: 1px 1px 1px black;
 	}
 	#sprites{
-		width: 700px;
+		width: auto;
+		max-width: 900px;
 		margin: 0 auto 0 auto;
 	}
 	#sprites img{
@@ -318,15 +322,15 @@ RabbitWeb.ru (main) for the Efimov RS
 		list-style-type: none; 
 	}
 	#tableScratch table{
-		background-color: grey;
-		border: 1px solid black;
+		background-color: lightgrey;
+		border: 0px solid white;
 		border-radius: 10px;
 		box-shadow: 0 0 3px lightgrey;
 		margin: 0 auto 0 auto;
 	}
 	#tableScratch td{
-		width: 100px;
-		padding: 10px;
+		width: 200px;
+		padding: 2px 2px 2px 10px;
 	}
 	/*AllContent end*/
 
