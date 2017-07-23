@@ -25,7 +25,6 @@ RabbitWeb.ru (main) for the Efimov RS
 		color: lightblue;
 		text-decoration: none;
 		text-shadow: -1px 1px 1px lightblue;
-		padding-left: 10%;
 	}
 	#header h2 span{
 		color: orange;
@@ -49,24 +48,23 @@ RabbitWeb.ru (main) for the Efimov RS
 	/***HEADER end***/
 	/*******MENU********/
 	#menu ul{
-		background-color: rgba(255,255,255,0.5);
-		position: fixed;
-		top: 0;
-		height: auto;
+		background-color: rgba(0,0,0,0.5);
+		float: left;
 		list-style: none;
-		box-shadow: -1px 1px 1px black;
+		height: auto;
 		width: 100px;
+		margin: 0px;
 		padding: 10px;
 	}
 	#menu li{
-		color: black;
+		color: white;
 		text-align: center;
 		text-shadow: 0px 0px 1px grey;
 		margin: 0 10px 0 10px;
 	}
 	#menu li:hover{
 		color: black;
-		text-shadow: 0px 0px 1px white;
+		text-shadow: 1px 1px 1px white;
 	}
 	#menu li a{
 		text-decoration: none;
@@ -74,14 +72,14 @@ RabbitWeb.ru (main) for the Efimov RS
 	#menu a img{
 		padding: 10px;
 		width: auto;
-		max-width: 30px;
+		max-width: 40px;
 	}
 	/*****end MENU*****/
 	/***AllContent open***/
 	#allcontent{
 		width: auto;
-		max-width: 1200px;
-		margin: 0 auto 20% 10%;
+		max-width: 1300px;
+		margin: 0 auto 5% auto;
 	}
 	/***Courses open***/
 	.Courses{
@@ -305,7 +303,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		width: 100px;
 	}
 	#reviews{
-		width: 950px;
+		width: 1000px;
 		margin: 0 auto 0 0;
 	}
 	#reviews ul{
