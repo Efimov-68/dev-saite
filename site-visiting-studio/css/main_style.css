@@ -309,6 +309,17 @@ RabbitWeb.ru (main) for the Efimov RS
 	#reviews ul{
 		list-style-type: none; 
 	}
+	#tableScratch table{
+		background-color: grey;
+		border: 1px solid black;
+		border-radius: 10px;
+		box-shadow: 0 0 3px lightgrey;
+		margin: 0 auto 0 auto;
+	}
+	#tableScratch td{
+		width: 100px;
+		padding: 10px;
+	}
 	/*AllContent end*/
 
 	/***REGFORM open***/
