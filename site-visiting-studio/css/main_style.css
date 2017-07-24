@@ -324,7 +324,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		max-width: 400px;
 		margin: 10px auto 10px auto;
 		padding: 5px;
-		border-radius: 10px;
+		border-radius: 0 10px 10px 0;
 		box-shadow: 1px 1px 2px black;
 	}
 	#sprites img{
