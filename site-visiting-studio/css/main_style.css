@@ -318,6 +318,15 @@ RabbitWeb.ru (main) for the Efimov RS
 		max-width: 900px;
 		margin: 0 auto 0 auto;
 	}
+	#sprites li{
+		background-color: orange;
+		width: auto;
+		max-width: 400px;
+		margin: 10px auto 10px auto;
+		padding: 5px;
+		border-radius: 10px;
+		box-shadow: 1px 1px 2px black;
+	}
 	#sprites img{
 		width: 100px;
 	}
@@ -325,6 +334,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		width: auto;
 		max-width: 1000px;
 		margin: 0 auto 0 auto;
+		padding: 10px;
 	}
 	#reviews ul{
 		list-style-type: none; 
