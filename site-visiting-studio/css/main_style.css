@@ -48,7 +48,7 @@ RabbitWeb.ru (main) for the Efimov RS
 	/***HEADER end***/
 	/*******MENU********/
 	#menu ul{
-		background-color: rgba(0,0,0,0.4);
+		background-color: rgba(0,0,0,0.7);
 		float: left;
 		list-style: none;
 		height: auto;
@@ -63,7 +63,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		margin: 0 10px 0 10px;
 	}
 	#menu li:hover{
-		color: black;
+		color: grey;
 		text-shadow: 1px 1px 1px white;
 	}
 	#menu li a{
@@ -109,6 +109,7 @@ RabbitWeb.ru (main) for the Efimov RS
 	.Learn td{
 		text-align: center;
 		background-color: white;
+		border: 1px solid black;
 		height: 40px;
 	}
 	.Courses td h5,
@@ -242,6 +243,9 @@ RabbitWeb.ru (main) for the Efimov RS
 	#scratch_info h3{
 		text-align: center;
 	}
+	#scratch_info div{
+		margin-top: 10%;
+	}
 	#web_developer_info img,
 	#scratch_info img,
 	#python_programmer_info img{
@@ -293,16 +297,17 @@ RabbitWeb.ru (main) for the Efimov RS
 	}
 	#scratchForm .submit,
 	#python .submit{
-		background-color: white;
+		background-color: orange;
 		border: 2px solid orange;
 		border-radius: 10px;
+		text-shadow: 1px 1px 0.5px black;
 		box-shadow: 1px 1px 1px black;
 	}
 	#scratchForm .submit:hover,
 	#python .submit:hover{
-		background-color: orange;
+		background-color: white;
+		border: 2px solid orange;
 		border-radius: 10px;
-		text-shadow: 1px 1px 0.5px black;
 		box-shadow: 1px 1px 1px black;
 	}
 	#sprites{
@@ -322,15 +327,13 @@ RabbitWeb.ru (main) for the Efimov RS
 		list-style-type: none; 
 	}
 	#tableScratch table{
-		background-color: lightgrey;
-		border: 0px solid white;
 		border-radius: 10px;
-		box-shadow: 0 0 3px lightgrey;
+		box-shadow: 0 0 3px black;
 		margin: 0 auto 0 auto;
 	}
 	#tableScratch td{
 		width: 200px;
-		padding: 2px 2px 2px 10px;
+		padding: 5px 2px 5px 10px;
 	}
 	/*AllContent end*/
 
