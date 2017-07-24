@@ -13,7 +13,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		src: url(../fonts/KellySlab-Regular.ttf);
 	}
 	html{
-		background-color: white;
+		background-color: lightyellow;
 	}
 	/***HEADER open***/
 	#header,
@@ -81,7 +81,7 @@ RabbitWeb.ru (main) for the Efimov RS
 	/***AllContent open***/
 	#allcontent{
 		width: auto;
-		max-width: 1300px;
+		max-width: 1000px;
 		margin: 0 auto 5% auto;
 	}
 	#allcontent p{
@@ -249,6 +249,9 @@ RabbitWeb.ru (main) for the Efimov RS
 	#scratch_info div{
 		margin-top: 10%;
 	}
+	#scratch_info a{
+		color: black;
+	}
 	#web_developer_info img,
 	#scratch_info img,
 	#python_programmer_info img{
@@ -258,8 +261,29 @@ RabbitWeb.ru (main) for the Efimov RS
 		margin-right: auto;
 		padding: 10px;
 	}
-	#scratch_info ul{
+	.scratch-Green,
+	.scratch-Yellow{
 		list-style-type: none;
+	}
+	.scratch-Green li{
+		background-color: lightgreen;
+		width: auto;
+		margin: 5px auto 5px auto;
+		padding: 5px;
+		border-radius: 5px 10px 10px 0;
+		box-shadow: 1px 1px 2px black;
+		text-align: center;
+		font-style: italic;
+	}
+	.scratch-Yellow li{
+		background-color: yellow;
+		width: auto;
+		margin: 5px auto 5px auto;
+		padding: 5px;
+		border-radius: 5px 10px 10px 0;
+		box-shadow: 1px 1px 2px black;
+		text-align: center;
+		font-style: italic;
 	}
 	#scratchForm h4,
 	#python h4{
@@ -317,36 +341,42 @@ RabbitWeb.ru (main) for the Efimov RS
 		width: auto;
 		max-width: 900px;
 		margin: 0 auto 0 auto;
+		border-top: 1px solid grey;
+		border-bottom: 1px solid grey;
 	}
 	#sprites li{
 		background-color: orange;
 		width: auto;
-		max-width: 400px;
 		margin: 10px auto 10px auto;
 		padding: 5px;
-		border-radius: 0 10px 10px 0;
+		border-radius: 5px 10px 10px 0;
 		box-shadow: 1px 1px 2px black;
+		list-style-type: none;
+		text-align: center;
 	}
 	#sprites img{
 		width: 100px;
 	}
 	#reviews{
 		width: auto;
-		max-width: 1000px;
+		max-width: 800px;
 		margin: 0 auto 0 auto;
 		padding: 10px;
-	}
-	#reviews ul{
-		list-style-type: none; 
+		color: grey;
+		border-top: 1px solid grey;
+		border-bottom: 1px solid grey;
 	}
 	#tableScratch table{
-		border-radius: 10px;
-		box-shadow: 0 0 3px black;
 		margin: 0 auto 0 auto;
 	}
 	#tableScratch td{
 		width: 200px;
 		padding: 5px 2px 5px 10px;
+	}
+	#structure div{
+		width: auto;
+		max-width: 800px;
+		margin: 0 auto 0 auto;
 	}
 	/*AllContent end*/
 
