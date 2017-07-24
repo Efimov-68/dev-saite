@@ -16,17 +16,20 @@ RabbitWeb.ru (main) for the Efimov RS
 		background-color: white;
 	}
 	/***HEADER open***/
-	#header{
+	#header,
+	#menu{
 		margin: 10px;
-		height: 70px;
+		height: 110px;
 		border-bottom: 1px solid black;
 	}
-	#header h2 a{
+	#header h2 a,
+	#menu h2 a{
 		color: lightblue;
 		text-decoration: none;
 		text-shadow: -1px 1px 1px lightblue;
 	}
-	#header h2 span{
+	#header h2 span,
+	#menu h2 span{
 		color: orange;
 		text-shadow: -1px 1px 1px orange;
 	}
@@ -48,16 +51,16 @@ RabbitWeb.ru (main) for the Efimov RS
 	/***HEADER end***/
 	/*******MENU********/
 	#menu ul{
-		background-color: rgba(0,0,0,0.7);
-		float: left;
+		float: right;
 		list-style: none;
 		height: auto;
-		width: 100px;
+		width: auto;
 		margin: 0px;
 		padding: 10px;
 	}
-	#menu li{
-		color: white;
+	#menu ul li{
+		float: left;
+		color: black;
 		text-align: center;
 		text-shadow: 0px 0px 1px grey;
 		margin: 0 10px 0 10px;
