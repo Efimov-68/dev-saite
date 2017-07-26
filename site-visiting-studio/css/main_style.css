@@ -108,12 +108,17 @@ RabbitWeb.ru (main) for the Efimov RS
 		width: 300px;
 		margin-bottom: 10%;
 	}
+	.Courses tr{
+		margin: 10px auto 5px auto;		
+	}
 	.Courses td,
 	.Learn td{
 		text-align: center;
 		background-color: white;
-		border: 1px solid black;
-		height: 40px;
+		border: 0px solid black;
+		border-radius: 5px 10px 10px 0;
+		box-shadow: 0 0 1px black;
+		height: auto;
 	}
 	.Courses td h5,
 	.Courses td h4,
@@ -353,6 +358,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		box-shadow: 1px 1px 2px black;
 		list-style-type: none;
 		text-align: center;
+		font-style: italic;
 	}
 	#sprites img{
 		width: 100px;
