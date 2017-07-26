@@ -94,6 +94,9 @@ RabbitWeb.ru (main) for the Efimov RS
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.Courses p{
+		padding: 10px;
+	}
 	.Courses div{
 		float: left;
 		margin: 10px;
@@ -277,6 +280,15 @@ RabbitWeb.ru (main) for the Efimov RS
 		margin-left: 5%;
 		margin-right: auto;
 		padding: 10px;
+	}
+	#javascript_info img{
+		border-radius: 20px;
+	}
+	#javascript_info .js-img li,
+	#javascript_info .js-img img{
+		width: auto;
+		max-width: 800px;
+		margin: 0 auto 0 auto;
 	}
 	.scratch-Green,
 	.scratch-Yellow{
