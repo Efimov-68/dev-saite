@@ -254,18 +254,24 @@ RabbitWeb.ru (main) for the Efimov RS
 	#python_programmer_info h3,
 	#scratch_info h1,
 	#scratch_info h2,
-	#scratch_info h3{
+	#scratch_info h3,
+	#javascript_info h1,
+	#javascript_info h2,
+	#javascript_info h3{
 		text-align: center;
 	}
-	#scratch_info div{
+	#scratch_info div,
+	#javascript_info div{
 		margin-top: 10%;
 	}
-	#scratch_info a{
+	#scratch_info a,
+	#javascript_info a{
 		color: black;
 	}
 	#web_developer_info img,
 	#scratch_info img,
-	#python_programmer_info img{
+	#python_programmer_info img,
+	#javascript_info img{
 		width: auto;
 		max-width: 1000px;
 		margin-left: 5%;
@@ -297,17 +303,20 @@ RabbitWeb.ru (main) for the Efimov RS
 		font-style: italic;
 	}
 	#scratchForm h4,
-	#python h4{
+	#python-form h4,
+	#javascript-form h4{
 		text-shadow: 1px 1px 1px white;
 	}
 	#scratchForm img,
-	#python img{
+	#python-form img,
+	#javascript-form img{
 		width: 50px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 	#scratchForm form,
-	#python form{
+	#python-form form,
+	#javascript-form form{
 		text-align: center;
 		width: auto;
 		max-width: 650px;
@@ -319,7 +328,8 @@ RabbitWeb.ru (main) for the Efimov RS
 		margin-right: auto;
 	}
 	#scratchForm input,
-	#python input{
+	#python-form input,
+	#javascript-form input{
 		height: 28px;
 		border: 2px solid blue;
 		border-radius: 5px 10px 10px 0;
@@ -327,14 +337,16 @@ RabbitWeb.ru (main) for the Efimov RS
 		box-shadow: 1px 1px 1px black;
 	}
 	#scratchForm input:hover,
-	#python input:hover{
+	#python-form input:hover,
+	#javascript-form input:hover{
 		height: 28px;
 		border: 2px solid orange;
 		border-radius: 3px 10px 10px 0;
 		margin: 5px;
 	}
 	#scratchForm .submit,
-	#python .submit{
+	#python-form .submit,
+	#javascript-form .submit{
 		background-color: orange;
 		border: 2px solid orange;
 		border-radius: 10px;
@@ -342,7 +354,8 @@ RabbitWeb.ru (main) for the Efimov RS
 		box-shadow: 1px 1px 1px black;
 	}
 	#scratchForm .submit:hover,
-	#python .submit:hover{
+	#python-form .submit:hover,
+	#javascript-form .submit:hover{
 		background-color: white;
 		border: 2px solid orange;
 		border-radius: 10px;
