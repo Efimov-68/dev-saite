@@ -99,13 +99,15 @@ RabbitWeb.ru (main) for the Efimov RS
 		margin: 10px;
 	}
 	.Courses table{
-		width: 1000px;
+		width: auto;
+		max-width: 1000px;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 10%;
 	}
 	.Learn table{
-		width: 300px;
+		width: auto;
+		max-width: 300px;
 		margin-bottom: 10%;
 	}
 	.Courses tr{
