@@ -13,7 +13,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		src: url(../fonts/KellySlab-Regular.ttf);
 	}
 	html{
-		background-color: lightyellow;
+		background-color: #e6e6ff;
 	}
 	/***HEADER open***/
 	#header,
@@ -157,6 +157,10 @@ RabbitWeb.ru (main) for the Efimov RS
 		width: 200px;
 		float: left;
 		padding: 10px;
+	}
+	.newSite a{
+		color: black;
+		line-height: 1,1em;
 	}
 	.newCourses a{
 		color: black;
