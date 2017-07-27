@@ -15,41 +15,21 @@ RabbitWeb.ru (main) for the Efimov RS
 	html{
 		background-color: #669999;
 	}
-	/***HEADER open***/
-	#header,
+	/*******MENU********/
 	#menu{
 		margin: 10px;
 		height: 110px;
 		border-bottom: 1px solid black;
 	}
-	#header h2 a,
 	#menu h2 a{
 		color: lightblue;
 		text-decoration: none;
 		text-shadow: -1px 1px 1px lightblue;
 	}
-	#header h2 span,
 	#menu h2 span{
 		color: orange;
 		text-shadow: -1px 1px 1px orange;
 	}
-	#header ul{
-		float: right;
-		list-style: none;
-		width: auto;
-	}
-	#header ul li{
-		float: left;
-		padding-left: 10px;
-	}
-	#header li a{
-		text-decoration: none;
-	}
-	#header a img{
-		width: 30px;
-	}
-	/***HEADER end***/
-	/*******MENU********/
 	#menu ul{
 		float: right;
 		list-style: none;
@@ -75,14 +55,14 @@ RabbitWeb.ru (main) for the Efimov RS
 	#menu a img{
 		padding: 10px;
 		width: auto;
-		max-width: 40px;
+		max-width: 30px;
 	}
 	/*****end MENU*****/
 	/***AllContent open***/
 	#allcontent{
 		width: auto;
 		max-width: 1000px;
-		margin: 0 auto 5% auto;
+		margin: 10% auto 5% auto;
 	}
 	#allcontent p{
 		line-height: 1.3em;
@@ -131,6 +111,36 @@ RabbitWeb.ru (main) for the Efimov RS
 	.Learn td h4{
 		color: black;
 	}
+	.Courses .coursesScratch{
+		background-color: #009933;
+	}
+	.Courses .coursesPython{
+		background-color: #cccc00;
+	}
+	.Courses .coursesJavaScript{
+		background-color: #e68a00;
+	}
+	.Courses .coursesScratch:hover{
+		background-color: lightblue;
+		text-align: center;
+		box-shadow: 0px 0px 3px black;
+		-webkit-transform: scale(1.01);
+		-moz-transform: scale(1.01);
+	}
+	.Courses .coursesPython:hover{
+		background-color: lightblue;
+		text-align: center;
+		box-shadow: 0px 0px 3px black;
+		-webkit-transform: scale(1.01);
+		-moz-transform: scale(1.01);
+	}
+	.Courses .coursesJavaScript:hover{
+		background-color: lightblue;
+		text-align: center;
+		box-shadow: 0px 0px 3px black;
+		-webkit-transform: scale(1.01);
+		-moz-transform: scale(1.01);
+	}
 	.Courses td a,
 	.Learn td a{
 		color: black;
@@ -138,11 +148,7 @@ RabbitWeb.ru (main) for the Efimov RS
 	}
 	.Courses td:hover,
 	.Learn td:hover{
-		background-color: lightblue;
-		text-align: center;
-		box-shadow: 0px 0px 3px black;
-		-moz-transform:scale(1.1);
-		-webkit-transform:scale(1.1);
+		
 	}
 	/***end Courses***/
 	/*newSite open*/
@@ -400,9 +406,9 @@ RabbitWeb.ru (main) for the Efimov RS
 		max-width: 800px;
 		margin: 0 auto 0 auto;
 		padding: 10px;
-		color: grey;
-		border-top: 1px solid grey;
-		border-bottom: 1px solid grey;
+		color: lightgrey;
+		border-top: 1px solid lightgrey;
+		border-bottom: 1px solid lightgrey;
 	}
 	#tableScratch table{
 		margin: 0 auto 0 auto;
