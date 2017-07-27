@@ -367,7 +367,8 @@ RabbitWeb.ru (main) for the Efimov RS
 	}
 	#scratchForm .submit,
 	#python-form .submit,
-	#javascript-form .submit{
+	#javascript-form .submit,
+	#resources-scratch .submit{
 		background-color: orange;
 		border: 2px solid orange;
 		border-radius: 10px;
@@ -376,7 +377,8 @@ RabbitWeb.ru (main) for the Efimov RS
 	}
 	#scratchForm .submit:hover,
 	#python-form .submit:hover,
-	#javascript-form .submit:hover{
+	#javascript-form .submit:hover,
+	#resources-scratch .submit:hover{
 		background-color: white;
 		border: 2px solid orange;
 		border-radius: 10px;
@@ -529,7 +531,18 @@ RabbitWeb.ru (main) for the Efimov RS
 		border-radius: 0 0 .5em 0;
 		display: none;
 	}
-	#resources .open {
+	#resources-scratch {
+		background-color: rgba(0,0,0,0.75);
+		padding: 0em 1em 1em .75em;
+		position: fixed;
+		top: 10em;
+		left: -39em;
+		width: 32em;
+		border-radius: 0 0 .5em 0;
+		display: none;
+	}
+	#resources .open,
+	#resources-scratch .open {
 		position: absolute;
 		width: 20px;
 		height: 20px;
@@ -543,7 +556,8 @@ RabbitWeb.ru (main) for the Efimov RS
 		color: rgb(255,255,255);
 		line-height: 100%;
 	}
-	#resources h2 {
+	#resources h2,
+	#resources-scratch h2 {
 		font-family: 'ColaborateBoldRegular', Arial, sans-serif;
 		font-size:18px;
 		text-transform:uppercase;
@@ -551,7 +565,8 @@ RabbitWeb.ru (main) for the Efimov RS
 		margin-top: 1em;
 		text-shadow: none;
 	}
-	#resources h3 {
+	#resources h3,
+	#resources-scratch h3 {
 		font-family: 'ColaborateMediumRegular', Arial, sans-serif;
 		font-size: 14px;
 		color: rgba(0,0,0,.8);
@@ -560,8 +575,28 @@ RabbitWeb.ru (main) for the Efimov RS
 	#resources ul {
 		margin: 5px 0 0 0;
 	}
-	#resources .nav a {
+	#resources .nav a,
+	#resources-scratch .nav a {
 		color: rgb(255,255,255);
 	}
+	/*FORM*/
+	#resources-scratch img{
+		margin-right: 0;
+		margin-left: 450px;
+	}
+	#resources-scratch form{
+		margin: -90px auto 0px 25%;
+	}
+	#resources-scratch input{
+		height: 28px;
+		margin: 0 auto 10px auto;
+		border: 2px solid blue;
+		border-radius: 5px;
+	}
+	h2.nav{
+		color: white;
+		text-align: center;
+	}
+	/*end FORm*/
 	/*************JS Panel-Animation end****************/
 } 
