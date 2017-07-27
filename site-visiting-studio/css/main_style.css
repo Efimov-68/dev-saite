@@ -112,7 +112,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		color: black;
 	}
 	.Courses .coursesScratch{
-		background-color: #009933;
+		background-color: rgba(0, 153, 51,0.3);
 	}
 	.Courses .coursesPython{
 		background-color: #cccc00;
