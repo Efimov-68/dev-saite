@@ -368,7 +368,9 @@ RabbitWeb.ru (main) for the Efimov RS
 	#scratchForm .submit,
 	#python-form .submit,
 	#javascript-form .submit,
-	#resources-scratch .submit{
+	#resources .submit,
+	#resources-scratch .submit,
+	#resources-python .submit{
 		background-color: orange;
 		border: 2px solid orange;
 		border-radius: 10px;
@@ -378,7 +380,9 @@ RabbitWeb.ru (main) for the Efimov RS
 	#scratchForm .submit:hover,
 	#python-form .submit:hover,
 	#javascript-form .submit:hover,
-	#resources-scratch .submit:hover{
+	#resources .submit:hover,
+	#resources-scratch .submit:hover,
+	#resources-python .submit:hover{
 		background-color: white;
 		border: 2px solid orange;
 		border-radius: 10px;
@@ -521,18 +525,10 @@ RabbitWeb.ru (main) for the Efimov RS
 		background-color: rgba(255,255,255,.85);
 		color: rgb(0,0,0);
 	}
-	#resources {
-		background-color: rgba(0,0,0,0.75);
-		padding: 0em 1em 1em .75em;
-		position: fixed;
-		top: 10em;
-		left: -39em;
-		width: 29em;
-		border-radius: 0 0 .5em 0;
-		display: none;
-	}
-	#resources-scratch {
-		background-color: rgba(0,0,0,0.75);
+	#resources,
+	#resources-scratch,
+	#resources-python {
+		background-color: rgba(0,0,0,0.5);
 		padding: 0em 1em 1em .75em;
 		position: fixed;
 		top: 10em;
@@ -542,7 +538,8 @@ RabbitWeb.ru (main) for the Efimov RS
 		display: none;
 	}
 	#resources .open,
-	#resources-scratch .open {
+	#resources-scratch .open,
+	#resources-python .open {
 		position: absolute;
 		width: 20px;
 		height: 20px;
@@ -557,7 +554,8 @@ RabbitWeb.ru (main) for the Efimov RS
 		line-height: 100%;
 	}
 	#resources h2,
-	#resources-scratch h2 {
+	#resources-scratch h2,
+	#resources-python h2 {
 		font-family: 'ColaborateBoldRegular', Arial, sans-serif;
 		font-size:18px;
 		text-transform:uppercase;
@@ -566,7 +564,8 @@ RabbitWeb.ru (main) for the Efimov RS
 		text-shadow: none;
 	}
 	#resources h3,
-	#resources-scratch h3 {
+	#resources-scratch h3,
+	#resources-python h3 {
 		font-family: 'ColaborateMediumRegular', Arial, sans-serif;
 		font-size: 14px;
 		color: rgba(0,0,0,.8);
@@ -576,21 +575,29 @@ RabbitWeb.ru (main) for the Efimov RS
 		margin: 5px 0 0 0;
 	}
 	#resources .nav a,
-	#resources-scratch .nav a {
+	#resources-scratch .nav a,
+	#resources-python .nav a {
 		color: rgb(255,255,255);
 	}
 	/*FORM*/
-	#resources-scratch img{
+	#resources img,
+	#resources-scratch img,
+	#resources-python img{
+		width: 70px;
 		margin-right: 0;
 		margin-left: 450px;
 	}
-	#resources-scratch form{
-		margin: -90px auto 0px 25%;
+	#resources form,
+	#resources-scratch form,
+	#resources-python form{
+		margin: -70px auto 0px 25%;
 	}
-	#resources-scratch input{
+	#resources input,
+	#resources-scratch input,
+	#resources-python input{
 		height: 28px;
 		margin: 0 auto 10px auto;
-		border: 2px solid blue;
+		border: 0px ridge blue;
 		border-radius: 5px;
 	}
 	h2.nav{
