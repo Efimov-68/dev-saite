@@ -378,7 +378,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		border: 2px solid orange;
 		border-radius: 10px;
 		text-shadow: 1px 1px 0.5px black;
-		box-shadow: 2px 3px 2px black;
+		box-shadow: 2px 3px 1px darkorange;
 	}
 	#scratchForm .submit:hover,
 	#python-form .submit:hover,
@@ -390,6 +390,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		border: 2px solid orange;
 		border-radius: 10px;
 		box-shadow: none;
+		text-shadow: none;
 	}
 	#sprites{
 		width: auto;
@@ -536,7 +537,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		position: fixed;
 		top: 10em;
 		left: -39em;
-		width: 32em;
+		width: 30em;
 		border-radius: 0 0 .5em 0;
 		display: none;
 	}
@@ -555,6 +556,11 @@ RabbitWeb.ru (main) for the Efimov RS
 		cursor: pointer;
 		color: rgb(255,255,255);
 		line-height: 100%;
+	}
+	#resources .open:hover,
+	#resources-scratch .open:hover,
+	#resources-python .open:hover {
+		background-color: #00cc00;
 	}
 	#resources h2,
 	#resources-scratch h2,
@@ -588,7 +594,7 @@ RabbitWeb.ru (main) for the Efimov RS
 	#resources-python img{
 		width: 70px;
 		margin-right: 0;
-		margin-left: 450px;
+		margin-left: 420px;
 	}
 	#resources form,
 	#resources-scratch form,
