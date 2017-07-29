@@ -13,7 +13,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		src: url(../fonts/KellySlab-Regular.ttf);
 	}
 	html{
-		background-color: #669999;
+		background-color: #ebfafa;
 	}
 	
 	/*******MENU********/
@@ -23,9 +23,9 @@ RabbitWeb.ru (main) for the Efimov RS
 		border-bottom: 1px solid black;
 	}
 	#menu h2{
-		color: lightblue;
+		color: #005580;
 		text-decoration: none;
-		text-shadow: -1px 1px 1px lightblue;
+		text-shadow: -1px 1px 1px #005580;
 	}
 	#menu h2 span{
 		color: orange;
@@ -99,7 +99,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		text-align: center;
 		background-color: white;
 		border: 0px solid black;
-		border-radius: 5px 10px 10px 0;
+		border-radius: 20px;
 		height: auto;
 	}
 	.Courses td h5,
@@ -114,6 +114,9 @@ RabbitWeb.ru (main) for the Efimov RS
 	}
 	.Courses .coursesJavaScript{
 		background-color: rgba(230, 138, 0,0.5);
+	}
+	.Courses .coursesSwift{
+		background-color: rgba(153, 0, 0,0.5);
 	}
 	.Courses .coursesScratch:hover{
 		background-color: rgb(0, 153, 51);
@@ -136,9 +139,24 @@ RabbitWeb.ru (main) for the Efimov RS
 		-webkit-transform: scale(1.01);
 		-moz-transform: scale(1.01);
 	}
+	.Courses .coursesSwift:hover{
+		background-color: rgb(230, 92, 0);
+		text-align: center;
+		box-shadow: 2px 2px 3px black;
+		-webkit-transform: scale(1.01);
+		-moz-transform: scale(1.01);
+	}
 	.Courses td a{
 		color: black;
 		text-decoration: none;
+	}
+	td img.betaimgL{
+		width: 80px;
+		margin: -4px 843px -60px -900px;
+	}
+	td img.betaimgR{
+		width: 80px;
+		margin: -4px -900px -60px auto;
 	}
 	/***end Courses***/
 	/*Price-list start*/
@@ -458,9 +476,9 @@ RabbitWeb.ru (main) for the Efimov RS
 		border-top: 1px solid black;
 	}
 	#footer h2 a{
-		color: lightblue;
+		color: #005580;
 		text-decoration: none;
-		text-shadow: -1px 1px 1px lightblue;
+		text-shadow: -1px 1px 1px #005580;
 	}
 	#footer h2 span{
 		color: orange;
