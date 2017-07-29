@@ -18,9 +18,12 @@ RabbitWeb.ru (main) for the Efimov RS
 	
 	/*******MENU********/
 	#menu{
-		margin: 10px;
+		background-color: #e6e6ff;
+		padding: 10px;
 		height: 110px;
-		border-bottom: 1px solid black;
+		border-bottom: 0px solid black;
+		box-shadow: 0 1px 1px black;
+		border-radius: 5px 5px 15px 15px;
 	}
 	#menu h2{
 		color: #005580;
@@ -139,13 +142,13 @@ RabbitWeb.ru (main) for the Efimov RS
 		-webkit-transform: scale(1.01);
 		-moz-transform: scale(1.01);
 	}
-	.Courses .coursesSwift:hover{
+	/*.Courses .coursesSwift:hover{
 		background-color: rgb(230, 92, 0);
 		text-align: center;
 		box-shadow: 2px 2px 3px black;
 		-webkit-transform: scale(1.01);
 		-moz-transform: scale(1.01);
-	}
+	}*/
 	.Courses td a{
 		color: black;
 		text-decoration: none;
@@ -438,9 +441,9 @@ RabbitWeb.ru (main) for the Efimov RS
 		max-width: 800px;
 		margin: 0 auto 0 auto;
 		padding: 10px;
-		color: lightgrey;
-		border-top: 1px solid lightgrey;
-		border-bottom: 1px solid lightgrey;
+		color: grey;
+		border-top: 1px solid grey;
+		border-bottom: 1px solid grey;
 	}
 	#tableScratch table{
 		margin: 0 auto 0 auto;
@@ -473,9 +476,11 @@ RabbitWeb.ru (main) for the Efimov RS
 
 	/*FOOTER open*/
 	#footer{
-		margin: 10px;
-		height: 70px;
-		border-top: 1px solid black;
+		background-color: #e6e6ff;
+		border-top: 0px solid black;
+		border-radius: 15px 15px 5px 5px;
+		box-shadow: 0 1px 1px black;
+		padding: 10px;
 	}
 	#footer h2 a{
 		color: #005580;
