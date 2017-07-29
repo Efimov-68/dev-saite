@@ -13,7 +13,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		src: url(../fonts/KellySlab-Regular.ttf);
 	}
 	html{
-		background-color: #ebfafa;
+		background-color: #ffffff;
 	}
 	
 	/*******MENU********/
@@ -160,15 +160,17 @@ RabbitWeb.ru (main) for the Efimov RS
 	}
 	/***end Courses***/
 	/*Price-list start*/
-	.Price-learning ul{
-		float: left;
+	.Price-learning table{
+		border: 0px solid black;
 	}
-	.Price-learning li{
-		float: left;
+	.Price-learning th{
+		border-bottom: 1px solid black;
+	}
+	.Price-learning td{
 		padding: 10px;
 		margin: 10px;
-		border: 2px solid black;
-		list-style-type: none;
+		border-left: 0px solid black;
+		border-right: 0px solid black;
 	}
 	/*end Price-list*/
 	/*newSite open*/
