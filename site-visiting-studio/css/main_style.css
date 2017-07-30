@@ -561,8 +561,8 @@ RabbitWeb.ru (main) for the Efimov RS
 		position: fixed;
 		top: 10em;
 		left: -39em;
-		width: 30em;
-		border-radius: 0 0 .5em 0;
+		width: 32em;
+		border-radius: 0 .5em .5em 0;
 		display: none;
 	}
 	#resources .open,
@@ -574,7 +574,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		right: 0px;
 		top: -16px;
 		background-color: green/*rgba(100,100,100,0.8)*/;
-		border-radius: .5em 0;
+		border-radius: 0 .5em;
 		text-align: center;
 		font-family: 'ColaborateBoldRegular', Arial, sans-serif;
 		cursor: pointer;
@@ -595,6 +595,8 @@ RabbitWeb.ru (main) for the Efimov RS
 		text-align: center;
 		color: rgba(255,255,255,0.98);
 		margin-top: 1em;
+		margin-right: auto;
+		margin-left: auto;
 		text-shadow: none;
 	}
 	#resources h3,
@@ -619,7 +621,7 @@ RabbitWeb.ru (main) for the Efimov RS
 	#resources-python img{
 		width: 70px;
 		margin-right: 0;
-		margin-left: 420px;
+		margin-left: 455px;
 	}
 	#resources form,
 	#resources-scratch form,
@@ -630,6 +632,7 @@ RabbitWeb.ru (main) for the Efimov RS
 	#resources-scratch input,
 	#resources-python input{
 		height: 28px;
+		width: 150px;
 		margin: 0 auto 10px auto;
 		border: 0px outset blue;
 		border-radius: 10px;
