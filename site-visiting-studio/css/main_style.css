@@ -18,7 +18,7 @@ RabbitWeb.ru (main) for the Efimov RS
 	
 	/*******MENU********/
 	#menu{
-		background-color: #e6e6ff;
+		background-color: #f2f2f2;
 		padding: 10px;
 		height: 110px;
 		border-bottom: 0px solid black;
@@ -474,7 +474,7 @@ RabbitWeb.ru (main) for the Efimov RS
 
 	/*FOOTER open*/
 	#footer{
-		background-color: #e6e6ff;
+		background-color: #f2f2f2;
 		border-top: 0px solid black;
 		border-radius: 15px 15px 5px 5px;
 		box-shadow: 0 1px 1px black;
@@ -556,7 +556,7 @@ RabbitWeb.ru (main) for the Efimov RS
 	#resources,
 	#resources-scratch,
 	#resources-python {
-		background-color: rgba(0,0,0,0.79);
+		background-color: rgba(0,0,0,0.3);
 		padding: 0em 1em 1em .75em;
 		position: fixed;
 		top: 10em;
@@ -592,7 +592,8 @@ RabbitWeb.ru (main) for the Efimov RS
 		font-family: 'ColaborateBoldRegular', Arial, sans-serif;
 		font-size:18px;
 		text-transform:uppercase;
-		color: rgb(255,255,255);
+		text-align: center;
+		color: rgba(0,0,0,0.5);
 		margin-top: 1em;
 		text-shadow: none;
 	}
@@ -632,10 +633,6 @@ RabbitWeb.ru (main) for the Efimov RS
 		margin: 0 auto 10px auto;
 		border: 0px outset blue;
 		border-radius: 10px;
-	}
-	h2.nav{
-		color: white;
-		text-align: center;
 	}
 	/*end FORm*/
 	/*************JS Panel-Animation end****************/
