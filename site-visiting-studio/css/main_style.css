@@ -395,9 +395,9 @@ RabbitWeb.ru (main) for the Efimov RS
 	#resources-python .submit{
 		background-color: orange;
 		border: 2px solid orange;
+		border-radius: 10px;
 		width: auto;
 		margin: 10px;
-		border-radius: 10px;
 		text-shadow: 1px 1px 0.3px black;
 		box-shadow: 2px 2px 1px #b37400;
 	}
@@ -410,6 +410,8 @@ RabbitWeb.ru (main) for the Efimov RS
 		background-color: orange;
 		border: 2px solid orange;
 		border-radius: 10px;
+		width: auto;
+		margin: 10px;
 		box-shadow: none;
 		text-shadow: none;
 	}
