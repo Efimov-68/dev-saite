@@ -74,18 +74,31 @@ $(document).ready(function() {
 	});
 }); // end ready
 $(document).ready(function(){
-	$('#info-scratch-learn').hide();
+	$('#info-scratch-easy').hide();
+	$('#info-scratch-middle').hide();
 	$('#info-python-easy').hide();
 	$('#info-python-middle').hide();
+	$('#info-python-mashine').hide();
+	$('#info-javascript-easy').hide();
 	$('#info-javascript-middle').hide();
 	//end .hide
-	$('#scratch-learn').click(function(){
-    	var $scratchLearn = $(this).next('#info-scratch-learn');
-    	if ($scratchLearn.is(':hidden')) {
-    		$scratchLearn.slideDown(300);
+	$('#scratch-easy').click(function(){
+    	var $scratchEasy = $(this).next('#info-scratch-easy');
+    	if ($scratchEasy.is(':hidden')) {
+    		$scratchEasy.slideDown(300);
     		$(this).addClass('close');
     	}else{
-    		$scratchLearn.slideUp(300);
+    		$scratchEasy.slideUp(300);
+    		$(this).removeClass('close');
+    	}
+	});
+	$('#scratch-middle').click(function(){
+    	var $scratchMiddle = $(this).next('#info-scratch-middle');
+    	if ($scratchMiddle.is(':hidden')) {
+    		$scratchMiddle.slideDown(300);
+    		$(this).addClass('close');
+    	}else{
+    		$scratchMiddle.slideUp(300);
     		$(this).removeClass('close');
     	}
 	});
@@ -106,6 +119,26 @@ $(document).ready(function(){
     		$(this).addClass('close');
     	}else{
     		$pythonMiddle.slideUp(300);
+    		$(this).removeClass('close');
+    	}
+	});
+	$('#python-mashine').click(function(){
+    	var $pythonMashine = $(this).next('#info-python-mashine');
+    	if ($pythonMashine.is(':hidden')) {
+    		$pythonMashine.slideDown(300);
+    		$(this).addClass('close');
+    	}else{
+    		$pythonMashine.slideUp(300);
+    		$(this).removeClass('close');
+    	}
+	});
+	$('#javascript-easy').click(function(){
+    	var $javascriptEasy = $(this).next('#info-javascript-easy');
+    	if ($javascriptEasy.is(':hidden')) {
+    		$javascriptEasy.slideDown(300);
+    		$(this).addClass('close');
+    	}else{
+    		$javascriptEasy.slideUp(300);
     		$(this).removeClass('close');
     	}
 	});

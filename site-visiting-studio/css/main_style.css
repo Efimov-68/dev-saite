@@ -125,23 +125,23 @@ RabbitWeb.ru (main) for the Efimov RS
 	.Courses .coursesScratch:hover{
 		background-color: rgb(0, 153, 51);
 		text-align: center;
-		box-shadow: 2px 2px 3px black;
-		-webkit-transform: scale(1.01);
-		-moz-transform: scale(1.01);
+		box-shadow: 0px 0px 3px black;
+		/*-webkit-transform: scale(1.01);
+		-moz-transform: scale(1.01);*/
 	}
 	.Courses .coursesPython:hover{
 		background-color: rgb(204, 204, 0);
 		text-align: center;
-		box-shadow: 2px 2px 3px black;
-		-webkit-transform: scale(1.01);
-		-moz-transform: scale(1.01);
+		box-shadow: 0px 0px 3px black;
+		/*-webkit-transform: scale(1.01);
+		-moz-transform: scale(1.01);*/
 	}
 	.Courses .coursesJavaScript:hover{
 		background-color: rgb(230, 138, 0);
 		text-align: center;
-		box-shadow: 2px 2px 3px black;
-		-webkit-transform: scale(1.01);
-		-moz-transform: scale(1.01);
+		box-shadow: 0px 0px 3px black;
+		/*-webkit-transform: scale(1.01);
+		-moz-transform: scale(1.01);*/
 	}
 	/*.Courses .coursesSwift:hover{
 		background-color: rgb(230, 92, 0);
@@ -171,7 +171,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		border: 0px solid black;
 	}
 	.Price-learning th{
-		border-bottom: 1px solid black;
+		border-top: 1px solid black;
 	}
 	.Price-learning td{
 		padding: 10px;
@@ -374,17 +374,17 @@ RabbitWeb.ru (main) for the Efimov RS
 	#python-form input,
 	#javascript-form input{
 		height: 28px;
+		width: 200px;
+		margin: 5px;
 		border: 2px solid blue;
 		border-radius: 5px 10px 10px 0;
-		margin: 5px;
-		box-shadow: 1px 1px 1px black;
 	}
 	#scratchForm input:hover,
 	#python-form input:hover,
 	#javascript-form input:hover{
 		height: 28px;
 		border: 2px solid orange;
-		border-radius: 3px 10px 10px 0;
+		border-radius: 5px 10px 10px 0;
 		margin: 5px;
 	}
 	#scratchForm .submit,
@@ -395,6 +395,7 @@ RabbitWeb.ru (main) for the Efimov RS
 	#resources-python .submit{
 		background-color: orange;
 		border: 2px solid orange;
+		width: auto;
 		border-radius: 10px;
 		text-shadow: 1px 1px 0.3px black;
 		box-shadow: 2px 2px 1px #b37400;
@@ -637,7 +638,8 @@ RabbitWeb.ru (main) for the Efimov RS
 	/****CHECKBOX*****/
 	.checkbox {
 		position:relative;
-		padding-left:25px;
+		padding: 0 50px 0 50px;
+		font-size: 0.8em;
 	}
 	.checkbox input[type=checkbox] {
 		display:none;
@@ -650,7 +652,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		outline:1px solid #939598;
 		position:absolute;
 		top:0;
-		left:0;
+		left:auto;
 	}
 	.checkbox input[type=checkbox]:checked + label:after {
 		outline:1px solid #939598;
