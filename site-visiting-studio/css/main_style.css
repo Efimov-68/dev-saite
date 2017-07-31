@@ -19,11 +19,12 @@ RabbitWeb.ru (main) for the Efimov RS
 	/*******MENU********/
 	#menu{
 		background-color: #f2f2f2;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 90px;
 		padding: 10px;
-		height: 110px;
-		border-bottom: 0px solid black;
-		box-shadow: 0 1px 1px black;
-		border-radius: 5px 5px 15px 15px;
 	}
 	#menu h2{
 		color: #005580;
@@ -68,7 +69,7 @@ RabbitWeb.ru (main) for the Efimov RS
 	#allcontent{
 		width: auto;
 		max-width: 1000px;
-		margin: 10% auto 5% auto;
+		margin: 15% auto 5% auto;
 	}
 	#allcontent p{
 		line-height: 1.3em;
@@ -163,6 +164,9 @@ RabbitWeb.ru (main) for the Efimov RS
 	}
 	/***end Courses***/
 	/*Price-list start*/
+	.Price-learning {
+		margin: 20px;
+	}
 	.Price-learning table{
 		border: 0px solid black;
 	}
@@ -349,11 +353,6 @@ RabbitWeb.ru (main) for the Efimov RS
 		text-align: center;
 		font-style: italic;
 	}
-	#scratchForm h4,
-	#python-form h4,
-	#javascript-form h4{
-		text-shadow: 1px 1px 1px white;
-	}
 	#scratchForm img,
 	#python-form img,
 	#javascript-form img{
@@ -367,9 +366,6 @@ RabbitWeb.ru (main) for the Efimov RS
 		text-align: center;
 		width: auto;
 		max-width: 650px;
-		border: 3px solid white;
-		border-radius: 10px;
-		box-shadow: 0 0 5px black;
 		padding: 10px;
 		margin-left: auto;
 		margin-right: auto;
@@ -400,8 +396,8 @@ RabbitWeb.ru (main) for the Efimov RS
 		background-color: orange;
 		border: 2px solid orange;
 		border-radius: 10px;
-		text-shadow: 1px 1px 0.5px black;
-		box-shadow: 2px 3px 1px darkorange;
+		text-shadow: 1px 1px 0.3px black;
+		box-shadow: 2px 2px 1px #b37400;
 	}
 	#scratchForm .submit:hover,
 	#python-form .submit:hover,
@@ -475,9 +471,7 @@ RabbitWeb.ru (main) for the Efimov RS
 	/*FOOTER open*/
 	#footer{
 		background-color: #f2f2f2;
-		border-top: 0px solid black;
-		border-radius: 15px 15px 5px 5px;
-		box-shadow: 0 1px 1px black;
+		width: auto;
 		margin-top: 10px;
 		padding: 10px;
 	}
@@ -636,7 +630,34 @@ RabbitWeb.ru (main) for the Efimov RS
 		margin: 0 auto 10px auto;
 		border: 0px outset blue;
 		border-radius: 10px;
+		box-shadow: 2px 2px 1px lightgrey;
 	}
 	/*end FORm*/
 	/*************JS Panel-Animation end****************/
+	/****CHECKBOX*****/
+	.checkbox {
+		position:relative;
+		padding-left:25px;
+	}
+	.checkbox input[type=checkbox] {
+		display:none;
+	}
+	.checkbox label:after {
+		content:'';
+		display:block;
+		height:14px;
+		width:14px;
+		outline:1px solid #939598;
+		position:absolute;
+		top:0;
+		left:0;
+	}
+	.checkbox input[type=checkbox]:checked + label:after {
+		outline:1px solid #939598;
+		border:2px solid #fff;
+		width:10px;
+		height:10px;
+		background-color:#63849F;
+	}
+	/***end CHECKBOX***/
 } 
