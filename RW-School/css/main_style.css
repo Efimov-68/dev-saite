@@ -2,18 +2,20 @@
 RabbitWeb.ru (main) for the Efimov RS
 ************************************/
 /*@media all and(min-width: 1025px){*/
-	@font-face{
-		font-family: Pangolin-Regular;
-		font-family: Neucha;
-		font-family: Comfortaa-Regular;
-		font-family: KellySlab-Regular;
-		src: url(../fonts/Pangolin-Regular.ttf);
-		src: url(../fonts/Neucha.ttf);
-		src: url(../fonts/Comfortaa-Regular.ttf);
-		src: url(../fonts/KellySlab-Regular.ttf);
+	@font-face {
+		font-family: Bulgaria_Bourgas_Cyr;
+		font-family: DS_Pixel_Cyr;
+		font-family: Minecraft_1_1;
+		src: url(../fonts/Bulgaria_Bourgas_Cyr.ttf);
+		src: url(../fonts/DS_Pixel_Cyr.ttf);
+		src: url(../fonts/Minecraft_1_1.ttf);
 	}
-	html{
+	html {
 		background-color: #ffffff;
+		font-family: helvetica;
+	}
+	h1,h2,h3 {
+		font-family: Minecraft_1_1;
 	}
 	
 	/*******MENU********/
