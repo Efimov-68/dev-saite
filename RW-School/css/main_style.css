@@ -179,6 +179,19 @@ RabbitWeb.ru (main) for the Efimov RS
 		border-left: 0px solid black;
 		border-right: 0px solid black;
 	}
+	.Price-learning li#scratch-easy,
+	.Price-learning li#scratch-middle,
+	.Price-learning li#python-easy,
+	.Price-learning li#python-middle,
+	.Price-learning li#python-mashine,
+	.Price-learning li#javascript-easy,
+	.Price-learning li#javascript-middle {
+		background-image: url(../images/down.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		padding: 10px 25px 10px 25px;
+		cursor: pointer; 
+	}
 	/*end Price-list*/
 	/*newSite open*/
 	.newInfo,
@@ -455,6 +468,42 @@ RabbitWeb.ru (main) for the Efimov RS
 		max-width: 800px;
 		margin: 0 auto 0 auto;
 	}
+	/***SCHEDULE start***/
+	#schedule {
+		background-color: #f0f5f5;
+		padding: 10px;
+		border-radius: 5px;
+	}
+	/***end SCHEDULE***/
+	/***FAQ start***/
+	#faq {
+		background-color: #e6f7ff;
+		padding: 10px;
+		margin: 10px;
+		border-radius: 5px;
+	}
+	#faq div {
+		background-color: #ffffff;
+		border-radius: 5px;
+	}
+	#faq div h3 {
+		background-image: url(../images/open.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-color: #b3e7ff;
+		padding: 10px 25px 10px 25px;
+		cursor: pointer;
+	}
+	#faq div p {
+		padding: 5px;
+	}
+	#faq div h3.close {
+		background-image: url(../images/close.png);
+		background-repeat: no-repeat;
+		background-color: #b3e7ff;
+	}
+	/***end FAQ***/
+
 	/*AllContent end*/
 
 	/***REGFORM open***/
