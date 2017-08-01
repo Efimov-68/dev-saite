@@ -170,9 +170,6 @@ RabbitWeb.ru (main) for the Efimov RS
 	.Price-learning table{
 		border: 0px solid black;
 	}
-	.Price-learning th{
-		border-top: 1px solid black;
-	}
 	.Price-learning td{
 		padding: 10px;
 		margin: 10px;
@@ -191,6 +188,26 @@ RabbitWeb.ru (main) for the Efimov RS
 		background-position: left;
 		padding: 10px 25px 10px 25px;
 		cursor: pointer; 
+	}
+	.Price-learning .submit{
+		background-color: white;
+		border: 2px solid darkcyan;
+		border-radius: 6px;
+		width: 100px;
+		height: 28px;
+		margin: 10px;
+		text-shadow: 1px 1px 0.3px lightgrey;
+		box-shadow: 2px 2px 1px grey;
+	}
+	.Price-learning .submit:hover{
+		background-color: darkcyan;
+		border-radius: 6px;
+		width: 100px;
+		height: 28px;
+		margin: 10px;
+		box-shadow: 0 0 2px grey;
+		color: white;
+		text-shadow: 0 0 1px lightgrey;
 	}
 	/*end Price-list*/
 	/*newSite open*/
@@ -221,84 +238,6 @@ RabbitWeb.ru (main) for the Efimov RS
 		line-height: 1,1em;
 	}
 	/*newSite end*/
-
-	/*Block open*/
-	.block{
-		float: left;
-		margin-top: 15%;
-		padding: 10px;
-	}
-	.block img{
-		background-color: grey;
-		border: 1px solid black;
-		width: 200px;
-		height: auto;
-	}
-	/*Block end*/
-
-	/***NEXTPAGEPREV open***/
-	#nextPagePrev{
-		width: auto;
-		max-width: 1000px;
-	}
-	#nextPagePrev p{
-		margin: 0% auto 0 30%;
-	}
-	#nextPagePrev p a{
-		color: grey;
-		padding: 5px;
-		text-decoration: none;
-	}
-	#nextPagePrev p a:hover{
-		color: black;
-		background-color: grey;
-	}
-	/***end NEXTPAGEPREV***/
-
-	/***POSTS open***/
-	.posts_new{
-		margin: 0 auto 10% auto;
-		height: auto;
-	}
-	.posts_new div,
-	.posts_old div{
-		float: left;
-		padding: 10px;
-	}
-	.posts_old div{
-		margin-top: 5%;
-	}
-	.posts_new a,
-	.posts_old a{
-		color: black;
-		text-decoration:none;
-	}
-	.posts_new img,
-	.posts_old img{
-		width: auto;
-		max-width: 250px;
-	}
-	#submitPosts{
-		background-color: grey;
-		width: 250px;
-		height: 380px;
-	}
-	#submitPosts p{
-		text-align: center;
-		padding-top: 130px;
-	}
-	#submitPosts input{
-		border: 2px solid lightgreen;
-		border-radius: 10px;
-		height: 30px;
-	}
-	#submitPosts input:hover{
-		background-color: lightgreen;
-		border: 2px solid green;
-		border-radius: 10px;
-		height: 30px;
-	}
-	/***end POSTS***/
 
 	#web_developer_info h1,
 	#web_developer_info h2,
@@ -405,28 +344,29 @@ RabbitWeb.ru (main) for the Efimov RS
 	#javascript-form .submit,
 	#resources .submit,
 	#resources-scratch .submit,
-	#resources-python .submit{
+	#resources-python .submit {
 		background-color: orange;
 		border: 2px solid orange;
 		border-radius: 10px;
 		width: auto;
 		margin: 10px;
 		text-shadow: 1px 1px 0.3px black;
-		box-shadow: 2px 2px 1px #b37400;
+		box-shadow: 2.1px 2.1px 1px #b37400;
 	}
 	#scratchForm .submit:hover,
 	#python-form .submit:hover,
 	#javascript-form .submit:hover,
 	#resources .submit:hover,
 	#resources-scratch .submit:hover,
-	#resources-python .submit:hover{
+	#resources-python .submit:hover {
 		background-color: orange;
 		border: 2px solid orange;
 		border-radius: 10px;
 		width: auto;
 		margin: 10px;
-		box-shadow: none;
-		text-shadow: none;
+		box-shadow: 0 0 2px white;
+		color: white;
+		text-shadow: 0 0 1px lightgrey;
 	}
 	#sprites{
 		width: auto;
@@ -474,6 +414,9 @@ RabbitWeb.ru (main) for the Efimov RS
 		padding: 10px;
 		border-radius: 5px;
 	}
+	#schedule th {
+		border-bottom: 1px solid black;
+	}
 	/***end SCHEDULE***/
 	/***FAQ start***/
 	#faq {
@@ -491,8 +434,9 @@ RabbitWeb.ru (main) for the Efimov RS
 		background-repeat: no-repeat;
 		background-position: left;
 		background-color: #b3e7ff;
-		padding: 10px 25px 10px 25px;
+		padding: 10px 25px 10px 45px;
 		cursor: pointer;
+		border-radius: 5px;
 	}
 	#faq div p {
 		padding: 5px;
@@ -501,6 +445,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		background-image: url(../images/close.png);
 		background-repeat: no-repeat;
 		background-color: #b3e7ff;
+		border-radius: 5px 5px 0 0;
 	}
 	/***end FAQ***/
 
