@@ -1,7 +1,7 @@
 /************************************
 RabbitWeb-School.ru (big) for the Efimov RS
 ************************************/
-@media all and(min-width: 1025px){
+@media all and (min-width: 1025px) {
 	@font-face {
 		font-family: Bulgaria_Bourgas_Cyr;
 		font-family: DS_Pixel_Cyr;
@@ -116,41 +116,39 @@ RabbitWeb-School.ru (big) for the Efimov RS
 	.Courses .coursesScratch{
 		background-color: rgba(0, 153, 51,0.3);
 	}
-	.Courses .coursesPython{
+	.Courses .coursesPython {
 		background-color: rgba(204, 204, 0,0.5);
 	}
-	.Courses .coursesJavaScript{
+	.Courses .coursesJavaScript {
 		background-color: rgba(230, 138, 0,0.5);
 	}
-	.Courses .coursesSwift{
+	.Courses .coursesSwift {
 		background-color: rgba(153, 0, 0,0.5);
 	}
-	.Courses .coursesScratch:hover{
+	.Courses .coursesScratch:hover {
 		background-color: rgb(0, 153, 51);
 		text-align: center;
 		box-shadow: 0px 0px 3px black;
-		/*-webkit-transform: scale(1.01);
-		-moz-transform: scale(1.01);*/
 	}
-	.Courses .coursesPython:hover{
+	.Courses .coursesPython:hover {
 		background-color: rgb(204, 204, 0);
 		text-align: center;
 		box-shadow: 0px 0px 3px black;
 	}
-	.Courses .coursesJavaScript:hover{
+	.Courses .coursesJavaScript:hover {
 		background-color: rgb(230, 138, 0);
 		text-align: center;
 		box-shadow: 0px 0px 3px black;
 	}
-	.Courses td a{
+	.Courses td a {
 		color: black;
 		text-decoration: none;
 	}
-	td img.betaimgL{
+	td img.betaimgL {
 		width: 80px;
 		margin: -4px 843px -60px -900px;
 	}
-	td img.betaimgR{
+	td img.betaimgR {
 		width: 80px;
 		margin: -4px -900px -60px auto;
 	}
@@ -159,10 +157,10 @@ RabbitWeb-School.ru (big) for the Efimov RS
 	.Price-learning {
 		margin: 20px;
 	}
-	.Price-learning table{
+	.Price-learning table {
 		border-radius: 5px;
 	}
-	.Price-learning td{
+	.Price-learning td {
 		padding: 10px;
 		margin: 10px;
 		border-left: 0px solid black;
@@ -200,7 +198,7 @@ RabbitWeb-School.ru (big) for the Efimov RS
 		font-size: 21px;
 		text-shadow: none;
 	}
-	.Price-learning .submit{
+	.Price-learning .submit {
 		background-color: white;
 		border: 2px solid darkcyan;
 		border-radius: 6px;
@@ -210,7 +208,7 @@ RabbitWeb-School.ru (big) for the Efimov RS
 		text-shadow: 1px 1px 0.3px lightgrey;
 		box-shadow: 2px 2px 1px grey;
 	}
-	.Price-learning .submit:hover{
+	.Price-learning .submit:hover {
 		background-color: darkcyan;
 		border-radius: 6px;
 		width: 100px;
@@ -222,30 +220,22 @@ RabbitWeb-School.ru (big) for the Efimov RS
 	}
 	/*end Price-list*/
 	/*newSite open*/
-	.newInfo,
-	.newCourses{
+	.newInfo {
 		width: auto;
 		max-width: 1000px;
 		margin-bottom: 10%;
 	}
-	.newInfo div,
-	.newCourses div{
+	.newInfo div {
 		float: left;
 		padding: 10px;
 	}
-	.newInfo img,
-	.newCourses img{
+	.newInfo img {
 		width: 200px;
 		float: left;
 		padding: 10px;
 	}
-	.newSite a{
+	.newSite a {
 		color: black;
-		line-height: 1,1em;
-	}
-	.newCourses a{
-		color: black;
-		text-decoration: none;
 		line-height: 1,1em;
 	}
 	/*newSite end*/
@@ -261,42 +251,53 @@ RabbitWeb-School.ru (big) for the Efimov RS
 	#scratch_info h3,
 	#javascript_info h1,
 	#javascript_info h2,
-	#javascript_info h3{
+	#javascript_info h3 {
 		text-align: center;
 	}
 	#scratch_info div,
-	#javascript_info div{
+	#javascript_info div {
 		margin-top: 10%;
 	}
+	#python_programmer_info div.historyPython{
+		width:auto;
+		max-width: 500px;
+		border: 1px outset lightgrey;
+		border-radius: 10px;
+		box-shadow: 1px 1px 1px black;
+		color: grey;
+		float: right;
+		margin: 20px;
+		padding: 10px;
+	}
 	#scratch_info a,
-	#javascript_info a{
+	#javascript_info a {
 		color: black;
 	}
 	#web_developer_info img,
 	#scratch_info img,
 	#python_programmer_info img,
-	#javascript_info img{
+	#javascript_info img {
 		width: auto;
 		max-width: 1000px;
 		margin-left: 5%;
 		margin-right: auto;
 		padding: 10px;
 	}
-	#javascript_info img{
+	#javascript_info img {
 		border-radius: 20px;
 		box-shadow: 0 0 3px black;
 	}
 	#javascript_info .js-img li,
-	#javascript_info .js-img img{
+	#javascript_info .js-img img {
 		width: auto;
 		max-width: 800px;
 		margin: 0 auto 0 auto;
 	}
 	.scratch-Green,
-	.scratch-Yellow{
+	.scratch-Yellow {
 		list-style-type: none;
 	}
-	.scratch-Green li{
+	.scratch-Green li {
 		background-color: lightgreen;
 		width: auto;
 		margin: 5px auto 5px auto;
@@ -306,7 +307,7 @@ RabbitWeb-School.ru (big) for the Efimov RS
 		text-align: center;
 		font-style: italic;
 	}
-	.scratch-Yellow li{
+	.scratch-Yellow li {
 		background-color: yellow;
 		width: auto;
 		margin: 5px auto 5px auto;
@@ -318,14 +319,14 @@ RabbitWeb-School.ru (big) for the Efimov RS
 	}
 	#scratchForm img,
 	#python-form img,
-	#javascript-form img{
+	#javascript-form img {
 		width: 50px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 	#scratchForm form,
 	#python-form form,
-	#javascript-form form{
+	#javascript-form form {
 		text-align: center;
 		width: auto;
 		max-width: 650px;
@@ -335,7 +336,7 @@ RabbitWeb-School.ru (big) for the Efimov RS
 	}
 	#scratchForm input,
 	#python-form input,
-	#javascript-form input{
+	#javascript-form input {
 		height: 28px;
 		width: 200px;
 		margin: 5px;
@@ -344,7 +345,7 @@ RabbitWeb-School.ru (big) for the Efimov RS
 	}
 	#scratchForm input:hover,
 	#python-form input:hover,
-	#javascript-form input:hover{
+	#javascript-form input:hover {
 		height: 28px;
 		border: 2px solid orange;
 		border-radius: 5px 10px 10px 0;
@@ -379,14 +380,14 @@ RabbitWeb-School.ru (big) for the Efimov RS
 		color: white;
 		text-shadow: 0 0 1px lightgrey;
 	}
-	#sprites{
+	#sprites {
 		width: auto;
 		max-width: 900px;
 		margin: 0 auto 0 auto;
 		border-top: 1px solid grey;
 		border-bottom: 1px solid grey;
 	}
-	#sprites li{
+	#sprites li {
 		background-color: orange;
 		width: auto;
 		margin: 10px auto 10px auto;
@@ -397,24 +398,24 @@ RabbitWeb-School.ru (big) for the Efimov RS
 		text-align: center;
 		font-style: italic;
 	}
-	#sprites img{
+	#sprites img {
 		width: 100px;
 	}
-	#reviews{
+	#reviews {
 		width: auto;
 		max-width: 800px;
 		margin: 0 auto 0 auto;
 		padding: 10px;
 		color: black;
 	}
-	#tableScratch table{
+	#tableScratch table {
 		margin: 0 auto 0 auto;
 	}
-	#tableScratch td{
+	#tableScratch td {
 		width: 200px;
 		padding: 5px 2px 5px 10px;
 	}
-	#structure div{
+	#structure div {
 		width: auto;
 		max-width: 800px;
 		margin: 0 auto 0 auto;
@@ -462,50 +463,35 @@ RabbitWeb-School.ru (big) for the Efimov RS
 
 	/*AllContent end*/
 
-	/***REGFORM open***/
-	#regForm{
-		margin: 0 auto 0 auto;
-	}
-	#regForm form{
-		width: auto;
-		max-width: 1000px;
-	}
-	#regForm input{
-		border: 0px solid black;
-		height: 30px;
-		margin: 10px;
-	}
-	/***end REGFORM***/
-
 	/*FOOTER open*/
-	#footer{
+	#footer {
 		background-color: #f2f2f2;
 		width: auto;
 		margin-top: 10px;
 		padding: 10px;
 	}
-	#footer h2 a{
+	#footer h2 a {
 		color: #005580;
 		text-decoration: none;
 		text-shadow: -1px 1px 1px #005580;
 	}
-	#footer h2 span{
+	#footer h2 span {
 		color: orange;
 		text-shadow: -1px 1px 1px orange;
 	}
-	#footer ul{
+	#footer ul {
 		float: right;
 		list-style: none;
 		width: auto;
 	}
-	#footer ul li{
+	#footer ul li {
 		float: left;
 		padding-left: 10px;
 	}
-	#footer li a{
+	#footer li a {
 		text-decoration: none;
 	}
-	#footer a img{
+	#footer a img {
 		width: 30px;
 	}
 	/*FOOTER end*/
@@ -533,7 +519,7 @@ RabbitWeb-School.ru (big) for the Efimov RS
 		transition: all .25s ease-in;
 		cursor: pointer;
 	}
-	.nav a:hover, .example:hover{
+	.nav a:hover, .example:hover {
 		background-color: rgba(255,255,255,.85);
 		color: rgb(0,0,0);
 	}
@@ -552,7 +538,7 @@ RabbitWeb-School.ru (big) for the Efimov RS
 		transition: all .25s ease-in;
 		cursor: pointer;
 	}
-	.nav a:hover, .example:hover{
+	.nav a:hover, .example:hover {
 		background-color: rgba(255,255,255,.85);
 		color: rgb(0,0,0);
 	}
@@ -621,19 +607,19 @@ RabbitWeb-School.ru (big) for the Efimov RS
 	/*FORM*/
 	#resources img,
 	#resources-scratch img,
-	#resources-python img{
+	#resources-python img {
 		width: 70px;
 		margin-right: 0;
 		margin-left: 455px;
 	}
 	#resources form,
 	#resources-scratch form,
-	#resources-python form{
+	#resources-python form {
 		margin: -70px auto 0px 25%;
 	}
 	#resources input,
 	#resources-scratch input,
-	#resources-python input{
+	#resources-python input {
 		height: 28px;
 		width: 150px;
 		margin: 0 auto 10px auto;
@@ -670,4 +656,4 @@ RabbitWeb-School.ru (big) for the Efimov RS
 		background-color:#63849F;
 	}
 	/***end CHECKBOX***/
-} 
+}

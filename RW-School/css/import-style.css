@@ -1,6 +1,7 @@
 /*RabbitWeb-School.ru my Style CSS adaptiv device*/
 /*Общий стиль для всех*/
-@import url(big.css);
+@import url(basic-style.css);
 /*Адаптивные стили*/
-@import url(medium.css)(min-width: 769px) and (max-width: 1024px);
-@import url(small.css)(min-width: 481px) and (max-width: 768px);
+@import url(big-style.css)(min-width: 769px) and (max-width: 1024px);
+@import url(medium-style.css)(min-width: 481px) and (max-width: 768px);
+@import url(small-style.css)(max-width: 480px);
