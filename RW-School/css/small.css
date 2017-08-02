@@ -1,7 +1,7 @@
 /************************************
-RabbitWeb.ru (main) for the Efimov RS
+RabbitWeb-School.ru (small) for the Efimov RS
 ************************************/
-/*@media all and(min-width: 1025px){*/
+@media all and(min-width: 481px) and (max-width: 768px){
 	@font-face {
 		font-family: Bulgaria_Bourgas_Cyr;
 		font-family: DS_Pixel_Cyr;
@@ -136,23 +136,12 @@ RabbitWeb.ru (main) for the Efimov RS
 		background-color: rgb(204, 204, 0);
 		text-align: center;
 		box-shadow: 0px 0px 3px black;
-		/*-webkit-transform: scale(1.01);
-		-moz-transform: scale(1.01);*/
 	}
 	.Courses .coursesJavaScript:hover{
 		background-color: rgb(230, 138, 0);
 		text-align: center;
 		box-shadow: 0px 0px 3px black;
-		/*-webkit-transform: scale(1.01);
-		-moz-transform: scale(1.01);*/
 	}
-	/*.Courses .coursesSwift:hover{
-		background-color: rgb(230, 92, 0);
-		text-align: center;
-		box-shadow: 2px 2px 3px black;
-		-webkit-transform: scale(1.01);
-		-moz-transform: scale(1.01);
-	}*/
 	.Courses td a{
 		color: black;
 		text-decoration: none;

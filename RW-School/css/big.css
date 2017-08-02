@@ -1,0 +1,673 @@
+/************************************
+RabbitWeb-School.ru (big) for the Efimov RS
+************************************/
+@media all and(min-width: 1025px){
+	@font-face {
+		font-family: Bulgaria_Bourgas_Cyr;
+		font-family: DS_Pixel_Cyr;
+		font-family: Minecraft_1_1;
+		src: url(../fonts/Bulgaria_Bourgas_Cyr.ttf);
+		src: url(../fonts/DS_Pixel_Cyr.ttf);
+		src: url(../fonts/Minecraft_1_1.ttf);
+	}
+	html {
+		background-color: #ffffff;
+		font-family: helvetica;
+	}
+	h1,h2,h3 {
+		font-family: Minecraft_1_1;
+		line-height: 1.2em;
+	}
+	
+	/*******MENU********/
+	#menu{
+		background-color: #f2f2f2;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 90px;
+		padding: 10px;
+	}
+	#menu h2{
+		color: #005580;
+		text-decoration: none;
+		text-shadow: -1px 1px 1px #005580;
+	}
+	#menu h2 span{
+		color: orange;
+		text-shadow: -1px 1px 1px orange;
+	}
+	#menu ul{
+		float: right;
+		list-style: none;
+		height: auto;
+		width: auto;
+		margin: 0px;
+		padding: 10px;
+	}
+	#menu ul li{
+		float: left;
+		color: black;
+		text-align: center;
+		text-shadow: 0px 0px 1px grey;
+		margin: 0 10px 0 10px;
+	}
+	#menu li:hover{
+		color: grey;
+		text-shadow: 1px 1px 1px white;
+	}
+	#menu li a{
+		color: black;
+		text-decoration: none;
+	}
+	#menu a img{
+		padding: 10px;
+		width: auto;
+		max-width: 30px;
+	}
+	/*****end MENU*****/
+
+	/***AllContent open***/
+	#allcontent{
+		width: auto;
+		max-width: 1000px;
+		margin: 15% auto 5% auto;
+	}
+	#allcontent p{
+		line-height: 1.3em;
+	}
+
+	/***Courses open***/
+	.Courses{
+		width: auto;
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.Courses p{
+		padding: 10px;
+	}
+	.Courses div{
+		float: left;
+		margin: 10px;
+	}
+	.Courses table{
+		width: auto;
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10%;
+	}
+	.Courses tr{
+		margin: 10px auto 5px auto;		
+	}
+	.Courses td{
+		text-align: center;
+		background-color: white;
+		border: 0px solid black;
+		border-radius: 20px;
+		height: auto;
+	}
+	.Courses td h5,
+	.Courses td h4{
+		color: black;
+	}
+	.Courses .coursesScratch{
+		background-color: rgba(0, 153, 51,0.3);
+	}
+	.Courses .coursesPython{
+		background-color: rgba(204, 204, 0,0.5);
+	}
+	.Courses .coursesJavaScript{
+		background-color: rgba(230, 138, 0,0.5);
+	}
+	.Courses .coursesSwift{
+		background-color: rgba(153, 0, 0,0.5);
+	}
+	.Courses .coursesScratch:hover{
+		background-color: rgb(0, 153, 51);
+		text-align: center;
+		box-shadow: 0px 0px 3px black;
+		/*-webkit-transform: scale(1.01);
+		-moz-transform: scale(1.01);*/
+	}
+	.Courses .coursesPython:hover{
+		background-color: rgb(204, 204, 0);
+		text-align: center;
+		box-shadow: 0px 0px 3px black;
+	}
+	.Courses .coursesJavaScript:hover{
+		background-color: rgb(230, 138, 0);
+		text-align: center;
+		box-shadow: 0px 0px 3px black;
+	}
+	.Courses td a{
+		color: black;
+		text-decoration: none;
+	}
+	td img.betaimgL{
+		width: 80px;
+		margin: -4px 843px -60px -900px;
+	}
+	td img.betaimgR{
+		width: 80px;
+		margin: -4px -900px -60px auto;
+	}
+	/***end Courses***/
+	/*Price-list start*/
+	.Price-learning {
+		margin: 20px;
+	}
+	.Price-learning table{
+		border-radius: 5px;
+	}
+	.Price-learning td{
+		padding: 10px;
+		margin: 10px;
+		border-left: 0px solid black;
+		border-right: 0px solid black;
+	}
+	.Price-learning li#scratch-easy,
+	.Price-learning li#scratch-middle,
+	.Price-learning li#python-easy,
+	.Price-learning li#python-middle,
+	.Price-learning li#python-mashine,
+	.Price-learning li#javascript-easy,
+	.Price-learning li#javascript-middle {
+		background-image: url(../images/down.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		padding: 10px 25px 10px 25px;
+		cursor: pointer; 
+	}
+	.Price-learning form {
+		background-color: white;
+		border: 1px solid #006699;
+		border-radius: 0 10px;
+		box-shadow: 0 0 1px black;
+		text-align: center;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+	.Price-learning form label {
+		color: #006699;
+		font-size: 25px;
+		text-shadow: none;
+	}
+	.Price-learning form span {
+		color: black;
+		font-size: 21px;
+		text-shadow: none;
+	}
+	.Price-learning .submit{
+		background-color: white;
+		border: 2px solid darkcyan;
+		border-radius: 6px;
+		width: 100px;
+		height: 28px;
+		margin: 10px;
+		text-shadow: 1px 1px 0.3px lightgrey;
+		box-shadow: 2px 2px 1px grey;
+	}
+	.Price-learning .submit:hover{
+		background-color: darkcyan;
+		border-radius: 6px;
+		width: 100px;
+		height: 28px;
+		margin: 10px;
+		box-shadow: 0 0 2px grey;
+		color: white;
+		text-shadow: 0 0 1px lightgrey;
+	}
+	/*end Price-list*/
+	/*newSite open*/
+	.newInfo,
+	.newCourses{
+		width: auto;
+		max-width: 1000px;
+		margin-bottom: 10%;
+	}
+	.newInfo div,
+	.newCourses div{
+		float: left;
+		padding: 10px;
+	}
+	.newInfo img,
+	.newCourses img{
+		width: 200px;
+		float: left;
+		padding: 10px;
+	}
+	.newSite a{
+		color: black;
+		line-height: 1,1em;
+	}
+	.newCourses a{
+		color: black;
+		text-decoration: none;
+		line-height: 1,1em;
+	}
+	/*newSite end*/
+
+	#web_developer_info h1,
+	#web_developer_info h2,
+	#web_developer_info h3,
+	#python_programmer_info h1,
+	#python_programmer_info h2,
+	#python_programmer_info h3,
+	#scratch_info h1,
+	#scratch_info h2,
+	#scratch_info h3,
+	#javascript_info h1,
+	#javascript_info h2,
+	#javascript_info h3{
+		text-align: center;
+	}
+	#scratch_info div,
+	#javascript_info div{
+		margin-top: 10%;
+	}
+	#scratch_info a,
+	#javascript_info a{
+		color: black;
+	}
+	#web_developer_info img,
+	#scratch_info img,
+	#python_programmer_info img,
+	#javascript_info img{
+		width: auto;
+		max-width: 1000px;
+		margin-left: 5%;
+		margin-right: auto;
+		padding: 10px;
+	}
+	#javascript_info img{
+		border-radius: 20px;
+		box-shadow: 0 0 3px black;
+	}
+	#javascript_info .js-img li,
+	#javascript_info .js-img img{
+		width: auto;
+		max-width: 800px;
+		margin: 0 auto 0 auto;
+	}
+	.scratch-Green,
+	.scratch-Yellow{
+		list-style-type: none;
+	}
+	.scratch-Green li{
+		background-color: lightgreen;
+		width: auto;
+		margin: 5px auto 5px auto;
+		padding: 5px;
+		border-radius: 5px 10px 10px 0;
+		box-shadow: 1px 1px 2px black;
+		text-align: center;
+		font-style: italic;
+	}
+	.scratch-Yellow li{
+		background-color: yellow;
+		width: auto;
+		margin: 5px auto 5px auto;
+		padding: 5px;
+		border-radius: 5px 10px 10px 0;
+		box-shadow: 1px 1px 2px black;
+		text-align: center;
+		font-style: italic;
+	}
+	#scratchForm img,
+	#python-form img,
+	#javascript-form img{
+		width: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#scratchForm form,
+	#python-form form,
+	#javascript-form form{
+		text-align: center;
+		width: auto;
+		max-width: 650px;
+		padding: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#scratchForm input,
+	#python-form input,
+	#javascript-form input{
+		height: 28px;
+		width: 200px;
+		margin: 5px;
+		border: 2px solid blue;
+		border-radius: 5px 10px 10px 0;
+	}
+	#scratchForm input:hover,
+	#python-form input:hover,
+	#javascript-form input:hover{
+		height: 28px;
+		border: 2px solid orange;
+		border-radius: 5px 10px 10px 0;
+		margin: 5px;
+	}
+	#scratchForm .submit,
+	#python-form .submit,
+	#javascript-form .submit,
+	#resources .submit,
+	#resources-scratch .submit,
+	#resources-python .submit {
+		background-color: orange;
+		border: 2px solid orange;
+		border-radius: 10px;
+		width: auto;
+		margin: 10px;
+		text-shadow: 1px 1px 0.3px black;
+		box-shadow: 2.1px 2.1px 1px #b37400;
+	}
+	#scratchForm .submit:hover,
+	#python-form .submit:hover,
+	#javascript-form .submit:hover,
+	#resources .submit:hover,
+	#resources-scratch .submit:hover,
+	#resources-python .submit:hover {
+		background-color: orange;
+		border: 2px solid orange;
+		border-radius: 10px;
+		width: auto;
+		margin: 10px;
+		box-shadow: 0 0 2px white;
+		color: white;
+		text-shadow: 0 0 1px lightgrey;
+	}
+	#sprites{
+		width: auto;
+		max-width: 900px;
+		margin: 0 auto 0 auto;
+		border-top: 1px solid grey;
+		border-bottom: 1px solid grey;
+	}
+	#sprites li{
+		background-color: orange;
+		width: auto;
+		margin: 10px auto 10px auto;
+		padding: 5px;
+		border-radius: 5px 10px 10px 0;
+		box-shadow: 1px 1px 2px black;
+		list-style-type: none;
+		text-align: center;
+		font-style: italic;
+	}
+	#sprites img{
+		width: 100px;
+	}
+	#reviews{
+		width: auto;
+		max-width: 800px;
+		margin: 0 auto 0 auto;
+		padding: 10px;
+		color: black;
+	}
+	#tableScratch table{
+		margin: 0 auto 0 auto;
+	}
+	#tableScratch td{
+		width: 200px;
+		padding: 5px 2px 5px 10px;
+	}
+	#structure div{
+		width: auto;
+		max-width: 800px;
+		margin: 0 auto 0 auto;
+	}
+	/***SCHEDULE start***/
+	#schedule {
+		background-color: #f0f5f5;
+		padding: 10px;
+		border-radius: 5px;
+	}
+	#schedule th {
+		border-bottom: 1px solid black;
+	}
+	/***end SCHEDULE***/
+	/***FAQ start***/
+	#faq {
+		background-color: #e6f7ff;
+		padding: 10px;
+		margin: 10px;
+		border-radius: 5px;
+	}
+	#faq div {
+		background-color: #ffffff;
+		border-radius: 5px;
+	}
+	#faq div h3 {
+		background-image: url(../images/open.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-color: #b3e7ff;
+		padding: 10px 25px 10px 45px;
+		cursor: pointer;
+		border-radius: 5px;
+	}
+	#faq div p {
+		padding: 5px;
+	}
+	#faq div h3.close {
+		background-image: url(../images/close.png);
+		background-repeat: no-repeat;
+		background-color: #b3e7ff;
+		border-radius: 5px 5px 0 0;
+	}
+	/***end FAQ***/
+
+	/*AllContent end*/
+
+	/***REGFORM open***/
+	#regForm{
+		margin: 0 auto 0 auto;
+	}
+	#regForm form{
+		width: auto;
+		max-width: 1000px;
+	}
+	#regForm input{
+		border: 0px solid black;
+		height: 30px;
+		margin: 10px;
+	}
+	/***end REGFORM***/
+
+	/*FOOTER open*/
+	#footer{
+		background-color: #f2f2f2;
+		width: auto;
+		margin-top: 10px;
+		padding: 10px;
+	}
+	#footer h2 a{
+		color: #005580;
+		text-decoration: none;
+		text-shadow: -1px 1px 1px #005580;
+	}
+	#footer h2 span{
+		color: orange;
+		text-shadow: -1px 1px 1px orange;
+	}
+	#footer ul{
+		float: right;
+		list-style: none;
+		width: auto;
+	}
+	#footer ul li{
+		float: left;
+		padding-left: 10px;
+	}
+	#footer li a{
+		text-decoration: none;
+	}
+	#footer a img{
+		width: 30px;
+	}
+	/*FOOTER end*/
+
+	/**************JS Panel-Animation start***************/
+	.nav {
+	margin: 10px 0 0 100px;	
+	}
+	.nav li {
+		display: inline-block;
+		padding: 5px;
+	}
+	.nav a, .example {
+		display: inline-block;
+		font-family: 'ColaborateLightRegular', Arial, sans-serif;
+		font-size: 12px;
+		color: rgb(100,100,100);
+		text-decoration: none;
+		border-radius: 0.25em;
+		padding: .25em .5em;
+		background-color: rgba(255,211,224,.5);
+		-webkit-transition: all .25s ease-in;
+		-moz-transition: all .25s ease-in;
+		-o-transition: all .25s ease-in;
+		transition: all .25s ease-in;
+		cursor: pointer;
+	}
+	.nav a:hover, .example:hover{
+		background-color: rgba(255,255,255,.85);
+		color: rgb(0,0,0);
+	}
+	.nav a, .example {
+		display: inline-block;
+		font-family: 'ColaborateLightRegular', Arial, sans-serif;
+		font-size: 12px;
+		color: rgb(100,100,100);
+		text-decoration: none;
+		border-radius: 0.25em;
+		padding: .25em .5em;
+		background-color: rgba(255,211,224,.5);
+		-webkit-transition: all .25s ease-in;
+		-moz-transition: all .25s ease-in;
+		-o-transition: all .25s ease-in;
+		transition: all .25s ease-in;
+		cursor: pointer;
+	}
+	.nav a:hover, .example:hover{
+		background-color: rgba(255,255,255,.85);
+		color: rgb(0,0,0);
+	}
+	#resources,
+	#resources-scratch,
+	#resources-python {
+		background-color: rgba(0,0,0,0.75);
+		padding: 0em 1em 1em .75em;
+		position: fixed;
+		top: 10em;
+		left: -39em;
+		width: 32em;
+		border-radius: 0 .5em .5em 0;
+		display: none;
+	}
+	#resources .open,
+	#resources-scratch .open,
+	#resources-python .open {
+		position: absolute;
+		width: 40px;
+		height: 20px;
+		right: 0px;
+		top: -16px;
+		background-color: green/*rgba(100,100,100,0.8)*/;
+		border-radius: 0 .5em;
+		text-align: center;
+		font-family: 'ColaborateBoldRegular', Arial, sans-serif;
+		cursor: pointer;
+		color: rgb(255,255,255);
+		line-height: 100%;
+	}
+	#resources .open:hover,
+	#resources-scratch .open:hover,
+	#resources-python .open:hover {
+		background-color: #00cc00;
+	}
+	#resources h2,
+	#resources-scratch h2,
+	#resources-python h2 {
+		font-family: 'ColaborateBoldRegular', Arial, sans-serif;
+		font-size:18px;
+		text-transform:uppercase;
+		text-align: center;
+		color: rgba(255,255,255,0.98);
+		margin-top: 1em;
+		margin-right: auto;
+		margin-left: auto;
+		text-shadow: none;
+	}
+	#resources h3,
+	#resources-scratch h3,
+	#resources-python h3 {
+		font-family: 'ColaborateMediumRegular', Arial, sans-serif;
+		font-size: 14px;
+		color: rgba(0,0,0,.8);
+		margin-top: 8px;
+	}
+	#resources ul {
+		margin: 5px 0 0 0;
+	}
+	#resources .nav a,
+	#resources-scratch .nav a,
+	#resources-python .nav a {
+		color: rgb(255,255,255);
+	}
+	/*FORM*/
+	#resources img,
+	#resources-scratch img,
+	#resources-python img{
+		width: 70px;
+		margin-right: 0;
+		margin-left: 455px;
+	}
+	#resources form,
+	#resources-scratch form,
+	#resources-python form{
+		margin: -70px auto 0px 25%;
+	}
+	#resources input,
+	#resources-scratch input,
+	#resources-python input{
+		height: 28px;
+		width: 150px;
+		margin: 0 auto 10px auto;
+		border: 0px outset blue;
+		border-radius: 10px;
+		box-shadow: 2px 2px 1px lightgrey;
+	}
+	/*end FORm*/
+	/*************JS Panel-Animation end****************/
+	/****CHECKBOX*****/
+	.checkbox {
+		position:relative;
+		padding: 0 50px 0 50px;
+		font-size: 0.8em;
+	}
+	.checkbox input[type=checkbox] {
+		display:none;
+	}
+	.checkbox label:after {
+		content:'';
+		display:block;
+		height:14px;
+		width:14px;
+		outline:1px solid #939598;
+		position:absolute;
+		top:0;
+		left:auto;
+	}
+	.checkbox input[type=checkbox]:checked + label:after {
+		outline:1px solid #939598;
+		border:2px solid #fff;
+		width:10px;
+		height:10px;
+		background-color:#63849F;
+	}
+	/***end CHECKBOX***/
+} 
