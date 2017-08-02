@@ -171,7 +171,7 @@ RabbitWeb.ru (main) for the Efimov RS
 		margin: 20px;
 	}
 	.Price-learning table{
-		border: 0px solid black;
+		border-radius: 5px;
 	}
 	.Price-learning td{
 		padding: 10px;
