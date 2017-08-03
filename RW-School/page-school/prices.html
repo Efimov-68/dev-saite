@@ -249,7 +249,7 @@ RabbitWeb-School.ru for the Efimov RS
 					</td>
 				</tr>
 			</table>
-			<p align="center"><b style="color: red;"> * </b><i>Обязательное условие, ребенок должен пройти перед этим курс <a href="./Courses/scratch.html">Scratch</a></i></p>
+			<p align="center"><b style="color: red;"> * </b><i>Обязательное условие, ребенок должен пройти перед этим курс <a href="./Courses/scratch.html" style=" color: blue;">Scratch</a>.</i></p>
 			<div id="faq">
 				<h2>Часто задаваемые вопросы</h2>
 				<div>
@@ -285,7 +285,7 @@ RabbitWeb-School.ru for the Efimov RS
 					<p>Для нас важно уделить каждому ученику максимум внимания, поэтому в наших группах одновременно занимаются от 5 до 7 человек.</p>
 				</div>
 				<div>
-					<h3> ???Какова продолжительность каждого курса?</h3>
+					<h3> Какова продолжительность каждого курса?</h3>
 					<p>Мы используем модульную систему. Это позволяет ученикам присоединяться к программе в течение года и дает возможность выбора наиболее интересных модулей. Каждый курс рассчитан на 1 месяц, после него можно продолжить углубленное изучение или заменить его на другой.</p>
 				</div>
 				<div>
@@ -350,9 +350,9 @@ RabbitWeb-School.ru for the Efimov RS
     	<h2 class="nav">Трудно решить, какой курс выбрать?<br/>Мы поможем вам.</h2>
     	<br/>
     	<img src="../images/rw-school/messange.png">
-    	<form action="" method="POST">
-    		<input type="text" name="last_name" placeholder=" Имя ">
-			<input type="phone" name="phone" placeholder=" +7 (929)956-3812 ">
+    	<form action="../form/callBackForm.php" method="GET">
+    		<input type="text" name="last_name" placeholder=" Имя " tabindex="0" required="required">
+			<input type="phone" name="phone" placeholder=" +7 (929)956-3812 " tabindex="1" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" required="required">
 			<input type="submit" value="Отправить" class="submit">
     	</form>
   	</div>

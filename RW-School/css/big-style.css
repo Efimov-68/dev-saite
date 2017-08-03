@@ -436,12 +436,14 @@ RabbitWeb-School.ru (medium) for the Efimov RS
 	}
 	/***SCHEDULE start***/
 	#schedule {
-		background-color: #f0f5f5;
 		padding: 10px;
 		border-radius: 5px;
 	}
 	#schedule th {
 		border-bottom: 1px solid black;
+	}
+	#time{
+		font-family: Minecraft_1_1;
 	}
 	/***end SCHEDULE***/
 	/***FAQ start***/
@@ -476,21 +478,6 @@ RabbitWeb-School.ru (medium) for the Efimov RS
 	/***end FAQ***/
 
 	/*AllContent end*/
-
-	/***REGFORM open***/
-	#regForm{
-		margin: 0 auto 0 auto;
-	}
-	#regForm form{
-		width: auto;
-		max-width: 1000px;
-	}
-	#regForm input{
-		border: 0px solid black;
-		height: 30px;
-		margin: 10px;
-	}
-	/***end REGFORM***/
 
 	/*FOOTER open*/
 	#footer{
