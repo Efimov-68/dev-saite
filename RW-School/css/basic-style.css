@@ -426,7 +426,7 @@ RabbitWeb-School.ru (big) for the Efimov RS
 	}
 	/***SCHEDULE start***/
 	#schedule {
-		background-color: #f0f5f5;
+		/*background-color: #f0f5f5;*/
 		padding: 10px;
 		border-radius: 5px;
 		width: auto;
@@ -434,6 +434,9 @@ RabbitWeb-School.ru (big) for the Efimov RS
 	}
 	#schedule th {
 		border-bottom: 1px solid black;
+	}
+	#time{
+		font-family: Minecraft_1_1;
 	}
 	/***end SCHEDULE***/
 	/***FAQ start***/
