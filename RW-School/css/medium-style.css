@@ -26,8 +26,8 @@ RabbitWeb-School.ru (small) for the Efimov RS
 		top: 0;
 		left: 0;
 		right: 0;
-		height: 90px;
-		padding: 10px;
+		height: auto;
+		padding: 5px;
 	}
 	#menu h2{
 		display: none;
@@ -39,6 +39,10 @@ RabbitWeb-School.ru (small) for the Efimov RS
 		display: none;
 		color: orange;
 		text-shadow: -1px 1px 1px orange;
+	}
+	#menu p {
+		font-family: Minecraft_1_1;
+		font-style: italic;
 	}
 	#menu ul{
 		float: right;

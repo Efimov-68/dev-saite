@@ -83,7 +83,7 @@ $(document).ready(function(){
 	$('#info-javascript-middle').hide();
 	$('#faq div p').hide();
 	//end .hide
-	$('#scratch-easy i').click(function(){
+	/*$('#scratch-easy i').click(function(){
     	var $scratchEasy = $(this).next('#info-scratch-easy');
     	if ($scratchEasy.is(':hidden')) {
     		$scratchEasy.slideDown(300);
@@ -152,7 +152,7 @@ $(document).ready(function(){
     		$javascriptMiddle.slideUp(300);
     		$(this).removeClass('close');
     	}
-	});
+	});*/
 	$('#faq div h3').click(function(){
     	var $faqDivP = $(this).next('#faq div p');
     	if ($faqDivP.is(':hidden')) {

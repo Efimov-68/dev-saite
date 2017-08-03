@@ -38,6 +38,10 @@ RabbitWeb-School.ru (big) for the Efimov RS
 		color: orange;
 		text-shadow: -1px 1px 1px orange;
 	}
+	#menu p {
+		font-family: Minecraft_1_1;
+		font-style: italic;
+	}
 	#menu ul{
 		float: right;
 		list-style: none;
