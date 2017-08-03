@@ -429,6 +429,8 @@ RabbitWeb-School.ru (big) for the Efimov RS
 		background-color: #f0f5f5;
 		padding: 10px;
 		border-radius: 5px;
+		width: auto;
+		max-width: 600px;
 	}
 	#schedule th {
 		border-bottom: 1px solid black;

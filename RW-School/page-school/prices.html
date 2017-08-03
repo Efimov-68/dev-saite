@@ -35,10 +35,10 @@ RabbitWeb-School.ru for the Efimov RS
 			</div>
 			<table>
 				<tr>
-					<th colspan="2"><h2>Scratch</h2></th>
+					<th colspan=""><h2>Scratch</h2></th>
 				</tr>
 				<tr style="background-color: #e6ffe6">
-					<td colspan="2"><h3>Работа со средой Scratch</h3>
+					<td colspan=""><h3>Работа со средой Scratch</h3>
 						<ul>
 							<li>от 7+;</li>
 							<li>1 раз в неделю;</li>
@@ -54,7 +54,7 @@ RabbitWeb-School.ru for the Efimov RS
 									</ul>
 								</div>
 							</li-->
-							<li style="list-style-type: none; margin: 10px;">
+							<li style="list-style-type: none; margin: 10px auto 10px auto; width: auto; max-width: 350px;">
 								<form action="" method="post">
 									<label for="info-scratch-easy">4 занятия<br/><a href="" style="font-size: .6em; color: lightblue;">Программа курса</a><br/><span>2490 руб.</span></label>
 									<input type="submit" value="Оплатить" class="submit">
@@ -70,44 +70,45 @@ RabbitWeb-School.ru for the Efimov RS
 							</li>
 						</ul>
 					</td>
-					<!--td><h3>Продвинутый курс по работе со средой Scratch</h3>
-						<ul>
-							<li>от 9+;</li>
-							<li>1 раз в неделю;</li>
-							<li>длительность занятия 2 часа;</li>
-							<li>в группе участвуют 5 - 7 детей;</li>
-							<!--li style="list-style-type: none;" id="scratch-middle"><i>О курсе...</i>
-								<div id="info-scratch-middle">
-									<ul style="list-style-type: none;">
-										<li>- для детей 7 - 14 лет;</li>
-										<li>- до 10 человек в группе;</li>
-										<li>- занятия проводятся 1 раз в неделю по 2 часа;</li>
-										<li>- стоимость курса 6000/4000 руб.</li>
-									</ul>
+					<td style="background-color: white;">
+						<div id="schedule">
+							<h2  align="center">Время проведения занятий</h2>
+							<div class="content">
+								<div class="main">
+									<p align="center"><i>Мск: <strong id="time"></strong></i></p>
+									<div id="headlines"></div>
 								</div>
-							</li-->
-							<!--li style="list-style-type: none; margin: 10px;">
-								<form action="" method="post">
-									<label for="info-scratch-easy">4 занятия<br/><a href="" style="font-size: .6em; color: lightblue;">Программа курса</a><br/><span>2490 руб.</span></label>
-									<input type="submit" value="Оплатить" class="submit">
-								</form>
-								<form action="" method="post">
-									<label for="info-scratch-easy">8 занятий<br/><a href="" style="font-size: .6em; color: lightblue;">Программа курса</a><br/><span style="text-decoration: line-through; color: grey; text-shadow: none;">4980 руб.</span> <br/><span style="color: darkred;">-5% = 4731 руб.</span></label>
-									<input type="submit" value="Оплатить" class="submit">
-								</form>
-								<form action="" method="post">
-									<label for="info-scratch-easy">16 занятий<br/><a href="" style="font-size: .6em; color: lightblue;">Программа курса</a><br/><span style="text-decoration: line-through; color: grey; text-shadow: none;">9960 руб.</span> <br/><span style="color: darkred;">-10% = 8964 руб.</span></label>
-									<input type="submit" value="Оплатить" class="submit">
-								</form>
-							</li>
-						</ul>
-					</td-->
+							</div>
+							<table align="center">
+								<tr>
+									<th>Будни</th>
+									<th>Выходные</th>
+								</tr>
+								<tr>
+									<td>10:00 - 12:00</td>
+									<td>10:00 - 12:00</td>
+								</tr>
+								<tr>
+									<td>13:00 - 15:00</td>
+									<td>13:00 - 15:00</td>
+								</tr>
+								<tr>
+									<td>17:00 - 19:00</td>
+									<td>16:00 - 18:00</td>
+								</tr>
+								<tr>
+									<td>19:30 - 21-30</td>
+									<td>19:00 - 21:00</td>
+								</tr>
+							</table>
+						</div>
+					</td>
 				</tr>
 				<tr>
 					<th colspan="2"><hr/><h2>Python</h2></th>
 				</tr>
 				<tr style="background-color: #ffffe6;">
-					<td><h3>Вводный курс по работе с языком Python</h3>
+					<td><h3>Начальный курс по работе с языком Python</h3>
 						<ul>
 							<li>от 9+;</li>
 							<li>1 раз в неделю;</li>
@@ -181,7 +182,7 @@ RabbitWeb-School.ru for the Efimov RS
 					<th colspan="2"><h2>JavaScript</h2></th>
 				</tr>
 				<tr style="background-color: #fff6e6;">
-					<td><h3>Вводный курс по работе с языком JavaScript</h3>
+					<td><h3>Начальный курс по работе с языком JavaScript</h3>
 						<ul>
 							<li>от 9+;</li>
 							<li>1 раз в неделю;</li>
@@ -247,40 +248,7 @@ RabbitWeb-School.ru for the Efimov RS
 					</td>
 				</tr>
 			</table>
-			<p align="center"><b style="color: red;"> * </b><i>Обязательное условие, ребенок должен пройти перед этим курсом два модуля <a href="./Courses/scratch.html">Scratch</a></i></p>
-			<hr/><br/>
-			<div id="schedule">
-				<h2  align="center">Ориентировочное время проведения занятий</h2>
-				<div class="content">
-					<div class="main">
-						<p align="center"><i>Мск: <strong id="time"></strong></i></p>
-						<div id="headlines"></div>
-					</div>
-				</div>
-				<table align="center">
-					<tr>
-						<th>Будни</th>
-						<th>Выходные</th>
-					</tr>
-					<tr>
-						<td>10:00 - 12:00</td>
-						<td>10:00 - 12:00</td>
-					</tr>
-					<tr>
-						<td>13:00 - 15:00</td>
-						<td>13:00 - 15:00</td>
-					</tr>
-					<tr>
-						<td>17:00 - 19:00</td>
-						<td>16:00 - 18:00</td>
-					</tr>
-					<tr>
-						<td>19:30 - 21-30</td>
-						<td>19:00 - 21:00</td>
-					</tr>
-				</table>
-			</div>
-			<hr/><br/>
+			<p align="center"><b style="color: red;"> * </b><i>Обязательное условие, ребенок должен пройти перед этим курс <a href="./Courses/scratch.html">Scratch</a></i></p>
 			<div id="faq">
 				<h2>Часто задаваемые вопросы</h2>
 				<div>
