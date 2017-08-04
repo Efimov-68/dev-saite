@@ -659,7 +659,87 @@ RabbitWeb-School.ru (small) for the Efimov RS
 	}
 	/*end FORm*/
 	/*************JS Panel-Animation end****************/
-	/****CHECKBOX*****/
+	/****start CHECKBOX_COURSES****
+	***SCRATCH-CHECK***/
+	.checkbox-scratch {
+		position:relative;
+		padding: 0 250px 0 250px;
+		font-size: 0.8em;
+	}
+	.checkbox-scratch input[type=checkbox] {
+		display:none;
+	}
+	.checkbox-scratch label:after {
+		content:'';
+		display:block;
+		height:14px;
+		width:14px;
+		outline:1px solid #939598;
+		position:absolute;
+		top:0;
+		left:auto;
+	}
+	.checkbox-scratch input[type=checkbox]:checked + label:after {
+		outline:1px solid #939598;
+		border:2px solid #fff;
+		width:10px;
+		height:10px;
+		background-color: rgb(0,153,51);
+	}
+	/***PYTHON-CHECK***/
+	.checkbox-python {
+		position:relative;
+		padding: 0 250px 0 250px;
+		font-size: 0.8em;
+	}
+	.checkbox-python input[type=checkbox] {
+		display:none;
+	}
+	.checkbox-python label:after {
+		content:'';
+		display:block;
+		height:14px;
+		width:14px;
+		outline:1px solid #939598;
+		position:absolute;
+		top:0;
+		left:auto;
+	}
+	.checkbox-python input[type=checkbox]:checked + label:after {
+		outline:1px solid #939598;
+		border:2px solid #fff;
+		width:10px;
+		height:10px;
+		background-color: rgb(204,204,0);
+	}
+	/***JAVASCRIPT-CHECK***/
+	.checkbox-javascript {
+		position:relative;
+		padding: 0 250px 0 250px;
+		font-size: 0.8em;
+	}
+	.checkbox-javascript input[type=checkbox] {
+		display:none;
+	}
+	.checkbox-javascript label:after {
+		content:'';
+		display:block;
+		height:14px;
+		width:14px;
+		outline:1px solid #939598;
+		position:absolute;
+		top:0;
+		left:auto;
+	}
+	.checkbox-javascript input[type=checkbox]:checked + label:after {
+		outline:1px solid #939598;
+		border:2px solid #fff;
+		width:10px;
+		height:10px;
+		background-color:rgb(230,138,0);
+	}
+	/***end CHECKBOX_COURSES***
+	****end CHECKBOX***/
 	.checkbox {
 		position:relative;
 		padding: 0 50px 0 50px;
@@ -685,5 +765,6 @@ RabbitWeb-School.ru (small) for the Efimov RS
 		height:10px;
 		background-color:#63849F;
 	}
-	/***end CHECKBOX***/
+	/***end CHECKBOX_PERSONAL***
+	****end CHECKBOX***/
 }
