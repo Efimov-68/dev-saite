@@ -224,18 +224,20 @@ RabbitWeb-School.ru (big) for the Efimov RS
 	}
 	/*end Price-list*/
 	/*newSite open*/
+	.newSite,
 	.newInfo {
 		width: auto;
 		max-width: 1000px;
 		margin-bottom: 10%;
 	}
-	.newInfo div {
+	.newInfo .skypeImg {
+		width: 200px;
 		float: left;
 		padding: 10px;
 	}
-	.newInfo img {
+	.newInfo .faqImg {
 		width: 200px;
-		float: left;
+		float: right;
 		padding: 10px;
 	}
 	.newSite a {
@@ -426,7 +428,6 @@ RabbitWeb-School.ru (big) for the Efimov RS
 	}
 	/***SCHEDULE start***/
 	#schedule {
-		/*background-color: #f0f5f5;*/
 		padding: 10px;
 		border-radius: 5px;
 		width: auto;
