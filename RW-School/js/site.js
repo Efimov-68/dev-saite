@@ -83,17 +83,24 @@ $(document).ready(function(){
 	$('#info-javascript-middle').hide();
 	$('#faq div p').hide();
 	//end .hide
-	/*$('#scratch-easy i').click(function(){
-    	var $scratchEasy = $(this).next('#info-scratch-easy');
-    	if ($scratchEasy.is(':hidden')) {
-    		$scratchEasy.slideDown(300);
-    		$(this).addClass('close');
-    	}else{
-    		$scratchEasy.slideUp(300);
-    		$(this).removeClass('close');
-    	}
-	});
-	$('#scratch-middle i').click(function(){
+	/*
+	Scratch4Classes
+	Scratch8Classes
+	Scratch16Classes
+	Python4Classes
+	Python8Classes
+	Python16Classes
+	PythonAdv4Classes
+	PythonAdv8Classes
+	PythonAdv16Classes
+	JS4Classes
+	JS8Classes
+	JS16Classes
+	JSAdv4Classes
+	JSAdv8Classes
+	JSAdv16Classes
+	*/
+	/*$('#scratch-middle i').click(function(){
     	var $scratchMiddle = $(this).next('#info-scratch-middle');
     	if ($scratchMiddle.is(':hidden')) {
     		$scratchMiddle.slideDown(300);

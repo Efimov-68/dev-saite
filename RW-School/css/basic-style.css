@@ -386,6 +386,16 @@ RabbitWeb-School.ru (big) for the Efimov RS
 		color: white;
 		text-shadow: 0 0 1px lightgrey;
 	}
+	/***start yaCASH***/
+	#yaCashScratch4, #yaCashScratch8, #yaCashScratch16,
+	#yaCashPython4, #yaCashPython8, #yaCashPython16,
+	#yaCashPython4advanced, #yaCashPython8advanced,
+	#yaCashPython16advanced, #yaCashJS4, #yaCashJS8,
+	#yaCashJS16, #yaCashJS4advanced, #yaCashJS8advanced,
+	#yaCashJS16advanced{
+		margin: 10% auto 20% auto;
+	}
+	/***end yaCASH***/
 	#sprites {
 		width: auto;
 		max-width: 900px;
