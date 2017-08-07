@@ -231,13 +231,13 @@ RabbitWeb-School.ru (big) for the Efimov RS
 		margin-bottom: 10%;
 	}
 	.newInfo .skypeImg {
-		width: 200px;
+		width: 110px;
 		float: left;
 		padding: 10px;
 	}
 	.newInfo .faqImg {
-		width: 200px;
-		float: right;
+		width: 110px;
+		float: left;
 		padding: 10px;
 	}
 	.newSite a {
