@@ -1,5 +1,5 @@
 /************************************
-RabbitWeb-School.ru (big) for the Efimov RS
+RabbitWeb-School.ru (full) for the Efimov RS
 ************************************/
 @media all and (min-width: 1025px) {
 	@font-face {
@@ -20,6 +20,10 @@ RabbitWeb-School.ru (big) for the Efimov RS
 	}
 	
 	/*******MENU********/
+	#home,
+	#menuIcon{
+		display: none;
+	}
 	#menu{
 		background-color: #f2f2f2;
 		position: fixed;

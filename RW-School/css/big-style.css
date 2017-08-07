@@ -1,5 +1,5 @@
 /************************************
-RabbitWeb-School.ru (medium) for the Efimov RS
+RabbitWeb-School.ru (big) for the Efimov RS
 ************************************/
 @media all and (min-width: 769px) and (max-width: 1024px) {
 	@font-face {
@@ -20,6 +20,10 @@ RabbitWeb-School.ru (medium) for the Efimov RS
 	}
 	
 	/*******MENU********/
+	#home,
+	#menuIcon{
+		display: none;
+	}
 	#menu{
 		background-color: #f2f2f2;
 		position: fixed;
@@ -133,8 +137,6 @@ RabbitWeb-School.ru (medium) for the Efimov RS
 		background-color: rgb(0, 153, 51);
 		text-align: center;
 		box-shadow: 0px 0px 3px black;
-		/*-webkit-transform: scale(1.01);
-		-moz-transform: scale(1.01);*/
 	}
 	.Courses .coursesPython:hover{
 		background-color: rgb(204, 204, 0);
@@ -226,21 +228,19 @@ RabbitWeb-School.ru (medium) for the Efimov RS
 	}
 	/*end Price-list*/
 	/*newSite open*/
-	.newSite table {
-		width: auto;
-		max-width: 1000px;
-	}
+	.newSite,
 	.newInfo {
 		width: auto;
 		max-width: 1000px;
 		margin-bottom: 10%;
 	}
-	.newInfo div {
+	.newInfo .skypeImg {
+		width: 110px;
 		float: left;
 		padding: 10px;
 	}
-	.newInfo img {
-		width: 200px;
+	.newInfo .faqImg {
+		width: 110px;
 		float: left;
 		padding: 10px;
 	}
@@ -293,11 +293,7 @@ RabbitWeb-School.ru (medium) for the Efimov RS
 		margin-right: auto;
 		padding: 10px;
 	}
-	#scratch_info img.windowScratch {
-		width: auto;
-		max-width: 650px; 
-	}
-	#javascript_info img{
+	#javascript_info img {
 		border-radius: 20px;
 		box-shadow: 0 0 3px black;
 	}
@@ -394,7 +390,17 @@ RabbitWeb-School.ru (medium) for the Efimov RS
 		color: white;
 		text-shadow: 0 0 1px lightgrey;
 	}
-	#sprites{
+	/***start yaCASH***/
+	#yaCashScratch4, #yaCashScratch8, #yaCashScratch16,
+	#yaCashPython4, #yaCashPython8, #yaCashPython16,
+	#yaCashPython4advanced, #yaCashPython8advanced,
+	#yaCashPython16advanced, #yaCashJS4, #yaCashJS8,
+	#yaCashJS16, #yaCashJS4advanced, #yaCashJS8advanced,
+	#yaCashJS16advanced{
+		margin: 10% auto 20% auto;
+	}
+	/***end yaCASH***/
+	#sprites {
 		width: auto;
 		max-width: 900px;
 		margin: 0 auto 0 auto;
@@ -438,6 +444,8 @@ RabbitWeb-School.ru (medium) for the Efimov RS
 	#schedule {
 		padding: 10px;
 		border-radius: 5px;
+		width: auto;
+		max-width: 600px;
 	}
 	#schedule th {
 		border-bottom: 1px solid black;

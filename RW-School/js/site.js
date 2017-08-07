@@ -83,83 +83,7 @@ $(document).ready(function(){
 	$('#info-javascript-middle').hide();
 	$('#faq div p').hide();
 	//end .hide
-	/*
-	Scratch4Classes
-	Scratch8Classes
-	Scratch16Classes
-	Python4Classes
-	Python8Classes
-	Python16Classes
-	PythonAdv4Classes
-	PythonAdv8Classes
-	PythonAdv16Classes
-	JS4Classes
-	JS8Classes
-	JS16Classes
-	JSAdv4Classes
-	JSAdv8Classes
-	JSAdv16Classes
-	*/
-	/*$('#scratch-middle i').click(function(){
-    	var $scratchMiddle = $(this).next('#info-scratch-middle');
-    	if ($scratchMiddle.is(':hidden')) {
-    		$scratchMiddle.slideDown(300);
-    		$(this).addClass('close');
-    	}else{
-    		$scratchMiddle.slideUp(300);
-    		$(this).removeClass('close');
-    	}
-	});
-	$('#python-easy i').click(function(){
-    	var $pythonEasy = $(this).next('#info-python-easy');
-    	if ($pythonEasy.is(':hidden')) {
-    		$pythonEasy.slideDown(300);
-    		$(this).addClass('close');
-    	}else{
-    		$pythonEasy.slideUp(300);
-    		$(this).removeClass('close');
-    	}
-	});
-	$('#python-middle i').click(function(){
-    	var $pythonMiddle = $(this).next('#info-python-middle');
-    	if ($pythonMiddle.is(':hidden')) {
-    		$pythonMiddle.slideDown(300);
-    		$(this).addClass('close');
-    	}else{
-    		$pythonMiddle.slideUp(300);
-    		$(this).removeClass('close');
-    	}
-	});
-	$('#python-mashine i').click(function(){
-    	var $pythonMashine = $(this).next('#info-python-mashine');
-    	if ($pythonMashine.is(':hidden')) {
-    		$pythonMashine.slideDown(300);
-    		$(this).addClass('close');
-    	}else{
-    		$pythonMashine.slideUp(300);
-    		$(this).removeClass('close');
-    	}
-	});
-	$('#javascript-easy i').click(function(){
-    	var $javascriptEasy = $(this).next('#info-javascript-easy');
-    	if ($javascriptEasy.is(':hidden')) {
-    		$javascriptEasy.slideDown(300);
-    		$(this).addClass('close');
-    	}else{
-    		$javascriptEasy.slideUp(300);
-    		$(this).removeClass('close');
-    	}
-	});
-	$('#javascript-middle i').click(function(){
-    	var $javascriptMiddle = $(this).next('#info-javascript-middle');
-    	if ($javascriptMiddle.is(':hidden')) {
-    		$javascriptMiddle.slideDown(300);
-    		$(this).addClass('close');
-    	}else{
-    		$javascriptMiddle.slideUp(300);
-    		$(this).removeClass('close');
-    	}
-	});*/
+
 	$('#faq div h3').click(function(){
     	var $faqDivP = $(this).next('#faq div p');
     	if ($faqDivP.is(':hidden')) {
@@ -167,6 +91,16 @@ $(document).ready(function(){
     		$(this).addClass('close');
     	}else{
     		$faqDivP.slideUp(300);
+    		$(this).removeClass('close');
+    	}
+	});
+	$('#menuIcon').click(function(){
+    	var $menuParagraph = $(this).next('#menuParagraph');
+    	if ($menuParagraph.is(':hidden')) {
+    		$menuParagraph.slideDown(300);
+    		$(this).addClass('close');
+    	}else{
+    		$menuParagraph.slideUp(300);
     		$(this).removeClass('close');
     	}
 	});
