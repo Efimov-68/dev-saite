@@ -174,19 +174,6 @@ RabbitWeb-School.ru (full) for the Efimov RS
 		border-left: 0px solid black;
 		border-right: 0px solid black;
 	}
-	.Price-learning li#scratch-easy,
-	.Price-learning li#scratch-middle,
-	.Price-learning li#python-easy,
-	.Price-learning li#python-middle,
-	.Price-learning li#python-mashine,
-	.Price-learning li#javascript-easy,
-	.Price-learning li#javascript-middle {
-		background-image: url(../images/down.png);
-		background-repeat: no-repeat;
-		background-position: left;
-		padding: 10px 25px 10px 25px;
-		cursor: pointer; 
-	}
 	.Price-learning form {
 		background-color: white;
 		border: 1px solid #006699;
@@ -334,6 +321,7 @@ RabbitWeb-School.ru (full) for the Efimov RS
 		margin-left: auto;
 		margin-right: auto;
 	}
+	#coursesForm form,
 	#scratchForm form,
 	#python-form form,
 	#javascript-form form {
@@ -344,6 +332,7 @@ RabbitWeb-School.ru (full) for the Efimov RS
 		margin-left: auto;
 		margin-right: auto;
 	}
+	#coursesForm input,
 	#scratchForm input,
 	#python-form input,
 	#javascript-form input {
@@ -353,6 +342,7 @@ RabbitWeb-School.ru (full) for the Efimov RS
 		border: 2px solid blue;
 		border-radius: 5px 10px 10px 0;
 	}
+	#coursesForm input:hover,
 	#scratchForm input:hover,
 	#python-form input:hover,
 	#javascript-form input:hover {
@@ -361,6 +351,7 @@ RabbitWeb-School.ru (full) for the Efimov RS
 		border-radius: 5px 10px 10px 0;
 		margin: 5px;
 	}
+	#coursesForm .submit,
 	#scratchForm .submit,
 	#python-form .submit,
 	#javascript-form .submit,
@@ -375,6 +366,7 @@ RabbitWeb-School.ru (full) for the Efimov RS
 		text-shadow: 1px 1px 0.3px black;
 		box-shadow: 2.1px 2.1px 1px #b37400;
 	}
+	#coursesForm .submit:hover,
 	#scratchForm .submit:hover,
 	#python-form .submit:hover,
 	#javascript-form .submit:hover,
