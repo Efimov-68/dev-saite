@@ -33,7 +33,6 @@
 	    НАВИГАЦИЯ
 	\*------------------------------------*/
 	.nav{
-	    float:right;
 	    text-align: left;
 	    list-style:none;
 	    font-weight:bold;
@@ -42,8 +41,11 @@
 	}
 	
 	.nav li{
-		float: left;
-	    margin-right:10px;
+		position: relative;
+		top: 25%;
+		left: 10%;
+		right: auto;
+	    margin-right:0px;
 	    position:relative;
 	    display:block;
 	}
@@ -73,52 +75,8 @@
 	    text-decoration:none;
 	    border-color: none;
 	    border-style: solid;
-	    -moz-transform:scale(.9);
-	    -webkit-transform:scale(.9);
-	}
-	/*Выпадающий список*/
-	.nav ul{
-		list-style:none;
-	    position:absolute;
-	    left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
-	    opacity:0; /* Устанавливаем начальное состояние прозрачности */
-	    -webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
-	}
-	.nav ul li{
-	    padding-top: 0px; /* Вводим отступ между li чтобы создать иллюзию разделенных пунктов меню */
-	    float:none;
-	    background:url(dot.gif);
-	}
-	.nav ul a{
-	    white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
-	    display:block;
-	}
-	.nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
-	    left:0; /* Приносим его обратно на экран, когда нужно */
-	    opacity:1; /* Делаем непрозрачным */
-	}
-	.nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
-		font-size: 12px;
-		text-decoration:none;
-	    background:#99ceff;
-	    background:rgba(0, 0, 0, 0.0); /* Выглядит полупрозрачным */
-	    
-	}
-	.nav li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
-	    text-decoration:none;
-	    -webkit-transition:-webkit-transform 0.075s linear;
-	}
-	.nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
-	    background:#99ceff;
-	    background:rgba(0, 0, 0, 0.0); /* Будет полупрозрачным */
-	    text-decoration:underline;
 	    -moz-transform:scale(1);
 	    -webkit-transform:scale(1);
-	}
-	
-	/* IMG */
-	.nav img{
-		width: 25px;
 	}
 	/*Конец верхнего меню*/
 
@@ -147,6 +105,7 @@
 		color: #99ceff;
 		text-shadow: 1px 1px 1px white;
 		padding: 5px;
+		font-size: 2.0em;
 	}
 	
 	#basic h1 span{
@@ -156,9 +115,9 @@
 	#basic h2{
 		color: #ccffff;
 		text-shadow: 1px 1px 1px grey;
-		line-height: 1.2em;
 		margin-top: 30px;
 		padding: 5px;
+		font-size: 1.0em;
 	}
 	
 	#basic h2 span{
@@ -180,7 +139,22 @@
 	}
 	
 	/*	CONTACTS */
-	.phone{
+	#menuIcon{
+		width: auto;
+		max-width: 30px;
+		padding: 10px;
+		cursor: pointer;
+	}
+	#menuParagraph{
+		display: none;
+		width: auto;
+		max-width: 300px;
+	}
+	#developers a{
+		cursor: pointer;
+	}
+	li.phone{
+		display: none;
 	    text-align:right;
 	    font-size:12px;
 	    padding:10px;
@@ -245,6 +219,7 @@
 		text-shadow: none;
 		padding: 30px;
 		line-height: 1.2em;
+		font-size: 1.2em;
 	}
 	
 	h2, h3, h4, h5, h6{
@@ -759,8 +734,8 @@
 	#admin img{
 		float: left;
 		height: auto;
-		max-height: 250px;
-		padding: 10px;
+		max-height: 100px;
+		padding: 20px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -781,7 +756,7 @@
 
 	#copyrighting-reratingh img.imageStyle{
 		height: auto;
-		max-height: 150px;
+		max-height: 100px;
 		padding: 10px;
 	}
 
@@ -845,7 +820,7 @@
 	#individual-milestones img.imageStyle{
 		height: auto;
 		width: auto;
-		max-width: 550px;
+		max-width: 300px;
 		margin: 0 auto 0 auto;
 		padding: 10px;
 	}
@@ -1108,12 +1083,9 @@
 	}
 	
 	#seo-basic img{
-		width: 40px;
+		display: none;
 	}
-	
-	#seo-basic h2.close {
-		background-image: url(../_images/close.png);
-	}
+
 	.answer {
 		margin-left: 25px;
 		font-size: 14px;
@@ -1404,7 +1376,7 @@
 	.checkbox {
 		width: auto;
 		max-width: 400px;
-		font-size: 12px;
+		font-size: 10px;
 		position:relative;
 		padding: 0 50px 0 50px;
 		margin: 10px auto 10px auto;

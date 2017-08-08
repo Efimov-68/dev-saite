@@ -18,6 +18,7 @@ $(document).ready(function(){
   $('#logoSiteInfo div').hide();
   $('#design-list-upgrade').hide();
   $('.package div').hide();
+  $('#siteDevelopers').hide();
   //END all.hide()
 
 	$('#basic').show(function(){
@@ -225,5 +226,22 @@ $(document).ready(function(){
       $package.slideUp(300);
     }
   });//END SEO Package
+  //*Menu 480px viewport*
+  $('#menuIcon').click(function(){
+      var $menuParagraph = $(this).next('#menuParagraph');
+      if ($menuParagraph.is(':hidden')) {
+        $menuParagraph.slideDown(300);
+      }else{
+        $menuParagraph.slideUp(300);
+      }
+  });
+  $('#developers a').click(function(){
+      var $siteDevelopers = $(this).next('#siteDevelopers');
+      if ($siteDevelopers.is(':hidden')) {
+        $siteDevelopers.slideDown(300);
+      }else{
+        $siteDevelopers.slideUp(300);
+      }
+  });//*end* Menu 480px viewport//*end* Menu 480px viewport
 
 });//END READY

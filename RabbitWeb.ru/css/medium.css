@@ -180,6 +180,9 @@
 	}
 	
 	/*	CONTACTS */
+	#menuIcon{
+		display: none;
+	}
 	.phone{
 	    text-align:right;
 	    font-size:12px;

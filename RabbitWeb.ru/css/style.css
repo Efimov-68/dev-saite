@@ -181,6 +181,9 @@
 	}
 	
 	/*	CONTACTS */
+	#menuIcon{
+		display: none;
+	}
 	.phone{
 	    float: left;
 	    font-size:17px;
