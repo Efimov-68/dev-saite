@@ -16,10 +16,9 @@
 	}
 	
 	body{
-		background: white;
 		box-shadow: 0 0 10px black;
 		max-width: 1600px;
-		min-width: 1025px;
+		width: auto;
 		margin-left: auto;
 		margin-right: auto;
 		line-height: 1.3em;
@@ -123,16 +122,17 @@
 	/*Конец верхнего меню*/
 
 	#basic{
-		background-image: url(../images/fon-rabbitweb2.png);
+		/*background-image: url(../images/fon-rabbitweb2.png);
 		background-size: auto;
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: center;*/
 		border: none;
-		height: 800px;
+		height: auto;
+		max-height: 800px;
 	}
 	
 	#basic div{
-		background-color: rgba(0, 0, 0, 0.67);
+		/*background-color: rgba(0, 0, 0, 0.67);*/
 		text-shadow: 1px 1px 1px grey;
 		height: 800px;
 		padding: 20px;
@@ -348,10 +348,6 @@
 	
 	/*workingOut Главная*/
 	#workingOut{
-		background: url(../images/Hand-Holding-Tablet-PNG-Image1.png) no-repeat;
-		background-position: left;
-		background-color: white;
-		background-size: 450px;
 		background-color: rgba(242, 242, 242, .0);
 		border: none;
 		padding: 0px;
@@ -366,11 +362,6 @@
 		width: auto;
 		max-width: 650px;
 		border-radius: 0px;
-	}
-	
-	#workingOut h1{
-		margin-top: 0%;
-		text-align: left;
 	}
 	
 	#visiting,
@@ -392,25 +383,6 @@
 		margin-top: 10px;
 	}
 
-	#visiting:hover,
-	#promo:hover,
-	#catalog:hover,
-	#landing:hover,
-	#company:hover,
-	#magazyn:hover,
-	#CMS:hover,
-	#browser:hover,
-	#seo-find:hover,
-	#servTech:hover,
-	#serv-info_2:hover,
-	#designSite:hover,
-	#design-upgrade-small:hover,
-	#logoSiteInfo:hover{
-		box-shadow: 6px 7px 5px black;
-		margin-left: -20px;
-		margin-right: 20px;
-	}
-
 	#visiting{background-color: rgba(230, 247, 255, 0.1);}
 	#promo{background-color: rgba(204, 239, 255, 0.1);}
 	#catalog{background-color: rgba(179, 231, 255, 0.1);}
@@ -426,26 +398,23 @@
 	#servTech{background-color: rgba(0, 139, 204, 0.1);}
 	#serv-info_2{background-color: rgba(0, 122, 179, 0.1);}
 
-	#visiting h2,
-	#promo h2,
-	#catalog h2,
-	#landing h2,
-	#company h2,
-	#magazyn h2,
+	#visiting h3,
+	#promo h3,
+	#catalog h3,
+	#landing h3,
+	#company h3,
+	#magazyn h3,
 	#CMS h3,
-	#browser h3,
 	#seo-find h3,
 	#servTech h3,
-	#serv-info_2 h2,
-	#designSite h2,
-	#design-upgrade-small h2,
+	#serv-info_2 h3,
+	#designSite h3,
+	#design-upgrade-small h3,
 	#logoSiteInfo h3{
 		background: url(../images/open.png) no-repeat;
 		width: auto;
-		max-width: 220px;
 		margin: auto;
-		padding: auto;
-		font-size: 0.8em;
+		padding: 5px;
 		text-align: center;
 		text-shadow: none;
 		cursor: pointer;
@@ -459,7 +428,6 @@
 	#company img.icon,
 	#magazyn img.icon,
 	#CMS img.icon,
-	#browser img.icon,
 	#seo-find img.icon,
 	#servTech img.icon,
 	#serv-info_2 img.icon,
@@ -483,7 +451,7 @@
 	#design-upgrade-small p,
 	#logoSiteInfo p{
 		color: black;
-		font-size: 12px;
+		font-size: 14px;
 		line-height: 1.2em;
 		text-align: left;
 	}
@@ -534,34 +502,6 @@
 		color: grey;
 	}
 	
-	#visiting div p input,
-	#promo div p input,
-	#catalog div p input,
-	#landing div p input,
-	#company div p input,
-	#magazyn div p input{
-		background-color: rgba(242, 242, 242, 0.90);
-		color: black;
-		border: 2px solid black;
-		border-radius: 12px;
-		padding: 5px;
-	}
-	
-	#visiting div p input:hover,
-	#promo div p input:hover,
-	#catalog div p input:hover,
-	#landing div p input:hover,
-	#company div p input:hover,
-	#magazyn div p input:hover{
-		background-color: rgba(242, 242, 242, 0.90);
-		color: grey;
-		border: 2px solid grey;
-		border-radius: 12px;
-		padding: 5px;
-		-moz-transform:scale(.97);
-		-webkit-transform:scale(.97);
-	}
-	
 	#visiting table,
 	#promo table,
 	#catalog table,
@@ -578,9 +518,9 @@
 	#landing td,
 	#company td,
 	#magazyn td{
-		padding: 0px;
+		padding: 5px;
 		border-collapse: collapse;
-		font-size: 12px;
+		font-size: 14px;
 		text-shadow: none;
 	}
 	
@@ -625,19 +565,18 @@
 		color: black;
 	}
 	
-	#visiting h2.close,
-	#promo h2.close,
-	#catalog h2.close,
-	#landing h2.close,
-	#company h2.close,
-	#magazyn h2.close,
+	#visiting h3.close,
+	#promo h3.close,
+	#catalog h3.close,
+	#landing h3.close,
+	#company h3.close,
+	#magazyn h3.close,
 	#CMS h3.close,
-	#browser h3.close,
 	#seo-find h3.close,
 	#servTech h3.close,
-	#serv-info_2 h2.close,
-	#designSite h2.close,
-	#design-upgrade-small h2.close,
+	#serv-info_2 h3.close,
+	#designSite h3.close,
+	#design-upgrade-small h3.close,
 	#logoSiteInfo h3.close{
 		background-image: url(../images/close.png);
 	}

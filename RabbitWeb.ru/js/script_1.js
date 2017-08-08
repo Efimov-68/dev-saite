@@ -10,7 +10,7 @@ $(document).ready(function(){
   $('#company div').hide();
   $('#magazyn div').hide();
   $('#CMS div').hide();
-  $('#browser div').hide();
+  //$('#browser div').hide();
   $('#seo-find div').hide();
   $('#servTech div').hide();
   $('#serv-info_2 div').hide();
@@ -54,7 +54,7 @@ $(document).ready(function(){
     $('.callBack .callMessange').slideUp(500);
   });//END callBack effect
 
-  $('#visiting h2').click(function(){
+  $('#visiting h3').click(function(){
     var $visiting = $(this).next('#visiting div');
     if ($visiting.is(':hidden')) {
       $visiting.slideDown(300);
@@ -75,7 +75,7 @@ $(document).ready(function(){
     });
   //END additionally
 
-  $('#landing h2').click(function(){
+  $('#landing h3').click(function(){
     var $landing = $(this).next('#landing div');
     if ($landing.is(':hidden')) {
       $landing.slideDown(300);
@@ -96,7 +96,7 @@ $(document).ready(function(){
     });
   //END additionally
 
-  $('#company h2').click(function(){
+  $('#company h3').click(function(){
     var $company = $(this).next('#company div');
     if ($company.is(':hidden')) {
       $company.slideDown(300);
@@ -117,7 +117,7 @@ $(document).ready(function(){
     });
   //END additionally
 
-  $('#magazyn h2').click(function(){
+  $('#magazyn h3').click(function(){
     var $magazyn = $(this).next('#magazyn div');
     if ($magazyn.is(':hidden')) {
       $magazyn.slideDown(300);
@@ -145,16 +145,6 @@ $(document).ready(function(){
       $(this).addClass('close');
     }else{
       $CMS.slideUp(300);
-      $(this).removeClass('close');
-    }
-  });
-  $('#browser h3').click(function(){
-    var $browser = $(this).next('#browser div');
-    if ($browser.is(':hidden')) {
-      $browser.slideDown(300);
-      $(this).addClass('close');
-    }else{
-      $browser.slideUp(300);
       $(this).removeClass('close');
     }
   });
@@ -188,7 +178,7 @@ $(document).ready(function(){
       $(this).removeClass('close');
     }
   });
-  $('#designSite h2').click(function(){
+  $('#designSite h3').click(function(){
    var $designSite = $(this).next('#designSite div');
     if ($designSite.is(':hidden')) {
       $designSite.slideDown(300);
@@ -197,49 +187,7 @@ $(document).ready(function(){
       $designSite.slideUp(300);
       $(this).removeClass('close');
     }
-  });
-  $('#promo h2').click(function(){
-   var $promo = $(this).next('#promo div');
-    if ($promo.is(':hidden')) {
-      $promo.slideDown(300);
-      $(this).addClass('close');
-    }else{
-      $promo.slideUp(300);
-      $(this).removeClass('close');
-    }
-  });
-  //Additionally
-    $('#promo div a.sbmtAdditionally').click(function(){
-      var $additionally = $(this).next('#promo div div.additionally');
-      if ($additionally.is(':hidden')) {
-        $additionally.slideDown(300);
-      }else{
-        $additionally.slideUp(300);
-      }
-    });
-  //END additionally
-
-    $('#catalog h2').click(function(){
-    var $catalog = $(this).next('#catalog div');
-    if ($catalog.is(':hidden')) {
-      $catalog.slideDown(300);
-      $(this).addClass('close');
-    }else{
-      $catalog.slideUp(300);
-      $(this).removeClass('close');
-    }
-  });
-  //Additionally
-    $('#catalog div a.sbmtAdditionally').click(function(){
-      var $additionally = $(this).next('#catalog div div.additionally');
-      if ($additionally.is(':hidden')) {
-        $additionally.slideDown(300);
-      }else{
-        $additionally.slideUp(300);
-      }
-    });
-  //END additionally
-  
+  });  
   $('#design-upgrade-small h2').click(function(){
     var $designUpgradeSmall = $(this).next('#design-upgrade-small div');
     if ($designUpgradeSmall.is(':hidden')) {
