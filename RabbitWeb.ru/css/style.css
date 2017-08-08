@@ -37,7 +37,7 @@
 	    list-style:none;
 	    font-weight:bold;
 	    padding: 3px;
-	    margin: 0% auto 0 auto;
+	    margin: 0 auto 0 auto;
 	}
 	
 	.nav li{
@@ -182,8 +182,8 @@
 	
 	/*	CONTACTS */
 	.phone{
-	    text-align:right;
-	    font-size:21px;
+	    float: left;
+	    font-size:17px;
 	    padding:10px;
 	    color:white;
 	}

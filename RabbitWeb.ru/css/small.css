@@ -1,4 +1,4 @@
-/*RabbitWeb.ru for Efimov RS*/
+/*RabbitWeb.ru for the Efimov RS*/
 @media all and (max-width: 480px){
 	@font-face{
 		font-family: Pangolin-Regular;
@@ -17,10 +17,9 @@
 	}
 	
 	body{
-		background: white;
 		box-shadow: 0 0 10px black;
 		width: auto;
-		max-width: 1600px;
+		max-width: 480px;
 		margin-left: auto;
 		margin-right: auto;
 		line-height: 1.3em;
@@ -28,35 +27,125 @@
 		font-family: Comfortaa-Regular;
 	}
 	
-	/*Start BASIC*/
+	/*Start BASIC + header*/
+
+	/*------------------------------------*\
+	    НАВИГАЦИЯ
+	\*------------------------------------*/
+	.nav{
+	    float:right;
+	    text-align: left;
+	    list-style:none;
+	    font-weight:bold;
+	    padding: 3px;
+	    margin: 0 auto 0 auto;
+	}
+	
+	.nav li{
+		float: left;
+	    margin-right:10px;
+	    position:relative;
+	    display:block;
+	}
+	
+	.nav li a{
+		font-size: 12px;
+	    display:block;
+	    color:white;
+	    background:rgba(0, 0, 0, 0.0);
+	    text-decoration:none;
+	    text-shadow:0px 0px 1px black; /* Тень текста, чтобы приподнять его на немного */
+	    -moz-border-radius:2px;
+	    -webkit-border-radius:2px;
+	    border-style: solid;
+	    border-width: 0;
+	    border-radius: 0;
+	    padding: 5px;
+	}
+	
+	.nav li a:hover{
+	    color:#99ceff;
+	    text-decoration:underline;
+	}
+	
+	.nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
+	    background:rgba(0,0,0, 0.0); /* Выглядит полупрозрачным */
+	    text-decoration:none;
+	    border-color: none;
+	    border-style: solid;
+	    -moz-transform:scale(.9);
+	    -webkit-transform:scale(.9);
+	}
+	/*Выпадающий список*/
+	.nav ul{
+		list-style:none;
+	    position:absolute;
+	    left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
+	    opacity:0; /* Устанавливаем начальное состояние прозрачности */
+	    -webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
+	}
+	.nav ul li{
+	    padding-top: 0px; /* Вводим отступ между li чтобы создать иллюзию разделенных пунктов меню */
+	    float:none;
+	    background:url(dot.gif);
+	}
+	.nav ul a{
+	    white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
+	    display:block;
+	}
+	.nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+	    left:0; /* Приносим его обратно на экран, когда нужно */
+	    opacity:1; /* Делаем непрозрачным */
+	}
+	.nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
+		font-size: 12px;
+		text-decoration:none;
+	    background:#99ceff;
+	    background:rgba(0, 0, 0, 0.0); /* Выглядит полупрозрачным */
+	    
+	}
+	.nav li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
+	    text-decoration:none;
+	    -webkit-transition:-webkit-transform 0.075s linear;
+	}
+	.nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
+	    background:#99ceff;
+	    background:rgba(0, 0, 0, 0.0); /* Будет полупрозрачным */
+	    text-decoration:underline;
+	    -moz-transform:scale(1);
+	    -webkit-transform:scale(1);
+	}
+	
+	/* IMG */
+	.nav img{
+		width: 25px;
+	}
+	/*Конец верхнего меню*/
+
 	#basic{
-		background-image: url(../images/fon-rabbitweb2.png);
+		/*background-image: url(../images/fon-rabbitweb2.png);
 		background-size: auto;
 		background-repeat: no-repeat;
-		background-position: center;
-		margin-top: -5px;
+		background-position: center;*/
+		margin-top: 0;
 		border: none;
 		padding: 5px;
 	}
 	
 	#basic div{
-		background-color: rgba(0, 0, 0, 0.0);
+		/*background-color: rgba(0, 0, 0, 0.67);*/
 		text-shadow: 1px 1px 1px grey;
 		padding: 20px;
-		margin-left: auto;
-		margin-right: auto;
+		margin: 10% auto 10% auto;
 		border: none;
-		height: 620px;
+		height: auto;
 		width: auto;
-		max-width: 920px;
 	}
 	
 	#basic h1{
 		text-align: center;
-		font-size: 4.0em;
 		color: #99ceff;
 		text-shadow: 1px 1px 1px white;
-		margin-top: 25%;
 		padding: 5px;
 	}
 	
@@ -65,7 +154,6 @@
 	}
 	
 	#basic h2{
-		font-size: 1.3em;
 		color: #ccffff;
 		text-shadow: 1px 1px 1px grey;
 		line-height: 1.2em;
@@ -77,28 +165,11 @@
 		color: #ffcc80;
 	}
 	
-	#basic h3{
-		color: white;
-		font-size: 1.1em;
-		line-height: 1.1em;
-		text-shadow: 1px 1px 1px grey;
-	}
-	
-	#basic p{
-		text-align: center;
-		color: white;
-		line-height: 1.3em;
-		text-shadow: 1px 1px 1px grey;
-	}
-	
 	header img{
-		margin-left: 6px;
-		width: 120px;
+		width: 80px;
 		float: left;
-	}
-	
-	.nav img{
-		width: 25px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 	table{
@@ -108,9 +179,10 @@
 		padding-right: 7px;
 	}
 	
-	.phone p{
+	/*	CONTACTS */
+	.phone{
 	    text-align:right;
-	    font-size:21px;
+	    font-size:12px;
 	    padding:10px;
 	    color:white;
 	}
@@ -119,36 +191,15 @@
 		background-color: rgba(0,0,0,0.0);
 		border-radius:10px;
 		position:fixed;
-		margin-left: 20px;
-		margin-top: 30%;
+		top: 50%;
+		left: 0;
 	}
 	
 	#contacts div:hover{
 		background-color: rgba(0,0,0,0.0);
 		border-radius: 10px;
 		position:fixed;
-		margin-left: 20px;
-		margin-top: 30%;
-	}
-	
-	#contacts p{
-		padding: 5px;
-		color: white;
-		font-size: 14px;
-		text-align: center;
-		text-shadow: 1px 1px 1px black;
-	}
-	
-	#contacts div:hover p{
-		padding: 5px;
-		color: white;
-		font-size: 14px;
-		text-align: center;
-		text-shadow: 1px 1px 1px black;
-	}
-	
-	#contacts p b{
-		font-size: 21px;
+		top: 50%;
 	}
 	
 	#contacts p img{
@@ -161,11 +212,11 @@
 	#contacts p img:hover{
 		border: none;	
 		padding:0 0 10px 0;
-		-moz-transform:scale(1.30);
-	    -webkit-transform:scale(1.30);
+		-moz-transform:scale(1.2);
+	    -webkit-transform:scale(1.2);
 	}
 	
-	#social{
+	.social{
 		float: right;
 		list-style-type: none;
 		font-family: cursive;
@@ -175,23 +226,25 @@
 		bottom: 0;
 	}
 	
-	#social li{
+	li.social{
 		float: right;
 		padding: 0 5px 0 0;
 		color: lightgrey;
 		text-shadow: 1px 1px 1px black;
 	}
 	
-	#social li img{
+	li.social img{
 		height: auto;
 		width: 30px;
 	}
-	
+	/*	END CONTACTS */
+
 	h1{
 		color: white;
 		text-align: left;
 		text-shadow: none;
 		padding: 30px;
+		line-height: 1.2em;
 	}
 	
 	h2, h3, h4, h5, h6{
@@ -212,17 +265,24 @@
 		padding-bottom: 0px;
 	}
 	
+	/**start Basic-Module**/
+	#basic-module{
+		margin: 0 auto 5% auto;
+	}
+	/**end Basic-Module**/
+
 	/*START CALLBACK*/
-	.callBack div{
+	#contacts div.callPhone,
+	#contacts div.callMessange{
 		display: none;
 		position: fixed;
-		top: 35%;
-		background: rgba(242, 242, 242, 0.97);
+		top: 49.5%;
+		left: 0%;
+		background-color: rgba(0, 0, 0, 0.7);
 		padding: 0;
-		width: 300px;
+		width: 310px;
 		height: auto;
 		border-radius: 5px 10px 5px 5px;
-		box-shadow: 0 0 5px black;
 	}
 	
 	.callBack h2{
@@ -236,31 +296,36 @@
 		list-style-type:none;	
 	}
 	
-	.callBack li{
-		color: black;
-		line-height: 2em;
-		text-shadow: 1px 1px 1px black;
+	.callPhone li,
+	.callMessange li{
+		margin-top: 10px;
+		color: white;
+		text-shadow: none;
 	}
 	
 	.callBack li input{
 		border: 1px ridge lightgrey;
-		width: 220px;
+		width: 180px;
 		height: 28px;
-		box-shadow: 0px 0px 0px black;
+		margin-left: 50px;
+	}
+
+	.callMessange input{
+		margin-top: 10px;
 	}
 	
-	.callBack p input{
-		background-color: rgba(179, 0, 0,0.70);
-		height: 30px;
+	.callBack input.submit{
+		background-color: rgb(179, 0, 0);
+		height: 28px;
 		width: auto;
 		border: none;
 		border-radius: 10px;
 		color: lightgrey;
 	}
 	
-	.callBack p input:hover{
-		background-color: rgba(179, 0, 0,0.70);
-		height: 30px;
+	.callBack input.submit:hover{
+		background-color: rgb(179, 0, 0);
+		height: 28px;
 		width: auto;
 		border: 1px solid red;
 		border-radius: 10px;
@@ -269,47 +334,45 @@
 		text-shadow: 1px 1px 1px black;
 	}
 	
-	.callBack img{
+	.callPhone img,
+	.callMessange img{
+		float: right;
 		width: 21px;
 		height: auto;
 		margin: -1px 0 0 0;
 	}
 	
-	.callBack img:hover{
+	.callPhone img:hover,
+	.callMessange img:hover{
 		width: 21px;
 		height: auto;
 		margin: -1px 0 0 0;
 		-moz-transform:scale(1.15);
 	    -webkit-transform:scale(1.15);
 	}
-	/*END CALLBACK*/
+	/*END CallBack*/
 	
 	/*workingOut Главная*/
 	#workingOut{
-		background: url(../images/Hand-Holding-Tablet-PNG-Image1.png) no-repeat;
-		background-position: left;
-		background-color: white;
-		background-size: 920px;
-		background-color: #262626;
+		background-color: rgba(242, 242, 242, .0);
 		border: none;
 		padding: 0px;
 		margin: 5% auto 0 auto;
 		height: 90%;
 		width: 90%;
-		max-width: 1330px;
-	
+		max-width: 768px;
+
 	}
 	
 	#workingOut div{
-		background: #f2f2f2;
 		width: auto;
-		max-width: 360px;
-		border-radius: 10px;
+		max-width: 450px;
 	}
 	
 	#workingOut h1{
 		margin-top: 0%;
 		text-align: left;
+		line-height: 1.2em;
 	}
 	
 	#visiting,
@@ -323,69 +386,68 @@
 	#seo-find,
 	#servTech,
 	#serv-info_2,
-	#designSite{
+	#designSite,
+	#design-upgrade-small,
+	#logoSiteInfo{
 		border: none;
-		box-shadow: 0 0 5px black;
 		height: auto;
 		width: auto;
 		padding: 10px;
+		margin-top: 10px;
 	}
-	
-	#visiting:hover,
-	#promo:hover,
-	#catalog:hover,
-	#landing:hover,
-	#company:hover,
-	#magazyn:hover,
-	#CMS:hover,
-	#browser:hover,
-	#seo-find:hover,
-	#servTech:hover,
-	#serv-info_2:hover,
-	#designSite:hover{
-		border: none;
-		box-shadow: 0 0 5px black;
-		height: auto;
-		width: auto;
-		padding: 10px;
-		-moz-transform:scale(1.05);
-	    -webkit-transform:scale(1.05);
-	}
-	
-	#visiting h2,
-	#promo h2,
-	#catalog h2,
-	#landing h2,
-	#company h2,
-	#magazyn h2,
-	#CMS h3,
-	#browser h3,
+
+	#visiting{background-color: rgba(230, 247, 255, 0.1);}
+	#promo{background-color: rgba(204, 239, 255, 0.1);}
+	#catalog{background-color: rgba(179, 231, 255, 0.1);}
+	#landing{background-color: rgba(153, 223, 255, 0.1);}
+	#company{background-color: rgba(128, 215, 255, 0.1);}
+	#magazyn{background-color: rgba(102, 207, 255, 0.1);}
+	#CMS{background-color: rgba(77, 198, 255, 0.1);}
+	#designSite{background-color: rgba(51, 190, 255, 0.1);}
+	#browser{background-color: rgba(26, 182, 255, 0.1);}
+	#design-upgrade-small{background-color: rgba(153, 0, 0, 0.1);}
+	#logoSiteInfo{background-color: rgba(0, 174, 255, 0.1);}
+	#seo-find{background-color: rgba(0, 157, 230, 0.1);}
+	#servTech{background-color: rgba(0, 139, 204, 0.1);}
+	#serv-info_2{background-color: rgba(0, 122, 179, 0.1);}
+
+	#visiting h3,
+	#promo h3,
+	#catalog h3,
+	#landing h3,
+	#company h3,
+	#magazyn h3,
 	#seo-find h3,
 	#servTech h3,
-	#serv-info_2 h2,
-	#designSite h2{
+	#serv-info_2 h3,
+	#designSite h3,
+	#design-upgrade-small h3,
+	#logoSiteInfo h3{
 		background: url(../images/open.png) no-repeat;
 		width: auto;
-		padding: 0 5px -10px 25px;
-		font-size: .7em;
+		max-width: 220px;
+		margin: auto;
+		padding: auto;
+		text-align: center;
 		text-shadow: none;
 		cursor: pointer;
-		color: black;
+		color: white;
 	}
-	
-	#visiting div,
-	#promo div,
-	#catalog div,
-	#landing div,
-	#company div,
-	#magazyn div,
-	#CMS div,
-	#browser div,
-	#seo-find div,
-	#servTech div,
-	#serv-info_2 div,
-	#designSite div{
-		display: none;
+
+	#visiting img.icon,
+	#promo img.icon,
+	#catalog img.icon,
+	#landing img.icon,
+	#company img.icon,
+	#magazyn img.icon,
+	#CMS img.icon,
+	#browser img.icon,
+	#seo-find img.icon,
+	#servTech img.icon,
+	#serv-info_2 img.icon,
+	#designSite img.icon{
+		width: auto;
+		max-width: 58px;
 	}
 	
 	#visiting p,
@@ -393,8 +455,19 @@
 	#catalog p,
 	#landing p,
 	#company p,
-	#magazyn p{
+	#magazyn p,
+	#CMS p,
+	#browser p,
+	#seo-find p,
+	#servTech p,
+	#serv-info_2 p,
+	#designSite p,
+	#design-upgrade-small p,
+	#logoSiteInfo p{
 		color: black;
+		font-size: 12px;
+		line-height: 1.2em;
+		text-align: left;
 	}
 	
 	#visiting div,
@@ -408,21 +481,21 @@
 	#seo-find div,
 	#servTech div,
 	#serv-info_2 div,
-	#designSite div{
-		background-color: white;
+	#designSite div,
+	#design-upgrade-small div,
+	#logoSiteInfo div{
+		background-color: rgb(255,255,255);
 		text-align: left;
 		font-size: 12px;
 		line-height: 1.3em;
 		display: block;
-		border: 2px solid lightblue;
-		border-radius: 15px;
 		height: auto;
 		width: auto;
-		max-width: 500px;
 		margin-left: auto;
 		margin-right: auto;
+		padding: 5px;
 	}
-	
+
 	#visiting:hover div h3,
 	#promo:hover div h3,
 	#catalog:hover div h3,
@@ -437,7 +510,9 @@
 	#catalog div a,
 	#landing div a,
 	#company div a,
-	#magazyn div a{
+	#magazyn div a,
+	#design-upgrade-small div a,
+	#logoSiteInfo div a{
 		color: grey;
 	}
 	
@@ -451,7 +526,7 @@
 		color: black;
 		border: 2px solid black;
 		border-radius: 12px;
-		padding: 3px;
+		padding: 5px;
 	}
 	
 	#visiting div p input:hover,
@@ -464,9 +539,9 @@
 		color: grey;
 		border: 2px solid grey;
 		border-radius: 12px;
-		padding: 3px;
+		padding: 5px;
 		-moz-transform:scale(.97);
-	    -webkit-transform:scale(.97);
+		-webkit-transform:scale(.97);
 	}
 	
 	#visiting table,
@@ -487,6 +562,8 @@
 	#magazyn td{
 		padding: 0px;
 		border-collapse: collapse;
+		font-size: 12px;
+		text-shadow: none;
 	}
 	
 	#visiting img,
@@ -494,8 +571,10 @@
 	#catalog img,
 	#landing img,
 	#company img,
-	#magazyn img{
-		width: 15px;
+	#magazyn img,
+	#design-upgrade-small img,
+	#logoSiteInfo img{
+		width: 12px;
 	}
 	
 	#visiting b,
@@ -509,22 +588,10 @@
 		text-shadow: none;
 	}
 	
-	#CMS p,
-	#browser p,
-	#seo-find p,
-	#servTech p,
-	#serv-info_2 p,
-	#designSite p{
-		text-align: left;
-		font-size: 14px;
-		line-height: 1.2em;
-		color: black;
-	}
-	
 	.blockLeft ul.check li img,
 	.blockRight ul.check li img{
 		width: auto;
-		max-width: 15px;
+		max-width: 12px;
 	}
 	
 	#CMS li,
@@ -532,70 +599,68 @@
 	#seo-find li,
 	#servTech li,
 	#serv-info_2 li,
-	#designSite li{
+	#designSite li,
+	#design-upgrade-small li{
 		list-style: none;
 		text-align: left;
-		font-size: 14px;
+		font-size: 12px;
 		line-height: 1.5em;
 		color: black;
 	}
 	
-	#visiting h2.close,
-	#promo h2.close,
-	#catalog h2.close,
-	#landing h2.close,
-	#company h2.close,
-	#magazyn h2.close,
-	#CMS h3.close,
-	#browser h3.close,
+	#visiting h3.close,
+	#promo h3.close,
+	#catalog h3.close,
+	#landing h3.close,
+	#company h3.close,
+	#magazyn h3.close,
 	#seo-find h3.close,
 	#servTech h3.close,
-	#serv-info_2 h2.close,
-	#designSite h2.close{
+	#serv-info_2 h3.close,
+	#designSite h3.close,
+	#design-upgrade-small h3.close,
+	#logoSiteInfo h3.close{
 		background-image: url(../images/close.png);
 	}
-	/*EDN workingOut*/
+
+	/*	EDN workingOut */
 	
-	/*////////////////////*/
+	/*	Portfolio	*/
+
 	#portfolio{
 		background-size: auto;
-		margin-top: 5%;
-		margin-bottom: 10%;
+		margin-top: 70%;
+		margin-bottom: 80%;
 		margin-left: auto;
 		margin-right: auto;
 		padding: 0px;
 		border: none;
 		width: auto;
-		max-width: 1300px;
+		max-width: 768px;
 	}
 	
 	#portfolio .laptop-portfolio{
-		background: url(../images/mac-laptop-png-13.png) no-repeat;
-		background-position: center;
 		color: black;
 		font-size: 12px;
 		line-height: 1.2em;
 		padding: 8px;
 		margin-left: auto;
 		margin-right: auto;
-		height: 800px;
+		height: auto;
 		width: auto;
 		border: none;
 	}
 	
 	.laptop-portfolio div{
-		width: 1000px;
-		position: relative;
-		margin-top: 8%;
-		margin-left: 16%;
-		margin-right: auto;
+		width: auto;
+		margin: 7% auto 50% 14%;
 	}
 	
 	#portfolio p,
 	#portfolio li{
 		list-style: none;
 		color: black;
-		font-size: 1.2em; 
+		font-size: 12px; 
 		line-height: 1.2em;
 	}
 	
@@ -607,40 +672,41 @@
 		max-width: 270px;
 		padding: 10px;
 	}
+
+	/*	END Portfolio */
 	
-	#portfolio img:hover{
-		float: left;
-		height:auto;
-		width: auto;
-		max-width: 270px;
-		padding: 10px;
-		-moz-transform:scale(1.2);
-	    -webkit-transform:scale(1.2);
-	}
-	/*//////////////////////////////*/
-	
-	/*Блок центр*/
+	/*	COMMON
+		SERVICES	*/
 	#common{
-		background-image: url(../images/website-order-icon.png);
-		background-repeat: no-repeat;
-		background-position: right;
-		background-size: 700px;
 		border: none;
 		height: auto;
 		width: auto;
-		max-width: 1200px;
+		max-width: 768px;
 	}
 	
 	#common li{
 	    list-style-type:none;
 	}
 	
-	#serv-info_1 div{
-		position: relative;
+	#serv-info_1 div.serv_1_float_1,
+	#serv-info_1 div.serv_1_float_2,
+	#serv-info_1 div.serv_1_float_3{
 		left: 20%;
-		width: 300px;
+		height: auto;
+		width: auto;
 		margin-top: 2%;
+	}
+
+	#serv-info_1 div.serv_1_float_1 div,
+	#serv-info_1 div.serv_1_float_2 div,
+	#serv-info_1 div.serv_1_float_3 div{
+		background-color: rgba(0,0,0, 0.3);
+		float: left;
+		width: auto;
+		max-width: 200px;
+		margin: auto 1% 5% auto;
 		border-radius: 20px;
+		padding: 5px;
 	}
 	
 	#serv-info_1 h2{
@@ -657,31 +723,39 @@
 	}
 	
 	#serv-info_1 img{
-		float: left;
-		width: 80px;
-		margin-top: 17%;
-		padding: 5px;
+		display:none;
 	}
-	/*Конец Блок центр*/
+
+	/*	END Services */
 	
-	/*ADMIN start*/
+	/*start ADMINISTRATION*/
+
+	/*	ADMIN start */
+	#administration,
 	#admin{
 		width: auto;
-		max-width: 1300px;
+		max-width: 750px;
 		margin-top: 10%;
 		margin-left: auto;
 		margin-right: auto;
 	}
 	
+	#administration li,
 	#admin li{
 		color: white;
+		font-size: 14px;
+		text-shadow: none;
 		list-style: none;
 	}
 	
-	#admin div{
-		width:;
+	#administration p,
+	#admin p{
+		font-size: 14px;
 	}
 	
+	#administration img,
+	#admin-block img.imageStyle,
+	#admin-block-techservice img.imageStyle,
 	#admin img{
 		float: left;
 		height: auto;
@@ -690,51 +764,503 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	
-	/*//////////////////////////*/
-	#des-info_1 div{
+
+	#admin-block-techservice{
+		box-shadow: 9px 8px 5px black;
+		width: auto;
+		max-width: 750px;
+		padding: 10px;
+	}
+
+	#copyrighting-reratingh{
+		box-shadow: -9px 8px 5px black;
+		width: auto;
+		max-width: 750px;
+		padding: 10px;
+	}
+
+	#copyrighting-reratingh img.imageStyle{
+		height: auto;
+		max-height: 150px;
+		padding: 10px;
+	}
+
+	/*	END ADMINISTRATION	*/
+
+	/*	start DESIGN	*/
+	/*	Design - page_1 */
+	#design{
+		width: auto;
+		max-width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#design-info-block li{
+		list-style: none;
+	}
+
+	#design-info-block ul.check img{
+		width: auto;
+		max-width: 15px;
+	}
+
+	#design-info-block div#design-block-upgrade{
 		background-color: #990000;
 		box-shadow: 4px 5px 3px black;
-		margin-top: 5%;
+		padding: 20px;
+	}
+
+	#design-block-upgrade h1{
+		text-align: left;
+		margin-top: -16%;
 	}
 	
-	#des-info_1 h1{
-		margin-top: -15%
-	}
-	
-	#des-info_1 p{
+	#design-block-upgrade p{
 		text-align: left;
 		font-style: italic;
 		color: #e6e6e6;
 	}
 	
-	#des-info_1 li{
+	#design-block-upgrade li{
 		text-align: left;
 		line-height: 1.6em;
 		color: #e6e6e6;
 	}
 	
-	#des-info_1 img{
+	#design-block-upgrade img{
 		float: left;
 	}
 	
-	#des-info_1 ul.check img{
-		width: 20px;
+	#design-info-block img.imageStyle,
+	#design-block-all img.imageStyle,
+	#individual img.imageStyle,
+	#upgradeRedesign img.imageStyle{
+		float: left;
+		width: auto;
+		max-width: 180px;
+		padding: 10px;
+	}
+
+	#individual-milestones img.imageStyle{
+		height: auto;
+		width: auto;
+		max-width: 550px;
+		margin: 0 auto 0 auto;
+		padding: 10px;
+	}
+	
+	#design-block-upgrade ul.check img{
+		width: 15px;
 		padding-right: 5px; 
 	}
-	
-	#des-info_1 li.strelka img{
-		width: 50px;
+
+	#design-block-upgrade p.strelka{
+		color: orange;
 	}
-	/*END DESIGN*/
+	
+	#design-block-upgrade p.strelka img{
+		width: 35px;
+	}
+
+	/*	Design-List-Services */
+	#design-list-upgrade{
+		margin: 0 auto 0 auto;
+		border: none;
+	}
+	
+	#design-list-upgrade h3{
+		text-align: left;
+		font-size: 1.6em;
+		color: white;
+	}
+	
+	#design-list-upgrade div{
+		background-color: rgba(0, 0, 0, 0.0);
+		color: white;
+		font-size: 12px;
+		line-height: 1.2em;
+		width: auto;
+		max-width: 900px;
+		padding: 10px;
+		margin-top: 0%;
+		margin-left: auto;
+		margin-right: auto;
+		border: none;
+	}
+	
+	#design-list-upgrade p,
+	#design-list-upgrade li{
+	    list-style-type:none;
+		color: white;
+		font-size: 1.2em; 
+		line-height: 1.2em;
+	}
+	
+	#design-list-upgrade img{
+		float: left;
+		width: auto;
+		max-width: 300px;
+		padding: 20px;
+	}
+
+	/*	End Design-list-services */
+
+	#design-block-all h2{
+		text-align: left;
+	}
+
+	#design-block-all li{
+		list-style: none;
+		text-decoration: none;
+		text-shadow: none;
+		color: white;
+	}
+
+	#model,
+	#individual,
+	#upgradeRedesign,
+	#dev_logo{}
+	#flash-element{display: none;}
+
+	#individual-table{
+		background-color: #262626;
+		margin: 0 auto 0 0;
+		padding: 10px;
+		box-shadow: 8px 7px 5px black;
+	}
+
+	#individual-table th,
+	#individual-table td{
+		color: white;
+		text-align: left;
+		text-shadow: none;
+		padding: 5px;
+	}
+
+	#individual-milestones,
+	.outline,
+	#dev_logo-milestones{
+		background-color: #262626;
+		height: auto;
+		width: auto;
+		max-width: 1150px;
+		padding: 10px;
+		margin: 0 0 0 auto;
+		box-shadow: -9px 10px 5px black;
+	}
+
+	/*	END DESIGN	*/
+
+	/*	SEO - page_2	*/
+	#seo{
+		width: auto;
+		max-width: 1100px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#seo p img.seoImage{
+		float: left;
+		width: auto;
+		max-width: 350px;
+		padding: 20px;
+	}
+
+	#seo li{
+		list-style: none;
+		color: white;
+		text-shadow: none;
+	}
+					
+	#seo-basic p{
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		width: auto;
+		max-width: 720px;
+		line-height: 1.2em;
+		color: white;
+		text-align: center;
+	}
+	
+	
+	#seo-basic h1{
+		text-align: center;
+		margin-top: 0;
+		padding: 5% 10px 0 10px;
+		color: white;
+	}
+	
+	#seo-basic h4{
+		text-align: center;
+		padding: 5px 10px 0 10px;
+		color: white;
+	}
+	
+	#seo-basic ul{
+		padding: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+		max-width: 850px;
+		line-height: 1.3em;
+	}
+	
+	#seo-basic li{
+	    list-style-type:none;
+		color: white;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+	
+	#seo-basic h2{
+		color: orange;
+	}
+	
+	#seo-basic .seo-dev{
+		width: auto;
+		margin-left: 2%;
+	}
+	
+	#seo-basic .grafic{
+		width: auto;
+		margin-left: 15%;
+		margin-right: auto;
+	}
+
+	/*	SEO-TABLE	*/
+	#seo-table h2{
+		text-align: center;
+		color: white;
+		padding: 20px 10px 0 10px;
+		border: none;
+	}
+	
+	#seo-table p{
+		color: white;
+		font-size: 14px;
+	}
+	
+	#seo-table a{
+		color: orange;
+		text-shadow: none;
+	}
+	
+	#seo-table li{
+		color: white;
+		font-size: 14px;
+	}
+	
+	#seo-table div{
+		background-color: rgba(0, 0, 0, 0.1);
+		color: white;
+		padding: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		border: none;
+		height: auto;
+		width: auto;
+	}
+
+	.package div{
+		width: auto;
+		max-width: 500px;
+	}
+	
+	.field{
+		margin: 10px;
+	}
+	
+	#seo-table .seo-table{
+		color: white;
+		padding: 5px;
+		margin: 0 auto 0 auto;
+		border-collapse: collapse;
+		box-shadow: 0 0 3px black;
+	}
+	
+	#seo-table .seo-table tr{
+		border: 1px solid white;
+	}
+	
+	#seo-table .seo-table td{
+		border: 1px solid black;
+		padding: 5px;
+	}
+	
+	#seo-table .seo-table h3{
+		color: lightblue;
+	}
+	
+	#seo-table .seo-table b{
+		text-align: right;
+		color: orange;
+		font-size: 16px;
+	}
+	
+	/*	SEO fadeBack	*/
+	#seo-basic h2{
+		background: url(../_images/open.png) no-repeat 0 11px;
+		padding: 10px 0 0 25px;
+		cursor: pointer;
+		color: lightblue;
+	}
+	
+	#seo-basic img{
+		width: 40px;
+	}
+	
+	#seo-basic h2.close {
+		background-image: url(../_images/close.png);
+	}
+	.answer {
+		margin-left: 25px;
+		font-size: 14px;
+	}
+	/*CLOSE fadeBack SEO*/
+	
+	/*	END SEO */
+
+	/*	MODULE - page_3 */
+	#module h1{
+		text-align: center;
+		font-size: 1.6em;
+		color: white;
+		margin-top: 10%;
+		padding: 10px 10px 0 10px;
+		text-shadow: 1px 1px 1px grey;
+		border: none;
+	}
+	
+	#module p{
+		text-align: center;
+		color: white;
+		font-size: 14px;
+		text-shadow: none;
+	}
+	
+	#module a{
+		color: lightblue;
+		font-size: 16px;
+		text-shadow: none;
+	}
+	
+	#module li{
+		color: white;
+		text-shadow: 1px 1px 1px grey;
+		font-size: 14px;
+	}
+	
+	#module div{
+		background-color: rgba(0, 0, 0, 0.15);
+		color: white;
+		text-shadow: none;
+		padding: 0px;
+		margin:0 auto 0 auto;
+		border: none;
+		height: auto;
+		width: auto;
+	}
+	
+	#module .basic-table,
+	#module .others-table,
+	#module .landing-table{
+		color: white;
+		text-shadow: none;
+		padding: 5px;
+		margin: 0 auto 10px auto;
+		border-collapse: collapse;
+		box-shadow: 0 0 3px black;
+	}
+	
+	#module .basic-table tr,
+	#module .others-table tr,
+	#module .landing-table tr{
+		border: 1px solid black;
+	}
+	
+	#module .basic-table td,
+	#module .others-table td,
+	#module .landing-table td{
+		border: 1px solid black;
+		padding: 5px;
+	}
+	
+	#module .basic-table h3,
+	#module .others-table h3,
+	#module .landing-table h3{
+		color: lightblue;
+		text-shadow: none;
+	}
+	
+	#module .basic-table b,
+	#module .others-table b,
+	#module .landing-table b{
+		color: orange;
+		font-size: 16px;
+	}
+	
+	#module img{
+		width: auto;
+		max-width: 40px;
+	}
+
+	/*	END MODULE */
+
+	/*	BACK-UP */
+	p.topButton img{
+		position: fixed;
+		margin:0 auto 0 auto;
+		top: 0;
+		right: 0;
+		bottom: 40px;
+		width: auto;
+		max-width: 25px;
+		margin: 10px;
+	}
+
+	p.topButton:hover img{ 
+		-moz-transform:scale(2);
+	    -webkit-transform:scale(2);
+	}
+
+	#back .left img{
+		position: fixed;
+		float: left;
+		margin:0 auto 0 auto;
+		left: 0;
+		bottom: 40px;
+		width: auto;
+		max-width: 25px;
+		margin: 10px;
+	}
+	
+	#back .left:hover img{ 
+		-moz-transform:scale(2);
+	    -webkit-transform:scale(2);
+	}
+	
+	#back .right img{
+		position: fixed;
+		float: right;
+		margin:0 auto 0 auto;
+		right: 0;
+		bottom: 40px;
+		width: auto;
+		max-width: 25px;
+		margin: 10px;
+	}
+	
+	#back .right:hover img{ 
+		-moz-transform:scale(2);
+	    -webkit-transform:scale(2);
+	}
+	/* END Back-up */
 	
 	footer{
-		background-image: url(../images/fon-rabbitweb2.png);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-color: #262626;
 		padding: 0;
-		margin: 0 auto 0 auto;
+		margin: 10% auto 0 auto;
 		height: auto;
 		font-size: 12px;
 		line-height: 1.1em;
@@ -744,21 +1270,37 @@
 		background-color: rgba(0,0,0, 0.65);
 	}
 	
-	footer p{
+	footer p.copyright{
 		color: white;
 		padding: 5px;
+		bottom: 0;
 	}
 	
+	#bottom{
+		list-style-type: none;
+		padding-top: 0px;
+		margin: 0 auto 0 auto;
+	}
+	
+	#bottom li,
+	#bottom a{
+		color: white;
+		font-size: 12px;
+		line-height:2.0em;
+		text-shadow: none;
+		text-decoration: none;
+	}
+	
+	/*	REGFORM */
 	#regform{
 		width: auto;
-		max-width: 1600px;
+		max-width: 720px;
 		padding-top: 10px;
-		margin: 0% auto 0 auto;
+		margin: 0 auto 0 auto;
 	}
 	
 	#regform h1{
 		text-align: center;
-		color: orange;
 		text-shadow: none;
 	}
 	
@@ -770,7 +1312,7 @@
 	#feedback label{
 		margin-left: 30px;
 		margin-right: 30px;
-		font-size: 20px;
+		font-size: 18px;
 		color: white;
 		text-align: center;
 	}
@@ -780,8 +1322,8 @@
 	}
 	
 	#fio{
-		height: 28px;
-		width: 300px;
+		height: 20px;
+		width: 200px;
 		padding: 5px;
 		margin: 10px 0 0 0;
 		font-size: 16px;
@@ -792,8 +1334,8 @@
 	}
 	
 	#phone{
-		height: 28px;
-		width: 300px;
+		height: 20px;
+		width: 200px;
 		padding: 5px;
 		margin: 10px 0 0 0;
 		font-size: 16px;
@@ -856,107 +1398,39 @@
 		border: none;
 		border-radius: 12px;
 	}
-	
-	#bottom{
-		list-style-type: none;
-		padding-top: 0px;
-		margin: 0 auto 0 auto;
-	}
-	
-	#bottom li, #bottom a{
-		color: white;
-		text-shadow: 1px 1px 1px grey;
+
+	/*	END regform */
+	/***start CHECKBOX_PERSONAL***/
+	.checkbox {
+		width: auto;
+		max-width: 400px;
 		font-size: 12px;
-		font-style: bold;
-		line-height:2.0em;
+		position:relative;
+		padding: 0 50px 0 50px;
+		margin: 10px auto 10px auto;
 	}
-	
-	/*------------------------------------*\
-	    НАВИГАЦИЯ
-	\*------------------------------------*/
-	.nav{
-	    float:right;
-	    text-align: left;
-	    list-style:none;
-	    font-weight:bold;
-	    padding: 3px;
-	    margin: 0% auto 0 auto;
+	.checkbox input[type=checkbox] {
+		display:none;
 	}
-	
-	.nav li{
-		float: left;
-	    margin-right:10px;
-	    position:relative;
-	    display:block;
+	.personalCheck a{
+		color: blue; text-decoration: none;
 	}
-	
-	.nav li a{
-		font-size: 14px;
-	    display:block;
-	    color:white;
-	    background:rgba(0, 0, 0, 0.0);
-	    text-decoration:none;
-	    text-shadow:0px 0px 1px black; /* Тень текста, чтобы приподнять его на немного */
-	    -moz-border-radius:2px;
-	    -webkit-border-radius:2px;
-	    border-style: solid;
-	    border-width: 0;
-	    border-radius: 0;
-	    padding: 5px;
+	.checkbox label:after {
+		content:'';
+		display:block;
+		height:14px;
+		width:14px;
+		outline:1px solid #939598;
+		position:absolute;
+		top:0;
+		left:auto;
 	}
-	
-	.nav li a:hover{
-	    color:#99ceff;
-	    text-decoration:underline;
+	.checkbox input[type=checkbox]:checked + label:after {
+		outline:1px solid #939598;
+		border:2px solid #fff;
+		width:10px;
+		height:10px;
+		background-color:#63849F;
 	}
-	
-	.nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
-	    background:rgba(0,0,0, 0.0); /* Выглядит полупрозрачным */
-	    text-decoration:none;
-	    border-color: none;
-	    border-style: solid;
-	    -moz-transform:scale(.9);
-	    -webkit-transform:scale(.9);
-	}
-	/*Выпадающий список*/
-	.nav ul{
-		list-style:none;
-	    position:absolute;
-	    left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
-	    opacity:0; /* Устанавливаем начальное состояние прозрачности */
-	    -webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
-	}
-	.nav ul li{
-	    padding-top: 0px; /* Вводим отступ между li чтобы создать иллюзию разделенных пунктов меню */
-	    float:none;
-	    background:url(dot.gif);
-	}
-	.nav ul a{
-	    white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
-	    display:block;
-	}
-	.nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
-	    left:0; /* Приносим его обратно на экран, когда нужно */
-	    opacity:1; /* Делаем непрозрачным */
-	}
-	.nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
-		font-size: 14px;
-		text-decoration:none;
-	    background:#99ceff;
-	    background:rgba(0, 0, 0, 0.0); /* Выглядит полупрозрачным */
-	    
-	}
-	.nav li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
-	    text-decoration:none;
-	    -webkit-transition:-webkit-transform 0.075s linear;
-	}
-	.nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
-	    background:#99ceff;
-	    background:rgba(0, 0, 0, 0.0); /* Будет полупрозрачным */
-	    text-decoration:underline;
-	    -moz-transform:scale(1);
-	    -webkit-transform:scale(1);
-	}
-	/*Конец верхнего меню*/
-	
+	/***end CHECKBOX_PERSONAL***/
 }

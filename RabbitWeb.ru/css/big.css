@@ -17,9 +17,8 @@
 	}
 
 	body{
-		background: white;
 		box-shadow: 0 0 10px black;
-		min-width: 769px;
+		width: auto;
 		max-width: 1024px;
 		margin-left: auto;
 		margin-right: auto;
@@ -39,7 +38,7 @@
 	    list-style:none;
 	    font-weight:bold;
 	    padding: 3px;
-	    margin: 0% auto 0 auto;
+	    margin: 0 auto 0 auto;
 	}
 	
 	.nav li{
@@ -50,7 +49,7 @@
 	}
 	
 	.nav li a{
-		font-size: 14px;
+		font-size: 12px;
 	    display:block;
 	    color:white;
 	    background:rgba(0, 0, 0, 0.0);
@@ -99,7 +98,7 @@
 	    opacity:1; /* Делаем непрозрачным */
 	}
 	.nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
-		font-size: 14px;
+		font-size: 12px;
 		text-decoration:none;
 	    background:#99ceff;
 	    background:rgba(0, 0, 0, 0.0); /* Выглядит полупрозрачным */
@@ -124,23 +123,22 @@
 	/*Конец верхнего меню*/
 
 	#basic{
-		background-image: url(../images/fon-rabbitweb2.png);
+		/*background-image: url(../images/fon-rabbitweb2.png);
 		background-size: auto;
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: center;*/
 		margin-top: 0;
 		border: none;
 		padding: 5px;
 	}
 
 	#basic div{
-		background-color: rgba(0, 0, 0, 0.67);
+		/*background-color: rgba(0, 0, 0, 0.67);*/
 		text-shadow: 1px 1px 1px grey;
 		padding: 20px;
-		margin-left: auto;
-		margin-right: auto;
+		margin: 10% auto 10% auto;
 		border: none;
-		height: 500px;
+		height: auto;
 		width: auto;
 	}
 
@@ -149,7 +147,6 @@
 		font-size: 3.0em;
 		color: #99ceff;
 		text-shadow: 1px 1px 1px white;
-		margin-top: 20%;
 		padding: 5px;
 	}
 
@@ -186,7 +183,7 @@
 	/*	CONTACTS */
 	.phone{
 	    text-align:right;
-	    font-size:21px;
+	    font-size:12px;
 	    padding:10px;
 	    color:white;
 	}
@@ -268,6 +265,12 @@
 		padding-bottom: 0px;
 	}
 	
+	/**start Basic-Module**/
+	#basic-module{
+		margin: 0 auto 5% auto;
+	}
+	/**end Basic-Module**/
+
 	/*START CALLBACK*/
 	#contacts div.callPhone,
 	#contacts div.callMessange{
@@ -351,10 +354,6 @@
 
 	/*workingOut Главная*/
 	#workingOut{
-		background: url(../images/Hand-Holding-Tablet-PNG-Image1.png) no-repeat;
-		background-position: left;
-		background-color: white;
-		background-size: 450px;
 		background-color: rgba(242, 242, 242, .0);
 		border: none;
 		padding: 0;
@@ -367,7 +366,7 @@
 
 	#workingOut div{
 		width: auto;
-		max-width: 420px;
+		max-width: 550px;
 		margin: 0 auto 0 auto;
 	}
 
@@ -398,25 +397,6 @@
 		margin-top: 10px;
 	}
 
-	#visiting:hover,
-	#promo:hover,
-	#catalog:hover,
-	#landing:hover,
-	#company:hover,
-	#magazyn:hover,
-	#CMS:hover,
-	#browser:hover,
-	#seo-find:hover,
-	#servTech:hover,
-	#serv-info_2:hover,
-	#designSite:hover,
-	#design-upgrade-small:hover,
-	#logoSiteInfo:hover{
-		box-shadow: 6px 7px 5px black;
-		margin-left: -20px;
-		margin-right: 20px;
-	}
-
 	#visiting{background-color: rgba(230, 247, 255, 0.1);}
 	#promo{background-color: rgba(204, 239, 255, 0.1);}
 	#catalog{background-color: rgba(179, 231, 255, 0.1);}
@@ -432,26 +412,22 @@
 	#servTech{background-color: rgba(0, 139, 204, 0.1);}
 	#serv-info_2{background-color: rgba(0, 122, 179, 0.1);}
 
-	#visiting h2,
-	#promo h2,
-	#catalog h2,
-	#landing h2,
-	#company h2,
-	#magazyn h2,
-	#CMS h3,
-	#browser h3,
+	#visiting h3,
+	#promo h3,
+	#catalog h3,
+	#landing h3,
+	#company h3,
+	#magazyn h3,
 	#seo-find h3,
 	#servTech h3,
-	#serv-info_2 h2,
-	#designSite h2,
-	#design-upgrade-small h2,
+	#serv-info_2 h3,
+	#designSite h3,
+	#design-upgrade-small h3,
 	#logoSiteInfo h3{
 		background: url(../images/open.png) no-repeat;
 		width: auto;
-		max-width: 220px;
 		margin: auto;
 		padding: auto;
-		font-size: 0.8em;
 		text-align: center;
 		text-shadow: none;
 		cursor: pointer;
@@ -489,7 +465,7 @@
 	#design-upgrade-small p,
 	#logoSiteInfo p{
 		color: black;
-		font-size: 12px;
+		font-size: 14px;
 		line-height: 1.2em;
 		text-align: left;
 	}
@@ -513,12 +489,11 @@
 		font-size: 12px;
 		line-height: 1.3em;
 		display: block;
-		border: 1px ridge lightblue;
 		height: auto;
 		width: auto;
-		max-width: 500px;
 		margin-left: auto;
 		margin-right: auto;
+		padding: 5px;
 	}
 
 	
@@ -634,19 +609,17 @@
 		color: black;
 	}
 	
-	#visiting h2.close,
-	#promo h2.close,
-	#catalog h2.close,
-	#landing h2.close,
-	#company h2.close,
-	#magazyn h2.close,
-	#CMS h3.close,
-	#browser h3.close,
+	#visiting h3.close,
+	#promo h3.close,
+	#catalog h3.close,
+	#landing h3.close,
+	#company h3.close,
+	#magazyn h3.close,
 	#seo-find h3.close,
 	#servTech h3.close,
-	#serv-info_2 h2.close,
-	#designSite h2.close,
-	#design-upgrade-small h2.close,
+	#serv-info_2 h3.close,
+	#designSite h3.close,
+	#design-upgrade-small h3.close,
 	#logoSiteInfo h3.close{
 		background-image: url(../images/close.png);
 	}
@@ -668,26 +641,16 @@
 	}
 	
 	#portfolio .laptop-portfolio{
-		background: url(../images/mac-laptop-png-13.png) no-repeat;
-		background-position: center;
-		background-size: 1000px;
 		color: black;
 		font-size: 12px;
 		line-height: 1.2em;
 		padding: 8px;
 		margin-left: auto;
 		margin-right: auto;
-		height: 600px;
+		height: auto;
+		max-height: 700px;
 		width: auto;
 		border: none;
-	}
-	
-	.laptop-portfolio div{
-		width: auto;
-		position: relative;
-		margin-top: 6.5%;
-		margin-left: 14%;
-		margin-right: auto;
 	}
 	
 	#portfolio p,
@@ -706,26 +669,12 @@
 		max-width: 200px;
 		padding: 15px;
 	}
-	
-	#portfolio img:hover{
-		float: left;
-		height:auto;
-		width: auto;
-		max-width: 200px;
-		padding: 15px;
-		-moz-transform:scale(1.05);
-	    -webkit-transform:scale(1.05);
-	}
 
 	/*	END Portfolio */
 	
 	/*	COMMON
 		SERVICES	*/
 	#common{
-		background-image: url(../images/website-order-icon.png);
-		background-repeat: no-repeat;
-		background-position: right;
-		background-size: 500px;
 		border: none;
 		height: auto;
 		width: auto;
@@ -750,7 +699,6 @@
 	#serv-info_1 div.serv_1_float_3 div{
 		background-color: rgba(0,0,0, 0.3);
 		float: left;
-		left: 20%;
 		width: auto;
 		max-width: 300px;
 		margin: 2% 2.5% 0 5%;
@@ -1310,10 +1258,6 @@
 	/* END Back-up */
 	
 	footer{
-		background-image: url(../images/fon-rabbitweb2.png);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-color: #262626;
 		padding: 0;
 		margin: 0 auto 0 auto;
 		height: auto;
@@ -1378,7 +1322,7 @@
 	
 	#fio{
 		height: 20px;
-		width: 250px;
+		width: 200px;
 		padding: 5px;
 		margin: 10px 0 0 0;
 		font-size: 16px;
@@ -1390,7 +1334,7 @@
 	
 	#phone{
 		height: 20px;
-		width: 250px;
+		width: 200px;
 		padding: 5px;
 		margin: 10px 0 0 0;
 		font-size: 16px;
@@ -1455,5 +1399,37 @@
 	}
 
 	/*	END regform */
-
+	/***start CHECKBOX_PERSONAL***/
+	.checkbox {
+		width: auto;
+		max-width: 400px;
+		font-size: 12px;
+		position:relative;
+		padding: 0 50px 0 50px;
+		margin: 10px auto 10px auto;
+	}
+	.checkbox input[type=checkbox] {
+		display:none;
+	}
+	.personalCheck a{
+		color: blue; text-decoration: none;
+	}
+	.checkbox label:after {
+		content:'';
+		display:block;
+		height:14px;
+		width:14px;
+		outline:1px solid #939598;
+		position:absolute;
+		top:0;
+		left:auto;
+	}
+	.checkbox input[type=checkbox]:checked + label:after {
+		outline:1px solid #939598;
+		border:2px solid #fff;
+		width:10px;
+		height:10px;
+		background-color:#63849F;
+	}
+	/***end CHECKBOX_PERSONAL***/
 }
