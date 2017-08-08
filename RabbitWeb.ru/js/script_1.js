@@ -9,12 +9,11 @@ $(document).ready(function(){
   $('#landing div').hide();
   $('#company div').hide();
   $('#magazyn div').hide();
-  $('#CMS div').hide();
-  //$('#browser div').hide();
+  //$('#CMS div').hide();
   $('#seo-find div').hide();
   $('#servTech div').hide();
   $('#serv-info_2 div').hide();
-  $('#designSite div').hide();
+  $('#designSite .blockLeft').hide();
   $('#design-upgrade-small div').hide();
   $('#logoSiteInfo div').hide();
   $('#design-list-upgrade').hide();
@@ -138,7 +137,7 @@ $(document).ready(function(){
     });
   //END additionally
 
-  $('#CMS h3').click(function(){
+  /*$('#CMS h3').click(function(){
     var $CMS = $(this).next('#CMS div');
     if ($CMS.is(':hidden')) {
       $CMS.slideDown(300);
@@ -147,7 +146,7 @@ $(document).ready(function(){
       $CMS.slideUp(300);
       $(this).removeClass('close');
     }
-  });
+  });*/
   $('#seo-find h3').click(function(){
     var $seofind = $(this).next('#seo-find div');
     if ($seofind.is(':hidden')) {
@@ -179,7 +178,7 @@ $(document).ready(function(){
     }
   });
   $('#designSite h3').click(function(){
-   var $designSite = $(this).next('#designSite div');
+   var $designSite = $(this).next('#designSite .blockLeft');
     if ($designSite.is(':hidden')) {
       $designSite.slideDown(300);
       $(this).addClass('close');

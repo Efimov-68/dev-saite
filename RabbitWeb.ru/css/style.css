@@ -264,7 +264,13 @@
 		padding-top: 5px;
 		padding-bottom: 0px;
 	}
-	
+
+	/**start Basic-Module**/
+	#basic-module{
+		margin: 0 auto 5% auto;
+	}
+	/**end Basic-Module**/
+
 	/*START CALLBACK*/
 	#contacts div.callPhone,
 	#contacts div.callMessange{
@@ -404,7 +410,6 @@
 	#landing h3,
 	#company h3,
 	#magazyn h3,
-	#CMS h3,
 	#seo-find h3,
 	#servTech h3,
 	#serv-info_2 h3,
@@ -472,14 +477,14 @@
 	#logoSiteInfo div{
 		background-color: rgb(255,255,255);
 		text-align: left;
-		font-size: 12px;
+		font-size: 14px;
 		line-height: 1.3em;
 		display: block;
-		border: 1px ridge lightblue;
 		height: auto;
 		width: auto;
 		margin-left: auto;
 		margin-right: auto;
+		padding: 5px;
 	}
 	
 	#visiting:hover div h3,
@@ -571,7 +576,6 @@
 	#landing h3.close,
 	#company h3.close,
 	#magazyn h3.close,
-	#CMS h3.close,
 	#seo-find h3.close,
 	#servTech h3.close,
 	#serv-info_2 h3.close,
@@ -1370,9 +1374,12 @@
 	/*	END regform */
 	/***start CHECKBOX_PERSONAL***/
 	.checkbox {
+		width: auto;
+		max-width: 400px;
 		font-size: 12px;
 		position:relative;
-		padding: 0 400px 0 400px;
+		padding: 0 50px 0 50px;
+		margin: 10px auto 10px auto;
 	}
 	.checkbox input[type=checkbox] {
 		display:none;

@@ -40,23 +40,23 @@ RabbitWeb.ru for the Efimov RS
 		<a href=""><img src="../images/logo-rabbitweb.png" alt="RabbitWeb"></a>
 		<ul class="nav">
 			<li><a href="../index.html">Главная</a></li>
-			<li><a href="#">Каталог услуг</a>
+			<li><a href="#">Создание</a>
 				<ul>
-					<li><a href="#workingOut">Разработка сайта</a></li>
-					<li><a href="./design.html#design">Дизайн сайта</a></li>
-					<li><a href="./seo.html#seo">Продвижение сайта</a></li>
-					<li><a href="./administration.html#administration">Поддержка сайта</a></li>
-					<!--li><a href="#">О нас</a></li-->
-					<li><a href="#bottom">Контакты</a></li>
+					<li><a href="#">Сайт Визитка</a></li>
+					<li><a href="#">Landing page</a></li>
+					<li><a href="#">Сайт компании</a></li>
+					<li><a href="#">Интернет-магазин</a></li>
 				</ul>
 			</li>
-			<li><a href="../index.html#portfolio">Шаблоны</a></li>
-			<li><a href="#regform" style="width: auto; color: orange;"><b>Заказать сайт</b></a></li>
+			<li><a href="./design.html#design">Дизайн</a></li>
+			<li><a href="./seo.html#seo">Продвижение</a></li>
+			<li><a href="./administration.html#administration">Поддержка</a></li>
+			<li><a href="../index.html#portfolio">Портфолио</a></li>
+			<li><a href="#bottom">Контакты</a></li>
 			<li class="phone"><p><img src="../images/tlgm.png" title="Telegram: 929 956-3812"><img src="../images/whap.png" title="Whats app: 929 956-3812"> <b> +7(499)394-6887</b></p></li>
 		</ul>
 		<div id="contacts">
-			<div>
-				<p align="center"><a href="#" class="mail"><img src="../images/email_14410.png"></a></p>	
+			<div>	
 				<p align="center"><a href="#" class="tel"><img src="../images/call.png"></a></p>
 			</div>
 	    	<div class="callBack">
@@ -76,20 +76,6 @@ RabbitWeb.ru for the Efimov RS
 						</ul>
 					</form>
 				</div>
-				<div class="callMessange">
-				    <img src="../images/close_red.png">
-					<form action="../form/regform.php" type="GET">
-						<ul>
-							<li>
-								<input type="name" name="fio" title="Ваше имя" tabindex="0" placeholder=" Ваше имя" required="required"><br>
-								<input type="phone" name="number" tabindex="1" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" placeholder=" 9299563812" title="9299563812" required="required">
-							</li>
-							<li>Ваш комментарий:</li>
-							<li><textarea name="comment" cols="31" rows="4" tabindex="2"></textarea></li>
-						</ul>
-						<p align="center"><input class="submit" type="submit" value="Отправить"></p>
-					</form>
-				</div>
 			</div>
 		</div>
 		<div id="basic">
@@ -100,852 +86,62 @@ RabbitWeb.ru for the Efimov RS
 		</div>
 	</header>
 	<div id="allcontent">
-		<div id="workingOut" align="right">
-			<div>
-				<h1>Проекты</h1>
-				<div id="visiting" align="center">
-					<h2>Сайт-визитка</h2>
-					<div>
-						<form method="GET" action="../form/visitingForm.php">
-							<table>
-								<tr>
-									<td><input type="checkbox" name="order1" checked> Срок создания сайта - 1 - 3 дня*</td>
-									<td><input type="checkbox" name="order2" checked> <a href="./design.html#model">Типовой</a> или<input type="checkbox" name="order02"> <a href="./design.html#individual">Индивидуальный</a> дизайн сайта</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order3"> Регистрация домена (1 год)</td>
-									<td><input type="checkbox" name="order4"> Помощь в выборе хостинг-провайдера</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order5"> Наполнение сайта контентом клиента</td>
-									<td><input type="checkbox" name="order6"> Создание меню сайта</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order7"> CMS система управления сайтом</td>
-									<td><input type="checkbox" name="order8"> Виджеты социальных сетей</td>
-								</tr>
-								<tr>
-									<td colspan="2" align="center"><input type="checkbox" name="order9" checked> Кроссбраузерность в: Mozilla Firefox, Safari, Google Chrome, Opera, IE**.</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order10"> Копирайтинг</td>
-									<td><input type="checkbox" name="order11"> Модуль "Новости"</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order12"> Модули «Форма обратной связи»</td>
-									<td><input type="checkbox" name="order13"> Слайдшоу</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order14"> Счетчик посещаемости сайта</td>
-									<td><input type="checkbox" name="order15"> Регистрация в поисковых системах</td>
-								</tr>
-    						</table>
-							<a href="#visiting" class="sbmtAdditionally" style="text-shadow: none;">Доп. модули</a>
-							<div class="additionally">
-								<table>
-									<tr>
-										<td>Выпадающее многоуровневое меню</td> <td><input type="checkbox" name="order16"></td> <td>1 200 руб.</td>
-										<td>Модуль "Статей"</td> <td><input type="checkbox" name="order17"></td> <td>1 200 руб.</td>
-									</tr>
-									<tr>
-										<td>Динамическое слайдшоу с эффектами анимации</td> <td><input type="checkbox" name="order18"></td> <td>4 500 руб.</td>
-										<td>Модуль "Опрос"</td> <td><input type="checkbox" name="order19"></td> <td>1 200 руб.</td>
-									</tr>
-									<tr>
-										<td>Настройка e-mail рассылки</td> <td><input type="checkbox" name="order20"></td> <td>2 900 руб.</td>
-										<td>Поиск по сайту</td> <td><input type="checkbox" name="order21"></td> <td>3 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Личный кабинте и закрытые разделы</td> <td><input type="checkbox" name="order22"></td> <td>4 500 руб.</td>
-										<td>Интеграция с социальными сетьми</td> <td><input type="checkbox" name="order23"></td> <td>1 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Наполнение основного раздела сайта информацией клиента</td> <td><input type="checkbox" name="order24"></td> <td>2500 руб</td>
-										<td>Форма обратной связи</td> <td><input type="checkbox" name="order25"></td> <td>900 руб.</td>
-									</tr>
-									<tr>
-										<td>Модуль "Фотогалерея"</td> <td><input type="checkbox" name="order26"></td> <td>3 500 руб.</td>
-										<td>Настройка рекламной кампании</td> <td><input type="checkbox" name="order27"></td> <td>5 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Регистрация сайта в поисковых системах</td> <td><input type="checkbox" name="order28"></td> <td>1 800 руб.</td>
-										<td>Модуль "Каталог"</td> <td><input type="checkbox" name="order29"></td> <td>12 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Установка на сайт виджет "Онлайн чат"</td> <td><input type="checkbox" name="order30"></td> <td>2 200 руб.</td>
-										<td>Модуль "YouTube"</td> <td><input type="checkbox" name="order31"></td> <td>3 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Отрисовка дополнительного макета дизайна</td> <td><input type="checkbox" name="order32"></td> <td>3 000 руб.</td>
-										<td>Верстка дополнительного макета дизайна</td> <td><input type="checkbox" name="order33"></td> <td>2 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Адаптивная верстка</td> <td><input type="checkbox" name="order34"></td> <td>8 000 руб.</td>
-										<td>Настройка скриптов и анимации</td> <td><input type="checkbox" name="order35"></td> <td>4 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Консультационная поддержка</td> <td><input type="checkbox" name="order36"></td> <td>1 500 руб.</td>
-										<td>Мобильная версия</td> <td><input type="checkbox" name="order37"></td> <td>20 000 руб.</td>
-									</tr>
-								</table>
-							</div>
-    						<p>* В зависимости от сложности работ, сроки могут быть увеличены.<br>
-    						** Internet Explorer - по отдельной договоренности.<br>
-    						*** Заполняя и отправляя форму, Вы <a href="../documents/Соглашение об использовании сайта .pdf">соглашаетесь с условиями о предосталении персональных данных</a> для обработки запроса нашей компанией.</p>
-							<p><input type="text" name="fio" title="Имя Отчество" tabindex="0" placeholder=" Имя Отчество" required="required" style="width: auto;max-width: 120px;"> <input type="phone" name="number" tabindex="1" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" placeholder=" Например: 9299563812" title="9299563812" required="required" style="width: auto;max-width: 120px;"> <input type="submit" value="Заказать"></p>
-						</form>
-					</div>
-					<img src="../images/btm/visitingicon.png" class="icon">
-				</div>
-				<div id="promo" align="center">
-					<h2>Промо</h2>
-					<div>
-						<form method="GET" action="../form/promoForm.php">
-							<table>
-								<tr>
-									<td><input type="checkbox" name="order1" checked> Срок создания сайта - 1 - 3 дня*</td>
-									<td><input type="checkbox" name="order2_1" checked> <a href="./design.html#model">Типовой</a> или<input type="checkbox" name="order2_2"> <a href="./design.html#individual">Индивидуальный</a> дизайн сайта</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order3"> Регистрация домена (1 год)</td>
-									<td><input type="checkbox" name="order4"> Помощь в выборе хостинг-провайдера</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order5"> Наполнение сайта контентом клиента</td>
-									<td><input type="checkbox" name="order6"> Создание меню сайта</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order7"> CMS система управления сайтом</td>
-									<td><input type="checkbox" name="order8"> Виджеты социальных сетей</td>
-								</tr>
-								<tr>
-									<td colspan="2" align="center"><input type="checkbox" name="order9" checked> Кроссбраузерность в: Mozilla Firefox, Safari, Google Chrome, Opera, IE**.</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order10"> Копирайтинг</td>
-									<td><input type="checkbox" name="order11"> Модуль "Новости"</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order12"> Модули «Форма обратной связи»</td>
-									<td><input type="checkbox" name="order13"> Слайдшоу</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order14"> Счетчик посещаемости сайта</td>
-									<td><input type="checkbox" name="order15"> Регистрация в поисковых системах</td>
-								</tr>
-    						</table>
-							<a href="#promo" class="sbmtAdditionally" style="text-shadow: none;">Доп. модули</a>
-							<div class="additionally">
-								<table>
-									<tr>
-										<td>Выпадающее многоуровневое меню</td> <td><input type="checkbox" name="order16"></td> <td>1 200 руб.</td>
-										<td>Модуль "Статей"</td> <td><input type="checkbox" name="order17"></td> <td>1 200 руб.</td>
-									</tr>
-									<tr>
-										<td>Динамическое слайдшоу с эффектами анимации</td> <td><input type="checkbox" name="order18"></td> <td>4 500 руб.</td>
-										<td>Модуль "Опрос"</td> <td><input type="checkbox" name="order19"></td> <td>1 200 руб.</td>
-									</tr>
-									<tr>
-										<td>Настройка e-mail рассылки</td> <td><input type="checkbox" name="order20"></td> <td>2 900 руб.</td>
-										<td>Поиск по сайту</td> <td><input type="checkbox" name="order21"></td> <td>3 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Личный кабинте и закрытые разделы</td> <td><input type="checkbox" name="order22"></td> <td>4 500 руб.</td>
-										<td>Интеграция с социальными сетьми</td> <td><input type="checkbox" name="order23"></td> <td>1 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Наполнение основного раздела сайта информацией клиента</td> <td><input type="checkbox" name="order24"></td> <td>2500 руб</td>
-										<td>Форма обратной связи</td> <td><input type="checkbox" name="order25"></td> <td>900 руб.</td>
-									</tr>
-									<tr>
-										<td>Модуль "Фотогалерея"</td> <td><input type="checkbox" name="order26"></td> <td>3 500 руб.</td>
-										<td>Настройка рекламной кампании</td> <td><input type="checkbox" name="order27"></td> <td>5 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Регистрация сайта в поисковых системах</td> <td><input type="checkbox" name="order28"></td> <td>1 800 руб.</td>
-										<td>Модуль "Каталог"</td> <td><input type="checkbox" name="order29"></td> <td>12 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Установка на сайт виджет "Онлайн чат"</td> <td><input type="checkbox" name="order30"></td> <td>2 200 руб.</td>
-										<td>Модуль "YouTube"</td> <td><input type="checkbox" name="order31"></td> <td>3 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Интеграция с Яндекс.Маркет</td> <td><input type="checkbox" name="order32"></td> <td>5 500 руб.</td>
-										<td>Отрисовка дополнительного макета дизайна</td> <td><input type="checkbox" name="order33"></td> <td>3 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Верстка дополнительного макета дизайна</td> <td><input type="checkbox" name="order34"></td> <td>2 500 руб.</td>
-										<td>Адаптивная верстка</td> <td><input type="checkbox" name="order35"></td> <td>8 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Настройка фильтра поиска по каталогу</td> <td><input type="checkbox" name="order36"></td> <td>1 900 руб.</td>
-										<td>Настройка скриптов и анимации</td> <td><input type="checkbox" name="order37"></td> <td>4 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Консультационная поддержка</td> <td><input type="checkbox" name="order38"></td> <td>1 500 руб.</td>
-										<td>Выгрузка на 1С</td> <td><input type="checkbox" name="order39"></td> <td>12 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Поиск Автонабором по сайту</td> <td><input type="checkbox" name="order40"></td> <td>8 500 руб.</td>
-										<td>Установка системы автооплаты</td> <td><input type="checkbox" name="order41"></td> <td>4 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Мобильная версия</td> <td><input type="checkbox" name="order42"></td> <td>20 000 руб.</td>
-									</tr>
-								</table>
-							</div>
-    						<p>* В зависимости от сложности работ, сроки могут быть увеличены.<br>
-    						** Internet Explorer - по отдельной договоренности.<br>
-    						*** Заполняя и отправляя форму, Вы <a href="../documents/Соглашение об использовании сайта .pdf">соглашаетесь с условиями о предосталении персональных данных</a> для обработки запроса нашей компанией.</p>
-							<p><input type="text" name="fio" title="Имя Отчество" tabindex="0" placeholder=" Имя Отчество" required="required" style="width: auto;max-width: 120px;"> <input type="phone" name="number" tabindex="1" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" placeholder=" Например: 9299563812" title="9299563812" required="required" style="width: auto;max-width: 120px;"> <input type="submit" value="Заказать"></p>
-						</form>
-					</div>
-					<img src="../images/btm/siteimg.png" class="icon">
-				</div>
-				<div id="catalog" align="center">
-					<h2>Каталог</h2>
-					<div>
-						<form method="GET" action="../form/catalogForm.php">
-							<table>
-								<tr>
-									<td><input type="checkbox" name="order1" checked> Срок создания сайта - 1 - 3 дня*</td>
-									<td><input type="checkbox" name="order2_1" checked> <a href="./design.html#model">Типовой</a> или<input type="checkbox" name="order2_2"> <a href="./design.html#individual">Индивидуальный</a> дизайн сайта</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order3"> Регистрация домена (1 год)</td>
-									<td><input type="checkbox" name="order4"> Помощь в выборе хостинг-провайдера</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order5"> Наполнение сайта контентом клиента</td>
-									<td><input type="checkbox" name="order6"> Создание меню сайта</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order7"> CMS система управления сайтом</td>
-									<td><input type="checkbox" name="order8"> Виджеты социальных сетей</td>
-								</tr>
-								<tr>
-									<td colspan="2" align="center"><input type="checkbox" name="order9" checked> Кроссбраузерность в: Mozilla Firefox, Safari, Google Chrome, Opera, IE**.</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order10"> Копирайтинг</td>
-									<td><input type="checkbox" name="order11"> Модуль "Новости"</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order12"> Модули «Форма обратной связи»</td>
-									<td><input type="checkbox" name="order13"> Слайдшоу</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order14"> Счетчик посещаемости сайта</td>
-									<td><input type="checkbox" name="order15"> Регистрация в поисковых системах</td>
-								</tr>
-    						</table>
-							<a href="#catalog" class="sbmtAdditionally" style="text-shadow: none;">Доп. модули</a>
-							<div class="additionally">
-								<table>
-									<tr>
-										<td>Выпадающее многоуровневое меню</td> <td><input type="checkbox" name="order16"></td> <td>1 200 руб.</td>
-										<td>Модуль "Статей"</td> <td><input type="checkbox" name="order17"></td> <td>1 200 руб.</td>
-									</tr>
-									<tr>
-										<td>Динамическое слайдшоу с эффектами анимации</td> <td><input type="checkbox" name="order18"></td> <td>4 500 руб.</td>
-										<td>Модуль "Опрос"</td> <td><input type="checkbox" name="order19"></td> <td>1 200 руб.</td>
-									</tr>
-									<tr>
-										<td>Настройка e-mail рассылки</td> <td><input type="checkbox" name="order20"></td> <td>2 900 руб.</td>
-										<td>Поиск по сайту</td> <td><input type="checkbox" name="order21"></td> <td>3 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Личный кабинте и закрытые разделы</td> <td><input type="checkbox" name="order22"></td> <td>4 500 руб.</td>
-										<td>Интеграция с социальными сетьми</td> <td><input type="checkbox" name="order23"></td> <td>1 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Наполнение основного раздела сайта информацией клиента</td> <td><input type="checkbox" name="order24"></td> <td>2500 руб</td>
-										<td>Форма обратной связи</td> <td><input type="checkbox" name="order25"></td> <td>900 руб.</td>
-									</tr>
-									<tr>
-										<td>Модуль "Фотогалерея"</td> <td><input type="checkbox" name="order26"></td> <td>3 500 руб.</td>
-										<td>Настройка рекламной кампании</td> <td><input type="checkbox" name="order27"></td> <td>5 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Регистрация сайта в поисковых системах</td> <td><input type="checkbox" name="order28"></td> <td>1 800 руб.</td>
-										<td>Модуль "Каталог"</td> <td><input type="checkbox" name="order29"></td> <td>12 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Установка на сайт виджет "Онлайн чат"</td> <td><input type="checkbox" name="order30"></td> <td>2 200 руб.</td>
-										<td>Модуль "YouTube"</td> <td><input type="checkbox" name="order31"></td> <td>3 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Интеграция с Яндекс.Маркет</td> <td><input type="checkbox" name="order32"></td> <td>5 500 руб.</td>
-										<td>Отрисовка дополнительного макета дизайна</td> <td><input type="checkbox" name="order33"></td> <td>3 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Верстка дополнительного макета дизайна</td> <td><input type="checkbox" name="order34"></td> <td>2 500 руб.</td>
-										<td>Адаптивная верстка</td> <td><input type="checkbox" name="order35"></td> <td>8 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Настройка скриптов и анимации</td> <td><input type="checkbox" name="order36"></td> <td>4 000 руб.</td>
-										<td>Настройка фильтра поиска по каталогу</td> <td><input type="checkbox" name="order37"></td> <td>1 900 руб.</td>
-									</tr>
-									<tr>
-										<td>Выгрузка на 1С</td> <td><input type="checkbox" name="order38"></td> <td>12 000 руб.</td>
-										<td>Консультационная поддержка</td> <td><input type="checkbox" name="order39"></td> <td>1 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Поиск Автонабором по сайту</td> <td><input type="checkbox" name="order40"></td> <td>8 500 руб.</td>
-										<td>Установка системы автооплаты</td> <td><input type="checkbox" name="order41"></td> <td>4 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Мобильная версия</td> <td><input type="checkbox" name="order42"></td> <td>20 000 руб.</td>
-									</tr>
-								</table>
-							</div>
-    						<p>* В зависимости от сложности работ, сроки могут быть увеличены.<br>
-    						** Internet Explorer - по отдельной договоренности.<br>
-    						*** Заполняя и отправляя форму, Вы <a href="../documents/Соглашение об использовании сайта .pdf">соглашаетесь с условиями о предосталении персональных данных</a> для обработки запроса нашей компанией.</p>
-							<p><input type="text" name="fio" title="Имя Отчество" tabindex="0" placeholder=" Имя Отчество" required="required" style="width: auto;max-width: 120px;"> <input type="phone" name="number" tabindex="1" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" placeholder=" Например: 9299563812" title="9299563812" required="required" style="width: auto;max-width: 120px;"> <input type="submit" value="Заказать"></p>
-						</form>
-					</div>
-					<img src="../images/btm/magazynimg.png" class="icon">
-				</div>
-				<div id="landing" align="center">
-					<h2>Landing</h2>
-					<div>
-						<form method="GET" action="../form/landingForm.php">
-							<table>
-								<tr>
-									<td><input type="checkbox" name="order1" checked> Срок создания сайта: 10 - 15 дней*</td>
-									<td><input type="checkbox" name="order2" checked> Уникальный и запоминающийся дизайн сайта</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order3"> Регистрация домена (1 год)</td>
-									<td><input type="checkbox" name="order4"> Помощь в выборе хостинг-провайдера</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order5"> Наполнение сайта контентом клиента</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order6"> CMS система управления сайтом</td>
-									<td><input type="checkbox" name="order7"> Виджеты социальных сетей</td>
-								</tr>
-								<tr>
-									<td colspan="2" align="center"><input type="checkbox" name="order8" checked> Кроссбраузерность в: Mozilla Firefox, Safari, Google Chrome, Opera, IE**.</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order9"> Копирайтинг</td>
-									<td><input type="checkbox" name="order10"> Модули «Форма обратной связи»</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order11"> Настройка системы Яндекс.Метрика и Google Analytics для сайта</td>
-									<td><input type="checkbox" name="order12"> Настройка скриптов и анимации</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order13"> Счетчик посещаемости сайта</td>
-									<td><input type="checkbox" name="order14"> Регистрация в поисковых системах</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order15"> Модуль "Фотогалерея" + настройка анимации</td>
-								</tr>
-							</table>
-							<a href="#landing" class="sbmtAdditionally" style="text-shadow: none;">Доп. модули</a>
-							<div class="additionally">
-								<table>
-									<tr>
-										<td>Выпадающее многоуровневое меню</td> <td><input type="checkbox" name="order16"></td> <td>1 200 руб.</td>
-										<td>Модуль "Статей"</td> <td><input type="checkbox" name="order17"></td> <td>1 200 руб.</td>
-									</tr>
-									<tr>
-										<td>Динамическое слайдшоу с эффектами анимации</td> <td><input type="checkbox" name="order18"></td> <td>4 500 руб.</td>
-										<td>Модуль "Опрос"</td> <td><input type="checkbox" name="order19"></td> <td>1 200 руб.</td>
-									</tr>
-									<tr>
-										<td>Настройка e-mail рассылки</td> <td><input type="checkbox" name="order20"></td> <td>2 900 руб.</td>
-										<td>Поиск по сайту</td> <td><input type="checkbox" name="order21"></td> <td>3 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Личный кабинте и закрытые разделы</td> <td><input type="checkbox" name="order22"></td> <td>4 500 руб.</td>
-										<td>Интеграция с социальными сетьми</td> <td><input type="checkbox" name="order23"></td> <td>1 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Наполнение основного раздела сайта информацией клиента</td> <td><input type="checkbox" name="order24"></td> <td>2500 руб</td>
-										<td>Форма обратной связи</td> <td><input type="checkbox" name="order25"></td> <td>900 руб.</td>
-									</tr>
-									<tr>
-										<td>Модуль "Фотогалерея"</td> <td><input type="checkbox" name="order26"></td> <td>3 500 руб.</td>
-										<td>Настройка рекламной кампании</td> <td><input type="checkbox" name="order27"></td> <td>5 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Регистрация сайта в поисковых системах</td> <td><input type="checkbox" name="order28"></td> <td>1 800 руб.</td>
-										<td>Модуль "Каталог"</td> <td><input type="checkbox" name="order29"></td> <td>12 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Установка на сайт виджет "Онлайн чат"</td> <td><input type="checkbox" name="order30"></td> <td>2 200 руб.</td>
-										<td>Модуль "YouTube"</td> <td><input type="checkbox" name="order31"></td> <td>3 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Интеграция с Яндекс.Маркет</td> <td><input type="checkbox" name="order32"></td> <td>5 500 руб.</td>
-										<td>Отрисовка дополнительного макета дизайна</td> <td><input type="checkbox" name="order18"></td> <td>3 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Верстка дополнительного макета дизайна</td> <td><input type="checkbox" name="order33"></td> <td>2 500 руб.</td>
-										<td>Адаптивная верстка</td> <td><input type="checkbox" name="order34"></td> <td>8 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Настройка фильтра поиска по каталогу</td> <td><input type="checkbox" name="order35"></td> <td>1 900 руб.</td>
-										<td>Настройка скриптов и анимации</td> <td><input type="checkbox" name="order36"></td> <td>4 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Консультационная поддержка</td> <td><input type="checkbox" name="order37"></td> <td>1 500 руб.</td>
-										<td>Выгрузка на 1С</td> <td><input type="checkbox" name="order38"></td> <td>12 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Поиск Автонабором по сайту</td> <td><input type="checkbox" name="order39"></td> <td>8 500 руб.</td>
-										<td>Установка системы автооплаты</td> <td><input type="checkbox" name="order40"></td> <td>4 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Мобильная версия</td> <td><input type="checkbox" name="order41"></td> <td>20 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Создание групп в социальной сети</td> <td><input type="checkbox" name="order42"></td> <td>4 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Google Analytics</td> <td><input type="checkbox" name="order43"></td> <td>3 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Google AdWords</td> <td><input type="checkbox" name="order44"></td> <td>5 000 руб.</td>
-									</tr>
-								</table>
-							</div>
-    						<p>* В зависимости от сложности работ, сроки могут быть увеличены.<br>
-    						** Internet Explorer - по отдельной договоренности.<br>
-    						*** Заполняя и отправляя форму, Вы <a href="../documents/Соглашение об использовании сайта .pdf">соглашаетесь с условиями о предосталении персональных данных</a> для обработки запроса нашей компанией.</p>
-							<p><input type="text" name="fio" title="Имя Отчество" tabindex="0" placeholder=" Имя Отчество" required="required" style="width: auto;max-width: 120px;"> <input type="phone" name="number" tabindex="1" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" placeholder=" Например: 9299563812" title="9299563812" required="required" style="width: auto;max-width: 120px;"> <input type="submit" value="Заказать"></p>
-						</form>
-					</div>
-					<img src="../images/btm/promoicon.png" class="icon">
-				</div>
-				<div id="company" align="center">
-					<h2>Корпоративный сайт</h2>
-					<div>
-						<form method="GET" action="../form/companyForm.php">
-							<table>
-								<tr>
-									<td><input type="checkbox" name="order1" checked> Срок создания сайта: 7 - 10 дней*</td>
-									<td><input type="checkbox" name="order2_1" checked> <a href="./design.html#model">Типовой</a> или<input type="checkbox" name="order2_2"> <a href="./design.html#individual">Индивидуальный</a> дизайн</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order3"> Регистрация домена (1 год)</td>
-									<td><input type="checkbox" name="order4"> Помощь в выборе хостинг-провайдера</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order5"> Виджеты социальных сетей</td>
-									<td><input type="checkbox" name="order6"> CMS система управления сайтом</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order7"> Наполнение сайта конентом клиента</td>
-									<td><input type="checkbox" name="order8"> Выпадающее меню (многоуровневое)</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order9"> Модуль "Поиск по сайту"</td>
-									<td><input type="checkbox" name="order10"> Установка на сайт счетчика посетителей</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order11"> Слайдшоу с эффектом анимации</td>
-									<td><input type="checkbox" name="order12"> Модуль «Новости сайта»</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order13"> Форма "Обратная связь"</td>
-									<td><input type="checkbox" name="order14"> Модуль "Статьи"</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order15"> Модуль «Гостевая книга»</td>
-									<td><input type="checkbox" name="order16"> На выбор "Галерея" или "Каталог"</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order17"> Регистрация в поисковых системах</td>
-									<td><input type="checkbox" name="order18"> Копирайтинг</td>
-								</tr>
-    						</table>
-    						<a href="#company" class="sbmtAdditionally" style="text-shadow: none;">Доп. модули</a>
-							<div class="additionally">
-								<table>
-									<tr>
-										<td>Выпадающее многоуровневое меню</td> <td><input type="checkbox" name="order19"></td> <td>1 200 руб.</td>
-										<td>Модуль "Статей"</td> <td><input type="checkbox" name="order20"></td> <td>1 200 руб.</td>
-									</tr>
-									<tr>
-										<td>Динамическое слайдшоу с эффектами анимации</td> <td><input type="checkbox" name="order21"></td> <td>4 500 руб.</td>
-										<td>Модуль "Опрос"</td> <td><input type="checkbox" name="order22"></td> <td>1 200 руб.</td>
-									</tr>
-									<tr>
-										<td>Настройка e-mail рассылки</td> <td><input type="checkbox" name="order23"></td> <td>2 900 руб.</td>
-										<td>Поиск по сайту</td> <td><input type="checkbox" name="order24"></td> <td>3 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Личный кабинте и закрытые разделы</td> <td><input type="checkbox" name="order25"></td> <td>4 500 руб.</td>
-										<td>Интеграция с социальными сетьми</td> <td><input type="checkbox" name="order26"></td> <td>1 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Наполнение основного раздела сайта информацией клиента</td> <td><input type="checkbox" name="order24"></td> <td>2500 руб</td>
-										<td>Форма обратной связи</td> <td><input type="checkbox" name="order27"></td> <td>900 руб.</td>
-									</tr>
-									<tr>
-										<td>Модуль "Фотогалерея"</td> <td><input type="checkbox" name="order28"></td> <td>3 500 руб.</td>
-										<td>Настройка рекламной кампании</td> <td><input type="checkbox" name="order29"></td> <td>5 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Регистрация сайта в поисковых системах</td> <td><input type="checkbox" name="order30"></td> <td>1 800 руб.</td>
-										<td>Модуль "Каталог"</td> <td><input type="checkbox" name="order31"></td> <td>12 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Установка на сайт виджет "Онлайн чат"</td> <td><input type="checkbox" name="order32"></td> <td>2 200 руб.</td>
-										<td>Модуль "YouTube"</td> <td><input type="checkbox" name="order33"></td> <td>3 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Интеграция с Яндекс.Маркет</td> <td><input type="checkbox" name="order34"></td> <td>5 500 руб.</td>
-										<td>Отрисовка дополнительного макета дизайна</td> <td><input type="checkbox" name="order35"></td> <td>3 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Верстка дополнительного макета дизайна</td> <td><input type="checkbox" name="order36"></td> <td>2 500 руб.</td>
-										<td>Адаптивная верстка</td> <td><input type="checkbox" name="order37"></td> <td>8 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Настройка фильтра поиска по каталогу</td> <td><input type="checkbox" name="order38"></td> <td>1 900 руб.</td>
-										<td>Настройка скриптов и анимации</td> <td><input type="checkbox" name="order39"></td> <td>4 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Консультационная поддержка</td> <td><input type="checkbox" name="order40"></td> <td>1 500 руб.</td>
-										<td>Выгрузка на 1С</td> <td><input type="checkbox" name="order24"></td> <td>12 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Поиск Автонабором по сайту</td> <td><input type="checkbox" name="order41"></td> <td>8 500 руб.</td>
-										<td>Установка системы автооплаты</td> <td><input type="checkbox" name="order42"></td> <td>4 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Мобильная версия</td> <td><input type="checkbox" name="order43"></td> <td>20 000 руб.</td>
-									</tr>
-								</table>
-							</div>
-    						<p>* В зависимости от сложности работ, сроки могут быть увеличены.<br>
-    						** Internet Explorer - по отдельной договоренности.<br>
-    						*** Заполняя и отправляя форму, Вы <a href="../documents/Соглашение об использовании сайта .pdf">соглашаетесь с условиями о предосталении персональных данных</a> для обработки запроса нашей компанией.</p>
-							<p><input type="text" name="fio" title="Имя Отчество" tabindex="0" placeholder=" Имя Отчество" required="required" style="width: auto;max-width: 120px;"> <input type="phone" name="number" tabindex="1" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" placeholder=" Например: 9299563812" title="9299563812" required="required" style="width: auto;max-width: 120px;"> <input type="submit" value="Заказать"></p>
-						</form>
-					</div>
-					<img src="../images/btm/deloimg.png" class="icon">
-				</div>
-				<div id="magazyn" align="center">
-					<h2>Интернет-магазин</h2>
-					<div>
-						<form method="GET" action="../magazynForm.php">
-							<table>
-								<tr>
-									<td><input type="checkbox" name="order1" checked> Срок создания сайта - 12 - 30 дней*</td>
-									<td><input type="checkbox" name="order2_1" checked> <a href="./design.html#model">Типовой</a> или<input type="checkbox" name="order2_2"> <a href="./design.html#individual">Индивидуальный</a> дизайн интернет-магазина</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order3"> Регистрация домена (1 год)</td>
-									<td><input type="checkbox" name="order4"> Помощь в выборе хостинг-провайдера</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order5"> Наполнение сайта контентом клиента</td>
-									<td><input type="checkbox" name="order6"> CMS система управления сайтом</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order7"> Выпадающее меню (многоуровневое)</td>
-									<td><input type="checkbox" name="order8">> Виджеты социальных сетей</td>
-								</tr>
-								<tr>
-									<td colspan="2" align="center"><input type="checkbox" name="order9"> Кроссбраузерность в: Mozilla Firefox, Safari, Google Chrome, Opera, IE**.</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order10"> Модуль "Корзина" + настройка интернет-магазина</td>
-									<td><input type="checkbox" name="order11"> Модуль "Каталог"</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order12"> Настройка полноценного интернет-магазина</td>
-									<td><input type="checkbox" name="order13"> Копирайтинг</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order14"> Слайдшоу с эффектом анимации</td>
-									<td><input type="checkbox" name="order15"> Регистрация в поисковых системах</td>
-								</tr>
-								<tr>
-									<td><input type="checkbox" name="order16"> Настройка модуля "Поиск по сайту"</td>
-									<td><input type="checkbox" name="order17"> Модуль "Новости"</td>
-								</tr>
-							</table>
-							<a href="#magazyn" class="sbmtAdditionally" style="text-shadow: none;">Доп. модули</a>
-							<div class="additionally">
-								<table>
-									<tr>
-										<td>Выпадающее многоуровневое меню</td> <td><input type="checkbox" name="order18"></td> <td>1 200 руб.</td>
-										<td>Модуль "Статей"</td> <td><input type="checkbox" name="order19"></td> <td>1 200 руб.</td>
-									</tr>
-									<tr>
-										<td>Динамическое слайдшоу с эффектами анимации</td> <td><input type="checkbox" name="order20"></td> <td>4 500 руб.</td>
-										<td>Модуль "Опрос"</td> <td><input type="checkbox" name="order21"></td> <td>1 200 руб.</td>
-									</tr>
-									<tr>
-										<td>Настройка e-mail рассылки</td> <td><input type="checkbox" name="order22"></td> <td>2 900 руб.</td>
-										<td>Поиск по сайту</td> <td><input type="checkbox" name="order23"></td> <td>3 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Личный кабинте и закрытые разделы</td> <td><input type="checkbox" name="order24"></td> <td>4 500 руб.</td>
-										<td>Интеграция с социальными сетьми</td> <td><input type="checkbox" name="order25"></td> <td>1 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Наполнение основного раздела сайта информацией клиента</td> <td><input type="checkbox" name="order26"></td> <td>2500 руб</td>
-										<td>Форма обратной связи</td> <td><input type="checkbox" name="order27"></td> <td>900 руб.</td>
-									</tr>
-									<tr>
-										<td>Модуль "Фотогалерея"</td> <td><input type="checkbox" name="order28"></td> <td>3 500 руб.</td>
-										<td>Настройка рекламной кампании</td> <td><input type="checkbox" name="order29"></td> <td>5 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Регистрация сайта в поисковых системах</td> <td><input type="checkbox" name="order30"></td> <td>1 800 руб.</td>
-										<td>Модуль "Каталог"</td> <td><input type="checkbox" name="order31"></td> <td>12 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Установка на сайт виджет "Онлайн чат"</td> <td><input type="checkbox" name="order32"></td> <td>2 200 руб.</td>
-										<td>Модуль "YouTube"</td> <td><input type="checkbox" name="order33"></td> <td>3 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Интеграция с Яндекс.Маркет</td> <td><input type="checkbox" name="order34"></td> <td>5 500 руб.</td>
-										<td>Отрисовка дополнительного макета дизайна</td> <td><input type="checkbox" name="order35"></td> <td>3 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Верстка дополнительного макета дизайна</td> <td><input type="checkbox" name="order36"></td> <td>2 500 руб.</td>
-										<td>Адаптивная верстка</td> <td><input type="checkbox" name="order37"></td> <td>8 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Настройка фильтра поиска по каталогу</td> <td><input type="checkbox" name="order38"></td> <td>1 900 руб.</td>
-										<td>Настройка скриптов и анимации</td> <td><input type="checkbox" name="order39"></td> <td>4 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Консультационная поддержка</td> <td><input type="checkbox" name="order40"></td> <td>1 500 руб.</td>
-										<td>Выгрузка на 1С</td> <td><input type="checkbox" name="order41"></td> <td>12 000 руб.</td>
-									</tr>
-									<tr>
-										<td>Поиск Автонабором по сайту</td> <td><input type="checkbox" name="order42"></td> <td>8 500 руб.</td>
-										<td>Установка системы автооплаты</td> <td><input type="checkbox" name="order43"></td> <td>4 500 руб.</td>
-									</tr>
-									<tr>
-										<td>Мобильная версия</td> <td><input type="checkbox" name="order44"></td> <td>20 000 руб.</td>
-									</tr>
-								</table>
-							</div>
-    						<p>* В зависимости от сложности работ, сроки могут быть увеличены.<br>
-    						** Internet Explorer - по отдельной договоренности.<br>
-    						*** Заполняя и отправляя форму, Вы <a href="../documents/Соглашение об использовании сайта .pdf">соглашаетесь с условиями о предосталении персональных данных</a> для обработки запроса нашей компанией.</p>
-							<p><input type="text" name="fio" title="Имя Отчество" tabindex="0" placeholder=" Имя Отчество" required="required" style="width: auto;max-width: 120px;"> <input type="phone" name="number" tabindex="1" pattern="[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}" placeholder=" Например: 9299563812" title="9299563812" required="required" style="width: auto;max-width: 120px;"> <input type="submit" value="Заказать"></p>
-						</form>
-					</div>
-					<img src="../images/btm/magazimg.png" class="icon">
-				</div>
-				<h1>Система управления сайтом</h1>
-				<div id="CMS" align="center">
-					<h3>Управление сайтом</h3>
-					<div class="blockLeft">
-						<p><b>Для чего нужна CMS?</b></p>
-						<p>Если смотреть с точки зрения обычного заказчика, то разработка сайта на основе какой-либо CMS должна приносить следующие преимущества:</p>
-                	    <ul class="check">
-                    	    <li><img src="../images/check.png"> в работе используется наиболее эффективный инструмент для решения конкретной задачи (в зависимости от вида сайта и требований к его функционалу подбирают оптимальную CMS);</li>
-                    	    <li><img src="../images/check.png"> использование CMS позволяет владельцу сайта самостоятельно создавать и удалять разделы сайта, редактировать различную информацию без привлечения стороннего специалиста - это одно из преимуществ над статическими сайтами;</li>
-                        	<li><img src="../images/check.png"> работа сайта постоянно тестируется множеством пользователей, а найденные ошибки и уязвимости достаточно оперативно устраняются, при этом сайт работает на самых передовых и проверенных технических решениях;</li>
-                        	<li><img src="../images/check.png"> временные затраты на разработку сайта существенно снижаются, так как разработчику не надо фиксировать своё внимание на чисто технических задачах: «как сделать ленту с новостями» или «как научить CMS искать товары в каталоге», а можно сосредоточиться на информационной и визуальной составляющих будущего сайта;</li>
-                    	</ul>
-					</div>
-					<img src="../images/btm/rubyimg.png" class="icon">
-				</div>
-				<h1>Дизайн услуги</h1>
-				<div id="designSite" align="center">
-					<h2>О дизайне сайта</h2>
-					<div class="blockLeft">
-						<p><b>Типовой дизайн сайта</b> – это технология создания сайта на основе готового универсального шаблона многократного использования.<br>
-						<i>Типовой дизайн сайта</i> – это бюджетный вариант сайта.<br>
-						Стоимость типового дизайна гораздо ниже индивидуального.<br>
-						Более подробно о типовом дизайне сайта можно проконсультироваться у наших менеджеров, заполнив<a href="#regform" style="color: orange; text-decoration: none;"> форму обратной связи</a> или позвонив нам по телефону <i>+7(499)394-6887</i>.<br>
-						Все пакетные предложения (кроме промо-сайта) изначально предполагают типовой дизайн.<br>
-						Это значит, что при получении заказа на создание сайта (заполненной бриф-формы) мы подбираем шаблон для сайта из готовых универсальных шаблонов.</p>
-						<p><a href="./design.html#design" style="color: grey; text-decoration: none;">Подробнее..</a></p>
-						<p><b>Индивидуальный дизайн сайта</b> – это технология создания сайта на основе уникального шаблона, специально разрабатываемого только для одного, конкретно взятого web-проекта.<br>
-						При создании индивидуального дизайна сайта никакие готовые шаблоны не используются.<br>
-						Как правило, такой шаблон создается "с нуля".<br>
-						Более подробно об индивидуальном дизайне можно узнать у наших менеджеров, заполнив<a href="#regform" style="color: orange; text-decoration: none;"> форму обратной связи</a> или позвонив нам по телефону <i>+7(499)394-6887</i>.</p>
-						<p><a href="./design.html#design" style="color: grey; text-decoration: none;">Подробнее..</a></p>
-						<p><b>Наше предложение</b></p>
-						<p>Хотите стать владельцем красивого, оригинального и узнаваемого сайта?<br>
-						Закажите услугу "Индивидуальный дизайн сайта".<br>
-						Сделав это, Вы получите тот сайт который хотели. Сайт который понравится Вам, произведет впечатление на Ваших конкурентов, подымет имидж Вашей компании в глазах Ваших клиентов!</p>		
-					</div>
-					<img src="../images/btm/designicon.png" class="icon">
-					<img src="../images/btm/copiraitingicon.png" class="icon">
-				</div>
-				<div id="browser" align="center">
-					<h3>Адаптивный дизайн</h3>
-					<div class="blockRight">
-						<p>Корректное отображение Вашего сайта на любом устройстве, от миниатюрного размера экрана умных часов до широкоформатного экрана телевизора.<br>
-							Преимущества кроссбраузерной верстки и адаптивного сайта:</p>
-						<ul class="check">
-					    	<li><img src="../images/check.png"> посетитель видит хорошо читаемый текст – только самую важную информацию;</li>
-					    	<li><img src="../images/check.png"> сайтом пользоваться удобно именно заходя с мобильных телефонов – даже с учетом сенсорного управления;</li>
-					    	<li><img src="../images/check.png"> отсутствие лишней информации и нагрузки в виде Flash-блоков и тяжелых картинок;</li>
-					    	<li><img src="../images/check.png"> если пользователю будет удобно на сайте, он может стать клиентом фирмы.</li>
-						</ul>
-						<p><b>*</b><i> Всю подробную информацию можно узнать у наших менеджеров</i></p>
-					</div>
-					<img src="../images/btm/pcimg.png" class="icon">
-					<img src="../images/btm/adaptivimg.png" class="icon">
-					<img src="../images/btm/mobileicon.png" class="icon">
-				</div>
-				<div id="design-upgrade-small">
-					<h2 style="color: white;">услуга "Апгрейд"</h2>
-					<div>
-						<p>Мы предлагаем Вашему вниманию абсолютно новую услугу для рынка веб-разработок - "Апгрейд". Эта услуга создана специально для тех, кто устал от постоянных доработок на сайте, вечных согласований и регулярных редизайнов. Мы прокачаем Ваш сайт и он станет для Вас надежным и эффективным инструментом по привлечению клиентов.</p>
-						<ul class="check">
-							<li><img src="../images/check.png"> Аппаратный перенос Вашего контента</li>
-							<li><img src="../images/check.png"> Полная отвязка от предыдущего подрядчика</li>
-							<li><img src="../images/check.png"> Внесение любых исправлений на сайт по прайсу </li>
-							<li><img src="../images/check.png"> Оптимизация сайта под поисковое продвижение</li>
-						</ul>
-						<p><a href="./design.html#design-block-upgrade">Подробнее...</a></p>
-					</div>
-				</div>
-				<div id="logoSiteInfo">
-					<h3>Разработка логотипа</h3>
-					<div>
-						<p>Это отличительный знак фирмы, компании, организации и т.п. – её символ, состоящий из текста и/или графики, который специально разрабатывается фирмой с целью привлечения внимания клиентов к ней самой и к её товарам.<br>
-						Как правило, современный логотип представляет собой оригинальное начертание наименования компании и выражает основное направление eе деятельности графическими средствами.<br>
-						Наше предложение включает в себя услугу по разработке статических и динамических логотипов.<br>
-						Если Вы примете решение <a href="#regform" style="color: orange;">заказать</a> у нас логотип – мы Вас внимательно выслушаем и учтём все Ваши пожелания к его дизайну.<br>
-						На основании Ваших пожеланий, дизайнеры изготовят и предоставим Вам <i>на рассмотрение 5-6 различных эскизов</i>.<br>
-						Из них Вы сможете выбрать один, наиболее понравившийся, который в дальнейшем и будет доработан до идеала.</p>
-						<p><a href="./design.html#dev_logo">Подробнее..</a></p>
-					</div>
-				</div>
-				<h1>Продвижение сайта</h1>
-				<div id="seo-find" align="center">
-					<h3>Оптимизация - SEO</h3>
-					<div class="blockLeft">
-						<p><b>Общие сведения о продвижении сайта</b></p>
-						<p>Под продвижением сайта следует понимать комплекс мер направленных на повышение позиций сайта в результатах выдач поисковых систем при вводе пользователем определенного поискового запроса.<br>
-						Целью продвижения сайта является вывод сайта на лидирующие позиции в поисковых выдачах. В идеальном случае – в TOP-10.<br>
-						Вывод только что созданного сайта в ТОП-10 задача не простая и дело не одного дня. Для продвижения сайта в ТОП-10 необходим планомерный и комплексный подход, а так же не малые капиталовложения.<br>
-						Большое значение в выводе сайта в ТОП-10 имеет поисковая оптимизация или, как ее еще называют, SEO (от Search Eengine Optimization). От того, насколько хорошо seo-оптимизирован сайт, во многом зависят его позиции в результатах выдач поисковых систем при вводе пиискового запроса, а, следовательно, и посещаемость сайта.<br>
-						Существуют два вида поисковой оптимизации сайта, которые надо выполнить для того, чтобы созданный web-проект успешно продвигался и имел шанс на попадание в ТОП-10 - это внутренняя поисковая оптимизация и внешняя.<br>
-						Более подробно о поисковой оптимизации сайта можно узнать у наших менеджеров, заполнив<a href="#regform" style="color: orange; text-decoration: none;"> форму обратной связи</a> или позвонив нам по телефону <i>+7(499)394-6887.</i></p>
-						<p>Примерный список работ по продвижению сайта (оптимизации):</p>
-                   		<ul class="check">
-                        	<li><img src="../images/check.png"> Составление семантического ядра сайта (списка ключевых слов и фраз);</li>
-                        	<li><img src="../images/check.png"> Поисковый аудит сайта, внесение изменений на сайт по итогам аудита;</li>
-                        	<li><img src="../images/check.png"> Поисковая оптимизация сайта (редактирование и оптимизация текстов, структура, код страниц);</li>
-                        	<li><img src="../images/check.png"> Наращивание естественной ссылочной массы (постоянными ссылками);</li>
-                        	<li><img src="../images/check.png"> Размещение статей на тематических ресурсах;</li>
-                        	<li><img src="../images/check.png"> Мониторинг результатов в поисковых системах;</li>
-                        	<li><img src="../images/check.png"> Поддержка достигнутых результатов на протяжении всего срока договора;</li>
-                        	<li><img src="../images/check.png"> Персональный менеджер.</li>
-                    	</ul>
-						<p><a href="../pages/seo.html#seo" style="color: grey; text-decoration: none;">Подробнее..</a></p>
-					</div>
-					<img src="../images/btm/seoimg.png" class="icon">
-					<img src="../images/btm/seo2img.png" class="icon">
-					<img src="../images/btm/smmimg.png" class="icon">
-				</div>
-				<h1>Админ. сайта</h1>
-				<div id="servTech" align="center">
-					<h3>Сервис и поддержка</h3>
-					<div class="blockRight">
-						<p><b>Поддержка сайта</b></p>
-						<p>Техническая поддержка сайта(администрирование). Администрирование CMS(DLE, WordPress, Joomla, Shop-Script и другие.)<br>Наша компания предлагает услуги по администрированию Вашего сайта(уже работающего).<br>В нашей жизни многое бывает. Например, недопонимание с текущим веб-разработчиком (не устраивает его работа, результат продвижения сайта) , тогда эта страница создана для Вас.</p>
-						<p>Мы готовы взять на себя любые работы по администрированию Вашего сайта, в них входят:</p>
-						<ul class="check">
-							<li><img src="../images/check.png"> <a href="./design.html#upgradeRedesign" style="color: orange;">Редизайн сайта</a> (улучшение текущего сайта, вплоть до его полной переделки <a href="./design.html#design-block-upgrade" style="color: orange;">"услуга Апгрейд"</a>).</li>
-							<li><img src="../images/check.png"> <a href="./administration.html#administration" style="color: orange;">Поддержка сайта</a> в работоспособном состоянии (решение проблем с хостерами, 24 часа в сутки сайт будет доступен в сети).</li>
-							<li><img src="../images/check.png"> Любые другие работы, инициированные Вами (удаление сайта, редактирование информации, добавление ресурсов и т.п.).</li>
-						</ul>
-						<p><i>Поможем убрать левые ссылки с шаблона сайта. Мы берёмся за любые сайты (онлайн проекты) любой сложности, написанные на разных CMS, языках программирования и т.п.</i></p>
-						<p>Краткий перечень услуг, которые наша команда готова предложить вам в рамках технической поддержки сайта:</p>
-						<ul class="check">
-					    	<li><img src="../images/check.png"> Создание контента с ключевыми запросами;</li>
-					    	<li><img src="../images/check.png"> Подготовка фото/видео материалов и размещение их на сайте;</li>
-					    	<li><img src="../images/check.png"> Доработка сайта, размещение новых разделов и страниц;</li>
-					    	<li><img src="../images/check.png"> Разработка и настройка модулей сайта;</li>
-					    	<li><img src="../images/check.png"> Адаптация сайта под мобильные устройства;</li>
-					    	<li><img src="../images/check.png"> Ежедневное создание резервной копии (Backup).</li>
-					    	<li><img src="../images/check.png"> Перевод сайта на английский язык.</li>
-					    	<li><img src="../images/check.png"> Поиск и удаление вирусов;</li>
-					    	<li><img src="../images/check.png"> Графическая поддержка (баннеры, инфографика, элементы дизайна);</li>
-						</ul>
-						<p><a href="../administration.html#administration" style="color: grey; text-decoration: none;">Подробнее</a></p>
-					</div>
-					<img src="../images/btm/settingicon.png" class="icon">
-				</div>
-				<!--h1>Преимущества</h1>
-				<div id="serv-info_2" align="center">
-					<h2>Преимущества</h2>
-					<div class="blockLeft">
-						<p>Сайты разработанные у нас, обладают целым рядом уникальных преимуществ, позволяющих им быстро продвигаться и эффективно конвертировать посетителей в заказы.</p>
-						<ul class="check">
-							<li><p><img src="../images/check.png"> <b>Эффективный дизайн</b></p><p><i>Дизайн, позволяющий нашим сайтам выгодно отличаться от конкурентов</i></p></li>
-							<li><p><img src="../images/check.png"> <b>Защита системы</b></p><p><i>Собственная криптографическая система обеспечивает максимальный уровень защиты сайта</i></p></li>
-							<li><p><img src="../images/check.png"> <b>Удобная админ-панель</b></p><p><i>Система управления сайтом, позволяет быстро управлять контентом</i></p></li>
-							<li><p><img src="../images/check.png"> <b>Встроенная аналитика</b></p><p><i>В систему управления сайтов по умолчанию встроенна аналитическая система</i></p></li>
-							<li><p><img src="../images/check.png"> <b>SEO направленность</b></p><p><i>Все наши сайты разрабатываются в соответствии с требованиями поисковой оптимизации</i></p></li>
-							<li><p><img src="../images/check.png"> <b>Умные формы</b></p><p><i>Формы обратной связи, не пропускающие ни одного обращения</i></p></li>
-						</ul>
-					</div>
-					<img src="../images/btm/spaceicon.png" class="icon">
-				</div-->
-			</div>
-		</div>
 		<div id="back">
 			<p class="topButton"><a href="#"><img src="../images/topButton.png"></a></p>
 			<p class="left"><a href="./administration.html#administration"><img src="../images/left.png" title="Поддержка и сервис"></a></p>
 		</div>
-		<div>
+		<div id="basic-module">
 			<div id="module"><form action="../form/moduleform.php" type="get">
-				<h1>Модули</h1>
+				<h1>Дополнительные модули</h1>
 				<div>
 					<table class="basic-table">
 						<tr>
-							<td colspan="8" align="center"><h3>Основные:</h3></td>
+							<td>Выпадающее многоуровневое меню</td> <td><input type="checkbox" name="order1"></td> <td><b>1 200 руб.</b></td>
 						</tr>
 						<tr>
-							<td>Выпадающее многоуровневое меню</td> <td><input type="checkbox" name="order1"></td> <td><b>1 200 руб.</b></td>
 							<td>Модуль "Статей"</td> <td><input type="checkbox" name="order2"></td> <td><b>1 200 руб.</b></td>
 						</tr>
 						<tr>
 							<td>Динамическое слайдшоу с эффектами анимации</td> <td><input type="checkbox" name="order3"></td> <td><b>4 500 руб.</b></td>
+						</tr>
+						<tr>
 							<td>Модуль "Опрос"</td> <td><input type="checkbox" name="order4"></td> <td><b>1 200 руб.</b></td>
 						</tr>
 						<tr>
 							<td>Настройка e-mail рассылки</td> <td><input type="checkbox" name="order5"></td> <td><b>2 900 руб.</b></td>
+						</tr>
+						<tr>
 							<td>Поиск по сайту</td> <td><input type="checkbox" name="order6"></td> <td><b>3 500 руб.</b></td>
 						</tr>
 						<tr>
 							<td>Личный кабинте и закрытые разделы</td> <td><input type="checkbox" name="order7"></td> <td><b>4 500 руб.</b></td>
+						</tr>
+						<tr>
 							<td>Интеграция с социальными сетьми</td> <td><input type="checkbox" name="order8"></td> <td><b>1 500 руб.</b></td>
 						</tr>
 						<tr>
 							<td>Наполнение основного раздела сайта информацией клиента</td> <td><input type="checkbox" name="order9"></td> <td><b>2500 руб</b></td>
+						</tr>
+						<tr>
 							<td>Форма обратной связи</td> <td><input type="checkbox" name="order10"></td> <td><b>900 руб.</b></td>
 						</tr>
 						<tr>
 							<td>Модуль "Фотогалерея"</td> <td><input type="checkbox" name="order11"></td> <td><b>3 500 руб.</b></td>
+						</tr>
+						<tr>
 							<td>Настройка рекламной кампании</td> <td><input type="checkbox" name="order12"></td> <td><b>5 000 руб.</b></td>
 						</tr>
 						<tr>
 							<td>Регистрация сайта в поисковых системах</td> <td><input type="checkbox" name="order13"></td> <td><b>1 800 руб.</b></td>
+						</tr>
+						<tr>
 							<td>Модуль "Каталог"</td> <td><input type="checkbox" name="order14"></td> <td><b>12 500 руб.</b></td>
 						</tr>
 						<tr>
 							<td>Установка на сайт виджет "Онлайн чат"</td> <td><input type="checkbox" name="order15"></td> <td><b>2 200 руб.</b></td>
-							<td>Модуль "YouTube"</td> <td><input type="checkbox" name="order16"></td> <td><b>3 500 руб.</b></td>
 						</tr>
-					</table>
-					<table class="others-table">
 						<tr>
-							<td colspan="3" align="center"><h3>Дополнительные:</h3></td>
+							<td>Модуль "YouTube"</td> <td><input type="checkbox" name="order16"></td> <td><b>3 500 руб.</b></td>
 						</tr>
 						<tr>
 							<td>Интеграция с Яндекс.Маркет</td> <td><input type="checkbox" name="order17"></td> <td><b>5 500 руб.</b></td>
@@ -1019,7 +215,7 @@ RabbitWeb.ru for the Efimov RS
 		</div>
 	</div>
 	<footer>
-		<div id="regform" class="block">
+		<!--div id="regform" class="block">
 			<h1>Оставьте заявку.</h1>
 			<form id="feedback" action="../form/regform.php" type="get">
 				<label for="fio">Ваше имя:</label>
@@ -1044,22 +240,11 @@ RabbitWeb.ru for the Efimov RS
 				<p style="color: yellow; text-shadow: 1px 1px 1px black; font-size: 0.9em;">* - нужное выделить.</p>
 				<input class="submit" type="submit" value="Отправить">
 			</form>
-		</div>
+		</div-->
 		<!-- VK Widget -->
 		<div id="vk_allow_messages_from_community"></div>
 		<div>
 			<ul id="bottom">
-				<li><a href="../index.html">Главная</a></li>
-				<li>Каталог услуг
-					<ul>
-						<li><a href="#workingOut">Разработка сайта</a></li>
-						<li><a href="./design.html#design">Дизайн сайта</a></li>
-						<li><a href="./seo.html#seo">Продвижение сайта</a></li>
-						<li><a href="./administration.html#administration">Поддержка сайта</a></li>
-						<!--li><a href="#">О нас</a></li-->
-					</ul>
-				</li>
-				<li><a href="../index.html#portfolio">Шаблоны</a></li>
 				<li><b>+7(499)394-6887</b></li>
 				<li><b>+7(929)956-3812</b></li>
 				<li><b>office@rabbitweb.ru</b></li>
@@ -1069,10 +254,8 @@ RabbitWeb.ru for the Efimov RS
 				<li class="social"><a href="https://vk.com/public147688210"><img src="../images/vk.png" title="Мы в Вконтакте"></a></li>
 				<li class="social"><a href="https://plus.google.com/102507608465543634068"><img src="../images/goog.png" title="Google+"></a></li>
 				<li class="social"><img src="../images/skype.png" title="Skype: 929 956-3812"></li>
-				<li class="social"><img src="../images/whap.png" title="Whats app: 929 956-3812"></li>
-				<li class="social"><img src="../images/tlgm.png" title="Telegram: 929 956-3812"></li>
 			</ul>
-			<p class="copyright"><i><a href="../documents/Соглашение об использовании сайта .pdf" style="color: white;text-decoration: none;">Обработка персональных данных</a><br><br>RabbitWeb 2017&copy;</i></p>
+			<p class="copyright"><i><a href="../documents/Соглашение об использовании сайта .pdf" style="color: white;text-decoration: none;">Обработка персональных данных</a><br><br>RabbitWeb 2017&copy;</i><br/><br/>Онлайн-курсы <a href="http://rabbitweb-school.ru" style="text-decoration: none; color: blue;">RabbitWeb-School.ru</a> по программированию для детей от 7 лет</p>
 		</div>
 	</footer>
 	<script>
