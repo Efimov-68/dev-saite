@@ -129,11 +129,7 @@ html{
 	float: left;
 	margin-top: 60px;
 }
-#data-size td.checkInput{
+.checkInput{
 	background-color: rgba(0,0,0,.5);
 	border: 2px solid red;
-}
-
-#confirm{
-	background-color: rgba(0,0,0,.2);
 }
