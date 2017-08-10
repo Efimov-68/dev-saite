@@ -82,6 +82,14 @@ $(document).ready(function(){
 	$('#info-javascript-easy').hide();
 	$('#info-javascript-middle').hide();
 	$('#faq div p').hide();
+	$('#menuParagraph img[alt="RabbitWeb-School.ru"]').hide();
+	$('img.faqImg').hide();
+	$('img.skypeImg').hide();
+	$('#direction-training-scratch').hide();
+	$('#direction-training-python').hide();
+	$('#direction-training-javascript').hide();
+	$('img[alt="Scratch"]').hide();
+	$('#sprites img[alt="Спрайт"]').hide();
 	//end .hide
 
 	$('#faq div h3').click(function(){
@@ -104,6 +112,16 @@ $(document).ready(function(){
     		$(this).removeClass('close');
     	}
 	});
+	$('#menuParagraph img[alt="RabbitWeb-School.ru"]').fadeIn(3500);
+	$('img.faqImg').fadeIn(1500);
+	$('img.skypeImg').fadeIn(3500);
+	$('#direction-training').show(function(){
+		$('#direction-training-scratch').fadeIn(4000);
+		$('#direction-training-python').fadeIn(5000);
+		$('#direction-training-javascript').fadeIn(6000);
+	});
+	$('img[alt="Scratch"]').slideDown(2200, 'linear');
+	$('#sprites img[alt="Спрайт"]').fadeIn(3000);
 });//end ready
 //*******TIME********
 $(document).ready(function() {
