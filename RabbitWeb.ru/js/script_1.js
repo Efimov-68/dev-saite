@@ -19,6 +19,7 @@ $(document).ready(function(){
   $('#design-list-upgrade').hide();
   $('.package div').hide();
   $('#siteDevelopers').hide();
+
   //END all.hide()
 
 	$('#basic').show(function(){
@@ -245,3 +246,31 @@ $(document).ready(function(){
   });//*end* Menu 480px viewport//*end* Menu 480px viewport
 
 });//END READY
+
+//***window CallBack
+$(document).ready(function() {
+  // open external links in new window
+  $('a[href^="http://"]').attr('target','_blank');
+  
+  //position resources panel on screen
+  $('#resources').show().delay(500).animate({ left : '-25em' }, 250).animate({left:'-29em'},250);
+  
+  // resources panel
+  var panel=false;
+  $('.open').click(function() {
+    if (!panel) {
+      $(this).text('x');
+      $('#resources').animate({
+        left : 0
+      }, 250); // end animate
+      panel=true;
+    } else {
+      $(this).text('o');
+      $('#resources').animate({
+        left : '-29em'
+      }, 250); // end animate
+      panel=false;
+    }
+  });
+}); // end ready
+//end window CallBack
