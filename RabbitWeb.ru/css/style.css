@@ -16,13 +16,11 @@
 	}
 	
 	body{
-		box-shadow: 0 0 10px black;
 		max-width: 1600px;
 		width: auto;
 		margin-left: auto;
 		margin-right: auto;
 		line-height: 1.3em;
-		text-shadow: 0px 0px 1px white;
 		font-family: Comfortaa-Regular;
 	}
 	
@@ -273,87 +271,6 @@
 		margin: 0 auto 5% auto;
 	}
 	/**end Basic-Module**/
-
-	/*START CALLBACK*/
-	#contacts div.callPhone,
-	#contacts div.callMessange{
-		display: none;
-		position: fixed;
-		top: 49.5%;
-		left: 0%;
-		background-color: rgba(0, 0, 0, 0.7);
-		padding: 0;
-		width: 310px;
-		height: auto;
-		border-radius: 5px 10px 5px 5px;
-	}
-	
-	.callBack h2{
-		color: black;
-		text-shadow: 1px 1px 1px grey;
-		line-height: 1.2em;
-		padding:5px;
-	}
-	
-	.callBack ul{
-		list-style-type:none;	
-	}
-	
-	.callPhone li,
-	.callMessange li{
-		margin-top: 10px;
-		color: white;
-		text-shadow: none;
-	}
-	
-	.callBack li input{
-		border: 1px ridge lightgrey;
-		width: 180px;
-		height: 28px;
-		margin-left: 50px;
-	}
-
-	.callMessange input{
-		margin-top: 10px;
-	}
-	
-	.callBack input.submit{
-		background-color: rgb(179, 0, 0);
-		height: 28px;
-		width: auto;
-		border: none;
-		border-radius: 10px;
-		color: lightgrey;
-	}
-	
-	.callBack input.submit:hover{
-		background-color: rgb(179, 0, 0);
-		height: 28px;
-		width: auto;
-		border: 1px solid red;
-		border-radius: 10px;
-		box-shadow: 0 0 3px red;
-		color: white;
-		text-shadow: 1px 1px 1px black;
-	}
-	
-	.callPhone img,
-	.callMessange img{
-		float: right;
-		width: 21px;
-		height: auto;
-		margin: -1px 0 0 0;
-	}
-	
-	.callPhone img:hover,
-	.callMessange img:hover{
-		width: 21px;
-		height: auto;
-		margin: -1px 0 0 0;
-		-moz-transform:scale(1.15);
-	    -webkit-transform:scale(1.15);
-	}
-	/*END CallBack*/
 	
 	/*workingOut Главная*/
 	#workingOut{
@@ -1448,11 +1365,11 @@
 	#resources .open{
 		position: absolute;
 		width: 0px;
-		height: 20px;
+		height: 107px;
 		right: 0px;
 		top: -16px;
 		background-color: green/*rgba(100,100,100,0.8)*/;
-		border-radius: 0 0 0 1.1em;
+		border-radius: 0 0 1.1em 0;
 		text-align: center;
 		font-family: 'ColaborateBoldRegular', Arial, sans-serif;
 		cursor: pointer;
