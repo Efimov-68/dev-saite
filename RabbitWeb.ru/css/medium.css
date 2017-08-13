@@ -123,11 +123,14 @@
 	/*Конец верхнего меню*/
 
 	#basic{
-		/*background-image: url(../images/fon-rabbitweb2.png);
+		/*background-image: url(../images/kompyuter-monitor-minimalizm.jpg);
 		background-size: auto;
 		background-repeat: no-repeat;
 		background-position: center;*/
-		margin-top: 0;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
 		border: none;
 		padding: 5px;
 	}

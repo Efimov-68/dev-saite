@@ -81,10 +81,10 @@
 	/*Конец верхнего меню*/
 
 	#basic{
-		background-image: url(../images/kompyuter-monitor-minimalizm.jpg);
+		/*background-image: url(../images/kompyuter-monitor-minimalizm.jpg);
 		background-size: auto;
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: center;*/
 		margin-top: 0;
 		border: none;
 		padding: 5px;
@@ -94,7 +94,7 @@
 		/*background-color: rgba(0, 0, 0, 0.67);*/
 		text-shadow: 1px 1px 1px grey;
 		padding: 20px;
-		margin: 10% auto 10% auto;
+		margin: 0% auto 0% auto;
 		border: none;
 		height: auto;
 		width: auto;
