@@ -368,6 +368,8 @@
 		width: auto;
 		padding: 10px;
 		margin-top: 10px;
+		border-radius: 10px;
+		box-shadow: 3px 3px 1px rgba(0, 122, 179, .3);
 	}
 
 	#visiting{background-color: rgba(230, 247, 255, 0.1);}
@@ -399,7 +401,6 @@
 	#logoSiteInfo h3{
 		background: url(../images/open.png) no-repeat;
 		width: auto;
-		max-width: 220px;
 		margin: auto;
 		padding: auto;
 		text-align: center;
@@ -1416,26 +1417,6 @@
 	.nav a, .example {
 		display: inline-block;
 		font-family: 'ColaborateLightRegular', Arial, sans-serif;
-		font-size: 12px;
-		color: rgb(100,100,100);
-		text-decoration: none;
-		border-radius: 0.25em;
-		padding: .25em .5em;
-		background-color: rgba(255,211,224,.5);
-		-webkit-transition: all .25s ease-in;
-		-moz-transition: all .25s ease-in;
-		-o-transition: all .25s ease-in;
-		transition: all .25s ease-in;
-		cursor: pointer;
-	}
-	.nav a:hover, .example:hover {
-		background-color: rgba(255,255,255,.85);
-		color: rgb(0,0,0);
-	}
-	.nav a, .example {
-		display: inline-block;
-		font-family: 'ColaborateLightRegular', Arial, sans-serif;
-		font-size: 12px;
 		color: rgb(100,100,100);
 		text-decoration: none;
 		border-radius: 0.25em;
@@ -1457,18 +1438,18 @@
 		position: fixed;
 		top: 20em;
 		left: -40em;
-		width: 15em;
+		width: 28em;
 		border-radius: 0 .5em 25px 0;
 		display: none;
 	}
 	#resources .open{
 		position: absolute;
-		width: 300px;
-		height: 25px;
-		right: -228px;
+		width: 150px;
+		height: 98px;
+		right: -29px;
 		top: -16px;
-		background-color: green/*rgba(100,100,100,0.8)*/;
-		border-radius: 0 1.1em 1.1em 1.1em;
+		background-color: green;
+		border-radius: 0 1.1em 1.1em 0;
 		text-align: center;
 		font-family: 'ColaborateBoldRegular', Arial, sans-serif;
 		cursor: pointer;
@@ -1507,7 +1488,7 @@
 	}
 	#resources input{
 		height: 28px;
-		width: auto;
+		width: 130px;
 		margin: 5px auto 5px auto;
 		border: 0px solid blue;
 		border-radius: 2px;
