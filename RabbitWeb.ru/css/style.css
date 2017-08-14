@@ -1359,7 +1359,7 @@
 		top: 15em;
 		left: -40em;
 		width: 30em;
-		border-radius: 0 .5em 25px 0;
+		border-radius: 0 1.1em 1.1em 0;
 		display: none;
 	}
 	#resources .open{
@@ -1369,7 +1369,7 @@
 		right: 0px;
 		top: -16px;
 		background-color: green/*rgba(100,100,100,0.8)*/;
-		border-radius: 0 0 1.1em 0;
+		border-radius: 0 1.1em 1.1em 0;
 		text-align: center;
 		font-family: 'ColaborateBoldRegular', Arial, sans-serif;
 		cursor: pointer;
