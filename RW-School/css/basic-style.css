@@ -622,12 +622,12 @@ RabbitWeb-School.ru (full) for the Efimov RS
 	#resources-scratch .open,
 	#resources-python .open {
 		position: absolute;
-		width: 40px;
-		height: 20px;
+		width: 35px;
+		height: 30px;
 		right: 0px;
 		top: -16px;
 		background-color: green/*rgba(100,100,100,0.8)*/;
-		border-radius: 0 .5em;
+		border-radius: 0 .5em 0 100%;
 		text-align: center;
 		font-family: 'ColaborateBoldRegular', Arial, sans-serif;
 		cursor: pointer;
