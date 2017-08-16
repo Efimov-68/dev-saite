@@ -459,7 +459,7 @@
 	#magazyn img,
 	#design-upgrade-small img,
 	#logoSiteInfo img{
-		width: 12px;
+		width: 16px;
 	}
 	
 	#visiting b,
@@ -472,10 +472,19 @@
 		font-size: 1.3em;
 		text-shadow: none;
 	}
-	
+
+	div#CMS{
+		width: 500px;
+	}
+	.blockCMS table{
+		margin: 0 auto 0 auto;
+	}
+	.blockCMS td img{
+		width: 120px;
+	}
 	.blockLeft ul.check li img,
 	.blockRight ul.check li img{
-		width: 12px;
+		width: 16px;
 	}
 	
 	#CMS li,

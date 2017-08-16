@@ -699,10 +699,9 @@
 	#serv-info_1 div.serv_1_float_1,
 	#serv-info_1 div.serv_1_float_2,
 	#serv-info_1 div.serv_1_float_3{
-		left: 20%;
 		height: auto;
 		width: auto;
-		margin-top: 2%;
+		margin: 2% auto 0 50%;
 	}
 
 	#serv-info_1 div.serv_1_float_1 div,

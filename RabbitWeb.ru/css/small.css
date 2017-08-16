@@ -667,10 +667,9 @@
 	#serv-info_1 div.serv_1_float_1,
 	#serv-info_1 div.serv_1_float_2,
 	#serv-info_1 div.serv_1_float_3{
-		left: 20%;
 		height: auto;
 		width: auto;
-		margin-top: 2%;
+		margin: 2% 10% 0 25%;
 	}
 
 	#serv-info_1 div.serv_1_float_1 div,
@@ -1269,7 +1268,7 @@
 		width: auto;
 		max-width: 720px;
 		padding-top: 10px;
-		margin: 0 auto 0 auto;
+		margin: 320% auto 0 auto;
 	}
 	
 	#regform h1{
