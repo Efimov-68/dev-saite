@@ -585,7 +585,7 @@
 	#brif_forms_developers{
 		width: auto;
 		height: 400px;
-		margin: 105% auto 0 auto;
+		margin: 25% auto 0 auto;
 	}
 	#brif_forms_developers h1{
 		text-align: center;
@@ -594,6 +594,7 @@
 		background-color: green;
 		text-decoration: none;
 		color: white;
+		font-size: 18px;
 		border: 2px solid green;
 		border-radius: 3px;
 		padding: 5px;
@@ -607,7 +608,7 @@
 		SERVICES	*/
 	#common{
 		border: none;
-		height: auto;
+		height: 1500px;
 		width: auto;
 		max-width: 768px;
 	}
@@ -1223,7 +1224,7 @@
 		width: auto;
 		max-width: 720px;
 		padding-top: 10px;
-		margin: 0 auto 0 auto;
+		margin: 20% auto 0 auto;
 	}
 	
 	#regform h1{

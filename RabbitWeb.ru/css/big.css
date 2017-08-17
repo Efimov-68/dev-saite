@@ -579,7 +579,7 @@
 	#brif_forms_developers{
 		width: auto;
 		height: 400px;
-		margin: 15% auto 0 auto;
+		margin: 20% auto 0 auto;
 	}
 	#brif_forms_developers h1{
 		text-align: center;
@@ -588,6 +588,7 @@
 		background-color: green;
 		text-decoration: none;
 		color: white;
+		font-size: 18px;
 		border: 2px solid green;
 		border-radius: 3px;
 		padding: 5px;
