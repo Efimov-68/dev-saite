@@ -579,6 +579,25 @@
 		-moz-transform:scale(1.05);
 	    -webkit-transform:scale(1.05);
 	}
+	
+	#brif_forms_developers{
+		width: auto;
+		height: 400px;
+		margin: 15% auto 0 auto;
+	}
+	#brif_forms_developers h1{
+		text-align: center;
+	}
+	#brif_forms_developers a{
+		background-color: green;
+		text-decoration: none;
+		color: white;
+		border: 2px solid green;
+		border-radius: 3px;
+		padding: 5px;
+		margin-left: auto;
+		margin-right: auto; 
+	}
 
 	/*	END Portfolio */
 	

@@ -245,86 +245,6 @@
 		margin: 0 auto 5% auto;
 	}
 	/**end Basic-Module**/
-
-	/*START CALLBACK*/
-	#contacts div.callPhone,
-	#contacts div.callMessange{
-		display: none;
-		position: fixed;
-		top: 49.5%;
-		left: 0%;
-		background-color: rgba(0, 0, 0, 0.7);
-		padding: 0;
-		width: 310px;
-		height: auto;
-		border-radius: 5px 10px 5px 5px;
-	}
-	
-	.callBack h2{
-		color: black;
-		text-shadow: 1px 1px 1px grey;
-		line-height: 1.2em;
-		padding:5px;
-	}
-	
-	.callBack ul{
-		list-style-type:none;	
-	}
-	
-	.callPhone li,
-	.callMessange li{
-		margin-top: 10px;
-		color: white;
-		text-shadow: none;
-	}
-	
-	.callBack li input{
-		border: 1px ridge lightgrey;
-		width: 180px;
-		height: 28px;
-		margin-left: 50px;
-	}
-
-	.callMessange input{
-		margin-top: 10px;
-	}
-	
-	.callBack input.submit{
-		background-color: rgb(179, 0, 0);
-		height: 28px;
-		width: auto;
-		border: none;
-		border-radius: 10px;
-		color: lightgrey;
-	}
-	
-	.callBack input.submit:hover{
-		background-color: rgb(179, 0, 0);
-		height: 28px;
-		width: auto;
-		border: 1px solid red;
-		border-radius: 10px;
-		box-shadow: 0 0 3px red;
-		color: white;
-		text-shadow: 1px 1px 1px black;
-	}
-	
-	.phone img{
-		float: right;
-		width: 21px;
-		height: auto;
-		margin: -1px 0 0 0;
-	}
-	
-	.callPhone img:hover,
-	.callMessange img:hover{
-		width: 21px;
-		height: auto;
-		margin: -1px 0 0 0;
-		-moz-transform:scale(1.15);
-	    -webkit-transform:scale(1.15);
-	}
-	/*END CallBack*/
 	
 	/*workingOut Главная*/
 	#workingOut{
@@ -492,34 +412,6 @@
 		color: grey;
 	}
 	
-	#visiting div p input,
-	#promo div p input,
-	#catalog div p input,
-	#landing div p input,
-	#company div p input,
-	#magazyn div p input{
-		background-color: rgba(242, 242, 242, 0.90);
-		color: black;
-		border: 2px solid black;
-		border-radius: 12px;
-		padding: 5px;
-	}
-	
-	#visiting div p input:hover,
-	#promo div p input:hover,
-	#catalog div p input:hover,
-	#landing div p input:hover,
-	#company div p input:hover,
-	#magazyn div p input:hover{
-		background-color: rgba(242, 242, 242, 0.90);
-		color: grey;
-		border: 2px solid grey;
-		border-radius: 12px;
-		padding: 5px;
-		-moz-transform:scale(.97);
-		-webkit-transform:scale(.97);
-	}
-	
 	#visiting table,
 	#promo table,
 	#catalog table,
@@ -563,7 +455,18 @@
 		font-size: 1.3em;
 		text-shadow: none;
 	}
-	
+
+	div#CMS{
+		width: auto;
+		max-width: 480px;
+	}
+	.blockCMS table{
+		margin: 0 auto 0 auto;
+	}
+	.blockCMS td img{
+		width:auto;
+		max-width: 70px;
+	}
 	.blockLeft ul.check li img,
 	.blockRight ul.check li img{
 		width: auto;
@@ -647,6 +550,25 @@
 		width: auto;
 		max-width: 270px;
 		padding: 10px;
+	}
+
+	#brif_forms_developers{
+		width: auto;
+		height: 200px;
+		margin: 250% auto 0 auto;
+	}
+	#brif_forms_developers h1{
+		text-align: center;
+	}
+	#brif_forms_developers a{
+		background-color: green;
+		text-decoration: none;
+		color: white;
+		border: 2px solid green;
+		border-radius: 3px;
+		padding: 5px;
+		margin-left: auto;
+		margin-right: auto; 
 	}
 
 	/*	END Portfolio */
@@ -1268,7 +1190,7 @@
 		width: auto;
 		max-width: 720px;
 		padding-top: 10px;
-		margin: 320% auto 0 auto;
+		margin: 50% auto 0 auto;
 	}
 	
 	#regform h1{
