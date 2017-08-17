@@ -262,6 +262,27 @@ RabbitWeb-School.ru (big) for the Efimov RS
 		text-shadow: 0 0 1px lightgrey;
 	}
 	/*end Price-list*/
+	/**Customer Information**/
+	#customerInformation{
+		margin: 20% auto 20% auto;
+	}
+	#customerInformation h2{
+		text-align: center;
+	}
+	#customerInformation span{
+		color: red;
+	}
+	#customerInformation a{
+		border: 2px solid green;
+		border-radius: 3px;
+		background-color: green;
+		color: white;
+		text-decoration: none;
+		font-size: 22px;
+		padding: 5px;
+		box-shadow: 1px 1px 2px green;
+	}
+	/*end Customer Information*/
 	/*newSite open*/
 	.newSite,
 	.newInfo {

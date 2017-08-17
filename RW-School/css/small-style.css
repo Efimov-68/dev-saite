@@ -270,6 +270,27 @@ RabbitWeb-School.ru (small) for the Efimov RS
 		text-shadow: 0 0 1px lightgrey;
 	}
 	/*end Price-list*/
+	/**Customer Information**/
+	#customerInformation{
+		margin: 20% auto 20% auto;
+	}
+	#customerInformation h2{
+		text-align: center;
+	}
+	#customerInformation span{
+		color: red;
+	}
+	#customerInformation a{
+		border: 2px solid green;
+		border-radius: 3px;
+		background-color: green;
+		color: white;
+		text-decoration: none;
+		font-size: 22px;
+		padding: 5px;
+		box-shadow: 1px 1px 2px green;
+	}
+	/*end Customer Information*/
 	/*newSite open*/
 	.newSite,
 	.newInfo {
@@ -630,8 +651,8 @@ RabbitWeb-School.ru (small) for the Efimov RS
 		padding: 0em 1em 1em .75em;
 		position: fixed;
 		top: 10em;
-		left: -39em;
-		width: 29.5em;
+		left: -29em;
+		width: 29em;
 		border-radius: 0 .5em .5em 0;
 		display: none;
 	}
@@ -639,7 +660,7 @@ RabbitWeb-School.ru (small) for the Efimov RS
 	#resources-scratch .open,
 	#resources-python .open {
 		position: absolute;
-		width: 70px;
+		width: 150px;
 		height: 20px;
 		right: 0px;
 		top: -16px;
@@ -662,11 +683,11 @@ RabbitWeb-School.ru (small) for the Efimov RS
 		font-family: 'ColaborateBoldRegular', Arial, sans-serif;
 		font-size:18px;
 		text-transform:uppercase;
-		text-align: center;
+		text-align: left;
 		color: rgba(255,255,255,0.98);
-		margin-top: 1em;
+		margin-top: 2em;
 		margin-right: auto;
-		margin-left: auto;
+		margin-left: 0;
 		text-shadow: none;
 	}
 	#resources h3,
@@ -691,7 +712,7 @@ RabbitWeb-School.ru (small) for the Efimov RS
 	#resources-python img{
 		width: 70px;
 		margin-right: 0;
-		margin-left: 400px;
+		margin-left: 300px;
 	}
 	#resources form,
 	#resources-scratch form,

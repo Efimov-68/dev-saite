@@ -156,9 +156,11 @@
 	li.phone{
 		display: none;
 	    text-align:right;
-	    font-size:12px;
+	    font-size:14px;
 	    padding:10px;
-	    color:white;
+	}
+	li.phone img{
+		width: 20px;
 	}
 	
 	#contacts div{
@@ -178,7 +180,7 @@
 	
 	#contacts p img{
 		border: none;
-		width: 40px;
+		width: 20px;
 		height: auto;
 		padding: 0 0 10px 0;
 	}
@@ -191,17 +193,19 @@
 	}
 	
 	.social{
-		float: right;
+		float: left;
 		list-style-type: none;
 		font-family: cursive;
 		padding: 0;
-		margin-right: 1%;
-		margin-top: -1%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 2%;
+		margin-bottom: 5%;
 		bottom: 0;
 	}
 	
 	li.social{
-		float: right;
+		position: relative;
 		padding: 0 5px 0 0;
 		color: lightgrey;
 		text-shadow: 1px 1px 1px black;
@@ -209,7 +213,7 @@
 	
 	li.social img{
 		height: auto;
-		width: 30px;
+		width: 20px;
 	}
 	/*	END CONTACTS */
 
@@ -1364,7 +1368,7 @@
 		position: fixed;
 		top: 20em;
 		left: -40em;
-		width: 28em;
+		width: 27em;
 		border-radius: 0 .5em 25px 0;
 		display: none;
 	}
@@ -1389,7 +1393,7 @@
 		font-family: 'ColaborateBoldRegular', Arial, sans-serif;
 		font-size:18px;
 		text-transform:uppercase;
-		text-align: center;
+		text-align: left;
 		color: rgba(255,255,255,0.98);
 		margin-top: 1em;
 		margin-right: auto;

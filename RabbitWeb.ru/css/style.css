@@ -184,7 +184,7 @@
 	}
 	.phone{
 	    float: left;
-	    font-size:17px;
+	    font-size:22px;
 	    padding:10px;
 	    color:white;
 	}
@@ -583,7 +583,7 @@
 	#brif_forms_developers{
 		width: auto;
 		height: 400px;
-		margin: 0 auto 0 auto;
+		margin: -5% auto 0 auto;
 	}
 	#brif_forms_developers h1{
 		text-align: center;
@@ -607,7 +607,7 @@
 		SERVICES	*/
 	#common{
 		border: none;
-		height: auto;
+		height: 1100px;
 		width: auto;
 		max-width: 1600px;
 	}
@@ -1210,7 +1210,7 @@
 	#bottom li,
 	#bottom a{
 		color: white;
-		font-size: 12px;
+		font-size: 14px;
 		line-height:2.0em;
 		text-shadow: none;
 		text-decoration: none;
@@ -1237,36 +1237,37 @@
 	#feedback label{
 		margin-left: 30px;
 		margin-right: 30px;
-		font-size: 20px;
+		font-size: 18px;
 		color: white;
 		text-align: center;
 	}
 	
 	#feedback p{
 		color: white;
+		font-size: 14px;
 	}
 	
 	#fio{
 		height: 28px;
-		width: 300px;
+		width: 250px;
 		padding: 5px;
 		margin: 10px 0 0 0;
 		font-size: 16px;
 		color: black;
 		background: white;
-		border: none;
+		border-style: solid;
 		box-shadow: 0 0 3px black;
 	}
 	
 	#phone{
 		height: 28px;
-		width: 300px;
+		width: 250px;
 		padding: 5px;
 		margin: 10px 0 0 0;
 		font-size: 16px;
 		color: black;
 		background: white;
-		border: none;
+		border-style: solid;
 		box-shadow: 0 0 3px black;
 	}
 	
@@ -1325,8 +1326,8 @@
 	/***start CHECKBOX_PERSONAL***/
 	.checkbox {
 		width: auto;
-		max-width: 400px;
-		font-size: 12px;
+		max-width: 300px;
+		font-size: 10px;
 		position:relative;
 		padding: 0 50px 0 50px;
 		margin: 10px auto 10px auto;
@@ -1335,7 +1336,7 @@
 		display:none;
 	}
 	.personalCheck a{
-		color: blue; text-decoration: none;
+		color: blue;
 	}
 	.checkbox label:after {
 		content:'';
@@ -1395,7 +1396,7 @@
 	#resources .open{
 		position: absolute;
 		width: 0px;
-		height: 107px;
+		height: 151px;
 		right: 0px;
 		top: -16px;
 		background-color: green/*rgba(100,100,100,0.8)*/;
@@ -1445,7 +1446,7 @@
 		height: 28px;
 		width: 150px;
 		margin: 5px auto 5px auto;
-		border: 0px solid blue;
+		border-style: solid;
 		border-radius: 2px;
 	}
 	#resources input.submit{
