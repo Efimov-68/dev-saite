@@ -79,8 +79,8 @@ $(document).ready(function(){
   $('#landing h3').click(function(){
     var $landing = $(this).next('#landing div');
     if ($landing.is(':hidden')) {
-      $landing.slideDown(300);
-      $(this).addClass('close');
+      //$landing.slideDown(300);
+      //$(this).addClass('close');
     }else{
       $landing.slideUp(300);
       $(this).removeClass('close');

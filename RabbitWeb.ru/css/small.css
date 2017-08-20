@@ -299,7 +299,7 @@
 	#visiting{background-color: rgba(230, 247, 255, 0.1);}
 	#promo{background-color: rgba(204, 239, 255, 0.1);}
 	#catalog{background-color: rgba(179, 231, 255, 0.1);}
-	#landing{background-color: rgba(153, 223, 255, 0.1);}
+	#landing{background-color: rgba(255,255,255, .3)/*rgba(153, 223, 255, 0.1)*/;}
 	#company{background-color: rgba(128, 215, 255, 0.1);}
 	#magazyn{background-color: rgba(102, 207, 255, 0.1);}
 	#CMS{background-color: rgba(77, 198, 255, 0.1);}
@@ -494,7 +494,7 @@
 	#visiting h3.close,
 	#promo h3.close,
 	#catalog h3.close,
-	#landing h3.close,
+	#landing h3/*.close*/,
 	#company h3.close,
 	#magazyn h3.close,
 	#seo-find h3.close,
@@ -1374,12 +1374,12 @@
 	}
 	#resources .open{
 		position: absolute;
-		width: 150px;
-		height: 98px;
+		width: 110px;
+		height: 135px;
 		right: -29px;
 		top: -16px;
 		background-color: green;
-		border-radius: 0 1.1em 1.1em 0;
+		border-radius: 1.1em;
 		text-align: center;
 		font-family: 'ColaborateBoldRegular', Arial, sans-serif;
 		cursor: pointer;
