@@ -1,11 +1,4 @@
-/*
-  Theme Name: Oxygen
-  Theme Uri: http://www.themeum.com
-  Author: Themeum
-  Author Uri: http://www.themeum.com
-  Description: Onepage Site Template
-  Version: 1.0
-*/
+/*  RabbitWeb.ru  */
 
 /*************************
 *******Typography******
@@ -273,8 +266,14 @@ section {
   background-color: rgba(0,0,0,.2);
 }
 
-.navbar-brand h1 {
+.navbar-brand h2 {
+  color: darkcyan;
+  text-shadow: 1px 1px 1px lightgrey;
+  font-family: helvetica;
   margin-top: 5px;
+}
+.navbar-brand span{
+  color: darkorange;
 }
 
 /*************************
