@@ -24,7 +24,7 @@
 		margin-right: auto;
 		line-height: 1.3em;
 		text-shadow: 0px 0px 1px white;
-		font-family: Comfortaa-Regular;
+		font-family: Helvetica;
 	}
 	
 	/*Start BASIC + header*/
@@ -33,41 +33,38 @@
 	    НАВИГАЦИЯ
 	\*------------------------------------*/
 	.nav{
-	    text-align: left;
 	    list-style:none;
 	    font-weight:bold;
-	    padding: 3px;
-	    margin: 0 auto 0 auto;
 	}
 	
 	.nav li{
 		position: relative;
-		top: 25%;
-		left: 10%;
+		width: 80px;
+		top: 0;
+		bottom: 5%;
+		left: auto;
 		right: auto;
-	    margin-right:0px;
-	    position:relative;
+	    margin-top: 5px;
+	    padding: 5px;
 	    display:block;
 	}
 	
 	.nav li a{
-		font-size: 12px;
-	    display:block;
-	    color:white;
-	    background:rgba(0, 0, 0, 0.0);
-	    text-decoration:none;
-	    text-shadow:0px 0px 1px black; /* Тень текста, чтобы приподнять его на немного */
-	    -moz-border-radius:2px;
-	    -webkit-border-radius:2px;
+	    text-align: center;
+	    color: white;
+	    background: rgba(0, 0, 0, 0.0);
+	    text-decoration: none;
+	    text-shadow: 0px 0px 1px black; /* Тень текста, чтобы приподнять его на немного */
+	    -moz-border-radius: 2px;
+	    -webkit-border-radius: 2px;
 	    border-style: solid;
 	    border-width: 0;
 	    border-radius: 0;
-	    padding: 5px;
 	}
 	
 	.nav li a:hover{
 	    color:#99ceff;
-	    text-decoration:underline;
+	    text-decoration: underline;
 	}
 	
 	.nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
@@ -105,7 +102,7 @@
 		color: #99ceff;
 		text-shadow: 1px 1px 1px white;
 		padding: 5px;
-		font-size: 2.0em;
+		font-size: 3.5em;
 	}
 	
 	#basic h1 span{
@@ -1335,15 +1332,6 @@
 	/***end CHECKBOX_PERSONAL***/
 
 	/**************JS Panel-Animation start***************/
-	.nav {
-		margin: 10px 30px 0 0;
-		float: right;
-	}
-	.nav li {
-		float: left;
-		display: inline-block;
-		padding: 5px;
-	}
 	.nav a, .example {
 		display: inline-block;
 		font-family: 'ColaborateLightRegular', Arial, sans-serif;

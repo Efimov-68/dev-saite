@@ -24,7 +24,7 @@
 		margin-right: auto;
 		line-height: 1.3em;
 		text-shadow: 0px 0px 1px white;
-		font-family: Comfortaa-Regular;
+		font-family: Helvetica;
 	}
 	
 	/*Start BASIC + header*/
@@ -33,24 +33,23 @@
 	    НАВИГАЦИЯ
 	\*------------------------------------*/
 	.nav{
-	    float:right;
-	    text-align: left;
 	    list-style:none;
 	    font-weight:bold;
-	    padding: 3px;
-	    margin: 0 auto 0 auto;
 	}
 	
 	.nav li{
-		float: left;
-	    margin-right:10px;
-	    position:relative;
+		position: relative;
+		width: 100px;
+		top: 25%;
+		left: 0;
+		right: auto;
+	    margin-top: 5px;
+	    padding: 5px;
 	    display:block;
 	}
 	
 	.nav li a{
-		font-size: 12px;
-	    display:block;
+	    text-align: center;
 	    color:white;
 	    background:rgba(0, 0, 0, 0.0);
 	    text-decoration:none;
@@ -76,50 +75,6 @@
 	    -moz-transform:scale(.9);
 	    -webkit-transform:scale(.9);
 	}
-	/*Выпадающий список*/
-	.nav ul{
-		list-style:none;
-	    position:absolute;
-	    left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
-	    opacity:0; /* Устанавливаем начальное состояние прозрачности */
-	    -webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
-	}
-	.nav ul li{
-	    padding-top: 0px; /* Вводим отступ между li чтобы создать иллюзию разделенных пунктов меню */
-	    float:none;
-	    background:url(dot.gif);
-	}
-	.nav ul a{
-	    white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
-	    display:block;
-	}
-	.nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
-	    left:0; /* Приносим его обратно на экран, когда нужно */
-	    opacity:1; /* Делаем непрозрачным */
-	}
-	.nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
-		font-size: 12px;
-		text-decoration:none;
-	    background:#99ceff;
-	    background:rgba(0, 0, 0, 0.0); /* Выглядит полупрозрачным */
-	    
-	}
-	.nav li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
-	    text-decoration:none;
-	    -webkit-transition:-webkit-transform 0.075s linear;
-	}
-	.nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
-	    background:#99ceff;
-	    background:rgba(0, 0, 0, 0.0); /* Будет полупрозрачным */
-	    text-decoration:underline;
-	    -moz-transform:scale(1);
-	    -webkit-transform:scale(1);
-	}
-	
-	/* IMG */
-	.nav img{
-		width: 25px;
-	}
 	/*Конец верхнего меню*/
 
 	#basic{
@@ -127,10 +82,7 @@
 		background-size: auto;
 		background-repeat: no-repeat;
 		background-position: center;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
+		margin-top: 0;
 		border: none;
 		padding: 5px;
 	}
@@ -150,6 +102,7 @@
 		color: #99ceff;
 		text-shadow: 1px 1px 1px white;
 		padding: 5px;
+		font-size: 3.5em;
 	}
 	
 	#basic h1 span{
@@ -184,13 +137,27 @@
 	
 	/*	CONTACTS */
 	#menuIcon{
-		display: none;
+		width: auto;
+		max-width: 30px;
+		padding: 10px;
+		cursor: pointer;
 	}
-	.phone{
+	#menuParagraph{
+		display: none;
+		width: auto;
+		max-width: 300px;
+	}
+	#developers a{
+		cursor: pointer;
+	}
+	li.phone{
+		display: none;
 	    text-align:right;
-	    font-size:12px;
+	    font-size:14px;
 	    padding:10px;
-	    color:white;
+	}
+	li.phone img{
+		width: 20px;
 	}
 	
 	#contacts div{
@@ -1363,13 +1330,6 @@
 	/***end CHECKBOX_PERSONAL***/
 
 	/**************JS Panel-Animation start***************/
-	.nav {
-		margin: 10px 0 0 100px;	
-	}
-	.nav li {
-		display: inline-block;
-		padding: 5px;
-	}
 	.nav a, .example {
 		display: inline-block;
 		font-family: 'ColaborateLightRegular', Arial, sans-serif;
