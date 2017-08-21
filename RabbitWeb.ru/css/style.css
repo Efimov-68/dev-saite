@@ -1145,8 +1145,8 @@
 	}
 
 	p.topButton:hover img{ 
-		-moz-transform:scale(2);
-	    -webkit-transform:scale(2);
+		-moz-transform:scale(1.2);
+	    -webkit-transform:scale(1.2);
 	}
 
 	#back .left img{
@@ -1161,8 +1161,8 @@
 	}
 	
 	#back .left:hover img{ 
-		-moz-transform:scale(2);
-	    -webkit-transform:scale(2);
+		-moz-transform:scale(1.2);
+	    -webkit-transform:scale(1.2);
 	}
 	
 	#back .right img{
@@ -1177,14 +1177,13 @@
 	}
 	
 	#back .right:hover img{ 
-		-moz-transform:scale(2);
-	    -webkit-transform:scale(2);
+		-moz-transform:scale(1.2);
+	    -webkit-transform:scale(1.2);
 	}
 	/* END Back-up */
 	
 	footer{
-		background-color: #262626;
-		padding: 0;
+		background-color: rgba(0, 51, 102, .5);
 		margin: 0 auto 0 auto;
 		height: auto;
 		font-size: 12px;
@@ -1358,13 +1357,6 @@
 	/***end CHECKBOX_PERSONAL***/
 
 	/**************JS Panel-Animation start***************/
-	.nav {
-		margin: 10px 0 0 100px;	
-	}
-	.nav li {
-		display: inline-block;
-		padding: 5px;
-	}
 	.nav a, .example {
 		display: inline-block;
 		font-family: 'ColaborateLightRegular', Arial, sans-serif;
