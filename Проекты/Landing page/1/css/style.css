@@ -1,0 +1,140 @@
+/*Landing page RabbitWeb.ru*/
+@media all and (min-width: 1024px){
+	@font-face{
+		font-family: ;
+		src: url(../);
+	}
+	html{
+		background-color: #ffffff;
+	}
+
+	body{
+		height: auto;
+		font-family: helvetica;
+	}
+	/* Header NavBar */
+	#header{
+		position: absolute;
+		height: 70px;
+		margin: 0 auto 0 auto;
+		left: 0;
+		right: 0;
+		top: 0;
+	}
+	#header:hover{
+		background-color: lightgrey;
+	}
+
+	#nav_header_1{
+		float: left;
+	}
+	#nav_header_1 li{
+		float: left;
+		margin-top: 15px;
+		margin-left: 25px;
+		list-style-type: none;
+	}
+	.nav_service li{
+		color: white;
+	}
+	#nav_header_1 li a,
+	#nav_header_2 li a{
+		text-decoration: none;
+		color: black;
+		font-style: bold;
+	}
+	#nav_header_1 li:hover,
+	#nav_header_2 li:hover{
+		padding-bottom: 15px;
+		border-bottom: 2px solid blue;
+	}
+	#nav_header_1 li a:hover,
+	#nav_header_2 li a:hover{
+		color: blue;
+	}
+	}
+	#nav_header_1 li img,
+	#nav_header_2 li img{
+		border: 2px solid black;
+		margin-left: 30px;
+		margin-right: 20px;
+		padding: 5px;
+	}
+
+	#nav_header_2{
+		float: right;
+	}
+	#nav_header_2 li{
+		float: left;
+		margin-top: 15px;
+		margin-right: 10px;
+		list-style-type: none;
+	}
+	#nav_header_1_basic div.nav_header_1_list_developers{
+		display: none;
+	}
+	#nav_header_1 li:hover .nav_header_1_list_developers{
+		display: block;
+		position: absolute;
+		background-color: lightgrey;
+		height: auto;
+		top: 70px;
+		left: 0;
+		right: 0;
+	}
+	.nav_header_1_list_developers div{
+		margin-top: 0px;
+		color: black;
+		padding: 20px;
+	}
+	.nav_header_1_list_developers div ul{
+		display: none;
+	}
+	.nav_header_1_list_developers div p:hover li{
+		display: block;
+	}
+	/* end Header NavBar */
+
+	#allcontent{
+		
+	}
+	#basic{
+		background-image: url(../images/);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 1000px 500px;
+		height: 500px;
+		width: auto;
+		text-align: center;
+	}
+	#basic h1{
+		margin-top: 100px;
+	}
+	#block_service{
+		background-image: url(../images/hi-tech-personal-computer-pc-6103.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 1000px 500px;
+		height: 500px;
+		width: auto;
+		text-align: center;
+	}
+
+	/* Footer NavFooter */
+	#footer{
+		background-color: lightgrey;
+		position: absolute;
+		height: 200px;
+		top: 2000px;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	#nav_footer{
+		float: left;
+	}
+	#nav_footer li{
+		list-style-type: none;
+	}
+	/* end Footer */
+}
