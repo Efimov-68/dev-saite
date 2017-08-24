@@ -38,8 +38,8 @@
 	.nav_service li{
 		color: white;
 	}
-	#nav_header_1 li a,
-	#nav_header_2 li a{
+	#nav_header_1 li,
+	#nav_header_2 li{
 		text-decoration: none;
 		color: black;
 		font-style: bold;
@@ -48,11 +48,8 @@
 	#nav_header_2 li:hover{
 		padding-bottom: 26px;
 		border-bottom: 2px solid blue;
-	}
-	#nav_header_1 li a:hover,
-	#nav_header_2 li a:hover{
 		color: blue;
-	}
+		cursor: pointer;
 	}
 	#nav_header_1 li img,
 	#nav_header_2 li img{
@@ -71,14 +68,13 @@
 		margin-right: 10px;
 		list-style-type: none;
 	}
-	#nav_header_1_basic {
+	#nav_header_1_basic,
+	#nav_header_1_basic_design {
 		display: none;
 		border-top: 1px solid grey;
 	}
-	.nav_header_1_list_developers{
-		display: none;
-	}
-	#header_developers:hover #nav_header_1_basic {
+	#header_developers:hover #nav_header_1_basic,
+	#nav_design:hover #nav_header_1_basic_design{
 		display: block;
 		position: absolute;
 		background-color: lightgrey;
@@ -87,21 +83,75 @@
 		left: 0;
 		right: 0;
 	}
-	#nav_header_1_basic ul{
+	#nav_header_1_basic ul,
+	#nav_header_1_basic_design ul{
 		float: none;
 		margin-top: 50px;
 		margin-bottom: 50px;
 	}
-	#nav_header_1_basic li{
+	li#visiting-site,
+	li#company-site,
+	li#landing-page,
+	li#internet-magazine,
+	li#standard-design,
+	li#individual-design{
 		float: none;
 		border-bottom: none;
 		padding: 1px;
 		margin: 20px;
 		
 	}
-	#nav_header_1_basic li:hover{
+	li#visiting-site:hover,
+	li#company-site:hover,
+	li#landing-page:hover,
+	li#internet-magazine:hover,
+	li#standard-design:hover,
+	li#individual-design:hover{
 		border-bottom: 1px solid blue;
 		padding-bottom: 0px;
+		cursor: pointer;
+		color: blue;
+	}
+	#nav_header_1_list_developers,
+	#nav_header_1_list_design{
+		position: absolute;
+		left: 20%;
+		right: 0;
+		top: 40px;
+	}
+	#nav_header_1_list_developers div,
+	#nav_header_1_list_design div{
+		position: absolute;
+		left: 0;
+		right: 5%;
+		cursor: default;
+		color: black;
+	}
+	#header_developers_visiting input,
+	#header_developers_company input,
+	#header_developers_landing input,
+	#header_developers_magazine input,
+	#header_design_standart input,
+	#header_design_individual input{
+		border: 1px solid green;
+		border-radius: 3px;
+		box-shadow: 1px 1px 1px grey;
+		float: right;
+		background-color: green;
+		color: white;
+		padding: 5px;
+
+	}
+	#header_developers_visiting input:hover,
+	#header_developers_company input:hover,
+	#header_developers_landing input:hover,
+	#header_developers_magazine input:hover,
+	#header_design_standart input:hover,
+	#header_design_individual input:hover{
+		background-color: lightgreen;
+		color: black;
+		box-shadow: 0 0 3px black;
+		cursor: pointer;
 	}
 	/* end Header NavBar */
 

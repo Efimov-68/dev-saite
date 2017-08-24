@@ -9,57 +9,81 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="./js/jquery-ui.min.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="./js/script.js"></script>
 		<title>Home Landing page</title>
 	</head>
 	<body>
 		<header id="header">
 			<ul id="nav_header_1">
-				<li id="header_developers"><a href="#">Создание сайта</a>
+				<li id="header_developers">Создание сайта
 					<div id="nav_header_1_basic">
 						<ul>
-							<li style="width: 103px;"><a href="#">Сайт-визитка</a></li>
-							<li style="width: 115px;"><a href="#">Сайт-компании</a></li>
-							<li style="width: 98px;"><a href="#">Landing page</a></li>
-							<li style="width: 140px;"><a href="#">Интернет-магазин</a></li>
+							<li style="width: 103px;" id="visiting-site">Сайт-визитка</li>
+							<li style="width: 115px;" id="company-site">Сайт-компании</li>
+							<li style="width: 98px;" id="landing-page">Landing page</li>
+							<li style="width: 140px;" id="internet-magazine">Интернет-магазин</li>
 						</ul>
-						<div class="nav_header_1_list_developers">
-							<div>
-								<ul>
-									<li>Text list</li>
-									<li>Text list</li>
-									<li>Text list</li>
-									<li>Text list</li>
-									<li>Text list</li>
-								</ul>
+						<div id="nav_header_1_list_developers">
+							<div id="home-info-developers">
+								<p>На данном этапе нужно нарезать и сохранить только общие изображения, которые будут на всех страницах сайта и не относятся к контенту. В нашем случае это будет светло-серый фон страницы, фон заголовка, пустое изображение, два логотипа и кнопки социальных сетей.</p>
 							</div>
-							<div>
-								<ul>
-									<li>Text list</li>
-									<li>Text list</li>
-									<li>Text list</li>
-									<li>Text list</li>
-									<li>Text list</li>
-								</ul>
+							<div id="header_developers_visiting">
+								<h1 align="center">Сайт-Визитка</h1>
+								<form>
+									<input type="submit" name="submit" value="Заполнить бриф">
+								</form>
 							</div>
-							<div>
-								<ul>
-									<li>Text list</li>
-									<li>Text list</li>
-									<li>Text list</li>
-									<li>Text list</li>
-									<li>Text list</li>
-								</ul>
+							<div id="header_developers_company">
+								<h1 align="center">Сайт-Компании</h1>
+								<form>
+									<input type="submit" name="submit" value="Заполнить бриф">
+								</form>
+							</div>
+							<div id="header_developers_landing">
+								<h1 align="center">Лэндинг</h1>
+								<form>
+									<input type="submit" name="submit" value="Заполнить бриф">
+								</form>
+							</div>
+							<div id="header_developers_magazine">
+								<h1 align="center">Интернет-магазин</h1>
+								<form>
+									<input type="submit" name="submit" value="Заполнить бриф">
+								</form>
 							</div>
 						</div>
 					</div>
 				</li>
-				<li><a href="#">Дизайн сайта</a></li>
-				<li><a href="#">Продвижение сайта</a></li>
+				<li id="nav_design">Дизайн сайта
+					<div id="nav_header_1_basic_design">
+						<ul>
+							<li style="width: 63px;" id="standard-design">Типовой</li>
+							<li style="width: 130px;" id="individual-design">Индивидуальный</li>
+						</ul>
+						<div id="nav_header_1_list_design">
+							<div id="home-info-design">
+								<p>На данном этапе нужно нарезать и сохранить только общие изображения, которые будут на всех страницах сайта и не относятся к контенту. В нашем случае это будет светло-серый фон страницы, фон заголовка, пустое изображение, два логотипа и кнопки социальных сетей.</p>
+							</div>
+							<div id="header_design_standart">
+								<h1 align="center">Типовой дизайн</h1>
+								<form>
+									<input type="submit" name="submit" value="Заполнить бриф">
+								</form>
+							</div>
+							<div id="header_design_individual">
+								<h1 align="center">Индивидуальный дизайн</h1>
+								<form>
+									<input type="submit" name="submit" value="Заполнить бриф">
+								</form>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>Продвижение сайта</li>
 				<li style="border-bottom: none;"><a href="#"><img src="" alt="RabbitWeb.ru"></a></li>
 			</ul>
 			<ul id="nav_header_2">
-				<li><a href="">Поддержка</a></li>
+				<li>Поддержка</li>
 				<li style="border-bottom: none;"><a href=""><img src="../images/" alt="Поиск"></a></li>
 			</ul>
 		</header>
