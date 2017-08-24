@@ -11,11 +11,12 @@
 	body{
 		height: auto;
 		font-family: helvetica;
+		font-size: 1em;
 	}
 	/* Header NavBar */
 	#header{
 		position: absolute;
-		height: 70px;
+		height: 80px;
 		margin: 0 auto 0 auto;
 		left: 0;
 		right: 0;
@@ -45,7 +46,7 @@
 	}
 	#nav_header_1 li:hover,
 	#nav_header_2 li:hover{
-		padding-bottom: 15px;
+		padding-bottom: 26px;
 		border-bottom: 2px solid blue;
 	}
 	#nav_header_1 li a:hover,
@@ -70,28 +71,37 @@
 		margin-right: 10px;
 		list-style-type: none;
 	}
-	#nav_header_1_basic div.nav_header_1_list_developers{
+	#nav_header_1_basic {
+		display: none;
+		border-top: 1px solid grey;
+	}
+	.nav_header_1_list_developers{
 		display: none;
 	}
-	#nav_header_1 li:hover .nav_header_1_list_developers{
+	#header_developers:hover #nav_header_1_basic {
 		display: block;
 		position: absolute;
 		background-color: lightgrey;
 		height: auto;
-		top: 70px;
+		top: 80px;
 		left: 0;
 		right: 0;
 	}
-	.nav_header_1_list_developers div{
-		margin-top: 0px;
-		color: black;
-		padding: 20px;
+	#nav_header_1_basic ul{
+		float: none;
+		margin-top: 50px;
+		margin-bottom: 50px;
 	}
-	.nav_header_1_list_developers div ul{
-		display: none;
+	#nav_header_1_basic li{
+		float: none;
+		border-bottom: none;
+		padding: 1px;
+		margin: 20px;
+		
 	}
-	.nav_header_1_list_developers div p:hover li{
-		display: block;
+	#nav_header_1_basic li:hover{
+		border-bottom: 1px solid blue;
+		padding-bottom: 0px;
 	}
 	/* end Header NavBar */
 
