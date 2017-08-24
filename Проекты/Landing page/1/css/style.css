@@ -5,7 +5,7 @@
 		src: url(../);
 	}
 	html{
-		background-color: #ffffff;
+		background-color: white;
 	}
 
 	body{
@@ -21,9 +21,11 @@
 		left: 0;
 		right: 0;
 		top: 0;
+		color: white;
 	}
 	#header:hover{
-		background-color: lightgrey;
+		background-color: white;
+		color: black;
 	}
 
 	#nav_header_1{
@@ -41,8 +43,8 @@
 	#nav_header_1 li,
 	#nav_header_2 li{
 		text-decoration: none;
-		color: black;
 		font-style: bold;
+
 	}
 	#nav_header_1 li:hover,
 	#nav_header_2 li:hover{
@@ -57,6 +59,11 @@
 		margin-left: 30px;
 		margin-right: 20px;
 		padding: 5px;
+		color: black;
+	}
+	#nav_header_1 a,
+	#nav_header_2 a{
+		color: white;
 	}
 
 	#nav_header_2{
@@ -77,7 +84,7 @@
 	#nav_design:hover #nav_header_1_basic_design{
 		display: block;
 		position: absolute;
-		background-color: lightgrey;
+		background-color: white;
 		height: auto;
 		top: 80px;
 		left: 0;
@@ -89,6 +96,9 @@
 		margin-top: 50px;
 		margin-bottom: 50px;
 	}
+	#nav_header_1_basic_design ul{
+		margin-bottom: 90px;		
+	}
 	li#visiting-site,
 	li#company-site,
 	li#landing-page,
@@ -99,7 +109,7 @@
 		border-bottom: none;
 		padding: 1px;
 		margin: 20px;
-		
+		color: black;
 	}
 	li#visiting-site:hover,
 	li#company-site:hover,
@@ -113,11 +123,20 @@
 		color: blue;
 	}
 	#nav_header_1_list_developers,
-	#nav_header_1_list_design{
+	#nav_header_1_list_design div#home-info-design{
 		position: absolute;
 		left: 20%;
 		right: 0;
 		top: 40px;
+	}
+	#nav_header_1_list_design div#home-info-design{
+		left: 5%;
+	}
+	#nav_header_1_list_design{
+		position: absolute;
+		left: 20%;
+		right: 0;
+		top: 10px;
 	}
 	#nav_header_1_list_developers div,
 	#nav_header_1_list_design div{
@@ -159,30 +178,78 @@
 		
 	}
 	#basic{
-		background-image: url(../images/);
+		background-image: url(../images/galaxy-unpacked201708-black-pc.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: 1000px 500px;
-		height: 500px;
+		margin-top: -7%;
+		margin-left: -8px;
+		margin-right: -8px;
+		height: 850px;
 		width: auto;
 		text-align: center;
 	}
 	#basic h1{
-		margin-top: 100px;
+		padding-top: 200px;
+		font-size: 5em;
+		color: white;
+		text-shadow: 1px 1px 3px grey;
+	}
+	#basic input.submitLeft{
+		float: right;
+		margin-right: 50px;
+		margin-left: auto;
+		margin-top: 430px;
+		border: 2px solid white;
+		background-color: rgba(173, 194, 235, .5);
+		padding: 7px;
+		border-radius: 5px;
+		color: white;
+		width: 130px;
+	}
+	#basic input.submitRight{
+		float: right;
+		margin-right: 10px;
+		margin-left: auto;	
+		margin-top: 430px;
+		border: 2px solid white;
+		background-color: rgba(173, 194, 235, .5);
+		padding: 7px;
+		border-radius: 5px;
+		color: white;
+		width: 130px;
 	}
 	#block_service{
-		background-image: url(../images/hi-tech-personal-computer-pc-6103.jpg);
+		background-image: url(../images/levelbox-main.jpg);
 		background-repeat: no-repeat;
-		background-position: center;
-		background-size: 1000px 500px;
-		height: 500px;
+		background-position: right;
+		height: 530px;
 		width: auto;
 		text-align: center;
 	}
-
+	#block_service div{
+		margin-top: 10px;
+		padding: 40px;
+		width: 600px;
+		text-align: left;
+	}
+	#block_service h1{
+		font-size: 4em;
+	}
+	#block_service input.submitLevelbox{
+		float: left;
+		margin-right: 10px;
+		margin-left: auto;	
+		margin-top: 50px;
+		border: 2px solid black;
+		background-color: white;
+		padding: 9px;
+		border-radius: 5px;
+		color: black;
+		width: 150px;
+	}
 	/* Footer NavFooter */
 	#footer{
-		background-color: lightgrey;
+		background-color: white;
 		position: absolute;
 		height: 200px;
 		top: 2000px;
