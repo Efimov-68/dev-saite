@@ -1,5 +1,5 @@
 /*Landing page RabbitWeb.ru*/
-@media all and (min-width: 1024px){
+@media all and (min-width: 1300px){
 	@font-face{
 		font-family: ;
 		src: url(../);
@@ -11,13 +11,16 @@
 	body{
 		height: auto;
 		font-family: helvetica;
-		font-size: 1em;
+		width: auto;
+		max-width: 1300px;
+		margin: 0 auto 0 auto;
 	}
 	/* Header NavBar */
 	#header{
-		position: absolute;
 		height: 80px;
+		width: auto;
 		margin: 0 auto 0 auto;
+		position: absolute;
 		left: 0;
 		right: 0;
 		top: 0;
@@ -27,7 +30,6 @@
 		background-color: white;
 		color: black;
 	}
-
 	#nav_header_1{
 		float: left;
 	}
@@ -36,15 +38,35 @@
 		margin-top: 15px;
 		margin-left: 25px;
 		list-style-type: none;
+		text-decoration: none;
 	}
+	/**/
+	#nav_header_1 li#header_developers{
+		margin-left: 700px;
+		margin-right: auto;
+	}
+	#nav_header_2 li#find{
+		margin-right: 700px;
+		margin-left: auto;
+	}
+	#nav_header_1_basic ul,
+	#nav_header_1_basic_design ul{
+		margin-left: 700px;
+		margin-right: auto;
+	}
+	#nav_header_1_basic div,
+	#nav_header_1_basic_design div{
+		margin-right: 300px;
+		margin-left: auto;
+	}
+	#nav_header_1_basic_design div#header_design_standart,
+	#nav_header_1_basic_design div#header_design_individual{
+		margin-left: 500px;
+		margin-right: 200px;
+	}
+	/**/
 	.nav_service li{
 		color: white;
-	}
-	#nav_header_1 li,
-	#nav_header_2 li{
-		text-decoration: none;
-		font-style: bold;
-
 	}
 	#nav_header_1 li:hover,
 	#nav_header_2 li:hover{
@@ -56,6 +78,7 @@
 	#nav_header_1 li img,
 	#nav_header_2 li img{
 		border: 2px solid black;
+		border-radius: 10px;
 		margin-left: 30px;
 		margin-right: 20px;
 		padding: 5px;
@@ -74,11 +97,13 @@
 		margin-top: 15px;
 		margin-right: 10px;
 		list-style-type: none;
+		text-decoration: none;
 	}
 	#nav_header_1_basic,
 	#nav_header_1_basic_design {
 		display: none;
 		border-top: 1px solid grey;
+		border-bottom: 1px solid grey;
 	}
 	#header_developers:hover #nav_header_1_basic,
 	#nav_design:hover #nav_header_1_basic_design{
@@ -122,20 +147,22 @@
 		cursor: pointer;
 		color: blue;
 	}
-	#nav_header_1_list_developers,
-	#nav_header_1_list_design div#home-info-design{
+	#nav_header_1_list_developers{
 		position: absolute;
-		left: 20%;
+		left: 40%;
 		right: 0;
 		top: 40px;
 	}
 	#nav_header_1_list_design div#home-info-design{
-		left: 5%;
+		position: absolute;
+		left: 30%;
+		right: 0;
+		top: 40px;
 	}
 	#nav_header_1_list_design{
 		position: absolute;
 		left: 20%;
-		right: 0;
+		right: 5%;
 		top: 10px;
 	}
 	#nav_header_1_list_developers div,
