@@ -12,14 +12,13 @@
 		height: auto;
 		font-family: helvetica;
 		width: auto;
-		max-width: 1300px;
+		max-width: 1338px;
 		margin: 0 auto 0 auto;
 	}
 	/* Header NavBar */
 	#header{
 		height: 80px;
 		width: auto;
-		margin: 0 auto 0 auto;
 		position: absolute;
 		left: 0;
 		right: 0;
@@ -32,6 +31,9 @@
 	}
 	#nav_header_1{
 		float: left;
+		width: 1000px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	#nav_header_1 li{
 		float: left;
@@ -42,27 +44,21 @@
 	}
 	/**/
 	#nav_header_1 li#header_developers{
-		margin-left: 700px;
+		margin-left: 0;
 		margin-right: auto;
 	}
 	#nav_header_2 li#find{
-		margin-right: 700px;
+		margin-right: 30%;
 		margin-left: auto;
 	}
 	#nav_header_1_basic ul,
 	#nav_header_1_basic_design ul{
-		margin-left: 700px;
+		margin-left: 5%;
 		margin-right: auto;
 	}
-	#nav_header_1_basic div,
-	#nav_header_1_basic_design div{
-		margin-right: 300px;
+	#nav_header_1_basic div{
+		margin-right: 5%;
 		margin-left: auto;
-	}
-	#nav_header_1_basic_design div#header_design_standart,
-	#nav_header_1_basic_design div#header_design_individual{
-		margin-left: 500px;
-		margin-right: 200px;
 	}
 	/**/
 	.nav_service li{
@@ -83,10 +79,6 @@
 		margin-right: 20px;
 		padding: 5px;
 		color: black;
-	}
-	#nav_header_1 a,
-	#nav_header_2 a{
-		color: white;
 	}
 
 	#nav_header_2{
@@ -149,13 +141,13 @@
 	}
 	#nav_header_1_list_developers{
 		position: absolute;
-		left: 40%;
+		left: 20%;
 		right: 0;
 		top: 40px;
 	}
 	#nav_header_1_list_design div#home-info-design{
 		position: absolute;
-		left: 30%;
+		left: 10%;
 		right: 0;
 		top: 40px;
 	}
@@ -168,8 +160,8 @@
 	#nav_header_1_list_developers div,
 	#nav_header_1_list_design div{
 		position: absolute;
-		left: 0;
-		right: 5%;
+		left: 5%;
+		right: 0;
 		cursor: default;
 		color: black;
 	}

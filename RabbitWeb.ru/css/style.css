@@ -521,7 +521,7 @@
 	/*	Portfolio	*/
 	#portfolio{
 		background-size: auto;
-		margin-top: 5%;
+		margin-top: 0;
 		margin-bottom: 0;
 		margin-left: auto;
 		margin-right: auto;
@@ -532,7 +532,7 @@
 	}
 	
 	#portfolio .laptop-portfolio{
-		background: url(../images/mac-laptop-png-13.png) no-repeat;
+		background: url(../images/) no-repeat;
 		background-position: center;
 		background-size: auto;
 		color: black;
@@ -546,9 +546,8 @@
 	}
 	
 	.laptop-portfolio div{
-		width: 900px;
-		position: relative;
-		margin-top: 8%;
+		width: 1000px;
+		margin-top: 0;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -562,15 +561,16 @@
 	}
 	
 	#portfolio img{
-		float: left;
-		border-radius: 20px;
+		border-radius: 10px;
 		height:auto;
 		width: auto;
-		max-width: 270px;
-		padding: 15px;
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
 	}
 	
-	#portfolio img:hover{
+	/*#portfolio img:hover{
 		float: left;
 		height:auto;
 		width: auto;
@@ -578,12 +578,12 @@
 		padding: 15px;
 		-moz-transform:scale(1.05);
 	    -webkit-transform:scale(1.05);
-	}
+	}*/
 	
 	#brif_forms_developers{
 		width: auto;
 		height: 400px;
-		margin: 0 auto 0 auto;
+		margin: 0% auto 0 auto;
 	}
 	#brif_forms_developers h1{
 		text-align: center;
@@ -607,9 +607,10 @@
 		SERVICES	*/
 	#common{
 		border: none;
-		height: 1100px;
+		height: 900px;
 		width: auto;
 		max-width: 1600px;
+		margin-top: 10%;
 	}
 	
 	#common li{
