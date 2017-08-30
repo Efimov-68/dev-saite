@@ -80,7 +80,7 @@ RabbitWeb-School.ru (full) for the Efimov RS
 	#allcontent{
 		width: auto;
 		max-width: 1000px;
-		margin: 15% auto 5% auto;
+		margin: 10% auto 5% auto;
 	}
 	#allcontent p{
 		line-height: 1.3em;
@@ -140,6 +140,7 @@ RabbitWeb-School.ru (full) for the Efimov RS
 		max-width: 1000px;
 		margin-left: auto;
 		margin-right: auto;
+		margin-top: 0;
 	}
 	.Courses p{
 		padding: 10px;
@@ -153,7 +154,7 @@ RabbitWeb-School.ru (full) for the Efimov RS
 		max-width: 1000px;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 10%;
+		margin-bottom: 0%;
 	}
 	.Courses tr{
 		margin: 10px auto 5px auto;		
