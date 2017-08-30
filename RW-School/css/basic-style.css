@@ -11,7 +11,12 @@ RabbitWeb-School.ru (full) for the Efimov RS
 		src: url(../fonts/Minecraft_1_1.ttf);
 	}
 	html {
+		background-color: rgba();
 		font-family: helvetica;
+	}
+	body{
+		background-image: url(../images/rw-school/img-1-site.jpg);
+		text-shadow: 1px 1px 1px white;
 	}
 	h1,h2,h3 {
 		font-family: Minecraft_1_1;
@@ -286,7 +291,6 @@ RabbitWeb-School.ru (full) for the Efimov RS
 	/*newSite open*/
 	.newSite,
 	.newInfo {
-		text-shadow: 1px 1px 1px grey;
 		width: auto;
 		max-width: 1000px;
 		margin-bottom: 10%;
