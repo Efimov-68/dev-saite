@@ -40,9 +40,9 @@
 	.nav li{
 		position: relative;
 		width: 80px;
-		top: 0;
+		top: 10%;
 		bottom: 5%;
-		left: auto;
+		left: 25%;
 		right: auto;
 	    margin-top: 5px;
 	    padding: 5px;
@@ -50,7 +50,6 @@
 	}
 	
 	.nav li a{
-	    text-align: center;
 	    color: white;
 	    background: rgba(0, 0, 0, 0.0);
 	    text-decoration: none;
@@ -102,7 +101,7 @@
 		color: #99ceff;
 		text-shadow: 1px 1px 1px white;
 		padding: 5px;
-		font-size: 3.5em;
+		font-size: 2.8em;
 	}
 	
 	#basic h1 span{
@@ -509,8 +508,8 @@
 
 	#portfolio{
 		background-size: auto;
-		margin-top: 70%;
-		margin-bottom: 80%;
+		margin-top: 0;
+		margin-bottom: 10%;
 		margin-left: auto;
 		margin-right: auto;
 		padding: 0px;
@@ -526,14 +525,14 @@
 		padding: 8px;
 		margin-left: auto;
 		margin-right: auto;
-		height: auto;
+		height: 500px;
 		width: auto;
 		border: none;
 	}
 	
 	.laptop-portfolio div{
 		width: auto;
-		margin: 7% auto 50% 14%;
+		margin: 0 auto 10% auto;
 	}
 	
 	#portfolio p,
@@ -555,8 +554,8 @@
 
 	#brif_forms_developers{
 		width: auto;
-		height: 200px;
-		margin: 50% auto 0 auto;
+		height: 400px;
+		margin: 0% auto 0 auto;
 	}
 	#brif_forms_developers h1{
 	    font-size: 22px;
@@ -1157,7 +1156,7 @@
 	
 	footer{
 		padding: 0;
-		margin: 10% auto 0 auto;
+		margin: 0 auto 0 auto;
 		height: auto;
 		font-size: 12px;
 		line-height: 1.1em;
@@ -1192,8 +1191,7 @@
 	#regform{
 		width: auto;
 		max-width: 720px;
-		padding-top: 10px;
-		margin: 20% auto 20% auto;
+		margin: 0% auto 0% auto;
 	}
 	
 	#regform h1{
