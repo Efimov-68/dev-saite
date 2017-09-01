@@ -1,18 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
 	<meta charset="utf-8">
 	<meta content="text/html; charset = utf-8" http-equiv="Content-Type">
 	<meta name="keywords" content="">
 	<meta name="description" content="">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<meta name="viewport" content="width=device-width; initial-scale=1.0"
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery-ui-min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 	<title></title>
 </head>
 <body>
+	<header>
+		<div class="nav">
+			<div class="nav-print-logo">
+				<img src="" alt="logo-RW">
+			</div>
+			<ul class="nav-main">
+				<li><a href="">О студии</a></li>
+				<li><a href="">Портфолио</a></li>
+				<li><a href="">Цены</a></li>
+				<li><a href="">Контакты</a></li>
+			</ul>
+			<ul class="nav-main-service">
+				<li><p>Наши услуги</p></li>
+				<li><a href="">Разработка веб сайтов</a></li>
+				<li><a href="">Поддержка сайтов</a></li>
+				<li><a href="">Брендинг и Айдентика</a></li>
+			</ul>
+			<ul class="nav-contacts">
+				<li class="nav-contacts-phone">
+					<span class="nav-contacts-phone-grey">+7(499)</span>
+					<span class="nav-contacts-phone-lightgrey">394-6887</span>
+				</li>
+				<li class="nav-contacts-callback"><a href="#">Обратный звонок</a></li>
+			</ul>
+			<ul class="nav-address">
+				<li>РФ, г.Москва, ул.Салтыковская д.15</li>
+				<!--li><a href="#">Схема проезда</a></li-->
+			</ul>
+		</div>
+		<form action="script/main-order.php" method="GET" class="nav-order-submit">
+			<input type="submit" name="order" value="Заказать сайт">
+		</form>
+	</header>
+	<div class="product">
+		<div class="product-bar_1">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p><a href="#">В чем разница подходов к разработке сайтов?</a></p>
+		</div>
+		<div class="product-bar_2">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+			<p><a href="#">SEO-структура - это важно</a></p>
+		</div>
+		<div class="product-bar_3">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p><a href="#">Мы заботимся о наших клиентах</a></p>
+		</div>
+		<div class="portfolio">
+			<div class="portfolio-text">
+				<h1>Портфолио реализованных проектов</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</div>
+	
+	<footer></footer>
 
 </body>
 </html>

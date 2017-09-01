@@ -1,13 +1,145 @@
 /* New project file for RW */
-
-html {
-
+@media all and (min-width: 1024px){	
+	html {
+		font-family: helvetica;
+	}
+	
+	body {
+	
+	}
+	
+	header {
+		background-color: rgba(0,0,0, .9);
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: auto;
+		bottom: 0;
+		width: 250px;
+	}
+	/*HEADER nav*/
+	.nav {
+		font-size: 14px;
+	}
+	.nav ul {
+		list-style-type: none;
+		padding: 20px;
+		line-height: 1.5em;
+	}
+	.nav p {
+		color: rgba(255,255,255, .2);
+	}
+	
+	.nav-print-logo {
+		height: 90px;
+	}
+	
+	.nav-main {
+		border-top: 1px solid black;	
+	}
+	.nav-main a {
+		color: white;
+		text-decoration: none;
+	}
+	.nav-main a:hover {
+		color: orange;
+	}
+	
+	.nav-main-service {
+		border-bottom: 1px solid black;
+	}
+	.nav-main-service a {
+		color: white;
+		text-decoration: none;
+	}
+	.nav-main-service a:hover {
+		color: orange;
+	}
+	
+	.nav-contacts {
+		border-bottom: 1px solid black;
+	}
+	.nav-contacts-phone {
+		font-size: 16px;
+	}
+	.nav-contacts-phone-grey {
+		color: grey;
+	}
+	.nav-contacts-phone-lightgrey {
+		color: lightgrey;
+	}
+	.nav-contacts-callback a {
+		color: darkred;
+		font-size: 12px;
+	}
+	.nav-contacts-callback a:hover {
+		color: red;
+	}
+	.nav-address li{
+		color: grey;
+		font-size: 12px;
+		line-height: 1em;
+	}
+	
+	.nav-order-submit {
+		position: absolute;
+		bottom: 0;
+	}
+	
+	.nav-order-submit input {
+		width: 250px;
+		height: 50px;
+		font-size: 1.8em;
+		border: 0px solid white;
+		background-color: green;
+	}
+	.nav-order-submit input:hover {
+		background-color: lightgreen;
+	}
+	/*end HEADER nav*/
+	/*PRODUCT*/
+	.product {
+		position: absolute;
+		top: 0;
+		left: 250px;
+		width: auto;
+	}
+	.product-bar_1 {
+		float: left;
+		max-width: 950px;
+		width: auto;
+		height: 500px;
+		padding: 20px;
+		background-color: rgba(0, 26, 51, .75);
+	}
+	.product-bar_2 {
+		float: left;
+		max-width: 593px;
+		width: auto;
+		height: 500px;
+		padding: 20px;
+		background-color: rgba(0, 26, 51, .85);
+	}
+	.product-bar_3 {
+		float: left;
+		max-width: 635px;
+		width: auto;
+		height: 500px;
+		padding: 20px;
+		background-color: rgba(0, 26, 51, .95);
+	}
+	/*end PRODUCT*/
+	/*PORTFOLIO*/
+	.portfolio {
+		position: absolute;
+		top: 550px;
+		left: 0px;
+		right: auto;
+	}
+	.portfolio-text {
+		padding: 20px;
+	}
+	/*end PORTFOLIO*/
+	
+	footer {}
 }
-
-body {
-
-}
-
-header {}
-
-footer {}
