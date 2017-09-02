@@ -35,7 +35,7 @@
 	}
 	
 	.nav-main {
-		border-top: 1px solid black;	
+		border-top: 1px dashed black;	
 	}
 	.nav-main a {
 		color: white;
@@ -46,7 +46,7 @@
 	}
 	
 	.nav-main-service {
-		border-bottom: 1px solid black;
+		border-bottom: 1px dashed black;
 	}
 	.nav-main-service a {
 		color: white;
@@ -57,7 +57,7 @@
 	}
 	
 	.nav-contacts {
-		border-bottom: 1px solid black;
+		border-bottom: 1px dashed black;
 	}
 	.nav-contacts-phone {
 		font-size: 16px;
@@ -71,9 +71,12 @@
 	.nav-contacts-callback a {
 		color: darkred;
 		font-size: 12px;
+		border-bottom: 1px dashed darkred;
+		text-decoration: none;
 	}
 	.nav-contacts-callback a:hover {
 		color: red;
+		border-bottom: 1px dashed red;
 	}
 	.nav-address li{
 		color: grey;
