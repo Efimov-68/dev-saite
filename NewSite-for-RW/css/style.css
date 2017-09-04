@@ -1,21 +1,19 @@
 /***\ New project file for RW \***/
-@media all and (min-width: 1024px){	
+@media all and (min-width: 1025px){	
 	html {
-		font-family: helvetica;
+		font-family: helvetica !important;
 	}
 	
-	body {
-	
-	}
+	body {}
 	
 	header {
-		background-color: rgba(0,0,0, .9);
+		background-color: rgba(0,0,0, .9) !important;
 		position: fixed;
-		top: 0;
-		left: 0;
-		right: auto;
-		bottom: 0;
-		width: 250px;
+		top: 0 !important;
+		left: 0 !important;
+		right: auto !important;
+		bottom: 0 !important;
+		width: 250px !important;
 	}
 	/*** HEADER nav ***/
 	.nav {
@@ -27,51 +25,51 @@
 		line-height: 1.5em;
 	}
 	.nav p {
-		color: rgba(255,255,255, .2);
+		color: rgba(255,255,255, .2) !important;
 	}
 	
 	.nav-print-logo {
-		height: 120px;
-		margin-top: 10px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 10px;
+		height: 120px !important;
+		margin-top: 10px !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		margin-bottom: 10px !important;
 	}
 	.nav-print-logo img {
 		position: absolute;
-		left: 30px;
-		right: auto;
-		height: 110px;	
+		left: 30px !important;
+		right: auto !important;
+		height: 110px !important;	
 	}
 	
 	.nav-main {
-		border-top: 1px dashed black;	
+		border-top: 1px dashed black !important;	
 	}
 	.nav-main a {
 		font-size: 1.3em;
 		line-height: 1.4em;
-		color: white;
-		text-decoration: none;
+		color: white !important;
+		text-decoration: none !important;
 	}
 	.nav-main a:hover {
-		color: orange;
+		color: orange !important;
 	}
 	
 	.nav-main-service {
-		border-bottom: 1px dashed black;
+		border-bottom: 1px dashed black !important;
 	}
 	.nav-main-service a {
 		font-size: 1.3em;
 		line-height: 1.4em;
-		color: white;
-		text-decoration: none;
+		color: white !important;
+		text-decoration: none !important;
 	}
 	.nav-main-service a:hover {
-		color: orange;
+		color: orange !important;
 	}
 	
 	.nav-contacts {
-		border-bottom: 1px dashed black;
+		border-bottom: 1px dashed black !important;
 	}
 	.nav-contacts-phone {
 		font-size: 17px;
@@ -85,12 +83,12 @@
 	.nav-contacts-callback a {
 		color: darkred;
 		font-size: 14px;
-		border-bottom: 1px dashed darkred;
-		text-decoration: none;
+		border-bottom: 1px dashed darkred !important;
+		text-decoration: none !important;
 	}
 	.nav-contacts-callback a:hover {
 		color: red;
-		border-bottom: 1px dashed red;
+		border-bottom: 1px dashed red !important;
 	}
 	.nav-address li{
 		color: grey;
@@ -111,29 +109,34 @@
 		background-color: green;
 	}
 	.nav-order-submit input:hover {
-		background-color: lightgreen;
+		background-color: lightgreen !important;
 	}
 	/*** \end HEADER nav ***/
 	/*** PRODUCT ***/
-	.product {
+	.allContent {
 		position: absolute;
 		top: 0;
 		left: 250px;
 		width: auto;
 	}
-	.product-bar_1 {
-		float: left;
-		max-width: 970px;
+	.product-block {
 		width: auto;
 		height: 500px;
-		padding: 0px 30px 30px 30px;
+	}
+
+	.product-bar_1 {
+		float: left;
+		max-width: 40%;
+		width: auto;
+		height: auto;
+		padding: 0px 30px;
 		background-color: rgba(0, 26, 51, .75);
 		border-bottom: 10px solid lightblue;
 	}
 	.product-bar_1 table {
 		color: white;
 		border-spacing: 0px;
-		margin-bottom: 10px;
+		margin-bottom: 0px;
 	}
 	.product-bar_1 th {
 		text-align: left;
@@ -154,23 +157,29 @@
 
 	.product-bar_2 {
 		float: left;
-		max-width: 573px;
+		max-width: 26.16%;
 		width: auto;
-		height: 500px;
-		padding: 0px 30px 30px 30px;
+		padding: 0px 30px;
 		background-color: rgba(0, 26, 51, .85);
 		border-bottom: 10px solid darkorange;
 	}
+	.product-bar_2 h3 {
+		margin-top: 27.46%;
+	}
 
 	.product-bar_3 {
-		float: left;
-		max-width: 575px;
+		float: right;
+		max-width: 26.005%;
 		width: auto;
-		height: 500px;
-		padding: 0px 30px 30px 30px;
+		padding: 0px 30px;
 		background-color: rgba(0, 26, 51, .95);
 		border-bottom: 10px solid pink;
 	}
+	
+	.product-bar_3 h3 {
+		margin-top: 40.4%;
+	}
+
 	.product-bar_1 h2,
 	.product-bar_2 h2,
 	.product-bar_3 h2 {
@@ -190,7 +199,7 @@
 	/*PORTFOLIO-TEXT*/
 	.portfolio {
 		position: absolute;
-		top: 540px;
+		top: 544px;
 		left: 0px;
 		right: auto;
 		background-color: rgba(0,0,15, .85);
@@ -214,67 +223,67 @@
 		margin: 0; 
 	}
 	.portfolio-image-visaz {
-		background-image: url(../image/devushka-stil-indiana-fotograf-dmitry-arhar.jpg); 
+		background-image: url(../image/devushka-stil-indiana-fotograf-dmitry-arhar.jpg) !important; 
 		width: 600px;
 		height: 300px;
 	}
 	.portfolio-image-horeca {
-		background-image: url(../image/bartender-cocktail-green.jpg); 
+		background-image: url(../image/bartender-cocktail-green.jpg) !important; 
 		width: 315px;
 		height: 300px;
 	}
 	.portfolio-image-online-course-children {
-		background-image: url(../image/city-yuusha-two-face-batgirl-animated-movie-harley-quinn-rob.jpg); 
+		background-image: url(../image/city-yuusha-two-face-batgirl-animated-movie-harley-quinn-rob.jpg) !important; 
 		width: 315px;
 		height: 300px;
 	}
 	.portfolio-image-children-center {
-		background-image: url(../image/group-puppies-young-angry-birds-film-cinema-deredere-subaras.jpg); 
+		background-image: url(../image/group-puppies-young-angry-birds-film-cinema-deredere-subaras.jpg) !important; 
 		width: 315px;
 		height: 300px;
 	}
 	.portfolio-image-turagence {
-		background-image: url(../image/aziatka-plate-tkan-cvet.jpg); 
+		background-image: url(../image/aziatka-plate-tkan-cvet.jpg) !important; 
 		width: 315px;
 		height: 300px;
 	}
 	.portfolio-image-fitnes {
-		background-image: url(../image/arina-bezlapova-seksualnaia-blondinka-stoit-poziruet-priches.jpg); 
+		background-image: url(../image/arina-bezlapova-seksualnaia-blondinka-stoit-poziruet-priches.jpg) !important; 
 		width: 315px;
 		height: 300px;
 	}
 	.portfolio-image-foto-school {
-		background-image: url(../image/aisii-portret-vzglyad-chb.jpg); 
+		background-image: url(../image/aisii-portret-vzglyad-chb.jpg) !important; 
 		width: 231px;
 		height: 300px;
 	}
 	.portfolio-image-promo-site {
-		background-image: url(../image/batman-betmen-art-kreativ-maska-kostium-chernyi-oskolki-fon.jpg); 
+		background-image: url(../image/batman-betmen-art-kreativ-maska-kostium-chernyi-oskolki-fon.jpg) !important; 
 		width: 231px;
 		height: 300px;
 	}
 	.portfolio-image-internet-magazyn {
-		background-image: url(../image/chronometer-wristwach-ulysse-ulysse-nardin-4k-hd-wallpaper-t.jpg); 
+		background-image: url(../image/chronometer-wristwach-ulysse-ulysse-nardin-4k-hd-wallpaper-t.jpg) !important; 
 		width: 500px;
 		height: 300px;
 	}
 	.portfolio-image-prazdnik-show {
-		background-image: url(../image/devushka-noch-boke-svet-banka-ogni.jpg); 
+		background-image: url(../image/devushka-noch-boke-svet-banka-ogni.jpg) !important; 
 		width: 500px;
 		height: 300px;
 	}
 	.portfolio-image-it-service {
-		background-image: url(../image/hi-tech-wires-cables-provoda-2861.jpg); 
+		background-image: url(../image/hi-tech-wires-cables-provoda-2861.jpg) !important; 
 		width: 231px;
 		height: 300px;
 	}
 	.portfolio-image-cosplay-show {
-		background-image: url(../image/hugh-jackman-logan-marvel-comics-wolverine-mo.jpg);
+		background-image: url(../image/hugh-jackman-logan-marvel-comics-wolverine-mo.jpg) !important;
 		width: 231px;
 		height: 300px;
 	}
 	.portfolio-image-surprize {
-		background-image: url(../image/hayley-marie-daisy-watts-lucy-6734.jpg);
+		background-image: url(../image/hayley-marie-daisy-watts-lucy-6734.jpg) !important;
 		width: 233px;
 		height: 300px;
 	}
@@ -303,7 +312,7 @@
 	/*** CLIENT ***/
 	.client {
 		position: absolute;
-		top: 1433px;
+		top: 1437px;
 		left: 250px;
 		right: 0;
 		width: auto;
@@ -322,10 +331,10 @@
 	.client td a {
 		color: white;
 		font-size: 1.3em;
-		text-decoration: none;
+		text-decoration: none !important;
 	}
 	.client td a:hover {
-		color: lightgrey;
+		color: lightgrey !important;
 	}
 	/*** \end CLIENT ***/
 	/* CLIENT-IMAGE */
@@ -336,7 +345,7 @@
 		right: 0;
 		height: 100px;
 		width: auto;
-		background-color: rgba(255,255,255,1);
+		background-color: rgba(255,255,255,1) !important;
 	}
 	.client-image img {
 		padding-left: 5px;
@@ -349,10 +358,10 @@
 		left: 250px;
 		right: 0;
 		width: auto;
-		background-color: rgba(0,0,15, .85);
+		background-color: rgba(0,0,15, .85) !important;
 	}
 	.rw-service h1 {
-		color: white;
+		color: white !important;
 		font-size: 3.2em;
 		padding-left: 50px;
 	}
@@ -368,7 +377,7 @@
 	.rw-service li {line-height: 2em; margin-left: 50px;}
 	.rw-service li,
 	.rw-service a {
-		color: lightgrey;
+		color: lightgrey !important;
 	}
 	.rw-service a:hover {
 		text-decoration: none;
@@ -382,7 +391,7 @@
 		float: right;
 		width: 500px;
 		height: auto;
-		background-color: rgba(0,0,20, .25);
+		background-color: rgba(0,0,20, .25) !important;
 	}
 	.reviews img {
 		height: 400px;
@@ -414,4 +423,7 @@
 	footer div a:hover {
 		color: grey;
 	}
-}/* end code STYLE*/
+}/* end code STYLE @media (min-width: 1025px;)*/
+@media all and (min-width: 769px;) and (max-width: 1024px;) {
+
+}

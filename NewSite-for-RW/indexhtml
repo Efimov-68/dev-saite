@@ -46,56 +46,58 @@
 			<input type="submit" name="order" value="Заказать сайт">
 		</form>
 	</header>
-	<div class="product">
-		<div class="product-bar_1">
-			<h2>Создание сайтов - разработка для бизнеса под ключ</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<table>
-				<tr>
-					<th class="product-bar-table-h1"><h1>Delux</h1></th>
-					<td>Полностью кастомный процесс для сайта при создании<br/>
-					<span>Сроки от</span> 3 месяцев, <span>цена</span> от 1 000 000 руб.</td>
-				</tr>
-				<tr>
-					<th class="product-bar-table-h1"><h1>Optima</h1></th>
-					<td>Оптимизированный процесс разработки сайта<br/>
-					<span>Сроки от</span> 1 месяца, <span>цена</span> от 330 000 руб.</td>
-				</tr>
-				<tr>
-					<th class="product-bar-table-h1"><h1>Lite</h1></th>
-					<td>С использованием готового дизайна<br/>
-					<span>Срок</span> 4 недели, <span>цена</span> 160 000 руб.</td>
-				</tr>
-			</table>
-			<h3><a href="#">В чем разница подходов к разработке сайтов?</a></h3>
-		</div>
-		<div class="product-bar_2">
-			<h2>Заказать сайт, при создании которого проведена подготовка к поисковому продвижению</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
-			<br><br><br><br><br><br><br>
-			<h3><a href="#">SEO-структура - это важно</a></h3>
-		</div>
-		<div class="product-bar_3">
-			<h2>Разработка с улучшением сайтов </h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<br><br><br><br><br><br><br><br><br><br><br><br>
-			<h3><a href="#">Мы заботимся о наших клиентах</a></h3>
+	<div class="allContent">
+		<div class="product-block">
+			<div class="product-bar_1">
+				<h2>Создание сайтов - разработка для бизнеса под ключ</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<table>
+					<tr>
+						<th class="product-bar-table-h1"><h1>Delux</h1></th>
+						<td>Полностью кастомный процесс для сайта при создании<br/>
+						<span>Сроки от</span> 3 месяцев, <span>цена</span> от 1 000 000 руб.</td>
+					</tr>
+					<tr>
+						<th class="product-bar-table-h1"><h1>Optima</h1></th>
+						<td>Оптимизированный процесс разработки сайта<br/>
+						<span>Сроки от</span> 1 месяца, <span>цена</span> от 330 000 руб.</td>
+					</tr>
+					<tr>
+						<th class="product-bar-table-h1"><h1>Lite</h1></th>
+						<td>С использованием готового дизайна<br/>
+						<span>Срок</span> 4 недели, <span>цена</span> 160 000 руб.</td>
+					</tr>
+				</table>
+				<h3><a href="#">В чем разница подходов к разработке сайтов?</a></h3>
+			</div>
+			<div class="product-bar_2">
+				<h2>Заказать сайт, при создании которого проведена подготовка к поисковому продвижению</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+				<br/>
+				<h3><a href="#">SEO-структура - это важно</a></h3>
+			</div>
+			<div class="product-bar_3">
+				<h2>Разработка с улучшением сайтов </h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<br/>
+				<h3><a href="#">Мы заботимся о наших клиентах</a></h3>
+			</div>
 		</div>
 		<div class="portfolio">
 			<div class="portfolio-text">
