@@ -15,7 +15,9 @@
 		bottom: 0 !important;
 		width: 250px !important;
 	}
-	/*** HEADER nav ***/
+	/*** -----------
+		HEADER nav 
+	-------------***/
 	.nav {
 		font-size: 14px;
 	}
@@ -29,11 +31,8 @@
 	}
 	
 	.nav-print-logo {
-		height: 120px !important;
-		margin-top: 10px !important;
-		margin-left: auto !important;
-		margin-right: auto !important;
-		margin-bottom: 10px !important;
+		height: 120px;
+		margin: 10px auto !important;
 	}
 	.nav-print-logo img {
 		position: absolute;
@@ -111,15 +110,20 @@
 	.nav-order-submit input:hover {
 		background-color: lightgreen !important;
 	}
-	/*** \end HEADER nav ***/
-	/*** PRODUCT ***/
+	/*** \end HEADER nav 
+	--------------------
+		PRODUCT ***/
 	.allContent {
-		position: absolute;
+		/*position: absolute;
 		top: 0;
-		left: 250px;
+		left: 250px;*/
 		width: auto;
 	}
 	.product-block {
+		position: absolute;
+		top: 0;
+		left: 250px;
+		bottom: 0;
 		width: auto;
 		height: 500px;
 	}
@@ -133,26 +137,29 @@
 		background-color: rgba(0, 26, 51, .75);
 		border-bottom: 10px solid lightblue;
 	}
-	.product-bar_1 table {
+	.product-bar_1 div table {
 		color: white;
 		border-spacing: 0px;
 		margin-bottom: 0px;
 	}
-	.product-bar_1 th {
+	.product-bar_1 div th {
 		text-align: left;
 		border-right: 1px solid lightgrey;
 		padding-right: 50px; 
 	}
-	.product-bar-table-h1 h1 {
+	.product-bar-table-h1 div h1 {
 		font-size: 2.2em;
 	}
-	.product-bar_1 td {
+	.product-bar_1 div td {
 		padding-left: 20px;
 		color: lightgrey;
 		font-size: 1.2em;
 	}
-	.product-bar_1 td span {
+	.product-bar_1 div td span {
 		color: grey;
+	}
+	.product-bar_1 div h3 {
+		margin-top: 2.5%;
 	}
 
 	.product-bar_2 {
@@ -163,7 +170,7 @@
 		background-color: rgba(0, 26, 51, .85);
 		border-bottom: 10px solid darkorange;
 	}
-	.product-bar_2 h3 {
+	.product-bar_2 div h3 {
 		margin-top: 27.46%;
 	}
 
@@ -176,51 +183,62 @@
 		border-bottom: 10px solid pink;
 	}
 	
-	.product-bar_3 h3 {
+	.product-bar_3 div h3 {
 		margin-top: 40.4%;
 	}
 
-	.product-bar_1 h2,
-	.product-bar_2 h2,
-	.product-bar_3 h2 {
+	.product-bar_1 div h2,
+	.product-bar_2 div h2,
+	.product-bar_3 div h2 {
 		color: white;
 		font-size: 1.8em;
 	}
-	.product-bar_1 p,
-	.product-bar_2 p,
-	.product-bar_3 p {
+	.product-bar_1 div,
+	.product-bar_2 div,
+	.product-bar_3 div {
 		color: lightgrey;
 	}
 	.product-bar_1 a {color: lightblue; text-decoration: none;}
 	.product-bar_2 a {color: darkorange; text-decoration: none;}
 	.product-bar_3 a {color: pink; text-decoration: none;}
-	/*** \end PRODUCT ***/
-	/*** PORTFOLIO ***/
-	/*PORTFOLIO-TEXT*/
+	/*** \end PRODUCT 
+	-----------------
+		PORTFOLIO
+	-----------------
+	PORTFOLIO-TEXT ***/
 	.portfolio {
 		position: absolute;
-		top: 544px;
-		left: 0px;
-		right: auto;
+		top: 507px;
+		left: 250px;
+		right: 0;
+		bottom: 0;
 		background-color: rgba(0,0,15, .85);
 		color: white;
 	}
 	.portfolio-text {
-		padding: 20px;
+		padding: 50px;
+		margin-bottom: 55px;
 	}
-	.portfolio-text h1 {
+	.portfolio-text div h1 {
 		font-size: 3.3em;
 		padding-left: 50px;
 	}
-	.portfolio-text p {
+	.portfolio-text div {
 		color: lightgrey;
-		font-size: 1.3em;
+		font-size: 1.2em;
 	}
-	/* \end PORTFOLIO-TEXT */
-	/*PORTFOLIO-IMAGE*/
+	/* \end PORTFOLIO-TEXT
+	----------------------
+	PORTFOLIO-IMAGE*/
 	.portfolio-image {
 		float: left;
-		margin: 0; 
+		height: auto;
+		
+	}
+	.portfolio-image div {
+		float: left;
+		margin: auto;
+
 	}
 	.portfolio-image-visaz {
 		background-image: url(../image/devushka-stil-indiana-fotograf-dmitry-arhar.jpg) !important; 
@@ -249,7 +267,7 @@
 	}
 	.portfolio-image-fitnes {
 		background-image: url(../image/arina-bezlapova-seksualnaia-blondinka-stoit-poziruet-priches.jpg) !important; 
-		width: 315px;
+		width: 318px;
 		height: 300px;
 	}
 	.portfolio-image-foto-school {
@@ -284,7 +302,7 @@
 	}
 	.portfolio-image-surprize {
 		background-image: url(../image/hayley-marie-daisy-watts-lucy-6734.jpg) !important;
-		width: 233px;
+		width: 234px;
 		height: 300px;
 	}
 	
@@ -307,12 +325,14 @@
 		color: white;
 		cursor: pointer;
 	}
-	/* \end PORTFOLIO-IMAGE */
-	/*** \end PORTFOLIO ***/
-	/*** CLIENT ***/
+	/*** \end PORTFOLIO-IMAGE 
+	-------------------------
+		 \end PORTFOLIO 
+		----------------
+			CLIENT ***/
 	.client {
 		position: absolute;
-		top: 1437px;
+		top: 1557px;
 		left: 250px;
 		right: 0;
 		width: auto;
@@ -336,11 +356,12 @@
 	.client td a:hover {
 		color: lightgrey !important;
 	}
-	/*** \end CLIENT ***/
-	/* CLIENT-IMAGE */
+	/*** \end CLIENT 
+	---------------------
+		CLIENT-IMAGE ***/
 	.client-image {
 		position: absolute;
-		top: 1630px;
+		top: 1740px;
 		left: 250px;
 		right: 0;
 		height: 100px;
@@ -350,11 +371,12 @@
 	.client-image img {
 		padding-left: 5px;
 	}
-	/* end CLIENT-IMAGE */
-	/*** RW-SERVICE ***/
+	/*** end CLIENT-IMAGE 
+	---------------------
+		RW-SERVICE ***/
 	.rw-service {
 		position: absolute;
-		top: 1740px;
+		top: 1835px;
 		left: 250px;
 		right: 0;
 		width: auto;
@@ -397,11 +419,13 @@
 		height: 400px;
 		width: 500px;
 	}
-	/*** \end RW-SERVICE ***/
+	/*** ---------------
+	  \end RW-SERVICE 
+	----------------***/
 	
 	footer {
 		position: absolute;
-		top: 3183px;
+		top: 3278px;
 		left: 250px;
 		right: 0;
 		width: auto;
@@ -423,7 +447,11 @@
 	footer div a:hover {
 		color: grey;
 	}
-}/* end code STYLE @media (min-width: 1025px;)*/
+}/* end code STYLE @media (min-width: 1025px;)
+----------------------------------------------
+code @media (min-width:769px;) and (max-width:1024px;)*/
 @media all and (min-width: 769px;) and (max-width: 1024px;) {
 
-}
+}/* end cose @media (min-width:769px;) and (max-width:1024px;)
+--------------------------------------------------------------
+*/
