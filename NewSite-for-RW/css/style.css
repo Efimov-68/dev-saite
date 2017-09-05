@@ -1134,7 +1134,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		border-top: 1px dashed black !important;	
 	}
 	.nav-main a {
-		font-size: 1em;
+		font-size: .8em;
 		line-height: 1.4em;
 		color: white !important;
 		text-decoration: none !important;
@@ -1147,7 +1147,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		border-bottom: 1px dashed black !important;
 	}
 	.nav-main-service a {
-		font-size: 1em;
+		font-size: .8em;
 		line-height: 1.4em;
 		color: white !important;
 		text-decoration: none !important;
