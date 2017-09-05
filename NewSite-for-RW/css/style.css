@@ -1124,10 +1124,10 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 	}
 	
 	.nav-print-logo {
-		margin: 40px 15px ;
+		margin: 10px 15px ;
 	}
 	.nav-print-logo img {
-		height: 110px;
+		height: 80px;
 	}
 	
 	.nav-main {
