@@ -166,7 +166,7 @@
 		padding-right: 50px; 
 	}
 	.product-bar-table-h1 h1 {
-		font-size: 1.6em;
+		font-size: 2em;
 	}
 	.product-bar_1 td {
 		padding-left: 20px;
@@ -434,12 +434,23 @@
 		right: 0;
 		height: auto;
 		width: auto;
-		margin: auto;
 		background-color: rgba(255,255,255,1) !important;
 	}
-	.client-image img {
-		padding: 1% 0 1% 1%;
-	}
+	.client-image_1,
+	.client-image_2,
+	.client-image_3,
+	.client-image_4,
+	.client-image_5,
+	.client-image_6,
+	.client-image_7,
+	.client-image_8,
+	.client-image_9,
+	.client-image_10 {
+		float: left;
+		padding: 1%;
+		margin-left: auto;
+		margin-right: auto;
+	} 
 	/*** end CLIENT-IMAGE 
 	---------------------
 		RW-SERVICE ***/
