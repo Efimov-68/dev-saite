@@ -1582,7 +1582,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 	}
 	.reviews {
 		float: right;
-		margin-top: 0;
+		margin-top: 5%;
 		width: 22%;
 		height: auto;
 		background-color: rgba(0,0,20, .25) !important;
