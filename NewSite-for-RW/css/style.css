@@ -1641,10 +1641,10 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 	.footer-list-service_3 a:hover {
 		color: grey;
 	}
-}/* end code STYLE @media (min-width: 1025px) (max-width: 1499px;)
+}/* end code STYLE @media (min-width: 1321px) (max-width: 1920px;)
 ------------------------------------------------------------------
-code STYLE @media (min-width: 769px) (max-width: 1024px;) */
-@media all and (min-width: 769px) and (max-width: 1024px){
+code STYLE @media (min-width: 769px) (max-width: 1320px;) */
+@media all and (min-width: 769px) and (max-width: 1320px){
 	
 }/* end code STYLE @media (min-width: 769px) (max-width: 1024px;)
 ------------------------------------------------------------------
