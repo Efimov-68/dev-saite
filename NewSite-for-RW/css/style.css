@@ -1321,7 +1321,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		PORTFOLIO-TEXT ***/
 	.portfolio {
 		position: absolute;
-		top: 60%;
+		top: 65%;
 		left: 15%;
 		right: 0;
 		bottom: 0;
@@ -1490,7 +1490,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 			CLIENT ***/
 	.client-basic {
 		position: absolute;
-		top: 166.3%;
+		top: 171.3%;
 		left: 15%;
 		right: 0;
 		width: auto;
@@ -1546,7 +1546,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		RW-SERVICE ***/
 	.rw-service {
 		position: absolute;
-		top: 190%;
+		top: 200%;
 		left: 15%;
 		right: 0;
 		bottom: 0;
