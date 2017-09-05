@@ -1344,7 +1344,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		PORTFOLIO-IMAGE*/
 	.portfolio-image {
 		position: absolute;
-		top: 100%;
+		top: 110%;
 		left: 15%;
 		right: 0;
 		width: auto;
@@ -1357,7 +1357,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 	}
 	.portfolio-image .portfolio-block-image_2 {
 		position: absolute;
-		top: 38.95%;
+		top: 40%;
 		left: 0;
 		right: 0;
 	}
@@ -1490,7 +1490,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 			CLIENT ***/
 	.client-basic {
 		position: absolute;
-		top: 171.3%;
+		top: 181%;
 		left: 15%;
 		right: 0;
 		width: auto;
@@ -1546,7 +1546,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		RW-SERVICE ***/
 	.rw-service {
 		position: absolute;
-		top: 200%;
+		top: 210%;
 		left: 15%;
 		right: 0;
 		bottom: 0;
