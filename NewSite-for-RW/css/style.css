@@ -1260,7 +1260,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 	.product-bar_1 td {
 		padding-left: 20px;
 		color: lightgrey;
-		font-size: 1em;
+		font-size: .9em;
 	}
 	.product-bar_1 td span {
 		color: grey;
@@ -1307,7 +1307,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 	.product-bar_1 p,
 	.product-bar_2 p,
 	.product-bar_3 p {
-		font-size: 1em;
+		font-size: .8em;
 		color: lightgrey;
 	}
 	.product-bar_1 a {color: lightblue; text-decoration: none;}
