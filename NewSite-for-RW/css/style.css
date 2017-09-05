@@ -1213,7 +1213,8 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		right: 0;
 		bottom: 0;
 		width: auto;
-		max-height: 60%;
+		height: auto;
+		max-height: 66%;
 	}
 	.product-block .product-bar_1{
 		position: absolute;
