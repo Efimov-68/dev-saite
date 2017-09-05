@@ -1,25 +1,28 @@
 /***\ New project file for RW \***/
-@media screen and (min-width: 2559px) {	
+@media all {	
 	html {
 		font-family: helvetica !important;
 	}
 	
-	body {}
+	body {
+		height: 100%;
+		background-color: rgba(0, 0, 15, .85);
+	}
 	
 	header {
-		background-color: rgba(0,0,0, .9) !important;
+		background-color: rgba(0,0,0, .4) !important;
 		position: fixed;
 		top: 0 !important;
 		left: 0 !important;
 		right: auto !important;
 		bottom: 0 !important;
-		width: 500px !important;
+		width: 11%;
 	}
 	/*** -----------
 		HEADER nav 
 	-------------***/
 	.nav {
-		font-size: 22px;
+		font-size: 18px;
 	}
 	.nav ul {
 		list-style-type: none;
@@ -31,21 +34,17 @@
 	}
 	
 	.nav-print-logo {
-		height: 320px;
-		margin: 10px auto !important;
+		margin: 20px ;
 	}
 	.nav-print-logo img {
-		position: absolute;
-		left: 10px !important;
-		right: auto !important;
-		height: 270px !important;	
+		height: 130px;
 	}
 	
 	.nav-main {
 		border-top: 1px dashed black !important;	
 	}
 	.nav-main a {
-		font-size: 1.3em;
+		font-size: 1.1em;
 		line-height: 1.4em;
 		color: white !important;
 		text-decoration: none !important;
@@ -58,7 +57,7 @@
 		border-bottom: 1px dashed black !important;
 	}
 	.nav-main-service a {
-		font-size: 1.3em;
+		font-size: 1.1em;
 		line-height: 1.4em;
 		color: white !important;
 		text-decoration: none !important;
@@ -71,7 +70,7 @@
 		border-bottom: 1px dashed black !important;
 	}
 	.nav-contacts-phone {
-		font-size: 23px;
+		font-size: 21px;
 	}
 	.nav-contacts-phone-grey {
 		color: grey;
@@ -81,7 +80,7 @@
 	}
 	.nav-contacts-callback a {
 		color: darkred;
-		font-size: 21px;
+		font-size: 16px;
 		border-bottom: 1px dashed darkred !important;
 		text-decoration: none !important;
 	}
@@ -91,19 +90,21 @@
 	}
 	.nav-address li{
 		color: grey;
-		font-size: 18px;
+		font-size: 14px;
 		line-height: 1em;
 	}
 	
-	.nav-order-submit {
+	.nav-order-submit input {
 		position: absolute;
 		bottom: 0;
-	}
-	
-	.nav-order-submit input {
-		width: 500px;
-		height: 100px;
-		font-size: 2.8em;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 60px;
+		font-size: 1.8em;
+		padding-left: 11%;
+		padding-right: 11%;
+		border-radius: 5px 5px 0 0;
 		border: 0px solid white;
 		background-color: green;
 	}
@@ -114,27 +115,44 @@
 	--------------------
 		PRODUCT ***/
 	.allContent {
-		/*position: absolute;
-		top: 0;
-		left: 250px;*/
 		width: auto;
 	}
 	.product-block {
 		position: absolute;
 		top: 0;
-		left: 500px;
+		left: 11%;
+		right: 0;
 		bottom: 0;
 		width: auto;
-		height: auto;
-		max-height: 650px;
+		max-height: 60%;
+	}
+	.product-block .product-bar_1{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.product-block .product-bar_2{
+		position: absolute;
+		top: 0;
+		left: 42.65%;
+		right: 0;
+		bottom: 0;
+	}
+	.product-block .product-bar_3 {
+		position: absolute;
+		top: 0;
+		left: 71.3%;
+		right: 0;
+		bottom: 0;
 	}
 
 	.product-bar_1 {
-		float: left;
-		max-width: 39%;
+		max-width: 40%;
 		width: auto;
 		padding: 0px 30px;
-		background-color: rgba(0, 26, 51, .75);
+		background-color: rgba(0, 26, 51, .35);
 		border-bottom: 10px solid lightblue;
 	}
 	.product-bar_1 div table {
@@ -148,179 +166,227 @@
 		padding-right: 50px; 
 	}
 	.product-bar-table-h1 h1 {
-		font-size: 2.8em;
+		font-size: 1.6em;
 	}
 	.product-bar_1 td {
 		padding-left: 20px;
 		color: lightgrey;
-		font-size: 1.5em;
+		font-size: 1.1em;
 	}
 	.product-bar_1 td span {
 		color: grey;
 	}
 	.product-bar_1 div h3 {
-		font-size: 1.5em;
-		margin-top: 2.5%;
+		position: absolute;
+		bottom: 0;
+		font-size: 1.2em;
 	}
 
 	.product-bar_2 {
-		float: left;
-		max-width: 27%;
+		max-width: 26%;
 		width: auto;
 		padding: 0px 30px;
-		background-color: rgba(0, 26, 51, .85);
+		background-color: rgba(0, 26, 51, .55);
 		border-bottom: 10px solid darkorange;
 	}
 	.product-bar_2 div h3 {
-		margin-top: 35.46%;
+		position: absolute;
+		bottom: 0;
+		font-size: 1.2em;
 	}
 
 	.product-bar_3 {
-		float: left;
-		max-width: 25.8%;
+		max-width: 26%;
 		width: auto;
 		padding: 0px 30px;
-		background-color: rgba(0, 26, 51, .95);
+		background-color: rgba(0, 26, 51, .75);
 		border-bottom: 10px solid pink;
 	}
 	
 	.product-bar_3 div h3 {
-		margin-top: 56.4%;
+		position: absolute;
+		bottom: 0;
+		font-size: 1.2em;
 	}
 
 	.product-bar_1 div h2,
 	.product-bar_2 div h2,
 	.product-bar_3 div h2 {
 		color: white;
-		font-size: 2.8em;
+		font-size: 2em;
 	}
 	.product-bar_1 p,
 	.product-bar_2 p,
 	.product-bar_3 p {
-		font-size: 1.5em;
+		font-size: 1.1em;
 		color: lightgrey;
 	}
 	.product-bar_1 a {color: lightblue; text-decoration: none;}
 	.product-bar_2 a {color: darkorange; text-decoration: none;}
 	.product-bar_3 a {color: pink; text-decoration: none;}
 	/*** \end PRODUCT 
-	-----------------
-		PORTFOLIO
-	-----------------
-	PORTFOLIO-TEXT ***/
+	----------------------
+		  PORTFOLIO
+	----------------------
+		PORTFOLIO-TEXT ***/
 	.portfolio {
 		position: absolute;
-		top: 853px;
-		left: 500px;
+		top: 60%;
+		left: 11%;
 		right: 0;
 		bottom: 0;
-		background-color: rgba(0,0,15, .85);
 		color: white;
 	}
-	.portfolio-text {
+	.portfolio-block-text {
 		padding: 50px;
 		margin-bottom: 55px;
 	}
-	.portfolio-text div h1 {
+	.portfolio-block-text div h1 {
 		font-size: 3.3em;
 		padding-left: 50px;
 	}
-	.portfolio-text div {
+	.portfolio-block-text div p {
 		color: lightgrey;
-		font-size: 1.2em;
+		font-size: 1.5em;
 	}
 	/* \end PORTFOLIO-TEXT
 	----------------------
-	PORTFOLIO-IMAGE*/
+		PORTFOLIO-IMAGE*/
 	.portfolio-image {
-		float: left;
-		height: auto;
-		
+		position: absolute;
+		top: 100%;
+		left: 11%;
+		right: 0;
+		width: auto;
+		height: 85%;
 	}
-	.portfolio-image div {
-		float: left;
-		margin: auto;
-
+	.portfolio-image .portfolio-block-image_1 {
+		position: absolute;
+		left: 0;
+		right: 0;
 	}
-	.portfolio-image-visaz {
+	.portfolio-image .portfolio-block-image_2 {
+		position: absolute;
+		top: 38.95%;
+		left: 0;
+		right: 0;
+	}
+	.portfolio-block-image-visaz {
 		background-image: url(../image/devushka-stil-indiana-fotograf-dmitry-arhar.jpg) !important; 
-		width: 508px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		width: 500px;
 		height: 300px;
 	}
-	.portfolio-image-horeca {
+	.portfolio-block-image-horeca {
 		background-image: url(../image/bartender-cocktail-green.jpg) !important; 
-		width: 315px;
+		position: absolute;
+		left: 21%;
+		right: 0;
+		width: 370px;
 		height: 300px;
 	}
-	.portfolio-image-online-course-children {
+	.portfolio-block-image-online-course-children {
 		background-image: url(../image/city-yuusha-two-face-batgirl-animated-movie-harley-quinn-rob.jpg) !important; 
-		width: 315px;
+		position: absolute;
+		left: 37%;
+		right: 0;
+		width: 430px;
 		height: 300px;
 	}
-	.portfolio-image-children-center {
+	.portfolio-block-image-children-center {
 		background-image: url(../image/group-puppies-young-angry-birds-film-cinema-deredere-subaras.jpg) !important; 
-		width: 315px;
+		position: absolute;
+		left: 56%;
+		right: 0;
+		width: 345px;
 		height: 300px;
 	}
-	.portfolio-image-turagence {
+	.portfolio-block-image-turagence {
 		background-image: url(../image/aziatka-plate-tkan-cvet.jpg) !important; 
-		width: 315px;
+		position: absolute;
+		left: 72%;
+		right: 0;
+		width: 330px;
 		height: 300px;
 	}
-	.portfolio-image-fitnes {
+	.portfolio-block-image-fitnes {
 		background-image: url(../image/arina-bezlapova-seksualnaia-blondinka-stoit-poziruet-priches.jpg) !important; 
-		width: 320px;
+		position: absolute;
+		right: 0;
+		width: 326px;
 		height: 300px;
 	}
-	.portfolio-image-foto-school {
+	.portfolio-block-image-foto-school {
 		background-image: url(../image/aisii-portret-vzglyad-chb.jpg) !important; 
+		position: absolute;
+		left: 0;
+		right: 0;
 		width: 231px;
 		height: 300px;
 	}
-	.portfolio-image-promo-site {
+	.portfolio-block-image-promo-site {
 		background-image: url(../image/batman-betmen-art-kreativ-maska-kostium-chernyi-oskolki-fon.jpg) !important; 
+		position: absolute;
+		left: 11%;
+		right: 0;
 		width: 231px;
 		height: 300px;
 	}
-	.portfolio-image-internet-magazyn {
+	.portfolio-block-image-internet-magazyn {
 		background-image: url(../image/chronometer-wristwach-ulysse-ulysse-nardin-4k-hd-wallpaper-t.jpg) !important; 
-		width: 450px;
+		position: absolute;
+		left: 22%;
+		right: 0;
+		width: 500px;
 		height: 300px;
 	}
-	.portfolio-image-prazdnik-show {
+	.portfolio-block-image-prazdnik-show {
 		background-image: url(../image/devushka-noch-boke-svet-banka-ogni.jpg) !important; 
-		width: 460px;
+		position: absolute;
+		left: 52%;
+		right: 0;
+		width: 465px;
 		height: 300px;
 	}
-	.portfolio-image-it-service {
+	.portfolio-block-image-it-service {
 		background-image: url(../image/hi-tech-wires-cables-provoda-2861.jpg) !important; 
+		position: absolute;
+		left: 42%;
+		right: 0;
 		width: 231px;
 		height: 300px;
 	}
-	.portfolio-image-cosplay-show {
+	.portfolio-block-image-cosplay-show {
 		background-image: url(../image/hugh-jackman-logan-marvel-comics-wolverine-mo.jpg) !important;
+		position: absolute;
+		left: 72%;
+		right: 0;
 		width: 231px;
 		height: 300px;
 	}
-	.portfolio-image-surprize {
+	.portfolio-block-image-surprize {
 		background-image: url(../image/hayley-marie-daisy-watts-lucy-6734.jpg) !important;
-		width: 234px;
+		position: absolute;
+		right: 0;
+		width: 374px;
 		height: 300px;
 	}
 	
-	.portfolio-image-visaz,
-	.portfolio-image-horeca ,
-	.portfolio-image-online-course-children,
-	.portfolio-image-children-center,
-	.portfolio-image-turagence,
-	.portfolio-image-fitnes,
-	.portfolio-image-foto-school,
-	.portfolio-image-promo-site,
-	.portfolio-image-internet-magazyn,
-	.portfolio-image-prazdnik-show,
-	.portfolio-image-it-service,
-	.portfolio-image-cosplay-show,
-	.portfolio-image-surprize {
+	.portfolio-block-image-visaz,
+	.portfolio-block-image-horeca ,
+	.portfolio-block-image-online-course-children,
+	.portfolio-block-image-children-center,
+	.portfolio-block-image-turagence,
+	.portfolio-block-image-fitnes,
+	.portfolio-block-image-foto-school,
+	.portfolio-block-image-promo-site,
+	.portfolio-block-image-internet-magazyn,
+	.portfolio-block-image-prazdnik-show,
+	.portfolio-block-image-it-service,
+	.portfolio-block-image-cosplay-show,
+	.portfolio-block-image-surprize {
 		background-size: cover;
 		background-repeat: no-repeat;
 		padding: 10px;
@@ -332,30 +398,30 @@
 		 \end PORTFOLIO 
 		----------------
 			CLIENT ***/
-	.client {
+	.client-basic {
 		position: absolute;
-		top: 1905px;
-		left: 500px;
+		top: 166.3%;
+		left: 11%;
 		right: 0;
 		width: auto;
-		background-color: rgba(0,0,15, .85);
+		margin: auto;
 	}
-	.client table {
+	.client-table-sector table {
 		padding: 20px;
 	}
-	.client th {
+	.client-table-sector th {
 		padding-right: 50px;
 		width: 450px;
 		font-size: 1.3em;
 		text-align: left;
 		color: grey;
 	}
-	.client td a {
+	.client-table-sector td a {
 		color: white;
 		font-size: 1.3em;
 		text-decoration: none !important;
 	}
-	.client td a:hover {
+	.client-table-sector td a:hover {
 		color: lightgrey !important;
 	}
 	/*** \end CLIENT 
@@ -363,91 +429,110 @@
 		CLIENT-IMAGE ***/
 	.client-image {
 		position: absolute;
-		top: 2100px;
-		left: 500px;
+		top: 100%;
+		left: 0;
 		right: 0;
-		height: 100px;
+		height: auto;
 		width: auto;
+		margin: auto;
 		background-color: rgba(255,255,255,1) !important;
 	}
 	.client-image img {
-		padding-left: 0px;
+		padding: 1% 0 1% 1%;
 	}
 	/*** end CLIENT-IMAGE 
 	---------------------
 		RW-SERVICE ***/
 	.rw-service {
 		position: absolute;
-		top: 2205px;
-		left: 500px;
+		top: 190%;
+		left: 11%;
 		right: 0;
-		width: auto;
-		background-color: rgba(0,0,15, .85) !important;
+		bottom: 0;
 	}
-	.rw-service h1 {
+	.rw-service-block h1 {
 		color: white !important;
 		font-size: 3.2em;
 		padding-left: 50px;
 	}
-	.rw-service p {
+	.rw-service-block p {
 		color: lightgrey;
 		padding: 0 30px;
 	}
-	.rw-service h2 {
+	.rw-service-block h2 {
 		color: white;
 		font-size: 2.2em;
 		padding-left: 50px;
 	}
-	.rw-service li {line-height: 2em; margin-left: 50px;}
-	.rw-service li,
-	.rw-service a {
+	.rw-service-block li {line-height: 2em; margin-left: 50px;}
+	.rw-service-block li,
+	.rw-service-block a {
 		color: lightgrey !important;
 	}
-	.rw-service a:hover {
+	.rw-service-block a:hover {
 		text-decoration: none;
 	}
 	.rw-service-develop {
 		font-size: 1.3em;
-		width: 1700px;
+		width: 75%;
 		padding-left: 50px;
+		height: auto;
 	}
 	.reviews {
 		float: right;
-		width: 500px;
+		margin-top: 0;
+		width: 22%;
 		height: auto;
 		background-color: rgba(0,0,20, .25) !important;
 	}
+	.reviews h1 {
+		font-size: 2.5em;
+	}
 	.reviews img {
-		height: 400px;
-		width: 500px;
+		height: auto;
+		width: 100%;
 	}
 	/*** ---------------
 	  \end RW-SERVICE 
 	----------------***/
-	
-	footer {
-		position: absolute;
-		top: 3615px;
-		left: 500px;
-		right: 0;
-		width: auto;
-		background-color: rgba(0,0,15, .95);
+
+	.footer-list {
+		height: 38	0px;
+		margin-top: 15%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: rgba(0,0,15, .85);
 	}
-	footer div {
+	.footer-list-service_1 {
 		float: left;
-		margin-right: 200px;
 		padding: 20px;
 	}
-	footer div span {color: orange;}
-	footer div li,
-	footer div a {
+	.footer-list-service_2 {
+		float: left;
+		margin-left: 10%;
+		padding: 20px;
+	}
+	.footer-list-service_3 {
+		float: left;
+		margin-left: 10%;
+		padding: 20px;
+	}
+	
+	.footer-list-service_1 span {color: orange;}
+
+	.footer-list-service_1 li,
+	.footer-list-service_1 a,
+	.footer-list-service_2 li,
+	.footer-list-service_2 a,
+	.footer-list-service_3 li,
+	.footer-list-service_3 a {
 		color: lightgrey;
 		list-style-type: none;
 		text-decoration: none;
 		line-height: 1.6em;
-		font-size: 1.2em;
+		font-size: 1.1em;
 	}
-	footer div a:hover {
+	.footer-list-service a:hover {
 		color: grey;
 	}
 }/* end code STYLE @media (min-width: 2559px;)
