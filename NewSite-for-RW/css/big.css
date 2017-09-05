@@ -1,5 +1,9 @@
-/***\ New project file for RW \***/
-@media screen and (min-width: 2559px) {	
+	/***\ New project file for RW \***/	
+/*
+--------------------------------------------------------
+code @media (min-width:769px;) and (max-width:1024px;)*/
+@media all and (min-width: 1920px;) and (max-width: 2558px;) {
+
 	html {
 		font-family: helvetica !important;
 	}
@@ -13,13 +17,13 @@
 		left: 0 !important;
 		right: auto !important;
 		bottom: 0 !important;
-		width: 500px !important;
+		width: 400px !important;
 	}
 	/*** -----------
 		HEADER nav 
 	-------------***/
 	.nav {
-		font-size: 22px;
+		font-size: 14px;
 	}
 	.nav ul {
 		list-style-type: none;
@@ -31,14 +35,14 @@
 	}
 	
 	.nav-print-logo {
-		height: 320px;
+		height: 120px;
 		margin: 10px auto !important;
 	}
 	.nav-print-logo img {
 		position: absolute;
-		left: 10px !important;
+		left: 30px !important;
 		right: auto !important;
-		height: 270px !important;	
+		height: 110px !important;	
 	}
 	
 	.nav-main {
@@ -71,7 +75,7 @@
 		border-bottom: 1px dashed black !important;
 	}
 	.nav-contacts-phone {
-		font-size: 23px;
+		font-size: 17px;
 	}
 	.nav-contacts-phone-grey {
 		color: grey;
@@ -81,7 +85,7 @@
 	}
 	.nav-contacts-callback a {
 		color: darkred;
-		font-size: 21px;
+		font-size: 14px;
 		border-bottom: 1px dashed darkred !important;
 		text-decoration: none !important;
 	}
@@ -91,7 +95,7 @@
 	}
 	.nav-address li{
 		color: grey;
-		font-size: 18px;
+		font-size: 12px;
 		line-height: 1em;
 	}
 	
@@ -101,9 +105,9 @@
 	}
 	
 	.nav-order-submit input {
-		width: 500px;
-		height: 100px;
-		font-size: 2.8em;
+		width: 250px;
+		height: 50px;
+		font-size: 1.8em;
 		border: 0px solid white;
 		background-color: green;
 	}
@@ -122,17 +126,17 @@
 	.product-block {
 		position: absolute;
 		top: 0;
-		left: 500px;
+		left: 250px;
 		bottom: 0;
 		width: auto;
-		height: auto;
-		max-height: 650px;
+		height: 500px;
 	}
 
 	.product-bar_1 {
 		float: left;
-		max-width: 39%;
+		max-width: 40%;
 		width: auto;
+		height: auto;
 		padding: 0px 30px;
 		background-color: rgba(0, 26, 51, .75);
 		border-bottom: 10px solid lightblue;
@@ -147,37 +151,36 @@
 		border-right: 1px solid lightgrey;
 		padding-right: 50px; 
 	}
-	.product-bar-table-h1 h1 {
-		font-size: 2.8em;
+	.product-bar-table-h1 div h1 {
+		font-size: 2.2em;
 	}
-	.product-bar_1 td {
+	.product-bar_1 div td {
 		padding-left: 20px;
 		color: lightgrey;
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
-	.product-bar_1 td span {
+	.product-bar_1 div td span {
 		color: grey;
 	}
 	.product-bar_1 div h3 {
-		font-size: 1.5em;
 		margin-top: 2.5%;
 	}
 
 	.product-bar_2 {
 		float: left;
-		max-width: 27%;
+		max-width: 26.16%;
 		width: auto;
 		padding: 0px 30px;
 		background-color: rgba(0, 26, 51, .85);
 		border-bottom: 10px solid darkorange;
 	}
 	.product-bar_2 div h3 {
-		margin-top: 35.46%;
+		margin-top: 27.46%;
 	}
 
 	.product-bar_3 {
-		float: left;
-		max-width: 25.8%;
+		float: right;
+		max-width: 26.005%;
 		width: auto;
 		padding: 0px 30px;
 		background-color: rgba(0, 26, 51, .95);
@@ -185,19 +188,18 @@
 	}
 	
 	.product-bar_3 div h3 {
-		margin-top: 56.4%;
+		margin-top: 40.4%;
 	}
 
 	.product-bar_1 div h2,
 	.product-bar_2 div h2,
 	.product-bar_3 div h2 {
 		color: white;
-		font-size: 2.8em;
+		font-size: 1.8em;
 	}
-	.product-bar_1 p,
-	.product-bar_2 p,
-	.product-bar_3 p {
-		font-size: 1.5em;
+	.product-bar_1 div,
+	.product-bar_2 div,
+	.product-bar_3 div {
 		color: lightgrey;
 	}
 	.product-bar_1 a {color: lightblue; text-decoration: none;}
@@ -210,8 +212,8 @@
 	PORTFOLIO-TEXT ***/
 	.portfolio {
 		position: absolute;
-		top: 853px;
-		left: 500px;
+		top: 507px;
+		left: 250px;
 		right: 0;
 		bottom: 0;
 		background-color: rgba(0,0,15, .85);
@@ -244,7 +246,7 @@
 	}
 	.portfolio-image-visaz {
 		background-image: url(../image/devushka-stil-indiana-fotograf-dmitry-arhar.jpg) !important; 
-		width: 508px;
+		width: 600px;
 		height: 300px;
 	}
 	.portfolio-image-horeca {
@@ -269,7 +271,7 @@
 	}
 	.portfolio-image-fitnes {
 		background-image: url(../image/arina-bezlapova-seksualnaia-blondinka-stoit-poziruet-priches.jpg) !important; 
-		width: 320px;
+		width: 318px;
 		height: 300px;
 	}
 	.portfolio-image-foto-school {
@@ -284,12 +286,12 @@
 	}
 	.portfolio-image-internet-magazyn {
 		background-image: url(../image/chronometer-wristwach-ulysse-ulysse-nardin-4k-hd-wallpaper-t.jpg) !important; 
-		width: 450px;
+		width: 500px;
 		height: 300px;
 	}
 	.portfolio-image-prazdnik-show {
 		background-image: url(../image/devushka-noch-boke-svet-banka-ogni.jpg) !important; 
-		width: 460px;
+		width: 500px;
 		height: 300px;
 	}
 	.portfolio-image-it-service {
@@ -334,8 +336,8 @@
 			CLIENT ***/
 	.client {
 		position: absolute;
-		top: 1905px;
-		left: 500px;
+		top: 1557px;
+		left: 250px;
 		right: 0;
 		width: auto;
 		background-color: rgba(0,0,15, .85);
@@ -363,23 +365,23 @@
 		CLIENT-IMAGE ***/
 	.client-image {
 		position: absolute;
-		top: 2100px;
-		left: 500px;
+		top: 1740px;
+		left: 250px;
 		right: 0;
 		height: 100px;
 		width: auto;
 		background-color: rgba(255,255,255,1) !important;
 	}
 	.client-image img {
-		padding-left: 0px;
+		padding-left: 5px;
 	}
 	/*** end CLIENT-IMAGE 
 	---------------------
 		RW-SERVICE ***/
 	.rw-service {
 		position: absolute;
-		top: 2205px;
-		left: 500px;
+		top: 1835px;
+		left: 250px;
 		right: 0;
 		width: auto;
 		background-color: rgba(0,0,15, .85) !important;
@@ -427,8 +429,8 @@
 	
 	footer {
 		position: absolute;
-		top: 3615px;
-		left: 500px;
+		top: 3278px;
+		left: 250px;
 		right: 0;
 		width: auto;
 		background-color: rgba(0,0,15, .95);
@@ -445,10 +447,10 @@
 		list-style-type: none;
 		text-decoration: none;
 		line-height: 1.6em;
-		font-size: 1.2em;
 	}
 	footer div a:hover {
 		color: grey;
 	}
-}/* end code STYLE @media (min-width: 2559px;)
-----------------------------------------------*/
+}/* end cose @media (min-width:1920px;) and (max-width:2558px;)
+--------------------------------------------------------------
+*/
