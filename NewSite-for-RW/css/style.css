@@ -1636,7 +1636,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		list-style-type: none;
 		text-decoration: none;
 		line-height: 1.6em;
-		font-size: 1em;
+		font-size: .9em;
 	}
 	.footer-list-service_1 a:hover,
 	.footer-list-service_2 a:hover,
@@ -1645,7 +1645,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 	}
 }/* end code STYLE @media (min-width: 1321px) (max-width: 1920px;)
 ------------------------------------------------------------------
-code STYLE @media (min-width: 769px) (max-width: 1320px;) */
+code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 @media all and (min-width: 1025px) and (max-width: 1320px){
 	header {
 		background-color: rgba(0,0,0, .4) !important;
