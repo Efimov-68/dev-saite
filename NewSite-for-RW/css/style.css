@@ -127,7 +127,7 @@ body {
 		right: 0;
 		bottom: 0;
 		width: auto;
-		max-height: 60%;
+		height: 60%;
 	}
 	.product-block .product-bar_1{
 		position: absolute;
@@ -139,20 +139,19 @@ body {
 	.product-block .product-bar_2{
 		position: absolute;
 		top: 0;
-		left: 42.65%;
+		left: 40%;
 		right: 0;
 		bottom: 0;
 	}
 	.product-block .product-bar_3 {
 		position: absolute;
 		top: 0;
-		left: 71.3%;
 		right: 0;
 		bottom: 0;
 	}
 
 	.product-bar_1 {
-		max-width: 40%;
+		max-width: 37.35%;
 		width: auto;
 		padding: 0px 30px;
 		background-color: rgba(0, 26, 51, .35);
@@ -186,7 +185,7 @@ body {
 	}
 
 	.product-bar_2 {
-		max-width: 26%;
+		max-width: 30%;
 		width: auto;
 		padding: 0px 30px;
 		background-color: rgba(0, 26, 51, .55);
@@ -199,7 +198,7 @@ body {
 	}
 
 	.product-bar_3 {
-		max-width: 26%;
+		max-width: 24.7%;
 		width: auto;
 		padding: 0px 30px;
 		background-color: rgba(0, 26, 51, .75);
