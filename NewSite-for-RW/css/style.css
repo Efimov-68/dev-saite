@@ -1233,14 +1233,14 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 	.product-block .product-bar_2{
 		position: absolute;
 		top: 0;
-		left: 43.2%;
+		left: 44%;
 		right: 0;
 		bottom: 0;
 	}
 	.product-block .product-bar_3 {
 		position: absolute;
 		top: 0;
-		left: 72.4%;
+		left: 74%;
 		right: 0;
 		bottom: 0;
 	}
@@ -1248,8 +1248,9 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 	.product-bar_1 {
 		max-width: 40%;
 		width: auto;
+		height: 450px;
 		padding: 0px 30px;
-		background-color: rgba(38, 77, 115,1);
+		background-color: rgb(0,0,35);
 		border-bottom: 10px solid lightblue;
 	}
 	.product-bar_1 div table {
@@ -1260,13 +1261,13 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 	.product-bar_1 div th {
 		text-align: left;
 		border-right: 1px solid lightgrey;
-		padding-right: 50px; 
+		padding-right: 15px; 
 	}
 	.product-bar-table-h1 h1 {
-		font-size: 1.3em;
+		font-size: 1.4em;
 	}
 	.product-bar_1 td {
-		padding-left: 20px;
+		padding-left: 10px;
 		color: lightgrey;
 		font-size: .9em;
 	}
@@ -1282,8 +1283,9 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 	.product-bar_2 {
 		max-width: 26%;
 		width: auto;
+		height: 450px;
 		padding: 0px 30px;
-		background-color: rgba(0, 68, 102, 1);
+		background-color: rgb(0,0,45);
 		border-bottom: 10px solid darkorange;
 	}
 	.product-bar_2 div h3 {
@@ -1295,8 +1297,9 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 	.product-bar_3 {
 		max-width: 26%;
 		width: auto;
+		height: 450px;
 		padding: 0px 30px;
-		background-color: rgba(0, 51, 102, 1);
+		background-color: rgb(0,0,55);
 		border-bottom: 10px solid pink;
 	}
 	
@@ -1312,10 +1315,16 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		color: white;
 		font-size: 1.3em;
 	}
-	.product-bar_1 p,
-	.product-bar_2 p,
+	.product-bar_1 p {
+		font-size: .9em;
+		color: lightgrey;
+	}
+	.product-bar_2 p {
+		font-size: 1em;
+		color: lightgrey;
+	}
 	.product-bar_3 p {
-		font-size: .8em;
+		font-size: 1em;
 		color: lightgrey;
 	}
 	.product-bar_1 a {color: lightblue; text-decoration: none;}
@@ -1336,6 +1345,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 	}
 	.portfolio-block-text {
 		padding: 50px;
+		margin-top: 50px;
 		margin-bottom: 55px;
 	}
 	.portfolio-block-text div h1 {
@@ -1783,14 +1793,14 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	.product-block .product-bar_2{
 		position: absolute;
 		top: 0;
-		left: 46.8%;
+		left: 46%;
 		right: 0;
 		bottom: 0;
 	}
 	.product-block .product-bar_3 {
 		position: absolute;
 		top: 0;
-		left: 77.4%;
+		left: 77%;
 		right: 0;
 		bottom: 0;
 	}
