@@ -1367,11 +1367,11 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		PORTFOLIO-IMAGE*/
 	.portfolio-image {
 		position: absolute;
-		top: 105%;
+		top: 100%;
 		left: 15%;
 		right: 0;
 		width: auto;
-		height: 85%;
+		height: 500px;
 	}
 	.portfolio-image .portfolio-block-image_1 {
 		position: absolute;
@@ -1799,7 +1799,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	.product-block .product-bar_2{
 		position: absolute;
 		top: 0;
-		left: 44%;
+		left: 46%;
 		right: 0;
 		bottom: 0;
 	}
@@ -1812,10 +1812,11 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	}
 
 	.product-bar_1 {
-		max-width: 40%;
+		max-width: 42%;
 		width: auto;
+		height: 360px;
 		padding: 0px 30px;
-		background-color: rgba(0, 26, 51, .35);
+		background-color: rgb(0,0,35);
 		border-bottom: 10px solid lightblue;
 	}
 	.product-bar_1 div table {
@@ -1848,8 +1849,9 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	.product-bar_2 {
 		max-width: 28%;
 		width: auto;
+		height: 360px;
 		padding: 0px 30px;
-		background-color: rgba(0, 26, 51, .55);
+		background-color: rgb(0,0,45);
 		border-bottom: 10px solid darkorange;
 	}
 	.product-bar_2 div h3 {
@@ -1861,8 +1863,9 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	.product-bar_3 {
 		max-width: 26%;
 		width: auto;
+		height: 360px;
 		padding: 0px 10px;
-		background-color: rgba(0, 26, 51, .75);
+		background-color: rgb(0,0,55);
 		border-bottom: 10px solid pink;
 	}
 	
@@ -1878,10 +1881,16 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		color: white;
 		font-size: 1em;
 	}
-	.product-bar_1 p,
-	.product-bar_2 p,
-	.product-bar_3 p {
+	.product-bar_1 p{
 		font-size: .8em;
+		color: lightgrey;
+	}
+	.product-bar_2 p{
+		font-size: 1em;
+		color: lightgrey;
+	}
+	.product-bar_3 p {
+		font-size: 1em;
 		color: lightgrey;
 	}
 	.product-bar_1 a {color: lightblue; text-decoration: none;}
@@ -1894,7 +1903,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		PORTFOLIO-TEXT ***/
 	.portfolio {
 		position: absolute;
-		top: 80%;
+		top: 70%;
 		left: 15%;
 		right: 0;
 		bottom: 0;
@@ -1917,11 +1926,11 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		PORTFOLIO-IMAGE*/
 	.portfolio-image {
 		position: absolute;
-		top: 130%;
+		top: 110%;
 		left: 15%;
 		right: 0;
 		width: auto;
-		height: 85%;
+		height: 500px;
 	}
 	.portfolio-image .portfolio-block-image_1 {
 		position: absolute;
@@ -1939,7 +1948,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		position: absolute;
 		left: 0;
 		right: 0;
-		width: 120px;
+		width: 200px;
 		height: 200px;
 	}
 	.portfolio-block-image-horeca {
@@ -1947,7 +1956,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		position: absolute;
 		left: 15%;
 		right: 0;
-		width: 150px;
+		width: 200px;
 		height: 200px;
 	}
 	.portfolio-block-image-online-course-children {
@@ -1955,7 +1964,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		position: absolute;
 		left: 32%;
 		right: 0;
-		width: 150px;
+		width: 200px;
 		height: 200px;
 	}
 	.portfolio-block-image-children-center {
@@ -1963,7 +1972,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		position: absolute;
 		left: 50%;
 		right: 0;
-		width: 120px;
+		width: 200px;
 		height: 200px;
 	}
 	.portfolio-block-image-turagence {
@@ -1971,14 +1980,14 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		position: absolute;
 		left: 65%;
 		right: 0;
-		width: 130px;
+		width: 200px;
 		height: 200px;
 	}
 	.portfolio-block-image-fitnes {
 		background-image: url(../image/arina-bezlapova-seksualnaia-blondinka-stoit-poziruet-priches.jpg) !important; 
 		position: absolute;
 		right: 0;
-		width: 126px;
+		width: 200px;
 		height: 200px;
 	}
 	.portfolio-block-image-foto-school {
@@ -1986,7 +1995,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		position: absolute;
 		left: 0;
 		right: 0;
-		width: 131px;
+		width: 200px;
 		height: 200px;
 	}
 	.portfolio-block-image-promo-site {
@@ -2010,7 +2019,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		position: absolute;
 		left: 52%;
 		right: 0;
-		width: 145px;
+		width: 150px;
 		height: 200px;
 	}
 	.portfolio-block-image-it-service {
@@ -2018,7 +2027,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		position: absolute;
 		left: 37%;
 		right: 0;
-		width: 131px;
+		width: 150px;
 		height: 200px;
 	}
 	.portfolio-block-image-cosplay-show {
@@ -2026,14 +2035,14 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		position: absolute;
 		left: 67%;
 		right: 0;
-		width: 131px;
+		width: 200px;
 		height: 200px;
 	}
 	.portfolio-block-image-surprize {
 		background-image: url(../image/hayley-marie-daisy-watts-lucy-6734.jpg) !important;
 		position: absolute;
 		right: 0;
-		width: 124px;
+		width: 150px;
 		height: 200px;
 	}
 	
@@ -2208,7 +2217,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		list-style-type: none;
 		text-decoration: none;
 		line-height: 1.6em;
-		font-size: .9em;
+		font-size: 1em;
 	}
 	.footer-list-service_1 a:hover,
 	.footer-list-service_2 a:hover,
@@ -2231,12 +2240,13 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		left: 0;
 		right: auto;
 		bottom: 0;
-		width: 15%;
+		width: auto;
 	}
 	/*** -----------
 		HEADER nav 
 	-------------***/
 	.nav {
+		display: none;
 		font-size: 18px;
 	}
 	.nav ul {
@@ -2334,7 +2344,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 	.product-block {
 		position: absolute;
 		top: 0;
-		left: 15%;
+		left: 0;
 		right: 0;
 		bottom: 0;
 		width: auto;
@@ -2351,14 +2361,14 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 	.product-block .product-bar_2{
 		position: absolute;
 		top: 0;
-		left: 46.8%;
+		left: 45%;
 		right: 0;
 		bottom: 0;
 	}
 	.product-block .product-bar_3 {
 		position: absolute;
 		top: 0;
-		left: 77.4%;
+		left: 76%;
 		right: 0;
 		bottom: 0;
 	}
@@ -2366,8 +2376,9 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 	.product-bar_1 {
 		max-width: 40%;
 		width: auto;
+		height: 580px;
 		padding: 0px 30px;
-		background-color: rgba(0, 26, 51, .35);
+		background-color: rgb(0,0,35);
 		border-bottom: 10px solid lightblue;
 	}
 	.product-bar_1 div table {
@@ -2378,13 +2389,13 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 	.product-bar_1 div th {
 		text-align: left;
 		border-right: 1px solid lightgrey;
-		padding-right: 50px; 
+		padding-right: 20px; 
 	}
 	.product-bar-table-h1 h1 {
-		font-size: 1.1em;
+		font-size: 1.5em;
 	}
 	.product-bar_1 td {
-		padding-left: 20px;
+		padding-left: 10px;
 		color: lightgrey;
 		font-size: .8em;
 	}
@@ -2400,8 +2411,9 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 	.product-bar_2 {
 		max-width: 26%;
 		width: auto;
+		height: 580px;
 		padding: 0px 30px;
-		background-color: rgba(0, 26, 51, .55);
+		background-color: rgb(0,0,45);
 		border-bottom: 10px solid darkorange;
 	}
 	.product-bar_2 div h3 {
@@ -2413,8 +2425,9 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 	.product-bar_3 {
 		max-width: 26%;
 		width: auto;
-		padding: 0px 10px;
-		background-color: rgba(0, 26, 51, .75);
+		height: 580px;
+		padding: 0px 15px;
+		background-color: rgb(0,0,55);
 		border-bottom: 10px solid pink;
 	}
 	
@@ -2428,12 +2441,18 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 	.product-bar_2 div h2,
 	.product-bar_3 div h2 {
 		color: white;
-		font-size: 1em;
+		font-size: 1.2em;
 	}
-	.product-bar_1 p,
-	.product-bar_2 p,
+	.product-bar_1 p {
+		font-size: .9em;
+		color: lightgrey;
+	}
+	.product-bar_2 p {
+		font-size: .9em;
+		color: lightgrey;
+	}
 	.product-bar_3 p {
-		font-size: .8em;
+		font-size: .9em;
 		color: lightgrey;
 	}
 	.product-bar_1 a {color: lightblue; text-decoration: none;}
@@ -2447,7 +2466,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 	.portfolio {
 		position: absolute;
 		top: 80%;
-		left: 15%;
+		left: 0;
 		right: 0;
 		bottom: 0;
 		color: white;
@@ -2470,10 +2489,10 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 	.portfolio-image {
 		position: absolute;
 		top: 130%;
-		left: 15%;
+		left: 0;
 		right: 0;
 		width: auto;
-		height: 85%;
+		height: 500px;
 	}
 	.portfolio-image .portfolio-block-image_1 {
 		position: absolute;
@@ -2491,7 +2510,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		position: absolute;
 		left: 0;
 		right: 0;
-		width: 120px;
+		width: 200px;
 		height: 200px;
 	}
 	.portfolio-block-image-horeca {
@@ -2499,7 +2518,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		position: absolute;
 		left: 15%;
 		right: 0;
-		width: 150px;
+		width: 200px;
 		height: 200px;
 	}
 	.portfolio-block-image-online-course-children {
@@ -2507,7 +2526,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		position: absolute;
 		left: 32%;
 		right: 0;
-		width: 150px;
+		width: 200px;
 		height: 200px;
 	}
 	.portfolio-block-image-children-center {
@@ -2515,7 +2534,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		position: absolute;
 		left: 50%;
 		right: 0;
-		width: 120px;
+		width: 200px;
 		height: 200px;
 	}
 	.portfolio-block-image-turagence {
@@ -2523,14 +2542,14 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		position: absolute;
 		left: 65%;
 		right: 0;
-		width: 130px;
+		width: 200px;
 		height: 200px;
 	}
 	.portfolio-block-image-fitnes {
 		background-image: url(../image/arina-bezlapova-seksualnaia-blondinka-stoit-poziruet-priches.jpg) !important; 
 		position: absolute;
 		right: 0;
-		width: 126px;
+		width: 200px;
 		height: 200px;
 	}
 	.portfolio-block-image-foto-school {
@@ -2538,7 +2557,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		position: absolute;
 		left: 0;
 		right: 0;
-		width: 131px;
+		width: 150px;
 		height: 200px;
 	}
 	.portfolio-block-image-promo-site {
@@ -2546,7 +2565,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		position: absolute;
 		left: 11%;
 		right: 0;
-		width: 131px;
+		width: 150px;
 		height: 200px;
 	}
 	.portfolio-block-image-internet-magazyn {
@@ -2562,7 +2581,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		position: absolute;
 		left: 52%;
 		right: 0;
-		width: 145px;
+		width: 150px;
 		height: 200px;
 	}
 	.portfolio-block-image-it-service {
@@ -2570,7 +2589,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		position: absolute;
 		left: 37%;
 		right: 0;
-		width: 131px;
+		width: 150px;
 		height: 200px;
 	}
 	.portfolio-block-image-cosplay-show {
@@ -2578,14 +2597,14 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		position: absolute;
 		left: 67%;
 		right: 0;
-		width: 131px;
+		width: 170px;
 		height: 200px;
 	}
 	.portfolio-block-image-surprize {
 		background-image: url(../image/hayley-marie-daisy-watts-lucy-6734.jpg) !important;
 		position: absolute;
 		right: 0;
-		width: 124px;
+		width: 140px;
 		height: 200px;
 	}
 	
@@ -2616,7 +2635,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 	.client-basic {
 		position: absolute;
 		top: 211%;
-		left: 15%;
+		left: 0;
 		right: 0;
 		width: auto;
 		margin: auto;
@@ -2625,9 +2644,9 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		padding: 10px;
 	}
 	.client-table-sector th {
-		padding-right: 10px;
-		width: 450px;
-		font-size: 1em;
+		padding-right: 0px;
+		width: 330px;
+		font-size: .9em;
 		text-align: left;
 		color: grey;
 	}
@@ -2671,8 +2690,8 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		RW-SERVICE ***/
 	.rw-service {
 		position: absolute;
-		top: 240%;
-		left: 15%;
+		top: 250%;
+		left: 0;
 		right: 0;
 		bottom: 0;
 	}
@@ -2700,7 +2719,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		text-decoration: none;
 	}
 	.rw-service-develop {
-		font-size: 1.1em;
+		font-size: 1em;
 		width: 65%;
 		padding-left: 50px;
 		height: auto;
@@ -2713,7 +2732,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		background-color: rgba(0,0,20, .25) !important;
 	}
 	.reviews h1 {
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 	.reviews h2 {
 		font-size: 1.1em;
@@ -2722,12 +2741,15 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		height: auto;
 		width: 100%;
 	}
+	.reviews p {
+		font-size: .9em;
+	}
 	/*** ---------------
 	  \end RW-SERVICE 
 	----------------***/
 
 	.footer-list {
-		height: 400px;
+		height: 350px;
 		margin-top: 30%;
 		margin-left: auto;
 		margin-right: auto;
@@ -2759,8 +2781,8 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		color: lightgrey;
 		list-style-type: none;
 		text-decoration: none;
-		line-height: 1.6em;
-		font-size: .9em;
+		line-height: 1.4em;
+		font-size: .95em;
 	}
 	.footer-list-service_1 a:hover,
 	.footer-list-service_2 a:hover,
@@ -2774,11 +2796,1049 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 -------------------------------------------------------
 code STYLE @media (min-width: 481px) (max-width: 768px;) ***/
 @media all and (min-width: 481px) and (max-width: 768px){
+	header {
+		background-color: rgba(0,0,0, .4) !important;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: auto;
+		bottom: 0;
+		width: auto;
+	}
+	/*** -----------
+		HEADER nav 
+	-------------***/
+	.nav {
+		display: none;
+		font-size: 18px;
+	}
+	.nav ul {
+		list-style-type: none;
+		padding: 10px;
+		line-height: 1.5em;
+	}
+	.nav p {
+		color: rgba(255,255,255, .2) !important;
+	}
+	
+	.nav-print-logo {
+		margin: 10px 20px;
+	}
+	.nav-print-logo img {
+		height: 60px;
+	}
+	
+	.nav-main {
+		border-top: 1px dashed black !important;	
+	}
+	.nav-main a {
+		font-size: .7em;
+		line-height: 1.4em;
+		color: white !important;
+		text-decoration: none !important;
+	}
+	.nav-main a:hover {
+		color: orange !important;
+	}
+	
+	.nav-main-service {
+		border-bottom: 1px dashed black !important;
+	}
+	.nav-main-service a {
+		font-size: .7em;
+		line-height: 1.4em;
+		color: white !important;
+		text-decoration: none !important;
+	}
+	.nav-main-service a:hover {
+		color: orange !important;
+	}
+	
+	.nav-contacts {
+		border-bottom: 1px dashed black !important;
+	}
+	.nav-contacts-phone {
+		font-size: 14px;
+	}
+	.nav-contacts-phone-grey {
+		color: grey;
+	}
+	.nav-contacts-phone-lightgrey {
+		color: lightgrey;
+	}
+	.nav-contacts-callback a {
+		color: darkred;
+		font-size: 12px;
+		border-bottom: 1px dashed darkred !important;
+		text-decoration: none !important;
+	}
+	.nav-contacts-callback a:hover {
+		color: red;
+		border-bottom: 1px dashed red !important;
+	}
+	.nav-address li{
+		color: grey;
+		font-size: 10px;
+		line-height: 1.3em;
+	}
+	
+	.nav-order-submit input {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 40px;
+		font-size: 1em;
+		padding-left: 11%;
+		padding-right: 11%;
+		border: 0px solid white;
+		background-color: green;
+	}
+	.nav-order-submit input:hover {
+		background-color: lightgreen !important;
+	}
+	/*** \end HEADER nav 
+	--------------------
+		PRODUCT ***/
+	.allContent {
+		width: auto;
+	}
+	.product-block {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.product-block .product-bar_1{
+		float: left;
+	}
+	.product-block .product-bar_2{
+		float: left;
+	}
+	.product-block .product-bar_3 {
+		float: left;
+	}
+
+	.product-bar_1 {
+		width: auto;
+		height: 470px;
+		padding: 10px 30px 30px 30px;
+		background-color: rgb(0,0,35);
+		border-bottom: 10px solid lightblue;
+	}
+	.product-bar_1 div table {
+		color: white;
+		border-spacing: 0px;
+		margin-bottom: 0px;
+	}
+	.product-bar_1 div th {
+		text-align: left;
+		border-right: 1px solid lightgrey;
+		padding-right: 20px; 
+	}
+	.product-bar-table-h1 h1 {
+		font-size: 1.5em;
+	}
+	.product-bar_1 td {
+		padding-left: 10px;
+		color: lightgrey;
+		font-size: .8em;
+	}
+	.product-bar_1 td span {
+		color: grey;
+	}
+	.product-bar_1 div h3 {
+		padding-top: 10px;
+		font-size: .9em;
+	}
+
+	.product-bar_2 {
+		width: auto;
+		height: 290px;
+		padding: 0px 30px;
+		background-color: rgb(0,0,45);
+		border-bottom: 10px solid darkorange;
+	}
+	.product-bar_2 div h3 {
+		padding-top: 10px;
+		font-size: .9em;
+	}
+
+	.product-bar_3 {
+		width: auto;
+		height: 260px;
+		padding: 0px 30px;
+		background-color: rgb(0,0,55);
+		border-bottom: 10px solid pink;
+	}
+	
+	.product-bar_3 div h3 {
+		padding-top: 10px;
+		font-size: .9em;
+	}
+
+	.product-bar_1 div h2,
+	.product-bar_2 div h2,
+	.product-bar_3 div h2 {
+		color: white;
+		font-size: 1.7em;
+	}
+	.product-bar_1 p {
+		font-size: .9em;
+		color: lightgrey;
+	}
+	.product-bar_2 p {
+		font-size: .9em;
+		color: lightgrey;
+	}
+	.product-bar_3 p {
+		font-size: .9em;
+		color: lightgrey;
+	}
+	.product-bar_1 a {color: lightblue; text-decoration: none;}
+	.product-bar_2 a {color: darkorange; text-decoration: none;}
+	.product-bar_3 a {color: pink; text-decoration: none;}
+	/*** \end PRODUCT 
+	----------------------
+		  PORTFOLIO
+	----------------------
+		PORTFOLIO-TEXT ***/
+	.portfolio {
+		margin-top: 1050px;
+		color: white;
+	}
+	.portfolio-block-text {
+		padding: 30px;
+		margin-bottom: 55px;
+	}
+	.portfolio-block-text div h1 {
+		font-size: 2em;
+		padding-left: 0px;
+	}
+	.portfolio-block-text div p {
+		color: lightgrey;
+		font-size: 1em;
+	}
+	/* \end PORTFOLIO-TEXT
+	----------------------
+		PORTFOLIO-IMAGE*/
+	.portfolio-image {
+		width: auto;
+		height: 500px;
+	}
+	.portfolio-image .portfolio-block-image_1 {
+		float: left;
+		margin-top: 0px;
+	}
+	.portfolio-image .portfolio-block-image_2 {
+		float: left;
+		margin-top: 190px;
+	}
+	.portfolio-block-image-visaz {
+		background-image: url(../image/devushka-stil-indiana-fotograf-dmitry-arhar.jpg) !important; 
+		position: absolute;
+		left: 0;
+		right: 0;
+		width: 200px;
+		height: 200px;
+	}
+	.portfolio-block-image-horeca {
+		background-image: url(../image/bartender-cocktail-green.jpg) !important; 
+		position: absolute;
+		left: 15%;
+		right: 0;
+		width: 200px;
+		height: 200px;
+	}
+	.portfolio-block-image-online-course-children {
+		background-image: url(../image/city-yuusha-two-face-batgirl-animated-movie-harley-quinn-rob.jpg) !important; 
+		position: absolute;
+		left: 32%;
+		right: 0;
+		width: 200px;
+		height: 200px;
+	}
+	.portfolio-block-image-children-center {
+		background-image: url(../image/group-puppies-young-angry-birds-film-cinema-deredere-subaras.jpg) !important; 
+		position: absolute;
+		left: 50%;
+		right: 0;
+		width: 200px;
+		height: 200px;
+	}
+	.portfolio-block-image-turagence {
+		background-image: url(../image/aziatka-plate-tkan-cvet.jpg) !important; 
+		position: absolute;
+		left: 65%;
+		right: 0;
+		width: 200px;
+		height: 200px;
+	}
+	.portfolio-block-image-fitnes {
+		background-image: url(../image/arina-bezlapova-seksualnaia-blondinka-stoit-poziruet-priches.jpg) !important; 
+		position: absolute;
+		right: 0;
+		width: 140px;
+		height: 200px;
+	}
+	.portfolio-block-image-foto-school {
+		background-image: url(../image/aisii-portret-vzglyad-chb.jpg) !important; 
+		position: absolute;
+		left: 0;
+		right: 0;
+		width: 150px;
+		height: 200px;
+	}
+	.portfolio-block-image-promo-site {
+		background-image: url(../image/batman-betmen-art-kreativ-maska-kostium-chernyi-oskolki-fon.jpg) !important; 
+		position: absolute;
+		left: 11%;
+		right: 0;
+		width: 150px;
+		height: 200px;
+	}
+	.portfolio-block-image-internet-magazyn {
+		background-image: url(../image/chronometer-wristwach-ulysse-ulysse-nardin-4k-hd-wallpaper-t.jpg) !important; 
+		position: absolute;
+		left: 22%;
+		right: 0;
+		width: 150px;
+		height: 200px;
+	}
+	.portfolio-block-image-prazdnik-show {
+		background-image: url(../image/devushka-noch-boke-svet-banka-ogni.jpg) !important; 
+		position: absolute;
+		left: 52%;
+		right: 0;
+		width: 150px;
+		height: 200px;
+	}
+	.portfolio-block-image-it-service {
+		background-image: url(../image/hi-tech-wires-cables-provoda-2861.jpg) !important; 
+		position: absolute;
+		left: 37%;
+		right: 0;
+		width: 150px;
+		height: 200px;
+	}
+	.portfolio-block-image-cosplay-show {
+		background-image: url(../image/hugh-jackman-logan-marvel-comics-wolverine-mo.jpg) !important;
+		position: absolute;
+		left: 67%;
+		right: 0;
+		width: 170px;
+		height: 200px;
+	}
+	.portfolio-block-image-surprize {
+		background-image: url(../image/hayley-marie-daisy-watts-lucy-6734.jpg) !important;
+		position: absolute;
+		right: 0;
+		width: 140px;
+		height: 200px;
+	}
+	
+	.portfolio-block-image-visaz,
+	.portfolio-block-image-horeca ,
+	.portfolio-block-image-online-course-children,
+	.portfolio-block-image-children-center,
+	.portfolio-block-image-turagence,
+	.portfolio-block-image-fitnes,
+	.portfolio-block-image-foto-school,
+	.portfolio-block-image-promo-site,
+	.portfolio-block-image-internet-magazyn,
+	.portfolio-block-image-prazdnik-show,
+	.portfolio-block-image-it-service,
+	.portfolio-block-image-cosplay-show,
+	.portfolio-block-image-surprize {
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding: 10px;
+		color: white;
+		cursor: pointer;
+	}
+	/*** \end PORTFOLIO-IMAGE 
+	-------------------------
+		 \end PORTFOLIO 
+		----------------
+			CLIENT ***/
+	.client-basic {
+		margin-top: 1200px;
+		width: auto;
+		margin: auto;
+	}
+	.client-table-sector table {
+		padding: 10px;
+	}
+	.client-table-sector th {
+		padding-right: 0px;
+		width: 330px;
+		font-size: .9em;
+		text-align: left;
+		color: grey;
+	}
+	.client-table-sector td a {
+		color: white;
+		font-size: 1em;
+		text-decoration: none !important;
+	}
+	.client-table-sector td a:hover {
+		color: lightgrey !important;
+	}
+	/*** \end CLIENT 
+	---------------------
+		CLIENT-IMAGE ***/
+	.client-image {
+		margin-top: 90px;
+		height: 130px;
+		width: auto;
+		background-color: rgba(255,255,255,1) !important;
+	}
+	.client-image img {
+		width: 90px;
+		padding: 5px;
+	}
+	.client-image_1,
+	.client-image_2,
+	.client-image_6,
+	.client-image_3,
+	.client-image_4,
+	.client-image_5 {
+		float: left;
+		padding: 5px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.client-image_7,
+	.client-image_8,
+	.client-image_9,
+	.client-image_10 {display: none;}
+	/*** end CLIENT-IMAGE 
+	---------------------
+		RW-SERVICE ***/
+	.rw-service {
+		margin-top: 50px;
+	}
+	.rw-service-block h1 {
+		color: white !important;
+		font-size: 2em;
+		padding-top: 32px;
+		padding-left: 50px;
+	}
+	.rw-service-block p {
+		color: lightgrey;
+		padding: 0;
+	}
+	.rw-service-block h2 {
+		color: white;
+		font-size: 1.5em;
+		padding-left: 50px;
+	}
+	.rw-service-block li {line-height: 2em; margin-left: 50px;}
+	.rw-service-block li,
+	.rw-service-block a {
+		color: lightgrey !important;
+	}
+	.rw-service-block a:hover {
+		text-decoration: none;
+	}
+	.rw-service-develop {
+		font-size: 1em;
+		width: 65%;
+		padding-left: 20px;
+		height: auto;
+	}
+	.reviews {
+		float: right;
+		margin-top: 5%;
+		width: 40%;
+		height: auto;
+		background-color: rgba(0,0,20, .25) !important;
+	}
+	.reviews h1 {
+		font-size: 1em;
+		padding: 0 10px;
+	}
+	.reviews h2 {
+		font-size: 1em;
+		padding: 0 10px;
+	}
+	.reviews img {
+		height: auto;
+		width: 100%;
+	}
+	.reviews p {
+		font-size: .9em;
+		padding: 0 10px;
+	}
+	/*** ---------------
+	  \end RW-SERVICE 
+	----------------***/
+
+	.footer-list {
+		height: 530px;
+		margin-top: 30%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: rgba(0,0,15, .85);
+		border-radius: 10px;
+	}
+	.footer-list-service_1 {
+		padding-top: 10px;
+		padding-left: 110px;
+	}
+	.footer-list-service_2 {
+		padding-left: 110px;
+	}
+	.footer-list-service_3 {
+		padding-left: 110px;
+	}
+	
+	.footer-list-service_1 span {color: orange;}
+
+	.footer-list-service_1 li,
+	.footer-list-service_1 a,
+	.footer-list-service_2 li,
+	.footer-list-service_2 a,
+	.footer-list-service_3 li,
+	.footer-list-service_3 a {
+		color: lightgrey;
+		list-style-type: none;
+		text-decoration: none;
+		line-height: 1.4em;
+		font-size: .95em;
+	}
+	.footer-list-service_1 a:hover,
+	.footer-list-service_2 a:hover,
+	.footer-list-service_3 a:hover {
+		color: grey;
+	}
+	/*** end FOOTER
+	-------------------- ***/
 
 }/* end code STYLE @media (min-width: 481px) (max-width: 768px;)
 ------------------------------------------------------------------
 code STYLE @media (max-width: 480px) */
 @media all and (max-width: 480px){
+	header {
+		background-color: rgba(0,0,0, .4) !important;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: auto;
+		bottom: 0;
+		width: auto;
+	}
+	/*** -----------
+		HEADER nav 
+	-------------***/
+	.nav {
+		display: none;
+		font-size: 18px;
+	}
+	.nav ul {
+		list-style-type: none;
+		padding: 10px;
+		line-height: 1.5em;
+	}
+	.nav p {
+		color: rgba(255,255,255, .2) !important;
+	}
 	
+	.nav-print-logo {
+		margin: 10px 20px;
+	}
+	.nav-print-logo img {
+		height: 60px;
+	}
+	
+	.nav-main {
+		border-top: 1px dashed black !important;	
+	}
+	.nav-main a {
+		font-size: .7em;
+		line-height: 1.4em;
+		color: white !important;
+		text-decoration: none !important;
+	}
+	.nav-main a:hover {
+		color: orange !important;
+	}
+	
+	.nav-main-service {
+		border-bottom: 1px dashed black !important;
+	}
+	.nav-main-service a {
+		font-size: .7em;
+		line-height: 1.4em;
+		color: white !important;
+		text-decoration: none !important;
+	}
+	.nav-main-service a:hover {
+		color: orange !important;
+	}
+	
+	.nav-contacts {
+		border-bottom: 1px dashed black !important;
+	}
+	.nav-contacts-phone {
+		font-size: 14px;
+	}
+	.nav-contacts-phone-grey {
+		color: grey;
+	}
+	.nav-contacts-phone-lightgrey {
+		color: lightgrey;
+	}
+	.nav-contacts-callback a {
+		color: darkred;
+		font-size: 12px;
+		border-bottom: 1px dashed darkred !important;
+		text-decoration: none !important;
+	}
+	.nav-contacts-callback a:hover {
+		color: red;
+		border-bottom: 1px dashed red !important;
+	}
+	.nav-address li{
+		color: grey;
+		font-size: 10px;
+		line-height: 1.3em;
+	}
+	
+	.nav-order-submit input {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 40px;
+		font-size: 1em;
+		padding-left: 11%;
+		padding-right: 11%;
+		border: 0px solid white;
+		background-color: green;
+	}
+	.nav-order-submit input:hover {
+		background-color: lightgreen !important;
+	}
+	/*** \end HEADER nav 
+	--------------------
+		PRODUCT ***/
+	.allContent {
+		width: auto;
+	}
+	.product-block {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.product-block .product-bar_1{
+		float: left;
+	}
+	.product-block .product-bar_2{
+		float: left;
+	}
+	.product-block .product-bar_3 {
+		float: left;
+	}
+
+	.product-bar_1 {
+		width: auto;
+		height: auto;
+		padding: 10px 30px 30px 30px;
+		background-color: rgb(0,0,35);
+		border-bottom: 10px solid lightblue;
+	}
+	.product-bar_1 div table {
+		color: white;
+		border-spacing: 0px;
+		margin-bottom: 0px;
+	}
+	.product-bar_1 div th {
+		text-align: left;
+		border-right: 1px solid lightgrey;
+		padding-right: 20px; 
+	}
+	.product-bar-table-h1 h1 {
+		font-size: 1em;
+	}
+	.product-bar_1 td {
+		padding-left: 10px;
+		color: lightgrey;
+		font-size: .85em;
+	}
+	.product-bar_1 td span {
+		color: grey;
+	}
+	.product-bar_1 div h3 {
+		padding-top: 10px;
+		font-size: .9em;
+	}
+
+	.product-bar_2 {
+		width: auto;
+		height: auto;
+		padding: 0px 30px;
+		background-color: rgb(0,0,45);
+		border-bottom: 10px solid darkorange;
+	}
+	.product-bar_2 div h3 {
+		padding-top: 10px;
+		font-size: .9em;
+	}
+
+	.product-bar_3 {
+		width: auto;
+		height: auto;
+		padding: 0px 30px;
+		background-color: rgb(0,0,55);
+		border-bottom: 10px solid pink;
+	}
+	
+	.product-bar_3 div h3 {
+		padding-top: 10px;
+		font-size: .9em;
+	}
+
+	.product-bar_1 div h2,
+	.product-bar_2 div h2,
+	.product-bar_3 div h2 {
+		color: white;
+		font-size: 1.2em;
+	}
+	.product-bar_1 p {
+		font-size: .95em;
+		color: lightgrey;
+	}
+	.product-bar_2 p {
+		font-size: .95em;
+		color: lightgrey;
+	}
+	.product-bar_3 p {
+		font-size: .95em;
+		color: lightgrey;
+	}
+	.product-bar_1 a {color: lightblue; text-decoration: none;}
+	.product-bar_2 a {color: darkorange; text-decoration: none;}
+	.product-bar_3 a {color: pink; text-decoration: none;}
+	/*** \end PRODUCT 
+	----------------------
+		  PORTFOLIO
+	----------------------
+		PORTFOLIO-TEXT ***/
+	.portfolio {
+		margin-top: 1500px;
+		color: white;
+	}
+	.portfolio-block-text {
+		padding: 30px;
+		margin-bottom: 55px;
+	}
+	.portfolio-block-text div h1 {
+		font-size: 1.7em;
+		padding-left: 0px;
+	}
+	.portfolio-block-text div p {
+		color: lightgrey;
+		font-size: .9em;
+	}
+	/* \end PORTFOLIO-TEXT
+	----------------------
+		PORTFOLIO-IMAGE*/
+	.portfolio-image {
+		width: auto;
+		height: 500px;
+	}
+	.portfolio-image .portfolio-block-image_1 {
+		float: left;
+		margin-top: 0px;
+	}
+	.portfolio-image .portfolio-block-image_2 {
+		float: left;
+		margin-top: 190px;
+	}
+	.portfolio-block-image-visaz {
+		background-image: url(../image/devushka-stil-indiana-fotograf-dmitry-arhar.jpg) !important; 
+		position: absolute;
+		left: 0;
+		right: 0;
+		width: 110px;
+		height: 200px;
+	}
+	.portfolio-block-image-horeca {
+		background-image: url(../image/bartender-cocktail-green.jpg) !important; 
+		position: absolute;
+		left: 15%;
+		right: 0;
+		width: 110px;
+		height: 200px;
+	}
+	.portfolio-block-image-online-course-children {
+		background-image: url(../image/city-yuusha-two-face-batgirl-animated-movie-harley-quinn-rob.jpg) !important; 
+		position: absolute;
+		left: 34%;
+		right: 0;
+		width: 100px;
+		height: 200px;
+	}
+	.portfolio-block-image-children-center {
+		background-image: url(../image/group-puppies-young-angry-birds-film-cinema-deredere-subaras.jpg) !important; 
+		position: absolute;
+		left: 50%;
+		right: 0;
+		width: 110px;
+		height: 200px;
+	}
+	.portfolio-block-image-turagence {
+		background-image: url(../image/aziatka-plate-tkan-cvet.jpg) !important; 
+		position: absolute;
+		left: 65%;
+		right: 0;
+		width: 110px;
+		height: 200px;
+	}
+	.portfolio-block-image-fitnes {
+		background-image: url(../image/arina-bezlapova-seksualnaia-blondinka-stoit-poziruet-priches.jpg) !important; 
+		position: absolute;
+		right: 0;
+		width: 80px;
+		height: 200px;
+	}
+	.portfolio-block-image-foto-school {
+		background-image: url(../image/aisii-portret-vzglyad-chb.jpg) !important; 
+		position: absolute;
+		left: 0;
+		right: 0;
+		width: 110px;
+		height: 200px;
+	}
+	.portfolio-block-image-promo-site {
+		background-image: url(../image/batman-betmen-art-kreativ-maska-kostium-chernyi-oskolki-fon.jpg) !important; 
+		position: absolute;
+		left: 18%;
+		right: 0;
+		width: 110px;
+		height: 200px;
+	}
+	.portfolio-block-image-internet-magazyn {
+		background-image: url(../image/chronometer-wristwach-ulysse-ulysse-nardin-4k-hd-wallpaper-t.jpg) !important; 
+		position: absolute;
+		left: 40%;
+		right: 0;
+		width: 110px;
+		height: 200px;
+	}
+	.portfolio-block-image-prazdnik-show {
+		background-image: url(../image/devushka-noch-boke-svet-banka-ogni.jpg) !important; 
+		position: absolute;
+		left: 52%;
+		right: 0;
+		width: 90px;
+		height: 200px;
+	}
+	.portfolio-block-image-it-service {
+		background-image: url(../image/hi-tech-wires-cables-provoda-2861.jpg) !important; 
+		position: absolute;
+		left: 37%;
+		right: 0;
+		width: 90px;
+		height: 200px;
+	}
+	.portfolio-block-image-cosplay-show {
+		background-image: url(../image/hugh-jackman-logan-marvel-comics-wolverine-mo.jpg) !important;
+		position: absolute;
+		left: 67%;
+		right: 0;
+		width: 90px;
+		height: 200px;
+	}
+	.portfolio-block-image-surprize {
+		background-image: url(../image/hayley-marie-daisy-watts-lucy-6734.jpg) !important;
+		position: absolute;
+		right: 0;
+		width: 90px;
+		height: 200px;
+	}
+	
+	.portfolio-block-image-visaz,
+	.portfolio-block-image-horeca ,
+	.portfolio-block-image-online-course-children,
+	.portfolio-block-image-children-center,
+	.portfolio-block-image-turagence,
+	.portfolio-block-image-fitnes,
+	.portfolio-block-image-foto-school,
+	.portfolio-block-image-promo-site,
+	.portfolio-block-image-internet-magazyn,
+	.portfolio-block-image-prazdnik-show,
+	.portfolio-block-image-it-service,
+	.portfolio-block-image-cosplay-show,
+	.portfolio-block-image-surprize {
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding: 0px;
+		color: white;
+		cursor: pointer;
+	}
+	/*** \end PORTFOLIO-IMAGE 
+	-------------------------
+		 \end PORTFOLIO 
+		----------------
+			CLIENT ***/
+	.client-basic {
+		margin-top: 1200px;
+		width: auto;
+		margin: auto;
+	}
+	.client-table-sector table {
+		padding: 0;
+	}
+	.client-table-sector th {
+		padding-right: 0px;
+		width: 250px;
+		font-size: .75em;
+		text-align: left;
+		color: grey;
+	}
+	.client-table-sector td a {
+		color: white;
+		font-size: .9em;
+		text-decoration: none !important;
+	}
+	.client-table-sector td a:hover {
+		color: lightgrey !important;
+	}
+	/*** \end CLIENT 
+	---------------------
+		CLIENT-IMAGE ***/
+	.client-image {
+		margin-top: 90px;
+		height: 170px;
+		width: auto;
+		background-color: rgba(255,255,255,1) !important;
+	}
+	.client-image img {
+		width: 90px;
+		padding: 5px;
+	}
+	.client-image_1,
+	.client-image_2,
+	.client-image_6,
+	.client-image_3,
+	.client-image_4,
+	.client-image_5 {
+		float: left;
+		padding: 5px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.client-image_7,
+	.client-image_8,
+	.client-image_9,
+	.client-image_10 {display: none;}
+	/*** end CLIENT-IMAGE 
+	---------------------
+		RW-SERVICE ***/
+	.rw-service {
+		margin-top: 0px;
+	}
+	.rw-service-block h1 {
+		color: white !important;
+		font-size: 1.5em;
+		padding-top: 32px;
+		padding-left: 20px;
+	}
+	.rw-service-block p {
+		color: lightgrey;
+		padding: 0;
+	}
+	.rw-service-block h2 {
+		color: white;
+		font-size: 1.5em;
+		padding-left: 20px;
+	}
+	.rw-service-block li {line-height: 2em; margin-left: 50px;}
+	.rw-service-block li,
+	.rw-service-block a {
+		color: lightgrey !important;
+	}
+	.rw-service-block a:hover {
+		text-decoration: none;
+	}
+	.rw-service-develop {
+		font-size: .9em;
+		width: 95%;
+		padding: 0 10px;
+		height: auto;
+	}
+	.reviews {
+		display: none;
+		position: absolute;
+		width: 40%;
+		height: auto;
+		background-color: rgba(0,0,20, .25) !important;
+	}
+	.reviews h1 {
+		font-size: 1em;
+		padding: 0 10px;
+	}
+	.reviews h2 {
+		font-size: 1em;
+		padding: 0 10px;
+	}
+	.reviews img {
+		height: auto;
+		width: 100%;
+	}
+	.reviews p {
+		font-size: .9em;
+		padding: 0 10px;
+	}
+	/*** ---------------
+	  \end RW-SERVICE 
+	----------------***/
+
+	.footer-list {
+		height: 530px;
+		margin-top: 30%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: rgba(0,0,15, .85);
+		border-radius: 10px;
+	}
+	.footer-list-service_1 {
+		padding-top: 10px;
+	}
+	.footer-list-service_2 {
+		padding: 0;
+	}
+	.footer-list-service_3 {
+		padding: 0;
+	}
+	
+	.footer-list-service_1 span {color: orange;}
+
+	.footer-list-service_1 li,
+	.footer-list-service_1 a,
+	.footer-list-service_2 li,
+	.footer-list-service_2 a,
+	.footer-list-service_3 li,
+	.footer-list-service_3 a {
+		color: lightgrey;
+		list-style-type: none;
+		text-decoration: none;
+		line-height: 1.4em;
+		font-size: .95em;
+	}
+	.footer-list-service_1 a:hover,
+	.footer-list-service_2 a:hover,
+	.footer-list-service_3 a:hover {
+		color: grey;
+	}
+	/*** end FOOTER
+	-------------------- ***/
 }/* code STYLE @media (max-width: 480px)
 ---------------------------------------- */
