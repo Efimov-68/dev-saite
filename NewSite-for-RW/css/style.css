@@ -3341,7 +3341,12 @@ code STYLE @media (min-width: 481px) (max-width: 768px;) ***/
 code STYLE @media (max-width: 480px) */
 @media all and (max-width: 480px){
 	.menuLogo {
-		display: none;
+		display: block;
+		position: fixed;
+		-moz-transform:scale(1.1);
+		height: 40px;
+		box-shadow: 5px 2px 5px black;
+
 	}
 	header {
 		background-color: rgba(0,0,0, .4) !important;
