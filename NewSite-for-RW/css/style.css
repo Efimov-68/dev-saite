@@ -105,7 +105,7 @@ body {
 		right: 0;
 		width: 100%;
 		height: 60px;
-		font-size: 1.8em;
+		font-size: 1.5em;
 		padding-left: 11%;
 		padding-right: 11%;
 		border-radius: 5px 5px 0 0;
@@ -152,10 +152,11 @@ body {
 	}
 
 	.product-bar_1 {
-		max-width: 37.35%;
+		max-width: 38%;
 		width: auto;
+		height: 550px;
 		padding: 0px 30px;
-		background-color: rgba(0, 26, 51, .35);
+		background-color: rgb(0,0,35);
 		border-bottom: 10px solid lightblue;
 	}
 	.product-bar_1 div table {
@@ -188,8 +189,9 @@ body {
 	.product-bar_2 {
 		max-width: 30%;
 		width: auto;
+		height: 550px;
 		padding: 0px 30px;
-		background-color: rgba(0, 26, 51, .55);
+		background-color: rgb(0,0,45);
 		border-bottom: 10px solid darkorange;
 	}
 	.product-bar_2 div h3 {
@@ -201,8 +203,9 @@ body {
 	.product-bar_3 {
 		max-width: 24.7%;
 		width: auto;
+		height: 550px;
 		padding: 0px 30px;
-		background-color: rgba(0, 26, 51, .75);
+		background-color: rgb(0,0,55);
 		border-bottom: 10px solid pink;
 	}
 	
@@ -699,8 +702,9 @@ code STYLE @media (min-width: 1921px) (max-width: 2149px;) */
 	.product-bar_1 {
 		max-width: 40%;
 		width: auto;
+		height: 500px;
 		padding: 0px 30px;
-		background-color: rgba(0, 26, 51, .35);
+		background-color: rgb(0,0,35);
 		border-bottom: 10px solid lightblue;
 	}
 	.product-bar_1 div table {
@@ -733,8 +737,9 @@ code STYLE @media (min-width: 1921px) (max-width: 2149px;) */
 	.product-bar_2 {
 		max-width: 26%;
 		width: auto;
+		height: 500px;
 		padding: 0px 30px;
-		background-color: rgba(0, 26, 51, .55);
+		background-color: rgba(0,0,45);
 		border-bottom: 10px solid darkorange;
 	}
 	.product-bar_2 div h3 {
@@ -746,8 +751,9 @@ code STYLE @media (min-width: 1921px) (max-width: 2149px;) */
 	.product-bar_3 {
 		max-width: 26%;
 		width: auto;
+		height: 500px;
 		padding: 0px 30px;
-		background-color: rgba(0, 26, 51, .75);
+		background-color: rgba(0,0,55);
 		border-bottom: 10px solid pink;
 	}
 	
@@ -1233,20 +1239,20 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 	.product-block .product-bar_2{
 		position: absolute;
 		top: 0;
-		left: 44%;
+		left: 45%;
 		right: 0;
 		bottom: 0;
 	}
 	.product-block .product-bar_3 {
 		position: absolute;
 		top: 0;
-		left: 74%;
+		left: 76%;
 		right: 0;
 		bottom: 0;
 	}
 
 	.product-bar_1 {
-		max-width: 40%;
+		max-width: 42%;
 		width: auto;
 		height: 450px;
 		padding: 0px 30px;
@@ -1281,7 +1287,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 	}
 
 	.product-bar_2 {
-		max-width: 26%;
+		max-width: 28%;
 		width: auto;
 		height: 450px;
 		padding: 0px 30px;
@@ -1337,7 +1343,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		PORTFOLIO-TEXT ***/
 	.portfolio {
 		position: absolute;
-		top: 65%;
+		top: 55%;
 		left: 15%;
 		right: 0;
 		bottom: 0;
@@ -1346,7 +1352,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 	.portfolio-block-text {
 		padding: 50px;
 		margin-top: 50px;
-		margin-bottom: 55px;
+		margin-bottom: 45px;
 	}
 	.portfolio-block-text div h1 {
 		font-size: 2.2em;
@@ -1361,7 +1367,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		PORTFOLIO-IMAGE*/
 	.portfolio-image {
 		position: absolute;
-		top: 110%;
+		top: 105%;
 		left: 15%;
 		right: 0;
 		width: auto;
@@ -1793,14 +1799,14 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	.product-block .product-bar_2{
 		position: absolute;
 		top: 0;
-		left: 46%;
+		left: 44%;
 		right: 0;
 		bottom: 0;
 	}
 	.product-block .product-bar_3 {
 		position: absolute;
 		top: 0;
-		left: 77%;
+		left: 79%;
 		right: 0;
 		bottom: 0;
 	}
@@ -1840,7 +1846,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	}
 
 	.product-bar_2 {
-		max-width: 26%;
+		max-width: 28%;
 		width: auto;
 		padding: 0px 30px;
 		background-color: rgba(0, 26, 51, .55);
