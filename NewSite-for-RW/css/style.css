@@ -1217,9 +1217,11 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		padding-right: 11%;
 		border: 0px solid white;
 		background-color: green;
+		color: lightgrey;
 	}
 	.nav-order-submit input:hover {
 		background-color: lightgreen !important;
+		color: grey;
 	}
 	/*** \end HEADER nav 
 	--------------------
