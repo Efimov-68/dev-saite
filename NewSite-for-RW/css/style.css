@@ -266,7 +266,15 @@ body {
 		left: 11%;
 		right: 0;
 		width: auto;
-		height: 85%;
+		height: 500px;
+		background-image: url(../image/portfolio-fon2.png);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.portfolio-image .portfolio-block-image_2 h1 {
+		font-size: 3em;
+		color: white;
+		text-shadow: 2px 2px 1px lightgrey;
 	}
 	.portfolio-image .portfolio-block-image_1 {
 		position: absolute;
@@ -817,7 +825,15 @@ code STYLE @media (min-width: 1921px) (max-width: 2149px;) */
 		left: 11%;
 		right: 0;
 		width: auto;
-		height: 85%;
+		height: 500px;
+		background-image: url(../image/portfolio-fon2.png);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.portfolio-image .portfolio-block-image_2 h1 {
+		font-size: 3em;
+		color: white;
+		text-shadow: 2px 2px 1px lightgrey;
 	}
 	.portfolio-image .portfolio-block-image_1 {
 		position: absolute;
@@ -1382,6 +1398,14 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		right: 0;
 		width: auto;
 		height: 500px;
+		background-image: url(../image/portfolio-fon2.png);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.portfolio-image .portfolio-block-image_2 h1 {
+		font-size: 3em;
+		color: white;
+		text-shadow: 2px 2px 1px lightgrey;
 	}
 	.portfolio-image .portfolio-block-image_1 {
 		position: absolute;
@@ -1944,6 +1968,14 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		right: 0;
 		width: auto;
 		height: 500px;
+		background-image: url(../image/portfolio-fon2.png);
+		background-repeat: no-repeat;
+		background-position: ;
+	}
+	.portfolio-image .portfolio-block-image_2 h1 {
+		font-size: 3em;
+		color: white;
+		text-shadow: 2px 2px 1px lightgrey;
 	}
 	.portfolio-image .portfolio-block-image_1 {
 		position: absolute;
@@ -2247,7 +2279,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 @media all and (min-width: 769px) and (max-width: 1024px){
 	.menuLogo {
-		display: block;
+		display: none;
 	}
 	header {
 		background-color: rgba(0,0,0, .4) !important;
@@ -2509,6 +2541,14 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		right: 0;
 		width: auto;
 		height: 500px;
+		background-image: url(../image/portfolio-fon2.png);
+		background-repeat: no-repeat;
+		background-position: ;
+	}
+	.portfolio-image .portfolio-block-image_2 h1 {
+		font-size: 3em;
+		color: white;
+		text-shadow: 2px 2px 1px lightgrey;
 	}
 	.portfolio-image .portfolio-block-image_1 {
 		position: absolute;
@@ -3046,6 +3086,14 @@ code STYLE @media (min-width: 481px) (max-width: 768px;) ***/
 	.portfolio-image {
 		width: auto;
 		height: 500px;
+		background-image: url(../image/portfolio-fon2.png);
+		background-repeat: no-repeat;
+		background-position: ;
+	}
+	.portfolio-image .portfolio-block-image_2 h1 {
+		font-size: 2em;
+		color: white;
+		text-shadow: 2px 2px 1px lightgrey;
 	}
 	.portfolio-image .portfolio-block-image_1 {
 		float: left;
@@ -3579,6 +3627,14 @@ code STYLE @media (max-width: 480px) */
 	.portfolio-image {
 		width: auto;
 		height: 500px;
+		background-image: url(../image/portfolio-fon2.png);
+		background-repeat: no-repeat;
+		background-position: ;
+	}
+	.portfolio-image .portfolio-block-image_2 h1 {
+		font-size: 1.5em;
+		color: white;
+		text-shadow: 2px 2px 1px lightgrey;
 	}
 	.portfolio-image .portfolio-block-image_1 {
 		float: left;
