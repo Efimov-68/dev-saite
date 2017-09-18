@@ -505,17 +505,17 @@ body {
 		padding-left: 50px;
 		height: auto;
 	}
-	.reviews {
+	#reviews {
 		float: right;
 		margin-top: 0;
 		width: 22%;
 		height: auto;
 		background-color: rgba(0,0,20, .25) !important;
 	}
-	.reviews h1 {
+	#reviews h1 {
 		font-size: 2.5em;
 	}
-	.reviews img {
+	#reviews img {
 		height: auto;
 		width: 100%;
 	}
@@ -563,6 +563,10 @@ body {
 	.footer-list-service_2 a:hover,
 	.footer-list-service_3 a:hover {
 		color: grey;
+	}
+	.footer-list-service_1 img {
+		width: 30px;
+		padding-right: 5px; 
 	}
 	/*** end FOOTER
 	-------------------- ***/
@@ -1064,20 +1068,20 @@ code STYLE @media (min-width: 1921px) (max-width: 2149px;) */
 		padding-left: 50px;
 		height: auto;
 	}
-	.reviews {
+	#reviews {
 		float: right;
 		margin-top: 0;
 		width: 22%;
 		height: auto;
 		background-color: rgba(0,0,20, .25) !important;
 	}
-	.reviews h1 {
+	#reviews h1 {
 		font-size: 2em;
 	}
-	.reviews h2 {
+	#reviews h2 {
 		font-size: 1.5em;
 	}
-	.reviews img {
+	#reviews img {
 		height: auto;
 		width: 100%;
 	}
@@ -1125,6 +1129,10 @@ code STYLE @media (min-width: 1921px) (max-width: 2149px;) */
 	.footer-list-service_2 a:hover,
 	.footer-list-service_3 a:hover {
 		color: grey;
+	}
+	.footer-list-service_1 img {
+		width: 30px;
+		padding-right: 5px; 
 	}
 	/*** end FOOTER
 	-------------------- ***/
@@ -1637,20 +1645,20 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		padding-left: 50px;
 		height: auto;
 	}
-	.reviews {
+	#reviews {
 		float: right;
 		margin-top: 5%;
-		width: 22%;
+		width: 32%;
 		height: auto;
 		background-color: rgba(0,0,20, .25) !important;
 	}
-	.reviews h1 {
-		font-size: 1.8em;
+	#reviews h1 {
+		font-size: 1.5em;
 	}
-	.reviews h2 {
-		font-size: 1.3em;
+	#reviews h2 {
+		font-size: 1.2em;
 	}
-	.reviews img {
+	#reviews img {
 		height: auto;
 		width: 100%;
 	}
@@ -1692,12 +1700,16 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		list-style-type: none;
 		text-decoration: none;
 		line-height: 1.6em;
-		font-size: .9em;
+		font-size: 1em;
 	}
 	.footer-list-service_1 a:hover,
 	.footer-list-service_2 a:hover,
 	.footer-list-service_3 a:hover {
 		color: grey;
+	}
+	.footer-list-service_1 img {
+		width: 30px;
+		padding-right: 5px; 
 	}
 	/*** end FOOTER
 	-------------------- ***/
@@ -2207,20 +2219,20 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		padding-left: 50px;
 		height: auto;
 	}
-	.reviews {
+	#reviews {
 		float: right;
 		margin-top: 5%;
 		width: 25%;
 		height: auto;
 		background-color: rgba(0,0,20, .25) !important;
 	}
-	.reviews h1 {
+	#reviews h1 {
 		font-size: 1.5em;
 	}
-	.reviews h2 {
+	#reviews h2 {
 		font-size: 1.1em;
 	}
-	.reviews img {
+	#reviews img {
 		height: auto;
 		width: 100%;
 	}
@@ -2268,6 +2280,10 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	.footer-list-service_2 a:hover,
 	.footer-list-service_3 a:hover {
 		color: grey;
+	}
+	.footer-list-service_1 img {
+		width: 30px;
+		padding-right: 5px; 
 	}
 	/*** end FOOTER
 	--------------------
@@ -2780,24 +2796,24 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		padding-left: 50px;
 		height: auto;
 	}
-	.reviews {
+	#reviews {
 		float: right;
 		margin-top: 5%;
 		width: 25%;
 		height: auto;
 		background-color: rgba(0,0,20, .25) !important;
 	}
-	.reviews h1 {
+	#reviews h1 {
 		font-size: 1.2em;
 	}
-	.reviews h2 {
+	#reviews h2 {
 		font-size: 1.1em;
 	}
-	.reviews img {
+	#reviews img {
 		height: auto;
 		width: 100%;
 	}
-	.reviews p {
+	#reviews p {
 		font-size: .9em;
 	}
 	/*** ---------------
@@ -2844,6 +2860,10 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 	.footer-list-service_2 a:hover,
 	.footer-list-service_3 a:hover {
 		color: grey;
+	}
+	.footer-list-service_1 img {
+		width: 30px;
+		padding-right: 5px; 
 	}
 	/*** end FOOTER
 	-------------------- ***/
@@ -3316,26 +3336,26 @@ code STYLE @media (min-width: 481px) (max-width: 768px;) ***/
 		padding-left: 20px;
 		height: auto;
 	}
-	.reviews {
+	#reviews {
 		float: right;
 		margin-top: 5%;
 		width: 40%;
 		height: auto;
 		background-color: rgba(0,0,20, .25) !important;
 	}
-	.reviews h1 {
+	#reviews h1 {
 		font-size: 1em;
 		padding: 0 10px;
 	}
-	.reviews h2 {
+	#reviews h2 {
 		font-size: 1em;
 		padding: 0 10px;
 	}
-	.reviews img {
+	#reviews img {
 		height: auto;
 		width: 100%;
 	}
-	.reviews p {
+	#reviews p {
 		font-size: .9em;
 		padding: 0 10px;
 	}
@@ -3381,6 +3401,10 @@ code STYLE @media (min-width: 481px) (max-width: 768px;) ***/
 	.footer-list-service_3 a:hover {
 		color: grey;
 	}
+	.footer-list-service_1 img {
+		width: 30px;
+		padding-right: 5px; 
+	}
 	/*** end FOOTER
 	-------------------- ***/
 
@@ -3389,7 +3413,7 @@ code STYLE @media (min-width: 481px) (max-width: 768px;) ***/
 code STYLE @media (max-width: 480px) */
 @media all and (max-width: 480px){
 	.menuLogo {
-		display: block;
+		display: none;
 		position: fixed;
 		-moz-transform:scale(1.1);
 		height: 40px;
@@ -3857,26 +3881,26 @@ code STYLE @media (max-width: 480px) */
 		padding: 0 10px;
 		height: auto;
 	}
-	.reviews {
+	#reviews {
 		display: none;
 		position: absolute;
 		width: 40%;
 		height: auto;
 		background-color: rgba(0,0,20, .25) !important;
 	}
-	.reviews h1 {
+	#reviews h1 {
 		font-size: 1em;
 		padding: 0 10px;
 	}
-	.reviews h2 {
+	#reviews h2 {
 		font-size: 1em;
 		padding: 0 10px;
 	}
-	.reviews img {
+	#reviews img {
 		height: auto;
 		width: 100%;
 	}
-	.reviews p {
+	#reviews p {
 		font-size: .9em;
 		padding: 0 10px;
 	}
@@ -3920,6 +3944,10 @@ code STYLE @media (max-width: 480px) */
 	.footer-list-service_2 a:hover,
 	.footer-list-service_3 a:hover {
 		color: grey;
+	}
+	.footer-list-service_1 img {
+		width: 30px;
+		padding-right: 5px; 
 	}
 	/*** end FOOTER
 	-------------------- ***/
