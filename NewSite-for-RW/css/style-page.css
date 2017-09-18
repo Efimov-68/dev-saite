@@ -302,7 +302,7 @@
 	}
 	.standartInternet-block > div.footer-list {
 		position: relative;
-		margin-top: 250%;
+		margin-top: 4900px;
 		bottom: 0;
 		left: 0;
 		right: 0;
@@ -427,14 +427,14 @@
 		margin-top: 520px;
 	}
 	.reviews-h2 {
-		margin-top: 200px;
-		margin-left: 0%;
+		margin-top: 350px;
+		margin-left: 0;
 	}
 	.reviews_1 {
 		float: left;
 		width: 400px;
 		height: 450px;
-		margin-left: 10%;
+		margin-left: 15%;
 		padding: 20px;
 		font-size: 14px;
 		border: 1px solid grey;
