@@ -12,9 +12,11 @@ body {
 /*code @media all (min-width: 2150px)
 -----------------------------------*/
 @media all and (min-width: 2150px){
-	.menuLogo {
+	.menuLogo1,
+	.menuLogo2 {
 		display: none;
 	}
+	#header {display:none;}
 	header {
 		background-color: rgba(0,0,0, .4) !important;
 		position: fixed;
@@ -653,9 +655,11 @@ body {
 ----------------------------------------------
 code STYLE @media (min-width: 1921px) (max-width: 2149px;) */
 @media all and (min-width: 1921px) and (max-width: 2149px){	
-	.menuLogo {
+	.menuLogo1,
+	.menuLogo2 {
 		display: none;
 	}
+	#header {display:none;}
 	header {
 		background-color: rgba(0,0,0, .4) !important;
 		position: fixed;
@@ -1296,9 +1300,11 @@ code STYLE @media (min-width: 1921px) (max-width: 2149px;) */
 ------------------------------------------------------------------
 code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 @media all and (min-width: 1321px) and (max-width: 1920px){
-	.menuLogo {
+	.menuLogo1,
+	.menuLogo2 {
 		display: none;
 	}
+	#header {display:none;}
 	header {
 		background-color: rgba(0,0,0, .4) !important;
 		position: fixed;
@@ -1952,9 +1958,11 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 ------------------------------------------------------------------
 code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 @media all and (min-width: 1025px) and (max-width: 1320px){
-	.menuLogo {
+	.menuLogo1,
+	.menuLogo2 {
 		display: none;
 	}
+	#header {display:none;}
 	header {
 		background-color: rgba(0,0,0, .4) !important;
 		position: fixed;
@@ -2053,6 +2061,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		border: 0px solid white;
 		background-color: green;
 		cursor: pointer;
+		color: grey;
 	}
 	.nav-submit input:hover {
 		background-color: lightgreen !important;
@@ -2174,7 +2183,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	.product-bar_1 {
 		max-width: 42%;
 		width: auto;
-		height: 360px;
+		height: auto;
 		padding: 0px 30px;
 		background-color: rgb(0,0,35);
 		border-bottom: 10px solid lightblue;
@@ -2209,7 +2218,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	.product-bar_2 {
 		max-width: 28%;
 		width: auto;
-		height: 360px;
+		height: auto;
 		padding: 0px 30px;
 		background-color: rgb(0,0,45);
 		border-bottom: 10px solid darkorange;
@@ -2223,7 +2232,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	.product-bar_3 {
 		max-width: 26%;
 		width: auto;
-		height: 360px;
+		height: auto;
 		padding: 0px 10px;
 		background-color: rgb(0,0,55);
 		border-bottom: 10px solid pink;
@@ -2605,23 +2614,60 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 ------------------------------------------------------------------
 code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 @media all and (min-width: 769px) and (max-width: 1024px){
-	.menuLogo {
-		display: none;
+	.menuLogo1 {
+		display: block;
+		float: left;
+		margin: 0 auto;
+		height: 70px;
+		cursor: pointer;
 	}
-	header {
-		background-color: rgba(0,0,0, .4) !important;
+	.menuLogo2 {
+		display: block;
+		float: left;
+		margin: 0 auto;
+		height: 70px;
+		cursor: pointer;
+	}
+	header {display:none;}
+	#header {
+		background-color: rgb(0,0,55);
 		position: fixed;
-		top: 0;
 		left: 0;
-		right: auto;
-		bottom: 0;
+		top: 0;
+		right: 0;
+		bottom: auto;
 		width: auto;
+	}
+	.nav-contacts-topBar {
+		list-style-type: none;
+		position: absolute;
+		top: 0;
+		right: 5%;
+	}
+	.nav-topBar-phone{
+		font-size: 14px;
+	}
+	.nav-contacts-phone-grey {
+		color: grey;
+	}
+	.nav-contacts-phone-lightgrey {
+		color: lightgrey;
+	}
+	.nav-contacts-callback a {
+		color: darkred;
+		font-size: 12px;
+		text-decoration: none;
+	}
+	.nav-contacts-callback a:hover {
+		color: red;
+		border-bottom: 1px dashed red;
 	}
 	/*** -----------
 		HEADER nav 
 	-------------***/
 	.nav {
 		display: none;
+		background-color: rgb(0,0,15);
 		font-size: 18px;
 	}
 	.nav ul {
@@ -2634,7 +2680,9 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 	}
 	
 	.nav-print-logo {
-		margin: 10px 20px;
+		position: relative;
+		left: 35%;
+		right: auto;
 	}
 	.nav-print-logo img {
 		height: 60px;
@@ -2707,9 +2755,11 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		border: 0px solid white;
 		background-color: green;
 		cursor: pointer;
+		color: lightgrey;
 	}
 	.nav-submit input:hover {
 		background-color: lightgreen !important;
+		color: grey;
 	}
 	/*** \end HEADER nav 
 	--------------------***/
@@ -2795,7 +2845,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 	}
 	.product-block {
 		position: absolute;
-		top: 0;
+		top: 12%;
 		left: 0;
 		right: 0;
 		bottom: 0;
@@ -2828,7 +2878,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 	.product-bar_1 {
 		max-width: 40%;
 		width: auto;
-		height: 580px;
+		height: auto;
 		padding: 0px 30px;
 		background-color: rgb(0,0,35);
 		border-bottom: 10px solid lightblue;
@@ -2863,7 +2913,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 	.product-bar_2 {
 		max-width: 26%;
 		width: auto;
-		height: 580px;
+		height: auto;
 		padding: 0px 30px;
 		background-color: rgb(0,0,45);
 		border-bottom: 10px solid darkorange;
@@ -2877,7 +2927,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 	.product-bar_3 {
 		max-width: 26%;
 		width: auto;
-		height: 580px;
+		height: auto;
 		padding: 0px 15px;
 		background-color: rgb(0,0,55);
 		border-bottom: 10px solid pink;
@@ -2917,7 +2967,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		PORTFOLIO-TEXT ***/
 	.portfolio {
 		position: absolute;
-		top: 80%;
+		top: 100%;
 		left: 0;
 		right: 0;
 		bottom: 0;
@@ -3210,7 +3260,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 
 	.footer-list {
 		height: 350px;
-		margin-top: 30%;
+		margin-top: 70%;
 		margin-left: auto;
 		margin-right: auto;
 		background-color: rgba(0,0,15, .85);
@@ -3260,17 +3310,53 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 -------------------------------------------------------
 code STYLE @media (min-width: 481px) (max-width: 768px;) ***/
 @media all and (min-width: 481px) and (max-width: 768px){
-	.menuLogo {
-		display: none;
+	.menuLogo1 {
+		display: block;
+		float: left;
+		margin: 0 auto;
+		height: 70px;
+		cursor: pointer;
 	}
-	header {
-		background-color: rgba(0,0,0, .4) !important;
+	.menuLogo2 {
+		display: block;
+		float: left;
+		margin: 0 auto;
+		height: 70px;
+		cursor: pointer;
+	}
+	header {display:none;}
+	#header {
+		background-color: rgb(0,0,55);
 		position: fixed;
-		top: 0;
 		left: 0;
-		right: auto;
-		bottom: 0;
+		top: 0;
+		right: 0;
+		bottom: auto;
 		width: auto;
+	}
+	.nav-contacts-topBar {
+		list-style-type: none;
+		position: absolute;
+		top: 0;
+		right: 5%;
+	}
+	.nav-topBar-phone{
+		font-size: 14px;
+	}
+	.nav-contacts-phone-grey {
+		color: grey;
+	}
+	.nav-contacts-phone-lightgrey {
+		color: lightgrey;
+	}
+	.nav-contacts-callback a {
+		color: darkred;
+		font-size: 12px;
+		text-decoration: none;
+	}
+	.nav-contacts-callback a:hover {
+		color: red;
+		border-bottom: 1px dashed red;
 	}
 	/*** -----------
 		HEADER nav 
@@ -3450,7 +3536,7 @@ code STYLE @media (min-width: 481px) (max-width: 768px;) ***/
 	}
 	.product-block {
 		position: absolute;
-		top: 0;
+		top: 12%;
 		left: 0;
 		right: 0;
 		bottom: 0;
@@ -3550,7 +3636,7 @@ code STYLE @media (min-width: 481px) (max-width: 768px;) ***/
 	----------------------
 		PORTFOLIO-TEXT ***/
 	.portfolio {
-		margin-top: 1050px;
+		margin-top: 1150px;
 		color: white;
 	}
 	.portfolio-block-text {
@@ -3877,22 +3963,53 @@ code STYLE @media (min-width: 481px) (max-width: 768px;) ***/
 ------------------------------------------------------------------
 code STYLE @media (max-width: 480px) */
 @media all and (max-width: 480px){
-	.menuLogo {
-		display: none;
-		position: fixed;
-		-moz-transform:scale(1.1);
-		height: 40px;
-		box-shadow: 5px 2px 5px black;
-
+	.menuLogo1 {
+		display: block;
+		float: left;
+		margin: 0 auto;
+		height: 70px;
+		cursor: pointer;
 	}
-	header {
-		background-color: rgba(0,0,0, .4) !important;
+	.menuLogo2 {
+		display: block;
+		float: left;
+		margin: 0 auto;
+		height: 70px;
+		cursor: pointer;
+	}
+	header {display:none;}
+	#header {
+		background-color: rgb(0,0,55);
 		position: fixed;
-		top: 0;
 		left: 0;
-		right: auto;
-		bottom: 0;
+		top: 0;
+		right: 0;
+		bottom: auto;
 		width: auto;
+	}
+	.nav-contacts-topBar {
+		list-style-type: none;
+		position: absolute;
+		top: 0;
+		right: 5%;
+	}
+	.nav-topBar-phone{
+		font-size: 14px;
+	}
+	.nav-contacts-phone-grey {
+		color: grey;
+	}
+	.nav-contacts-phone-lightgrey {
+		color: lightgrey;
+	}
+	.nav-contacts-callback a {
+		color: darkred;
+		font-size: 12px;
+		text-decoration: none;
+	}
+	.nav-contacts-callback a:hover {
+		color: red;
+		border-bottom: 1px dashed red;
 	}
 	/*** -----------
 		HEADER nav 
@@ -4072,7 +4189,7 @@ code STYLE @media (max-width: 480px) */
 	}
 	.product-block {
 		position: absolute;
-		top: 0;
+		top: 12%;
 		left: 0;
 		right: 0;
 		bottom: 0;
@@ -4172,7 +4289,7 @@ code STYLE @media (max-width: 480px) */
 	----------------------
 		PORTFOLIO-TEXT ***/
 	.portfolio {
-		margin-top: 1200px;
+		margin-top: 1300px;
 		color: white;
 	}
 	.portfolio-block-text {
