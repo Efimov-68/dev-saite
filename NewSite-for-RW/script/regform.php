@@ -4,42 +4,59 @@
 	<meta charset="utf-8">
 	<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
 	<meta http-equiv="refresh" content="1; url=http://rabbitweb.ru">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style-menu_form.css">
+	<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../js/jquery-ui-min.js"></script>
+	<script type="text/javascript" src="../js/script.js"></script>
 	<title>Отправка формы запроса</title>
 </head>
 <body>
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+		(function (d, w, c) { (w[c] = w[c] || []).push(function() {
+			try { w.yaCounter45201630 = new Ya.Metrika({ id:45201630, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true });
+		}
+		catch(e) { } });
+		var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () {
+			n.parentNode.insertBefore(s, n); };
+			s.type = "text/javascript";
+			s.async = true;
+			s.src = "https://mc.yandex.ru/metrika/watch.js";
+			if (w.opera == "[object Opera]") {
+				d.addEventListener("DOMContentLoaded", f, false); 
+			} else { f(); }
+		})(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/45201630" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 	<?php
-		$name = $_GET['fio'];
-		$phone = $_GET['number'];
-		$email = $_GET['email'];
-		$city = $_GET['city'];
-		$services_1 = $_GET['order1'];
-		$services_2 = $_GET['order2'];
-		$services_3 = $_GET['order3'];
-		$services_4 = $_GET['order4'];
-		$services_5 = $_GET['order5'];
-		$services_6 = $_GET['order6'];
-		$services_7 = $_GET['order7'];
-		$services_8 = $_GET['order8'];
-		$services_9 = $_GET['order9'];
-		$services_10 = $_GET['order10'];
+		$lastname = $_GET['lastname'];
+		$phone = $_GET['phone'];
+		$email = $_GET['email-address'];
+		$comments = $_GET['comments'];
+		$file = $_GET['file'];
+		$personalForm = $_GET['checkbox-form-personal'];
 
 		$to = 'office@rabbitweb.ru';
 		$subject = 'Сообщение с сайта';
-		$msg = "Ф.И.О.: $name\n".
+		$msg = "Имя: $lastname\n".
 			"Телефон: $phone\n".
 			"E-mail: $email\n".
-			"Город: $city\n".
-			"Создать сайт: $services_1\n".
-			"(Re:)Дизайн: $services_2\n".
-			"Продвижение: $services_3\n".
-			"Доп. услуги: $services_4\n".
-			"Сайт-визитка: $services_5\n".
-			"Промо: $services_6\n".
-			"Сайт каталог: $services_7\n".
-			"Landing: $services_8\n".
-			"Корпоративный сайт: $services_9\n".
-			"Интернет-магазин: $services_10";
+			"Комментарий: $comments\n".
+			"Файл: $file\n".
+			"Соглашение\nс обрадоткой данных: $personalForm\n";
 		mail($to, $subject, $msg, 'From: ' . $email);
 	?>
+	<!-- VK Widget -->
+	<div id="vk_allow_messages_from_community"></div>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-100353469-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 </body>
 </html>
