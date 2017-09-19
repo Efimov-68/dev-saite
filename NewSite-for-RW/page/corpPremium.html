@@ -9,9 +9,9 @@
 	<link rel="stylesheet" type="text/css" href="../css/style-page.css">
 	<meta name="yandex-verification" content="bda78fed8aa33164" />
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
-	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery-ui-min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../js/jquery-ui-min.js"></script>
+	<script type="text/javascript" src="../js/script.js"></script>
 	<title>КОРПОРАТИВНЫЙ (ПРЕМИУМ)</title>
 </head>
 <body>
@@ -60,9 +60,23 @@
 				<li>РФ, г.Москва, ул.Салтыковская д.15</li>
 				<!--li><a href="#">Схема проезда</a></li-->
 			</ul>
-			<form action="script/main-order.php" method="GET" class="nav-order-submit">
-				<input type="submit" name="order" value="Заказать сайт">
-			</form>
+			<div class="nav-submit">
+				<input type="button" name="order" value="Заказать сайт">
+			</div>
+			<div class="nav-submit-form">
+				<img src="">
+				<h2>Оставьте нам заявку и мы свяжемся с вами в ближайшее время</h2>
+				<form action="script/main-order.php" method="GET">
+					<input type="text" name="lastname" required placeholder="Ваше имя*" tabindex="1">
+					<input type="tel" name="phone" required placeholder="Телефон*" tabindex="2">
+					<input type="email" name="email-address" required placeholder="E-mail*" tabindex="3">
+					<textarea name="comments" class="textarea-comments-form" placeholder="Напишите комментарий"></textarea>
+					<input type="file" name="" class="submit-file">
+					<p class="checkbox-form"><input type="checkbox" name="checkbox-form-personal" required tabindex="4">
+					Я даю свое согласие на обработку персональных данных в объеме, внесенном мной в форму, размещенную выше, в соответствии с условиями, изложенными в <a href="">Согласии на обработку персональных данных</a> и <a href="#">Политике в отношении обработки и обеспечения защиты персональных данных</a></p>
+					<input type="submit" value="Отправить" class="submit-form-menu">
+				</form>
+			</div>
 		</div>
 	</header>
 	<div id="corpPremium">

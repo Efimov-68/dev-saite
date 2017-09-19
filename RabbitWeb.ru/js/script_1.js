@@ -253,7 +253,8 @@ $(document).ready(function() {
   $('a[href^="http://"]').attr('target','_blank');
   
   //position resources panel on screen
-  $('#resources').show().delay(500).animate({ left : '-25em' }, 250).animate({left:'-29em'},250);
+  $('#resources').show().delay(500).animate({
+    left : '-25em' }, 250).animate({left:'-29em'},250);
   
   // resources panel
   var panel=false;

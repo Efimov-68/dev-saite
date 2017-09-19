@@ -100,7 +100,7 @@ body {
 		line-height: 1em;
 	}
 	
-	.nav-order-submit input {
+	.nav-submit input {
 		position: absolute;
 		bottom: 0;
 		left: 0;
@@ -113,13 +113,89 @@ body {
 		border-radius: 5px 5px 0 0;
 		border: 0px solid white;
 		background-color: green;
+		cursor: pointer;
 	}
-	.nav-order-submit input:hover {
+	.nav-submit input:hover {
 		background-color: lightgreen !important;
 	}
 	/*** \end HEADER nav 
-	--------------------
-		PRODUCT ***/
+	-------------------- ***/
+	.nav-submit-form {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+		background-color: rgba(0,0,15);
+	}
+	.nav-submit-form img {
+		float: right;
+		height: 40px;
+		border-radius: 0 10px;
+		cursor: pointer;
+	}
+	.nav-submit-form h2 {
+		color: grey;
+		margin-top: 0;
+		padding: 0px 10px;
+	}
+	.nav-submit-form form {
+		padding: 0 10px;
+	}
+	.nav-submit-form a:hover {
+		color: grey;
+		text-decoration: none;
+	}
+	.nav-submit-form input {
+		margin-top: 10px;
+		padding-left: 5px;
+		width: 95%;
+		height: 30px;
+		color: lightgrey;
+		border: 2px solid white;
+		background-color: rgb(0,0,15);
+	}
+	.textarea-comments-form {
+		margin-top: 10px;
+		width: 93%;
+		height: 100px;
+		background-color: rgb(0,0,15);
+		color: white;
+		border:2px solid white;
+		padding: 5px;
+	}
+	input.submit-file {
+		border:none;
+	}
+	.checkbox-form {
+		color: lightgrey;
+		font-size: .8em;
+		margin-top: 10px;
+	}
+	.checkbox-form input {
+		width: 0px;
+		margin-left: auto;
+	}
+	.checkbox-form a {
+		color: lightgrey;
+		font-size: .85em;
+	}
+	input.submit-form-menu {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: 50px;
+		color: lightgrey;
+		font-size: 1.5em;
+		border: 0 solid white;
+		background-color: green;
+	}
+	input.submit-form-menu:hover {
+		background-color: lightgreen;
+		color: grey;
+	}
+	/*** ---PRODUCT--- ***/
 	.allContent {
 		width: auto;
 	}
@@ -270,6 +346,7 @@ body {
 		background-image: url(../image/portfolio-fon2.png);
 		background-repeat: no-repeat;
 		background-position: center;
+		opacity: 0.75;
 	}
 	.portfolio-image .portfolio-block-image_2 h1 {
 		font-size: 3em;
@@ -664,7 +741,7 @@ code STYLE @media (min-width: 1921px) (max-width: 2149px;) */
 		line-height: 1.3em;
 	}
 	
-	.nav-order-submit input {
+	.nav-submit input {
 		position: absolute;
 		bottom: 0;
 		left: 0;
@@ -676,8 +753,9 @@ code STYLE @media (min-width: 1921px) (max-width: 2149px;) */
 		padding-right: 11%;
 		border: 0px solid white;
 		background-color: green;
+		cursor: pointer;
 	}
-	.nav-order-submit input:hover {
+	.nav-submit input:hover {
 		background-color: lightgreen !important;
 	}
 	/*** \end HEADER nav 
@@ -1230,7 +1308,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		line-height: 1.3em;
 	}
 	
-	.nav-order-submit input {
+	.nav-submit input {
 		position: absolute;
 		bottom: 0;
 		left: 0;
@@ -1243,8 +1321,9 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 		border: 0px solid white;
 		background-color: green;
 		color: lightgrey;
+		cursor: pointer;
 	}
-	.nav-order-submit input:hover {
+	.nav-submit input:hover {
 		background-color: lightgreen !important;
 		color: grey;
 	}
@@ -1807,7 +1886,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		line-height: 1.3em;
 	}
 	
-	.nav-order-submit input {
+	.nav-submit input {
 		position: absolute;
 		bottom: 0;
 		left: 0;
@@ -1819,8 +1898,9 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 		padding-right: 11%;
 		border: 0px solid white;
 		background-color: green;
+		cursor: pointer;
 	}
-	.nav-order-submit input:hover {
+	.nav-submit input:hover {
 		background-color: lightgreen !important;
 	}
 	/*** \end HEADER nav 
@@ -2384,7 +2464,7 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		line-height: 1.3em;
 	}
 	
-	.nav-order-submit input {
+	.nav-submit input {
 		position: absolute;
 		bottom: 0;
 		left: 0;
@@ -2396,8 +2476,9 @@ code STYLE @media (min-width: 769px) (max-width: 1024px;) */
 		padding-right: 11%;
 		border: 0px solid white;
 		background-color: green;
+		cursor: pointer;
 	}
-	.nav-order-submit input:hover {
+	.nav-submit input:hover {
 		background-color: lightgreen !important;
 	}
 	/*** \end HEADER nav 
@@ -2962,7 +3043,7 @@ code STYLE @media (min-width: 481px) (max-width: 768px;) ***/
 		line-height: 1.3em;
 	}
 	
-	.nav-order-submit input {
+	.nav-submit input {
 		position: absolute;
 		bottom: 0;
 		left: 0;
@@ -2974,8 +3055,9 @@ code STYLE @media (min-width: 481px) (max-width: 768px;) ***/
 		padding-right: 11%;
 		border: 0px solid white;
 		background-color: green;
+		cursor: pointer;
 	}
-	.nav-order-submit input:hover {
+	.nav-submit input:hover {
 		background-color: lightgreen !important;
 	}
 	/*** \end HEADER nav 
@@ -3507,7 +3589,7 @@ code STYLE @media (max-width: 480px) */
 		line-height: 1.3em;
 	}
 	
-	.nav-order-submit input {
+	.nav-submit input {
 		position: absolute;
 		bottom: 0;
 		left: 0;
@@ -3519,8 +3601,9 @@ code STYLE @media (max-width: 480px) */
 		padding-right: 11%;
 		border: 0px solid white;
 		background-color: green;
+		cursor: pointer;
 	}
-	.nav-order-submit input:hover {
+	.nav-submit input:hover {
 		background-color: lightgreen !important;
 	}
 	/*** \end HEADER nav 
