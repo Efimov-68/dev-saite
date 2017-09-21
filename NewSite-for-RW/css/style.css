@@ -34,7 +34,7 @@ body {
 	}
 	.nav ul {
 		list-style-type: none;
-		padding: 20px;
+		padding-left: 20px;
 		line-height: 1.5em;
 	}
 	.nav p {
@@ -49,7 +49,9 @@ body {
 	}
 	
 	.nav-main {
-		border-top: 1px dashed black !important;	
+		border-top: 1px dashed black !important;		
+		padding-top: 20px;
+		margin-bottom: 0;
 	}
 	.nav-main a {
 		font-size: 1.1em;
@@ -63,6 +65,7 @@ body {
 	
 	.nav-main-service {
 		border-bottom: 1px dashed black !important;
+		padding-bottom: 20px;
 	}
 	.nav-main-service a {
 		font-size: 1.1em;
@@ -76,6 +79,7 @@ body {
 	
 	.nav-contacts {
 		border-bottom: 1px dashed black !important;
+		padding-bottom: 20px;
 	}
 	.nav-contacts-phone {
 		font-size: 21px;

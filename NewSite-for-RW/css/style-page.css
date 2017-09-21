@@ -45,14 +45,14 @@
 	.price-basic-block-h1 {
 		padding: 20px;
 		font-size: 1.3em;
+		background-color: rgba(0,0,15,.5);
 	}
 
 	.price-table table {
 		position: relative;
 		width: 98%;
 		border-spacing: 0;
-		margin-left: 20px;
-		margin-right: 20px;
+		margin: 2% 20px;
 	}
 
 	.price-table-th_1 th,
@@ -1658,14 +1658,14 @@
 	.price-basic-block-h1 {
 		padding: 20px;
 		font-size: 1.3em;
+		background-color: rgba(0,0,15,.5);
 	}
 
 	.price-table table {
 		position: relative;
 		width: 98%;
 		border-spacing: 0;
-		margin-left: 20px;
-		margin-right: 20px;
+		margin: 2% 20px;
 	}
 
 	.price-table-th_1 th,
@@ -3271,14 +3271,14 @@
 	.price-basic-block-h1 {
 		padding: 20px;
 		font-size: 1.3em;
+		background-color: rgba(0,0,15,.5);
 	}
 
 	.price-table table {
 		position: relative;
 		width: 96%;
 		border-spacing: 0;
-		margin-left: 20px;
-		margin-right: 20px;
+		margin: 2% 20px;
 	}
 
 	.price-table-th_1 th,
@@ -3446,7 +3446,7 @@
 	}
 	.liteStart-block > div.footer-list {
 		position: relative;
-		margin-top: 85%;
+		margin-top: 900px;
 		bottom: 0;
 		left: 0;
 		right: 0;
@@ -4882,14 +4882,14 @@
 	.price-basic-block-h1 {
 		padding: 20px;
 		font-size: 1.3em;
+		background-color: rgba(0,0,15,.5);
 	}
 
 	.price-table table {
 		position: relative;
 		width: 96%;
 		border-spacing: 0;
-		margin-left: 20px;
-		margin-right: 20px;
+		margin: 2% 20px;
 	}
 
 	.price-table-th_1 th,
@@ -5060,7 +5060,7 @@
 	}
 	.liteStart-block > div.footer-list {
 		position: relative;
-		margin-top: 85%;
+		margin-top: 900px;
 		font-size: 1em;
 	}
 
@@ -6502,14 +6502,14 @@
 	.price-basic-block-h1 {
 		padding: 20px;
 		font-size: 1.3em;
+		background-color: rgba(0,0,15,.5);
 	}
 
 	.price-table table {
 		position: relative;
 		width: 96%;
 		border-spacing: 0;
-		margin-left: 20px;
-		margin-right: 20px;
+		margin: 2% 20px;
 	}
 
 	.price-table-th_1 th,
@@ -6680,7 +6680,7 @@
 	}
 	.liteStart-block > div.footer-list {
 		position: relative;
-		margin-top: 85%;
+		margin-top: 900px;
 		font-size: 1em;
 	}
 
@@ -8123,14 +8123,14 @@
 	.price-basic-block-h1 {
 		padding: 20px;
 		font-size: 1.3em;
+		background-color: rgba(0,0,15,.5);
 	}
 
 	.price-table table {
 		position: relative;
 		width: 96%;
 		border-spacing: 0;
-		margin-left: 20px;
-		margin-right: 20px;
+		margin: 2% 20px;
 	}
 
 	.price-table-th_1 th,
@@ -8301,7 +8301,7 @@
 	}
 	.liteStart-block > div.footer-list {
 		position: relative;
-		margin-top: 85%;
+		margin-top: 1000px;
 		font-size: 1em;
 	}
 
@@ -9744,14 +9744,14 @@
 	.price-basic-block-h1 {
 		padding: 20px;
 		font-size: 1.3em;
+		background-color: rgba(0,0,15,.5);
 	}
 
 	.price-table table {
 		position: relative;
 		width: 96%;
 		border-spacing: 0;
-		margin-left: 0px;
-		margin-right: 0px;
+		margin-left: 2% 0px;
 	}
 
 	.price-table-th_1 th,
