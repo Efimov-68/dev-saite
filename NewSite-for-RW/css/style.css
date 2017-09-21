@@ -1914,7 +1914,7 @@ code STYLE @media (min-width: 1321px) (max-width: 1920px;) */
 	----------------***/
 
 	.footer-list {
-		height: 480px;
+		height: 430px;
 		margin-top: 550px;
 		margin-left: auto;
 		margin-right: auto;
@@ -1982,12 +1982,9 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	/*** -----------
 		HEADER nav 
 	-------------***/
-	.nav {
-		font-size: 18px;
-	}
 	.nav ul {
 		list-style-type: none;
-		padding: 10px;
+		padding-left: 5px;
 		line-height: 1.5em;
 	}
 	.nav p {
@@ -1995,14 +1992,15 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	}
 	
 	.nav-print-logo {
-		margin: 10px 20px;
+		margin: 5px 20px;
 	}
 	.nav-print-logo img {
 		height: 60px;
 	}
 	
 	.nav-main {
-		border-top: 1px dashed black !important;	
+		border-top: 1px dashed black !important;
+		padding-top: 7px;	
 	}
 	.nav-main a {
 		font-size: .7em;
@@ -2016,10 +2014,11 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	
 	.nav-main-service {
 		border-bottom: 1px dashed black !important;
+		padding-bottom: 7px;
 	}
 	.nav-main-service a {
 		font-size: .7em;
-		line-height: 1.4em;
+		line-height: 1.2em;
 		color: white !important;
 		text-decoration: none !important;
 	}
@@ -2029,15 +2028,15 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	
 	.nav-contacts {
 		border-bottom: 1px dashed black !important;
-	}
-	.nav-contacts-phone {
-		font-size: 14px;
+		padding-bottom: 7px;
 	}
 	.nav-contacts-phone-grey {
 		color: grey;
+		font-size: .8em;
 	}
 	.nav-contacts-phone-lightgrey {
 		color: lightgrey;
+		font-size: .9em;
 	}
 	.nav-contacts-callback a {
 		color: darkred;
@@ -2182,7 +2181,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	.product-block .product-bar_3 {
 		position: absolute;
 		top: 0;
-		left: 79%;
+		left: 72%;
 		right: 0;
 		bottom: 0;
 	}
@@ -2223,7 +2222,7 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	}
 
 	.product-bar_2 {
-		max-width: 28%;
+		max-width: 21%;
 		width: auto;
 		height: auto;
 		padding: 0px 30px;
@@ -2237,10 +2236,10 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	}
 
 	.product-bar_3 {
-		max-width: 26%;
+		max-width: 36%;
 		width: auto;
 		height: auto;
-		padding: 0px 10px;
+		padding: 0px 15px;
 		background-color: rgb(0,0,55);
 		border-bottom: 10px solid pink;
 	}
@@ -2569,8 +2568,9 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	----------------***/
 
 	.footer-list {
-		height: 480px;
-		margin-top: 540px;
+		height: 400px;
+		width: 100%;
+		margin-top: 500px;
 		margin-left: auto;
 		margin-right: auto;
 		background-color: rgba(0,0,15, .85);
@@ -2578,16 +2578,22 @@ code STYLE @media (min-width: 1025px) (max-width: 1320px;) */
 	.footer-list-service_1 {
 		float: left;
 		padding: 5px;
+		width: 400px;
 	}
 	.footer-list-service_2 {
 		float: left;
-		margin-left: 1%;
+		width: auto;
+		margin-top: -398px;
+		margin-left: 480px;
+		width: 250px;
 		padding: 5px;
 	}
 	.footer-list-service_3 {
 		float: left;
-		margin-left: 1%;
+		margin-top: -258px;
+		margin-left: 480px;
 		padding: 5px;
+		width: 300px;
 	}
 	
 	.footer-list-service_1 span {color: orange;}
@@ -3975,14 +3981,14 @@ code STYLE @media (max-width: 480px) */
 		display: block;
 		float: left;
 		margin: 0 auto;
-		height: 70px;
+		height: 60px;
 		cursor: pointer;
 	}
 	.menuLogo2 {
 		display: block;
 		float: left;
 		margin: 0 auto;
-		height: 70px;
+		height: 60px;
 		cursor: pointer;
 	}
 	header {display:none;}
@@ -3992,7 +3998,6 @@ code STYLE @media (max-width: 480px) */
 		left: 0;
 		top: 0;
 		right: 0;
-		bottom: auto;
 		width: auto;
 	}
 	.nav-contacts-topBar {
@@ -4024,12 +4029,11 @@ code STYLE @media (max-width: 480px) */
 	-------------***/
 	.nav {
 		display: none;
-		font-size: 18px;
 	}
 	.nav ul {
 		list-style-type: none;
-		padding: 10px;
-		line-height: 1.5em;
+		padding-left: 10px;
+		line-height: 1.2em;
 	}
 	.nav p {
 		color: rgba(255,255,255, .2) !important;
@@ -4043,10 +4047,11 @@ code STYLE @media (max-width: 480px) */
 	}
 	
 	.nav-main {
-		border-top: 1px dashed black !important;	
+		border-top: 1px dashed black !important;
+		padding-top: 5px;
 	}
 	.nav-main a {
-		font-size: .7em;
+		font-size: .9em;
 		line-height: 1.4em;
 		color: white !important;
 		text-decoration: none !important;
@@ -4057,9 +4062,10 @@ code STYLE @media (max-width: 480px) */
 	
 	.nav-main-service {
 		border-bottom: 1px dashed black !important;
+		padding-bottom: 5px;
 	}
 	.nav-main-service a {
-		font-size: .7em;
+		font-size: .9em;
 		line-height: 1.4em;
 		color: white !important;
 		text-decoration: none !important;
@@ -4070,9 +4076,10 @@ code STYLE @media (max-width: 480px) */
 	
 	.nav-contacts {
 		border-bottom: 1px dashed black !important;
+		padding-bottom: 5px;
 	}
 	.nav-contacts-phone {
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.nav-contacts-phone-grey {
 		color: grey;
@@ -4094,10 +4101,12 @@ code STYLE @media (max-width: 480px) */
 		color: grey;
 		font-size: 10px;
 		line-height: 1.3em;
+		margin-bottom: 10%;
 	}
 	
 	.nav-submit input {
-		position: absolute;
+		position: relative;
+		top: 100%;
 		bottom: 0;
 		left: 0;
 		right: 0;
@@ -4120,7 +4129,8 @@ code STYLE @media (max-width: 480px) */
 		top: 0;
 		bottom: 0;
 		width: 100%;
-		background-color: rgba(0,0,15);
+		height: 100%;
+		background-color: #000000;
 	}
 	.nav-submit-form img {
 		float: right;
@@ -4130,7 +4140,9 @@ code STYLE @media (max-width: 480px) */
 	}
 	.nav-submit-form h2 {
 		color: grey;
+		line-height: 1.2em;
 		margin-top: 0;
+		margin-bottom: -2px;
 		padding: 0px 10px;
 	}
 	.nav-submit-form form {
@@ -4141,19 +4153,19 @@ code STYLE @media (max-width: 480px) */
 		text-decoration: none;
 	}
 	.nav-submit-form input {
-		margin-top: 10px;
+		margin-top: 5px;
 		padding-left: 5px;
 		width: 95%;
 		height: 30px;
 		color: lightgrey;
 		border: 2px solid white;
-		background-color: rgb(0,0,15);
+		background-color: #000000;
 	}
 	.textarea-comments-form {
 		margin-top: 10px;
 		width: 93%;
 		height: 100px;
-		background-color: rgb(0,0,15);
+		background-color: #000000;
 		color: white;
 		border:2px solid white;
 		padding: 5px;
@@ -4164,10 +4176,9 @@ code STYLE @media (max-width: 480px) */
 	.checkbox-form {
 		color: lightgrey;
 		font-size: .8em;
-		margin-top: 10px;
 	}
 	.checkbox-form input {
-		width: 0px;
+		width: 10px;
 		margin-left: auto;
 	}
 	.checkbox-form a {
@@ -4175,14 +4186,15 @@ code STYLE @media (max-width: 480px) */
 		font-size: .85em;
 	}
 	input.submit-form-menu {
-		position: absolute;
+		position: relative;
+		top: 100%;
 		left: 0;
 		right: 0;
 		bottom: 0;
 		width: 100%;
 		height: 50px;
 		color: lightgrey;
-		font-size: 1.5em;
+		font-size: 1.3em;
 		border: 0 solid white;
 		background-color: green;
 	}

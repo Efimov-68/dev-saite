@@ -5142,11 +5142,7 @@
 		color: grey;
 	}
 	.standartInternet-block > div.footer-list {
-		position: relative;
-		margin-top: 490%;
-		bottom: 0;
-		left: 0;
-		right: 0;
+		margin-top: 5500px;
 	}
 
 	.standartInternet-info {
@@ -5165,6 +5161,7 @@
 	}
 
 	.standartInternet-table table {
+		display: none;
 		position: relative;
 		width: 96%;
 		height: 300px;
@@ -5266,31 +5263,31 @@
 	}
 	.reviews-p {
 		text-align: center;
-		margin-top: 650px;
+		margin-top: 780px;
 	}
 	.reviews_1 {
 		float: left;
-		width: 260px;
-		height: 530px;
-		margin-left: 3.5%;
+		width: 25%;
+		height: auto;
+		margin-left: 1%;
 		padding: 20px;
 		font-size: 14px;
 		border: 1px solid grey;
 	}
 	.reviews_2 {
 		float: left;
-		width: 260px;
-		height: 530px;
-		margin-left: 5%;
+		width: 25%;
+		height: auto;
+		margin-left: 2%;
 		padding: 20px;
 		font-size: 14px;
 		border: 1px solid grey;
 	}
 	.reviews_3 {
 		float: left;
-		width: 260px;
-		height: 530px;
-		margin-left: 5%;
+		width: 25%;
+		height: auto;
+		margin-left: 2%;
 		padding: 20px;
 		font-size: 14px;
 		border: 1px solid grey;
@@ -5359,11 +5356,7 @@
 		color: grey;
 	}
 	.premiumInternet-block > div.footer-list {
-		position: relative;
-		margin-top: 525%;
-		bottom: 0;
-		left: 0;
-		right: 0;
+		margin-top: 5800px;
 	}
 
 	.premiumInternet-info {
@@ -5382,6 +5375,7 @@
 	}
 
 	.premiumInternet-table table {
+		display: none;
 		position: relative;
 		width: 96%;
 		height: 300px;
@@ -5547,11 +5541,7 @@
 		color: grey;
 	}
 	.landingPage-block > div.footer-list {
-		position: relative;
-		margin-top: 240%;
-		bottom: 0;
-		left: 0;
-		right: 0;
+		margin-top: 2500px;
 	}
 
 	.landingPage-info {
@@ -5570,6 +5560,7 @@
 	}
 
 	.landingPage-table table {
+		display: none;
 		position: relative;
 		width: 96%;
 		height: 300px;
@@ -5713,7 +5704,7 @@
 		padding: 20px;
 		font-size: 1em;
 		width: 65%;
-		height: 220px;
+		height: 240px;
 		background-color: rgb(0,0,35);
 	}
 	.onePage-basic-block_2 {
@@ -5723,7 +5714,7 @@
 		padding: 20px;
 		font-size: 1em;
 		width: auto;
-		height: 215px;
+		height: 235px;
 		background-color: rgb(0,0,15);
 		border-top: 5px solid orange;
 	}
@@ -5735,11 +5726,7 @@
 		color: grey;
 	}
 	.onePage-block > div.footer-list {
-		position: relative;
-		margin-top: 300%;
-		bottom: 0;
-		left: 0;
-		right: 0;
+		margin-top: 3130px;
 	}
 
 	.onePage-info {
@@ -5758,6 +5745,7 @@
 	}
 
 	.onePage-table table {
+		display: none;
 		position: relative;
 		width: 96%;
 		height: 300px;
@@ -5924,11 +5912,7 @@
 		color: grey;
 	}
 	.corpStandard-block > div.footer-list {
-		position: relative;
-		margin-top: 330%;
-		bottom: 0;
-		left: 0;
-		right: 0;
+		margin-top: 3690px;
 	}
 
 	.corpStandard-info {
@@ -5947,6 +5931,7 @@
 	}
 
 	.corpStandard-table table {
+		display: none;
 		position: relative;
 		width: 96%;
 		height: 300px;
@@ -6116,8 +6101,7 @@
 		color: grey;
 	}
 	.corpPremium-block > div.footer-list {
-		position: relative;
-		margin-top: 560%;
+		margin-top: 5400px;
 	}
 
 	.corpPremium-info {
@@ -6136,6 +6120,7 @@
 	}
 
 	.corpPremium-table table {
+		display: none;
 		position: relative;
 		width: 96%;
 		height: 300px;
