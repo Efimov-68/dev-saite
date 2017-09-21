@@ -219,8 +219,8 @@
 		color: grey;
 	}
 	.liteStart-block > div.footer-list {
-		position: absolute;
-		top: 800px;
+		position: relative;
+		margin-top: 900px;
 		bottom: 0;
 		left: 0;
 		right: 0;
@@ -1833,7 +1833,7 @@
 	}
 	.liteStart-block > div.footer-list {
 		position: relative;
-		margin-top: 55%;
+		margin-top: 900px;
 		bottom: 0;
 		left: 0;
 		right: 0;
