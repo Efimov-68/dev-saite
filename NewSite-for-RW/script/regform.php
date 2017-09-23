@@ -20,12 +20,12 @@
 	<noscript><div><img src="https://mc.yandex.ru/watch/45201630" style="position:absolute; left:-9999px;" alt="" /></div></noscript> 
 	<!-- /Yandex.Metrika counter -->
 	<?php
-		$lastname = $_GET['lastname'];
-		$phone = $_GET['phone'];
-		$email = $_GET['email-address'];
-		$comments = $_GET['comments'];
-		$file = $_GET['file'];
-		$personalForm = $_GET['checkbox-form-personal'];
+		$lastname = $_POST['lastname'];
+		$phone = $_POST['phone'];
+		$email = $_POST['email-address'];
+		$comments = $_POST['comments'];
+		$file = $_POST['file'];
+		$personalForm = $_POST['checkbox-form-personal'];
 
 		$to = 'office@rabbitweb.ru';
 		$subject = 'Сообщение с сайта';
