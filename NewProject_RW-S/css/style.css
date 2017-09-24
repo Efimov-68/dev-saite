@@ -1,0 +1,13 @@
+/*@media all (min-width:769px) {*/
+	html {
+		background-color: ;
+		font-family: helvetica;
+	}
+	body {
+	background-color: #F0F2FA;
+	line-height: 1.3em;
+	}
+	.logo-img {
+		width: 90px;
+	}
+/*}*/

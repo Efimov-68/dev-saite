@@ -1,0 +1,106 @@
+/*@media all (min-width:769px) {*/
+	.logo-span {
+		position: absolute;
+		top: 26px;
+		left: 95px;
+		color: darkcyan;
+		font-size: .9em;
+	}
+	.top-contacts {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+	.telephone {
+		color: grey;
+		font-size: 1.3em;
+	}
+	.header-right-block_1 {
+		position: absolute;
+		width: 300px;
+		top: 170px;
+		right: 0;
+		padding: 20px;
+		border: 3px solid green;
+	}
+	.header-right-block_2 {
+		position: absolute;
+		width: 300px;
+		top: 420px;
+		right: 0;
+		padding: 20px;
+		border: 3px solid green;
+	}
+	.header-info {
+		display: block;
+		position: absolute;
+		top: 20%;
+		left: 20%;
+		width: 700px;
+	}
+	.nav {
+		margin: 100px 0 0 0;
+		width: 150px;	
+	}
+	.nav ul {
+		list-style-type: none;
+
+	}
+	.nav li {
+		width: auto;
+		height: 20px;
+		padding: 10px;
+		margin-top: 10px;
+		text-align: center;
+		border: 0px solid white;
+		box-shadow: 3px 4px 5px black;
+		background-color: green;
+	}
+	.nav li:hover {
+		box-shadow: none;
+	}
+	.nav a {
+		color: lightgrey;
+	}
+	.nav a:hover {
+		text-decoration: none;
+	}
+	.nav-min-info-course {
+		display: none;
+	}
+	.color-html:hover div.nav-min-info-course,
+	.color-css:hover div.nav-min-info-course,
+	.color-javascript:hover div.nav-min-info-course,
+	.color-jquery:hover div.nav-min-info-course,
+	.color-php:hover div.nav-min-info-course,
+	.color-mysql:hover div.nav-min-info-course,
+	.color-python:hover div.nav-min-info-course,
+	.color-seo:hover div.nav-min-info-course {
+		display: block;
+		position: fixed;
+		top: 13%;
+		left: 30%;
+		width: 600px;
+		height: 400px;
+		padding: 10px;
+		border: 3px solid green;
+		border-radius: 5px;
+		box-shadow: 5px 5px 5px black;
+		background-color: #ccffcc;
+	}
+	.nav-min-info-course p {
+		text-align: left;
+	}
+	#footer {
+		position: absolute;
+		top: 1000px;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 100px;
+		background-color: red;
+	}
+	.logo-footer {
+		margin: 20px;
+	}
+/*}*/
