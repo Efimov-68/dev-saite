@@ -1,4 +1,11 @@
-/*@media all (min-width:769px) {*/
+@media all and (min-width:769px) {
+	.header {
+		background-color: darkcyan;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
 	.logo-span {
 		position: absolute;
 		top: 26px;
@@ -15,32 +22,32 @@
 		color: grey;
 		font-size: 1.3em;
 	}
-	.header-right-block_1 {
+	.content-right-block_1 {
 		position: absolute;
 		width: 300px;
-		top: 170px;
+		top: 200px;
 		right: 0;
 		padding: 20px;
 		border: 3px solid green;
 	}
-	.header-right-block_2 {
+	.content-right-block_2 {
 		position: absolute;
 		width: 300px;
-		top: 420px;
+		top: 450px;
 		right: 0;
 		padding: 20px;
 		border: 3px solid green;
 	}
-	.header-info {
+	.content-info {
 		display: block;
 		position: absolute;
 		top: 20%;
-		left: 20%;
+		left: 30%;
 		width: auto;
-		max-width: 700px;
+		max-width: 1000px;
 	}
 	.nav {
-		margin: 100px 0 0 0;
+		margin: 200px 0 0 0;
 		width: 150px;	
 	}
 	.nav ul {
@@ -79,8 +86,8 @@
 	.color-seo:hover div.nav-min-info-course {
 		display: block;
 		position: fixed;
-		top: 13%;
-		left: 30%;
+		top: 20%;
+		left: 35%;
 		width: 600px;
 		height: 400px;
 		padding: 10px;
@@ -104,4 +111,4 @@
 	.logo-footer {
 		margin: 20px;
 	}
-/*}*/
+}
