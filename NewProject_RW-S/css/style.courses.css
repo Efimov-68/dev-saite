@@ -1,27 +1,4 @@
 @media all and (min-width:769px) {
-	.header {
-		background-color: darkcyan;
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-	}
-	.logo-span {
-		position: absolute;
-		top: 26px;
-		left: 95px;
-		color: darkcyan;
-		font-size: .9em;
-	}
-	.top-contacts {
-		position: absolute;
-		top: 20px;
-		right: 20px;
-	}
-	.telephone {
-		color: grey;
-		font-size: 1.3em;
-	}
 	.content-right-block_1 {
 		position: absolute;
 		width: 300px;
@@ -52,7 +29,6 @@
 	}
 	.nav ul {
 		list-style-type: none;
-
 	}
 	.nav li {
 		width: auto;
@@ -69,8 +45,7 @@
 	}
 	.nav a {
 		color: lightgrey;
-	}
-	.nav a:hover {
+	}.nav a:hover {
 		text-decoration: none;
 	}
 	.nav-min-info-course {
@@ -99,14 +74,8 @@
 	.nav-min-info-course p {
 		text-align: left;
 	}
-	#footer {
-		position: absolute;
+	.footer {
 		top: 1000px;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		height: 100px;
-		background-color: red;
 	}
 	.logo-footer {
 		margin: 20px;
