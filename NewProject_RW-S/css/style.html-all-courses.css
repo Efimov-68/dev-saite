@@ -21,20 +21,20 @@
 	box-shadow: 2px 7px 10px grey;
 	width: auto;
 	max-width: 1540px;
-	height: 1550px;
+	height: 990px;
 }
 .content-left-block div {
 	padding-top: 10px;
 	padding-left: 30%;
 	padding-right: 30px;
 	padding-bottom: 0px;
-	width: 1050px;
+	width: 990px;
 }
 .left-block-structure-1,
 .left-block-structure-2,
 .left-block-structure-3 {
-	margin-top: 5%;
 	height: 200px;
+	background-color: ;
 }
 .left-block-structure-1 div.block-all-course,
 .left-block-structure-2 div.block-all-course,
@@ -54,6 +54,7 @@
 	height: 65px;
 	margin-left: 65px;
 	border: 5px solid green;
+	text-decoration: none;
 }
 .left-block-structure-1 div .img-block-course,
 .left-block-structure-2 div .img-block-course,
@@ -100,7 +101,7 @@ div.text-block-course:nth-child(8) {
 	right: 0;
 	width: auto;
 	max-width: 1020px;
-	height: 1550px;
+	height: 990px;
 }
 .content-right-block div {}
 .subscription {
@@ -164,5 +165,5 @@ div.text-block-course:nth-child(8) {
 /*end RIGHT*/
 
 .footer {
-	top: 1350px;
+	top: 990px;
 }
