@@ -1,74 +1,3 @@
-.html_home-header {}
-.nav-top,
-.nav-bottom {
-	background-color: #003166;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-}
-.nav-top ul,
-.nav-bottom ul {
-	float: left;
-	list-style-type: none;
-	margin-left: 16%;
-	margin-right: 15%;
-}
-.nav-top li,
-.nav-bottom li {
-	float: left;
-}
-.nav-top li:nth-child(2) {
-	margin-left: 70px;
-	padding: 20px 0;
-	padding-right: 10px;
-}
-.nav-top li:nth-child(3) {
-	padding: 20px 0;
-	padding-right: 10px;
-}
-.nav-top li:nth-child(4) {
-	padding: 20px 0;
-}
-.nav-top a {
-	color: #ffcc00;
-	padding-left: 10px;
-}.nav-top a:hover {
-	color: #997a00;
-	text-decoration: none;
-}
-.nav-bottom {
-	top: 90px;
-	background-color: white;
-}.nav-bottom li {
-	margin-left: 5px;
-}a.nav-active {
-	color: black;
-	padding: 10px;
-	text-decoration: none;
-}a.nav-passive {
-	color: blue;
-	padding: 10px;
-}a.nav-passive:hover {
-	color: darkblue;
-	text-decoration: none;
-}
-
-/*	Личный кабинет	*/
-.nav-private {
-	float: right;
-	width: 300px;
-	margin-right: 5%;
-}.nav-private li {
-	float: left;
-	padding: 20px;
-}.nav-private a {
-	padding-left: 10px;
-}.nav-checkIn {}.nav-personal-area {
-	display: none;
-}.nav-toComeIn {}.nav-exit {display: none;}
-/*	END Личный кабинет	*/
-
 .html_home-content {
 	width: auto;
 }
@@ -135,7 +64,13 @@
 	font-size: .8em;
 	padding: 5px;
 	border-radius: 5px;
-}.total-box-active {}
+}.total-box-active {
+	background-color: green;
+	color: white;
+	font-size: .8em;
+	padding: 5px;
+	border-radius: 5px;
+}
 .text-box-grey {
 	color: rgba(217, 217, 217,.45);
 }

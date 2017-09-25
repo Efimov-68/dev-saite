@@ -7,7 +7,6 @@ body {
 	line-height: 1.3em;
 }
 .header {
-	background-color: darkcyan;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -16,8 +15,15 @@ body {
 .logo-img {
 	width: 90px;
 }
-.nav-top ul,
-.nav-bottom ul {
+.nav-top,
+.nav-bottom {
+	background-color: #003166;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.nav-top ul, .nav-bottom ul {
 	float: left;
 	list-style-type: none;
 	margin-left: 16%;
