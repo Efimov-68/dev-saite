@@ -1,6 +1,10 @@
 .html_home-content {
 	width: auto;
 }
+.nav-bar {
+	padding: 10px 10px 5px 10px;
+	margin-left: 455px;
+}
 .nav-bar a {
 	margin-left: 0;
 	color: blue;
@@ -9,9 +13,6 @@
 	text-decoration: none;
 }
 /*LEFT*/
-.left-block-annotation {
-	margin-left: 0;
-}
 .content-left-block {
 	position: absolute;
 	top: 143px;
@@ -19,47 +20,48 @@
 	right: auto;
 	background-color: #e6eeff;
 	box-shadow: 2px 7px 10px grey;
-	width: auto;
-	max-width: 1540px;
+	width: 1540px;
 	height: 990px;
 }
-.content-left-block div {
-	padding-top: 10px;
-	padding-left: 30%;
-	padding-right: 30px;
-	padding-bottom: 0px;
-	width: 990px;
+.left-block-annotation {
+	margin-left: 465px;
+	margin-right: 50px;
 }
 .left-block-structure-1,
 .left-block-structure-2,
 .left-block-structure-3 {
+	width: 800px;
 	height: 200px;
-	background-color: ;
+	margin-top: 10px;
+	margin-left: 400px;
+	margin-right: 250px;
 }
-.left-block-structure-1 div.block-all-course,
-.left-block-structure-2 div.block-all-course,
-.left-block-structure-3 div.block-all-course {
+.left-block-structure-1 .block-all-course:nth-child(1) {
+	border: 5px solid red;
+	background-color: green;
+}.left-block-structure-1 .text-block-active a {
+	color: darkblue;
+	text-decoration: none;
+}
+.block-all-course {
 	float: left;
 	background-color: white;
 	border: 5px solid grey;
 	border-radius: 50px;
 	width: 65px;
 	height: 65px;
+	margin-top: 20px;
 	margin-left: 65px;
 	padding: 20px;
-}.left-block-structure-1 div.block-all-course:hover,
-.left-block-structure-2 div.block-all-course:hover,
-.left-block-structure-3 div.block-all-course:hover {
+}.block-all-course:hover {
 	width: 65px;
 	height: 65px;
 	margin-left: 65px;
 	border: 5px solid green;
 	text-decoration: none;
 }
-.left-block-structure-1 div .img-block-course,
-.left-block-structure-2 div .img-block-course,
-.left-block-structure-3 div .img-block-course {
-	margin: -43px 0 50px -47px;
+div .img-block-course {
+	margin: -33px 0 50px -27px;
 }
 div.text-block-course:nth-child(1),
 div.text-block-course:nth-child(2),
@@ -71,14 +73,12 @@ div.text-block-course:nth-child(7),
 div.text-block-course:nth-child(8) {
 	float: left;
 	width: 100px;
-	margin-top: -45px;
-	margin-left: -25px;
+	margin-top: -50px;
+	margin-left: -30px;
 	padding: 10px;
 	color: blue;
 	text-align: center;
 }
-
-
 .left-block-structure-1 a,
 .left-block-structure-2 a,
 .left-block-structure-3 a,

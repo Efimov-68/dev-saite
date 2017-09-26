@@ -30,7 +30,7 @@
 	box-shadow: 2px 7px 10px grey;
 	width: auto;
 	max-width: 1540px;
-	height: 7050px;
+	height: 5850px;
 }
 .content-left-block div {
 	padding: 10px;
@@ -83,7 +83,7 @@
 	right: 0;
 	width: auto;
 	max-width: 1020px;
-	height: 6800px;
+	height: 5850px;
 }
 .content-right-block div {}
 .subscription {
@@ -103,5 +103,5 @@
 }
 
 .footer {
-	top: 7150px;
+	top: 5750px;
 }
