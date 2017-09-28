@@ -99,5 +99,116 @@
 	}
 }
 @media all and (min-width: 1025px) and (max-width: 1366px) {
+	.left-block-annotation h1 {
+		background-image: url(../images/4.v2.svg);
+		background-size: 90px;
+		background-position: left;
+		background-repeat: no-repeat;
+		padding: 40px 90px 40px 90px;
+	}
+	.left-block-annotation p {
+		margin-left: 90px;
+	}
+
+	.left-block-annotation input {
+		background-color: darkblue;
+		color: white;
+		font-size: 1em;
+		border: 0 solid white;
+		box-shadow: 3px 3px 1px black;
+		width: 190px;
+		margin-bottom: 0;
+		padding: 10px;
+		cursor: pointer;
+	}
+	.left-block-annotation input:hover {
+		box-shadow: none;
+	}
+	.content-left-block {
+		width: 940px;
+	}
+	.content-left-block,
+	.content-right-block {
+		top: 93px;
+		height: 1200px;
+	}
+	.content-right-block {
+		right: 0;
+	}
+	.left-block-structure {
+		margin-left: -6.5%;
+	}
+	.left-block-structure div {
+		width: 690px;
+		height: 30px;
+		margin-top: -12px;
+		padding: 2px 30px 25px 60px;
+		border: 0 solid white;
+		border-radius: 5px;
+		font-size: .9em;
+		background-image: url(../images/4.v2.svg);
+		background-size: 40px;
+		background-position: left;
+		background-repeat: no-repeat;
+	}
+	.right-block-structure {
+		width: 420px;
+	}
+	.right-block-structure:nth-child(3) {
+		border-left: 5px solid green;
+	}
+	.right-block-structure:nth-child(2) {border-left: 5px solid lightgrey; margin-bottom: 5px;}
+	.right-block-structure:nth-child(4) {border-left: 5px solid lightgrey; margin-top: 5px;}
+	
+	.start-course h3 {
+		margin-left: 5px;
+	}
+	.start-course ul{
+		float: left;
+		list-style-type: none;
+		width: 370px;
+	}.start-course li{
+		float: left;
+		width: auto;
+		padding: 0;
+		margin-top: -20px;
+	}.start-course li:nth-child(1) {
+		margin-left: -40px;
+	}.start-course li:nth-child(2) {
+		width: auto;
+		padding: 10px;
+		margin-right: auto;
+		margin-left: -5px;
+		font-size: .75em;
+	}.start-course li:nth-child(3) {
+		margin-top: -10px;
+	}.start-course img {
+		height: 40px;
+	}
+	.total-box-passive {
+		background-color: rgb(217, 217, 217);
+		color: white;
+		font-size: .75em;
+		margin-left: 20px;
+		padding: 7px;
+		border-radius: 5px;
+	}.total-box-active {
+		background-color: green;
+		color: white;
+		font-size: .8em;
+		margin-right: 20px;
+		margin-left: 50px;
+		padding: 7px;
+		border-radius: 5px;
+	}
+	/*end RIGHT*/
+
+	.str-p-mon {text-align: center; width: 190px;}
+	.str-p-i input{background-color: grey; box-shadow: none;}
+	.str-p-i span {color: red; margin-left: 20px;}
+
+	.footer {
+		top: 1220px;
+	}
 
 }
