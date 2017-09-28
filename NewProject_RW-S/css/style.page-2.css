@@ -4,8 +4,12 @@
 	.left-block-annotation input {
 		background-color: green;
 	}
+	.content-left-block,
+	.content-right-block {
+		height: 2070px;
+	}
 	.footer {
-		top: 1670px;
+		top: 2070px;
 	}
 }
 @media all and (min-width: 1025px) and (max-width: 1366px) {
