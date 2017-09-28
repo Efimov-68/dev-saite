@@ -72,8 +72,8 @@ body {
 /*	Личный кабинет	*/
 .nav-private {
 	float: right;
-	width: 300px;
-	margin-right: 5%;
+	width: auto;
+	margin-right: ;
 }.nav-private li {
 	float: left;
 	padding: 20px;
@@ -99,8 +99,10 @@ body {
 	.nav-top ul, .nav-bottom ul {
 		float: left;
 		list-style-type: none;
+	}
+	.nav-menu {
 		margin-left: 10px;
-		margin-right: 18%;
+		margin-right: auto;
 	}
 	.nav-top li,
 	.nav-bottom li {
@@ -143,12 +145,13 @@ body {
 	}
 	/*	Личный кабинет	*/
 	.nav-private {
-		background-color: red;
 		float: right;
-		width: 300px;
+		width: 260px;
+		margin-left: 27%;
+		margin-right: 6%;
 	}.nav-private li {
 		float: left;
-		padding: 20px;
+		padding: 20px 10px;
 	}.nav-private a {
 		padding-left: 10px;
 	}.nav-checkIn {}.nav-personal-area {
