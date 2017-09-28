@@ -12,14 +12,17 @@ body {
 	left: 0;
 	right: 0;
 }
-@media all and (min-width: 1367px){
+@media all and (min-width: 1367px) {
 .logo-img {
 	width: 90px;
 }
-.nav-top img,
-.nav-private img,
-.nav-bottom img {
-	width: 90px;
+.nav-menu {
+	margin-left: 10px;
+	margin-right: auto;
+}
+.nav-menu a,
+.nav-private a{
+	padding-top: 50px;
 }
 .nav-top,
 .nav-bottom {
@@ -33,7 +36,6 @@ body {
 	float: left;
 	list-style-type: none;
 	margin-left: 16%;
-	margin-right: 15%;
 }
 .nav-top li,
 .nav-bottom li {
@@ -41,15 +43,25 @@ body {
 }
 .nav-top li:nth-child(2) {
 	margin-left: 70px;
-	padding: 20px 0;
-	padding-right: 10px;
+	padding: 20px 40px;
+	background-image: url(../images/4.v2.svg);
+	background-size: 40px;
+	background-position: left;
+	background-repeat: no-repeat;
 }
 .nav-top li:nth-child(3) {
-	padding: 20px 0;
-	padding-right: 10px;
+	padding: 20px 40px;
+	background-image: url(../images/4.v2.svg);
+	background-size: 40px;
+	background-position: left;
+	background-repeat: no-repeat;
 }
 .nav-top li:nth-child(4) {
-	padding: 20px 0;
+	padding: 20px 40px;
+	background-image: url(../images/4.v2.svg);
+	background-size: 40px;
+	background-position: left;
+	background-repeat: no-repeat;
 }
 .nav-top a {
 	color: #ffcc00;
@@ -77,13 +89,18 @@ body {
 /*	Личный кабинет	*/
 .nav-private {
 	float: right;
-	width: auto;
-	margin-right: ;
+	width: 350px;
+	margin-left: auto;
+	margin-right: 6%;
 }.nav-private li {
 	float: left;
-	padding: 20px;
+	background-image: url(../images/4.v2.svg);
+	background-size: 40px;
+	background-position: left;
+	background-repeat: no-repeat;
+	padding: 20px 30px 20px 30px;
 }.nav-private a {
-	padding-left: 10px;
+	padding-left: 20px;
 }.nav-checkIn {}.nav-personal-area {
 	display: none;
 }.nav-toComeIn {}.nav-exit {display: none;}
@@ -92,10 +109,6 @@ body {
 }@media all and (min-width: 1025px) and (max-width: 1366px){
 	.logo-img {
 		width: 90px;
-	}
-	.nav-img-icon {
-		width: 30px;
-		padding: 10px 0 0 0;
 	}
 	.nav-top,
 	.nav-bottom {
@@ -119,17 +132,27 @@ body {
 	}
 	.nav-top li:nth-child(2) {
 		margin-left: 70px;
-		padding: 0;
-		padding-right: 10px;
+		padding: 20px 30px;
+		background-image: url(../images/4.v2.svg);
+		background-size: 40px;
+		background-position: left;
+		background-repeat: no-repeat;
 	}
 	.nav-top li:nth-child(3) {
 		margin-left: 20px;
-		padding: 0;
-		padding-right: 10px;
+		padding: 20px 30px;
+		background-image: url(../images/4.v2.svg);
+		background-size: 40px;
+		background-position: left;
+		background-repeat: no-repeat;
 	}
 	.nav-top li:nth-child(4) {
 		margin-left: 20px;
-		padding: 0;
+		padding: 20px 30px;
+		background-image: url(../images/4.v2.svg);
+		background-size: 40px;
+		background-position: left;
+		background-repeat: no-repeat;
 	}
 	.nav-top a {
 		color: #ffcc00;
@@ -157,12 +180,16 @@ body {
 	/*	Личный кабинет	*/
 	.nav-private {
 		float: right;
-		width: 300px;
-		margin-left: 28%;
+		width: 320px;
+		margin-left: 18%;
 		margin-right: 3%;
 	}.nav-private li {
 		float: left;
-		padding: 0px 20px;
+		background-image: url(../images/4.v2.svg);
+		background-size: 40px;
+		background-position: left;
+		background-repeat: no-repeat;
+		padding: 20px 30px;
 	}.nav-private a {
 		padding-left: 10px;
 	}.nav-checkIn {}.nav-personal-area {
@@ -180,7 +207,7 @@ body {
 }.footer div {
 	margin-left: 16%;
 	margin-right: 16%;
-}@media all and (min-width: 1025px) and (max-width: 1360px){
+}@media all and (min-width: 1025px) and (max-width: 1366px){
 	.footer div {
 		margin-left: 5%;
 		margin-right: 5%;
