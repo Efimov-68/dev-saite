@@ -288,7 +288,7 @@ div.text-block-course:nth-child(8) {
 	padding-right: 3%;
 	padding-bottom: 20px;
 }
-.right-block-structure input {
+.right-block-structure a {
 	background-color: green;
 	color: white;
 	font-size: 1em;
@@ -298,7 +298,7 @@ div.text-block-course:nth-child(8) {
 	padding: 10px;
 	cursor: pointer;
 }
-.right-block-structure input:hover {
+.right-block-structure a:hover {
 	box-shadow: none;
 }
 

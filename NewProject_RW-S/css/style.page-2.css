@@ -1,0 +1,13 @@
+
+@media all and (min-width: 1367px){
+	
+	.left-block-annotation input {
+		background-color: green;
+	}
+	.footer {
+		top: 1670px;
+	}
+}
+@media all and (min-width: 1025px) and (max-width: 1366px) {
+
+}

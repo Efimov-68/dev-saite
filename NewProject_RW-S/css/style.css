@@ -12,6 +12,8 @@ body {
 	left: 0;
 	right: 0;
 }
+.submit-off {display: none;}
+.submit-on {display: inherit;}
 @media all and (min-width: 1367px) {
 .logo-img {
 	width: 90px;

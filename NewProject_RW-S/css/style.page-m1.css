@@ -1,0 +1,103 @@
+.block-pc-active {
+	background-color: rgba(0, 153, 51, .15);
+}
+.block-pc-active a,
+.block-pc-a-active a {
+	color: green;
+	text-decoration: none;
+}
+.block-pc-passive a {
+	color: grey;
+}
+.block-pc-passive {
+	background-color: rgba(224, 224, 235, .55);
+}
+@media all and (min-width: 1367px){
+	.left-block-annotation h1 {
+		background-image: url(../images/4.v2.svg);
+		background-size: 90px;
+		background-position: left;
+		background-repeat: no-repeat;
+		padding: 40px 90px 40px 90px;
+	}
+	.left-block-annotation p {
+		margin-left: 90px;
+	}
+
+	.left-block-annotation input {
+		background-color: darkblue;
+		color: white;
+		font-size: 1em;
+		border: 0 solid white;
+		box-shadow: 3px 3px 1px black;
+		width: 190px;
+		padding: 10px;
+		cursor: pointer;
+	}
+	.left-block-annotation input:hover {
+		box-shadow: none;
+	}
+	.content-left-block {
+		width: 1540px;
+	}
+	.content-left-block,
+	.content-right-block {
+		top: 93px;
+		height: 1620px;
+	}
+	.content-right-block {
+		right: 0;
+	}
+	.left-block-structure {
+		margin-left: -6.5%;
+	}
+	.left-block-structure div {
+		width: 920px;
+		margin-top: -10px;
+		padding: 20px 30px 20px 60px;
+		border: 0 solid white;
+		border-radius: 5px;
+		background-image: url(../images/4.v2.svg);
+		background-size: 50px;
+		background-position: left;
+		background-repeat: no-repeat;
+	}
+	.right-block-structure {
+		width: 920px;
+	}
+	.right-block-structure:nth-child(3) {
+		border-left: 5px solid green;
+	}
+	.right-block-structure:nth-child(2) {border-left: 5px solid lightgrey; margin-bottom: 5px;}
+	.right-block-structure:nth-child(4) {border-left: 5px solid lightgrey; margin-top: 5px;}
+
+	.start-course ul {
+		float: left;
+		list-style-type: none;
+	}.start-course li{
+		float: left;
+		padding: 0 10px;
+	}.start-course li:nth-child(1) {
+		margin-left: -83px;
+	}.start-course li:nth-child(2) {
+		margin-left: -20px;
+	}.start-course img {
+		margin-top: -10px;
+		height: 40px;
+	}
+	.total-box-passive,
+	.total-box-active {
+		margin-right: 200px;
+	}
+
+	.str-p-mon {text-align: center; width: 190px;}
+	.str-p-i input{background-color: grey; box-shadow: none;}
+	.str-p-i span {color: red; margin-left: 20px;}
+
+	.footer {
+		top: 1670px;
+	}
+}
+@media all and (min-width: 1025px) and (max-width: 1366px) {
+
+}
