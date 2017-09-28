@@ -16,6 +16,11 @@ body {
 .logo-img {
 	width: 90px;
 }
+.nav-top img,
+.nav-private img,
+.nav-bottom img {
+	width: 90px;
+}
 .nav-top,
 .nav-bottom {
 	background-color: #003166;
@@ -88,6 +93,10 @@ body {
 	.logo-img {
 		width: 90px;
 	}
+	.nav-img-icon {
+		width: 30px;
+		padding: 10px 0 0 0;
+	}
 	.nav-top,
 	.nav-bottom {
 		background-color: #003166;
@@ -110,15 +119,17 @@ body {
 	}
 	.nav-top li:nth-child(2) {
 		margin-left: 70px;
-		padding: 20px 0;
+		padding: 0;
 		padding-right: 10px;
 	}
 	.nav-top li:nth-child(3) {
-		padding: 20px 0;
+		margin-left: 20px;
+		padding: 0;
 		padding-right: 10px;
 	}
 	.nav-top li:nth-child(4) {
-		padding: 20px 0;
+		margin-left: 20px;
+		padding: 0;
 	}
 	.nav-top a {
 		color: #ffcc00;
@@ -146,12 +157,12 @@ body {
 	/*	Личный кабинет	*/
 	.nav-private {
 		float: right;
-		width: 260px;
-		margin-left: 27%;
-		margin-right: 6%;
+		width: 300px;
+		margin-left: 28%;
+		margin-right: 3%;
 	}.nav-private li {
 		float: left;
-		padding: 20px 10px;
+		padding: 0px 20px;
 	}.nav-private a {
 		padding-left: 10px;
 	}.nav-checkIn {}.nav-personal-area {

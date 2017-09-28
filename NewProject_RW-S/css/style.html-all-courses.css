@@ -172,7 +172,7 @@ div.text-block-course:nth-child(8) {
 @media all and (min-width: 1025px) and (max-width: 1366px) {
 	.nav-bar {
 	padding: 10px 10px 5px 10px;
-	margin-left: 6.5%;
+	margin-left: 5%;
 }
 .nav-bar a {
 	margin-left: 0;
@@ -189,11 +189,11 @@ div.text-block-course:nth-child(8) {
 	right: auto;
 	background-color: #e6eeff;
 	box-shadow: 2px 7px 10px grey;
-	width: 820px;
+	width: 890px;
 	height: 990px;
 }
 .left-block-annotation {
-	margin-left: 7.5%;
+	margin-left: 6%;
 	margin-right: 50px;
 }
 .left-block-structure-1,
@@ -269,7 +269,7 @@ div.text-block-course:nth-child(8) {
 	left: auto;
 	right: 0;
 	width: auto;
-	max-width: 490px;
+	max-width: 450px;
 	height: 990px;
 }
 .content-right-block div {}
