@@ -1,6 +1,7 @@
 .html_home-content {
 	width: auto;
 }
+@media all and (min-width: 1367px) {
 .nav-bar a {
 	color: blue;
 }.nav-bar a:hover {
@@ -104,4 +105,112 @@
 
 .footer {
 	top: 5750px;
+}
+}
+/*** @MEDIA (min 1025px)and(max 1366px) ***/
+@media all and (min-width: 1025px) and (max-width: 1366px) {
+	.nav-bar a {
+		color: blue;
+	}.nav-bar a:hover {
+		color: darkblue;
+		text-decoration: none;
+	}
+	.left-block-annotation input {
+		background-color: green;
+		color: white;
+		font-size: 1em;
+		border: 0 solid white;
+		box-shadow: 3px 3px 1px black;
+		width: 140px;
+		padding: 10px;
+		cursor: pointer;
+	}
+	.left-block-annotation input:hover {
+		box-shadow: none;
+	}
+
+	.content-left-block {
+		position: absolute;
+		top: 143px;
+		left: 0;
+		right: auto;
+		background-color: #e6eeff;
+		box-shadow: 2px 7px 10px grey;
+		width: auto;
+		max-width: 890px;
+		height: 5750px;
+	}
+	.content-left-block div {
+		padding: 10px;
+		padding-left: 6.5%;
+		padding-right: 3%;
+		padding-bottom: 10px;
+	}
+	.left-block-structure div {
+		border-spacing: 0px;
+		border-left: 2px solid green;
+		border-bottom: 2px dashed lightgrey;
+		border-radius: 0 0 0 20px;
+		width: 750px;
+		margin-top: -25px;
+		margin-left: 8%;
+		padding-top: 0;
+		padding-left: 10px;
+	}
+	.left-block-structure a,
+	.right-block-structure a {
+		color: blue;
+	}.left-block-structure a:hover,
+	.right-block-structure a:hover {
+		color: darkblue;
+		text-decoration: none;
+	}
+	/*		TOTAL		*/
+	.total-box-passive {
+		background-color: rgb(217, 217, 217);
+		color: white;
+		font-size: .8em;
+		padding: 5px;
+		border-radius: 5px;
+	}.total-box-active {
+		background-color: green;
+		color: white;
+		font-size: .8em;
+		padding: 5px;
+		border-radius: 5px;
+	}
+	.text-box-grey {
+		color: rgba(217, 217, 217,.45);
+	}
+	/*	  END TOTAL	*/
+
+	.content-right-block {
+		position: absolute;
+		top: 150px;
+		left: auto;
+		right: 0;
+		width: auto;
+		max-width: 450px;
+		height: 5750px;
+	}
+	.content-right-block div {}
+	.subscription {
+		border: 0 solid white;
+		background-color: #ffdb4d;
+		color: black;
+		padding: 10px;
+	}
+	.subscription:hover {
+		background-color: #fff0b3;
+	}
+	.right-block-structure div {
+		padding: 20px;
+		padding-left: 3%;
+		padding-right: 6%;
+		padding-bottom: 20px;
+	}
+
+	.footer {
+		top: 5850px;
+	}
 }

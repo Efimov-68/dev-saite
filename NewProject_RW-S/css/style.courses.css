@@ -1,4 +1,4 @@
-@media all and (min-width:769px) {
+@media all and (min-width:1361px) {
 	.content-right-block_1 {
 		position: absolute;
 		width: 300px;
@@ -80,4 +80,6 @@
 	.logo-footer {
 		margin: 20px;
 	}
+}@media all and (min-width:1025px) and (max-width:1360) {
+	
 }
