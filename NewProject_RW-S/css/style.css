@@ -1,223 +1,260 @@
 html {
-	background-color: #cce4ff;
-	font-family: helvetica;
+    background-color: #cce4ff;
+    font-family: helvetica;
 }
-body {
-	background-color: #F0F2FA;
-	line-height: 1.3em;
-}
-.header {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-}
-.submit-off {display: none;}
-.submit-on {display: inherit;}
-@media all and (min-width: 1367px) {
-	.logo-img {
-		width: 90px;
-	}
-	.nav-menu {
-		margin-left: 10px;
-		margin-right: auto;
-	}
-	.nav-menu a,
-	.nav-private a{
-		padding-top: 50px;
-	}
-	.nav-top,
-	.nav-bottom {
-		background-color: #003166;
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-	}
-	.nav-top ul, .nav-bottom ul {
-		float: left;
-		list-style-type: none;
-		margin-left: 16%;
-	}
-	.nav-top li,
-	.nav-bottom li {
-		float: left;
-	}
-	.nav-top li:nth-child(2) {
-		margin-left: 70px;
-		padding: 20px 40px;
-		background-image: url(../images/4.v2.svg);
-		background-size: 40px;
-		background-position: left;
-		background-repeat: no-repeat;
-	}
-	.nav-top li:nth-child(3) {
-		padding: 20px 40px;
-		background-image: url(../images/4.v2.svg);
-		background-size: 40px;
-		background-position: left;
-		background-repeat: no-repeat;
-	}
-	.nav-top li:nth-child(4) {
-		padding: 20px 40px;
-		background-image: url(../images/4.v2.svg);
-		background-size: 40px;
-		background-position: left;
-		background-repeat: no-repeat;
-	}
-	.nav-top a {
-		color: #ffcc00;
-		padding-left: 10px;
-	}.nav-top a:hover {
-		color: #997a00;
-		text-decoration: none;
-	}
-	.nav-bottom {
-		top: 90px;
-		background-color: white;
-	}.nav-bottom li {
-		margin-left: 5px;
-	}a.nav-active {
-		color: black;
-		padding: 10px;
-		text-decoration: none;
-	}a.nav-passive {
-		color: blue;
-		padding: 10px;
-	}a.nav-passive:hover {
-		color: darkblue;
-		text-decoration: none;
-	}
-	/*	Личный кабинет	*/
-	.nav-private {
-		float: right;
-		width: 350px;
-		margin-left: auto;
-		margin-right: 6%;
-	}.nav-private li {
-		float: left;
-		background-image: url(../images/4.v2.svg);
-		background-size: 40px;
-		background-position: left;
-		background-repeat: no-repeat;
-		padding: 20px 30px 20px 30px;
-	}.nav-private a {
-		padding-left: 20px;
-	}
-    .nav-checkIn {}
-    .nav-personal-area {
-		display: none;
-	}.nav-toComeIn {}.nav-exit {display: none;}
-	/*	END Личный кабинет	*/
 
-}@media all and (min-width: 1025px) and (max-width: 1366px){
-	.logo-img {
-		width: 90px;
-	}
-	.nav-top,
-	.nav-bottom {
-		background-color: #003166;
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-	}
-	.nav-top ul, .nav-bottom ul {
-		float: left;
-		list-style-type: none;
-	}
-	.nav-menu {
-		margin-left: 10px;
-		margin-right: auto;
-	}
-	.nav-top li,
-	.nav-bottom li {
-		float: left;
-	}
-	.nav-top li:nth-child(2) {
-		margin-left: 70px;
-		padding: 20px 30px;
-		background-image: url(../images/4.v2.svg);
-		background-size: 40px;
-		background-position: left;
-		background-repeat: no-repeat;
-	}
-	.nav-top li:nth-child(3) {
-		margin-left: 20px;
-		padding: 20px 30px;
-		background-image: url(../images/4.v2.svg);
-		background-size: 40px;
-		background-position: left;
-		background-repeat: no-repeat;
-	}
-	.nav-top li:nth-child(4) {
-		margin-left: 20px;
-		padding: 20px 30px;
-		background-image: url(../images/4.v2.svg);
-		background-size: 40px;
-		background-position: left;
-		background-repeat: no-repeat;
-	}
-	.nav-top a {
-		color: #ffcc00;
-		padding-left: 10px;
-	}.nav-top a:hover {
-		color: #997a00;
-		text-decoration: none;
-	}
-	.nav-bottom {
-		top: 90px;
-		background-color: white;
-	}.nav-bottom li {
-		margin-left: 5px;
-	}a.nav-active {
-		color: black;
-		padding: 10px;
-		text-decoration: none;
-	}a.nav-passive {
-		color: blue;
-		padding: 10px;
-	}a.nav-passive:hover {
-		color: darkblue;
-		text-decoration: none;
-	}
-	/*	Личный кабинет	*/
-	.nav-private {
-		float: right;
-		width: 320px;
-		margin-left: 18%;
-		margin-right: 3%;
-	}.nav-private li {
-		float: left;
-		background-image: url(../images/4.v2.svg);
-		background-size: 40px;
-		background-position: left;
-		background-repeat: no-repeat;
-		padding: 20px 30px;
-	}.nav-private a {
-		padding-left: 10px;
-	}
+body {
+    background-color: #F0F2FA;
+    line-height: 1.3em;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.submit-off {
+    display: none;
+}
+
+.submit-on {
+    display: inherit;
+}
+
+@media all and (min-width: 1367px) {
+    .logo-img {
+        width: 90px;
+    }
+    .nav-menu {
+        margin-left: 10px;
+        margin-right: auto;
+    }
+    .nav-menu a,
+    .nav-private a {
+        padding-top: 50px;
+    }
+    .nav-top,
+    .nav-bottom {
+        background-color: #003166;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .nav-top ul,
+    .nav-bottom ul {
+        float: left;
+        list-style-type: none;
+        margin-left: 16%;
+    }
+    .nav-top li,
+    .nav-bottom li {
+        float: left;
+    }
+    .nav-top li:nth-child(2) {
+        margin-left: 70px;
+        padding: 20px 40px;
+        background-image: url(../images/4.v2.svg);
+        background-size: 40px;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    .nav-top li:nth-child(3) {
+        padding: 20px 40px;
+        background-image: url(../images/4.v2.svg);
+        background-size: 40px;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    .nav-top li:nth-child(4) {
+        padding: 20px 40px;
+        background-image: url(../images/4.v2.svg);
+        background-size: 40px;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    .nav-top a {
+        color: #ffcc00;
+        padding-left: 10px;
+    }
+    .nav-top a:hover {
+        color: #997a00;
+        text-decoration: none;
+    }
+    .nav-bottom {
+        top: 90px;
+        background-color: white;
+    }
+    .nav-bottom li {
+        margin-left: 5px;
+    }
+    a.nav-active {
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+    }
+    a.nav-passive {
+        color: blue;
+        padding: 10px;
+    }
+    a.nav-passive:hover {
+        color: darkblue;
+        text-decoration: none;
+    }
+    /*	Личный кабинет	*/
+    .nav-private {
+        float: right;
+        width: 350px;
+        margin-left: auto;
+        margin-right: 6%;
+    }
+    .nav-private li {
+        float: left;
+        background-image: url(../images/4.v2.svg);
+        background-size: 40px;
+        background-position: left;
+        background-repeat: no-repeat;
+        padding: 20px 30px 20px 30px;
+    }
+    .nav-private a {
+        padding-left: 20px;
+    }
     .nav-checkIn {}
     .nav-personal-area {
-		display: none;
-	}
+        display: none;
+    }
     .nav-toComeIn {}
-    .nav-exit {display: none;}
-	/*	END Личный кабинет	*/
+    .nav-exit {
+        display: none;
+    }
+    /*	END Личный кабинет	*/
 }
-	.footer {
-		position: absolute;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		height: 500px;
-		background-color: #003166;
-	}.footer div {
-		margin-left: 16%;
-		margin-right: 16%;
-	}
-	.footer div {
-		margin-left: 5%;
-		margin-right: 5%;
-	}
+
+@media all and (min-width: 1025px) and (max-width: 1366px) {
+    .logo-img {
+        width: 90px;
+    }
+    .nav-top,
+    .nav-bottom {
+        background-color: #003166;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .nav-top ul,
+    .nav-bottom ul {
+        float: left;
+        list-style-type: none;
+    }
+    .nav-menu {
+        margin-left: 10px;
+        margin-right: auto;
+    }
+    .nav-top li,
+    .nav-bottom li {
+        float: left;
+    }
+    .nav-top li:nth-child(2) {
+        margin-left: 70px;
+        padding: 20px 30px;
+        background-image: url(../images/4.v2.svg);
+        background-size: 40px;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    .nav-top li:nth-child(3) {
+        margin-left: 20px;
+        padding: 20px 30px;
+        background-image: url(../images/4.v2.svg);
+        background-size: 40px;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    .nav-top li:nth-child(4) {
+        margin-left: 20px;
+        padding: 20px 30px;
+        background-image: url(../images/4.v2.svg);
+        background-size: 40px;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    .nav-top a {
+        color: #ffcc00;
+        padding-left: 10px;
+    }
+    .nav-top a:hover {
+        color: #997a00;
+        text-decoration: none;
+    }
+    .nav-bottom {
+        top: 90px;
+        background-color: white;
+    }
+    .nav-bottom li {
+        margin-left: 5px;
+    }
+    a.nav-active {
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+    }
+    a.nav-passive {
+        color: blue;
+        padding: 10px;
+    }
+    a.nav-passive:hover {
+        color: darkblue;
+        text-decoration: none;
+    }
+    /*	Личный кабинет	*/
+    .nav-private {
+        float: right;
+        width: 320px;
+        margin-left: 18%;
+        margin-right: 3%;
+    }
+    .nav-private li {
+        float: left;
+        background-image: url(../images/4.v2.svg);
+        background-size: 40px;
+        background-position: left;
+        background-repeat: no-repeat;
+        padding: 20px 30px;
+    }
+    .nav-private a {
+        padding-left: 10px;
+    }
+    .nav-checkIn {}
+    .nav-personal-area {
+        display: none;
+    }
+    .nav-toComeIn {}
+    .nav-exit {
+        display: none;
+    }
+    /*	END Личный кабинет	*/
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 500px;
+    background-color: #003166;
+}
+
+.footer div {
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+.footer div {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 }
