@@ -103,7 +103,9 @@ body {
 		padding: 20px 30px 20px 30px;
 	}.nav-private a {
 		padding-left: 20px;
-	}.nav-checkIn {}.nav-personal-area {
+	}
+    .nav-checkIn {}
+    .nav-personal-area {
 		display: none;
 	}.nav-toComeIn {}.nav-exit {display: none;}
 	/*	END Личный кабинет	*/
@@ -194,9 +196,13 @@ body {
 		padding: 20px 30px;
 	}.nav-private a {
 		padding-left: 10px;
-	}.nav-checkIn {}.nav-personal-area {
+	}
+    .nav-checkIn {}
+    .nav-personal-area {
 		display: none;
-	}.nav-toComeIn {}.nav-exit {display: none;}
+	}
+    .nav-toComeIn {}
+    .nav-exit {display: none;}
 	/*	END Личный кабинет	*/
 }
 	.footer {
