@@ -1,176 +1,202 @@
 .block-pc-active {
-	background-color: rgba(0, 153, 51, .15);
+    background-color: rgba(0, 153, 51, .35);
 }
+
 .block-pc-active a,
 .block-pc-a-active a {
-	color: green;
-	text-decoration: none;
+    color: green;
+    text-decoration: none;
 }
+
 .block-pc-passive a {
-	color: grey;
+    color: grey;
 }
+
 .block-pc-passive {
-	background-color: rgba(224, 224, 235, .55);
+    background-color: rgba(224, 224, 235, .55);
 }
-@media all and (min-width: 1367px){
-	.left-block-annotation h1 {
-		background-image: url(../images/4.v2.svg);
-		background-size: 90px;
-		background-position: left;
-		background-repeat: no-repeat;
-		padding: 40px 90px 40px 90px;
-	}
-	.left-block-annotation p {
-		margin-left: 90px;
-	}
-	.content-left-block {
-		width: 1540px;
-	}
-	.content-left-block,
-	.content-right-block {
-		top: 93px;
-		height: 1990px;
-	}
-	.content-right-block {
-		right: 0;
-	}
-	.left-block-structure {
-		margin-left: -6.5%;
-	}
-	.left-block-structure div {
-		width: 920px;
-		margin-top: -10px;
-		padding: 20px 30px 20px 60px;
-		border: 0 solid white;
-		border-radius: 5px;
-		background-image: url(../images/4.v2.svg);
-		background-size: 50px;
-		background-position: left;
-		background-repeat: no-repeat;
-	}
-	.right-block-structure {
-		width: 920px;
-	}
-	.right-block-structure:nth-child(2) {
-		border-left: 5px solid green;
-	}
-	.right-block-structure:nth-child(3) {border-left: 5px solid lightgrey; margin-top: 5px;}
-	.right-block-structure:nth-child(4) {border-left: 5px solid lightgrey; margin-top: 5px;}
 
-	.start-course ul{
-		float: left;
-		list-style-type: none;
-	}.start-course li{
-		float: left;
-		padding: 0 20px;
-	}.start-course li:nth-child(1) {
-		margin-left: -90px;
-	}.start-course li:nth-child(2) {
-		margin-left: -20px;
-	}.start-course img {
-		margin-top: -10px;
-		height: 40px;
-	}
-	.total-box-passive,
-	.total-box-active {
-		margin-right: 200px;
-	}
+@media all and (min-width: 1367px) {
+    .left-block-annotation h1 {
+        background-image: url(../images/4.v2.svg);
+        background-size: 90px;
+        background-position: left;
+        background-repeat: no-repeat;
+        padding: 40px 90px 40px 90px;
+    }
+    .left-block-annotation p {
+        margin-left: 90px;
+    }
+    .content-left-block {
+        width: 1540px;
+    }
+    .content-left-block,
+    .content-right-block {
+        top: 93px;
+        height: 1990px;
+    }
+    .content-right-block {
+        right: 0;
+    }
+    .left-block-structure {
+        margin-left: -6.5%;
+    }
+    .left-block-structure div {
+        width: 920px;
+        margin-top: -10px;
+        padding: 20px 30px 20px 60px;
+        border: 0 solid white;
+        border-radius: 5px;
+        background-image: url(../images/4.v2.svg);
+        background-size: 50px;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    .right-block-structure {
+        width: 920px;
+    }
+    .right-block-structure:nth-child(2) {
+        border-left: 5px solid green;
+    }
+    .right-block-structure:nth-child(3) {
+        border-left: 5px solid lightgrey;
+        margin-top: 5px;
+    }
+    .right-block-structure:nth-child(4) {
+        border-left: 5px solid lightgrey;
+        margin-top: 5px;
+    }
 
-	.footer {
-		top: 2000px;
-	}
+    .start-course ul {
+        float: left;
+        list-style-type: none;
+    }
+    .start-course li {
+        float: left;
+        padding: 0 20px;
+    }
+    .start-course li:nth-child(1) {
+        margin-left: -90px;
+    }
+    .start-course li:nth-child(2) {
+        margin-left: -20px;
+    }
+    .start-course img {
+        margin-top: -10px;
+        height: 40px;
+    }
+    .total-box-passive,
+    .total-box-active {
+        margin-right: 200px;
+    }
+
+    .footer {
+        top: 2000px;
+    }
 }
+
 @media all and (min-width: 1025px) and (max-width: 1366px) {
-	.content-left-block,
-	.content-right-block {
-		top: 93px;
-		height: 1380px;
-	}
-	.left-block-annotation h1 {
-		background-image: url(../images/4.v2.svg);
-		background-size: 90px;
-		background-position: left;
-		background-repeat: no-repeat;
-		padding: 40px 90px 40px 90px;
-	}
-	.left-block-annotation p {
-		margin-left: 90px;
-	}
-	.content-left-block {
-		width: 940px;
-	}
-	.content-right-block {
-		right: 0;
-	}
-	.left-block-structure {
-		margin-left: -6.5%;
-	}
-	.left-block-structure div {
-		width: 690px;
-		height: 30px;
-		margin-top: -12px;
-		padding: 2px 30px 25px 60px;
-		border: 0 solid white;
-		border-radius: 5px;
-		font-size: .9em;
-		background-image: url(../images/4.v2.svg);
-		background-size: 40px;
-		background-position: left;
-		background-repeat: no-repeat;
-	}
-	.right-block-structure {
-		width: 420px;
-	}
-	.right-block-structure:nth-child(2) {
-		border-left: 5px solid green;
-	}
-	.right-block-structure:nth-child(3) {border-left: 5px solid lightgrey; margin-top: 5px;}
-	.right-block-structure:nth-child(4) {border-left: 5px solid lightgrey; margin-top: 5px;}
-	
-	.start-course h3 {
-		margin-left: 5px;
-	}
-	.start-course ul{
-		float: left;
-		list-style-type: none;
-		width: 370px;
-	}.start-course li{
-		float: left;
-		width: auto;
-		padding: 0;
-		margin-top: -20px;
-	}.start-course li:nth-child(1) {
-		margin-left: -40px;
-	}.start-course li:nth-child(2) {
-		width: auto;
-		padding: 10px;
-		margin-right: auto;
-		margin-left: -5px;
-		font-size: .75em;
-	}.start-course li:nth-child(3) {
-		margin-top: -10px;
-	}.start-course img {
-		height: 40px;
-	}
-	.total-box-passive {
-		background-color: rgb(217, 217, 217);
-		color: white;
-		font-size: .75em;
-		margin-left: 20px;
-		padding: 7px;
-		border-radius: 5px;
-	}.total-box-active {
-		background-color: green;
-		color: white;
-		font-size: .8em;
-		margin-right: 20px;
-		margin-left: 50px;
-		padding: 7px;
-		border-radius: 5px;
-	}
-	/*end RIGHT*/
+    .content-left-block,
+    .content-right-block {
+        top: 93px;
+        height: 1380px;
+    }
+    .left-block-annotation h1 {
+        background-image: url(../images/4.v2.svg);
+        background-size: 90px;
+        background-position: left;
+        background-repeat: no-repeat;
+        padding: 40px 90px 40px 90px;
+    }
+    .left-block-annotation p {
+        margin-left: 90px;
+    }
+    .content-left-block {
+        width: 940px;
+    }
+    .content-right-block {
+        right: 0;
+    }
+    .left-block-structure {
+        margin-left: -6.5%;
+    }
+    .left-block-structure div {
+        width: 690px;
+        height: 30px;
+        margin-top: -12px;
+        padding: 2px 30px 25px 60px;
+        border: 0 solid white;
+        border-radius: 5px;
+        font-size: .9em;
+        background-image: url(../images/4.v2.svg);
+        background-size: 40px;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    .right-block-structure {
+        width: 420px;
+    }
+    .right-block-structure:nth-child(2) {
+        border-left: 5px solid green;
+    }
+    .right-block-structure:nth-child(3) {
+        border-left: 5px solid lightgrey;
+        margin-top: 5px;
+    }
+    .right-block-structure:nth-child(4) {
+        border-left: 5px solid lightgrey;
+        margin-top: 5px;
+    }
 
-	.footer {
-		top: 1400px;
-	}
+    .start-course h3 {
+        margin-left: 5px;
+    }
+    .start-course ul {
+        float: left;
+        list-style-type: none;
+        width: 370px;
+    }
+    .start-course li {
+        float: left;
+        width: auto;
+        padding: 0;
+        margin-top: -20px;
+    }
+    .start-course li:nth-child(1) {
+        margin-left: -40px;
+    }
+    .start-course li:nth-child(2) {
+        width: auto;
+        padding: 10px;
+        margin-right: auto;
+        margin-left: -5px;
+        font-size: .75em;
+    }
+    .start-course li:nth-child(3) {
+        margin-top: -10px;
+    }
+    .start-course img {
+        height: 40px;
+    }
+    .total-box-passive {
+        background-color: rgb(217, 217, 217);
+        color: white;
+        font-size: .75em;
+        margin-left: 20px;
+        padding: 7px;
+        border-radius: 5px;
+    }
+    .total-box-active {
+        background-color: green;
+        color: white;
+        font-size: .8em;
+        margin-right: 20px;
+        margin-left: 50px;
+        padding: 7px;
+        border-radius: 5px;
+    }
+    /*end RIGHT*/
+    .footer {
+        top: 1400px;
+    }
 }
