@@ -1,0 +1,26 @@
+
+@media all and (min-width: 1367px){
+	
+	.left-block-annotation input {
+		background-color: green;
+	}
+	.content-left-block,
+	.content-right-block {
+		height: 2070px;
+	}
+	.footer {
+		top: 2070px;
+	}
+}
+@media all and (min-width: 1025px) and (max-width: 1366px) {
+	.left-block-annotation input {
+		background-color: green;
+	}
+	.content-left-block,
+	.content-right-block {
+		height: 1570px;
+	}
+	.footer {
+		top:1650px;
+	}
+}
