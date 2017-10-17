@@ -1,5 +1,6 @@
 html {}
 body {
+    font-family: helvetica;
     background-color: cornsilk;
 }
 header {
@@ -7,17 +8,24 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: bisque;
+    background-color: cornsilk;
 }
 #header {}
 .nav {}
-.nav ul {
+.nav_menu {
     float: left;
 }
-.nav li {
+.nav_menu li,
+.nav_contacts li {
     float: left;
     padding: 10px;
     list-style-type: none;
+}
+.nav_contacts {
+    float: right;
+}
+.nav_contacts li:nth-child(2) {
+    font-size: 12px;
 }
 
 #allContent {
@@ -28,7 +36,7 @@ header {
 .slider_3 {
     width: auto;
     height: auto;
-    margin: 0 auto 0 auto;
+    margin: 0 -8px;
     padding: 10px;
     text-align: center;
     background-color: aqua;
@@ -47,7 +55,7 @@ header {
 #basic {
     width: auto;
     height: auto;
-    margin: 30px -8px 0 -8px;
+    margin: 0px -8px;
     background-color: blueviolet;
 }
 #basic h2 {padding: 20px;}
@@ -60,7 +68,7 @@ header {
     height: 300px;
     margin: 0 -8px -8px -8px;
     padding: 20px;
-    background-color: red;
+    background-color: brown;
 }
 .footer_list {
     margin-left: 10%;
