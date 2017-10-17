@@ -39,17 +39,32 @@ header {
     margin: 0 -8px;
     padding: 10px;
     text-align: center;
-    background-color: aqua;
 }
-.slider_1 {display: block;}
-.slider_2 {display: none;}
-.slider_3 {display: none;}
+.slider_1 {
+    background-image: url(../image/slider-code.png);
+    display: block;
+}
+.slider_2 {
+    background-image: url();
+    display: none;
+}
+.slider_3 {
+    background-image: url();
+    display: none;
+}
 .slider_1 div,
 .slider_2 div,
 .slider_3 div {
+    width: auto;
+    max-width: 1500px;
     margin: 30px auto;
     padding: 10px;
-    background-color: green;
+    color: white;
+    text-shadow: 0 0 2px grey;
+}
+.slider_block {
+    border-radius: 10px;
+    background-color: rgba(0,0,0, .5);
 }
 .slider_input {
     margin: 0 auto;
