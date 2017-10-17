@@ -51,6 +51,22 @@ header {
     padding: 10px;
     background-color: green;
 }
+.slider_input {
+    margin: 0 auto;
+    padding: 5px;
+}
+.slider_input input {
+    border: 1px outset lightgrey;
+    border-radius: 10px;
+    height: 5px;
+    cursor: pointer;
+}
+.slider_input input:hover {
+    background-color: grey;
+}
+.slider_active { 
+    background-color: grey;
+}
 
 #basic {
     width: auto;
