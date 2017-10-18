@@ -9,6 +9,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+	height: auto;
     background-color: cornsilk;
 }
 #header {}
@@ -42,7 +43,7 @@ header {
 }
 .nav_contacts li:nth-child(2) a {color: cadetblue;}
 
-#allContent {margin-top: 100px;}
+#allContent {margin-top: 150px;}
 .slider_1,
 .slider_2,
 .slider_3 {
@@ -53,8 +54,8 @@ header {
     text-align: center;
 }
 .slider_1 {background-image: url(../image/slider-code.png);}
-.slider_2 {background-image: url();}
-.slider_3 {background-image: url();}
+.slider_2 {background-image: url(../image/slider-code.png);}
+.slider_3 {background-image: url(../image/slider-code.png);}
 .slider_1 div,
 .slider_2 div,
 .slider_3 div {
@@ -130,7 +131,7 @@ header {
 .block_bottom_up,
 .block_bottom_down {width: auto; max-width: 1500px;}
 .block_bottom_up {margin: 0x;}
-.block_bottom_down {margin: 0;}
+.block_bottom_down {margin-bottom: 70px;}
 
 /*** ORDER FORM ***/
 #order_form {
@@ -140,9 +141,9 @@ header {
 	margin: auto;
 	background-color: chartreuse;
 }
-#order_form h3 {
+#order_form h2 {
 	margin: 0;
-	padding: 30px 10px 10px 10px;
+	padding: 50px 10px 10px 10px;
 	text-align: center;
 }
 #order_form form {
