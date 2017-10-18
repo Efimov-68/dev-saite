@@ -4,6 +4,8 @@ body {
 	line-height: 1.3em;
     background-color: cornsilk;
 }
+
+/*** HEADER MENU ***/
 header {
     position: fixed;
     top: 0;
@@ -44,6 +46,8 @@ header {
 .nav_contacts li:nth-child(2) a {color: cadetblue;}
 
 #allContent {margin-top: 150px;}
+
+/*** SLIDER ***/
 .slider_1,
 .slider_2,
 .slider_3 {
@@ -56,9 +60,7 @@ header {
 .slider_1 {background-image: url(../image/slider-code.png);}
 .slider_2 {background-image: url(../image/slider-code.png);}
 .slider_3 {background-image: url(../image/slider-code.png);}
-.slider_1 div,
-.slider_2 div,
-.slider_3 div {
+.block_info_slider {
     width: auto;
     max-width: 1500px;
     margin: auto;
@@ -66,7 +68,7 @@ header {
     color: white;
     text-shadow: 0 0 1px lightgrey;
 }
-.slider_block {
+.slider_basic_block {
     border-radius: 5px;
     box-shadow: 0 0 3px grey;
     background-color: rgba(255,255,255, .2);
@@ -85,11 +87,12 @@ header {
     width: auto;
     max-width: 1500px;
     height: auto;
-    margin: 0px -8px;
+    margin: 0px auto;
     background-color: blueviolet;
 }
 #basic h2 {}
 
+/*** BASIC BLOCK ***/
 .basic_img_block_left {float: left;}
 .basic_img_block_right {float: right;}
 .basic_img_block_left img,
@@ -101,11 +104,13 @@ header {
 .basic_img_block_left img {box-shadow: -2px 2px 2px black;}
 .basic_img_block_right img {box-shadow: 2px 2px 2px black;}
 .basic_block {padding: 30px; margin: 0 auto;}
+
+/*** BLOCK LIST ***/
 .basic_block_list {
     height: auto;
     padding: 30px;
     margin: 70px auto;
-    background-color: skyblue;
+    background-color: blueviolet;
 }
 .block_list_info { margin: 0 7%;}
 .block_list_info h2 {text-align: center;}
@@ -127,6 +132,8 @@ header {
     -moz-transform:scale(1.05);
 }
 .block_list_info li a {text-decoration: none;}
+
+/*** CONTINUE BASIC BLOCK ***/
 .basic_block_bottom {padding: 30px; margin: auto;}
 .block_bottom_up,
 .block_bottom_down {width: auto; max-width: 1500px;}
@@ -139,7 +146,7 @@ header {
 	width: auto;
 	max-width: 900px;
 	margin: auto;
-	background-color: chartreuse;
+	background-color: green;
 }
 #order_form h2 {
 	margin: 0;
