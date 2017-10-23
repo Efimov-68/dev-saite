@@ -2,21 +2,64 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <style>
+			.div1{
+				width: auto;
+				border: 1px solid black;
+				margin: 10px;
+				padding: 10px;
+			}
+			.div2{
+				width: auto;
+				border: 1px solid black;
+				margin: 10px;
+				padding: 10px;
+			}
+			.div3{
+				width: auto;
+				border: 1px solid black;
+				margin: 10px;
+				padding: 10px;
+			}
+		</style>
+       <script src="RWS/js/jquery-3.2.1.min.js"></script>
+       <script src="RWS/js/jquery-ui.min.js"></script>
         <script type="text/javascript">
-            var sheepCounted = 0;
-            /*while (sheepCounted <= 10){
+            /*var sheepCounted = 0;
+            while (sheepCounted <= 10){
                 console.log('Посчитано овец: '+sheepCounted + '!');
                 sheepCounted++;
             }
-            console.log('Хррррр - псссс');*/
+            console.log('Хррррр - псссс');
             for(sheepCounted; sheepCounted <= 10; sheepCounted++){
                 console.log('Посчитано овец: '+sheepCounted + '!');
             }
-            console.log('Хррррр - псссс');
+            console.log('Хррррр - псссс');*/
+			$(document).ready(function(){
+				$('.div1').hide();
+				$('.div2').hide();
+				$('.div3').hide();
+				var $div1 = $('.div1');
+				var $div2 = $('.div2');
+				var $div3 = $('.div3');
+				
+				$div1.fadeIn(3000);
+				$div1.html('<p>Lorem_1 ipsum dolor sit amet, consectetur adipisicing elit. Quod consequatur qui voluptatem assumenda fuga, sequi dolore expedita minus reiciendis adipisci harum sapiente enim incidunt temporibus quaerat doloribus beatae atque! Voluptatum.<br/><br/>Lorem_1 ipsum dolor sit amet, consectetur adipisicing elit. Quod consequatur qui voluptatem assumenda fuga, sequi dolore expedita minus reiciendis adipisci harum sapiente enim incidunt temporibus quaerat doloribus beatae atque! Voluptatum.</p>');
+				
+				/*if($div1.is(':hidden')){
+						$div1.fadeIn(2000);
+						$div1.fadeOut(5100)
+						$div2.fadeIn(5200);
+						$div3.hide();
+					}*/
+			});//end ready()
         </script>
         <title>test page JS kids book</title>
     </head>
     <body>
+       <div class="div1">Lorem_1 ipsum dolor sit amet, consectetur adipisicing elit. Quod consequatur qui voluptatem assumenda fuga, sequi dolore expedita minus reiciendis adipisci harum sapiente enim incidunt temporibus quaerat doloribus beatae atque! Voluptatum.</div>
+       <div class="div2">Lorem_2 ipsum dolor sit amet, consectetur adipisicing elit. Quod consequatur qui voluptatem assumenda fuga, sequi dolore expedita minus reiciendis adipisci harum sapiente enim incidunt temporibus quaerat doloribus beatae atque! Voluptatum.</div>
+       <div class="div3">Lorem_3 ipsum dolor sit amet, consectetur adipisicing elit. Quod consequatur qui voluptatem assumenda fuga, sequi dolore expedita minus reiciendis adipisci harum sapiente enim incidunt temporibus quaerat doloribus beatae atque! Voluptatum.</div>
         
     </body>
 </html>
