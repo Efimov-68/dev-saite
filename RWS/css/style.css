@@ -58,9 +58,25 @@ header {
     padding: 10px;
     text-align: center;
 }
-.slider_1 {background-image: url(../image/slider-code.png);}
-.slider_2 {background-image: url(../image/slider-code.png);}
-.slider_3 {background-image: url(../image/slider-code.png);}
+.slider_1 h1,
+.slider_2 h1,
+.slider_3 h1 {
+    color: darkcyan;
+    font-family: cursive;
+    text-shadow: 2px 1px 1px black;
+}
+.slider_1 {
+    background-image: url(../image/slider-code.png);
+    background-position: center;
+}
+.slider_2 {
+    background-image: url(../image/slider-code-2.jpg);
+    background-position: center;
+}
+.slider_3 {
+    background-image: url(../image/slider-code-3.jpg);
+    background-position: center;
+}
 .block_info_slider {
     width: auto;
     max-width: 1500px;
@@ -72,7 +88,7 @@ header {
 .slider_basic_block {
     border-radius: 5px;
     box-shadow: 0 0 3px grey;
-    background-color: rgba(245,245,245, .3);
+    background-color: rgba(245,245,245, .4);
 }
 .slider_input {margin: 0 auto; padding: 5px;}
 .slider_input input {
