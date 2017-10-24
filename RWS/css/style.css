@@ -79,7 +79,7 @@ header {
     float:left;
     width: 100px;
     height: 100px;
-    border: 2px dashed lightblue;
+    border: 2px dashed orange;
     border-radius: 50px;
     margin: 20px 25%;
 }
@@ -92,13 +92,11 @@ header {
     margin: 20px auto 20px 20px;
 }
 .bl_image_left a img,
-.bl_image_center a img,
 .bl_image_right a img {width: 100px; padding-top: 15px;}
 .bl_image_left:hover,
-.bl_image_center:hover,
 .bl_image_right:hover {border:2px solid orange;}
 .bl_image_left a img:hover,
-.bl_image_center a img:hover,
+.bl_image_center a img,
 .bl_image_right a img:hover {width: 80px; padding-top: 20px; padding-left: 10px; opacity: .5;}
 
 /*** SLIDER ***/
