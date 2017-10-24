@@ -163,18 +163,18 @@ header {
 .block_list_info li {
     float: left;
     width: auto;
-    max-width: 420px;
+    max-width: 400px;
     height: auto;
     padding: 10px;
-    margin: 20px;
-    border: 1px solid lightsteelblue;
-    border-radius: 3px;
+    margin: 20px 30px;
+    border: 2px solid lightsteelblue;
+    border-radius: 5px;
     box-shadow: 0 0 5px grey;
     background-color: lightsteelblue;
 }
 .block_list_info li:hover {
     text-shadow: 1px 1px 1px lightgray;
-    border: 1px solid lightsteelblue;
+    border: 2px solid lightsteelblue;
     box-shadow: none;
     background-color: inherit;
 }
