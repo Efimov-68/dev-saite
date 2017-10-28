@@ -123,32 +123,38 @@ header {
     text-shadow: 2px 1px 1px black;
 }
 .slider_form {
-    width: 250px;
+    width: 350px;
     margin-left: 20px;
     margin-right: 70px;
     padding: 20px;
     border: none;
-    box-shadow: 0 0 5px black;
-    background-color: green;
+    box-shadow: 0 0 10px black;
+    background-color: gray;
     float: right;
 }
 .sl_form_input input {
     height: 30px;
+    width: 250px;
     padding-left: 10px;
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 5px;
+    font-family: monospace;
 }
 .sl_form_submit input {
-    height: 30px;
     width: 100px;
     padding: 5px 10px;
-    border-radius: 10px;
+    font-size: 16px;
+    border-radius: 15px;
     box-shadow: 2px 2px 5px black;
-    background-color: white;
+    background-color: lightgreen;
     border: none;
     cursor: pointer;
 }
+.sl_form_submit input:hover {
+    background-color: green;
+}
 .sl_form_submit input:active {
+    text-shadow: 1px 1px 1px grey;
     box-shadow: none;
     outline: none;
     background-color: orange;
@@ -265,7 +271,8 @@ header {
     font-size: 2em;
     text-align: center;
 }
-.block_list_info h3 {font-family: cursive;}
+.block_list_info h3 {text-decoration: underline;}
+.block_list_info b {font-family: cursive;}
 .block_list_info ul {float: left; list-style-type: none;}
 .block_list_info li {
     float: left;
@@ -274,12 +281,13 @@ header {
     height: auto;
     padding: 20px;
     margin: 20px auto;
-    border: 2px solid lightsteelblue;
-    border-radius: 10px;
+    border: none;
+    border-radius: 0px 10px 10px 0;
     text-shadow: 1px 1px 1px lightgray;
-    background-color: lightsteelblue;
+    background-color: whitesmoke;
 }
-.block_list_info li a {color: blue; text-decoration: none;}
+.block_list_info li a {color: blue; font-size: 1.1em; text-decoration: underline;}
+.block_list_info li a:hover {text-decoration: none;}
 .block_list_info li a:focus{color: orange;}
 .list_p_info {margin-top: 20px;
     margin-left: 180px;}
