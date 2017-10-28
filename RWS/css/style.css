@@ -25,8 +25,24 @@ header {
 }
 .nav_menu li {
     float: left;
+    border: 2px solid whitesmoke;
     padding: 10px 10px 0 10px;
     list-style-type: none;
+}
+.nav_menu li:hover:nth-child(2),
+.nav_menu li:hover:nth-child(3),
+.nav_menu li:hover:nth-child(4),
+.nav_menu li:hover:nth-child(5) {
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    background-color: ghostwhite;    
+}
+.nav_menu li:active:nth-child(2),
+.nav_menu li:active:nth-child(3),
+.nav_menu li:active:nth-child(4),
+.nav_menu li:active:nth-child(5) {
+    border: 2px dashed blue;
 }
 .nav_menu li a {color: blue; text-decoration: none;}
 .logo_RW {
@@ -103,6 +119,9 @@ header {
 .bl_image_center a img {width: 80px; padding-top: 20px; padding-left: 10px; opacity: .5;}
 
 /*** SLIDER ***/
+.slider_2,
+.slider_3 {display: none;}
+
 .slider_1,
 .slider_2,
 .slider_3 {
@@ -128,7 +147,7 @@ header {
     margin-right: 70px;
     padding: 20px;
     border: none;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 15px black;
     background-color: gray;
     float: right;
 }
@@ -210,7 +229,8 @@ header {
     border-bottom: 10px solid lightblue;
     border-radius: 40px 0;
     margin-bottom: 50px;
-    background-color: rgba(0, 0, 255,.1);
+    background-image: url(../image/slider_code.png);
+    background-position: center;
 }
 /*** BASIC BLOCK ***/
 .basic_img_block_left {float: left;}
@@ -260,7 +280,8 @@ header {
     border-top: 10px solid yellow;
     border-bottom: 10px solid yellow;
     border-radius: 40px 0;
-    background-color: rgba(255, 255, 0,.2);
+    background-image: url(../image/slider_code.png);
+    background-position: center;
 }
 .block_list_info {margin: 0 30%;}
 .list_info_h2 h2 {
@@ -314,7 +335,8 @@ header {
     border-top: 10px solid red;
     border-bottom: 10px solid red;
     border-radius: 40px 0;
-    background-color: rgba(255,0,0,.1);
+    background-image: url(../image/slider_code.png);
+    background-position: center;
 }
 
 /*** ORDER FORM ***/
@@ -391,10 +413,12 @@ header {
     margin: 100px -8px -8px -8px;
     padding: 20px;
     border-top: 10px solid cadetblue;
-    border-radius: 40px;
+    border-radius: 40px 40px 0 0;
+    background-image: url(../image/slider_code.png);
+    background-position: center;
 }
 .footer_basic {
-    background-color: whitesmoke;
+    background-color: ;
 }
 .footer_list {margin-left: 10%;}
 .list {float:left; margin: 20px;}
