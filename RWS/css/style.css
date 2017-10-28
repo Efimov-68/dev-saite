@@ -15,7 +15,11 @@ header {
     background-color: whitesmoke;
 }
 #header {}
-.nav {}
+.nav {
+    width: auto;
+    max-width: 1500px;
+    margin: 0 auto;
+}
 .nav_menu {
     float: left;
 }
@@ -50,7 +54,7 @@ header {
 
 /***RW_bl_group***/
 .RW_bl_group {
-    margin: 20px auto 150px auto;
+    margin: 20px auto 0px auto;
     width: auto;
     max-width: 1500px;
     height: 150px;
@@ -103,12 +107,12 @@ header {
 .slider_2,
 .slider_3 {
     width: auto;
-    height: auto;
-    margin: 0 -8px;
+    max-width: 1500px;
+    height: 500px;
+    margin: 0 auto;
     padding: 10px;
-    background-color: rgb(225,255,205);
+    background-image: url(../image/slider_code.png);
     background-position: center;
-    opacity: ;
 }
 .slider_1 h1,
 .slider_2 h1,
@@ -117,6 +121,37 @@ header {
     font-family: cursive;
     text-align: center;
     text-shadow: 2px 1px 1px black;
+}
+.slider_form {
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 70px;
+    padding: 20px;
+    border: none;
+    box-shadow: 0 0 5px black;
+    background-color: green;
+    float: right;
+}
+.sl_form_input input {
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.sl_form_submit input {
+    height: 30px;
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    background-color: cyan;
+    border: none;
+    cursor: pointer;
+}
+.sl_form_submit input:active {
+    box-shadow: none;
+    outline: none;
+    background-color: orange;
 }
 .sl_h1_span {color: red; font-size: 1.5em;}
 .block_info_slider {
@@ -222,32 +257,33 @@ header {
     background-color: rgba(255, 255, 0,.2);
 }
 .block_list_info {margin: 0 30%;}
-.block_list_info h2 {text-align: center;}
-.block_list_info ul {float: left; list-style-type: none;}
-.block_list_info li {
-    float: left;
-    width: auto;
-    max-width: 500px;
-    height: auto;
-    padding: 10px;
-    margin: 20px auto;
-    border: 2px solid lightsteelblue;
-    border-radius: 10px;
-    text-shadow: 1px 1px 1px lightgray;
-    background-color: lightsteelblue;
-}
 .list_info_h2 h2 {
     width: auto;
     margin: 0 auto;
     padding: 15px;
     font-family: cursive;
     font-size: 2em;
+    text-align: center;
+}
+.block_list_info h3 {font-family: cursive;}
+.block_list_info ul {float: left; list-style-type: none;}
+.block_list_info li {
+    float: left;
+    width: auto;
+    max-width: 800px;
+    height: auto;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid lightsteelblue;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px lightgray;
+    background-color: lightsteelblue;
 }
 .block_list_info li a {color: blue; text-decoration: none;}
 .block_list_info li a:focus{color: orange;}
-.list_p_info {margin-top: 100px;
+.list_p_info {margin-top: 20px;
     margin-left: 180px;}
-.list_p_a {padding-top: 70px;}
+.list_p_a {padding-top: 20px;}
 
 .list_image_block {
     height: 300px;
