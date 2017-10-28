@@ -106,29 +106,19 @@ header {
     height: auto;
     margin: 0 -8px;
     padding: 10px;
-    text-align: center;
-    opacity: .7;
+    background-color: rgb(225,255,205);
+    background-position: center;
+    opacity: ;
 }
 .slider_1 h1,
 .slider_2 h1,
 .slider_3 h1 {
     color: darkcyan;
     font-family: cursive;
+    text-align: center;
     text-shadow: 2px 1px 1px black;
 }
 .sl_h1_span {color: red; font-size: 1.5em;}
-.slider_1 {
-    background-image: url(../image/slider-code.png);
-    background-position: center;
-}
-.slider_2 {
-    background-image: url(../image/slider-code-2.jpg);
-    background-position: center;
-}
-.slider_3 {
-    background-image: url(../image/slider-code-3.jpg);
-    background-position: center;
-}
 .block_info_slider {
     width: auto;
     max-width: 1500px;
@@ -148,17 +138,19 @@ header {
 .sub1:hover,.sub2:hover,.sub3:hover,
 .slider_active {box-shadow: 0 0 2px blue; background-color: grey;}
 .slider_submit {margin: 10px;}
-.slider_submit input {
+.slider_submit a {
+    margin: 0 5px;
     padding: 10px 35px;
     color: white;
     font-size: 1.3em;
     border: none;
     border-radius: 20px;
-    box-shadow: 0 5px 5px black;
+    box-shadow: 2px 3px 5px black;
     background-color: cadetblue;
     cursor: pointer;
+    text-decoration: none;
 }
-.slider_submit input:hover {
+.slider_submit a:hover {
     color: white;
     box-shadow: none;
     background-color: orange;
@@ -221,26 +213,26 @@ header {
 /*** BLOCK LIST ***/
 .basic_block_list {
     height: auto;
-    padding: 30px;
-    margin: 50px auto;
+    width: auto;
+    padding: 10px;
+    margin: auto;
     border-top: 10px solid yellow;
     border-bottom: 10px solid yellow;
     border-radius: 40px 0;
     background-color: rgba(255, 255, 0,.2);
 }
-.block_list_info { margin: 0 10%;}
+.block_list_info {margin: 0 30%;}
 .block_list_info h2 {text-align: center;}
 .block_list_info ul {float: left; list-style-type: none;}
 .block_list_info li {
     float: left;
     width: auto;
-    max-width: 400px;
+    max-width: 500px;
     height: auto;
     padding: 10px;
-    margin: 20px 30px;
-    border: 2px dashed lightsteelblue;
+    margin: 20px auto;
+    border: 2px solid lightsteelblue;
     border-radius: 10px;
-    box-shadow: 4px 4px 5px grey;
     text-shadow: 1px 1px 1px lightgray;
     background-color: lightsteelblue;
 }
@@ -253,6 +245,20 @@ header {
 }
 .block_list_info li a {color: blue; text-decoration: none;}
 .block_list_info li a:focus{color: orange;}
+.list_p_info {margin-top: 100px;
+    margin-left: 180px;}
+.list_p_a {padding-top: 70px;}
+
+.list_image_block {
+    height: 300px;
+    width: 350px;
+    margin-left: -200px;
+    box-shadow: 4px 4px 5px grey;
+    float: left;
+}
+.image_block {
+    height: 300px; width: 350px;
+}
 
 /*** CONTINUE BASIC BLOCK ***/
 .basic_block_bottom {padding: 30px; margin: auto;}
