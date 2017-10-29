@@ -13,6 +13,7 @@ header {
     right: 0;
 	height: auto;
     background-color: whitesmoke;
+    opacity: 1;
 }
 #header {}
 .nav {
@@ -128,11 +129,11 @@ header {
 .slider_3 {
     width: auto;
     max-width: 1500px;
-    height: 500px;
+    height: auto;
     margin: 0 auto;
     padding: 10px;
     box-shadow: 5px 5px 15px black;
-    background-image: url(../image/code.jpg);
+    background-image: url(../image/slider_1.png);
     background-position: center;
 }
 .slider_1 h1,
@@ -151,7 +152,7 @@ header {
     border: none;
     border-radius: 10px;
     box-shadow: 0 0 15px black;
-    background-color: lightgray;
+    background-color: #b3cce6;
     float: right;
 }
 .sl_form_input input {
@@ -238,7 +239,7 @@ header {
     box-shadow: 5px 5px 15px black;
     color: white;
     text-shadow: 1px 1px 1px black;
-    background-image: url(../image/slider_code.png);
+    background-image: url(../image/slider-code.png);
     background-position: center;
 }
 
@@ -251,8 +252,8 @@ header {
     margin: 10px;
     border-radius: 5px;
 }
-.basic_img_block_left img {box-shadow: -2px 2px 2px black;}
-.basic_img_block_right img {box-shadow: 2px 2px 2px black;}
+.basic_img_block_left img {box-shadow: -2px 2px 5px lightgray;}
+.basic_img_block_right img {box-shadow: 2px 2px 5px lightgray;}
 .basic_block {padding: 30px; margin: 0 auto;}
 
 /*** BLOCK_H_P ***/
@@ -277,9 +278,11 @@ header {
     height: auto;
     width: 280px;
     border-radius: 20px;
+    opacity: .5;
 }
+.bl_img_pfl a img:hover {box-shadow: 0 0 10px black;opacity: 1;}
 .bl_info_pfl {
-    margin: 250px auto 150px auto;
+    margin: 450px auto 150px auto;
 }
 
 /*** BLOCK LIST ***/
@@ -290,7 +293,7 @@ header {
     margin: auto;
     border-radius: 40px 0;
     box-shadow: 5px 5px 15px black;
-    background-image: url(../image/slider_code.png);
+    background-image: url(../image/slider-code.png);
     background-position: center;
 }
 .block_list_info {margin: 0 30%;}
@@ -348,7 +351,7 @@ header {
     box-shadow: 5px 5px 15px black;
     color: white;
     text-shadow: 1px 1px 1px black;
-    background-image: url(../image/code.jpg);
+    background-image: url(../image/reviews.jpg);
     background-position: center;
 }
 
@@ -358,17 +361,11 @@ header {
 	width: auto;
 	max-width: 950px;
 	margin: 10px auto;
-    border-top: 5px solid orange;
-    border-left: 5px solid cadetblue;
-    border-right: 5px solid cadetblue;
-    border-bottom: 5px solid orange;
-    border-radius: 40px;
-    box-shadow: 0 0 3px black;
 }
 .order_form_basic{
-	box-shadow: 0 0 2px black;
-    border-radius: 35px;
-	background-color: rgba(95, 158, 160,.2);
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px grey;
+	background-color: #b3cce6;
 }
 #order_form h1 {
 	margin: 0;
@@ -376,7 +373,7 @@ header {
 	text-align: center;
 }
 #order_form form {
-	width: 500px;
+	width: 550px;
 	margin: 0 auto;
 	padding: 20px;
 }
@@ -386,7 +383,7 @@ header {
 #order_form p:nth-child(3) input {
 	width: 300px;
 	height: 40px;
-	margin-left: 20px;
+	margin-left: 25px;
 	padding-left: 10px;
 	font-size: 1.2em;
     font-family: monospace;
@@ -396,7 +393,7 @@ header {
 #order_form p:nth-child(1) input:hover,
 #order_form p:nth-child(2) input:hover,
 #order_form p:nth-child(3) input:hover {
-	border: 3px solid lightblue;}
+	border: 3px solid blue;}
 #order_form p:nth-child(1) input:focus,
 #order_form p:nth-child(2) input:focus,
 #order_form p:nth-child(3) input:focus {
