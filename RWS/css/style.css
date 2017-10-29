@@ -234,9 +234,9 @@ header {
 }
 
 .basic_div {
-    border-radius: 40px 0;
+    border-radius: 0;
     margin-bottom: 50px;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 0px 15px 15px black;
     color: white;
     text-shadow: 1px 1px 1px black;
     background-image: url(../image/slider-code.png);
@@ -278,9 +278,8 @@ header {
     height: auto;
     width: 280px;
     border-radius: 20px;
-    opacity: .5;
 }
-.bl_img_pfl a img:hover {box-shadow: 0 0 10px black;opacity: 1;}
+.bl_img_pfl a img:hover {box-shadow: 0 0 10px black;}
 .bl_info_pfl {
     margin: 450px auto 150px auto;
 }
@@ -291,8 +290,8 @@ header {
     width: auto;
     padding: 10px;
     margin: auto;
-    border-radius: 40px 0;
-    box-shadow: 5px 5px 15px black;
+    border-radius: 0;
+    box-shadow: 0 15px 15px black;
     background-image: url(../image/slider-code.png);
     background-position: center;
 }
@@ -344,11 +343,11 @@ header {
 .basic_block_bottom {padding: 30px; margin: auto;}
 .block_bottom_up,
 .block_bottom_down {width: auto; max-width: 1500px;}
-.block_bottom_up {margin: 0x;}
+.block_bottom_up {margin: 50px;}
 .block_bottom_down {margin-bottom: 70px;}
 .basic_bottom {
-    border-radius: 40px 0;
-    box-shadow: 5px 5px 15px black;
+    border-radius: 0;
+    box-shadow: 0 15px 15px black;
     color: white;
     text-shadow: 1px 1px 1px black;
     background-image: url(../image/reviews.jpg);
