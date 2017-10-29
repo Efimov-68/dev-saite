@@ -131,6 +131,7 @@ header {
     height: 500px;
     margin: 0 auto;
     padding: 10px;
+    box-shadow: 5px 5px 15px black;
     background-image: url(../image/code.jpg);
     background-position: center;
 }
@@ -149,7 +150,7 @@ header {
     padding: 20px;
     border: none;
     border-radius: 10px;
-    box-shadow: 0 0 15px gray;
+    box-shadow: 0 0 15px black;
     background-color: lightgray;
     float: right;
 }
@@ -273,11 +274,12 @@ header {
     margin: auto 20px;
 }
 .bl_img_pfl a img {
-    height: 300px;
+    height: auto;
     width: 280px;
+    border-radius: 20px;
 }
 .bl_info_pfl {
-    margin: 450px auto 150px auto;
+    margin: 250px auto 150px auto;
 }
 
 /*** BLOCK LIST ***/
