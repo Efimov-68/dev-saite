@@ -133,15 +133,14 @@ header {
     margin: 0 auto;
     padding: 10px;
     box-shadow: none;
-    background-image: url(../image/slider_1.png);
+    background-image: url(../image/nano.jpg);
     background-position: center;
 }
 .slider_1 h1,
 .slider_2 h1,
 .slider_3 h1 {
-    color: darkcyan;
+    color: whitesmoke;
     line-height: 1.3em;
-    font-family: cursive;
     text-align: center;
     text-shadow: 2px 1px 1px black;
 }
@@ -156,7 +155,7 @@ header {
     background-color: lightgray;
     float: right;
 }
-.slider_form h2 {color: black;}
+.slider_form h2 {color: whitesmoke;}
 .slider_str_info {
     width: auto;
     height: 350px;
@@ -221,6 +220,7 @@ header {
     padding: 10px 35px;
     color: white;
     font-size: 1.3em;
+    font-family: cursive;
     border: none;
     border-radius: 5px 20px 20px 5px;
     box-shadow: 2px 3px 5px black;
@@ -263,9 +263,10 @@ header {
 .basic_img_block_right {float: right;}
 .basic_img_block_left img,
 .basic_img_block_right img {
-    width: 300px;
+    width: 200px;
+    height: 200px;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 50%;
 }
 .basic_img_block_left img {box-shadow: -2px 2px 5px black;}
 .basic_img_block_right img {box-shadow: 2px 2px 5px black;}
@@ -367,7 +368,7 @@ header {
     box-shadow: none;
     color: white;
     text-shadow: 1px 1px 1px black;
-    background-image: url(../image/reviews.jpg);
+    background-image: url(../image/reviews2.jpg);
     background-position: center;
 }
 
