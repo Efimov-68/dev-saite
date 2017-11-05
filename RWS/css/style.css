@@ -441,33 +441,31 @@ header {
     margin: 100px -8px -8px -8px;
     padding: 20px;
     border-top: 10px solid cadetblue;
-    text-shadow: 1px 1px 1px black;
-    background-color: lightslategray;
-    background-position: center;
 }
 .footer_basic {
     width: auto;
     max-width: 1500px;
     margin: 0 auto;
 }
-.footer_basic h2{color: darkcyan; font-size: 2em; margin-left: 50px;}
+.footer_basic h2{color: darkcyan; font-size: 2em; font-family: cursive; margin-left: 50px;}
 .footer_basic h2 span {color: darkorange;}
 .footer_list {margin:0 auto;}
 .list {float:left; margin: 10px;}
 .info {float:right; width: 500px; margin-right: 10px;}
 .list ul,
 .info ul {list-style-type: none; line-height: 1.5em;}
-.list a {color:white;}
+.list a {color:black;}
 .list a:hover {text-decoration: none;}
-.info a {color: white;}
+.info a {color: black;}
 .info a:hover {text-decoration: none;}
 .social_widget_1 li,
-.social_widget_2 li {float: left; margin: 5px;}
+.social_widget_2 li {float: left; margin: 5px; color: black;}
 .social_widget_1 li img,
-.social_widget_2 li img {width: 30px;}
+.social_widget_2 li img {width: 25px;}
+/******/
 .social_widget_1 li:nth-child(1) img:hover {
     border-radius: 50px;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px yellow;
 }
 .social_widget_1 li:nth-child(2) img:hover {
     border-radius: 50px;
@@ -479,17 +477,17 @@ header {
 }
 .social_widget_1 li:nth-child(4) img:hover {
     border-radius: 50px;
-    box-shadow: 0 0 10px lightgreen;
+    box-shadow: 0 0 10px green;
 }
 .social_widget_2 li:nth-child(1) img:hover {
     border-radius: 50px;
-    box-shadow: 0 0 10px blue;
+    box-shadow: 0 0 10px darkblue;
 }
 .social_widget_2 li:nth-child(2) img:hover {
     border-radius: 50px;
-    box-shadow: 0 0 10px lightblue;
+    box-shadow: 0 0 10px blue;
 }
 .social_widget_2 li:nth-child(3) img:hover {
     border-radius: 50px;
-    box-shadow: 0 0 10px pink;
+    box-shadow: 0 0 10px red;
 }
