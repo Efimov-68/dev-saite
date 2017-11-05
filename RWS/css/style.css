@@ -132,7 +132,7 @@ header {
     height: auto;
     margin: 0 auto;
     padding: 10px;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: none;
     background-image: url(../image/slider_1.png);
     background-position: center;
 }
@@ -151,7 +151,7 @@ header {
     margin-right: 70px;
     padding: 20px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 0 15px black;
     background-color: #b3cce6;
     float: right;
@@ -251,7 +251,7 @@ header {
 .basic_div {
     border-radius: 0;
     margin-bottom: 50px;
-    box-shadow: 0px 15px 15px black;
+    box-shadow: none;
     color: white;
     text-shadow: 1px 1px 1px black;
     background-image: url(../image/1.jpg);
@@ -267,8 +267,8 @@ header {
     margin: 10px;
     border-radius: 5px;
 }
-.basic_img_block_left img {box-shadow: -2px 2px 5px lightgray;}
-.basic_img_block_right img {box-shadow: 2px 2px 5px lightgray;}
+.basic_img_block_left img {box-shadow: -2px 2px 5px black;}
+.basic_img_block_right img {box-shadow: 2px 2px 5px black;}
 .basic_block {padding: 30px; margin: 0 auto;}
 
 /*** BLOCK_H_P ***/
@@ -306,7 +306,7 @@ header {
     padding: 10px;
     margin: auto;
     border-radius: 0;
-    box-shadow: 0 15px 15px black;
+    box-shadow: none;
     background-image: url(../image/slider-code.png);
     background-position: center;
 }
@@ -332,7 +332,7 @@ header {
     padding: 20px;
     margin: 20px auto;
     border: none;
-    border-radius: 0px 10px 10px 0;
+    border-radius: none;
     text-shadow: 1px 1px 1px lightgray;
     background-color: whitesmoke;
 }
@@ -347,11 +347,13 @@ header {
     height: 300px;
     width: 350px;
     margin-left: -200px;
-    box-shadow: 4px 4px 5px grey;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px black;
     float: left;
 }
 .image_block {
     height: 300px; width: 350px;
+    border-radius: 3px 5px 5px 3px;
 }
 
 /*** CONTINUE BASIC BLOCK ***/
@@ -362,7 +364,7 @@ header {
 .block_bottom_down {margin-bottom: 70px;}
 .basic_bottom {
     border-radius: 0;
-    box-shadow: 0 15px 15px black;
+    box-shadow: none;
     color: white;
     text-shadow: 1px 1px 1px black;
     background-image: url(../image/reviews.jpg);
@@ -377,7 +379,7 @@ header {
 	margin: 10px auto;
 }
 .order_form_basic{
-    border-radius: 10px;
+    border-radius: 7px;
     text-shadow: 1px 1px 1px grey;
 	background-color: #b3cce6;
 }
