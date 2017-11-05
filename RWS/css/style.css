@@ -153,9 +153,10 @@ header {
     border: none;
     border-radius: 5px;
     box-shadow: 0 0 15px black;
-    background-color: #b3cce6;
+    background-color: lightgray;
     float: right;
 }
+.slider_form h2 {color: black;}
 .slider_str_info {
     width: auto;
     height: 350px;
@@ -173,12 +174,11 @@ header {
 }
 .sl_form_submit input {
     width: 100px;
-    padding: 5px 10px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 18px;
     border-radius: 15px;
-    box-shadow: 2px 2px 5px black;
-    color: whitesmoke;
-    background-color: darkcyan;
+    color: white;
+    background-color: gray;
     border: none;
     cursor: pointer;
 }
@@ -381,7 +381,7 @@ header {
 .order_form_basic{
     border-radius: 7px;
     text-shadow: 1px 1px 1px grey;
-	background-color: #b3cce6;
+	background-color: lightgray;
 }
 #order_form h1 {
 	margin: 0;
