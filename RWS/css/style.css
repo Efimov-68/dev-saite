@@ -12,6 +12,7 @@ header {
     left: 0;
     right: 0;
 	height: auto;
+    border-bottom: 5px solid darkcyan;
     background-color: whitesmoke;
     opacity: 1;
 }
@@ -30,19 +31,21 @@ header {
     padding: 10px 10px 0 10px;
     list-style-type: none;
 }
-.nav_menu li:hover:nth-child(2),
 .nav_menu li:hover:nth-child(3),
 .nav_menu li:hover:nth-child(4),
-.nav_menu li:hover:nth-child(5) {
+.nav_menu li:hover:nth-child(5),
+.nav_menu li:hover:nth-child(6),
+.nav_menu li:hover:nth-child(7) {
     padding: 10px;
     border: 1px solid lightgray;
     border-radius: 10px;
     background-color: ghostwhite;    
 }
-.nav_menu li:active:nth-child(2),
 .nav_menu li:active:nth-child(3),
 .nav_menu li:active:nth-child(4),
-.nav_menu li:active:nth-child(5) {
+.nav_menu li:active:nth-child(5),
+.nav_menu li:active:nth-child(6),
+.nav_menu li:active:nth-child(7) {
     border: 1px dashed blue;
 }
 .nav_menu li a {color: blue; text-decoration: none;}
@@ -80,7 +83,6 @@ header {
     font-family: cursive;
     font-size: 2.5em;
     text-align: center;
-    text-shadow: 1px 1px 1px grey;
     padding: 20px auto;
 }
 .bl_group_h1 h1 {color: darkcyan;}
@@ -250,7 +252,8 @@ header {
 
 .basic_div {
     border-radius: 0;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 150px;
     box-shadow: none;
     color: white;
     text-shadow: 1px 1px 1px black;
@@ -259,15 +262,16 @@ header {
 }
 
 /*** BASIC BLOCK ***/
-.basic_img_block_left {float: left;}
-.basic_img_block_right {float: right;}
+.basic_img_block_left,
+.basic_img_block_right {float: left;}
 .basic_img_block_left img,
 .basic_img_block_right img {
     width: 200px;
     height: 200px;
     margin: 10px;
-    border-radius: 50%;
 }
+.basic_img_block_left img {border-radius: 50%;}
+.basic_img_block_right img {border-radius: 5px;}
 .basic_img_block_left img {box-shadow: -2px 2px 5px black;}
 .basic_img_block_right img {box-shadow: 2px 2px 5px black;}
 .basic_block {padding: 30px; margin: 0 auto;}
@@ -276,28 +280,37 @@ header {
 .block_h {
     height: auto;
     width: auto;
-    max-width: 1050px;
-    margin: 50px auto;
+    max-width: 1500px;
+    margin: 0px auto;
+    background-color: black;
 }
 .block_p {
     height: auto;
-    padding: 10px;
+    padding: 210px 10px 10px 10px;
 }
-.block_p h2 {margin: 0 auto; padding-bottom: 50px; font-family: cursive; font-size: 2em;}
+.block_p h2 {
+    margin: 0 auto;
+    padding-bottom: 50px;
+    font-family: cursive;
+    font-size: 2em;
+}
 .block_p div {
     float: left;
     width: auto;
     max-width: 300px;
-    margin: auto 20px;
+    margin: auto 10px;
 }
 .bl_img_pfl a img {
     height: auto;
     width: 280px;
-    border-radius: 20px;
+    border-radius: 5px;
 }
-.bl_img_pfl a img:hover {box-shadow: 0 0 10px black;}
+.bl_img_pfl a img:hover {box-shadow: 0 0 15px whitesmoke;}
 .bl_info_pfl {
-    margin: 450px auto 150px auto;
+    width: 900px;
+    margin: 450px auto 0px auto;
+    padding: 150px;
+    color: white;
 }
 
 /*** BLOCK LIST ***/
@@ -311,7 +324,7 @@ header {
     background-image: url(../image/slider-code.png);
     background-position: center;
 }
-.block_list_info {margin: 0 30%;}
+.block_list_info {margin: 0 30%; padding-top: 150px;}
 .list_info_h2 h2 {
     width: auto;
     margin: 0 auto;
@@ -360,16 +373,18 @@ header {
 /*** CONTINUE BASIC BLOCK ***/
 .basic_block_bottom {padding: 30px; margin: auto;}
 .block_bottom_up,
-.block_bottom_down {width: auto; max-width: 1500px;}
+.block_bottom_down {width: auto; max-width: 500px; text-align: left; background-color: whitesmoke; padding: 20px; border-radius: 5px;}
 .block_bottom_up {margin: 50px;}
 .block_bottom_down {margin-bottom: 70px;}
 .basic_bottom {
     border-radius: 0;
     box-shadow: none;
-    color: white;
-    text-shadow: 1px 1px 1px black;
+    color: black;
     background-image: url(../image/reviews2.jpg);
     background-position: center;
+}
+.basic_bottom h1 {
+    color: white;
 }
 
 /*** ORDER FORM ***/
@@ -381,7 +396,6 @@ header {
 }
 .order_form_basic{
     border-radius: 7px;
-    text-shadow: 1px 1px 1px grey;
 	background-color: lightgray;
 }
 #order_form h1 {
