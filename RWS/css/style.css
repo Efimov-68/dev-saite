@@ -340,7 +340,7 @@ header {
     background-image: url(../image/slider-code.png);
     background-position: center;
 }
-.block_list_info {margin: 0 30%; padding-top: 150px;}
+.block_list_info {margin: 0 25%; padding-top: 150px;}
 .list_info_h2 h2 {
     width: auto;
     margin: 0 auto;
@@ -357,9 +357,8 @@ header {
 .block_list_info li {
     float: left;
     width: auto;
-    max-width: 800px;
     height: auto;
-    padding: 20px;
+    padding: 10px 20px;
     margin: 20px auto;
     border: none;
     border-radius: none;
@@ -386,6 +385,12 @@ header {
 .image_block {
     height: 300px; width: 350px;
     border-radius: 3px 5px 5px 3px;
+}
+.bl_list_text {
+    height: auto;
+    width: auto;
+    margin: 20px auto 10px auto;
+    padding: 10px;
 }
 
 /*** CONTINUE BASIC BLOCK ***/
