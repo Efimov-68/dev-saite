@@ -1,8 +1,19 @@
+//LOAD WELCOME
+$(document).ready(function(){
+    $('.welcome_to_site').hide();
+    $('.wlcm_submit input').click(function(){
+        $('#welcome_to_site').fadeOut(400);
+        $('html').css({
+            'background-color': 'white',
+            'color': 'black'
+        });
+    });
+});
 //REGISTRATION FORM
 $(document).ready(function(){
     $('.newUser').hide();
     $('#registration').click(function(){
-        $('.newUser').show();
+        $('.newUser').fadeIn(600);
         $('.newUser_h').html('<h1>Форма регистрации</h1>');
         $('.newUser').css({
             'position': 'absolute',
@@ -10,8 +21,8 @@ $(document).ready(function(){
             'left': '30%',
             'right': '20%',
             'padding':'20px',
-            'border-radius': '20px',
-            'box-shadow': '0 0 10px black',
+            'border-radius': '5px',
+            //'box-shadow': '0 0 10px black',
             'color': 'black',
             'text-align': 'left',
             'background-color': 'whitesmoke'
@@ -38,20 +49,22 @@ $(document).ready(function(){
             'float': 'left'
         });
         $('.reg_submit').css({
-            'border-radius': '10px',
+            'border-radius': '10px 0',
             'font-size': '.9em',
             'padding': '5px 10px',
+            'background-color': 'ghostwhite',
             'float': 'right'
         });
         $('.submit_exit').css({
-            'border-radius': '10px',
+            'border-radius': '0 10px',
             'font-size': '.9em',
             'padding': '5px 10px',
+            'background-color': 'ghostwhite',
             'float': 'left'
         });
         //***
         $('.submit_exit').click(function(){
-            $('.newUser').hide();
+            $('.newUser').fadeOut(600);
             $('html').css({'background-color': 'white', 'color': 'black'});
         });
     });

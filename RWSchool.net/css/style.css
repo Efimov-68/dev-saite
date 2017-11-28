@@ -105,14 +105,14 @@
     .hdr_contacts li:nth-child(5) img,
     .hdr_contacts li:nth-child(6) img,
     .hdr_contacts li:nth-child(7) img{
-        width: 20px;
+        width: 25px;
     }
     /*WELCOM_TO_SITE*/
     #welcome_to_site{
         width: auto;
         padding: 20px;
-        border-radius: 20px;
-        box-shadow: 0 0 5px black;
+        border: none;
+        border-radius: 20px 5px;
         position: fixed;
         top: 10%;
         left: 25%;
@@ -130,9 +130,9 @@
         padding: 5px;
         font-size: 1.1em;
         color: gray;
-        border: 0 solid white;
-        border-radius: 10px;
-        background-color: whitesmoke;
+        border: 1px solid lightgray;
+        border-radius: 10px 0;
+        background-color: ghostwhite;
         text-decoration: none;
         cursor: pointer;
     }
@@ -270,7 +270,7 @@
         float: left;
     }
     .social_web li img{
-        width: 20px;
+        width: 30px;
     }
     .info_partners{
         width: auto;
