@@ -8,7 +8,7 @@ $(document).ready(function(){
             'color': 'black'
         });
     });
-});
+});//END WELCOME
 //REGISTRATION FORM
 $(document).ready(function(){
     $('.newUser').hide();
@@ -66,6 +66,35 @@ $(document).ready(function(){
         $('.submit_exit').click(function(){
             $('.newUser').fadeOut(600);
             $('html').css({'background-color': 'white', 'color': 'black'});
+        });
+    });
+});//END REGISTRATION FORM
+$(document).ready(function(){
+    $('#singIn').click(function(){
+        $('.singIn_open').fadeIn(600);
+        $('html').css({'background-color': 'rgba(215,215,215,.9)', 'color': 'gray'});
+        $('.singIn_open').css({
+            'position': 'absolute',
+            'top': '10%',
+            'left': '40%',
+            'padding': '20px',
+            'width': '400px',
+            'border': 'none',
+            'color': 'black',
+            'background-color': 'whitesmoke'
+        });
+        $('.singIn_h').html('<h1>Войти в систему</h1>');
+        $('.singIn_h').css({'text-align': 'center'});
+        $('.singIn_basic').html('<p><input name="email" type="text" title="E-mail"/></p><p><input name="password" type="password" title="Пароль"/></p>');
+        $('.singIn_basic input').css({
+            'border': '1px solid lightgray',
+            'padding-left': '10px'
+        });
+        $('.singIn_social').html('<p><img src="./images/social/goog.png" alt="G+"/><img src="./images/social/fb.png" alt="Fb"/><img src="./images/social/vk.png" alt="Vk"/></p>');
+        $('.singIn_social').css('margin', '0 auto');
+        $('.singIn_social img').css({
+            'width': '30px',
+            'padding': '5px'
         });
     });
 });
