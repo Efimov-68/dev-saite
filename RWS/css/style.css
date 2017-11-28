@@ -7,8 +7,9 @@
     src: url(../fonts/Comfortaa/Comfortaa-Regular.ttf);
 }
 html {
-    background-image: url(../image/slider-code.png);
-    background-position: center;
+    /*background-image: url(../image/slider-code.png);
+    background-position: center;*/
+    background-color: whitesmoke;
 }
 body {
     font-family: Comfortaa-Regular;
@@ -146,6 +147,7 @@ header {
     margin: 0 auto;
     padding: 10px;
     box-shadow: none;
+    border-radius: 20px;
     background-image: url(../image/nano.jpg);
     background-position: center;
 }

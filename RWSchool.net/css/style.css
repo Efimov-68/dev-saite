@@ -1,0 +1,115 @@
+@media all and (max-width: 2560px){
+    /*HTML*/
+    html{
+        background-color: whitesmoke;
+        font-family: sans-serif;
+    }
+    /*BODY*/
+    body{
+        width: auto;
+        margin-left: 22%;
+        margin-right: 50px;
+    }
+    /*HEADER*/
+    header{
+        background-color: antiquewhite;
+        width: auto;
+        margin: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 20%;
+    }
+    .hdr_logo h2{
+        color: darkcyan;
+        text-align: center;
+        text-shadow: 1px 1px 1px black;
+    }
+    .hdr_logo h2 span{
+        color: orange;
+    }
+    .hdr_menu{}
+    .hdr_nav ul{
+        list-style-type: none;
+    }
+    .hdr_nav li{
+        margin-right: 20px;
+        margin-bottom: 10px;
+        padding: 5px;
+        border: 2px solid orange;
+        border-collapse: collapse;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .hdr_nav li a{
+        color: black;
+        text-decoration: none;
+    }
+    .hdr_contacts{
+        position: absolute;
+        bottom: 0;
+        padding: 10px;
+        font-size: .8em;
+    }
+    .hdr_contacts ul{
+        list-style-type: none;
+    }
+    .hdr_contacts li:nth-child(1){
+        color: black;
+        text-shadow: 1px 1px 1px gray;
+        font-size: 1.8em;
+    }
+    .hdr_contacts li:nth-child(2) a,
+    .hdr_contacts li:nth-child(3) a{
+        font-size: 1.2em;
+        color: gray;
+        text-decoration: none;
+    }
+    /*BLC_BLOG*/
+    .basic_blog{
+        margin: 10px;
+        padding: 0px;
+    }
+    .blck_blog{
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 5px gray;
+    }
+    .blck_blog_h{}
+    .blck_blog_info{}
+    .blck_blog_href a{
+        color: gray;
+    }
+    .blck_blog_href a:hover{
+        text-decoration: none;
+    }
+    /*POPULAR*/
+    .popular_h{}
+    .popular{
+        width: auto;
+        height: 180px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 5px gray;
+    }
+    .basic_popular{
+        float: left;
+        margin: 25px;
+    }
+    .blck_popular{
+        float: left;
+    }
+    /*FOOTER*/
+    footer{
+        width: auto;
+        margin-left: -27px;
+        margin-right: -50px;
+        margin-bottom: -10px;
+        padding: 10px 20px;
+        background-color: beige;
+    }
+    .ftr_nav{}
+}
