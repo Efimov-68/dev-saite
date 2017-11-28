@@ -1,4 +1,4 @@
-@media all and (max-width: 2560px){
+@media all /*and (min-width: 1921px)*/ and (max-width: 2560px){
     /*HTML*/
     html{
         background-color: rgba(215,215,215,.9);
@@ -14,7 +14,6 @@
     /*HEADER*/
     header{
         background-color: whitesmoke;
-        width: auto;
         margin: auto;
         position: fixed;
         top: 0;
@@ -53,10 +52,12 @@
         text-decoration: none;
     }
     /*HEADER_REG_SING_IN*/
+    .registration_singIn {
+        margin-right: 10%;
+    }
     .registration_singIn ul{
-        margin-left: 30px;
         list-style-type: none;
-        float: left;
+        float: right;
     }
     .registration_singIn li{
         margin: 5px;
@@ -88,18 +89,21 @@
     .hdr_contacts li:nth-child(3) a{
         font-size: 1.2em;
         color: gray;
+    }
+    .hdr_contacts li:nth-child(2) a:hover,
+    .hdr_contacts li:nth-child(3) a:hover{
         text-decoration: none;
     }
     /*WELCOM_TO_SITE*/
     #welcome_to_site{
         width: auto;
-        max-width: 800px;
         padding: 20px;
         border-radius: 20px;
         box-shadow: 0 0 5px black;
         position: fixed;
         top: 15%;
         left: 25%;
+        right: 25%;
         background-color: whitesmoke;
         color: black;
     }
@@ -120,7 +124,18 @@
         cursor: pointer;
     }
     /* ALL_CONTENTS*/
-    .all_contents{}
+    .all_contents{
+        width: auto;
+        max-width: 1500px;
+        margin-right: 20%;
+    }
+    @media all and (max-width:1920px){
+        .all_contents{
+            width: auto;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    }
     /*CONTENT_MENU*/
     .content_nav{
         height: 60px;
@@ -146,6 +161,18 @@
     }
     .basic_cntnt_nav a:hover{
         color: white;
+    }
+    /*TOP_NEWS*/
+    .top_news{
+        position: absolute;
+        top:20%;
+        right: 10%;
+    }
+    .basic_top_news{}
+    @media all and (max-width: 1920px){
+        .top_news, .basic_top_news{
+            display: none;
+        }
     }
     /*BLC_BLOG*/
     .basic_blog{
@@ -186,11 +213,21 @@
     /*FOOTER*/
     footer{
         width: auto;
-        margin-left: -27px;
+        margin-left: -50px;
         margin-right: -50px;
         margin-bottom: -10px;
         padding: 10px 20px;
         background-color: beige;
+    }
+    @media all and (max-width:1920px){
+        footer{
+            width: auto;
+            margin-left: -27px;
+            margin-right: -50px;
+            margin-bottom: -20px;
+            padding: 10px 20px;
+            background-color: beige;
+        }
     }
     .ftr_nav{}
 }
