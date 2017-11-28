@@ -94,6 +94,19 @@
     .hdr_contacts li:nth-child(3) a:hover{
         text-decoration: none;
     }
+    .hdr_contacts li:nth-child(4),
+    .hdr_contacts li:nth-child(5),
+    .hdr_contacts li:nth-child(6),
+    .hdr_contacts li:nth-child(7) img{
+        padding: 5px;
+        float: left;
+    }
+    .hdr_contacts li:nth-child(4) img,
+    .hdr_contacts li:nth-child(5) img,
+    .hdr_contacts li:nth-child(6) img,
+    .hdr_contacts li:nth-child(7) img{
+        width: 20px;
+    }
     /*WELCOM_TO_SITE*/
     #welcome_to_site{
         width: auto;
@@ -101,9 +114,9 @@
         border-radius: 20px;
         box-shadow: 0 0 5px black;
         position: fixed;
-        top: 15%;
+        top: 10%;
         left: 25%;
-        right: 25%;
+        right: 20%;
         background-color: whitesmoke;
         color: black;
     }
@@ -175,7 +188,15 @@
         }
     }
     /*BLC_BLOG*/
+    blog_contents{
+        height: auto;
+        margin-bottom: 200px;
+    }
+    .block{
+        float: left;
+    }
     .basic_blog{
+        float: left;
         margin: 20px;
         padding: 0px;
     }
@@ -186,7 +207,10 @@
         box-shadow: 0 0 10px gray;
     }
     .blck_blog_h{}
-    .blck_blog_info{}
+    .blck_blog_info{
+        width: auto;
+        max-width: 400px;
+    }
     .blck_blog_href a{
         color: gray;
     }
@@ -213,6 +237,7 @@
     /*FOOTER*/
     footer{
         width: auto;
+        margin-top: 700px;
         margin-left: -50px;
         margin-right: -50px;
         margin-bottom: -10px;
@@ -222,6 +247,8 @@
     @media all and (max-width:1920px){
         footer{
             width: auto;
+            height: auto;
+            max-height: 200px;
             margin-left: -27px;
             margin-right: -50px;
             margin-bottom: -20px;
@@ -230,4 +257,19 @@
         }
     }
     .ftr_nav{}
+    .social_web ul{
+        list-style-type: none;
+        float: right;
+    }
+    .social_web li{
+        padding: 5px;
+        float: left;
+    }
+    .social_web li img{
+        width: 20px;
+    }
+    .info_partners{
+        width: auto;
+        max-width: 700px;
+    }
 }
