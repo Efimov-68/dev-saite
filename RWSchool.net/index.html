@@ -7,7 +7,17 @@
       <meta name="keywords" content=""/>
       <meta name="viewport" content="width=device-width; innitial-scale=1.0"/>
        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+       <script src="js/jquery-3.2.1.min.js"></script>
+       <script src="js/jquery-ui.min.js"></script>
        <script src="js/script.js"></script>
+       <script>
+            $(document).ready(function(){
+                $('.wlcm_submit input').click(function(){
+                    $('#welcom_to_site').hide();
+                    $('html').css({'background-color': 'white', 'color': 'black'});
+                }); 
+            });
+        </script>
         <title>Home</title>
     </head>
     <body>
@@ -19,12 +29,19 @@
               </div>
                <div class="hdr_nav">
                    <ul>
-                        <li><a href="">1 Lorem</a></li>
-                        <li><a href="">1 Lorem</a></li>
-                        <li><a href="">1 Lorem</a></li>
-                        <li><a href="">1 Lorem</a></li>
-                        <li><a href="">1 Lorem</a></li>
+                        <li><a href="">Develooper</a></li>
+                        <li><a href="">Courses</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Test</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
                     </ul>
+               </div>
+               <div class="registration_singIn">
+                   <ul>
+                       <li><a href="">Registration</a></li>
+                       <li>/</li>
+                       <li><a href="">Sing in</a></li>
+                   </ul>
                </div>
                <div class="hdr_contacts">
                    <ul>
@@ -35,6 +52,19 @@
                </div>
             </div>
         </header>
+        <div id="welcom_to_site">
+            <div class="basic_wlcm">
+               <div class="wlcm_h">
+                   <h1>Welcom to site, RabbitWeb and RWebSchool!</h1>
+               </div>
+                <div class="blck_wlcm">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, fugit. Accusantium sed dolores sequi placeat dignissimos aspernatur eius, ex labore, earum id obcaecati, nam nemo doloremque vel assumenda, molestiae. Modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, fugit. Accusantium sed dolores sequi placeat dignissimos aspernatur eius, ex labore, earum id obcaecati, nam nemo doloremque vel assumenda, molestiae. Modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, fugit. Accusantium sed dolores sequi placeat dignissimos aspernatur eius, ex labore, earum id obcaecati, nam nemo doloremque vel assumenda, molestiae. Modi.</p>
+                </div>
+                <div class="wlcm_submit">
+                    <input type="button" value="OK"/>
+                </div>
+            </div>
+        </div>
         <div class="all_contents">
            <div class="blck_new_info">
                <h1>New information site</h1>
