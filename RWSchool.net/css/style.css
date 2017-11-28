@@ -22,6 +22,7 @@
         bottom: 0;
         width: 20%;
     }
+    /*HEADER_LOGO*/
     .hdr_logo h2{
         color: darkcyan;
         text-align: center;
@@ -30,6 +31,7 @@
     .hdr_logo h2 span{
         color: orange;
     }
+    /*HEADER_MENU*/
     .hdr_menu{}
     .hdr_nav ul{
         list-style-type: none;
@@ -88,8 +90,6 @@
         color: gray;
         text-decoration: none;
     }
-    /* ALL_CONTENTS*/
-    .all_contents{}
     /*WELCOM_TO_SITE*/
     #welcom_to_site{
         width: auto;
@@ -116,6 +116,34 @@
         background-color: whitesmoke;
         text-decoration: none;
         cursor: pointer;
+    }
+    /* ALL_CONTENTS*/
+    .all_contents{}
+    /*CONTENT_MENU*/
+    .content_nav{
+        height: 60px;
+        margin-bottom: 20px;
+    }
+    .basic_cntnt_nav ul{
+        float: right;
+        list-style-type: none;
+    }
+    .basic_cntnt_nav li{
+        margin:0 5px;
+        padding: 5px 10px;
+        border: 2px solid lightgray;
+        border-radius: 15px;
+        float: left;
+    }
+    .basic_cntnt_nav a{
+        color: gray;
+        text-decoration: none;
+    }
+    .basic_cntnt_nav li:hover{
+        background-color: lightgray;
+    }
+    .basic_cntnt_nav a:hover{
+        color: white;
     }
     /*BLC_BLOG*/
     .basic_blog{
