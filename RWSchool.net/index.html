@@ -13,14 +13,18 @@
        <script>
             $(document).ready(function(){
                 $('.wlcm_submit input').click(function(){
-                    $('#welcom_to_site').hide();
+                    $('#welcome_to_site').hide();
                     $('html').css(
                         {
                             'background-color': 'white',
                             'color': 'black'
                         }
                     );
-                }); 
+                });
+                $('#registration').click(function(){
+                    var $registrationForm = $('scripts/registration.php');
+                    $(window).open($registration);
+                });
             });
         </script>
         <title>Home</title>
@@ -43,9 +47,9 @@
                </div>
                <div class="registration_singIn">
                    <ul>
-                       <li><a href="#">Registration</a></li>
+                       <li><a href="#registration">Registration</a></li>
                        <li>/</li>
-                       <li><a href="#">Sing in</a></li>
+                       <li><a href="#singIn">Sing in</a></li>
                    </ul>
                </div>
                <div class="hdr_contacts">
@@ -57,12 +61,13 @@
                </div>
             </div>
         </header>
-        <div id="welcom_to_site">
+        <div id="welcome_to_site">
             <div class="basic_wlcm">
                <div class="wlcm_h">
-                   <h1>Welcom to site, RabbitWeb and RWebSchool!</h1>
+                   <h1>Welcome to site, RabbitWeb and RWebSchool!</h1>
                </div>
                 <div class="blck_wlcm">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, fugit. Accusantium sed dolores sequi placeat dignissimos aspernatur eius, ex labore, earum id obcaecati, nam nemo doloremque vel assumenda, molestiae. Modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, fugit. Accusantium sed dolores sequi placeat dignissimos aspernatur eius, ex labore, earum id obcaecati, nam nemo doloremque vel assumenda, molestiae. Modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, fugit. Accusantium sed dolores sequi placeat dignissimos aspernatur eius, ex labore, earum id obcaecati, nam nemo doloremque vel assumenda, molestiae. Modi.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, fugit. Accusantium sed dolores sequi placeat dignissimos aspernatur eius, ex labore, earum id obcaecati, nam nemo doloremque vel assumenda, molestiae. Modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, fugit. Accusantium sed dolores sequi placeat dignissimos aspernatur eius, ex labore, earum id obcaecati, nam nemo doloremque vel assumenda, molestiae. Modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, fugit. Accusantium sed dolores sequi placeat dignissimos aspernatur eius, ex labore, earum id obcaecati, nam nemo doloremque vel assumenda, molestiae. Modi.</p>
                 </div>
                 <div class="wlcm_submit">

@@ -91,13 +91,15 @@
         text-decoration: none;
     }
     /*WELCOM_TO_SITE*/
-    #welcom_to_site{
+    #welcome_to_site{
         width: auto;
         max-width: 800px;
         padding: 20px;
         border-radius: 20px;
         box-shadow: 0 0 5px black;
         position: fixed;
+        top: 15%;
+        left: 25%;
         background-color: whitesmoke;
         color: black;
     }
@@ -147,14 +149,14 @@
     }
     /*BLC_BLOG*/
     .basic_blog{
-        margin: 10px;
+        margin: 20px;
         padding: 0px;
     }
     .blck_blog{
         padding: 10px 20px;
         border: none;
         border-radius: 10px;
-        box-shadow: 0 0 5px gray;
+        box-shadow: 0 0 10px gray;
     }
     .blck_blog_h{}
     .blck_blog_info{}
