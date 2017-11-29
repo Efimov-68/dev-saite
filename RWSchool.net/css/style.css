@@ -112,9 +112,10 @@
         width: auto;
         padding: 20px;
         border: none;
-        border-radius: 20px 5px;
+        border-radius: 5px 5px 20px 5px;
+        box-shadow: 0 0 5px grey;
         position: fixed;
-        top: 10%;
+        top: -100%;
         left: 25%;
         right: 20%;
         background-color: whitesmoke;
