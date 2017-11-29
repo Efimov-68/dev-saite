@@ -28,7 +28,7 @@ $(document).ready(function(){
         $('.check').css('font-size', '.7em');
         $('.check input').css({'float': 'left'});
         $('.reg_submit').css({'border-radius': '10px','font-size': '.9em','padding': '5px 10px','background-color': 'ghostwhite','float': 'right','cursor': 'pointer'});
-        $('.submit_exit').css({'border-radius': '10px','font-size': '.9em','padding': '5px 10px','background-color': 'ghostwhite','float': 'left','cursor': 'pointer'}).click(function(){
+        $('.submit_exit').css({'border-radius': '50px','font-size': '.9em','padding': '5px 10px','background-color': 'ghostwhite','float': 'left','cursor': 'pointer'}).click(function(){
             $('.newUser').fadeOut(600);
             $('html').css({'background-color': 'white', 'color': 'black'});
         });
@@ -36,17 +36,17 @@ $(document).ready(function(){
 //END REGISTRATION FORM NEW_USERS
 //SING_IN FORM
     $('#singIn').click(function(){
-        $('.singIn_open').fadeIn(600).css({'position': 'absolute','top': '0','left': 'auto','right': '0','padding': '20px','width': '300px','border': 'none','border-radius': '0 0 5px 10px','box-shadow': '0 0 5px gray','color': 'black','background-color': 'whitesmoke'}).animate({'left':'-=35%'}, 300);
+        $('.singIn_open').fadeIn(600).css({'position': 'absolute','top': '0','left': 'auto','right': '0','padding': '20px','width': '300px','border': 'none','border-radius': '0 0 5px 20px','box-shadow': '0 0 5px gray','color': 'black','background-color': 'whitesmoke'}).animate({'left':'-=35%'}, 300);
         $('html').css({'background-color': 'rgba(215,215,215,.9)', 'color': 'gray'});
         $('.singIn_h').html('<h2>Войти в систему</h2>').css({'text-align': 'center'});
         $('.singIn_basic').html('<div class=""><p><input name="email" type="text" title="E-mail" placeholder="E-mail"/></p><p><input name="password" type="password" title="Пароль" placeholder="Пароль"/></p></div>');
         $('.singIn_basic div').css({'margin': '0 auto','width': '200px'});
         $('.singIn_basic input').css({'width': '200px','height': '23px','border': '1px solid lightgray','padding-left': '0','text-align': 'center'});
-        $('.singIn_social').html('<div class="vidjets"><p><img src="./images/social/goog.png" alt="G+"/><img src="./images/social/fb.png" alt="Fb"/><img src="./images/social/vk.png" alt="Vk"/></p></div>');
+        $('.singIn_social').html('<div class="vidjets"><p><a href=""><img src="./images/social/goog.png" alt="G+"/></a><a href=""><img src="./images/social/fb.png" alt="Fb"/></a><a href=""><img src="./images/social/vk.png" alt="Vk"/></a></p></div>');
         $('.singIn_social div').css('margin', '0 auto');
-        $('.singIn_social img').css({'width': '30px','padding': '5px'});
+        $('.singIn_social img').css({'width': '30px','padding': '5px','cursor':'pointer'});
         $('.singIn_submit').html('<div class="exit"><input type="button" value="X"/></div><div class="open"><input type="button" value="Войти"/></div>');
-        $('.exit input').css({'float': 'left','padding': '5px 10px','border': '1px solid lightgray','border-radius': '10px','background-color': 'ghostwhite','cursor': 'pointer'}).click(function(){
+        $('.exit input').css({'float': 'left','padding': '5px 10px','border': '1px solid lightgray','border-radius': '50px','background-color': 'ghostwhite','cursor': 'pointer'}).click(function(){
             $('.singIn_open').fadeOut(600);
             $('html').css({'background-color': 'white', 'color': 'black'});
         });
