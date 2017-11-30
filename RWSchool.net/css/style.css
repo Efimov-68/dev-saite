@@ -56,6 +56,7 @@
     .hdr_nav li:nth-child(5){
         border: 1px dashed gray;
         border-radius: 5px;
+        color: grey;
         background-color: lightgray;
     }
     /*HEADER_REG_SING_IN*/
@@ -123,12 +124,12 @@
         box-shadow: 0 0 5px grey;
         position: fixed;
         top: -100%;
-        left: 25%;
-        right: 20%;
+        left: 35%;
+        right: 30%;
         background-color: whitesmoke;
         color: black;
     }
-    .wlcm_h{
+    .wlcm_heading{
         text-align: center;
     }
     .wlcm_submit{
@@ -205,7 +206,7 @@
         height: auto;
         margin-bottom: 800px;
     }
-    .block{
+    .basic_block_blog{
         float: left;
     }
     .basic_blog{
@@ -219,7 +220,7 @@
         border-radius: 5px;
         box-shadow: 0 0 10px gray;
     }
-    .blck_blog_h{}
+    .blck_blog_heading{}
     .blck_blog_info{
         width: auto;
         max-width: 650px;
@@ -237,7 +238,7 @@
         text-decoration: none;
     }
     /*POPULAR*/
-    .popular_h{
+    .popular_heading{
         margin-top: 20px;
     }
     .popular{
@@ -259,26 +260,35 @@
     /*FOOTER*/
     footer{
         width: auto;
-        margin-top: 1000px;
+        margin-top: 100px;
+        margin-left: -50px;
+        margin-right: -50px;
+        margin-bottom: -10px;
+        padding: 10px 20px;
+        background-color: ;
+    }
+    @media all and (max-width:1920px){
+        .ftr_nav{
+            width: auto;
+            height: auto;
+            /*margin-left: -27px;
+            margin-right: -50px;
+            margin-bottom: -10px;
+            padding: 10px 20px;
+            background-color: beige;*/
+        }
+    }
+    .ftr_nav{
+        width: auto;
+        max-width: 1500px;
+        height: auto;
         /*margin-left: -50px;
         margin-right: -50px;
         margin-bottom: -10px;
         padding: 10px 20px;
         background-color: beige;*/
     }
-    @media all and (max-width:1920px){
-        .ftr_nav{
-            width: auto;
-            height: auto;
-            margin-left: -27px;
-            margin-right: -50px;
-            margin-bottom: -10px;
-            padding: 10px 20px;
-            background-color: beige;
-        }
-    }
-    .ftr_nav{}
-    .ftr_h{
+    .ftr_heading{
         margin-top: 10px;
     }
     .social_web ul{
@@ -342,5 +352,16 @@
         border: 1px solid lightgray;
         box-shadow: none;
         color: gray;
+    }
+    /*BLOG_PAGES*/
+    .blog_submit{
+        float:right;
+        padding-bottom:20px;
+    }
+    .blog_submit a{
+        color:grey;
+    }
+    .blog_submit a:hover{
+        text-decoration: none;
     }
 }
