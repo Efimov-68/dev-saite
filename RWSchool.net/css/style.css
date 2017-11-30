@@ -53,6 +53,11 @@
     .hdr_nav li a{
         color: gray;
     }
+    .hdr_nav li:nth-child(5){
+        border: 1px dashed gray;
+        border-radius: 5px;
+        background-color: lightgray;
+    }
     /*HEADER_REG_SING_IN*/
     .registration_singIn {
         margin-right: 10%;
@@ -134,10 +139,13 @@
         font-size: 1.1em;
         color: gray;
         border: 1px solid lightgray;
-        border-radius: 10px 0;
-        background-color: ghostwhite;
+        border-radius: 10px 3px;
+        background-color: whitesmoke;
         text-decoration: none;
         cursor: pointer;
+    }
+    .wlcm_submit input:hover {
+        background-color: white;
     }
     /* ALL_CONTENTS*/
     .all_contents{
@@ -228,7 +236,7 @@
     }
     /*POPULAR*/
     .popular_h{
-        margin-top: 100px;
+        margin-top: 20px;
     }
     .popular{
         width: auto;
@@ -249,14 +257,15 @@
     /*FOOTER*/
     footer{
         width: auto;
-        margin-left: -50px;
+        margin-top: 1000px;
+        /*margin-left: -50px;
         margin-right: -50px;
         margin-bottom: -10px;
         padding: 10px 20px;
-        background-color: beige;
+        background-color: beige;*/
     }
     @media all and (max-width:1920px){
-        footer{
+        .ftr_nav{
             width: auto;
             height: auto;
             margin-left: -27px;
@@ -289,5 +298,47 @@
     .newUser_regForm div input{
         width: 200px;
     }
-    
+    /*REGISTRATION_INPUT*/
+    .reg_submit{
+        border: 1px solid ghostwhite;
+        border-radius: 10px;
+        box-shadow:0 0 5px lightgray;
+        font-size: .9em;
+        padding: 5px 5px 5px 15px;
+        background-color: ghostwhite;
+        float: right;
+        cursor: pointer;
+    }
+    .reg_submit:hover{
+        border: 1px solid lightgray;
+        box-shadow: none;
+        color: gray;
+    }
+    .submit_exit {
+        border: 1px solid lightgray;
+        border-radius: 3px 5px;
+        font-size: .9em;
+        padding: 0px 5px 0px 20px;
+        background-color: ghostwhite;
+        float: left;
+        cursor: pointer;
+    }
+    .submit_exit:hover {
+        background-color: white;
+    }
+    /*SING_IN_INPUT*/
+    .open input {
+        float: right;
+        padding: 5px 10px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        box-shadow:0 0 5px lightgray;
+        background-color: ghostwhite;
+        cursor: pointer;
+    }
+    .open input:hover {
+        border: 1px solid lightgray;
+        box-shadow: none;
+        color: gray;
+    }
 }
