@@ -46,7 +46,6 @@ $(document).ready(function(){
         $('.singIn_basic div').css({'margin': '0 auto','width': '200px'});
         $('.singIn_basic input').css({'width': '200px','height': '23px','border': '1px solid lightgray','padding-left': '0','text-align': 'center'});
         $('.singIn_social div').css('margin', '0 auto');
-        $('.singIn_social img').css({'width': '30px','padding': '5px','cursor':'pointer'});
         $('.singIn_submit').html('<div class="exit"><input type="button" value="X"/></div><div class="open"><input type="button" value="Войти"/></div>');
         $('.exit input').css({'float': 'left','padding': '5px 10px','border': '1px solid lightgray','border-radius': '50px','background-color': 'ghostwhite','cursor': 'pointer'}).click(function(){
             var $i = 200

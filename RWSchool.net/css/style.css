@@ -364,4 +364,9 @@
     .blog_submit a:hover{
         text-decoration: none;
     }
+  .singIn_social img {
+    width: 30px;
+    padding: 5px;
+    cursor: pointer;
+  }
 }
