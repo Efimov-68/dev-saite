@@ -140,11 +140,13 @@
         color: gray;
         border: 1px solid lightgray;
         border-radius: 10px 3px;
+        box-shadow:0 0 5px lightgray;
         background-color: whitesmoke;
         text-decoration: none;
         cursor: pointer;
     }
     .wlcm_submit input:hover {
+        box-shadow: none;
         background-color: white;
     }
     /* ALL_CONTENTS*/
