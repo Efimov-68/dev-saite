@@ -193,7 +193,7 @@
     /*BLC_BLOG*/
     .blog_contents{
         height: auto;
-        margin-bottom: 700px;
+        margin-bottom: 800px;
     }
     .block{
         float: left;
@@ -212,7 +212,13 @@
     .blck_blog_h{}
     .blck_blog_info{
         width: auto;
-        max-width: 400px;
+        max-width: 650px;
+    }
+     @media all and (max-width: 1920px){
+        .blck_blog_info{
+            width: auto;
+            max-width: 400px;
+        }
     }
     .blck_blog_href a{
         color: gray;
@@ -222,12 +228,12 @@
     }
     /*POPULAR*/
     .popular_h{
-        margin-top: 50px;
+        margin-top: 100px;
     }
     .popular{
         width: auto;
         height: 180px;
-        margin: 50px 0;
+        margin-top: 50px;
         margin-bottom: 100px;
         border: none;
         border-radius: 5px;
