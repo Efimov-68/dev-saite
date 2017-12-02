@@ -7,8 +7,8 @@ $(document).ready(function () {
     'background-color': 'white',
     'color': 'black'
   });
-  //ALL_CONTENTS_BLOG
-  //HTML CODE
+  /*/ALL_CONTENTS_BLOG
+     HTML CODE/*/
   $('.introduction_blog').css({
     'width': 'auto',
     'max-width':'1000px',
@@ -26,17 +26,23 @@ $(document).ready(function () {
   $('.middle_blog').html();
   //
   $('.m_blog_text').html('<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, deserunt facere ullam, distinctio hic cum quibusdam quas magni labore velit, id ea! Aperiam aliquid, eos totam minima id tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, deserunt facere ullam, distinctio hic cum quibusdam quas magni labore velit, id ea! Aperiam aliquid, eos totam minima id tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, deserunt facere ullam, distinctio hic cum quibusdam quas magni labore velit, id ea! Aperiam aliquid, eos totam minima id tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, deserunt facere ullam, distinctio hic cum quibusdam quas magni labore velit, id ea! Aperiam aliquid, eos totam minima id tempore.</p>');
-  $('.blog_submit').html('<a href="">Читать статью</a>');
+  $('.blog_submit').html('');
   $('footer').fadeIn();
 
   //CSS STYLE_BLOG
   //FIRST_BLOG
   $('.first_blog').css({
-    'border': 'none',
-    'border-radius': '10px',
+    'border': '.5px solid lightgray',
+    'border-radius': '3px',
     'margin-bottom': '20px',
     'padding': '20px',
-    'box-shadow': '0 0 10px black'
+    //'box-shadow':'0 0 3px gray'
+  });
+  $('.first_blog a').css({
+    'text-decoration':'none',
+    'color':'black',
+    'outline':'none',
+    'border':'none'
   });
   //
   $('#allContents_blog').fadeIn(1000);

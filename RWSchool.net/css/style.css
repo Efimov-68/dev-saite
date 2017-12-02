@@ -47,6 +47,7 @@ and (max-width: 2560px) {
   .hdr_nav li a {
     padding: 5px;
     border: none;
+    outline: none;
     border-collapse: collapse;
     border-radius: 0px;
   }
@@ -129,7 +130,7 @@ and (max-width: 2560px) {
     top: -100%;
     left: 25%;
     right: 25%;
-    background-color: whitesmoke;
+    background-color: white;
     color: black;
   }
   .wlcm_heading {
@@ -142,14 +143,15 @@ and (max-width: 2560px) {
     padding: 5px;
     font-size: 1.1em;
     color: gray;
-    border: 1px solid lightgray;
+    border: 1px solid white;
     border-radius: 10px 3px;
     box-shadow: 0 0 5px lightgray;
-    background-color: whitesmoke;
+    background-color: white;
     text-decoration: none;
     cursor: pointer;
   }
   .wlcm_submit input:hover {
+    border: 1px solid lightgray;
     box-shadow: none;
     background-color: white;
   }
@@ -218,11 +220,20 @@ and (max-width: 2560px) {
     margin: 20px;
     padding: 0px;
   }
+  .basic_blog a{
+    border: none;
+    outline: none;
+    color: black;
+    text-decoration: none;
+  }
   .blck_blog {
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
-    box-shadow: 0 0 10px gray;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+  }
+  .blck_blog:hover{
+    box-shadow: 0 0 9px gray;
   }
   .blck_blog_heading {}
   .blck_blog_info {
@@ -235,12 +246,8 @@ and (max-width: 2560px) {
       max-width: 400px;
     }
   }
-  .blck_blog_href a {
-    color: gray;
-  }
-  .blck_blog_href a:hover {
-    text-decoration: none;
-  }
+  .blck_blog_href a {}
+  .blck_blog_href a:hover {}
   /*POPULAR*/
   .popular_heading {
     margin-top: 20px;
@@ -320,12 +327,12 @@ and (max-width: 2560px) {
   }
   /*REGISTRATION_INPUT*/
   .reg_submit {
-    border: 1px solid ghostwhite;
+    border: 1px solid white;
     border-radius: 10px;
     box-shadow: 0 0 5px lightgray;
     font-size: .9em;
     padding: 5px 5px 5px 15px;
-    background-color: ghostwhite;
+    background-color: white;
     float: right;
     cursor: pointer;
   }
@@ -333,33 +340,51 @@ and (max-width: 2560px) {
     border: 1px solid lightgray;
     box-shadow: none;
     color: gray;
+    background-color: white;
   }
   .submit_exit {
-    border: 1px solid lightgray;
-    border-radius: 3px 5px;
+    border: 1px solid white;
+    border-radius: 10px;
     font-size: .9em;
-    padding: 0px 5px 0px 20px;
-    background-color: ghostwhite;
+    padding: 0 5px 0 0;
+    background-color: white;
+    box-shadow: 0 0 5px lightgray;
     float: left;
     cursor: pointer;
   }
   .submit_exit:hover {
+    border: 1px solid lightgray;
     background-color: white;
+    box-shadow: none;
   }
   /*SING_IN_INPUT*/
   .open input {
     float: right;
     padding: 5px 10px;
-    border: 1px solid lightgray;
+    border: 1px solid white;
     border-radius: 10px;
     box-shadow: 0 0 5px lightgray;
-    background-color: ghostwhite;
+    background-color: white;
     cursor: pointer;
   }
   .open input:hover {
     border: 1px solid lightgray;
     box-shadow: none;
     color: gray;
+  }
+  .exit input{
+    float: left;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 0 3px lightgray;
+  }
+  .exit input:hover{
+    border: 1px solid lightgray;
+    background-color: white;
+    box-shadow: none;
   }
   /*BLOG_PAGES*/
   .blog_submit {
@@ -376,5 +401,8 @@ and (max-width: 2560px) {
     width: 30px;
     padding: 5px;
     cursor: pointer;
+  }
+  .first_blog:hover{
+    box-shadow: 0 3px 10px gray;
   }
 }

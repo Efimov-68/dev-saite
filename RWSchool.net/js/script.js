@@ -31,7 +31,7 @@ $(document).ready(function () {
       'box-shadow': '0 0 5px gray',
       'color': 'black',
       'text-align': 'left',
-      'background-color': 'whitesmoke'
+      'background-color': 'white'
     });
     $('.newUser_heading').html('<h1>Форма регистрации</h1>').css('text-align', 'center');
     $('html').css({
@@ -85,7 +85,7 @@ $(document).ready(function () {
       'border-radius': '0 0 5px 20px',
       'box-shadow': '0 0 5px gray',
       'color': 'black',
-      'background-color': 'whitesmoke'
+      'background-color': 'white'
     }).animate({
       'left': '-=45%'
     }, 500);
@@ -109,15 +109,8 @@ $(document).ready(function () {
       'text-align': 'center'
     });
     $('.singIn_social div').css('margin', '0 auto');
-    $('.singIn_submit').html('<div class="exit"><input type="button" value="X"/></div><div class="open"><input type="button" value="Войти"/></div>');
-    $('.exit input').css({
-      'float': 'left',
-      'padding': '5px 10px',
-      'border': '1px solid lightgray',
-      'border-radius': '50px',
-      'background-color': 'ghostwhite',
-      'cursor': 'pointer'
-    }).click(function () {
+    $('.singIn_submit').html('<div class="exit"><input type="button" value=" X "/></div><div class="open"><input type="button" value="Войти"/></div>');
+    $('.exit input').click(function () {
       var $i = 200
       $('.singIn_open').animate({
         'left': '+=45%'
