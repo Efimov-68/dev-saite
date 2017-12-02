@@ -9,12 +9,14 @@ $(document).ready(function () {
     'top': '10%'
   }, 1200);
   $('.wlcm_submit input').click(function () {
-    $('#welcome_to_site').fadeOut(400);
-    $('html').css({
+    $('#welcome_to_site')//.animate({
+   /* 'top': '-=100%'
+    }, 1200);/*/.fadeOut(1200);
+    $('html').animate({
       'background-color': 'white',
       'color': 'black'
-    });
-    $('.all_contents').fadeIn(1000);
+    }, 2500);
+    $('.all_contents').fadeIn(2500);
     $('footer').fadeIn();
     //BLOCK_BLOG
 

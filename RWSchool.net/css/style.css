@@ -233,7 +233,7 @@ and (max-width: 2560px) {
     box-shadow: 0 0 2px gray;
   }
   .blck_blog:hover{
-    box-shadow: 0 0 9px gray;
+    box-shadow: 0 5px 10px gray;
   }
   .blck_blog_heading {}
   .blck_blog_info {
@@ -356,6 +356,7 @@ and (max-width: 2560px) {
     border: 1px solid lightgray;
     background-color: white;
     box-shadow: none;
+    color: gray;
   }
   /*SING_IN_INPUT*/
   .open input {
@@ -385,6 +386,7 @@ and (max-width: 2560px) {
     border: 1px solid lightgray;
     background-color: white;
     box-shadow: none;
+    color: gray;
   }
   /*BLOG_PAGES*/
   .blog_submit {
@@ -402,7 +404,64 @@ and (max-width: 2560px) {
     padding: 5px;
     cursor: pointer;
   }
+  .first_blog {
+    box-shadow: 0 0 2px gray;
+  }
   .first_blog:hover{
-    box-shadow: 0 3px 10px gray;
+    box-shadow: 0 5px 10px gray;
+  }
+  /*
+  COURSES_PAGE
+  */
+  .all_contents,
+  #allContents_blog,
+  .all_contents_courses,
+  footer,
+  .newUser,
+  .singIn_open {display: none;}
+  
+  .courses_programming_Childs a,
+  .courses_programming_Teenagers a,
+  .courses_programming_Adults a{
+    text-decoration:none;
+    color: black;
+  }
+  .courses_html_Childs,
+  .courses_css_Childs,
+  .courses_javascript_Childs,
+  .courses_python_Childs,
+  .courses_html_Teenagers,
+  .courses_css_Teenagers,
+  .courses_javascript_Teenagers,
+  .courses_python_Teenagers,
+  .courses_django_Teenagers,
+  .courses_html_Adults,
+  .courses_css_Adults,
+  .courses_javascript_Adults,
+  .courses_python_Adults,
+  .courses_django_Adults {
+    background-color:white;
+    width:400px;
+    float:left;
+    padding:20px;
+    margin:10px;
+    border-radius:3px;
+    box-shadow:0 0 2px black;
+  }
+  .courses_html_Childs:hover,
+  .courses_css_Childs:hover,
+  .courses_javascript_Childs:hover,
+  .courses_python_Childs:hover,
+  .courses_html_Teenagers:hover,
+  .courses_css_Teenagers:hover,
+  .courses_javascript_Teenagers:hover,
+  .courses_python_Teenagers:hover,
+  .courses_django_Teenagers:hover,
+  .courses_html_Adults:hover,
+  .courses_css_Adults:hover,
+  .courses_javascript_Adults:hover,
+  .courses_python_Adults:hover,
+  .courses_django_Adults:hover {
+    box-shadow:0 4px 10px gray;
   }
 }

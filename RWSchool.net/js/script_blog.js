@@ -32,11 +32,10 @@ $(document).ready(function () {
   //CSS STYLE_BLOG
   //FIRST_BLOG
   $('.first_blog').css({
-    'border': '.5px solid lightgray',
+    'border': 'none',
     'border-radius': '3px',
     'margin-bottom': '20px',
-    'padding': '20px',
-    //'box-shadow':'0 0 3px gray'
+    'padding': '20px'
   });
   $('.first_blog a').css({
     'text-decoration':'none',
