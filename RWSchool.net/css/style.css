@@ -57,12 +57,6 @@ and (max-width: 2560px) {
   .hdr_nav li a {
     color: gray;
   }
-  .no_active {
-    border: 1px dashed gray;
-    border-radius: 5px;
-    color: grey;
-    background-color: lightgray;
-  }
   /*HEADER_REG_SING_IN*/
   .registration_singIn {
     margin-right: 10%;
@@ -233,11 +227,19 @@ and (max-width: 2560px) {
     color: black;
     text-decoration: none;
   }
+  @media all and (max-width:1280px){
+    .basic_blog {
+      float: left;
+      max-width: 350px;
+      margin: 5px;
+      padding: 0px;
+    }
+  }
   .blck_blog {
     padding: 10px 20px;
     border: none;
     border-radius: 3px;
-    box-shadow: 0 0 2px gray;
+    box-shadow: 1px 1px 2px gray;
   }
   .blck_blog:hover{
     box-shadow: 0 5px 10px gray;
@@ -280,6 +282,19 @@ and (max-width: 2560px) {
   }
   .blck_popular {
     float: left;
+  }
+  @media all and (max-width:1280px){
+    .popular {
+      max-height: 140px;
+    }
+    .basic_popular {
+      float: left;
+      margin: 5px auto;
+    }
+    .blck_popular img{
+      padding: 5px 10px;
+      width: 250px;
+    }
   }
   /*FOOTER*/
   footer {
@@ -413,10 +428,10 @@ and (max-width: 2560px) {
     cursor: pointer;
   }
   .first_blog {
-    box-shadow: 0 0 2px gray;
+    box-shadow: 1px 1px 2px gray;
   }
   .first_blog:hover{
-    box-shadow: 0 5px 10px gray;
+    box-shadow: 2px 5px 10px gray;
   }
   /*
   COURSES_PAGE
@@ -448,7 +463,7 @@ and (max-width: 2560px) {
     padding:20px;
     margin:10px;
     border-radius:3px;
-    box-shadow:0 0 2px black;
+    box-shadow:1px 1px 2px black;
   }
   
   .courses_html_Teenagers:hover,
@@ -456,6 +471,6 @@ and (max-width: 2560px) {
   .courses_javascript_Teenagers:hover,
   .courses_python_Teenagers:hover,
   .courses_django_Teenagers:hover {
-    box-shadow:0 4px 10px gray;
+    box-shadow:0 5px 10px gray;
   }
 }

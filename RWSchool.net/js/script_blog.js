@@ -11,19 +11,19 @@ $(document).ready(function () {
      HTML CODE/*/
   $('.introduction_blog').css({
     'width': 'auto',
-    'max-width':'1000px',
-    'margin-left': '5%'
+    'max-width':'1200px',
+    'margin-left': '0%'
   });
   //
   $('.blog_heading').html('<h1>Блог</h1>');
   //
-  $('.first_blog').html();
-  //
-  $('.last_blog').html();
+  $('.last_blog').css({
+    'background-image':'url(../images/work_9_min.png)',
+    'height':'200px',
+    'opacity':'.5'
+  });
   //
   $('.l_blog_heading').html('<h2>BLOG_HEADING</h2>');
-  //
-  $('.middle_blog').html();
   //
   $('.m_blog_text').html('<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, deserunt facere ullam, distinctio hic cum quibusdam quas magni labore velit, id ea! Aperiam aliquid, eos totam minima id tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, deserunt facere ullam, distinctio hic cum quibusdam quas magni labore velit, id ea! Aperiam aliquid, eos totam minima id tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, deserunt facere ullam, distinctio hic cum quibusdam quas magni labore velit, id ea! Aperiam aliquid, eos totam minima id tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum, deserunt facere ullam, distinctio hic cum quibusdam quas magni labore velit, id ea! Aperiam aliquid, eos totam minima id tempore.</p>');
   $('.blog_submit').html('');
