@@ -57,7 +57,7 @@ and (max-width: 2560px) {
   .hdr_nav li a {
     color: gray;
   }
-  .hdr_nav li:nth-child(5) {
+  .no_active {
     border: 1px dashed gray;
     border-radius: 5px;
     color: grey;
@@ -210,14 +210,21 @@ and (max-width: 2560px) {
   /*BLC_BLOG*/
   .blog_contents {
     height: auto;
-    margin-bottom: 800px;
+    margin-bottom: 0px;
+  }
+  @media all and (max-width:1920px) {
+    .blog_contents {
+      height: auto;
+      margin-bottom: 400px;
+      padding: 50px;
+    }
   }
   .basic_block_blog {
     float: left;
   }
   .basic_blog {
     float: left;
-    margin: 20px;
+    margin: 5px;
     padding: 0px;
   }
   .basic_blog a{
@@ -261,6 +268,12 @@ and (max-width: 2560px) {
     border-radius: 5px;
     box-shadow: 0 0 5px gray;
   }
+  @media all and (max-width:1920px){
+    .popular_heading {
+      margin-top: 700px;
+      padding-top: 50px;
+    }
+  }
   .basic_popular {
     float: left;
     margin: 25px;
@@ -297,11 +310,6 @@ and (max-width: 2560px) {
     width: auto;
     max-width: 1500px;
     height: auto;
-    /*margin-left: -50px;
-        margin-right: -50px;
-        margin-bottom: -10px;
-        padding: 10px 20px;
-        background-color: beige;*/
   }
   .ftr_heading {
     margin-top: 10px;
@@ -420,26 +428,20 @@ and (max-width: 2560px) {
   .newUser,
   .singIn_open {display: none;}
   
-  .courses_programming_Childs a,
-  .courses_programming_Teenagers a,
-  .courses_programming_Adults a{
+  .all_contents_courses {
+    margin: 0 auto;
+  }
+  
+  .courses_programming_Teenagers a{
     text-decoration:none;
     color: black;
   }
-  .courses_html_Childs,
-  .courses_css_Childs,
-  .courses_javascript_Childs,
-  .courses_python_Childs,
+  
   .courses_html_Teenagers,
   .courses_css_Teenagers,
   .courses_javascript_Teenagers,
   .courses_python_Teenagers,
-  .courses_django_Teenagers,
-  .courses_html_Adults,
-  .courses_css_Adults,
-  .courses_javascript_Adults,
-  .courses_python_Adults,
-  .courses_django_Adults {
+  .courses_django_Teenagers {
     background-color:white;
     width:400px;
     float:left;
@@ -448,20 +450,12 @@ and (max-width: 2560px) {
     border-radius:3px;
     box-shadow:0 0 2px black;
   }
-  .courses_html_Childs:hover,
-  .courses_css_Childs:hover,
-  .courses_javascript_Childs:hover,
-  .courses_python_Childs:hover,
+  
   .courses_html_Teenagers:hover,
   .courses_css_Teenagers:hover,
   .courses_javascript_Teenagers:hover,
   .courses_python_Teenagers:hover,
-  .courses_django_Teenagers:hover,
-  .courses_html_Adults:hover,
-  .courses_css_Adults:hover,
-  .courses_javascript_Adults:hover,
-  .courses_python_Adults:hover,
-  .courses_django_Adults:hover {
+  .courses_django_Teenagers:hover {
     box-shadow:0 4px 10px gray;
   }
 }
