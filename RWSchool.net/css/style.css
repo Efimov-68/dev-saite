@@ -145,7 +145,7 @@ and (max-width: 2560px) {
     color: gray;
     border: 1px solid white;
     border-radius: 10px 3px;
-    box-shadow: 0 0 5px lightgray;
+    box-shadow: 0 0 3px lightgray;
     background-color: white;
     text-decoration: none;
     cursor: pointer;
