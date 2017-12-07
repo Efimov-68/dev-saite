@@ -318,12 +318,14 @@ and (max-width: 2560px) {
   /*FOOTER*/
   footer {
     width: auto;
+    max-width: 1500px;
     height: 300px;
     margin-top: 700px;
-    margin-left: -335px;
-    margin-right: -50px;
-    margin-bottom: -10px;
-    padding: 10px 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 20px;
+    border-radius: 5px;
     background-color: lightsteelblue;
   }
   @media all and (max-width:1920px) {
@@ -333,19 +335,19 @@ and (max-width: 2560px) {
     }
     footer {
       width: auto;
+      max-width: 1500px;
       height: 300px;
       margin-top: 100px;
-      margin-left: -63px;
-      margin-right: -50px;
-      margin-bottom: -10px;
-      padding: 10px 20px;
-      background-color: ;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 0;
+      padding: 20px;
+      border-radius: 5px;
     }
   }
   .ftr_nav {
     width: auto;
-    max-width: 1500px;
-    margin-left: 300px;
+    max-width: 1200px;
     height: auto;
   }
   @media all and (max-width:1920px) {
