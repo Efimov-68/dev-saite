@@ -19,14 +19,10 @@ $(document).ready(function(){
     'margin':'0 auto 50px auto'
   });
   //HEADING
-  $('.heading_Tngrs_js').html('<h3>JavaScript для подростков</h3>').css({
-    'text-align':'center'
-  });
   $('.heading_Tngrs_python').html('<h3>Python для подростков</h3>').css({
     'text-align':'center'
   });
   //TEXT
-  $('.text_Teenagers_js').html('<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, fugit. Accusantium sed dolores sequi placeat dignissimos aspernatur eius, ex labore, earum id obcaecati, nam nemo doloremque vel assumenda, molestiae. Modi.</p>');
   $('.text_Teenagers_python').html('<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, fugit. Accusantium sed dolores sequi placeat dignissimos aspernatur eius, ex labore, earum id obcaecati, nam nemo doloremque vel assumenda, molestiae. Modi.</p>');
   //
   $('.info_brief_heading').html('<h2>Lorem ipsum dolor</h2>');

@@ -11,12 +11,12 @@ $(document).ready(function () {
   $('.wlcm_submit input').click(function () {
     $('#welcome_to_site')//.animate({
    /* 'top': '-=100%'
-    }, 1200);/*/.fadeOut(1200);
+    }, 1200);/*/.fadeOut(600);
     $('html').animate({
       'background-color': 'white',
       'color': 'black'
-    }, 2500);
-    $('.all_contents').fadeIn(2500);
+    }, 1500);
+    $('.all_contents').fadeIn(1000);
     $('footer').fadeIn();
     //BLOCK_BLOG
 
