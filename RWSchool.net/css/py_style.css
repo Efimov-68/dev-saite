@@ -1,0 +1,51 @@
+@media all and (max-width:2560px){
+	#allcontent {
+		width: auto;
+		max-width: 800px;
+		height: 600px;
+		margin: 0 auto 0 10%;
+		padding: 20px;
+		border: none;
+	}
+	@media all and (max-width: 1366px){
+		#allcontent{
+			margin: 0 auto;
+		}
+	}
+	.block_left {
+		float: left;
+		width: 400px;
+		border: 2px solid whitesmoke;
+		border-radius: 10px 12px;
+	}
+	.block_numbers {
+		float: left;
+		margin-right: auto;
+		padding: 1px 5px;
+		border-radius: 10px 0  0 10px;
+		background-color: lightgray;
+	}
+	.code_info textarea {
+		float: right;
+		width: 365px;
+		height: 500px;
+		opacity: .5;
+		outline: none;
+		border-radius: 0 10px 10px 0;
+	}
+	.block_display {
+		float: right;
+		width: 350px;
+		height: 290px;
+		border: 2px solid whitesmoke;
+		border-radius: 10px;
+	}
+	.block_right {
+		float: right;
+		width: 350px;
+		height: 200px;
+		margin-top: 20px;
+		border: 2px solid whitesmoke;
+		border-radius: 10px;
+	}
+}

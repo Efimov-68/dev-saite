@@ -1,0 +1,20 @@
+/*RW.ru <> RWS.net EfimovRS*/
+@media all and (max-width: 2560px){
+	html {}
+	body {}
+	#header {
+		width: auto;
+		max-width:1200px;
+		height: 50px;
+		margin:0 auto;
+	}
+	.nav_menu_middle {
+		
+	}
+	.nav_middle_block_m ul {
+		float: right;
+	}
+	.nav_middle_block_m li {
+		float: left;
+	}
+}

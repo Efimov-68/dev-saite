@@ -32,8 +32,6 @@ $(document).ready(function () {
   //CSS STYLE_BLOG
   //FIRST_BLOG
   $('.first_blog').css({
-    'border': 'none',
-    'border-radius': '3px',
     'margin-bottom': '20px',
     'padding': '20px'
   });

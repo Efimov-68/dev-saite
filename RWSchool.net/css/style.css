@@ -1,7 +1,4 @@
-@media all
-/*and (min-width: 1921px)*/
-
-and (max-width: 2560px) {
+@media all and (max-width: 2560px) {
   /*HTML*/
   html {
     background-color: rgba(215, 215, 215, .9);
@@ -27,7 +24,7 @@ and (max-width: 2560px) {
   }
   /*HEADER_LOGO*/
   .hdr_logo h2 {
-    padding-left: 5px;
+    padding-left: 15px;
     color: darkcyan;
     text-align: left;
     text-shadow: 1px 1px 1px lightgray;
@@ -117,7 +114,7 @@ and (max-width: 2560px) {
   .hdr_contacts li:nth-child(5) img,
   .hdr_contacts li:nth-child(6) img,
   .hdr_contacts li:nth-child(7) img {
-    width: 25px;
+    width: 20px;
   }
   /*WELCOM_TO_SITE*/
   #welcome_to_site {
@@ -243,15 +240,15 @@ and (max-width: 2560px) {
   }
   .blck_blog {
     padding: 10px 20px;
-    border: none;
-    border-radius: 3px;
-    box-shadow: 0 2px 5px gray;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
   }
   .blck_blog:hover{
-    box-shadow: 0 4px 10px gray;
-    box-shadow: 2px 3px 10px gray;
-    -moz-transform:scale(1.05);
-    -webkit-transform:scale(1.05);
+    border: 3px solid white;
+    box-shadow: 0 0 15px lightgray;
+  }
+  .blck_blog:hover h1 {
+    color:orange;
   }
   .blck_blog_heading {}
   .blck_blog_info {
@@ -264,8 +261,12 @@ and (max-width: 2560px) {
       max-width: 400px;
     }
   }
+
+  /*
   .blck_blog_href a {}
   .blck_blog_href a:hover {}
+  */
+
   /*POPULAR*/
   .popular_heading {
     margin-top: 20px;
@@ -319,14 +320,14 @@ and (max-width: 2560px) {
   footer {
     width: auto;
     max-width: 1500px;
-    height: 300px;
+    height: 200px;
     margin-top: 700px;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
     padding: 20px;
-    border-radius: 5px;
-    background-color: lightsteelblue;
+    border-radius: 2px;
+    background-color: whitesmoke;
   }
   @media all and (max-width:1920px) {
     .ftr_nav {
@@ -336,13 +337,13 @@ and (max-width: 2560px) {
     footer {
       width: auto;
       max-width: 1500px;
-      height: 300px;
+      height: 200px;
       margin-top: 100px;
       margin-left: 0;
       margin-right: 0;
       margin-bottom: 0;
       padding: 20px;
-      border-radius: 5px;
+      border-radius: 2px;
     }
   }
   .ftr_nav {
@@ -460,10 +461,12 @@ and (max-width: 2560px) {
     cursor: pointer;
   }
   .first_blog {
-    box-shadow: 0 0 2px gray;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
   }
   .first_blog:hover{
-    box-shadow: 0 4px 10px gray;
+    border: 3px solid white;
+    box-shadow: 0 0 15px lightgray;
   }
   /*
   COURSES_PAGE
@@ -488,16 +491,22 @@ and (max-width: 2560px) {
     width: auto;
     float: left;
     padding: 25px;
-    margin: 10px;
-    border-radius: 3px;
-    box-shadow: 0 0 2px black;
+    margin: 10px 70px 10px 20px;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
     font-size: .9em;
   }
   
   .courses_python_Teenagers:hover {
     font-size: .9em;
-    box-shadow: 0 4px 10px gray;
-    -webkit-transform:scale(1.02);
-    -moz-transform:scale(1.02);
+    border: 3px solid white;
+    box-shadow: 0 0 15px lightgray;
+  }
+
+  .courses_python_Teenagers:hover h3 {
+    color:orange;
+  }
+  .introduction_blog:hover h2 {
+    color:orange;
   }
 }
