@@ -45,6 +45,29 @@
     color:blue;
   }
   /*END HEADER*/
+  /*** SUBMIT-BACK ***/
+  .button-back {
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+  }
+  .button-back input {
+    height:30px;
+    padding:0 15px;
+    position:absolute;
+    left:0;
+    bottom:5%;
+    border:none;
+    outline:0;
+    color:gray;
+    background-color:rgba(0,0,0,.1);
+  }
+  .button-back input:hover {
+    color:whitesmoke;
+    background-color:rgba(0,0,0,.5);
+  }
+  /*** END SUBMIT-BACK ***/
   /*Block Right*/
   .right-block-contents {
     width:300px;
@@ -55,34 +78,47 @@
     border-radius:2px;
     float:right;
   }
-  .right-block-reviews {
+  .right-block-main {
     margin-top:0px;
   }
-  .right-block-reviews table {
+  .right-block-main-heading h2 {
+    padding:0 10px;
+  }
+  .right-block-main-list,
+  .right-block-main table {
     margin:0 auto;
   }
-  .right-block-reviews td {
-    padding:5px;
+  .right-block-main-list li,
+  .right-block-main td {
+    padding:5px 2px;
+  }
+  .right-block-main td a {
+    padding:3px;
+    border:none;
+    border-radius:3px;
+    box-shadow:0 0 1px darkcyan;
+    color:gray;
+    background-color:whitesmoke;
   }
   .right-block-faq div,
-  .right-block-reviews table {
+  .right-block-main table {
     border-bottom:1px solid lightgrey;
     padding:5px 10px;
   }
   .right-block-faq div a,
   .content-quick-blog-text li a,
-  .right-block-reviews td a {
+  .right-block-main-list li a {
     color: gray;
   }
   .right-block-faq div a:hover,
   .content-quick-blog-text li a:hover,
-  .right-block-reviews td a:hover {
+  .right-block-main-list li a:hover,
+  .right-block-main td a:hover {
     text-decoration: none;
   }
   .right-block-blog-button div {
     margin:0 auto;
     border:none;
-    background-color:;
   }
   .right-block-blog-button input {
     text-align:center;
@@ -116,6 +152,7 @@
   .content-quick-blog-text {
     width:800px;
   }
+  .right-block-main-list ul,
   .content-quick-blog-text ul {
     list-style-type:circle;
   }
@@ -154,7 +191,8 @@
     background-color: whitesmoke;
     cursor:pointer;
   }
-  .blog-button input:hover {
+  .blog-button input:hover,
+  .blog-button input:nth-child(1) {
     color:gray;
     border: 1px solid lightgray;
     box-shadow: none;
