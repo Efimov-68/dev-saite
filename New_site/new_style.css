@@ -4,7 +4,7 @@
     font-family:monospace;
   }
   /*HEADER*/
-  .header_contents {
+  #header_contents {
     width:auto;
     padding:5px 0 5px 20px;
     position:absolute;
@@ -62,6 +62,7 @@
     outline:0;
     color:gray;
     background-color:rgba(0,0,0,.1);
+    cursor:pointer;
   }
   .button-back input:hover {
     color:whitesmoke;
@@ -95,10 +96,10 @@
   .right-block-main td a {
     padding:3px;
     border:none;
-    border-radius:3px;
-    box-shadow:0 0 1px darkcyan;
+    border-radius:2px;
+    box-shadow:0 0 1px black;
     color:gray;
-    background-color:whitesmoke;
+    background-color:ghostwhite;
   }
   .right-block-faq div,
   .right-block-main table {
@@ -116,6 +117,10 @@
   .right-block-main td a:hover {
     text-decoration: none;
   }
+  .right-block-main td a:hover {
+    box-shadow:0 0 2px #f2f2f2;
+    background-color:#f2f2f2;
+  }
   .right-block-blog-button div {
     margin:0 auto;
     border:none;
@@ -127,10 +132,12 @@
     height:25px;
     margin:0 auto;
     border:none;
+    outline:0;
     box-shadow:0px 2px 2px gray;
     border-radius:100px;
     color:whitesmoke;
     background-color:lightgray;
+    cursor:pointer;
   }
   .right-block-blog-button input:hover {
     background-color:white;
@@ -221,6 +228,9 @@
   .footer-list li {
     padding:2px;
     color:ghostwhite;
+  }
+  .footer-list li:nth-child(6) img {
+    width:50px;
   }
   .footer-list li a {
     font-size:1.1em;
