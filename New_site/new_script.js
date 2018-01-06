@@ -1,7 +1,5 @@
 $(document).ready(function(){
-	
-	$(".button-back").click(function(){
-		$("body").scroll("#header-contents");
+	var $childrenButton = $("input[value='для Детей']");
+    $childrenButton.load("children00.html");
 	});
-	
-});
+});//ready()

@@ -179,7 +179,7 @@ All Contents ***/
   list-style-type:circle;
 }
 .content-blog {
-  height:2850px;
+  height:2800px;
   margin-bottom:100px;
 }
 .content-blog div {
@@ -194,7 +194,7 @@ All Contents ***/
 
 @media all and (max-width:1310px){
   .content-blog {
-    height:5250px;
+    height:5100px;
   }
   .content-blog div {
     width:auto;
@@ -212,12 +212,15 @@ All Contents ***/
   footer {
     height: 310px;
     padding: 0 20px 0 20px;
-    margin-top:2300px;
+    margin-top:2350px;
     background-color:#000d1a;
   }
 }
 
 @media all and (max-width:1240px){
+  .content-blog {
+    height:5230px;
+  }
   .content-blog div {
     width:auto;
     max-width:600px;
