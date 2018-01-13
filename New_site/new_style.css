@@ -34,20 +34,21 @@ span.logo-darkorange {
 .content-select input {
   margin-top: 3px;
   margin-bottom: 5px;
-  padding:5px;
+  padding:5px 7px;
   border:1px solid whitesmoke;
-  border-radius:3px;
+  border-radius:0 3px;
   color:black;
   background-color:whitesmoke;
-  box-shadow:0 0 2px ghostwhite;
+  box-shadow:0 2px 3px ghostwhite;
   cursor: pointer;
 }
 .content-select input:hover,
 .content-select input:nth-child(1):hover,
 .content-select input:nth-child(4):hover {
-  color: gray;
+  color: darkcyan;
+  border:1px solid lightgray;
   box-shadow:none;
-  border:1px solid gray;
+  background-color:lightgray;
 }
 .content-select input:nth-child(1) {
   color:darkorange;
@@ -89,10 +90,16 @@ Block Right ***/
   width:300px;
   margin-top:60px;
   margin-right:20px;
-  background-color:whitesmoke;
+  background-color:white;
   box-shadow:0 0 5px lightgray;
-  border-radius:2px;
+  border-radius:3px;
   float:right;
+}
+.right-block-heiding {
+  border-bottom:1px solid lightgray;
+}
+.right-block-heiding h2 {
+  text-align:center;
 }
 .right-block-main {
   margin-top:0px;
@@ -178,8 +185,11 @@ All Contents ***/
 .content-quick-blog-text ul {
   list-style-type:circle;
 }
+.content-heiding-block h1 {
+  text-align:center;
+}
 .content-blog {
-  height:2800px;
+  height:2850px;
   margin-bottom:100px;
 }
 .content-blog div {
@@ -189,12 +199,12 @@ All Contents ***/
   float:left;
   box-shadow:0 0 5px lightgray;
   border-radius:2px;
-  background-color:whitesmoke;
+  background-color:white;
 }
 
 @media all and (max-width:1310px){
   .content-blog {
-    height:5100px;
+    height:5200px;
   }
   .content-blog div {
     width:auto;
@@ -212,7 +222,7 @@ All Contents ***/
   footer {
     height: 310px;
     padding: 0 20px 0 20px;
-    margin-top:2350px;
+    margin-top:2390px;
     background-color:#000d1a;
   }
 }
