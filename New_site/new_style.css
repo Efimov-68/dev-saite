@@ -129,9 +129,11 @@ Block Right ***/
   padding:5px 10px;
 }
 .right-block-faq div a,
-.content-quick-blog-text li a,
+.content-quick-blog-text li a {
+  color: blue;
+}
 .right-block-main-list li a {
-  color: gray;
+  color:gray;
 }
 .right-block-faq div a:hover,
 .content-quick-blog-text li a:hover,
@@ -221,11 +223,12 @@ Block Right ***/
   box-shadow:0 0 2px lightgray;
   border:none;
   outline:0;
+  cursor:pointer;
   font-size:.9em;
   background-color:lightgray;
 }
-.right-block-form p:nth-child(4) input:hover,
-.right-block-registration p:nth-child(9) input:hover,
+.right-block-form p:nth-child(5) input:hover,
+.right-block-registration p:nth-child(10) input:hover,
 .right-block-singIn p:nth-child(3) input:hover {
   color:gray;
   box-shadow:none;
@@ -312,7 +315,7 @@ All Contents ***/
   margin:0 auto;
 }
 .content-blog div a {
-  color: gray;
+  color: blue;
 }
 .content-blog div a:hover {
   text-decoration: none;
