@@ -211,6 +211,7 @@ Block Right ***/
 .right-block-singIn p:nth-child(2) input {
   padding:5px 10px;
   border:2px solid lightgray;
+  font-size:.9em;
 }
 .right-block-form p:nth-child(5) input,
 .right-block-registration p:nth-child(10) input,
@@ -220,6 +221,7 @@ Block Right ***/
   box-shadow:0 0 2px lightgray;
   border:none;
   outline:0;
+  font-size:.9em;
   background-color:lightgray;
 }
 .right-block-form p:nth-child(4) input:hover,
