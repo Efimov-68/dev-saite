@@ -166,6 +166,68 @@ Block Right ***/
   color:black;
   box-shadow:0 0 2px lightgray;
 }
+.right-heading-form h2,
+.right-heading-registration h2,
+.right-heading-singIn h2 {
+  padding-left:10px;
+}
+.right-heading-form input,
+.right-heading-registration input,
+.right-heading-singIn input {
+  border:none;
+  outline:0;
+  font-size:1em;
+  background-color:inherit;
+  cursor:pointer;
+}
+.right-block-form p,
+.right-block-registration p,
+.right-block-singIn p {
+  text-align:center;
+}
+.right-block-form p:nth-child(4),
+.right-block-registration p:nth-child(9) {
+  padding-left:10px;
+  text-align:left;
+}
+.right-block-form p:nth-child(5),
+.right-block-registration p:nth-child(10),
+.right-block-singIn p:nth-child(3) {
+  text-align:right;
+  padding-right:10px;
+}
+.right-block-form p:nth-child(1) input,
+.right-block-form p:nth-child(2) input,
+.right-block-form p:nth-child(3) input,
+.right-block-registration p:nth-child(1) input,
+.right-block-registration p:nth-child(2) input,
+.right-block-registration p:nth-child(3) input,
+.right-block-registration p:nth-child(4) input,
+.right-block-registration p:nth-child(5) input,
+.right-block-registration p:nth-child(6) input,
+.right-block-registration p:nth-child(7) input,
+.right-block-registration p:nth-child(8) input,
+.right-block-singIn p:nth-child(1) input,
+.right-block-singIn p:nth-child(2) input {
+  padding:5px 10px;
+  border:2px solid lightgray;
+}
+.right-block-form p:nth-child(5) input,
+.right-block-registration p:nth-child(10) input,
+.right-block-singIn p:nth-child(3) input {
+  padding:5px 7px;
+  border-radius:3px;
+  box-shadow:0 0 2px lightgray;
+  border:none;
+  outline:0;
+  background-color:lightgray;
+}
+.right-block-form p:nth-child(4) input:hover,
+.right-block-registration p:nth-child(9) input:hover,
+.right-block-singIn p:nth-child(3) input:hover {
+  color:gray;
+  box-shadow:none;
+}
 
 /*** END Block Right
 All Contents ***/
