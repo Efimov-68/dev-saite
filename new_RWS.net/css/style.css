@@ -196,7 +196,7 @@ header {
 /* END Courses Block */
 /* REVIEWS */
 
-#reviews_allblock {
+#reviews_allbasic {
   width: auto;
   height: 500px;
   background-color: green;
@@ -224,7 +224,7 @@ header {
  FOOTER */
 
 footer {
-  height: 300px;
+  height: 330px;
   position: absolute;
   top: 7000px;
   bottom: 0;
