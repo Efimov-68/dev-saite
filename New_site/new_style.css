@@ -36,15 +36,14 @@ span.logo-darkorange {
   margin-bottom: 5px;
   padding:5px 7px;
   border:1px solid whitesmoke;
-  border-radius:0 3px;
+  .border-radius:10px;
   color:black;
   background-color:whitesmoke;
-  box-shadow:0 2px 3px ghostwhite;
+  .box-shadow:0 2px 3px ghostwhite;
   cursor: pointer;
 }
 .content-select input:hover,
-.content-select input:nth-child(1):hover,
-.content-select input:nth-child(4):hover {
+.content-select input:nth-child(1):hover {
   color: darkcyan;
   border:1px solid lightgray;
   box-shadow:none;
@@ -53,7 +52,7 @@ span.logo-darkorange {
 .content-select input:nth-child(1) {
   color:darkorange;
 }
-.content-select input:nth-child(4) {
+.content-select input:nth-child(.4) {
   color:blue;
 }
 
