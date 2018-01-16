@@ -224,7 +224,7 @@ header {
  FOOTER */
 
 footer {
-  height: 330px;
+  height: 310px;
   position: absolute;
   top: 7000px;
   bottom: 0;
@@ -232,6 +232,7 @@ footer {
   right: 0;
   color: #404040;
   background-color: #000d1a;
+  font-family: monospace;
 }
 .bottom_menu ul {
   list-style-type:none;
@@ -249,3 +250,29 @@ footer {
 }
 
 /* END FOOTER */
+/*** SUBMIT-BACK ***/
+
+.button-back {
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+}
+.button-back input {
+  height:30px;
+  padding:0 15px;
+  position:absolute;
+  right:0;
+  bottom:5%;
+  border:none;
+  outline:0;
+  color:gray;
+  background-color:rgba(0,0,0,.1);
+  cursor:pointer;
+}
+.button-back input:hover {
+  color:whitesmoke;
+  background-color:rgba(0,0,0,.5);
+}
+
+/*** END SUBMIT-BACK ***/
