@@ -274,13 +274,13 @@ All Contents ***/
   margin:10px;
   padding:20px;
   font-size: 1.1em;
+  background-color: white;
 }
 .img-last {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left:10%;
   border-radius: 2px;
-  background-color: whitesmoke;
 }
 .img-last img {
   width: 700px;
@@ -293,7 +293,6 @@ All Contents ***/
   padding-bottom: 5px;
   padding-left:20%;
   border-radius: 2px;
-  background-color: whitesmoke;
 }
 .img-middle img {
   width: auto;

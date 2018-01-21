@@ -22,4 +22,7 @@ $(document).ready(function(){
 			$('.right-block-singIn').fadeOut();
 	  }
 	});//end registration && singIn
+  $('.content-select input[value="С чего начать?"]').click(function(){
+    
+  });
 });//ready()
