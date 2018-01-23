@@ -4,43 +4,47 @@
     <meta charset="utf-8"/>
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
-    <title>Home page</title>
-    <link rel="stylesheet" type="text/css" href="new_style.css"/>
+    <title>Website development</title>
+    <link rel="stylesheet" type="text/css" href="../css/hm_style.css"/>
     <style>
-      .blog-button a:nth-child(1) {
-        color:gray;
-        border: 1px solid lightgray;
-        box-shadow: none;
-        cursor:inherit;
+      .content-select a:nth-child(2) {
+        color:darkorange;
+        border:1px solid lightgray;
+        box-shadow:none;
+        background-color:lightgray;
+      }
+      .right-block-contents{
+        background-color: whitesmoke;
+      }
+      footer {
+        top:3300px;
       }
     </style>
-    <script src="jquery-3.2.1.min.js"></script>
-    <script src="jquery-ui.min.js"></script>
-    <script src="new_script.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/hm_script.js"></script>
   </head>
   <body>
     <header>
       <div id="s_main">
-        <button class="left">IT-специалистам и Компаниям</button>
-        <button class="right">Курсы Детям и Подросткам</button>
+        <a class="left">Web-решения для Бизнеса</a>
+        <a href="programming_training.html" class="right">Обучение программированию</a>
       </div>
       <div id="header_contents">
         <div class="logo">
-          <h1 class="logo-darkcyan">Rabbit<span class="logo-darkorange">Web</span>.ru<!-- // R<span class="logo-darkorange">WSchool</span>.net--></h1>
+          <h1 class="logo-darkcyan">Rabbit<span class="logo-darkorange">Web</span></h1>
         </div>
         <div class="content-select">
-          <input type="button" value="С чего начать?"/>
-          <input type="button" value="Начинающим"/>
-          <!--input type="button" value="Фриланс"/>
-          <input type="button" value="Курсы"/-->
-          <input type="button" value="Разработка сайтов"/>
-          <input type="button" value="Веб-приложения"/>
+          <a href="../index.html">Блог</a>
+          <a>Разработка сайтов</a>
+          <a href="web_applications">Веб-приложения</a>
+          <a href="promotion">Продвижение</a>
         </div>
       </div>
     </header>
     <div class="right-block-contents">
       <div class="right-block-heiding">
-        <h2>Разработчикам</h2>
+        <h2>Блог</h2>
       </div>
       <div class="right-block-faq">
         <div>
@@ -63,11 +67,11 @@
           <h2>Python 3.6</h2>
           <p>В Python 3.6 появилась такая интересная особенность, как синтаксис для аннотаций переменных. Подробнее про это нововведение можно прочитать в PEP 526. Суть этого PEP заключается в том, чтобы перевести идею аннотаций типов (PEP 484) на её следующую логическую ступень, т.е. сделать возможным указание типов переменных, включая поля классов и объектов. <a href="">Подробнее...</a></p>
         </div>
-        <div class="right-block-blog-button">
+        <!--div class="right-block-blog-button">
           <div>
             <input type="button" value="Ещё"/>
           </div>
-        </div>
+        </div-->
       </div>
       <div class="right-block-">
         <div class="right-block-main-heading">
@@ -92,86 +96,54 @@
           <tr>
             <td><a href="#">Дизайн</a></td>
             <td><a href="#">Продвижение</a></td>
-            <td><a href="#">HTML5</a></td>
           </tr>
           <tr>
-            <td><a href="#">CSS3</a></td>
+            <td><a href="#">HTML/CSS</a></td>
+            <td><a href="#">Git</a></td>
+          </tr>
+          <tr>
             <td><a href="#">JavaScript</a></td>
             <td><a href="#">jQuery</a></td>
           </tr>
           <tr>
             <td><a href="#">Bootstrap</a></td>
             <td><a href="#">Ajax</a></td>
-            <td><a href="#">Python</a></td>
           </tr>
           <tr>
+            <td><a href="#">Python</a></td>
             <td><a href="#">Django</a></td>
-            <td><a href="#">SQL</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">DataBase</a></td>
             <td><a href="#">PHP</a></td>
           </tr>
           <tr>
             <td><a href="#">WordPress</a></td>
             <td><a href="#">Joomla!</a></td>
-            <td><a href="#">Git</a></td>
           </tr>
-          <!--tr>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-          </tr>
-          <tr>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-          </tr>
-          <tr>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-            <td><a href="#"></a></td>
-          </tr-->
         </table>
       </div>
       <div class="right-content-form">
         <div class="right-heading-form">
-          <h2>Обратная связь</h2>
+          <h2>Заказать услуги</h2>
         </div>
         <div class="right-block-form">
           <form action="" method="GET">
             <p><input type="name" name="last_name" placeholder="Имя"/></p>
             <p><input type="tel" name="phone" placeholder="Телефон"/></p>
             <p><input type="email" name="email" placeholder="E-mail"/></p>
-            <p><input type="checkbox" required/> Соглашение об обработке персональных данных</p>
-            <p><input type="submit" value="Отправить"/></p>
-          </form>
-        </div>
-        <div class="right-heading-registration"></div>
-        <div class="right-block-registration">
-          <form action="" method="GET">
-            <p><input type="login" name="log_registration" placeholder="Логин"/></p>
-            <p><input type="password" name="password" placeholder="Пароль"/></p>
-            <p><input type="password" name="repeat_password" placeholder="Повторите пароль"/></p>
-            <p><input type="name" name="first_name" placeholder="Фамилия"/></p>
-            <p><input type="name" name="last_name" placeholder="Имя"/></p>
-            <p><input type="name" name="middle_name" placeholder="Отчество"/></p>
-            <p><input type="tel" name="phone" placeholder="Телефон"/></p>
-            <p><input type="email" name="email" placeholder="E-mail"/></p>
-            <p><input type="checkbox" required/> Соглашение об обработке персональных данных</p>
-            <p><input type="submit" value="Регистрация"/></p>
-          </form>
-        </div>
-        <div class="right-heading-singIn"></div>
-        <div class="right-block-singIn">
-          <form action="" method="GET">
-            <p><input type="login" name="log_registration" placeholder="Логин"/></p>
-            <p><input type="password" name="password" placeholder="Пароль"/></p>
-            <p><input type="submit" value="Войти"/></p>
+            <p><input type="radio" name="service"/> <b>Разработка сайта</b></p>
+            <p><input type="radio" name="service"/> <b>Продвижение</b></p>
+            <p><input type="radio" name="service"/> <b>Веб-приложение</b></p>
+            <p><input type="checkbox" required/> <a href="" style="color:blue; text-decoration:none;">Соглашение</a> об обработке персональных данных</p>
+            <p><input type="submit" value="Отправить" style="background-color:orange;"/></p>
           </form>
         </div>
       </div>
     </div>
     <div id="all_contents">
       <div class="all_contents_heading">
-        <h1>С чего начать?</h1>
+        <h1>С чего начать сотрудничество с нами?</h1>
       </div>
       <div class="content-quick-blog-text">
         <ul>
@@ -182,66 +154,51 @@
         </ul>
       </div>
       <div class="content-heiding-block">
-        <h1>Будь в курсе</h1>
+        <h1>Портфолио</h1>
       </div>
       <div class="content-blog">
         <div class="content-block-blog">
-          <img src="fon_img.jpg">
-          <h2>Адаптивная вёрстка</h2>
-          <p>В Python 3.6 появилась такая интересная особенность, как синтаксис для аннотаций переменных. Подробнее про это нововведение можно прочитать в PEP 526. Суть этого PEP заключается в том, чтобы перевести идею аннотаций типов (PEP 484) на её следующую логическую ступень, т.е. сделать возможным указание типов переменных, включая поля классов и объектов. <a href="page01.html">Подробнее...</a></p>
-        </div>
-        <div class="content-block-blog">
-          <img src="fon_img.jpg">
+          <img src="../portfolio/website_fon_0.jpg">
           <h2>Python 3.6</h2>
           <p>В Python 3.6 появилась такая интересная особенность, как синтаксис для аннотаций переменных. Подробнее про это нововведение можно прочитать в PEP 526. Суть этого PEP заключается в том, чтобы перевести идею аннотаций типов (PEP 484) на её следующую логическую ступень, т.е. сделать возможным указание типов переменных, включая поля классов и объектов. <a href="page01.html">Подробнее...</a></p>
         </div>
         <div class="content-block-blog">
-          <img src="fon_img.jpg">
+          <img src="../portfolio/website_fon_1.jpg">
           <h2>Python 3.6</h2>
           <p>В Python 3.6 появилась такая интересная особенность, как синтаксис для аннотаций переменных. Подробнее про это нововведение можно прочитать в PEP 526. Суть этого PEP заключается в том, чтобы перевести идею аннотаций типов (PEP 484) на её следующую логическую ступень, т.е. сделать возможным указание типов переменных, включая поля классов и объектов. <a href="page01.html">Подробнее...</a></p>
         </div>
         <div class="content-block-blog">
-          <img src="fon_img.jpg">
+          <img src="../portfolio/website_fon_0.jpg">
           <h2>Python 3.6</h2>
           <p>В Python 3.6 появилась такая интересная особенность, как синтаксис для аннотаций переменных. Подробнее про это нововведение можно прочитать в PEP 526. Суть этого PEP заключается в том, чтобы перевести идею аннотаций типов (PEP 484) на её следующую логическую ступень, т.е. сделать возможным указание типов переменных, включая поля классов и объектов. <a href="page01.html">Подробнее...</a></p>
         </div>
         <div class="content-block-blog">
-          <img src="fon_img.jpg">
+          <img src="../portfolio/website_fon_1.jpg">
           <h2>Python 3.6</h2>
           <p>В Python 3.6 появилась такая интересная особенность, как синтаксис для аннотаций переменных. Подробнее про это нововведение можно прочитать в PEP 526. Суть этого PEP заключается в том, чтобы перевести идею аннотаций типов (PEP 484) на её следующую логическую ступень, т.е. сделать возможным указание типов переменных, включая поля классов и объектов. <a href="page01.html">Подробнее...</a></p>
         </div>
         <div class="content-block-blog">
-          <img src="fon_img.jpg">
+          <img src="../portfolio/website_fon_0.jpg">
           <h2>Python 3.6</h2>
           <p>В Python 3.6 появилась такая интересная особенность, как синтаксис для аннотаций переменных. Подробнее про это нововведение можно прочитать в PEP 526. Суть этого PEP заключается в том, чтобы перевести идею аннотаций типов (PEP 484) на её следующую логическую ступень, т.е. сделать возможным указание типов переменных, включая поля классов и объектов. <a href="page01.html">Подробнее...</a></p>
         </div>
         <div class="content-block-blog">
-          <img src="fon_img.jpg">
+          <img src="../portfolio/website_fon_1.jpg">
           <h2>Python 3.6</h2>
           <p>В Python 3.6 появилась такая интересная особенность, как синтаксис для аннотаций переменных. Подробнее про это нововведение можно прочитать в PEP 526. Суть этого PEP заключается в том, чтобы перевести идею аннотаций типов (PEP 484) на её следующую логическую ступень, т.е. сделать возможным указание типов переменных, включая поля классов и объектов. <a href="page01.html">Подробнее...</a></p>
         </div>
         <div class="content-block-blog">
-          <img src="fon_img.jpg">
+          <img src="../portfolio/website_fon_0.jpg">
           <h2>Python 3.6</h2>
           <p>В Python 3.6 появилась такая интересная особенность, как синтаксис для аннотаций переменных. Подробнее про это нововведение можно прочитать в PEP 526. Суть этого PEP заключается в том, чтобы перевести идею аннотаций типов (PEP 484) на её следующую логическую ступень, т.е. сделать возможным указание типов переменных, включая поля классов и объектов. <a href="page01.html">Подробнее...</a></p>
         </div>
         <div class="content-block-blog">
-          <img src="fon_img.jpg">
+          <img src="../portfolio/website_fon_1.jpg">
           <h2>Python 3.6</h2>
           <p>В Python 3.6 появилась такая интересная особенность, как синтаксис для аннотаций переменных. Подробнее про это нововведение можно прочитать в PEP 526. Суть этого PEP заключается в том, чтобы перевести идею аннотаций типов (PEP 484) на её следующую логическую ступень, т.е. сделать возможным указание типов переменных, включая поля классов и объектов. <a href="page01.html">Подробнее...</a></p>
         </div>
         <div class="content-block-blog">
-          <img src="fon_img.jpg">
-          <h2>Python 3.6</h2>
-          <p>В Python 3.6 появилась такая интересная особенность, как синтаксис для аннотаций переменных. Подробнее про это нововведение можно прочитать в PEP 526. Суть этого PEP заключается в том, чтобы перевести идею аннотаций типов (PEP 484) на её следующую логическую ступень, т.е. сделать возможным указание типов переменных, включая поля классов и объектов. <a href="page01.html">Подробнее...</a></p>
-        </div>
-        <div class="content-block-blog">
-          <img src="fon_img.jpg">
-          <h2>Python 3.6</h2>
-          <p>В Python 3.6 появилась такая интересная особенность, как синтаксис для аннотаций переменных. Подробнее про это нововведение можно прочитать в PEP 526. Суть этого PEP заключается в том, чтобы перевести идею аннотаций типов (PEP 484) на её следующую логическую ступень, т.е. сделать возможным указание типов переменных, включая поля классов и объектов. <a href="page01.html">Подробнее...</a></p>
-        </div>
-        <div class="content-block-blog">
-          <img src="fon_img.jpg">
+          <img src="../portfolio/website_fon_0.jpg">
           <h2>Python 3.6</h2>
           <p>В Python 3.6 появилась такая интересная особенность, как синтаксис для аннотаций переменных. Подробнее про это нововведение можно прочитать в PEP 526. Суть этого PEP заключается в том, чтобы перевести идею аннотаций типов (PEP 484) на её следующую логическую ступень, т.е. сделать возможным указание типов переменных, включая поля классов и объектов. <a href="page01.html">Подробнее...</a></p>
         </div>
@@ -265,7 +222,6 @@
               <li><a href="">ВАКАНСИИ</a></li>
               <li><a href="">СОГЛАШЕНИЕ</a></li>
               <li><a href="">КОНФИДЕНЦИАЛЬНОСТЬ</a></li>
-
               <li>
                 <h3 class="logo-darkcyan">+7(499)394-<span class="logo-darkorange">6887</span>
                 <br/>+7(929)956-<span class="logo-darkorange">3812</span></h3>

@@ -1,3 +1,41 @@
+@font-face {
+  font-family: Bulgaria;
+  src: url(fonts/Bulgaria_Bourgas_Cyr.ttf);
+}
+/* Slider children */
+#main {
+  position: relative;
+  margin: 100px auto;
+  padding: 5px;
+  width: 660px;
+  height: 360px;
+  background-color: silver;
+  border: 5px solid grey;
+  border-radius: 15px;
+}
+#scr {
+  margin: 20px auto;
+  width: 600px;
+  height: 320px;
+  margin-top: 20px;
+  background-color: white;
+  background-size: cover;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+/*
+button {
+  position: absolute;
+  top: 150px;
+  width: 25px;
+  height: 70px;
+  font: 12pt arial, tahoma, sans-serif;
+  text-align: center;
+}
+.left {left: 5px;}
+.right {right: 5px;}
+*/
+/* end Slider Children */
 
 html {
   background-color:#f2f2f2;
@@ -16,6 +54,7 @@ header {
   left:0;
   top:0;
   right:0;
+  height: 130px;
   background-color:#000d1a;
 }
 /* BUTTON HEADER MAIN */
@@ -25,32 +64,36 @@ header {
   left: 0;
   right: 0;
   background-color: silver;
+  text-align: center;
 }
 .left {
   position: absolute;
   width: 50%;
-  height: 40px;
+  height: 30px;
+  padding-top: 10px;
   left: 0;
-  background-color:#000d1a;
-  color: white;
-  font-size: .9em;
+  background-color:#001a33;
+  color: grey;
+  font-size: 1em;
   border: 0;
   outline: 0;
+  cursor: pointer;
+  text-decoration: none;
 }
 .right {
   position: absolute;
   width: 50%;
-  height: 40px;
+  height: 30px;
+  padding-top: 10px;
   right: 0;
-  background-color:#001a33;
-  color: grey;
-  font-size: .9em;
+  background-color:#000d1a;
+  color: white;
+  font-size: 1em;
   border: 0;
   outline: 0;
-  cursor: pointer;
 }
-.right:hover {
-  color: lightgrey;
+.left:hover {
+  color: orange;
 }
 /* END BUTON HEADER MAIN */
 
@@ -62,36 +105,32 @@ header {
   padding:5px 0 5px 20px;
 }
 
-h1.logo-darkcyan,
-h2.logo-darkcyan {
+h1.logo-darkcyan {
   color:darkcyan;
 }
 span.logo-darkorange {
   color:darkorange;
 }
-.content-select input {
-  margin-top: 3px;
+.content-select {
+  padding-bottom: 10px;
+}
+.content-select a {
+  margin-top: 5px;
   margin-bottom: 5px;
   padding:5px 7px;
   border:1px solid whitesmoke;
-  .border-radius:10px;
   color:black;
   background-color:whitesmoke;
-  .box-shadow:0 2px 3px ghostwhite;
+  box-shadow:0 0 2px ghostwhite;
   cursor: pointer;
+  text-decoration: none;
 }
-.content-select input:hover,
-.content-select input:nth-child(1):hover {
+.content-select a:hover,
+.content-select a:nth-child(2):hover {
   color: darkcyan;
   border:1px solid lightgray;
   box-shadow:none;
   background-color:lightgray;
-}
-.content-select input:nth-child(1) {
-  color:darkorange;
-}
-.content-select input:nth-child(.4) {
-  color:blue;
 }
 
 /*** END HEADER
@@ -148,17 +187,20 @@ Block Right ***/
 .right-block-main table {
   margin:0 auto;
 }
-.right-block-main-list li,
+
 .right-block-main td {
-  padding:5px 2px;
+  width: 100px;
+  padding:7px 2px;
 }
 .right-block-main td a {
-  padding:3px;
+  padding:5px 10px;
   border:none;
-  border-radius:2px;
+  border-radius:1px;
   box-shadow:0 0 1px black;
-  color:gray;
+  color:black;
+  text-align: center;
   background-color:ghostwhite;
+  text-decoration: none;
 }
 .right-block-faq div,
 .right-block-main table {
@@ -174,13 +216,13 @@ Block Right ***/
 }
 .right-block-faq div a:hover,
 .content-quick-blog-text li a:hover,
-.right-block-main-list li a:hover,
-.right-block-main td a:hover {
+.right-block-main-list li a:hover {
   text-decoration: none;
 }
 .right-block-main td a:hover {
   box-shadow:0 0 2px #f2f2f2;
   background-color:#f2f2f2;
+  color: grey;
 }
 .right-block-blog-button div {
   margin:0 auto;
@@ -197,13 +239,17 @@ Block Right ***/
   box-shadow:0px 2px 2px gray;
   border-radius:100px;
   color:whitesmoke;
-  background-color:lightgray;
+  background-color:orange;
   cursor:pointer;
 }
 .right-block-blog-button input:hover {
   background-color:white;
   color:black;
   box-shadow:0 0 2px lightgray;
+}
+.right-block-registration,
+.right-block-singIn {
+  display: none;
 }
 .right-heading-form h2,
 .right-heading-registration h2,
@@ -262,13 +308,14 @@ Block Right ***/
   outline:0;
   cursor:pointer;
   font-size:.9em;
-  background-color:lightgray;
+  background-color:orange;
 }
 .right-block-form p:nth-child(5) input:hover,
 .right-block-registration p:nth-child(10) input:hover,
 .right-block-singIn p:nth-child(3) input:hover {
-  color:gray;
+  color:white;
   box-shadow:none;
+  background-color:darkcyan;
 }
 
 /*** END Block Right

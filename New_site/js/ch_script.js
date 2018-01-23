@@ -1,10 +1,13 @@
+
+
+// slider children
 var slider = {
   //массив с изображением
-  slides:['6.jpg', '9jpg', '20jpg'],
+  slides:['6.jpg', '9.jpg', '20.jpg'],
   //начальный кадр (индекс из массива, нумерация с 0)
   frame: 0,
   set: function(image) { //установка нужного фона слайдеру
-    document.getElementById("scr").style.backgroundImage = "url('+image+')";
+    document.getElementById("scr").style.backgroundImage = "url("+image+")";
   },
   init: function() { //запуск слайдера с начальной картинкой
     this.set(this.slides[this.frame]);
@@ -25,4 +28,4 @@ window.onload = function() { //запуск слайдера после загр
   setInterval(function() { //5 секунд
     slider.right(); //после - переход на кадр справа
   }, 5000);
-};
+};// end slider children
