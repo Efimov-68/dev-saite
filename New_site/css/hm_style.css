@@ -188,12 +188,12 @@ Block Right ***/
   margin:0 auto;
   border:none;
 }
-.right-block-blog-button input {
+.right-block-blog-button div a {
   text-align:center;
-  font-size:15px;
   width:250px;
   height:25px;
   margin:0 auto;
+  padding:  2px 10px;
   border:none;
   outline:0;
   box-shadow:0px 2px 2px gray;
@@ -202,7 +202,7 @@ Block Right ***/
   background-color:lightgray;
   cursor:pointer;
 }
-.right-block-blog-button input:hover {
+.right-block-blog-button div a:hover {
   background-color:white;
   color:black;
   box-shadow:0 0 2px lightgray;
